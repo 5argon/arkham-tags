@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "code": {
+        "type": "string"
+      },
+      "name": {
+        "type": "string"
+      },
+      "text": {
+        "type": "string"
+      },
+      "tags": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "enum": [
+            { "$ref": "../schema.tags.json#/enum" }
+          ]
+        }
+      }
+    },
+    "required": ["code", "name", "text", "tags"]
+  }
+}
