@@ -7,7 +7,7 @@ import * as mod from "https://deno.land/std@0.224.0/fs/empty_dir.ts";
 const packFolder = "./json/input/pack";
 const schemaTagsJsonFile = "./json/output/schema.tags.json";
 const tagsJsonFile = "./json/output/tags.json";
-const cardsTaggedFile = "./json/output/cards-tagged.json";
+const cardsTaggedFile = "./json/output/tagged-cards.json";
 const tagsTs = "./src/tags.ts";
 
 const statsUsageRanking = "./json/statistics/usage-ranking.csv";
