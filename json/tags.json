@@ -1,9 +1,5 @@
 [
   {
-    "name": "active_boost",
-    "description": "Use when bold action designator exists."
-  },
-  {
     "name": "additional_action_1",
     "description": "Use when a card let you take additional action. Not when it let you immediately take action."
   },
@@ -21,10 +17,6 @@
   },
   {
     "name": "additional_clue_2",
-    "description": "Use for exactly additional clue from the location you are investigating, not when it gets more from other locations."
-  },
-  {
-    "name": "additional_clue_3",
     "description": "Use for exactly additional clue from the location you are investigating, not when it gets more from other locations."
   },
   {
@@ -64,14 +56,6 @@
     "description": ""
   },
   {
-    "name": "attach_asset_you",
-    "description": "If can only attach to an asset of a specific trait, use this in combination of trait_ tag to show that."
-  },
-  {
-    "name": "attach_asset_your_location",
-    "description": "If can only attach to an asset of a specific trait, use this in combination of trait_ tag to show that."
-  },
-  {
     "name": "attach_enemy",
     "description": ""
   },
@@ -90,34 +74,6 @@
   {
     "name": "between_scenarios",
     "description": "Effect triggers when you are not playing."
-  },
-  {
-    "name": "bless_add",
-    "description": "Able to increase bless count in the bag, except by releasing."
-  },
-  {
-    "name": "bless_remove",
-    "description": "Able to reduce bless count in the bag, except by sealing."
-  },
-  {
-    "name": "bless_return",
-    "description": "Can return bless back, like Sacred Covenant"
-  },
-  {
-    "name": "bless_revealed",
-    "description": "Effect check if bless tokens are revealed."
-  },
-  {
-    "name": "bless_seal",
-    "description": "Can seal bless tokens."
-  },
-  {
-    "name": "blurse_conversion",
-    "description": "Can exchage bless / curse. Tides of Fate."
-  },
-  {
-    "name": "blurse_revealed",
-    "description": "Offer advantage revealing both kind of tokens. Offer choices revealing either kind of tokens."
   },
   {
     "name": "bold_engage",
@@ -156,10 +112,6 @@
     "description": ""
   },
   {
-    "name": "boost_agility_2_passive",
-    "description": "Passive boost can be conditioned such as The Black Fan or Dissection Tool."
-  },
-  {
     "name": "boost_agility_3",
     "description": ""
   },
@@ -169,10 +121,6 @@
   },
   {
     "name": "boost_any_2",
-    "description": ""
-  },
-  {
-    "name": "boost_any_3",
     "description": ""
   },
   {
@@ -186,10 +134,6 @@
   {
     "name": "boost_combat_2",
     "description": ""
-  },
-  {
-    "name": "boost_combat_2_passive",
-    "description": "Passive boost can be conditioned such as The Black Fan or Dissection Tool."
   },
   {
     "name": "boost_combat_3",
@@ -212,10 +156,6 @@
     "description": ""
   },
   {
-    "name": "boost_intellect_2_passive",
-    "description": "Passive boost can be conditioned such as The Black Fan or Dissection Tool."
-  },
-  {
     "name": "boost_intellect_3",
     "description": ""
   },
@@ -230,10 +170,6 @@
   {
     "name": "boost_willpower_2",
     "description": ""
-  },
-  {
-    "name": "boost_willpower_2_passive",
-    "description": "Passive boost can be conditioned such as The Black Fan or Dissection Tool."
   },
   {
     "name": "boost_willpower_3",
@@ -420,28 +356,8 @@
     "description": ""
   },
   {
-    "name": "current_resource_value",
-    "description": ""
-  },
-  {
     "name": "current_resource_zero",
     "description": ""
-  },
-  {
-    "name": "curse_add",
-    "description": "Able to increase curse count in the bag."
-  },
-  {
-    "name": "curse_cost",
-    "description": "Doesn't work unless you can add specified number of curse."
-  },
-  {
-    "name": "curse_defense",
-    "description": "Offer protection from curse token, whether ignoring modifier or taking them out."
-  },
-  {
-    "name": "curse_revealed",
-    "description": "Effect checks if curse tokens are revealed."
   },
   {
     "name": "damage_plus_1",
@@ -488,32 +404,12 @@
     "description": "Can decrease test difficulty, that is not shroud, evade, and fight."
   },
   {
-    "name": "difficulty_decrease_evade",
-    "description": "Can decrease enemy's evade value."
-  },
-  {
     "name": "difficulty_decrease_fight",
     "description": "Can decrease enemy's fight value."
   },
   {
     "name": "difficulty_increase",
     "description": "Can decrease test difficulty, that is not shroud, evade, and fight."
-  },
-  {
-    "name": "difficulty_increase_evade",
-    "description": "Can increase enemy's evade value."
-  },
-  {
-    "name": "difficulty_increase_fight",
-    "description": "Can increase enemy's fight value."
-  },
-  {
-    "name": "difficulty_zero",
-    "description": "Has a check whether difficulty of something is 0."
-  },
-  {
-    "name": "discard_card_choose",
-    "description": "Effect discard cards from your hand. You can choose which."
   },
   {
     "name": "discard_card_random",
@@ -528,15 +424,7 @@
     "description": "Discard itself when uses count runs out."
   },
   {
-    "name": "discount_1",
-    "description": "Reduce play cost of other cards."
-  },
-  {
     "name": "discount_2",
-    "description": "Reduce play cost of other cards."
-  },
-  {
-    "name": "discount_3",
     "description": "Reduce play cost of other cards."
   },
   {
@@ -616,10 +504,6 @@
     "description": "Double or Nothing, Eldritch Inspiration, Grey's Anatomy (heal). Additional damage has its tag."
   },
   {
-    "name": "elite_reduced_effect",
-    "description": "Spectral Razor"
-  },
-  {
     "name": "elite_unusable",
     "description": "Use only on non-Elite."
   },
@@ -644,23 +528,11 @@
     "description": ""
   },
   {
-    "name": "enemy_phase",
-    "description": ""
-  },
-  {
     "name": "enemy_value_damage",
     "description": "Card that can take advantage of how many damage enemy can deal."
   },
   {
-    "name": "enemy_value_evade",
-    "description": ""
-  },
-  {
     "name": "enemy_value_fight",
-    "description": ""
-  },
-  {
-    "name": "enemy_value_health",
     "description": ""
   },
   {
@@ -704,28 +576,12 @@
     "description": ""
   },
   {
-    "name": "fail_by_1_or_less",
-    "description": ""
-  },
-  {
     "name": "fail_by_2_or_less",
-    "description": ""
-  },
-  {
-    "name": "fail_by_exact_1",
-    "description": ""
-  },
-  {
-    "name": "fail_by_exact_2",
     "description": ""
   },
   {
     "name": "fast_play",
     "description": "\"Fast.\" on assets and events."
-  },
-  {
-    "name": "gain_alert",
-    "description": ""
   },
   {
     "name": "gain_resource",
@@ -741,10 +597,6 @@
   },
   {
     "name": "gain_resource_3",
-    "description": ""
-  },
-  {
-    "name": "gain_retaliate",
     "description": ""
   },
   {
@@ -764,10 +616,6 @@
     "description": "Effect changes based on amount of cards in hand."
   },
   {
-    "name": "hand_size_decrease",
-    "description": ""
-  },
-  {
     "name": "hand_size_increase",
     "description": ""
   },
@@ -784,10 +632,6 @@
     "description": "Can target selected Ally and heal out damage from it."
   },
   {
-    "name": "heal_damage_soak",
-    "description": "Could renew itself, cannot heal others."
-  },
-  {
     "name": "heal_horror",
     "description": ""
   },
@@ -800,27 +644,11 @@
     "description": "Could renew itself, cannot heal others."
   },
   {
-    "name": "ignore_aloof",
-    "description": ""
-  },
-  {
-    "name": "ignore_retaliate",
-    "description": ""
-  },
-  {
     "name": "immediately_play",
     "description": "Old Book of Lore 3, Ever Vigilant"
   },
   {
-    "name": "initiate_test_agility",
-    "description": ""
-  },
-  {
     "name": "initiate_test_agility_1",
-    "description": ""
-  },
-  {
-    "name": "initiate_test_agility_2",
     "description": ""
   },
   {
@@ -828,31 +656,7 @@
     "description": ""
   },
   {
-    "name": "initiate_test_any",
-    "description": ""
-  },
-  {
-    "name": "initiate_test_any_1",
-    "description": ""
-  },
-  {
-    "name": "initiate_test_any_2",
-    "description": ""
-  },
-  {
-    "name": "initiate_test_any_3",
-    "description": ""
-  },
-  {
-    "name": "initiate_test_combat",
-    "description": ""
-  },
-  {
     "name": "initiate_test_combat_1",
-    "description": ""
-  },
-  {
-    "name": "initiate_test_combat_2",
     "description": ""
   },
   {
@@ -877,10 +681,6 @@
   },
   {
     "name": "initiate_test_intellect_4",
-    "description": ""
-  },
-  {
-    "name": "initiate_test_willpower",
     "description": ""
   },
   {
@@ -912,19 +712,7 @@
     "description": ""
   },
   {
-    "name": "limit_footwear",
-    "description": ""
-  },
-  {
-    "name": "limit_mask",
-    "description": ""
-  },
-  {
     "name": "limit_per_test_1",
-    "description": "Including commit limit, or free trigger limit."
-  },
-  {
-    "name": "limit_per_test_2",
     "description": "Including commit limit, or free trigger limit."
   },
   {
@@ -948,14 +736,6 @@
     "description": ""
   },
   {
-    "name": "location_unrevealed",
-    "description": ""
-  },
-  {
-    "name": "long_evade",
-    "description": "When it cause enemy to not ready in the next upkeep phase."
-  },
-  {
     "name": "look_at_encounter",
     "description": ""
   },
@@ -965,22 +745,6 @@
   },
   {
     "name": "lose_action",
-    "description": ""
-  },
-  {
-    "name": "lose_alert",
-    "description": ""
-  },
-  {
-    "name": "lose_aloof",
-    "description": ""
-  },
-  {
-    "name": "lose_elusive",
-    "description": ""
-  },
-  {
-    "name": "lose_retaliate",
     "description": ""
   },
   {
@@ -1004,10 +768,6 @@
     "description": "Effect can move the card's owner."
   },
   {
-    "name": "next_attack",
-    "description": ""
-  },
-  {
     "name": "no_resource",
     "description": ""
   },
@@ -1026,18 +786,6 @@
   {
     "name": "order_investigator",
     "description": "Can reorder investigator deck."
-  },
-  {
-    "name": "phase_enemy",
-    "description": ""
-  },
-  {
-    "name": "phase_investigation",
-    "description": ""
-  },
-  {
-    "name": "phase_mythos",
-    "description": ""
   },
   {
     "name": "phase_mythos_end",
@@ -1088,10 +836,6 @@
     "description": "Card effect mentions scenario card."
   },
   {
-    "name": "search_encounter",
-    "description": "Searches the encounter deck."
-  },
-  {
     "name": "search_player",
     "description": "Searches the player's deck."
   },
@@ -1100,16 +844,8 @@
     "description": "Effect varies depending on location's shroud value."
   },
   {
-    "name": "shroud_minus_1",
-    "description": ""
-  },
-  {
     "name": "shroud_minus_2",
     "description": ""
-  },
-  {
-    "name": "shuffle_encounter",
-    "description": "Cause encounter deck to shuffle."
   },
   {
     "name": "shuffle_player",
@@ -1148,10 +884,6 @@
     "description": ""
   },
   {
-    "name": "spend_offering",
-    "description": ""
-  },
-  {
     "name": "spend_resource",
     "description": ""
   },
@@ -1165,10 +897,6 @@
   },
   {
     "name": "stat_add_agility",
-    "description": "Add this stat to the action type's stat."
-  },
-  {
-    "name": "stat_add_combat",
     "description": "Add this stat to the action type's stat."
   },
   {
@@ -1208,24 +936,12 @@
     "description": "Indicate this stat is being replaced and no longer used."
   },
   {
-    "name": "stat_not_willpower",
-    "description": "Indicate this stat is being replaced and no longer used."
-  },
-  {
     "name": "stat_use_agility",
-    "description": "Use this stat instead of something else."
-  },
-  {
-    "name": "stat_use_combat",
     "description": "Use this stat instead of something else."
   },
   {
     "name": "stat_use_intellect",
     "description": "Use this stat instead of something else."
-  },
-  {
-    "name": "stat_use_optional",
-    "description": "When card allow you to not replace stats too."
   },
   {
     "name": "stat_use_willpower",
@@ -1250,26 +966,6 @@
   {
     "name": "succeed_by_4",
     "description": "Succeed by this amount or more."
-  },
-  {
-    "name": "succeed_by_exact_0",
-    "description": "Succeed by exactly this amount for the effect to activate."
-  },
-  {
-    "name": "succeed_by_exact_1",
-    "description": "Succeed by exactly this amount for the effect to activate."
-  },
-  {
-    "name": "succeed_by_exact_2",
-    "description": "Succeed by exactly this amount for the effect to activate."
-  },
-  {
-    "name": "succeed_by_exact_3",
-    "description": "Succeed by exactly this amount for the effect to activate."
-  },
-  {
-    "name": "succeed_by_exact_4",
-    "description": "Succeed by exactly this amount for the effect to activate."
   },
   {
     "name": "take_action_now",
@@ -1332,19 +1028,7 @@
     "description": ""
   },
   {
-    "name": "timing_fast_after_success",
-    "description": ""
-  },
-  {
     "name": "timing_fast_chaos_reveal_after",
-    "description": ""
-  },
-  {
-    "name": "timing_fast_chaos_reveal_before",
-    "description": ""
-  },
-  {
-    "name": "timing_fast_chaos_reveal_during",
     "description": ""
   },
   {
@@ -1416,18 +1100,6 @@
     "description": ""
   },
   {
-    "name": "timing_reaction_chaos_reveal_before",
-    "description": ""
-  },
-  {
-    "name": "timing_reaction_chaos_reveal_during",
-    "description": ""
-  },
-  {
-    "name": "timing_reaction_chaos_reveal_when",
-    "description": ""
-  },
-  {
     "name": "timing_reaction_chaos_reveal_would",
     "description": "Effect timing related to chaos token revealing."
   },
@@ -1454,10 +1126,6 @@
   {
     "name": "timing_skill_chaos_reveal_after",
     "description": ""
-  },
-  {
-    "name": "to_deck_from_discard",
-    "description": "Bring back to deck from discard like Pushed to the Limit."
   },
   {
     "name": "to_deck_from_play",
@@ -1488,10 +1156,6 @@
     "description": "Put into play from discard pile."
   },
   {
-    "name": "to_play_from_hand",
-    "description": "Put into play from hand."
-  },
-  {
     "name": "trait_ally",
     "description": "Card support positively to other cards of this trait."
   },
@@ -1516,10 +1180,6 @@
     "description": "Card support positively to other cards of this trait."
   },
   {
-    "name": "trait_spell_event",
-    "description": ""
-  },
-  {
     "name": "trait_tome",
     "description": "Card support positively to other cards of this trait."
   },
@@ -1537,10 +1197,6 @@
   },
   {
     "name": "uses_add_charge",
-    "description": ""
-  },
-  {
-    "name": "uses_add_secret",
     "description": ""
   },
   {
@@ -1604,10 +1260,6 @@
     "description": ""
   },
   {
-    "name": "uses_type_offering",
-    "description": ""
-  },
-  {
     "name": "uses_type_secret",
     "description": ""
   },
@@ -1636,14 +1288,6 @@
     "description": "Card that detects any skill test occuring at your location."
   },
   {
-    "name": "damage_token",
-    "description": "Manipulate damage tokens, like moving them between cards."
-  },
-  {
-    "name": "horror_token",
-    "description": "Manipulate horror tokens, like moving them between cards."
-  },
-  {
     "name": "cost_action_multiple",
     "description": "When there are more than one arrow of the action cost."
   },
@@ -1656,15 +1300,283 @@
     "description": "Max twice per game."
   },
   {
-    "name": "lose_resource",
+    "name": "timing_reaction_after_enemy_engages",
     "description": ""
   },
   {
-    "name": "lose_resource_1",
+    "name": "spend_ammo",
     "description": ""
   },
   {
-    "name": "lose_resource_2",
+    "name": "stat_base_combat_4",
+    "description": ""
+  },
+  {
+    "name": "stat_base_intellect_4",
+    "description": ""
+  },
+  {
+    "name": "trait_unbroken",
+    "description": ""
+  },
+  {
+    "name": "trait_composure",
+    "description": ""
+  },
+  {
+    "name": "trait_footwear",
+    "description": ""
+  },
+  {
+    "name": "trait_relic",
+    "description": ""
+  },
+  {
+    "name": "uses_type_leylines",
+    "description": ""
+  },
+  {
+    "name": "bold_move",
+    "description": ""
+  },
+  {
+    "name": "gain_resource_4",
+    "description": ""
+  },
+  {
+    "name": "gain_resource_5",
+    "description": ""
+  },
+  {
+    "name": "gain_resource_6",
+    "description": ""
+  },
+  {
+    "name": "gain_resource_9",
+    "description": ""
+  },
+  {
+    "name": "uses_type_durability",
+    "description": ""
+  },
+  {
+    "name": "trait_ranged",
+    "description": ""
+  },
+  {
+    "name": "succeed_by_0",
+    "description": ""
+  },
+  {
+    "name": "trait_hazard",
+    "description": ""
+  },
+  {
+    "name": "gain_resource_10",
+    "description": ""
+  },
+  {
+    "name": "initiate_test_willpower_0",
+    "description": ""
+  },
+  {
+    "name": "uses_type_resource",
+    "description": ""
+  },
+  {
+    "name": "trait_fortune",
+    "description": ""
+  },
+  {
+    "name": "trait_spirit",
+    "description": ""
+  },
+  {
+    "name": "trait_charm",
+    "description": ""
+  },
+  {
+    "name": "trait_tactic",
+    "description": ""
+  },
+  {
+    "name": "trait_armor",
+    "description": ""
+  },
+  {
+    "name": "trait_melee",
+    "description": ""
+  },
+  {
+    "name": "trait_insight",
+    "description": ""
+  },
+  {
+    "name": "trait_tool",
+    "description": ""
+  },
+  {
+    "name": "trait_trick",
+    "description": ""
+  },
+  {
+    "name": "trait_favor",
+    "description": ""
+  },
+  {
+    "name": "trait_ritual",
+    "description": ""
+  },
+  {
+    "name": "trait_creature",
+    "description": ""
+  },
+  {
+    "name": "uses_type_bounties",
+    "description": ""
+  },
+  {
+    "name": "boost_intellect_5",
+    "description": ""
+  },
+  {
+    "name": "trait_practiced",
+    "description": ""
+  },
+  {
+    "name": "initiate_test_willpower_x",
+    "description": ""
+  },
+  {
+    "name": "customizable",
+    "description": ""
+  },
+  {
+    "name": "trait_humanoid",
+    "description": ""
+  },
+  {
+    "name": "initiate_test_intellect_0",
+    "description": ""
+  },
+  {
+    "name": "uses_type_evidence",
+    "description": ""
+  },
+  {
+    "name": "trait_clothing",
+    "description": ""
+  },
+  {
+    "name": "trait_illicit",
+    "description": ""
+  },
+  {
+    "name": "uses_type_time",
+    "description": ""
+  },
+  {
+    "name": "trait_dilemma",
+    "description": ""
+  },
+  {
+    "name": "uses_type_keys",
+    "description": ""
+  },
+  {
+    "name": "uses_type_aether",
+    "description": ""
+  },
+  {
+    "name": "timing_reaction_after_play",
+    "description": ""
+  },
+  {
+    "name": "boost_combat_4",
+    "description": ""
+  },
+  {
+    "name": "trait_terror",
+    "description": ""
+  },
+  {
+    "name": "trait_supply",
+    "description": ""
+  },
+  {
+    "name": "trait_tarot",
+    "description": ""
+  },
+  {
+    "name": "initiate_test_intellect_x",
+    "description": ""
+  },
+  {
+    "name": "uses_type_tries",
+    "description": ""
+  },
+  {
+    "name": "trait_omen",
+    "description": ""
+  },
+  {
+    "name": "initiate_test_agility_x",
+    "description": ""
+  },
+  {
+    "name": "trait_innate",
+    "description": ""
+  },
+  {
+    "name": "trait_upgrade",
+    "description": ""
+  },
+  {
+    "name": "trait_miskatonic",
+    "description": ""
+  },
+  {
+    "name": "trait_geist",
+    "description": ""
+  },
+  {
+    "name": "trait_covenant",
+    "description": ""
+  },
+  {
+    "name": "uses_type_offerings",
+    "description": ""
+  },
+  {
+    "name": "trait_mask",
+    "description": ""
+  },
+  {
+    "name": "trait_science",
+    "description": ""
+  },
+  {
+    "name": "boost_intellect_6",
+    "description": ""
+  },
+  {
+    "name": "uses_starting_10",
+    "description": ""
+  },
+  {
+    "name": "initiate_test_agility_0",
+    "description": ""
+  },
+  {
+    "name": "trait_rot",
+    "description": ""
+  },
+  {
+    "name": "trait_blessed",
+    "description": ""
+  },
+  {
+    "name": "trait_cursed",
     "description": ""
   }
 ]

@@ -63,8 +63,7 @@
     "text": "Fast. Play after a phase begins.\nChoose a non-[[Elite]] enemy in your location. Until the end of the phase, reduce the chosen enemy's damage and horror values by 1, and treat its printed text box as if it were blank (except for [[Traits]]).",
     "tags": [
       "fast_play",
-      "elite_unusable",
-      "trait_traits"
+      "elite_unusable"
     ]
   },
   {

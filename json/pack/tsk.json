@@ -342,8 +342,7 @@
     "text": "Uses (4 secrets).\n[fast] Spend 1 secret: Choose any non-weakness treachery not attached to an [[Elite]] enemy. Until the end of the round, treat that card's printed text box as if it were blank (except for [[Traits]]).",
     "tags": [
       "uses_starting_4",
-      "uses_type_secret",
-      "trait_traits"
+      "uses_type_secret"
     ]
   },
   {
@@ -426,8 +425,7 @@
     "name": "Friends in Low Places",
     "text": "Customizable. When you purchase Friends in Low Places, choose and record a [[Trait]] on its upgrade sheet.\nLook at the top 6 cards of your deck. For each looked-at card with the chosen [[Trait]](s), you may spend 1 resource to add that card to your hand. Shuffle the remaining cards into your deck.",
     "tags": [
-      "customizable",
-      "trait_trait"
+      "customizable"
     ]
   },
   {
@@ -702,8 +700,7 @@
     "name": "Binder's Jar",
     "text": "You get +1 arcane slot for each enemy beneath Binder's Jar.\n[reaction] After a non-[[Elite]] enemy is defeated at your location: Place that enemy facedown beneath Binder's Jar (limit 2 enemies beneath it).\n[reaction] When an enemy attacks you, discard an enemy beneath Binder's Jar that shares a [[Trait]] with the attacking enemy: Cancel that attack.",
     "tags": [
-      "elite_unusable",
-      "trait_trait"
+      "elite_unusable"
     ]
   },
   {
@@ -806,8 +803,7 @@
     "name": "Grizzled",
     "text": "Customizable. When you purchase Grizzled, choose and record two [[Traits]] on its upgrade sheet.\nIf this is a skill test on or against an encounter card <i>(including fighting, evading, or parleying)</i>, Grizzled gains [wild][wild] for each of the chosen traits that encounter card possesses.",
     "tags": [
-      "customizable",
-      "trait_traits"
+      "customizable"
     ]
   },
   {
@@ -970,8 +966,7 @@
     "name": "Tool Belt",
     "text": "Each attached asset takes up no slots and its text box is treated as if it were blank (except for [[Traits]]).\n[fast] Exhaust Tool Belt: Choose one - attach a [[Tool]] asset in your play area to Tool Belt, switch a [[Tool]] asset in your play area with an attached asset, or detach an attached asset.",
     "tags": [
-      "trait_tool",
-      "trait_traits"
+      "trait_tool"
     ]
   },
   {
