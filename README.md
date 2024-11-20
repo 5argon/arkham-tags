@@ -4,11 +4,18 @@ Tag each Arkham Horror : The Card Game's corresponding to what are contained in 
 
 This is similar to "heal damage" and "heal horror" already in use in arkhamdb card database, because they are needed for Carolyn and Vincent's deckbuilding. This time we are adding tags even through they are not needed for any investigators, but needed for the deckbuilders.
 
+## Status
+
+**This project is still incomplete.** These are hand-tagged already, while the rest are only filled with tags from text processing. Likely there are errors that needs fixing.
+
+- `rcore`
+- `dwl`
+
 ## Public Facing Contents
 
 - `json/output/tagged-cards.json` is the mapping from card's code to its tags.
 - `json/output/tags.json` is a list of all tags in use.
-- `dist` folder has TypeScript type definitions to work with that JSON (`TaggedCards` type).
+- `dist` folder has TypeScript type definitions to work with that JSON (`TaggedCards` type, and `Tags` for union of `string` of all tags available.).
 
 ## Examples
 
@@ -19,13 +26,26 @@ This is similar to "heal damage" and "heal horror" already in use in arkhamdb ca
 - Tags for enemy management cards such as Disc of Itzamna, Close Call, Waylay, Handcuffs, Fend Off.
 - Tags for cards that makes you move, makes other investigator moves, or alter enemy's movement.
 
+## Commands
+
+Please install [Deno](https://deno.com) to use the tag transforming script.
+
+- `sync` : Run every time you are done with working on manually tagging cards in `json/input/pack` to update many files in the project. This includes what goes into the `build` command.
+- `build` : Build the `dist` which package consumer access.
+
 ## Tagging Rules
+
+Clone this repository, then open `.vscode/tagging.code-workspace` in Visual Studio Code to get the JSON schema working, and turn on "View: Toggle Word Wrap" so card text wraps to new line even though they are actually one long line.
 
 Work on files in `input/pack/[pack-name].json`. They have game text available for you to read while tagging. Some untagged cards are already tagged partially, programmatically by Regex, which might be wrong.
 
-Those JSON files are constrained by `input/schema.json` when you open this project with `.vscode/tagging.code-workspace`. It also warns if you add a completely new tags. If you intended to create a new tags never used before, ignore the warning. The post processing step will automatically register those tags and the warning will disappear.
+The schema warns if you add a completely new tags rather than mistyping it. Ignore the warning if that's your intention. Running `sync` will automatically register those new tags (and clean up previously used tags that are now unused) and the warning will disappear.
 
-For ease of hand-tagging literally to the text, tags defined are very fine-grained. For example if you see "[fast] Spend 1 resource :", it should use a more specific tag `cost_fast_spend_resource` even though the card is technically also `spend_resource`. However there is no `cost_fast_spend_resource_1` to use. Some tag offer numerical value, such as `gain_resource_1`.
+If you got the tooling right, each new tags introduced will be underlined, and auto-completion will appear as you type, and the colored bar besides line number show you which part you just added. Please send a Pull Request to integrate your work.
+
+![Tagging](./readme-1.webp)
+
+For ease of hand-tagging literally to the text, tags defined are very fine-grained. For example if you see "[fast] Spend 1 resource :", it should use a more specific tag `cost_fast_spend_resource` even though the card is technically also `spend_resource`. However there is no `cost_fast_spend_resource_1` to use. Some tag offer numerical value because they are common values, such as `gain_resource_1` or `draw_player_1`.
 
 ### Postprocessing
 

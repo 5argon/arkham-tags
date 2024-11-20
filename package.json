@@ -3,8 +3,7 @@
   "type": "module",
   "scripts": {
     "sync": "deno run --allow-read --allow-write ./script/sync.ts",
-    "build": "tsc -b",
-    "start": "node dist/index.js"
+    "build": "tsc -b"
   },
   "main": "dist/index.js",
   "devDependencies": {

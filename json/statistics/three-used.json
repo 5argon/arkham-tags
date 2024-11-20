@@ -1,26 +1,5 @@
 [
   {
-    "tag": "spend_resource",
-    "count": 3,
-    "usages": [
-      {
-        "code": "02006",
-        "name": "Zoey's Cross",
-        "pack": "dwl"
-      },
-      {
-        "code": "02027",
-        "name": "Hired Muscle",
-        "pack": "dwl"
-      },
-      {
-        "code": "02032",
-        "name": "Fire Axe",
-        "pack": "dwl"
-      }
-    ]
-  },
-  {
     "tag": "connecting_location_investigator",
     "count": 3,
     "usages": [
@@ -67,12 +46,12 @@
     "count": 3,
     "usages": [
       {
-        "code": "02028",
+        "code": "02233",
         "name": "Rite of Seeking",
         "pack": "dwl"
       },
       {
-        "code": "02233",
+        "code": "02028",
         "name": "Rite of Seeking",
         "pack": "dwl"
       },
@@ -130,12 +109,12 @@
     "count": 3,
     "usages": [
       {
-        "code": "02033",
+        "code": "02035",
         "name": "Peter Sylvestre",
         "pack": "dwl"
       },
       {
-        "code": "02035",
+        "code": "02033",
         "name": "Peter Sylvestre",
         "pack": "dwl"
       },
@@ -269,27 +248,6 @@
         "code": "01006",
         "name": "Roland's .38 Special",
         "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "boost_intellect_3",
-    "count": 3,
-    "usages": [
-      {
-        "code": "02189",
-        "name": "Streetwise",
-        "pack": "dwl"
-      },
-      {
-        "code": "02306",
-        "name": "Shrivelling",
-        "pack": "dwl"
-      },
-      {
-        "code": "10042",
-        "name": "Microscope",
-        "pack": "fhv"
       }
     ]
   },
@@ -450,13 +408,13 @@
         "pack": "dwl"
       },
       {
-        "code": "01557",
-        "name": "Hot Streak",
+        "code": "01684",
+        "name": "\"I've had worse…\"",
         "pack": "rcore"
       },
       {
-        "code": "01684",
-        "name": "\"I've had worse…\"",
+        "code": "01557",
+        "name": "Hot Streak",
         "pack": "rcore"
       }
     ]
@@ -466,12 +424,12 @@
     "count": 3,
     "usages": [
       {
-        "code": "02262",
+        "code": "02263",
         "name": "Strange Solution",
         "pack": "dwl"
       },
       {
-        "code": "02263",
+        "code": "02262",
         "name": "Strange Solution",
         "pack": "dwl"
       },
@@ -546,27 +504,6 @@
     ]
   },
   {
-    "tag": "trait_ranged",
-    "count": 3,
-    "usages": [
-      {
-        "code": "08087",
-        "name": "Snipe",
-        "pack": "eote"
-      },
-      {
-        "code": "04104",
-        "name": "Marksmanship",
-        "pack": "tfa"
-      },
-      {
-        "code": "10031",
-        "name": "Strong-Armed",
-        "pack": "fhv"
-      }
-    ]
-  },
-  {
     "tag": "trait_spirit",
     "count": 3,
     "usages": [
@@ -584,6 +521,32 @@
         "code": "60127",
         "name": "Boxing Gloves",
         "pack": "nat"
+      }
+    ]
+  },
+  {
+    "tag": "trait_trick",
+    "count": 4,
+    "usages": [
+      {
+        "code": "08123",
+        "name": "Crafty",
+        "pack": "eote"
+      },
+      {
+        "code": "09072",
+        "name": "Chuck Fergus",
+        "pack": "tsk"
+      },
+      {
+        "code": "60332",
+        "name": "Chuck Fergus",
+        "pack": "win"
+      },
+      {
+        "code": "10079",
+        "name": "Bewitching",
+        "pack": "fhv"
       }
     ]
   },
@@ -630,37 +593,16 @@
     ]
   },
   {
-    "tag": "boost_any_2",
-    "count": 3,
-    "usages": [
-      {
-        "code": "01542",
-        "name": "Encyclopedia",
-        "pack": "rcore"
-      },
-      {
-        "code": "01580",
-        "name": "Lucky!",
-        "pack": "rcore"
-      },
-      {
-        "code": "01584",
-        "name": "Lucky!",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
     "tag": "additional_action_1",
     "count": 3,
     "usages": [
       {
-        "code": "01548",
+        "code": "01554",
         "name": "Leo De Luca",
         "pack": "rcore"
       },
       {
-        "code": "01554",
+        "code": "01548",
         "name": "Leo De Luca",
         "pack": "rcore"
       },
@@ -676,11 +618,6 @@
     "count": 3,
     "usages": [
       {
-        "code": "01550",
-        "name": "Elusive",
-        "pack": "rcore"
-      },
-      {
         "code": "01555",
         "name": "Cat Burglar",
         "pack": "rcore"
@@ -688,6 +625,11 @@
       {
         "code": "01581",
         "name": "Survival Instinct",
+        "pack": "rcore"
+      },
+      {
+        "code": "01550",
+        "name": "Elusive",
         "pack": "rcore"
       }
     ]
@@ -731,6 +673,89 @@
         "code": "03264",
         "name": "Stick to the Plan",
         "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "boost_intellect_3",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02189",
+        "name": "Streetwise",
+        "pack": "dwl"
+      },
+      {
+        "code": "02306",
+        "name": "Shrivelling",
+        "pack": "dwl"
+      },
+      {
+        "code": "10042",
+        "name": "Microscope",
+        "pack": "fhv"
+      }
+    ]
+  },
+  {
+    "tag": "trait_ranged",
+    "count": 3,
+    "usages": [
+      {
+        "code": "08087",
+        "name": "Snipe",
+        "pack": "eote"
+      },
+      {
+        "code": "04104",
+        "name": "Marksmanship",
+        "pack": "tfa"
+      },
+      {
+        "code": "10031",
+        "name": "Strong-Armed",
+        "pack": "fhv"
+      }
+    ]
+  },
+  {
+    "tag": "uses_type_offerings",
+    "count": 7,
+    "usages": [
+      {
+        "code": "07310",
+        "name": "Shrine of the Moirai",
+        "pack": "tic"
+      },
+      {
+        "code": "10043",
+        "name": "Mouse Mask",
+        "pack": "fhv"
+      },
+      {
+        "code": "10067",
+        "name": "Fox Mask",
+        "pack": "fhv"
+      },
+      {
+        "code": "10023",
+        "name": "Wolf Mask",
+        "pack": "fhv"
+      },
+      {
+        "code": "10111",
+        "name": "Sparrow Mask",
+        "pack": "fhv"
+      },
+      {
+        "code": "10084",
+        "name": "Cat Mask",
+        "pack": "fhv"
+      },
+      {
+        "code": "10091",
+        "name": "Speak to the Dead",
+        "pack": "fhv"
       }
     ]
   }

@@ -4,7 +4,8 @@
     "name": "The Home Front",
     "text": "Mark Harrigan deck only.\nIf this skill test is successful during an attack, move 1 damage from Mark Harrigan to the attacked enemy.",
     "tags": [
-      "deck_restriction"
+      "deck_restriction",
+      "damage_token_manipulation"
     ]
   },
   {
@@ -12,7 +13,9 @@
     "name": "Sophie",
     "text": "Mark Harrigan deck only.\nSophie cannot leave play.\n[free] Take 1 direct damage: You get +2 to your skill value for this skill test.\n<b>Forced</b> - If Mark Harrigan has 5 or more damage on him: Flip Sophie.",
     "tags": [
-      "deck_restriction"
+      "deck_restriction",
+      "take_damage",
+      "boost_any_2"
     ]
   },
   {
@@ -22,7 +25,9 @@
     "tags": [
       "cost_reaction_exhaust_self",
       "deck_restriction",
-      "draw_player_1"
+      "draw_player_1",
+      "commit_remote",
+      "skill_card"
     ]
   },
   {

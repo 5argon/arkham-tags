@@ -5,18 +5,22 @@
     "type": "object",
     "properties": {
       "code": {
-        "type": "string"
+        "type": "string",
+        "description": "The arkhamdb unique code of the card."
       },
       "name": {
-        "type": "string"
+        "type": "string",
+        "description": "The name of the card."
       },
       "text": {
-        "type": "string"
+        "type": "string",
+        "description": "The game effect text of the card."
       },
       "tags": {
         "type": "array",
+        "description": "A list of tags that this card has.",
         "items": {
-          "$ref": "../schema.tags.json"
+          "$ref": "../output/schema.tags2.json"
         }
       }
     },

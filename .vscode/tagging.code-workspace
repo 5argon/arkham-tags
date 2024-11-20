@@ -8,9 +8,9 @@
     "json.schemas": [
       {
         "fileMatch": [
-          "/json/pack/*.json"
+          "/json/input/pack/*.json"
         ],
-        "url": "../json/schema.json"
+        "url": "../json/input/schema.json"
       }
     ],
     "deno.enable": true

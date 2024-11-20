@@ -5,8 +5,9 @@ import * as mod from "https://deno.land/std@0.224.0/fs/empty_dir.ts";
  * Append missing ones.
  */
 const packFolder = "./json/input/pack";
+const compoundTagsFile = "./json/input/compound-tags.json";
 const schemaTagsJsonFile = "./json/output/schema.tags.json";
-const tagsJsonFile = "./json/output/tags.json";
+const tagsJsonFile = "./json/input/tags.json";
 const cardsTaggedFile = "./json/output/tagged-cards.json";
 const tagsTs = "./src/tags.ts";
 
@@ -18,6 +19,14 @@ const statsTwoUsed = "./json/statistics/two-used.json";
 const statsThreeUsed = "./json/statistics/three-used.json";
 const statsMoreThanTen = "./json/statistics/more-than-ten.json";
 const statsFolder = "./json/statistics";
+
+interface CompoundTagItem {
+  name: string;
+  rules: {
+    type: "all" | "any" | "prefix" | "suffix";
+    param: string | string[];
+  }[];
+}
 
 interface Stats {
   tag: string;
@@ -38,6 +47,13 @@ interface Card {
 }
 
 interface Schema {
+  anyOf:{
+    const: string;
+    description: string;
+  }[]
+}
+
+interface OldSchema {
   enum: string[];
 }
 
@@ -51,12 +67,41 @@ interface CardTagged {
   tags: string[];
 }
 
+async function addCompoundTags(currentTags: string[]): Promise<string[]> {
+  const compoundTagsContent = await Deno.readTextFile(compoundTagsFile);
+  const compoundTags: CompoundTagItem[] = JSON.parse(compoundTagsContent);
+
+  const newTags = new Set(currentTags);
+
+  compoundTags.forEach((compoundTag) => {
+    let match = false;
+    compoundTag.rules.forEach((rule) => {
+      const param = rule.param;
+      if (rule.type === "all" && Array.isArray(param)) {
+        match = param.every((p) => newTags.has(p));
+      } else if (rule.type === "any" && Array.isArray(param)) {
+        match = param.some((p) => newTags.has(p));
+      } else if (rule.type === "prefix" && typeof param === "string") {
+        match = currentTags.some((tag) => tag.startsWith(param));
+      } else if (rule.type === "suffix" && typeof param === "string") {
+        match = currentTags.some((tag) => tag.endsWith(param));
+      }
+      if (match) {
+        newTags.add(compoundTag.name);
+      }
+    });
+  });
+
+  return Array.from(newTags);
+}
+
 const uniqueTags = new Set<string>();
 for await (const entry of Deno.readDir(packFolder)) {
   if (entry.isFile) {
     const content = await Deno.readTextFile(`${packFolder}/${entry.name}`);
     const card: Card[] = JSON.parse(content);
-    card.forEach((c) => {
+    card.forEach(async (c) => {
+      c.tags = await addCompoundTags(c.tags); // Add compound tags
       c.tags.forEach((t) => {
         uniqueTags.add(t);
       });
@@ -155,7 +200,8 @@ for await (const entry of Deno.readDir(packFolder)) {
     if (entry.isFile) {
       const content = await Deno.readTextFile(`${packFolder}/${entry.name}`);
       const cards: Card[] = JSON.parse(content);
-      cards.forEach((card) => {
+      cards.forEach(async (card) => {
+        card.tags = await addCompoundTags(card.tags); // Add compound tags
         card.tags.sort();
         cardsTagged.push({ card: card.code, tags: card.tags });
       });
@@ -189,7 +235,8 @@ await mod.emptyDir(statsFolder);
       const content = await Deno.readTextFile(`${packFolder}/${entry.name}`);
       const cards: Card[] = JSON.parse(content);
       const packName = entry.name.replace(".json", "");
-      cards.forEach((card) => {
+      cards.forEach(async (card) => {
+        card.tags = await addCompoundTags(card.tags); // Add compound tags
         card.tags.forEach((tag) => {
           tagUsageCount[tag].count += 1;
           tagUsageCount[tag].usages.push({

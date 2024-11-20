@@ -9,6 +9,15 @@
     ]
   },
   {
+    "name": "shroud_reduction",
+    "rules": [
+      {
+        "type": "prefix",
+        "param": "shroud_minus_"
+      }
+    ]
+  },
+  {
     "name": "stat_base_set",
     "rules": [
       {
@@ -36,7 +45,7 @@
     ]
   },
   {
-    "name": "role_clue",
+    "name": "clue_tech",
     "rules": [
       {
         "type": "prefix",
@@ -53,6 +62,10 @@
       {
         "type": "prefix",
         "param": "discover_clue_remote"
+      },
+      {
+        "type": "prefix",
+        "param": "shroud_minus_"
       },
       {
         "type": "any",

@@ -1578,5 +1578,37 @@
   {
     "name": "trait_cursed",
     "description": ""
+  },
+  {
+    "name": "stat_base_set",
+    "description": ""
+  },
+  {
+    "name": "initiate_test",
+    "description": ""
+  },
+  {
+    "name": "boost_passive",
+    "description": ""
+  },
+  {
+    "name": "additional_slot",
+    "description": ""
+  },
+  {
+    "name": "clue_tech",
+    "description": ""
+  },
+  {
+    "name": "shroud_reduction",
+    "description": ""
+  },
+  {
+    "name": "damage_token_manipulation",
+    "description": ""
+  },
+  {
+    "name": "commit_remote",
+    "description": ""
   }
 ]
