@@ -1,3 +1,8 @@
+/**
+ * This was a script used to kickstart the `json/input/pack` folder.
+ * Maybe I fix this later when TDC came out to add more to work with.
+ */
+
 import { expandGlob } from "https://deno.land/std/fs/mod.ts"
 import { join } from "https://deno.land/std/path/mod.ts"
 
