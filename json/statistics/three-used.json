@@ -46,12 +46,12 @@
     "count": 3,
     "usages": [
       {
-        "code": "02233",
+        "code": "02028",
         "name": "Rite of Seeking",
         "pack": "dwl"
       },
       {
-        "code": "02028",
+        "code": "02233",
         "name": "Rite of Seeking",
         "pack": "dwl"
       },
@@ -72,13 +72,13 @@
         "pack": "dwl"
       },
       {
-        "code": "01560",
-        "name": "Shrivelling",
+        "code": "01689",
+        "name": "Rite of Seeking",
         "pack": "rcore"
       },
       {
-        "code": "01689",
-        "name": "Rite of Seeking",
+        "code": "01560",
+        "name": "Shrivelling",
         "pack": "rcore"
       }
     ]
@@ -109,12 +109,12 @@
     "count": 3,
     "usages": [
       {
-        "code": "02035",
+        "code": "02033",
         "name": "Peter Sylvestre",
         "pack": "dwl"
       },
       {
-        "code": "02033",
+        "code": "02035",
         "name": "Peter Sylvestre",
         "pack": "dwl"
       },
@@ -151,13 +151,13 @@
     "count": 3,
     "usages": [
       {
-        "code": "02114",
-        "name": "Fire Extinguisher",
+        "code": "02235",
+        "name": "Survival Instinct",
         "pack": "dwl"
       },
       {
-        "code": "02235",
-        "name": "Survival Instinct",
+        "code": "02114",
+        "name": "Fire Extinguisher",
         "pack": "dwl"
       },
       {
@@ -172,11 +172,6 @@
     "count": 3,
     "usages": [
       {
-        "code": "02114",
-        "name": "Fire Extinguisher",
-        "pack": "dwl"
-      },
-      {
         "code": "02115",
         "name": "Flare",
         "pack": "dwl"
@@ -184,6 +179,11 @@
       {
         "code": "02271",
         "name": "Stroke of Luck",
+        "pack": "dwl"
+      },
+      {
+        "code": "02114",
+        "name": "Fire Extinguisher",
         "pack": "dwl"
       }
     ]
@@ -298,13 +298,13 @@
     "count": 3,
     "usages": [
       {
-        "code": "02232",
-        "name": "Alyssa Graham",
+        "code": "02234",
+        "name": "Dark Horse",
         "pack": "dwl"
       },
       {
-        "code": "02234",
-        "name": "Dark Horse",
+        "code": "02232",
+        "name": "Alyssa Graham",
         "pack": "dwl"
       },
       {
@@ -424,12 +424,12 @@
     "count": 3,
     "usages": [
       {
-        "code": "02263",
+        "code": "02262",
         "name": "Strange Solution",
         "pack": "dwl"
       },
       {
-        "code": "02262",
+        "code": "02263",
         "name": "Strange Solution",
         "pack": "dwl"
       },
@@ -513,40 +513,14 @@
         "pack": "eote"
       },
       {
-        "code": "60105",
-        "name": "Boxing Gloves",
-        "pack": "nat"
-      },
-      {
         "code": "60127",
         "name": "Boxing Gloves",
         "pack": "nat"
-      }
-    ]
-  },
-  {
-    "tag": "trait_trick",
-    "count": 4,
-    "usages": [
-      {
-        "code": "08123",
-        "name": "Crafty",
-        "pack": "eote"
       },
       {
-        "code": "09072",
-        "name": "Chuck Fergus",
-        "pack": "tsk"
-      },
-      {
-        "code": "60332",
-        "name": "Chuck Fergus",
-        "pack": "win"
-      },
-      {
-        "code": "10079",
-        "name": "Bewitching",
-        "pack": "fhv"
+        "code": "60105",
+        "name": "Boxing Gloves",
+        "pack": "nat"
       }
     ]
   },
@@ -576,8 +550,8 @@
     "count": 3,
     "usages": [
       {
-        "code": "01537",
-        "name": "Working a Hunch",
+        "code": "01579",
+        "name": "\"Look what I found!\"",
         "pack": "rcore"
       },
       {
@@ -586,8 +560,8 @@
         "pack": "rcore"
       },
       {
-        "code": "01579",
-        "name": "\"Look what I found!\"",
+        "code": "01537",
+        "name": "Working a Hunch",
         "pack": "rcore"
       }
     ]
@@ -618,6 +592,11 @@
     "count": 3,
     "usages": [
       {
+        "code": "01550",
+        "name": "Elusive",
+        "pack": "rcore"
+      },
+      {
         "code": "01555",
         "name": "Cat Burglar",
         "pack": "rcore"
@@ -625,11 +604,6 @@
       {
         "code": "01581",
         "name": "Survival Instinct",
-        "pack": "rcore"
-      },
-      {
-        "code": "01550",
-        "name": "Elusive",
         "pack": "rcore"
       }
     ]
@@ -714,47 +688,6 @@
       {
         "code": "10031",
         "name": "Strong-Armed",
-        "pack": "fhv"
-      }
-    ]
-  },
-  {
-    "tag": "uses_type_offerings",
-    "count": 7,
-    "usages": [
-      {
-        "code": "07310",
-        "name": "Shrine of the Moirai",
-        "pack": "tic"
-      },
-      {
-        "code": "10043",
-        "name": "Mouse Mask",
-        "pack": "fhv"
-      },
-      {
-        "code": "10067",
-        "name": "Fox Mask",
-        "pack": "fhv"
-      },
-      {
-        "code": "10023",
-        "name": "Wolf Mask",
-        "pack": "fhv"
-      },
-      {
-        "code": "10111",
-        "name": "Sparrow Mask",
-        "pack": "fhv"
-      },
-      {
-        "code": "10084",
-        "name": "Cat Mask",
-        "pack": "fhv"
-      },
-      {
-        "code": "10091",
-        "name": "Speak to the Dead",
         "pack": "fhv"
       }
     ]

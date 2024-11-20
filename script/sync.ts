@@ -112,7 +112,11 @@ for await (const entry of Deno.readDir(packFolder)) {
 {
   const schemaContent = await Deno.readTextFile(schemaTagsJsonFile);
   const schemaTags: Schema = JSON.parse(schemaContent);
-  const schemaTagSet = new Set(schemaTags.enum);
+  const tagsJsonRead = await Deno.readTextFile(tagsJsonFile);
+  const tagsJson: Tag[] = JSON.parse(tagsJsonRead);
+  const tagsMap = new Map(tagsJson.map(tag => [tag.name, tag.description]));
+
+  const schemaTagSet = new Set(schemaTags.anyOf.map(tag => tag.const));
 
   const newTags = new Set<string>();
   uniqueTags.forEach((t) => {
@@ -130,8 +134,11 @@ for await (const entry of Deno.readDir(packFolder)) {
     }
   });
 
-  schemaTags.enum = Array.from(schemaTagSet);
-  schemaTags.enum.sort();
+  schemaTags.anyOf = Array.from(schemaTagSet).map(tag => ({
+    const: tag,
+    description: tagsMap.get(tag) || ""
+  }));
+  schemaTags.anyOf.sort((a, b) => a.const.localeCompare(b.const));
   await Deno.writeTextFile(
     schemaTagsJsonFile,
     JSON.stringify(schemaTags, null, 2)

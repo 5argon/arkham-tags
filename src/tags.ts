@@ -79,7 +79,6 @@ export type Tag =
   | "chaos_reveal_token_tablet"
   | "chaos_treat_as_elder_sign"
   | "clue_tech"
-  | "commit_remote"
   | "connecting_location_enemy"
   | "connecting_location_investigator"
   | "cost_action_discard_self"

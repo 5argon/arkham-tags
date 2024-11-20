@@ -1606,9 +1606,5 @@
   {
     "name": "damage_token_manipulation",
     "description": ""
-  },
-  {
-    "name": "commit_remote",
-    "description": ""
   }
 ]

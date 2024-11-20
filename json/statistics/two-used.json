@@ -84,12 +84,12 @@
     "count": 2,
     "usages": [
       {
-        "code": "02035",
+        "code": "02033",
         "name": "Peter Sylvestre",
         "pack": "dwl"
       },
       {
-        "code": "02033",
+        "code": "02035",
         "name": "Peter Sylvestre",
         "pack": "dwl"
       }
@@ -100,12 +100,12 @@
     "count": 2,
     "usages": [
       {
-        "code": "02035",
+        "code": "02033",
         "name": "Peter Sylvestre",
         "pack": "dwl"
       },
       {
-        "code": "02033",
+        "code": "02035",
         "name": "Peter Sylvestre",
         "pack": "dwl"
       }
@@ -116,13 +116,13 @@
     "count": 2,
     "usages": [
       {
-        "code": "02304",
-        "name": "Chicago Typewriter",
+        "code": "02036",
+        "name": "Kukri",
         "pack": "dwl"
       },
       {
-        "code": "02036",
-        "name": "Kukri",
+        "code": "02304",
+        "name": "Chicago Typewriter",
         "pack": "dwl"
       }
     ]
@@ -212,13 +212,13 @@
     "count": 2,
     "usages": [
       {
-        "code": "02114",
-        "name": "Fire Extinguisher",
+        "code": "02189",
+        "name": "Streetwise",
         "pack": "dwl"
       },
       {
-        "code": "02189",
-        "name": "Streetwise",
+        "code": "02114",
+        "name": "Fire Extinguisher",
         "pack": "dwl"
       }
     ]
@@ -260,13 +260,13 @@
     "count": 2,
     "usages": [
       {
-        "code": "02150",
-        "name": "Deduction",
+        "code": "02233",
+        "name": "Rite of Seeking",
         "pack": "dwl"
       },
       {
-        "code": "02233",
-        "name": "Rite of Seeking",
+        "code": "02150",
+        "name": "Deduction",
         "pack": "dwl"
       }
     ]
@@ -688,6 +688,22 @@
     ]
   },
   {
+    "tag": "uses_starting_9",
+    "count": 2,
+    "usages": [
+      {
+        "code": "08092",
+        "name": "Brand of Cthugha",
+        "pack": "eote"
+      },
+      {
+        "code": "06162",
+        "name": "Gregory Gry",
+        "pack": "tde"
+      }
+    ]
+  },
+  {
     "tag": "damage_plus_5",
     "count": 2,
     "usages": [
@@ -700,6 +716,22 @@
         "code": "01529",
         "name": "Shotgun",
         "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "gain_resource_10",
+    "count": 2,
+    "usages": [
+      {
+        "code": "08113",
+        "name": "Unscrupulous Loan",
+        "pack": "eote"
+      },
+      {
+        "code": "50006",
+        "name": "Hot Streak",
+        "pack": "rt"
       }
     ]
   },
@@ -748,38 +780,6 @@
         "code": "09065",
         "name": "Hidden Pocket",
         "pack": "tsk"
-      }
-    ]
-  },
-  {
-    "tag": "uses_starting_9",
-    "count": 2,
-    "usages": [
-      {
-        "code": "08092",
-        "name": "Brand of Cthugha",
-        "pack": "eote"
-      },
-      {
-        "code": "06162",
-        "name": "Gregory Gry",
-        "pack": "tde"
-      }
-    ]
-  },
-  {
-    "tag": "gain_resource_10",
-    "count": 2,
-    "usages": [
-      {
-        "code": "08113",
-        "name": "Unscrupulous Loan",
-        "pack": "eote"
-      },
-      {
-        "code": "50006",
-        "name": "Hot Streak",
-        "pack": "rt"
       }
     ]
   },
@@ -884,13 +884,29 @@
     "count": 2,
     "usages": [
       {
-        "code": "01535",
-        "name": "Medical Texts",
+        "code": "01524",
+        "name": "Dynamite Blast",
         "pack": "rcore"
       },
       {
-        "code": "01524",
-        "name": "Dynamite Blast",
+        "code": "01535",
+        "name": "Medical Texts",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "chaos_modifier",
+    "count": 2,
+    "usages": [
+      {
+        "code": "01556",
+        "name": "Sure Gamble",
+        "pack": "rcore"
+      },
+      {
+        "code": "01692",
+        "name": "Eucatastrophe",
         "pack": "rcore"
       }
     ]
@@ -900,13 +916,13 @@
     "count": 2,
     "usages": [
       {
-        "code": "01564",
-        "name": "Drawn to the Flame",
+        "code": "01579",
+        "name": "\"Look what I found!\"",
         "pack": "rcore"
       },
       {
-        "code": "01579",
-        "name": "\"Look what I found!\"",
+        "code": "01564",
+        "name": "Drawn to the Flame",
         "pack": "rcore"
       }
     ]
@@ -960,22 +976,6 @@
     ]
   },
   {
-    "tag": "chaos_modifier",
-    "count": 2,
-    "usages": [
-      {
-        "code": "01556",
-        "name": "Sure Gamble",
-        "pack": "rcore"
-      },
-      {
-        "code": "01692",
-        "name": "Eucatastrophe",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
     "tag": "succeed_by_4",
     "count": 2,
     "usages": [
@@ -1008,37 +1008,6 @@
     ]
   },
   {
-    "tag": "initiate_test_intellect_x",
-    "count": 5,
-    "usages": [
-      {
-        "code": "04027",
-        "name": "Eavesdrop",
-        "pack": "tfa"
-      },
-      {
-        "code": "04195",
-        "name": "Expose Weakness",
-        "pack": "tfa"
-      },
-      {
-        "code": "10073",
-        "name": "Stir the Pot",
-        "pack": "fhv"
-      },
-      {
-        "code": "10083",
-        "name": "Stir the Pot",
-        "pack": "fhv"
-      },
-      {
-        "code": "10057",
-        "name": "Confound",
-        "pack": "fhv"
-      }
-    ]
-  },
-  {
     "tag": "bold_engage",
     "count": 2,
     "usages": [
@@ -1051,32 +1020,6 @@
         "code": "07109",
         "name": "Righteous Hunt",
         "pack": "tic"
-      }
-    ]
-  },
-  {
-    "tag": "initiate_test_willpower_x",
-    "count": 4,
-    "usages": [
-      {
-        "code": "06329",
-        "name": "Shining Trapezohedron",
-        "pack": "tde"
-      },
-      {
-        "code": "10064",
-        "name": "Blackmail File",
-        "pack": "fhv"
-      },
-      {
-        "code": "10114",
-        "name": "Stall for Time",
-        "pack": "fhv"
-      },
-      {
-        "code": "10094",
-        "name": "Drain Essence",
-        "pack": "fhv"
       }
     ]
   },
@@ -1097,47 +1040,6 @@
     ]
   },
   {
-    "tag": "trait_mask",
-    "count": 7,
-    "usages": [
-      {
-        "code": "10043",
-        "name": "Mouse Mask",
-        "pack": "fhv"
-      },
-      {
-        "code": "10067",
-        "name": "Fox Mask",
-        "pack": "fhv"
-      },
-      {
-        "code": "10023",
-        "name": "Wolf Mask",
-        "pack": "fhv"
-      },
-      {
-        "code": "10111",
-        "name": "Sparrow Mask",
-        "pack": "fhv"
-      },
-      {
-        "code": "10134",
-        "name": "Twilight Diadem",
-        "pack": "fhv"
-      },
-      {
-        "code": "10084",
-        "name": "Cat Mask",
-        "pack": "fhv"
-      },
-      {
-        "code": "10133",
-        "name": "Broken Diadem",
-        "pack": "fhv"
-      }
-    ]
-  },
-  {
     "tag": "trait_science",
     "count": 2,
     "usages": [
@@ -1149,6 +1051,22 @@
       {
         "code": "10054",
         "name": "Fine Tuning",
+        "pack": "fhv"
+      }
+    ]
+  },
+  {
+    "tag": "trait_rot",
+    "count": 2,
+    "usages": [
+      {
+        "code": "10085",
+        "name": "Rod of Carnamagos",
+        "pack": "fhv"
+      },
+      {
+        "code": "10098",
+        "name": "Rod of Carnamagos",
         "pack": "fhv"
       }
     ]

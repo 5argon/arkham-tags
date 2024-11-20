@@ -979,23 +979,23 @@
     ]
   },
   {
-    "tag": "uses_type_time",
-    "count": 1,
-    "usages": [
-      {
-        "code": "09100",
-        "name": "Makeshift Trap",
-        "pack": "tsk"
-      }
-    ]
-  },
-  {
     "tag": "uses_type_aether",
     "count": 1,
     "usages": [
       {
         "code": "09119",
         "name": "Hyperphysical Shotcaster",
+        "pack": "tsk"
+      }
+    ]
+  },
+  {
+    "tag": "uses_type_time",
+    "count": 1,
+    "usages": [
+      {
+        "code": "09100",
+        "name": "Makeshift Trap",
         "pack": "tsk"
       }
     ]
@@ -1089,6 +1089,17 @@
     ]
   },
   {
+    "tag": "cost_fast_damage_self",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01528",
+        "name": "Beat Cop",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
     "tag": "damage_plus_4",
     "count": 1,
     "usages": [
@@ -1106,6 +1117,28 @@
       {
         "code": "01529",
         "name": "Shotgun",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "location_clue_zero",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01540",
+        "name": "Magnifying Glass",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "to_hand_from_play",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01540",
+        "name": "Magnifying Glass",
         "pack": "rcore"
       }
     ]
@@ -1144,39 +1177,6 @@
     ]
   },
   {
-    "tag": "location_clue_zero",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01540",
-        "name": "Magnifying Glass",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "to_hand_from_play",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01540",
-        "name": "Magnifying Glass",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "cost_fast_damage_self",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01528",
-        "name": "Beat Cop",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
     "tag": "instead_of_clue",
     "count": 1,
     "usages": [
@@ -1194,17 +1194,6 @@
       {
         "code": "01551",
         "name": "Backstab",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "timing_reaction_after_evade",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01546",
-        "name": "Pickpocketing",
         "pack": "rcore"
       }
     ]
@@ -1232,6 +1221,28 @@
     ]
   },
   {
+    "tag": "timing_fast_chaos_reveal_after",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01556",
+        "name": "Sure Gamble",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "uses_manip_secret_to_resource",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01558",
+        "name": "Forbidden Knowledge",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
     "tag": "enters_play",
     "count": 1,
     "usages": [
@@ -1249,39 +1260,6 @@
       {
         "code": "01565",
         "name": "Ward of Protection",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "additional_slot_arcane",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01570",
-        "name": "Book of Shadows",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "trait_spell_asset",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01570",
-        "name": "Book of Shadows",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "uses_add_charge",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01570",
-        "name": "Book of Shadows",
         "pack": "rcore"
       }
     ]
@@ -1331,6 +1309,39 @@
     ]
   },
   {
+    "tag": "additional_slot_arcane",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01570",
+        "name": "Book of Shadows",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "trait_spell_asset",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01570",
+        "name": "Book of Shadows",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "uses_add_charge",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01570",
+        "name": "Book of Shadows",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
     "tag": "timing_reaction_after_investigate_success",
     "count": 1,
     "usages": [
@@ -1364,6 +1375,28 @@
     ]
   },
   {
+    "tag": "enemy_manage_shuffle",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01583",
+        "name": "Close Call",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "timing_fast_after_evaded",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01583",
+        "name": "Close Call",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
     "tag": "chaos_do_not_reveal",
     "count": 1,
     "usages": [
@@ -1386,12 +1419,12 @@
     ]
   },
   {
-    "tag": "heal_both",
+    "tag": "cost_action_discard_self",
     "count": 1,
     "usages": [
       {
-        "code": "01683",
-        "name": "First Aid",
+        "code": "01586",
+        "name": "Knife",
         "pack": "rcore"
       }
     ]
@@ -1414,6 +1447,39 @@
       {
         "code": "01587",
         "name": "Flashlight",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "discover_clue_connecting_location",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01685",
+        "name": "Seeking Answers",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "discover_clue_your_location",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01685",
+        "name": "Seeking Answers",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "heal_both",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01683",
+        "name": "First Aid",
         "pack": "rcore"
       }
     ]
@@ -1447,28 +1513,6 @@
       {
         "code": "01686",
         "name": "Old Book of Lore",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "discover_clue_connecting_location",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01685",
-        "name": "Seeking Answers",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "discover_clue_your_location",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01685",
-        "name": "Seeking Answers",
         "pack": "rcore"
       }
     ]
@@ -1518,68 +1562,13 @@
     ]
   },
   {
-    "tag": "uses_manip_secret_to_resource",
+    "tag": "timing_reaction_after_evade",
     "count": 1,
     "usages": [
       {
-        "code": "01558",
-        "name": "Forbidden Knowledge",
+        "code": "01546",
+        "name": "Pickpocketing",
         "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "timing_fast_chaos_reveal_after",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01556",
-        "name": "Sure Gamble",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "cost_action_discard_self",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01586",
-        "name": "Knife",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "enemy_manage_shuffle",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01583",
-        "name": "Close Call",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "timing_fast_after_evaded",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01583",
-        "name": "Close Call",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "uses_type_tries",
-    "count": 1,
-    "usages": [
-      {
-        "code": "04159",
-        "name": "Try and Try Again",
-        "pack": "tfa"
       }
     ]
   },
@@ -1590,6 +1579,17 @@
       {
         "code": "04105",
         "name": "Persuasion",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "uses_type_tries",
+    "count": 1,
+    "usages": [
+      {
+        "code": "04159",
+        "name": "Try and Try Again",
         "pack": "tfa"
       }
     ]
@@ -1623,17 +1623,6 @@
       {
         "code": "03007",
         "name": "The Home Front",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "commit_remote",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03010",
-        "name": "Analytical Mind",
         "pack": "ptc"
       }
     ]
@@ -1712,6 +1701,39 @@
         "code": "90052",
         "name": "The Beyond",
         "pack": "par"
+      }
+    ]
+  },
+  {
+    "tag": "initiate_test_agility_0",
+    "count": 1,
+    "usages": [
+      {
+        "code": "10071",
+        "name": "Grift",
+        "pack": "fhv"
+      }
+    ]
+  },
+  {
+    "tag": "trait_blessed",
+    "count": 1,
+    "usages": [
+      {
+        "code": "10132",
+        "name": "Occult Reliquary",
+        "pack": "fhv"
+      }
+    ]
+  },
+  {
+    "tag": "trait_cursed",
+    "count": 1,
+    "usages": [
+      {
+        "code": "10132",
+        "name": "Occult Reliquary",
+        "pack": "fhv"
       }
     ]
   },

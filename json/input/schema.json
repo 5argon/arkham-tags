@@ -20,7 +20,7 @@
         "type": "array",
         "description": "A list of tags that this card has.",
         "items": {
-          "$ref": "../output/schema.tags2.json"
+          "$ref": "../output/schema.tags.json"
         }
       }
     },
