@@ -1,5 +1,5 @@
 import { CompoundTag } from "./compound-tag.ts"
-import { Tag } from "./tag.ts"
+import { Tag } from "./tags.ts"
 
 export interface TagDefinition {
   name: Tag

@@ -2,9 +2,10 @@
  * Read all tags used, and see if any are missing from the schema and tag JSON.
  * Append missing ones.
  */
-const packFolder = "./json/pack";
-const schemaTagsJsonFile = "./json/schema.tags.json";
-const tagsJsonFile = "./json/tags.json";
+const packFolder = "./json/input/pack";
+const schemaTagsJsonFile = "./json/input/schema.tags.json";
+const tagsJsonFile = "./json/output/tags.json";
+const cardsTaggedFile = "./json/output/cards-tagged.json";
 
 // Read all files in pack folder.
 interface Card {
@@ -22,6 +23,8 @@ interface Tag {
   name: string;
   description: string;
 }
+
+type CardTagged = { [k: string]: string[] };
 
 const uniqueTags = new Set<string>();
 for await (const entry of Deno.readDir(packFolder)) {
@@ -59,7 +62,10 @@ for await (const entry of Deno.readDir(packFolder)) {
 
   schemaTags.enum = Array.from(schemaTagSet);
   schemaTags.enum.sort();
-  await Deno.writeTextFile(schemaTagsJsonFile, JSON.stringify(schemaTags, null, 2));
+  await Deno.writeTextFile(
+    schemaTagsJsonFile,
+    JSON.stringify(schemaTags, null, 2)
+  );
 
   if (newTags.size === 0) {
     console.log("No new tags to add to schema.tags.json.");
@@ -115,4 +121,25 @@ for await (const entry of Deno.readDir(packFolder)) {
     console.log(`Removed ${removedTags.size} tags from tags.json : `);
     console.log(removedTags);
   }
+}
+
+{
+  const cardsTagged: CardTagged = {};
+
+  for await (const entry of Deno.readDir(packFolder)) {
+    if (entry.isFile) {
+      const content = await Deno.readTextFile(`${packFolder}/${entry.name}`);
+      const cards: Card[] = JSON.parse(content);
+      cards.forEach((card) => {
+        card.tags.sort();
+        cardsTagged[card.code] = card.tags;
+      });
+    }
+  }
+
+  await Deno.writeTextFile(
+    cardsTaggedFile,
+    JSON.stringify(cardsTagged, null, 2)
+  );
+  console.log(`Updated ${cardsTaggedFile} with tags for each card.`);
 }

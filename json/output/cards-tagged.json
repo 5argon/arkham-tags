@@ -1,0 +1,5893 @@
+{
+  "10002": [
+    "cost_action_exhaust_self",
+    "cost_reaction_exhaust_self",
+    "deck_restriction",
+    "trait_tool",
+    "trait_weapon"
+  ],
+  "10005": [
+    "deck_restriction"
+  ],
+  "10006": [
+    "bold_fight",
+    "draw_player_1",
+    "elite_unusable"
+  ],
+  "10007": [
+    "bold_evade",
+    "draw_player_1",
+    "elite_unusable"
+  ],
+  "10010": [
+    "bold_parley",
+    "deck_restriction",
+    "elite_unusable",
+    "fast_play",
+    "timing_fast_during_your_turn"
+  ],
+  "10013": [
+    "chaos_reveal_token_bless",
+    "chaos_reveal_token_curse",
+    "cost_reaction_exhaust_self",
+    "deck_restriction"
+  ],
+  "10017": [
+    "deck_restriction",
+    "elite_unusable",
+    "fast_play"
+  ],
+  "10019": [
+    "chaos_reveal_token_bless",
+    "cost_reaction_exhaust_self"
+  ],
+  "10020": [
+    "uses_starting_3",
+    "uses_type_supply"
+  ],
+  "10021": [
+    "bold_fight",
+    "boost_combat_2",
+    "damage_plus_2"
+  ],
+  "10022": [
+    "chaos_reveal_token_bless",
+    "elite_unusable",
+    "uses_replenish",
+    "uses_starting_1",
+    "uses_type_charge"
+  ],
+  "10023": [
+    "boost_agility_2",
+    "boost_combat_2",
+    "trait_mask",
+    "uses_replenish",
+    "uses_starting_2",
+    "uses_type_offerings"
+  ],
+  "10024": [
+    "chaos_reveal_token_bless",
+    "trait_ally"
+  ],
+  "10025": [
+    "bold_investigate",
+    "chaos_reveal_token_bless",
+    "chaos_reveal_token_elder_sign"
+  ],
+  "10026": [
+    "bold_parley",
+    "trait_item"
+  ],
+  "10027": [],
+  "10028": [
+    "fast_play",
+    "timing_fast_during_your_turn",
+    "trait_tool"
+  ],
+  "10029": [
+    "chaos_reveal_token_bless",
+    "chaos_reveal_token_curse",
+    "max_1_commit"
+  ],
+  "10030": [
+    "fast_play",
+    "timing_fast_during_your_turn",
+    "trait_tool",
+    "trait_weapon"
+  ],
+  "10031": [
+    "damage_plus_1",
+    "take_damage",
+    "trait_melee",
+    "trait_ranged"
+  ],
+  "10032": [
+    "draw_player_1"
+  ],
+  "10033": [
+    "cost_reaction_exhaust_self",
+    "uses_starting_4",
+    "uses_type_supply"
+  ],
+  "10034": [
+    "bold_fight",
+    "boost_combat_2",
+    "chaos_reveal_token_bless",
+    "damage_plus_1"
+  ],
+  "10035": [
+    "bold_parley"
+  ],
+  "10036": [
+    "bold_fight",
+    "damage_plus_1"
+  ],
+  "10037": [
+    "bold_fight",
+    "trait_melee"
+  ],
+  "10038": [
+    "chaos_reveal_token_bless",
+    "fast_play"
+  ],
+  "10039": [
+    "chaos_reveal_token_elder_sign",
+    "cost_reaction_exhaust_self"
+  ],
+  "10040": [
+    "bold_investigate",
+    "cost_action_exhaust_self",
+    "draw_player_1",
+    "gain_resource_2"
+  ],
+  "10041": [
+    "cost_reaction_exhaust_self",
+    "trait_tool"
+  ],
+  "10042": [
+    "bold_investigate",
+    "boost_intellect_1",
+    "boost_intellect_3",
+    "cost_action_multiple",
+    "cost_reaction_exhaust_self"
+  ],
+  "10043": [
+    "boost_intellect_2",
+    "boost_willpower_2",
+    "trait_mask",
+    "uses_replenish",
+    "uses_starting_2",
+    "uses_type_offerings"
+  ],
+  "10044": [
+    "limit_1_per_deck"
+  ],
+  "10045": [
+    "bold_investigate"
+  ],
+  "10046": [
+    "chaos_reveal_token_curse",
+    "fast_play"
+  ],
+  "10047": [
+    "bold_investigate"
+  ],
+  "10048": [],
+  "10049": [
+    "bold_fight",
+    "trait_tome"
+  ],
+  "10050": [
+    "bold_evade",
+    "elite_unusable"
+  ],
+  "10051": [
+    "trait_science",
+    "trait_tool"
+  ],
+  "10052": [
+    "boost_intellect_1",
+    "chaos_reveal_token_curse",
+    "draw_player_1"
+  ],
+  "10053": [
+    "cost_reaction_exhaust_self",
+    "limit_1_per_investigator",
+    "succeed_by_1"
+  ],
+  "10054": [
+    "cost_reaction_exhaust_self",
+    "trait_science",
+    "trait_tool"
+  ],
+  "10055": [
+    "chaos_reveal_token_curse"
+  ],
+  "10056": [
+    "bold_investigate",
+    "chaos_reveal_token_curse"
+  ],
+  "10057": [
+    "bold_parley",
+    "elite_unusable",
+    "initiate_test_intellect_x"
+  ],
+  "10058": [
+    "bold_investigate",
+    "boost_intellect_2",
+    "boost_intellect_6",
+    "cost_action_multiple"
+  ],
+  "10059": [
+    "limit_1_per_deck"
+  ],
+  "10060": [
+    "elite_unusable",
+    "limit_1_per_deck"
+  ],
+  "10061": [
+    "limit_1_per_deck",
+    "trait_ally"
+  ],
+  "10062": [
+    "bold_parley",
+    "cost_action_exhaust_self",
+    "initiate_test_agility_x",
+    "limit_1_per_deck",
+    "uses_starting_10",
+    "uses_type_resource"
+  ],
+  "10064": [
+    "bold_parley",
+    "elite_unusable",
+    "initiate_test_willpower_x"
+  ],
+  "10065": [
+    "bold_fight",
+    "damage_plus_1",
+    "uses_starting_3",
+    "uses_type_ammo"
+  ],
+  "10066": [
+    "bold_parley",
+    "cost_action_exhaust_self",
+    "initiate_test_intellect_1"
+  ],
+  "10067": [
+    "boost_agility_2",
+    "boost_intellect_2",
+    "trait_mask",
+    "uses_replenish",
+    "uses_starting_2",
+    "uses_type_offerings"
+  ],
+  "10068": [
+    "chaos_reveal_token_curse",
+    "cost_action_exhaust_self",
+    "gain_resource_1"
+  ],
+  "10069": [],
+  "10070": [
+    "bold_parley",
+    "trait_weapon"
+  ],
+  "10071": [
+    "bold_parley",
+    "gain_resource_1",
+    "initiate_test_agility_0"
+  ],
+  "10072": [
+    "fast_play",
+    "timing_fast_during_your_turn"
+  ],
+  "10073": [
+    "bold_parley",
+    "initiate_test_intellect_x",
+    "succeed_by_2"
+  ],
+  "10074": [
+    "bold_parley",
+    "elite_unusable"
+  ],
+  "10075": [
+    "chaos_reveal_token_curse"
+  ],
+  "10076": [],
+  "10077": [
+    "bold_fight",
+    "damage_plus_1",
+    "uses_starting_3",
+    "uses_type_ammo"
+  ],
+  "10078": [
+    "fast_play"
+  ],
+  "10079": [
+    "cost_reaction_exhaust_self",
+    "trait_trick"
+  ],
+  "10080": [
+    "trait_illicit"
+  ],
+  "10081": [
+    "bold_parley",
+    "elite_unusable"
+  ],
+  "10082": [
+    "bold_parley",
+    "succeed_by_2"
+  ],
+  "10083": [
+    "bold_parley",
+    "initiate_test_intellect_x"
+  ],
+  "10084": [
+    "boost_combat_2",
+    "boost_willpower_2",
+    "trait_mask",
+    "uses_replenish",
+    "uses_starting_2",
+    "uses_type_offerings"
+  ],
+  "10085": [
+    "chaos_reveal_token_curse",
+    "elite_unusable",
+    "limit_1_per_deck",
+    "trait_rot"
+  ],
+  "10086": [],
+  "10087": [],
+  "10088": [],
+  "10089": [],
+  "10090": [],
+  "10091": [
+    "bold_parley",
+    "chaos_reveal_token_curse",
+    "chaos_reveal_token_skull",
+    "trait_ritual",
+    "trait_spell",
+    "uses_starting_6",
+    "uses_type_offerings"
+  ],
+  "10092": [
+    "bold_fight",
+    "boost_combat_2",
+    "chaos_reveal_token_curse",
+    "uses_replenish"
+  ],
+  "10093": [
+    "chaos_reveal_token_curse"
+  ],
+  "10094": [
+    "bold_parley",
+    "elite_unusable",
+    "initiate_test_willpower_x"
+  ],
+  "10095": [
+    "chaos_reveal_token_curse"
+  ],
+  "10096": [],
+  "10097": [
+    "cost_reaction_exhaust_self"
+  ],
+  "10098": [
+    "chaos_reveal_token_curse",
+    "elite_unusable",
+    "trait_rot"
+  ],
+  "10099": [
+    "chaos_reveal_token_curse",
+    "uses_replenish"
+  ],
+  "10100": [
+    "bold_evade",
+    "engage_with_you",
+    "stat_add_willpower"
+  ],
+  "10101": [
+    "bold_investigate",
+    "stat_add_willpower"
+  ],
+  "10102": [
+    "bold_fight",
+    "damage_plus_1",
+    "damage_plus_2",
+    "elite_unusable",
+    "stat_add_willpower"
+  ],
+  "10103": [
+    "trait_spell"
+  ],
+  "10104": [
+    "chaos_reveal_token_bless",
+    "chaos_reveal_token_curse",
+    "gain_resource_2",
+    "trait_ally"
+  ],
+  "10105": [
+    "chaos_reveal_token_bless",
+    "chaos_reveal_token_curse",
+    "fast_play"
+  ],
+  "10106": [
+    "chaos_reveal_token_bless"
+  ],
+  "10107": [
+    "chaos_reveal_token_curse"
+  ],
+  "10108": [
+    "discard_zero_uses",
+    "uses_starting_3",
+    "uses_type_supply"
+  ],
+  "10109": [],
+  "10110": [
+    "bold_fight",
+    "boost_combat_1",
+    "damage_plus_2"
+  ],
+  "10111": [
+    "boost_agility_2",
+    "boost_willpower_2",
+    "trait_mask",
+    "uses_replenish",
+    "uses_starting_2",
+    "uses_type_offerings"
+  ],
+  "10112": [
+    "elite_unusable"
+  ],
+  "10113": [
+    "trait_tool",
+    "trait_weapon"
+  ],
+  "10114": [
+    "bold_parley",
+    "elite_unusable",
+    "initiate_test_willpower_x"
+  ],
+  "10115": [
+    "draw_player_1"
+  ],
+  "10116": [],
+  "10117": [
+    "bold_fight",
+    "damage_plus_1",
+    "stat_add_agility"
+  ],
+  "10118": [],
+  "10119": [],
+  "10120": [
+    "bold_fight",
+    "boost_combat_2",
+    "damage_plus_1",
+    "fast_play"
+  ],
+  "10121": [
+    "gain_resource_1"
+  ],
+  "10122": [
+    "bold_investigate",
+    "boost_intellect_1",
+    "cost_action_exhaust_self"
+  ],
+  "10123": [],
+  "10124": [
+    "chaos_reveal_token_bless",
+    "fast_play"
+  ],
+  "10125": [
+    "chaos_reveal_token_bless"
+  ],
+  "10126": [
+    "chaos_reveal_token_auto_fail",
+    "chaos_reveal_token_bless",
+    "chaos_reveal_token_curse",
+    "cost_reaction_exhaust_self"
+  ],
+  "10127": [
+    "boost_agility_1",
+    "boost_combat_1",
+    "boost_intellect_1",
+    "boost_willpower_1",
+    "limit_1_per_deck"
+  ],
+  "10128": [
+    "uses_starting_4",
+    "uses_type_charge"
+  ],
+  "10129": [],
+  "10130": [],
+  "10131": [
+    "chaos_reveal_token_curse",
+    "fast_play"
+  ],
+  "10132": [
+    "limit_1_per_deck",
+    "trait_blessed",
+    "trait_cursed"
+  ],
+  "10133": [
+    "chaos_reveal_token_bless",
+    "chaos_reveal_token_curse",
+    "limit_1_per_deck",
+    "trait_mask"
+  ],
+  "10134": [
+    "chaos_reveal_token_bless",
+    "chaos_reveal_token_curse",
+    "chaos_reveal_token_elder_sign",
+    "cost_reaction_exhaust_self",
+    "trait_mask"
+  ],
+  "50001": [
+    "boost_combat_1",
+    "boost_willpower_1"
+  ],
+  "50002": [],
+  "50003": [
+    "boost_agility_1",
+    "boost_intellect_1"
+  ],
+  "50004": [
+    "elite_unusable"
+  ],
+  "50005": [
+    "boost_agility_1",
+    "boost_combat_1"
+  ],
+  "50006": [
+    "gain_resource_10"
+  ],
+  "50007": [
+    "boost_intellect_1",
+    "boost_willpower_1"
+  ],
+  "50008": [
+    "elite_unusable",
+    "fast_play"
+  ],
+  "50009": [
+    "boost_agility_1",
+    "boost_willpower_1"
+  ],
+  "50010": [
+    "cost_reaction_exhaust_self"
+  ],
+  "51001": [
+    "boost_willpower_1",
+    "trait_weapon"
+  ],
+  "51002": [
+    "bold_fight",
+    "boost_combat_2",
+    "damage_plus_1"
+  ],
+  "51003": [
+    "draw_player_3"
+  ],
+  "51004": [
+    "cost_action_exhaust_self",
+    "draw_player_1",
+    "gain_resource_2",
+    "uses_starting_3",
+    "uses_type_supply"
+  ],
+  "51005": [
+    "draw_player_1"
+  ],
+  "51006": [
+    "fast_play"
+  ],
+  "51007": [
+    "bold_investigate",
+    "boost_willpower_2",
+    "chaos_reveal_token_auto_fail",
+    "chaos_reveal_token_cultist",
+    "chaos_reveal_token_elder_thing",
+    "chaos_reveal_token_skull",
+    "chaos_reveal_token_tablet",
+    "uses_starting_3",
+    "uses_type_charge"
+  ],
+  "51008": [
+    "uses_starting_4",
+    "uses_type_charge"
+  ],
+  "51009": [
+    "fast_play"
+  ],
+  "51010": [],
+  "52001": [
+    "bold_fight",
+    "damage_plus_1",
+    "uses_starting_6",
+    "uses_type_ammo"
+  ],
+  "52002": [
+    "fast_play",
+    "trait_firearm"
+  ],
+  "52003": [
+    "trait_terror"
+  ],
+  "52004": [
+    "bold_investigate",
+    "uses_starting_3",
+    "uses_type_charge"
+  ],
+  "52005": [
+    "bold_evade",
+    "cost_fast_exhaust_self"
+  ],
+  "52006": [
+    "bold_evade",
+    "cost_action_exhaust_self",
+    "discard_zero_uses",
+    "stat_add_willpower",
+    "uses_starting_3",
+    "uses_type_charge"
+  ],
+  "52007": [
+    "chaos_reveal_token_auto_fail",
+    "chaos_reveal_token_cultist",
+    "chaos_reveal_token_elder_thing",
+    "chaos_reveal_token_skull",
+    "chaos_reveal_token_tablet",
+    "cost_action_exhaust_self",
+    "gain_resource_1",
+    "initiate_test_willpower_0",
+    "take_damage",
+    "uses_starting_4",
+    "uses_type_charge"
+  ],
+  "52008": [
+    "bold_fight",
+    "boost_willpower_2",
+    "chaos_reveal_token_auto_fail",
+    "chaos_reveal_token_cultist",
+    "chaos_reveal_token_elder_thing",
+    "chaos_reveal_token_skull",
+    "chaos_reveal_token_tablet"
+  ],
+  "52009": [
+    "bold_investigate"
+  ],
+  "52010": [
+    "bold_fight",
+    "boost_combat_2"
+  ],
+  "53001": [
+    "bold_fight",
+    "boost_willpower_2",
+    "damage_plus_2",
+    "take_damage"
+  ],
+  "53002": [
+    "bold_fight",
+    "boost_combat_2",
+    "cost_reaction_exhaust_self",
+    "damage_plus_1"
+  ],
+  "53003": [],
+  "53004": [],
+  "53005": [
+    "trait_ally",
+    "uses_starting_0",
+    "uses_type_charge"
+  ],
+  "53006": [
+    "bold_fight",
+    "boost_combat_2",
+    "damage_plus_1",
+    "uses_starting_5",
+    "uses_type_ammo"
+  ],
+  "53007": [
+    "bold_evade",
+    "boost_willpower_1",
+    "chaos_reveal_token_auto_fail",
+    "chaos_reveal_token_cultist",
+    "chaos_reveal_token_elder_thing",
+    "chaos_reveal_token_skull",
+    "chaos_reveal_token_tablet",
+    "uses_starting_5",
+    "uses_type_charge"
+  ],
+  "53008": [
+    "chaos_reveal_token_auto_fail",
+    "chaos_reveal_token_cultist",
+    "chaos_reveal_token_elder_thing",
+    "chaos_reveal_token_skull",
+    "chaos_reveal_token_tablet",
+    "uses_starting_3",
+    "uses_type_charge"
+  ],
+  "53009": [],
+  "53010": [
+    "cost_reaction_exhaust_self"
+  ],
+  "53011": [
+    "trait_item",
+    "trait_supply"
+  ],
+  "54001": [],
+  "54002": [
+    "limit_1_per_deck"
+  ],
+  "54003": [
+    "draw_player_1"
+  ],
+  "54004": [
+    "limit_1_per_deck"
+  ],
+  "54005": [],
+  "54006": [
+    "limit_1_per_investigator"
+  ],
+  "54007": [],
+  "54008": [
+    "cost_action_exhaust_self",
+    "cost_reaction_exhaust_self",
+    "fast_play",
+    "trait_ritual",
+    "trait_spell"
+  ],
+  "54009": [
+    "cost_reaction_exhaust_self"
+  ],
+  "54010": [
+    "fast_play",
+    "timing_fast_during_your_turn"
+  ],
+  "54011": [
+    "cost_reaction_exhaust_self"
+  ],
+  "54012": [
+    "trait_tarot"
+  ],
+  "54013": [
+    "limit_1_per_investigator"
+  ],
+  "60102": [
+    "deck_restriction",
+    "trait_weapon"
+  ],
+  "60105": [
+    "boost_combat_1",
+    "cost_reaction_exhaust_self",
+    "trait_spirit"
+  ],
+  "60106": [
+    "cost_reaction_exhaust_self",
+    "uses_starting_4",
+    "uses_type_charge"
+  ],
+  "60107": [
+    "boost_combat_1",
+    "cost_reaction_exhaust_self"
+  ],
+  "60108": [
+    "boost_combat_1",
+    "boost_willpower_1"
+  ],
+  "60109": [
+    "cost_reaction_exhaust_self"
+  ],
+  "60110": [
+    "cost_reaction_exhaust_self"
+  ],
+  "60111": [
+    "bold_fight",
+    "gain_resource_2"
+  ],
+  "60112": [
+    "bold_fight",
+    "fast_play"
+  ],
+  "60113": [
+    "fast_play"
+  ],
+  "60114": [
+    "bold_engage",
+    "bold_fight",
+    "elite_unusable"
+  ],
+  "60115": [
+    "draw_player_2",
+    "fast_play"
+  ],
+  "60116": [
+    "bold_fight",
+    "damage_plus_1"
+  ],
+  "60117": [
+    "bold_fight",
+    "boost_combat_1",
+    "boost_combat_2",
+    "damage_plus_1"
+  ],
+  "60118": [
+    "gain_resource_2"
+  ],
+  "60119": [
+    "damage_plus_1"
+  ],
+  "60120": [
+    "fast_play"
+  ],
+  "60121": [
+    "fast_play",
+    "timing_fast_during_your_turn"
+  ],
+  "60122": [
+    "bold_fight",
+    "boost_combat_2",
+    "damage_plus_1",
+    "fast_play"
+  ],
+  "60123": [
+    "elite_unusable",
+    "fast_play"
+  ],
+  "60124": [
+    "fast_play"
+  ],
+  "60125": [
+    "engage_with_you"
+  ],
+  "60126": [
+    "draw_player_1",
+    "max_1_commit"
+  ],
+  "60127": [
+    "boost_combat_2",
+    "cost_reaction_exhaust_self",
+    "trait_spirit"
+  ],
+  "60128": [
+    "boost_combat_1",
+    "boost_intellect_1",
+    "cost_reaction_exhaust_self"
+  ],
+  "60129": [
+    "fast_play"
+  ],
+  "60130": [
+    "draw_player_1",
+    "fast_play"
+  ],
+  "60131": [
+    "boost_combat_1",
+    "boost_willpower_1",
+    "uses_replenish",
+    "uses_starting_2",
+    "uses_type_resource"
+  ],
+  "60132": [
+    "bold_fight",
+    "boost_combat_3",
+    "damage_plus_1",
+    "damage_plus_2"
+  ],
+  "60202": [
+    "cost_reaction_exhaust_self",
+    "deck_restriction",
+    "draw_player_1"
+  ],
+  "60205": [
+    "trait_tome"
+  ],
+  "60206": [
+    "boost_intellect_1",
+    "boost_willpower_1"
+  ],
+  "60207": [
+    "elite_unusable"
+  ],
+  "60208": [
+    "cost_action_exhaust_self",
+    "uses_starting_5",
+    "uses_type_secret"
+  ],
+  "60209": [
+    "cost_action_exhaust_self",
+    "draw_player_1",
+    "initiate_test_intellect_1",
+    "uses_starting_3",
+    "uses_type_secret"
+  ],
+  "60210": [
+    "cost_action_exhaust_self",
+    "draw_player_1",
+    "uses_starting_5",
+    "uses_type_secret"
+  ],
+  "60211": [
+    "boost_intellect_1",
+    "boost_willpower_1"
+  ],
+  "60212": [
+    "draw_player_2"
+  ],
+  "60213": [
+    "boost_intellect_1",
+    "cost_reaction_exhaust_self",
+    "trait_relic",
+    "trait_tome"
+  ],
+  "60214": [
+    "bold_investigate",
+    "gain_resource_2"
+  ],
+  "60215": [
+    "gain_resource_2"
+  ],
+  "60216": [],
+  "60217": [
+    "bold_fight",
+    "boost_intellect_1",
+    "damage_plus_1"
+  ],
+  "60218": [
+    "draw_player_3"
+  ],
+  "60219": [],
+  "60220": [
+    "trait_tome"
+  ],
+  "60221": [
+    "draw_player_1"
+  ],
+  "60222": [
+    "uses_starting_4",
+    "uses_type_secret"
+  ],
+  "60223": [
+    "boost_intellect_1",
+    "boost_willpower_1",
+    "cost_reaction_exhaust_self",
+    "trait_relic",
+    "trait_tome"
+  ],
+  "60224": [
+    "gain_resource_3"
+  ],
+  "60225": [
+    "bold_fight",
+    "boost_intellect_2",
+    "damage_plus_1",
+    "damage_plus_3"
+  ],
+  "60226": [
+    "draw_player_1",
+    "fast_play",
+    "stat_add_intellect"
+  ],
+  "60227": [
+    "bold_investigate"
+  ],
+  "60228": [
+    "draw_player_1",
+    "max_1_commit"
+  ],
+  "60229": [
+    "cost_action_exhaust_self",
+    "cost_action_multiple"
+  ],
+  "60230": [
+    "cost_action_exhaust_self",
+    "cost_action_multiple"
+  ],
+  "60231": [],
+  "60232": [
+    "limit_1_per_deck",
+    "trait_miskatonic"
+  ],
+  "60233": [
+    "draw_player_2",
+    "engage_with_you",
+    "limit_1_per_deck",
+    "uses_starting_6",
+    "uses_type_secret"
+  ],
+  "60302": [
+    "deck_restriction"
+  ],
+  "60305": [
+    "bold_investigate",
+    "cost_action_exhaust_self",
+    "stat_add_agility"
+  ],
+  "60306": [
+    "bold_fight",
+    "boost_combat_1",
+    "cost_action_exhaust_self",
+    "damage_plus_1",
+    "gain_resource_1",
+    "succeed_by_2",
+    "uses_starting_5",
+    "uses_type_ammo"
+  ],
+  "60307": [
+    "bold_fight",
+    "damage_plus_1",
+    "fast_play",
+    "succeed_by_2"
+  ],
+  "60308": [
+    "cost_reaction_exhaust_self",
+    "draw_player_1"
+  ],
+  "60309": [
+    "boost_combat_1",
+    "trait_item"
+  ],
+  "60310": [
+    "fast_play"
+  ],
+  "60311": [
+    "boost_agility_2",
+    "boost_intellect_2"
+  ],
+  "60312": [
+    "bold_fight",
+    "stat_add_agility",
+    "succeed_by_2"
+  ],
+  "60313": [
+    "fast_play"
+  ],
+  "60314": [
+    "bold_evade",
+    "elite_unusable",
+    "stat_add_intellect",
+    "succeed_by_2"
+  ],
+  "60315": [
+    "bold_investigate"
+  ],
+  "60316": [
+    "bold_evade",
+    "gain_resource_2"
+  ],
+  "60317": [],
+  "60318": [],
+  "60319": [
+    "succeed_by_3"
+  ],
+  "60320": [
+    "draw_player_1",
+    "uses_starting_4",
+    "uses_type_supply"
+  ],
+  "60321": [
+    "bold_fight",
+    "boost_combat_2",
+    "cost_action_exhaust_self",
+    "damage_plus_1",
+    "gain_resource_1",
+    "succeed_by_2",
+    "succeed_by_4",
+    "uses_starting_5",
+    "uses_type_ammo"
+  ],
+  "60322": [
+    "draw_player_1",
+    "fast_play"
+  ],
+  "60323": [
+    "bold_fight",
+    "stat_add_agility",
+    "succeed_by_1",
+    "succeed_by_3"
+  ],
+  "60324": [
+    "bold_evade",
+    "elite_unusable",
+    "stat_add_intellect",
+    "succeed_by_1",
+    "succeed_by_3"
+  ],
+  "60325": [
+    "draw_player_1",
+    "max_1_commit"
+  ],
+  "60326": [
+    "cost_reaction_exhaust_self"
+  ],
+  "60327": [
+    "cost_reaction_exhaust_self",
+    "trait_firearm"
+  ],
+  "60328": [
+    "bold_investigate",
+    "succeed_by_2"
+  ],
+  "60329": [
+    "bold_fight",
+    "damage_plus_2",
+    "succeed_by_2"
+  ],
+  "60330": [],
+  "60331": [
+    "bold_fight",
+    "boost_combat_4",
+    "cost_action_exhaust_self",
+    "damage_plus_1",
+    "succeed_by_2",
+    "succeed_by_4",
+    "uses_starting_4",
+    "uses_type_ammo"
+  ],
+  "60332": [
+    "cost_reaction_exhaust_self",
+    "trait_tactic",
+    "trait_trick"
+  ],
+  "60402": [
+    "cost_reaction_exhaust_self",
+    "deck_restriction"
+  ],
+  "60405": [
+    "chaos_reveal_token_cultist",
+    "chaos_reveal_token_elder_thing",
+    "chaos_reveal_token_skull",
+    "chaos_reveal_token_tablet"
+  ],
+  "60406": [
+    "cost_reaction_exhaust_self",
+    "uses_starting_4",
+    "uses_type_secret"
+  ],
+  "60407": [
+    "bold_fight",
+    "chaos_reveal_token_elder_sign",
+    "damage_plus_1",
+    "take_damage",
+    "uses_starting_4",
+    "uses_type_charge"
+  ],
+  "60408": [
+    "bold_investigate",
+    "chaos_reveal_token_elder_sign",
+    "take_horror",
+    "uses_starting_3",
+    "uses_type_charge"
+  ],
+  "60409": [
+    "bold_evade",
+    "chaos_reveal_token_elder_sign",
+    "uses_starting_3",
+    "uses_type_charge"
+  ],
+  "60410": [
+    "trait_spell"
+  ],
+  "60411": [
+    "boost_willpower_1",
+    "cost_reaction_exhaust_self",
+    "draw_player_1"
+  ],
+  "60412": [
+    "cost_reaction_exhaust_self",
+    "trait_spell"
+  ],
+  "60413": [
+    "bold_move",
+    "chaos_reveal_token_auto_fail",
+    "chaos_reveal_token_cultist",
+    "chaos_reveal_token_elder_thing",
+    "chaos_reveal_token_skull",
+    "chaos_reveal_token_tablet",
+    "take_damage",
+    "trait_ally",
+    "trait_item"
+  ],
+  "60414": [
+    "chaos_reveal_token_auto_fail",
+    "chaos_reveal_token_cultist",
+    "chaos_reveal_token_elder_thing",
+    "chaos_reveal_token_skull",
+    "chaos_reveal_token_tablet",
+    "fast_play"
+  ],
+  "60415": [
+    "chaos_reveal_token_auto_fail",
+    "chaos_reveal_token_cultist",
+    "chaos_reveal_token_elder_thing",
+    "chaos_reveal_token_skull",
+    "chaos_reveal_token_tablet"
+  ],
+  "60416": [
+    "chaos_reveal_token_auto_fail",
+    "chaos_reveal_token_cultist",
+    "chaos_reveal_token_elder_thing",
+    "chaos_reveal_token_skull",
+    "chaos_reveal_token_tablet",
+    "gain_resource_1"
+  ],
+  "60417": [
+    "chaos_reveal_token_auto_fail",
+    "chaos_reveal_token_cultist",
+    "chaos_reveal_token_elder_thing",
+    "chaos_reveal_token_skull",
+    "chaos_reveal_token_tablet",
+    "fast_play"
+  ],
+  "60418": [
+    "chaos_reveal_token_cultist",
+    "chaos_reveal_token_elder_thing",
+    "chaos_reveal_token_skull",
+    "chaos_reveal_token_tablet"
+  ],
+  "60419": [
+    "max_1_commit",
+    "trait_spell"
+  ],
+  "60420": [
+    "fast_play"
+  ],
+  "60421": [
+    "discard_zero_uses",
+    "uses_starting_3",
+    "uses_type_charge"
+  ],
+  "60422": [
+    "cost_reaction_exhaust_self",
+    "trait_spell"
+  ],
+  "60423": [
+    "chaos_reveal_token_auto_fail",
+    "chaos_reveal_token_cultist",
+    "chaos_reveal_token_elder_thing",
+    "chaos_reveal_token_skull",
+    "chaos_reveal_token_tablet",
+    "fast_play"
+  ],
+  "60424": [
+    "draw_player_1",
+    "max_1_commit"
+  ],
+  "60425": [
+    "bold_fight",
+    "boost_willpower_2",
+    "chaos_reveal_token_elder_sign",
+    "damage_plus_1",
+    "take_damage",
+    "uses_starting_4",
+    "uses_type_charge"
+  ],
+  "60426": [
+    "bold_investigate",
+    "boost_willpower_2",
+    "chaos_reveal_token_elder_sign",
+    "take_horror",
+    "uses_starting_3",
+    "uses_type_charge"
+  ],
+  "60427": [
+    "bold_evade",
+    "boost_willpower_2",
+    "chaos_reveal_token_elder_sign",
+    "uses_starting_3",
+    "uses_type_charge"
+  ],
+  "60428": [
+    "boost_intellect_1",
+    "boost_willpower_1",
+    "uses_replenish",
+    "uses_starting_2",
+    "uses_type_resource"
+  ],
+  "60429": [
+    "chaos_reveal_token_auto_fail",
+    "chaos_reveal_token_cultist",
+    "chaos_reveal_token_elder_thing",
+    "chaos_reveal_token_skull",
+    "chaos_reveal_token_tablet",
+    "trait_relic",
+    "trait_spell"
+  ],
+  "60430": [
+    "bold_fight",
+    "boost_willpower_3",
+    "chaos_reveal_token_elder_sign",
+    "damage_plus_2",
+    "take_damage",
+    "uses_starting_4",
+    "uses_type_charge"
+  ],
+  "60431": [
+    "bold_investigate",
+    "boost_willpower_3",
+    "chaos_reveal_token_elder_sign",
+    "take_horror",
+    "uses_starting_3",
+    "uses_type_charge"
+  ],
+  "60432": [
+    "bold_evade",
+    "boost_willpower_3",
+    "chaos_reveal_token_elder_sign",
+    "uses_starting_3",
+    "uses_type_charge"
+  ],
+  "60502": [
+    "deck_restriction"
+  ],
+  "60505": [
+    "bold_fight",
+    "boost_combat_2",
+    "damage_plus_1",
+    "uses_starting_2",
+    "uses_type_ammo"
+  ],
+  "60506": [
+    "cost_reaction_exhaust_self",
+    "uses_starting_4",
+    "uses_type_secret"
+  ],
+  "60507": [
+    "bold_investigate",
+    "uses_starting_2",
+    "uses_type_keys"
+  ],
+  "60508": [
+    "boost_willpower_1",
+    "cost_reaction_exhaust_self"
+  ],
+  "60509": [
+    "take_horror"
+  ],
+  "60510": [
+    "cost_reaction_exhaust_self",
+    "draw_player_1"
+  ],
+  "60511": [
+    "boost_agility_1",
+    "boost_combat_1"
+  ],
+  "60512": [
+    "fast_play",
+    "timing_fast_during_your_turn"
+  ],
+  "60513": [
+    "fast_play",
+    "initiate_test_willpower_3"
+  ],
+  "60514": [
+    "elite_unusable",
+    "fast_play"
+  ],
+  "60515": [
+    "fast_play"
+  ],
+  "60516": [
+    "fast_play"
+  ],
+  "60517": [
+    "fast_play"
+  ],
+  "60518": [
+    "engage_with_you",
+    "fast_play"
+  ],
+  "60519": [
+    "draw_player_2",
+    "gain_resource_2",
+    "max_1_commit"
+  ],
+  "60520": [],
+  "60521": [],
+  "60522": [
+    "bold_fight",
+    "boost_combat_1",
+    "boost_combat_2",
+    "damage_plus_1",
+    "uses_starting_3",
+    "uses_type_ammo"
+  ],
+  "60523": [
+    "fast_play",
+    "initiate_test_willpower_3"
+  ],
+  "60524": [
+    "fast_play"
+  ],
+  "60525": [
+    "elite_unusable",
+    "fast_play"
+  ],
+  "60526": [
+    "max_1_commit"
+  ],
+  "60527": [
+    "boost_intellect_1",
+    "boost_willpower_1",
+    "cost_reaction_exhaust_self"
+  ],
+  "60528": [
+    "draw_player_1",
+    "fast_play"
+  ],
+  "60529": [
+    "bold_fight",
+    "boost_combat_2",
+    "damage_plus_2",
+    "uses_starting_3",
+    "uses_type_supply"
+  ],
+  "60530": [],
+  "60531": [],
+  "89002": [
+    "deck_restriction"
+  ],
+  "89003": [
+    "deck_restriction",
+    "fast_play",
+    "timing_fast_during_your_turn"
+  ],
+  "89005": [
+    "chaos_reveal_token_auto_fail",
+    "chaos_reveal_token_cultist",
+    "chaos_reveal_token_elder_sign",
+    "chaos_reveal_token_elder_thing",
+    "chaos_reveal_token_skull",
+    "chaos_reveal_token_tablet",
+    "elite_unusable"
+  ],
+  "90002": [
+    "cost_reaction_exhaust_self",
+    "deck_restriction",
+    "trait_tome"
+  ],
+  "90009": [
+    "deck_restriction",
+    "elite_unusable",
+    "fast_play"
+  ],
+  "90018": [
+    "deck_restriction",
+    "draw_player_1",
+    "trait_spell"
+  ],
+  "90025": [
+    "deck_restriction",
+    "engage_with_you"
+  ],
+  "90026": [
+    "cost_reaction_exhaust_self",
+    "deck_restriction",
+    "trait_insight",
+    "trait_tactic"
+  ],
+  "90027": [
+    "deck_restriction",
+    "trait_ally"
+  ],
+  "90028": [
+    "cost_reaction_exhaust_self",
+    "deck_restriction",
+    "draw_player_1"
+  ],
+  "90029": [
+    "deck_restriction"
+  ],
+  "90030": [
+    "bold_fight",
+    "boost_combat_2",
+    "boost_combat_4",
+    "damage_plus_1",
+    "deck_restriction",
+    "uses_starting_4",
+    "uses_type_ammo"
+  ],
+  "90038": [
+    "chaos_reveal_token_bless",
+    "chaos_reveal_token_curse",
+    "deck_restriction"
+  ],
+  "90039": [
+    "deck_restriction"
+  ],
+  "90047": [
+    "deck_restriction",
+    "elite_unusable",
+    "gain_resource_1"
+  ],
+  "90050": [
+    "chaos_reveal_token_curse",
+    "chaos_reveal_token_skull",
+    "cost_reaction_exhaust_self",
+    "deck_restriction",
+    "trait_ally"
+  ],
+  "90052": [
+    "deck_restriction",
+    "trait_geist"
+  ],
+  "90060": [
+    "chaos_reveal_token_bless",
+    "cost_reaction_exhaust_self",
+    "deck_restriction"
+  ],
+  "90063": [
+    "bold_fight",
+    "damage_plus_1",
+    "deck_restriction",
+    "fast_play"
+  ],
+  "90079": [
+    "deck_restriction",
+    "draw_player_1"
+  ],
+  "90082": [
+    "chaos_reveal_token_bless",
+    "chaos_reveal_token_elder_sign",
+    "deck_restriction"
+  ],
+  "90085": [
+    "bold_fight",
+    "boost_combat_2",
+    "cost_reaction_exhaust_self",
+    "damage_plus_1",
+    "deck_restriction"
+  ],
+  "98002": [
+    "cost_fast_exhaust_self",
+    "deck_restriction"
+  ],
+  "98005": [
+    "deck_restriction",
+    "fast_play",
+    "timing_fast_during_your_turn"
+  ],
+  "98008": [
+    "cost_fast_exhaust_self",
+    "deck_restriction"
+  ],
+  "98011": [
+    "deck_restriction"
+  ],
+  "98014": [
+    "deck_restriction",
+    "draw_player_1"
+  ],
+  "98017": [
+    "cost_fast_exhaust_self",
+    "deck_restriction"
+  ],
+  "98020": [
+    "deck_restriction"
+  ],
+  "99002": [
+    "deck_restriction",
+    "fast_play"
+  ],
+  "02006": [
+    "deal_damage_enemy",
+    "engage_with_you",
+    "spend_resource",
+    "testless_damage",
+    "timing_reaction_after_enemy_engages"
+  ],
+  "02008": [
+    "current_clue_value",
+    "draw_player"
+  ],
+  "02010": [
+    "bold_fight",
+    "boost_combat_2",
+    "damage_plus_1",
+    "spend_ammo",
+    "uses_type_ammo"
+  ],
+  "02012": [
+    "chaos_reveal_token_skull",
+    "connecting_location_investigator",
+    "heal_horror",
+    "timing_reaction_chaos_reveal_after",
+    "your_location_investigator"
+  ],
+  "02014": [
+    "bold_fight",
+    "bold_investigate",
+    "damage_plus_1",
+    "move_investigator_self",
+    "stat_base_combat_4",
+    "stat_base_intellect_4"
+  ],
+  "02016": [
+    "bold_fight",
+    "boost_combat_1",
+    "engage_with_another",
+    "result_attack_fail"
+  ],
+  "02017": [
+    "aoe_engage",
+    "engage_effect",
+    "fast_play",
+    "timing_fast_during_your_turn"
+  ],
+  "02018": [
+    "give_asset",
+    "give_resource",
+    "take_asset",
+    "take_resource",
+    "trait_ally",
+    "trait_item",
+    "your_location_investigator"
+  ],
+  "02019": [
+    "draw_player",
+    "engage_effect",
+    "fast_play",
+    "timing_fast_during_your_turn"
+  ],
+  "02020": [
+    "draw_player_2",
+    "hand_size_increase",
+    "timing_reaction_enters_play"
+  ],
+  "02021": [
+    "draw_player_2",
+    "initiate_test_intellect_4",
+    "unidentified"
+  ],
+  "02022": [
+    "connecting_location_investigator",
+    "fast_play",
+    "move_investigator_any",
+    "timing_fast_during_your_turn",
+    "your_location_investigator"
+  ],
+  "02023": [
+    "bold_investigate",
+    "discover_clue_connecting_location_1",
+    "result_investigate_success"
+  ],
+  "02024": [
+    "discard_card_random",
+    "heal_horror",
+    "initiate_test_willpower_2",
+    "result_test_fail",
+    "result_test_success",
+    "spend_supply",
+    "uses_type_supply",
+    "your_location_investigator"
+  ],
+  "02025": [
+    "fast_play",
+    "move_investigator_self",
+    "timing_fast_spawn_your_location"
+  ],
+  "02026": [
+    "difficulty_increase",
+    "effect_increase",
+    "max_1_commit",
+    "result_test_success"
+  ],
+  "02027": [
+    "boost_combat_1_passive",
+    "discard_self",
+    "spend_resource"
+  ],
+  "02028": [
+    "additional_clue_1",
+    "bold_investigate",
+    "chaos_reveal_token_cultist",
+    "chaos_reveal_token_skull",
+    "result_investigate_success",
+    "stat_not_intellect",
+    "stat_use_willpower",
+    "uses_type_charge"
+  ],
+  "02029": [
+    "boost_any_1",
+    "chaos_reveal_during_effect",
+    "chaos_reveal_token_cultist",
+    "chaos_reveal_token_elder_thing",
+    "chaos_reveal_token_skull",
+    "chaos_reveal_token_tablet",
+    "test_you_perform",
+    "timing_reaction_chaos_reveal_after"
+  ],
+  "02030": [
+    "cost_action_spend_charge",
+    "heal_horror",
+    "uses_type_charge",
+    "your_location_investigator"
+  ],
+  "02031": [
+    "attach_enemy",
+    "bold_evade",
+    "elite_unusable",
+    "initiate_test_willpower_3",
+    "result_evade_success",
+    "result_test_success",
+    "stat_not_agility",
+    "stat_use_willpower"
+  ],
+  "02032": [
+    "bold_fight",
+    "boost_combat_2",
+    "damage_plus_1",
+    "limit_per_test_3",
+    "no_resource",
+    "spend_resource",
+    "stat_from_spent_resource"
+  ],
+  "02033": [
+    "boost_agility_1_passive",
+    "heal_horror_ally",
+    "heal_horror_soak",
+    "timing_reaction_after_turn_ends"
+  ],
+  "02034": [
+    "bold_evade",
+    "elite_unusable",
+    "move_enemy_displace",
+    "result_evade_success"
+  ],
+  "02035": [
+    "boost_agility_1_passive",
+    "boost_willpower_1_passive",
+    "heal_horror_ally",
+    "heal_horror_soak",
+    "timing_reaction_after_turn_ends"
+  ],
+  "02036": [
+    "bold_fight",
+    "boost_combat_1",
+    "damage_plus_1",
+    "result_attack_success",
+    "spend_action"
+  ],
+  "02105": [
+    "heal_damage",
+    "heal_damage_ally",
+    "trait_ally",
+    "your_location_ally",
+    "your_location_investigator"
+  ],
+  "02106": [
+    "boost_willpower_1_passive",
+    "deal_damage_enemy",
+    "tank_damage",
+    "tank_horror",
+    "when_defeated",
+    "your_location_enemy",
+    "your_location_investigator"
+  ],
+  "02107": [
+    "bold_fight",
+    "current_clue_value",
+    "damage_plus_1",
+    "damage_plus_2",
+    "damage_plus_3",
+    "stat_not_combat",
+    "stat_use_intellect"
+  ],
+  "02108": [
+    "cost_fast_exhaust_self",
+    "engage_none",
+    "move_investigator_self",
+    "timing_fast_during_your_turn"
+  ],
+  "02109": [
+    "uses_add_ammo",
+    "uses_add_supply",
+    "your_location_investigator"
+  ],
+  "02110": [
+    "between_scenarios",
+    "growth"
+  ],
+  "02111": [
+    "draw_encounter",
+    "growth"
+  ],
+  "02112": [
+    "bold_fight",
+    "boost_willpower_1",
+    "chaos_reveal_token_skull",
+    "cost_action_spend_charge",
+    "damage_plus_2",
+    "stat_not_combat",
+    "stat_use_willpower",
+    "uses_type_charge"
+  ],
+  "02113": [
+    "damage_redirect",
+    "enemy_value_damage",
+    "engage_with_you",
+    "fail_by_2_or_less",
+    "fast_play",
+    "your_location_enemy"
+  ],
+  "02114": [
+    "aoe_evade",
+    "bold_evade",
+    "bold_fight",
+    "boost_agility_3",
+    "boost_combat_1",
+    "engage_with_you",
+    "exile",
+    "result_evade_success"
+  ],
+  "02115": [
+    "any_investigator",
+    "bold_fight",
+    "boost_combat_3",
+    "damage_plus_2",
+    "exile",
+    "search_player",
+    "shuffle_player",
+    "to_play_from_deck",
+    "trait_ally"
+  ],
+  "02116": [
+    "cost_fast_exhaust_self",
+    "heal_horror",
+    "spend_supply",
+    "take_damage",
+    "uses_type_supply"
+  ],
+  "02117": [
+    "cost_fast_exhaust_self",
+    "heal_damage",
+    "spend_supply",
+    "take_horror",
+    "uses_type_supply"
+  ],
+  "02147": [
+    "additional_slot_hand",
+    "trait_weapon"
+  ],
+  "02148": [
+    "draw_player_2",
+    "gain_resource_2",
+    "your_location_investigator"
+  ],
+  "02149": [
+    "discover_clue_your_location_1",
+    "timing_reaction_enters_play"
+  ],
+  "02150": [
+    "additional_clue_1",
+    "additional_clue_2",
+    "result_investigate_success",
+    "succeed_by_2"
+  ],
+  "02151": [
+    "bold_resign",
+    "scenario_card"
+  ],
+  "02152": [
+    "bold_fight",
+    "boost_combat_2",
+    "damage_plus_1",
+    "fast_play",
+    "succeed_by_2"
+  ],
+  "02153": [
+    "cancel_attack",
+    "chaos_reveal_manual",
+    "chaos_reveal_token_cultist",
+    "chaos_reveal_token_skull",
+    "chaos_reveal_token_tablet",
+    "fast_play",
+    "timing_fast_enemy_attacks",
+    "your_location_investigator"
+  ],
+  "02154": [
+    "bold_fight",
+    "boost_intellect_2",
+    "chaos_reveal_token_skull",
+    "cost_action_spend_charge",
+    "damage_plus_1",
+    "stat_not_combat",
+    "stat_use_intellect",
+    "uses_type_charge"
+  ],
+  "02155": [
+    "boost_intellect_2",
+    "current_clue_zero",
+    "investigate_while"
+  ],
+  "02156": [
+    "at_end_of_round",
+    "attach_location",
+    "discard_self",
+    "duration_enemy_phase",
+    "move_enemy_control"
+  ],
+  "02157": [
+    "additional_slot_accessory"
+  ],
+  "02158": [
+    "additional_slot_ally"
+  ],
+  "02184": [
+    "search_player",
+    "shuffle_player",
+    "to_hand_from_deck",
+    "trait_weapon"
+  ],
+  "02185": [
+    "boost_combat_1",
+    "boost_intellect_1",
+    "cost_fast_spend_resource",
+    "duration_until_end_phase",
+    "stat_from_spent_resource"
+  ],
+  "02186": [
+    "draw_player_3",
+    "location_clue_exist"
+  ],
+  "02187": [
+    "boost_intellect_2",
+    "boost_willpower_2",
+    "cost_fast_spend_resource",
+    "hand_check",
+    "stat_from_spent_resource"
+  ],
+  "02188": [
+    "gain_resource_1",
+    "timing_reaction_turn_begins",
+    "your_location_investigator"
+  ],
+  "02189": [
+    "boost_agility_3",
+    "boost_intellect_3",
+    "cost_fast_spend_resource",
+    "stat_from_spent_resource"
+  ],
+  "02190": [
+    "chaos_ignore_effect",
+    "chaos_ignore_modifier",
+    "chaos_reveal_before_effect",
+    "chaos_reveal_token_cultist",
+    "chaos_reveal_token_elder_thing",
+    "chaos_reveal_token_skull",
+    "chaos_reveal_token_tablet"
+  ],
+  "02191": [
+    "boost_combat_3",
+    "boost_willpower_3",
+    "doom_add",
+    "limit_per_test_1"
+  ],
+  "02192": [
+    "difficulty_check_higher_2",
+    "test_you_perform"
+  ],
+  "02193": [
+    "boost_agility_1",
+    "boost_combat_1",
+    "cost_fast_spend_resource",
+    "stat_from_spent_resource"
+  ],
+  "02194": [
+    "draw_player_1",
+    "gain_resource_3"
+  ],
+  "02225": [
+    "enemy_value_horror",
+    "heal_horror",
+    "timing_fast_defeat_enemy",
+    "trait_monster",
+    "your_location_investigator"
+  ],
+  "02226": [
+    "boost_combat_3",
+    "cost_action_spend_ammo",
+    "damage_plus_2",
+    "engage_not_with_you",
+    "uses_type_ammo"
+  ],
+  "02227": [
+    "location_clue_exist"
+  ],
+  "02228": [
+    "difficulty_decrease_fight",
+    "duration_until_end_phase",
+    "enemy_value_fight",
+    "fast_play",
+    "initiate_test_intellect",
+    "succeed_by",
+    "timing_fast_during_any_window",
+    "your_location_enemy"
+  ],
+  "02229": [
+    "succeed_by_2",
+    "take_action_now"
+  ],
+  "02230": [
+    "chaos_ignore_effect",
+    "chaos_ignore_modifier",
+    "chaos_reveal_another_instead",
+    "chaos_reveal_token_auto_fail",
+    "cost_reaction_spend_resource",
+    "rfg_self",
+    "timing_reaction_chaos_reveal_after"
+  ],
+  "02231": [
+    "succeed_by_2",
+    "test_you_perform",
+    "to_hand_from_commit"
+  ],
+  "02232": [
+    "boost_intellect_1_passive",
+    "bottom_of_deck",
+    "cost_fast_exhaust_self",
+    "doom_add",
+    "look_at_encounter",
+    "look_at_investigator",
+    "order_encounter",
+    "order_investigator"
+  ],
+  "02233": [
+    "additional_clue_2",
+    "bold_investigate",
+    "boost_willpower_2",
+    "chaos_reveal_token_auto_fail",
+    "chaos_reveal_token_cultist",
+    "chaos_reveal_token_elder_sign",
+    "chaos_reveal_token_skull",
+    "chaos_reveal_token_tablet",
+    "cost_action_spend_charge",
+    "end_your_turn",
+    "lose_action",
+    "result_test_success",
+    "stat_not_intellect",
+    "stat_use_willpower",
+    "uses_starting_3",
+    "uses_type_charge"
+  ],
+  "02234": [
+    "boost_agility_1_passive",
+    "boost_combat_1_passive",
+    "boost_intellect_1_passive",
+    "boost_willpower_1_passive",
+    "current_resource_zero",
+    "phase_upkeep"
+  ],
+  "02235": [
+    "aoe_evade",
+    "engage_with_you",
+    "move_investigator_any",
+    "skill_benefit_performing"
+  ],
+  "02260": [
+    "skill_another_investigator",
+    "skill_gains_willpower_wild"
+  ],
+  "02261": [
+    "cancel_damage",
+    "cancel_horror",
+    "fast_play",
+    "gain_resource",
+    "timing_fast_dealt_damage",
+    "timing_fast_dealt_horror"
+  ],
+  "02262": [
+    "cost_action_spend_supply",
+    "heal_damage",
+    "researched",
+    "uses_starting_4",
+    "uses_type_supply",
+    "your_location_investigator"
+  ],
+  "02263": [
+    "bold_fight",
+    "cost_action_spend_supply",
+    "damage_plus_2",
+    "researched",
+    "stat_base_combat_6",
+    "uses_starting_3",
+    "uses_type_supply"
+  ],
+  "02264": [
+    "bold_evade",
+    "cost_action_spend_supply",
+    "researched",
+    "stat_base_agility_6",
+    "uses_starting_4",
+    "uses_type_supply"
+  ],
+  "02265": [
+    "cost_fast_spend_resource",
+    "play_from_hand_paying_cost",
+    "trait_item"
+  ],
+  "02266": [
+    "additional_action_3",
+    "fast_play",
+    "timing_fast_during_your_turn"
+  ],
+  "02267": [
+    "doom_remove"
+  ],
+  "02268": [
+    "heal_horror",
+    "result_test_success",
+    "succeed_by_2"
+  ],
+  "02269": [
+    "draw_player_1",
+    "gain_resource_2",
+    "timing_reaction_chaos_reveal_after",
+    "your_location_skill_test"
+  ],
+  "02270": [
+    "any_investigator",
+    "at_end_of_round",
+    "to_play_from_discard",
+    "trait_ally"
+  ],
+  "02271": [
+    "auto_success",
+    "chaos_reveal_token_auto_fail",
+    "exile",
+    "test_you_perform",
+    "timing_skill_chaos_reveal_after"
+  ],
+  "02272": [
+    "difficulty_decrease"
+  ],
+  "02273": [
+    "draw_player_1",
+    "heal_horror",
+    "location_enemy_zero"
+  ],
+  "02299": [
+    "damage_plus_1",
+    "damage_plus_2",
+    "result_attack_success",
+    "succeed_by_2"
+  ],
+  "02300": [
+    "bold_fight",
+    "elite_unusable",
+    "enemy_manage_defeat"
+  ],
+  "02301": [
+    "bold_fight",
+    "boost_combat_5",
+    "cost_action_spend_ammo",
+    "damage_plus_2",
+    "uses_starting_3",
+    "uses_type_ammo"
+  ],
+  "02302": [
+    "cancel_encounter_draw",
+    "cost_reaction_exhaust_self",
+    "draw_encounter",
+    "timing_reaction_draw_encounter"
+  ],
+  "02303": [
+    "bold_investigate",
+    "discover_clue_remote",
+    "location_revealed",
+    "result_investigate_success",
+    "shroud_dependent"
+  ],
+  "02304": [
+    "bold_fight",
+    "boost_combat_2",
+    "cost_action_spend_ammo",
+    "damage_plus_2",
+    "spend_action",
+    "uses_starting_4",
+    "uses_type_ammo"
+  ],
+  "02305": [
+    "timing_fast_after_phase_begin",
+    "timing_fast_after_phase_end"
+  ],
+  "02306": [
+    "bold_fight",
+    "boost_intellect_3",
+    "chaos_reveal_token_auto_fail",
+    "chaos_reveal_token_cultist",
+    "chaos_reveal_token_elder_thing",
+    "chaos_reveal_token_skull",
+    "chaos_reveal_token_tablet",
+    "cost_action_spend_charge",
+    "damage_plus_2",
+    "stat_not_combat",
+    "stat_use_willpower",
+    "take_horror",
+    "uses_starting_4",
+    "uses_type_charge"
+  ],
+  "02307": [
+    "cancel_encounter_effect",
+    "fast_play",
+    "take_horror",
+    "timing_fast_when_draw_treachery"
+  ],
+  "02308": [
+    "cost_reaction_exhaust_self",
+    "cost_reaction_horror_self",
+    "damage_redirect",
+    "enemy_value_damage",
+    "soak_benefit_horror",
+    "timing_fast_enemy_attacks",
+    "your_location_enemy"
+  ],
+  "02309": [
+    "cost_reaction_exhaust_self",
+    "skill_card",
+    "timing_reaction_after_test_fail",
+    "to_hand_from_commit"
+  ],
+  "02310": [
+    "discard_self",
+    "fast_play",
+    "phase_mythos_end",
+    "stat_base_6",
+    "timing_reaction_enters_play"
+  ],
+  "08002": [
+    "bold_fight",
+    "boost_combat_2",
+    "damage_plus_1",
+    "deck_restriction"
+  ],
+  "08005": [
+    "deck_restriction"
+  ],
+  "08008": [
+    "bold_fight",
+    "damage_plus_1",
+    "deck_restriction",
+    "fast_play"
+  ],
+  "08011a": [
+    "boost_willpower_1",
+    "deck_restriction"
+  ],
+  "08011b": [
+    "deck_restriction",
+    "trait_unbroken"
+  ],
+  "08012a": [
+    "boost_intellect_1",
+    "deck_restriction"
+  ],
+  "08012b": [
+    "deck_restriction",
+    "trait_unbroken"
+  ],
+  "08013a": [
+    "boost_combat_1",
+    "deck_restriction"
+  ],
+  "08013b": [
+    "deck_restriction",
+    "trait_unbroken"
+  ],
+  "08014a": [
+    "boost_agility_1",
+    "deck_restriction"
+  ],
+  "08014b": [
+    "deck_restriction",
+    "trait_unbroken"
+  ],
+  "08017": [
+    "deck_restriction",
+    "trait_item"
+  ],
+  "08019": [
+    "limit_1_per_deck",
+    "trait_item"
+  ],
+  "08020": [
+    "bold_fight",
+    "damage_plus_1"
+  ],
+  "08021": [
+    "fast_play"
+  ],
+  "08022": [
+    "bold_fight",
+    "boost_combat_1",
+    "damage_plus_1"
+  ],
+  "08023": [
+    "bold_fight",
+    "damage_plus_1",
+    "stat_add_agility"
+  ],
+  "08024": [],
+  "08025": [
+    "bold_fight",
+    "boost_combat_1",
+    "damage_plus_1"
+  ],
+  "08026": [
+    "fast_play",
+    "initiate_test_agility_1"
+  ],
+  "08027": [
+    "boost_agility_1",
+    "boost_combat_1",
+    "fast_play",
+    "trait_composure"
+  ],
+  "08028": [
+    "engage_with_you",
+    "fast_play",
+    "gain_resource_3"
+  ],
+  "08029": [
+    "bold_fight",
+    "damage_plus_3",
+    "stat_add_agility"
+  ],
+  "08030": [
+    "bold_fight",
+    "boost_combat_2",
+    "damage_plus_1"
+  ],
+  "08031": [
+    "draw_player_2",
+    "limit_1_per_deck"
+  ],
+  "08032": [
+    "boost_intellect_1"
+  ],
+  "08033": [
+    "cost_reaction_exhaust_self",
+    "limit_1_per_deck"
+  ],
+  "08034": [
+    "fast_play",
+    "timing_fast_during_your_turn"
+  ],
+  "08035": [
+    "boost_agility_1",
+    "cost_reaction_exhaust_self",
+    "trait_footwear"
+  ],
+  "08036": [
+    "fast_play",
+    "timing_fast_during_your_turn"
+  ],
+  "08037": [],
+  "08038": [
+    "initiate_test_intellect_2",
+    "succeed_by_2"
+  ],
+  "08039": [
+    "bold_investigate",
+    "draw_player_1",
+    "trait_relic"
+  ],
+  "08040": [
+    "boost_combat_1",
+    "boost_intellect_1",
+    "fast_play",
+    "trait_composure"
+  ],
+  "08041": [
+    "elite_unusable",
+    "limit_1_per_deck",
+    "uses_starting_4",
+    "uses_type_leylines"
+  ],
+  "08042": [
+    "limit_1_per_deck",
+    "uses_starting_4",
+    "uses_type_leylines"
+  ],
+  "08043": [
+    "elite_unusable",
+    "limit_1_per_deck",
+    "uses_starting_4",
+    "uses_type_leylines"
+  ],
+  "08044": [
+    "draw_player_1",
+    "draw_player_2",
+    "limit_1_per_deck",
+    "uses_starting_4",
+    "uses_type_leylines"
+  ],
+  "08045": [
+    "boost_agility_1",
+    "boost_intellect_1"
+  ],
+  "08046": [
+    "limit_1_per_deck"
+  ],
+  "08047": [
+    "bold_move"
+  ],
+  "08048": [
+    "chaos_reveal_token_auto_fail",
+    "chaos_reveal_token_cultist",
+    "chaos_reveal_token_elder_sign",
+    "chaos_reveal_token_elder_thing",
+    "chaos_reveal_token_skull",
+    "chaos_reveal_token_tablet",
+    "gain_resource_4",
+    "gain_resource_5",
+    "gain_resource_6",
+    "gain_resource_9"
+  ],
+  "08049": [
+    "fast_play"
+  ],
+  "08050": [
+    "fast_play",
+    "gain_resource_1"
+  ],
+  "08051": [
+    "draw_player_1",
+    "trait_item"
+  ],
+  "08052": [],
+  "08053": [
+    "uses_starting_0",
+    "uses_type_charge"
+  ],
+  "08054": [
+    "draw_player_1",
+    "fast_play"
+  ],
+  "08055": [
+    "fast_play"
+  ],
+  "08056": [
+    "boost_agility_1",
+    "boost_willpower_1",
+    "fast_play",
+    "trait_composure"
+  ],
+  "08057": [],
+  "08058": [
+    "uses_starting_0",
+    "uses_type_charge"
+  ],
+  "08059": [
+    "limit_1_per_deck"
+  ],
+  "08060": [
+    "bold_fight",
+    "boost_combat_1",
+    "damage_plus_1"
+  ],
+  "08061": [],
+  "08062": [],
+  "08063": [],
+  "08064": [
+    "fast_play"
+  ],
+  "08065": [],
+  "08066": [
+    "draw_player_1"
+  ],
+  "08067": [],
+  "08068": [
+    "uses_starting_4",
+    "uses_type_charge"
+  ],
+  "08069": [
+    "fast_play",
+    "trait_composure",
+    "trait_spell"
+  ],
+  "08070": [
+    "trait_spell",
+    "uses_replenish",
+    "uses_starting_1",
+    "uses_type_charge"
+  ],
+  "08071": [
+    "limit_1_per_deck"
+  ],
+  "08072": [
+    "discard_zero_uses",
+    "trait_item",
+    "uses_starting_5",
+    "uses_type_secret"
+  ],
+  "08073": [
+    "discard_zero_uses",
+    "trait_ally",
+    "uses_starting_3",
+    "uses_type_supply"
+  ],
+  "08074": [
+    "trait_item",
+    "uses_starting_3",
+    "uses_type_durability"
+  ],
+  "08075": [
+    "uses_starting_1",
+    "uses_type_charge"
+  ],
+  "08076": [],
+  "08077": [],
+  "08078": [],
+  "08079": [
+    "draw_player_1",
+    "fast_play",
+    "trait_ally"
+  ],
+  "08080": [
+    "bold_evade",
+    "bold_fight",
+    "boost_combat_1",
+    "damage_plus_1",
+    "elite_unusable",
+    "engage_with_you"
+  ],
+  "08081": [
+    "boost_intellect_1",
+    "boost_willpower_1",
+    "fast_play",
+    "trait_composure"
+  ],
+  "08082": [
+    "elite_unusable",
+    "fast_play"
+  ],
+  "08083": [
+    "trait_ally"
+  ],
+  "08084": [],
+  "08085": [],
+  "08086": [
+    "boost_combat_1",
+    "boost_intellect_1",
+    "cost_reaction_exhaust_self",
+    "damage_plus_1"
+  ],
+  "08087": [
+    "chaos_reveal_token_auto_fail",
+    "chaos_reveal_token_cultist",
+    "chaos_reveal_token_elder_thing",
+    "chaos_reveal_token_skull",
+    "chaos_reveal_token_tablet",
+    "trait_firearm",
+    "trait_ranged"
+  ],
+  "08088": [
+    "bold_fight",
+    "boost_combat_3",
+    "uses_starting_0",
+    "uses_type_ammo"
+  ],
+  "08089": [
+    "trait_firearm"
+  ],
+  "08090": [
+    "bold_fight",
+    "succeed_by_0",
+    "uses_starting_6",
+    "uses_type_charge"
+  ],
+  "08091": [
+    "chaos_reveal_token_cultist",
+    "chaos_reveal_token_elder_sign",
+    "chaos_reveal_token_elder_thing",
+    "chaos_reveal_token_tablet",
+    "cost_reaction_exhaust_self"
+  ],
+  "08092": [
+    "bold_fight",
+    "succeed_by_0",
+    "uses_starting_9",
+    "uses_type_charge"
+  ],
+  "08093": [
+    "bold_fight",
+    "damage_plus_1",
+    "damage_plus_2",
+    "elite_unusable",
+    "stat_add_willpower",
+    "succeed_by_3"
+  ],
+  "08094": [
+    "bold_fight",
+    "boost_combat_2",
+    "cost_action_multiple",
+    "damage_plus_1",
+    "damage_plus_2"
+  ],
+  "08095": [
+    "trait_hazard"
+  ],
+  "08096": [
+    "bold_fight",
+    "boost_combat_1",
+    "boost_combat_5",
+    "cost_action_multiple",
+    "damage_plus_1",
+    "damage_plus_5"
+  ],
+  "08097": [
+    "bold_investigate"
+  ],
+  "08098": [
+    "uses_starting_3",
+    "uses_type_secret"
+  ],
+  "08099": [
+    "boost_agility_1",
+    "boost_intellect_1",
+    "cost_reaction_exhaust_self",
+    "elite_unusable"
+  ],
+  "08100": [
+    "uses_starting_3",
+    "uses_type_secret"
+  ],
+  "08101": [
+    "bold_investigate",
+    "succeed_by_0",
+    "uses_starting_4",
+    "uses_type_charge"
+  ],
+  "08102": [
+    "draw_player_3",
+    "fast_play",
+    "trait_ally"
+  ],
+  "08103": [
+    "bold_investigate",
+    "succeed_by_0",
+    "uses_starting_6",
+    "uses_type_charge"
+  ],
+  "08104": [
+    "cost_reaction_exhaust_self",
+    "trait_item",
+    "uses_starting_3",
+    "uses_type_secret"
+  ],
+  "08105": [
+    "fast_play"
+  ],
+  "08106": [
+    "cost_reaction_exhaust_self",
+    "trait_item",
+    "uses_starting_3",
+    "uses_type_secret"
+  ],
+  "08107": [
+    "damage_plus_1",
+    "fast_play"
+  ],
+  "08108": [
+    "elite_unusable"
+  ],
+  "08109": [
+    "bold_evade",
+    "succeed_by_0",
+    "take_damage",
+    "uses_starting_3",
+    "uses_type_charge"
+  ],
+  "08110": [
+    "elite_unusable"
+  ],
+  "08111": [
+    "bold_evade",
+    "succeed_by_0",
+    "take_damage",
+    "uses_starting_4",
+    "uses_type_charge"
+  ],
+  "08112": [
+    "chaos_reveal_token_skull",
+    "fast_play"
+  ],
+  "08113": [
+    "gain_resource_10",
+    "limit_1_per_investigator"
+  ],
+  "08114": [
+    "cost_reaction_exhaust_self",
+    "limit_1_per_deck"
+  ],
+  "08115": [
+    "cost_reaction_exhaust_self",
+    "limit_1_per_deck"
+  ],
+  "08116": [
+    "fast_play",
+    "timing_fast_during_your_turn"
+  ],
+  "08117": [
+    "initiate_test_willpower_1",
+    "succeed_by_0",
+    "uses_starting_4",
+    "uses_type_charge"
+  ],
+  "08118": [
+    "bold_fight",
+    "cost_action_exhaust_self",
+    "damage_plus_1",
+    "elite_unusable",
+    "uses_starting_3",
+    "uses_type_charge"
+  ],
+  "08119": [
+    "initiate_test_willpower_0",
+    "succeed_by_0",
+    "uses_starting_6",
+    "uses_type_charge"
+  ],
+  "08120": [
+    "trait_fortune",
+    "trait_spell",
+    "trait_spirit",
+    "uses_replenish",
+    "uses_starting_2",
+    "uses_type_resource"
+  ],
+  "08121": [
+    "trait_charm",
+    "trait_tactic",
+    "trait_tome",
+    "uses_replenish",
+    "uses_starting_2",
+    "uses_type_resource"
+  ],
+  "08122": [
+    "trait_armor",
+    "trait_firearm",
+    "trait_melee",
+    "uses_replenish",
+    "uses_starting_2",
+    "uses_type_resource"
+  ],
+  "08123": [
+    "trait_insight",
+    "trait_tool",
+    "trait_trick",
+    "uses_replenish",
+    "uses_starting_2",
+    "uses_type_resource"
+  ],
+  "08124": [
+    "trait_favor",
+    "trait_relic",
+    "trait_ritual",
+    "uses_replenish",
+    "uses_starting_2",
+    "uses_type_resource"
+  ],
+  "08125": [
+    "limit_1_per_deck"
+  ],
+  "08126": [
+    "chaos_reveal_token_auto_fail"
+  ],
+  "08127": [
+    "bold_fight",
+    "bold_move",
+    "cost_action_exhaust_self"
+  ],
+  "08128": [
+    "trait_creature"
+  ],
+  "08129": [],
+  "06006": [
+    "bold_fight",
+    "boost_combat_2",
+    "damage_plus_1",
+    "deck_restriction",
+    "uses_starting_2",
+    "uses_type_ammo"
+  ],
+  "06008": [
+    "deck_restriction"
+  ],
+  "06010": [
+    "deck_restriction",
+    "uses_starting_6",
+    "uses_type_bounties"
+  ],
+  "06011": [
+    "bold_fight",
+    "boost_combat_1",
+    "damage_plus_1",
+    "deck_restriction",
+    "uses_starting_3",
+    "uses_type_ammo"
+  ],
+  "06013": [
+    "deck_restriction",
+    "engage_with_you",
+    "uses_starting_3",
+    "uses_type_charge"
+  ],
+  "06015a": [],
+  "06015b": [],
+  "06016": [
+    "deck_restriction",
+    "draw_player_1",
+    "gain_resource_1"
+  ],
+  "06018": [
+    "bold_fight",
+    "boost_combat_1",
+    "damage_plus_1",
+    "limit_1_per_deck"
+  ],
+  "06020": [
+    "fast_play"
+  ],
+  "06021": [
+    "fast_play"
+  ],
+  "06022": [
+    "cost_fast_exhaust_self",
+    "uses_starting_3",
+    "uses_type_charge"
+  ],
+  "06023": [
+    "gain_resource_2"
+  ],
+  "06024": [],
+  "06026": [
+    "draw_player_1",
+    "gain_resource_2"
+  ],
+  "06027": [
+    "max_per_game_2"
+  ],
+  "06028": [
+    "draw_player_1",
+    "gain_resource_1"
+  ],
+  "06029": [
+    "fast_play"
+  ],
+  "06030": [
+    "limit_1_per_deck"
+  ],
+  "06031": [
+    "bold_evade",
+    "cost_action_exhaust_self",
+    "fast_play"
+  ],
+  "06032": [
+    "bold_fight",
+    "cost_action_exhaust_self",
+    "fast_play"
+  ],
+  "06033": [
+    "bold_investigate",
+    "cost_action_exhaust_self",
+    "fast_play"
+  ],
+  "06034": [
+    "bold_investigate"
+  ],
+  "06110": [
+    "fast_play"
+  ],
+  "06111": [
+    "draw_player_1"
+  ],
+  "06112": [
+    "succeed_by_3"
+  ],
+  "06113": [],
+  "06114": [
+    "bold_investigate",
+    "boost_intellect_1",
+    "boost_intellect_5"
+  ],
+  "06115": [],
+  "06116": [
+    "draw_player_3",
+    "uses_starting_4",
+    "uses_type_secret"
+  ],
+  "06117": [
+    "bold_investigate",
+    "stat_add_willpower"
+  ],
+  "06118": [
+    "boost_combat_1"
+  ],
+  "06155": [
+    "trait_item"
+  ],
+  "06156": [
+    "fast_play"
+  ],
+  "06157": [
+    "draw_player_2"
+  ],
+  "06158": [
+    "cost_action_exhaust_self",
+    "elite_unusable",
+    "uses_starting_3",
+    "uses_type_secret"
+  ],
+  "06159": [
+    "cost_reaction_exhaust_self",
+    "draw_player_1"
+  ],
+  "06160": [],
+  "06161": [
+    "fast_play",
+    "timing_fast_during_your_turn",
+    "trait_firearm"
+  ],
+  "06162": [
+    "uses_starting_9",
+    "uses_type_resource"
+  ],
+  "06163": [
+    "uses_starting_3",
+    "uses_type_charge"
+  ],
+  "06164": [
+    "bold_evade",
+    "engage_with_you",
+    "stat_add_willpower"
+  ],
+  "06165": [],
+  "06166": [
+    "damage_plus_2",
+    "max_1_commit"
+  ],
+  "06167": [],
+  "06195": [
+    "bold_fight",
+    "boost_combat_2",
+    "chaos_reveal_token_elder_sign",
+    "damage_plus_2",
+    "uses_starting_5",
+    "uses_type_ammo"
+  ],
+  "06196": [
+    "cost_reaction_exhaust_self"
+  ],
+  "06197": [
+    "fast_play",
+    "trait_practiced"
+  ],
+  "06198": [],
+  "06199": [
+    "draw_player_3",
+    "gain_resource_3"
+  ],
+  "06200": [
+    "bold_investigate",
+    "cost_action_exhaust_self",
+    "gain_resource_2"
+  ],
+  "06201": [
+    "bold_fight",
+    "damage_plus_1",
+    "damage_plus_2",
+    "elite_unusable",
+    "stat_add_willpower"
+  ],
+  "06202": [
+    "trait_spell"
+  ],
+  "06203": [
+    "boost_agility_1",
+    "boost_willpower_1"
+  ],
+  "06204": [
+    "max_1_commit"
+  ],
+  "06205": [],
+  "06234": [
+    "elite_unusable",
+    "fast_play"
+  ],
+  "06235": [
+    "gain_resource_2"
+  ],
+  "06236": [],
+  "06237": [],
+  "06238": [],
+  "06239": [
+    "cost_reaction_exhaust_self",
+    "limit_1_per_investigator"
+  ],
+  "06240": [],
+  "06241": [
+    "boost_combat_2",
+    "limit_1_per_deck"
+  ],
+  "06242": [
+    "boost_agility_2",
+    "limit_1_per_deck"
+  ],
+  "06243": [
+    "boost_intellect_2",
+    "limit_1_per_deck"
+  ],
+  "06244": [
+    "cost_reaction_exhaust_self",
+    "trait_spell"
+  ],
+  "06245": [],
+  "06246": [
+    "max_1_commit"
+  ],
+  "06276": [
+    "limit_1_per_deck",
+    "uses_starting_0",
+    "uses_type_charge"
+  ],
+  "06277": [
+    "chaos_reveal_token_cultist",
+    "chaos_reveal_token_elder_thing",
+    "chaos_reveal_token_skull",
+    "chaos_reveal_token_tablet"
+  ],
+  "06278": [
+    "draw_player_1"
+  ],
+  "06279": [
+    "cost_action_exhaust_self",
+    "uses_starting_2",
+    "uses_type_secret"
+  ],
+  "06280": [
+    "bold_fight",
+    "boost_combat_2"
+  ],
+  "06281": [
+    "boost_agility_1",
+    "boost_combat_1"
+  ],
+  "06282": [
+    "cost_fast_exhaust_self"
+  ],
+  "06284": [],
+  "06285": [
+    "chaos_reveal_token_elder_sign",
+    "chaos_reveal_token_elder_thing",
+    "chaos_reveal_token_tablet"
+  ],
+  "06323": [],
+  "06324": [
+    "cost_action_exhaust_self",
+    "cost_reaction_exhaust_self",
+    "trait_tome"
+  ],
+  "06325": [],
+  "06326": [
+    "gain_resource_2",
+    "trait_item"
+  ],
+  "06327": [
+    "bold_fight",
+    "uses_starting_2",
+    "uses_type_ammo"
+  ],
+  "06328": [
+    "uses_starting_3",
+    "uses_type_secret"
+  ],
+  "06329": [
+    "cost_reaction_exhaust_self",
+    "initiate_test_willpower_x",
+    "trait_spell"
+  ],
+  "06330": [
+    "chaos_reveal_token_auto_fail",
+    "limit_1_per_deck"
+  ],
+  "06332": [
+    "cost_reaction_exhaust_self",
+    "trait_item"
+  ],
+  "09002": [
+    "deck_restriction",
+    "draw_player_1"
+  ],
+  "09005": [
+    "bold_fight",
+    "boost_combat_2",
+    "damage_plus_1",
+    "deck_restriction",
+    "initiate_test_intellect_4",
+    "max_per_game_1",
+    "take_damage"
+  ],
+  "09006": [],
+  "09009": [
+    "cost_action_exhaust_self",
+    "deck_restriction"
+  ],
+  "09012": [
+    "deck_restriction",
+    "fast_play",
+    "timing_fast_during_your_turn"
+  ],
+  "09013": [
+    "deck_restriction",
+    "fast_play",
+    "stat_add_willpower"
+  ],
+  "09016": [
+    "cost_reaction_exhaust_self",
+    "deck_restriction"
+  ],
+  "09019": [
+    "cost_reaction_exhaust_self",
+    "deck_restriction",
+    "trait_ally"
+  ],
+  "09021": [
+    "customizable"
+  ],
+  "09022": [
+    "bold_fight",
+    "boost_combat_1",
+    "boost_combat_2",
+    "customizable",
+    "damage_plus_1",
+    "uses_replenish",
+    "uses_starting_4",
+    "uses_type_charge"
+  ],
+  "09023": [
+    "chaos_reveal_token_auto_fail",
+    "cost_reaction_exhaust_self",
+    "customizable",
+    "trait_firearm"
+  ],
+  "09024": [],
+  "09025": [
+    "bold_evade",
+    "elite_unusable"
+  ],
+  "09026": [
+    "initiate_test_combat_1"
+  ],
+  "09027": [
+    "elite_unusable",
+    "fast_play",
+    "trait_melee"
+  ],
+  "09028": [
+    "bold_parley",
+    "trait_ally"
+  ],
+  "09029": [
+    "fast_play",
+    "trait_firearm"
+  ],
+  "09030": [],
+  "09031": [],
+  "09032": [
+    "uses_starting_4",
+    "uses_type_charge"
+  ],
+  "09033": [
+    "boost_intellect_1"
+  ],
+  "09034": [],
+  "09035": [
+    "bold_evade",
+    "elite_unusable",
+    "fast_play",
+    "trait_humanoid"
+  ],
+  "09036": [
+    "trait_weapon"
+  ],
+  "09037": [
+    "cost_reaction_exhaust_self"
+  ],
+  "09038": [],
+  "09039": [],
+  "09040": [
+    "customizable",
+    "draw_player_2",
+    "gain_resource_2",
+    "initiate_test_intellect_1",
+    "uses_starting_3",
+    "uses_type_supply"
+  ],
+  "09041": [
+    "customizable",
+    "draw_player_1",
+    "limit_1_per_investigator"
+  ],
+  "09042": [
+    "customizable",
+    "trait_spell",
+    "trait_tome"
+  ],
+  "09043": [
+    "boost_agility_1",
+    "boost_combat_1"
+  ],
+  "09044": [
+    "bold_investigate",
+    "boost_intellect_2",
+    "draw_player_1",
+    "succeed_by_2",
+    "uses_starting_4",
+    "uses_type_secret"
+  ],
+  "09045": [
+    "initiate_test_intellect_0"
+  ],
+  "09046": [
+    "trait_ally"
+  ],
+  "09047": [],
+  "09048": [
+    "bold_investigate",
+    "stat_add_willpower"
+  ],
+  "09049": [],
+  "09050": [
+    "cost_reaction_exhaust_self",
+    "succeed_by_0"
+  ],
+  "09051": [
+    "uses_starting_4",
+    "uses_type_secret"
+  ],
+  "09052": [
+    "bold_parley",
+    "elite_unusable"
+  ],
+  "09053": [],
+  "09054": [
+    "cost_reaction_exhaust_self"
+  ],
+  "09055": [
+    "cost_reaction_exhaust_self"
+  ],
+  "09056": [
+    "cost_action_multiple",
+    "draw_player_1",
+    "trait_ally",
+    "uses_starting_4",
+    "uses_type_supply"
+  ],
+  "09057": [
+    "bold_investigate",
+    "boost_intellect_2",
+    "cost_action_exhaust_self",
+    "uses_starting_3",
+    "uses_type_supply"
+  ],
+  "09058": [
+    "damage_plus_1",
+    "initiate_test_intellect_1"
+  ],
+  "09059": [
+    "cost_action_exhaust_self",
+    "customizable",
+    "uses_starting_3",
+    "uses_type_evidence"
+  ],
+  "09060": [
+    "customizable"
+  ],
+  "09061": [
+    "customizable",
+    "fast_play"
+  ],
+  "09062": [
+    "bold_evade",
+    "boost_agility_2",
+    "elite_unusable",
+    "uses_starting_4",
+    "uses_type_supply"
+  ],
+  "09063": [],
+  "09064": [
+    "bold_investigate",
+    "gain_resource_1",
+    "uses_starting_6",
+    "uses_type_supply"
+  ],
+  "09065": [
+    "fast_play",
+    "timing_fast_during_your_turn",
+    "trait_armor",
+    "trait_clothing",
+    "trait_illicit"
+  ],
+  "09066": [
+    "fast_play",
+    "timing_fast_during_your_turn",
+    "trait_ally"
+  ],
+  "09067": [
+    "fast_play",
+    "trait_humanoid",
+    "trait_illicit",
+    "trait_item"
+  ],
+  "09068": [
+    "elite_unusable",
+    "engage_with_you"
+  ],
+  "09069": [
+    "bold_evade",
+    "fast_play"
+  ],
+  "09070": [
+    "max_1_commit"
+  ],
+  "09071": [
+    "cost_reaction_exhaust_self"
+  ],
+  "09072": [
+    "cost_reaction_exhaust_self",
+    "trait_tactic",
+    "trait_trick"
+  ],
+  "09073": [
+    "cost_reaction_exhaust_self",
+    "limit_1_per_investigator"
+  ],
+  "09074": [
+    "bold_investigate",
+    "stat_add_agility",
+    "succeed_by_1",
+    "succeed_by_3"
+  ],
+  "09075": [
+    "bold_investigate",
+    "gain_resource_1",
+    "succeed_by_2",
+    "uses_starting_6",
+    "uses_type_supply"
+  ],
+  "09076": [
+    "trait_illicit"
+  ],
+  "09077": [
+    "trait_illicit"
+  ],
+  "09078": [
+    "draw_player_1",
+    "fast_play",
+    "gain_resource_2",
+    "timing_fast_during_your_turn"
+  ],
+  "09079": [
+    "customizable",
+    "discard_zero_uses",
+    "uses_starting_3",
+    "uses_type_charge"
+  ],
+  "09080": [
+    "customizable"
+  ],
+  "09081": [
+    "bold_parley",
+    "customizable",
+    "elite_unusable",
+    "fast_play",
+    "timing_fast_during_your_turn"
+  ],
+  "09082": [
+    "bold_fight",
+    "boost_combat_1",
+    "damage_plus_1"
+  ],
+  "09083": [
+    "bold_investigate",
+    "boost_intellect_1"
+  ],
+  "09084": [],
+  "09085": [
+    "bold_evade",
+    "boost_agility_1",
+    "succeed_by_2"
+  ],
+  "09086": [
+    "draw_player_1"
+  ],
+  "09087": [
+    "elite_unusable",
+    "engage_with_you"
+  ],
+  "09088": [
+    "bold_parley",
+    "elite_unusable",
+    "gain_resource_1"
+  ],
+  "09089": [
+    "elite_unusable"
+  ],
+  "09090": [
+    "uses_replenish"
+  ],
+  "09091": [],
+  "09092": [],
+  "09093": [
+    "elite_unusable",
+    "fast_play",
+    "timing_fast_during_your_turn"
+  ],
+  "09094": [],
+  "09095": [
+    "trait_ritual",
+    "trait_spell"
+  ],
+  "09096": [
+    "bold_fight",
+    "boost_combat_1",
+    "damage_plus_1"
+  ],
+  "09097": [
+    "bold_investigate",
+    "boost_intellect_1"
+  ],
+  "09098": [
+    "bold_evade",
+    "boost_agility_1",
+    "succeed_by_2"
+  ],
+  "09099": [
+    "customizable",
+    "limit_1_per_investigator"
+  ],
+  "09100": [
+    "customizable",
+    "discard_zero_uses",
+    "elite_unusable",
+    "uses_starting_2",
+    "uses_type_time"
+  ],
+  "09101": [
+    "customizable"
+  ],
+  "09102": [
+    "cost_reaction_exhaust_self"
+  ],
+  "09103": [],
+  "09104": [
+    "draw_player_1",
+    "fast_play",
+    "gain_resource_1"
+  ],
+  "09105": [
+    "fast_play"
+  ],
+  "09106": [
+    "trait_dilemma"
+  ],
+  "09107": [
+    "draw_player_1",
+    "trait_dilemma"
+  ],
+  "09108": [
+    "fast_play"
+  ],
+  "09109": [
+    "draw_player_3",
+    "trait_dilemma"
+  ],
+  "09110": [
+    "fast_play"
+  ],
+  "09111": [
+    "trait_dilemma"
+  ],
+  "09112": [
+    "max_1_commit"
+  ],
+  "09113": [
+    "bold_fight",
+    "boost_combat_2",
+    "chaos_reveal_token_auto_fail",
+    "chaos_reveal_token_skull",
+    "damage_plus_1"
+  ],
+  "09114": [
+    "cost_reaction_exhaust_self"
+  ],
+  "09115": [
+    "trait_dilemma"
+  ],
+  "09116": [
+    "trait_item"
+  ],
+  "09117": [
+    "bold_investigate",
+    "uses_starting_3",
+    "uses_type_keys"
+  ],
+  "09118": [
+    "trait_dilemma"
+  ],
+  "09119": [
+    "customizable",
+    "discard_zero_uses",
+    "uses_starting_4",
+    "uses_type_aether"
+  ],
+  "09120": [
+    "trait_tool"
+  ],
+  "09121": [
+    "max_per_game_1"
+  ],
+  "09122": [
+    "uses_starting_4",
+    "uses_type_supply"
+  ],
+  "09123": [],
+  "01006": [
+    "bold_fight",
+    "boost_combat_1",
+    "boost_combat_3",
+    "cost_action_spend_ammo",
+    "damage_plus_1",
+    "deck_restriction",
+    "location_clue_exist",
+    "uses_starting_4",
+    "uses_type_ammo"
+  ],
+  "01008": [
+    "additional_slot_hand",
+    "deck_restriction"
+  ],
+  "01010": [
+    "deck_restriction",
+    "duration_until_end_round",
+    "elite_unusable",
+    "enemy_cannot_attack",
+    "fast_play"
+  ],
+  "01012": [
+    "deck_restriction",
+    "draw_player_1",
+    "timing_reaction_enters_play",
+    "trait_spell"
+  ],
+  "01014": [
+    "deck_restriction",
+    "timing_reaction_after_play",
+    "to_deck_from_play",
+    "to_play_from_discard"
+  ],
+  "01516": [
+    "bold_fight",
+    "boost_combat_1",
+    "cost_action_spend_ammo",
+    "damage_plus_1",
+    "uses_starting_4",
+    "uses_type_ammo"
+  ],
+  "01517": [
+    "boost_combat_1",
+    "boost_willpower_1",
+    "cost_fast_spend_resource",
+    "stat_from_spent_resource",
+    "timing_fast_test"
+  ],
+  "01518": [
+    "boost_combat_1_passive",
+    "cost_fast_discard_self",
+    "deal_damage_enemy",
+    "testless_damage",
+    "your_location_enemy"
+  ],
+  "01519": [
+    "cost_action_spend_supply",
+    "discard_zero_uses",
+    "heal_damage",
+    "heal_horror",
+    "uses_starting_3",
+    "uses_type_supply",
+    "your_location_investigator"
+  ],
+  "01520": [
+    "bold_fight",
+    "damage_plus_1",
+    "engage_with_you"
+  ],
+  "01521": [
+    "deal_damage_enemy",
+    "soak_benefit_damage",
+    "testless_damage",
+    "timing_reaction_enemy_deal_damage"
+  ],
+  "01522": [
+    "discover_clue_your_location_1",
+    "fast_play",
+    "timing_fast_defeat_enemy"
+  ],
+  "01523": [
+    "cancel_attack",
+    "fast_play",
+    "timing_fast_enemy_attacks",
+    "your_location_investigator"
+  ],
+  "01524": [
+    "aoe_damage",
+    "connecting_location_enemy",
+    "connecting_location_investigator",
+    "deal_damage_enemy",
+    "deal_damage_investigator",
+    "testless_damage"
+  ],
+  "01525": [
+    "damage_plus_1",
+    "result_attack_success",
+    "skill_benefit_performing"
+  ],
+  "01526": [
+    "trait_firearm",
+    "uses_add_ammo",
+    "your_location_investigator"
+  ],
+  "01527": [
+    "additional_action_2",
+    "boost_willpower_1_passive",
+    "cost_fast_discard_self",
+    "timing_fast_taking_turn",
+    "your_location_investigator"
+  ],
+  "01528": [
+    "boost_combat_1_passive",
+    "cost_fast_damage_self",
+    "cost_fast_exhaust_self",
+    "deal_damage_enemy",
+    "soak_benefit_damage",
+    "testless_damage",
+    "your_location_enemy"
+  ],
+  "01529": [
+    "boost_combat_3",
+    "cost_action_spend_ammo",
+    "damage_plus_1",
+    "damage_plus_2",
+    "damage_plus_3",
+    "damage_plus_4",
+    "damage_plus_5",
+    "fail_by",
+    "result_attack_fail",
+    "result_attack_success",
+    "succeed_by",
+    "uses_starting_2",
+    "uses_type_ammo"
+  ],
+  "01530": [
+    "boost_intellect_1",
+    "fast_play",
+    "investigate_while"
+  ],
+  "01531": [
+    "cost_action_exhaust_self",
+    "draw_player",
+    "search_player",
+    "shuffle_player",
+    "your_location_investigator"
+  ],
+  "01532": [
+    "search_player",
+    "shuffle_player",
+    "timing_reaction_enters_play",
+    "to_hand_from_deck",
+    "trait_tome"
+  ],
+  "01533": [
+    "boost_intellect_1_passive",
+    "gain_resource_1",
+    "result_investigate_success"
+  ],
+  "01534": [
+    "boost_agility_1",
+    "boost_intellect_1",
+    "cost_fast_spend_resource",
+    "stat_from_spent_resource"
+  ],
+  "01535": [
+    "deal_damage_investigator",
+    "heal_damage",
+    "initiate_test_intellect_2",
+    "result_test_fail",
+    "result_test_success",
+    "your_location_investigator"
+  ],
+  "01536": [
+    "duration_until_end_round",
+    "fast_play",
+    "stat_not_agility",
+    "stat_not_combat",
+    "stat_use_intellect",
+    "timing_fast_during_your_turn"
+  ],
+  "01537": [
+    "discover_clue_your_location_1",
+    "fast_play",
+    "testless_clue",
+    "timing_fast_during_your_turn"
+  ],
+  "01538": [
+    "attach_location",
+    "discard_self",
+    "elite_unusable",
+    "move_enemy_control"
+  ],
+  "01539": [
+    "additional_clue_1",
+    "result_investigate_success",
+    "skill_benefit_performing"
+  ],
+  "01540": [
+    "boost_intellect_1",
+    "fast_play",
+    "investigate_while",
+    "location_clue_zero",
+    "to_hand_from_play"
+  ],
+  "01541": [
+    "cost_reaction_discard_self",
+    "elite_unusable",
+    "enemy_manage_discard",
+    "timing_reaction_spawn_your_location"
+  ],
+  "01542": [
+    "boost_any_2",
+    "cost_action_exhaust_self",
+    "duration_until_end_phase",
+    "your_location_investigator"
+  ],
+  "01543": [
+    "draw_player_3",
+    "fast_play",
+    "timing_fast_during_your_turn",
+    "your_location_investigator"
+  ],
+  "01544": [
+    "bold_fight",
+    "damage_plus_1",
+    "fast_play",
+    "succeed_by_2"
+  ],
+  "01545": [
+    "bold_investigate",
+    "cost_action_exhaust_self",
+    "gain_resource_3",
+    "instead_of_clue",
+    "result_investigate_success"
+  ],
+  "01546": [
+    "cost_reaction_exhaust_self",
+    "draw_player_1",
+    "timing_reaction_after_evade"
+  ],
+  "01547": [
+    "bold_fight",
+    "boost_combat_2",
+    "cost_action_spend_ammo",
+    "damage_plus_1",
+    "succeed_by_2",
+    "uses_starting_3",
+    "uses_type_ammo"
+  ],
+  "01548": [
+    "additional_action_1"
+  ],
+  "01549": [
+    "boost_agility_1",
+    "boost_combat_1",
+    "cost_fast_spend_resource",
+    "stat_from_spent_resource"
+  ],
+  "01550": [
+    "disengage",
+    "fast_play",
+    "move_investigator_self",
+    "timing_fast_during_your_turn"
+  ],
+  "01551": [
+    "bold_fight",
+    "damage_plus_2",
+    "stat_not_combat",
+    "stat_use_agility"
+  ],
+  "01552": [
+    "deal_damage_enemy",
+    "exhausted_enemy",
+    "testless_damage",
+    "your_location_enemy"
+  ],
+  "01553": [
+    "skill_benefit_self",
+    "succeed_by_3",
+    "test_you_perform",
+    "to_hand_from_commit"
+  ],
+  "01554": [
+    "additional_action_1"
+  ],
+  "01555": [
+    "boost_agility_1_passive",
+    "cost_action_exhaust_self",
+    "disengage",
+    "move_investigator_self",
+    "not_aoo"
+  ],
+  "01556": [
+    "chaos_modifier",
+    "fast_play",
+    "timing_fast_chaos_reveal_after"
+  ],
+  "01557": [
+    "gain_resource"
+  ],
+  "01558": [
+    "cost_fast_exhaust_self",
+    "discard_zero_uses",
+    "take_horror",
+    "uses_manip_secret_to_resource",
+    "uses_type_secret"
+  ],
+  "01559": [
+    "boost_willpower_1_passive"
+  ],
+  "01560": [
+    "bold_fight",
+    "chaos_reveal_during_effect",
+    "chaos_reveal_token_cultist",
+    "chaos_reveal_token_elder_thing",
+    "chaos_reveal_token_skull",
+    "chaos_reveal_token_tablet",
+    "cost_action_spend_charge",
+    "damage_plus_1",
+    "stat_not_combat",
+    "stat_use_intellect",
+    "take_horror",
+    "uses_type_charge"
+  ],
+  "01561": [
+    "cost_action_exhaust_self",
+    "cost_action_spend_charge",
+    "look_at_encounter",
+    "look_at_investigator",
+    "order_encounter",
+    "order_investigator",
+    "uses_type_charge"
+  ],
+  "01562": [
+    "boost_intellect_1",
+    "boost_willpower_1",
+    "cost_fast_spend_resource",
+    "stat_from_spent_resource"
+  ],
+  "01563": [
+    "cost_fast_exhaust_self",
+    "doom_add",
+    "draw_player",
+    "enters_play",
+    "search_player",
+    "shuffle_player",
+    "trait_spell"
+  ],
+  "01564": [
+    "discover_clue_your_location_2",
+    "draw_encounter",
+    "testless_clue"
+  ],
+  "01565": [
+    "cancel_revelation",
+    "fast_play",
+    "take_horror",
+    "timing_fast_when_draw_treachery"
+  ],
+  "01566": [
+    "bold_evade",
+    "chaos_reveal_token_auto_fail",
+    "chaos_reveal_token_cultist",
+    "chaos_reveal_token_elder_thing",
+    "chaos_reveal_token_skull",
+    "chaos_reveal_token_tablet",
+    "deal_damage_enemy",
+    "lose_action",
+    "stat_not_agility",
+    "stat_use_intellect"
+  ],
+  "01567": [
+    "heal_horror",
+    "result_test_success",
+    "skill_benefit_self"
+  ],
+  "01568": [
+    "duration_until_end_phase",
+    "elite_unusable",
+    "fast_play",
+    "timing_fast_after_phase_begin",
+    "your_location_enemy"
+  ],
+  "01569": [
+    "bold_evade",
+    "chaos_reveal_token_auto_fail",
+    "chaos_reveal_token_cultist",
+    "chaos_reveal_token_elder_thing",
+    "chaos_reveal_token_skull",
+    "chaos_reveal_token_tablet",
+    "deal_damage_enemy",
+    "lose_action",
+    "stat_not_agility",
+    "stat_use_willpower",
+    "take_horror"
+  ],
+  "01570": [
+    "additional_slot_arcane",
+    "cost_action_exhaust_self",
+    "trait_spell_asset",
+    "uses_add_charge"
+  ],
+  "01571": [
+    "chaos_ignore",
+    "chaos_resolve_choose",
+    "chaos_reveal_more_instead",
+    "cost_action_spend_charge",
+    "discard_zero_uses",
+    "timing_reaction_chaos_reveal_would",
+    "uses_starting_4",
+    "uses_type_charge"
+  ],
+  "01572": [],
+  "01573": [
+    "cost_reaction_exhaust_self",
+    "result_investigate_success",
+    "succeed_by_2",
+    "timing_reaction_after_investigate_success",
+    "to_hand_from_discard",
+    "trait_item"
+  ],
+  "01574": [
+    "bold_fight",
+    "boost_combat_2",
+    "chaos_reveal_token_auto_fail",
+    "chaos_reveal_token_skull",
+    "damage_plus_1",
+    "discard_self"
+  ],
+  "01575": [
+    "cost_reaction_exhaust_self",
+    "draw_player_1",
+    "timing_reaction_after_test_fail"
+  ],
+  "01576": [
+    "auto_evade",
+    "discard_self",
+    "testless_evade",
+    "your_location_enemy"
+  ],
+  "01577": [
+    "boost_agility_1",
+    "boost_willpower_1",
+    "cost_fast_spend_resource",
+    "stat_from_spent_resource",
+    "timing_fast_test"
+  ],
+  "01578": [
+    "aoe_evade",
+    "auto_evade",
+    "bold_evade",
+    "testless_evade",
+    "your_location_enemy"
+  ],
+  "01579": [
+    "discover_clue_your_location_2",
+    "fail_by_2_or_less",
+    "fast_play",
+    "testless_clue",
+    "timing_fast_after_fail"
+  ],
+  "01580": [
+    "boost_any_2",
+    "fast_play",
+    "timing_fast_would_fail"
+  ],
+  "01581": [
+    "disengage",
+    "move_investigator_any",
+    "result_evade_success",
+    "skill_benefit_performing"
+  ],
+  "01582": [
+    "cost_reaction_exhaust_self",
+    "cost_reaction_horror_self",
+    "damage_redirect",
+    "enemy_value_damage",
+    "soak_benefit_horror",
+    "timing_fast_enemy_attacks"
+  ],
+  "01583": [
+    "elite_unusable",
+    "enemy_manage_shuffle",
+    "fast_play",
+    "timing_fast_after_evaded",
+    "your_location_enemy"
+  ],
+  "01584": [
+    "boost_any_2",
+    "draw_player_1",
+    "fast_play",
+    "timing_fast_would_fail"
+  ],
+  "01585": [
+    "chaos_do_not_reveal",
+    "duration_until_end_turn",
+    "fast_play",
+    "timing_fast_during_your_turn"
+  ],
+  "01586": [
+    "bold_fight",
+    "boost_combat_1",
+    "boost_combat_2",
+    "cost_action_discard_self",
+    "damage_plus_1"
+  ],
+  "01587": [
+    "bold_investigate",
+    "cost_action_spend_supply",
+    "shroud_minus_2",
+    "uses_starting_3",
+    "uses_type_supply"
+  ],
+  "01588": [
+    "gain_resource_3"
+  ],
+  "01589": [
+    "draw_player_1",
+    "max_1_commit",
+    "result_test_success",
+    "skill_benefit_self"
+  ],
+  "01590": [
+    "draw_player_1",
+    "max_1_commit",
+    "result_test_success",
+    "skill_benefit_self"
+  ],
+  "01591": [
+    "draw_player_1",
+    "max_1_commit",
+    "result_test_success",
+    "skill_benefit_self"
+  ],
+  "01592": [
+    "draw_player_1",
+    "max_1_commit",
+    "result_test_success",
+    "skill_benefit_self"
+  ],
+  "01593": [
+    "max_1_commit"
+  ],
+  "01594": [],
+  "01595": [],
+  "01683": [
+    "cost_action_spend_supply",
+    "discard_zero_uses",
+    "heal_both",
+    "heal_damage",
+    "heal_damage_ally",
+    "heal_horror",
+    "heal_horror_ally",
+    "spend_supply",
+    "trait_ally",
+    "uses_starting_4",
+    "uses_type_supply",
+    "your_location_ally",
+    "your_location_investigator"
+  ],
+  "01684": [
+    "cancel_damage",
+    "cancel_horror",
+    "fast_play",
+    "gain_resource",
+    "timing_fast_dealt_damage",
+    "timing_fast_dealt_horror"
+  ],
+  "01685": [
+    "bold_investigate",
+    "discover_clue_connecting_location",
+    "discover_clue_your_location",
+    "result_investigate_success"
+  ],
+  "01686": [
+    "cost_action_exhaust_self",
+    "discount_2",
+    "draw_player",
+    "immediately_play",
+    "search_player",
+    "shuffle_player",
+    "spend_secret",
+    "uses_starting_2",
+    "uses_type_secret",
+    "your_location_investigator"
+  ],
+  "01687": [
+    "bold_investigate",
+    "cost_action_exhaust_self",
+    "discard_zero_uses",
+    "stat_add_agility",
+    "succeed_by_2",
+    "uses_starting_3",
+    "uses_type_supply"
+  ],
+  "01688": [
+    "additional_action_1",
+    "bold_fight",
+    "boost_combat_2",
+    "damage_plus_1",
+    "once_per_turn",
+    "succeed_by_1",
+    "succeed_by_3",
+    "uses_starting_3",
+    "uses_type_ammo"
+  ],
+  "01689": [
+    "additional_clue_1",
+    "bold_investigate",
+    "boost_willpower_2",
+    "chaos_reveal_during_effect",
+    "chaos_reveal_token_auto_fail",
+    "chaos_reveal_token_cultist",
+    "chaos_reveal_token_elder_thing",
+    "chaos_reveal_token_skull",
+    "chaos_reveal_token_tablet",
+    "cost_action_spend_charge",
+    "end_your_turn",
+    "lose_action",
+    "result_investigate_success",
+    "stat_not_intellect",
+    "stat_use_willpower",
+    "uses_starting_3",
+    "uses_type_charge"
+  ],
+  "01690": [
+    "cost_action_spend_charge",
+    "cost_fast_exhaust_self",
+    "look_at_encounter",
+    "look_at_investigator",
+    "order_encounter",
+    "order_investigator",
+    "take_horror",
+    "uses_starting_3",
+    "uses_type_charge"
+  ],
+  "01691": [
+    "cost_reaction_exhaust_self",
+    "cost_reaction_horror_self",
+    "damage_redirect",
+    "enemy_value_damage",
+    "soak_benefit_horror",
+    "timing_fast_enemy_attacks",
+    "your_location_enemy"
+  ],
+  "01692": [
+    "cancel_chaos",
+    "chaos_modifier",
+    "chaos_treat_as_elder_sign",
+    "fast_play",
+    "timing_fast_chaos_reveal_when"
+  ],
+  "01693": [
+    "draw_player_1",
+    "gain_resource_3"
+  ],
+  "01694": [
+    "additional_slot_ally"
+  ],
+  "01695": [
+    "additional_slot_accessory"
+  ],
+  "04006": [
+    "deck_restriction"
+  ],
+  "04008": [
+    "cost_reaction_exhaust_self",
+    "deck_restriction",
+    "draw_player_1"
+  ],
+  "04010": [
+    "deck_restriction",
+    "trait_illicit"
+  ],
+  "04011": [
+    "bold_fight",
+    "boost_combat_2",
+    "damage_plus_1",
+    "deck_restriction",
+    "engage_not_with_you",
+    "engage_with_you",
+    "fast_play",
+    "uses_starting_3",
+    "uses_type_ammo"
+  ],
+  "04013": [
+    "boost_willpower_1",
+    "chaos_reveal_token_elder_sign",
+    "deck_restriction"
+  ],
+  "04015": [
+    "deck_restriction"
+  ],
+  "04017": [
+    "bold_fight",
+    "boost_combat_1",
+    "boost_combat_2",
+    "cost_reaction_exhaust_self",
+    "damage_plus_1"
+  ],
+  "04018": [
+    "cost_fast_exhaust_self",
+    "uses_starting_3",
+    "uses_type_supply"
+  ],
+  "04019": [
+    "fast_play",
+    "timing_fast_during_your_turn",
+    "trait_ally"
+  ],
+  "04020": [
+    "fast_play",
+    "timing_fast_during_your_turn",
+    "trait_item"
+  ],
+  "04021": [
+    "trait_relic"
+  ],
+  "04022": [
+    "bold_investigate"
+  ],
+  "04023": [
+    "boost_agility_1",
+    "boost_willpower_1",
+    "cost_reaction_exhaust_self",
+    "draw_player_1"
+  ],
+  "04024": [
+    "bold_investigate",
+    "draw_player_1",
+    "trait_relic"
+  ],
+  "04025": [
+    "boost_intellect_1"
+  ],
+  "04026": [
+    "draw_player_1",
+    "gain_resource_1",
+    "trait_ally",
+    "uses_starting_0",
+    "uses_type_charge"
+  ],
+  "04027": [
+    "initiate_test_intellect_x"
+  ],
+  "04028": [
+    "fast_play",
+    "gain_resource_1"
+  ],
+  "04029": [
+    "bold_evade",
+    "chaos_reveal_token_auto_fail",
+    "chaos_reveal_token_cultist",
+    "chaos_reveal_token_elder_thing",
+    "chaos_reveal_token_skull",
+    "chaos_reveal_token_tablet",
+    "uses_starting_4",
+    "uses_type_charge"
+  ],
+  "04030": [
+    "chaos_reveal_token_auto_fail",
+    "chaos_reveal_token_cultist",
+    "chaos_reveal_token_elder_thing",
+    "chaos_reveal_token_skull",
+    "chaos_reveal_token_tablet"
+  ],
+  "04031": [
+    "chaos_reveal_token_auto_fail"
+  ],
+  "04032": [
+    "chaos_reveal_token_auto_fail",
+    "chaos_reveal_token_cultist",
+    "chaos_reveal_token_elder_thing",
+    "chaos_reveal_token_skull",
+    "chaos_reveal_token_tablet",
+    "fast_play"
+  ],
+  "04033": [
+    "bold_fight",
+    "damage_plus_1"
+  ],
+  "04034": [
+    "elite_unusable",
+    "fast_play"
+  ],
+  "04035": [
+    "cost_fast_exhaust_self"
+  ],
+  "04036": [],
+  "04037": [
+    "trait_item",
+    "trait_supply"
+  ],
+  "04103": [],
+  "04104": [
+    "damage_plus_1",
+    "engage_not_with_you",
+    "engage_with_you",
+    "fast_play",
+    "trait_firearm",
+    "trait_ranged"
+  ],
+  "04105": [
+    "bold_parley",
+    "initiate_test_intellect_3",
+    "trait_humanoid"
+  ],
+  "04106": [
+    "limit_1_per_deck"
+  ],
+  "04107": [
+    "cost_reaction_exhaust_self",
+    "draw_player_1"
+  ],
+  "04108": [
+    "cost_reaction_exhaust_self",
+    "trait_illicit"
+  ],
+  "04109": [
+    "trait_spell"
+  ],
+  "04110": [
+    "chaos_reveal_token_cultist",
+    "chaos_reveal_token_elder_thing",
+    "chaos_reveal_token_skull",
+    "chaos_reveal_token_tablet",
+    "fast_play"
+  ],
+  "04111": [
+    "fast_play"
+  ],
+  "04112": [],
+  "04149": [
+    "draw_player_1"
+  ],
+  "04150": [],
+  "04151": [
+    "cost_fast_exhaust_self"
+  ],
+  "04152": [],
+  "04153": [],
+  "04154": [
+    "cost_fast_exhaust_self"
+  ],
+  "04155": [],
+  "04156": [
+    "cost_fast_exhaust_self",
+    "gain_resource_3"
+  ],
+  "04157": [],
+  "04158": [],
+  "04159": [
+    "cost_reaction_exhaust_self",
+    "discard_zero_uses",
+    "uses_starting_3",
+    "uses_type_tries"
+  ],
+  "04160": [],
+  "04192": [
+    "boost_agility_1",
+    "boost_combat_1",
+    "boost_intellect_1"
+  ],
+  "04193": [
+    "damage_plus_1",
+    "fast_play",
+    "timing_fast_during_your_turn",
+    "trait_firearm",
+    "trait_monster"
+  ],
+  "04194": [
+    "bold_investigate",
+    "cost_action_exhaust_self"
+  ],
+  "04195": [
+    "draw_player_1",
+    "fast_play",
+    "initiate_test_intellect_x",
+    "timing_fast_during_any_window"
+  ],
+  "04196": [
+    "boost_agility_1",
+    "boost_intellect_1",
+    "cost_fast_exhaust_self"
+  ],
+  "04197": [
+    "cost_reaction_exhaust_self"
+  ],
+  "04198": [
+    "chaos_reveal_token_cultist",
+    "chaos_reveal_token_elder_thing",
+    "chaos_reveal_token_skull",
+    "chaos_reveal_token_tablet"
+  ],
+  "04199": [
+    "fast_play",
+    "timing_fast_during_any_window"
+  ],
+  "04200": [
+    "fast_play"
+  ],
+  "04201": [
+    "draw_player_2",
+    "gain_resource_2",
+    "max_1_commit"
+  ],
+  "04202": [
+    "fast_play"
+  ],
+  "04203": [
+    "boost_agility_1"
+  ],
+  "04204": [
+    "bold_fight",
+    "boost_agility_2",
+    "damage_plus_2",
+    "uses_starting_1",
+    "uses_type_ammo"
+  ],
+  "04229": [
+    "bold_fight",
+    "uses_starting_8",
+    "uses_type_ammo"
+  ],
+  "04230": [],
+  "04231": [],
+  "04232": [
+    "bold_evade",
+    "elite_unusable",
+    "stat_add_intellect",
+    "succeed_by_2"
+  ],
+  "04233": [
+    "gain_resource_1"
+  ],
+  "04234": [
+    "draw_player_3",
+    "gain_resource_3"
+  ],
+  "04235": [
+    "boost_agility_1",
+    "boost_combat_1",
+    "boost_intellect_1",
+    "boost_willpower_1",
+    "chaos_reveal_token_elder_sign"
+  ],
+  "04236": [
+    "cost_reaction_exhaust_self",
+    "limit_1_per_investigator"
+  ],
+  "04265": [
+    "bold_evade",
+    "elite_unusable",
+    "trait_humanoid"
+  ],
+  "04266": [
+    "bold_fight",
+    "boost_willpower_1",
+    "damage_plus_1"
+  ],
+  "04267": [
+    "cost_action_exhaust_self",
+    "draw_player_1",
+    "initiate_test_intellect_0",
+    "take_horror",
+    "uses_starting_3",
+    "uses_type_secret"
+  ],
+  "04268": [
+    "boost_combat_1",
+    "damage_plus_1",
+    "uses_starting_5",
+    "uses_type_ammo"
+  ],
+  "04269": [
+    "draw_player_1"
+  ],
+  "04270": [
+    "fast_play"
+  ],
+  "04271": [
+    "bold_evade",
+    "boost_willpower_3",
+    "chaos_reveal_token_auto_fail",
+    "chaos_reveal_token_cultist",
+    "chaos_reveal_token_elder_thing",
+    "chaos_reveal_token_skull",
+    "chaos_reveal_token_tablet",
+    "uses_starting_5",
+    "uses_type_charge"
+  ],
+  "04272": [
+    "bold_investigate"
+  ],
+  "04273": [
+    "boost_combat_3",
+    "chaos_reveal_token_auto_fail",
+    "chaos_reveal_token_skull",
+    "damage_plus_2",
+    "uses_starting_3",
+    "uses_type_ammo"
+  ],
+  "04274": [
+    "cost_action_exhaust_self",
+    "uses_starting_3",
+    "uses_type_supply"
+  ],
+  "04275": [
+    "boost_intellect_1",
+    "boost_willpower_1"
+  ],
+  "04276": [
+    "bold_fight",
+    "boost_combat_2",
+    "cost_action_exhaust_self",
+    "damage_plus_1",
+    "damage_plus_3",
+    "draw_player_3",
+    "max_per_game_1",
+    "stat_add_willpower"
+  ],
+  "04304": [
+    "cost_action_exhaust_self",
+    "discard_zero_uses",
+    "trait_ally",
+    "uses_starting_3",
+    "uses_type_supply"
+  ],
+  "04305": [
+    "bold_fight",
+    "boost_combat_4",
+    "engage_with_you",
+    "uses_starting_4",
+    "uses_type_ammo"
+  ],
+  "04306": [
+    "fast_play"
+  ],
+  "04307": [
+    "uses_starting_3",
+    "uses_type_secret"
+  ],
+  "04308": [],
+  "04309": [
+    "draw_player_1",
+    "max_1_commit"
+  ],
+  "04310": [
+    "bold_fight",
+    "boost_willpower_2",
+    "damage_plus_1",
+    "uses_starting_3",
+    "uses_type_charge"
+  ],
+  "04311": [
+    "chaos_reveal_token_auto_fail",
+    "chaos_reveal_token_cultist",
+    "chaos_reveal_token_elder_thing",
+    "chaos_reveal_token_skull",
+    "chaos_reveal_token_tablet",
+    "uses_starting_7",
+    "uses_type_charge"
+  ],
+  "04312": [
+    "bold_evade"
+  ],
+  "04313": [
+    "fast_play",
+    "timing_fast_during_any_window"
+  ],
+  "03007": [
+    "deck_restriction"
+  ],
+  "03009": [
+    "deck_restriction"
+  ],
+  "03010": [
+    "cost_reaction_exhaust_self",
+    "deck_restriction",
+    "draw_player_1"
+  ],
+  "03012": [
+    "deck_restriction"
+  ],
+  "03014": [
+    "cost_fast_exhaust_self",
+    "deck_restriction"
+  ],
+  "03016": [
+    "deck_restriction",
+    "elite_unusable",
+    "fast_play"
+  ],
+  "03018": [
+    "deck_restriction",
+    "draw_player_1",
+    "fast_play",
+    "timing_fast_during_your_turn"
+  ],
+  "03020": [
+    "bold_fight",
+    "damage_plus_1",
+    "uses_starting_6",
+    "uses_type_ammo"
+  ],
+  "03021": [],
+  "03022": [
+    "fast_play"
+  ],
+  "03023": [],
+  "03024": [
+    "cost_reaction_exhaust_self"
+  ],
+  "03025": [
+    "gain_resource_5"
+  ],
+  "03026": [],
+  "03027": [
+    "bold_investigate",
+    "uses_starting_3",
+    "uses_type_secret"
+  ],
+  "03028": [
+    "bold_evade",
+    "cost_action_exhaust_self"
+  ],
+  "03029": [
+    "fast_play",
+    "timing_fast_during_your_turn",
+    "trait_item"
+  ],
+  "03030": [
+    "fast_play"
+  ],
+  "03031": [
+    "bold_investigate",
+    "cost_action_exhaust_self",
+    "discard_zero_uses",
+    "stat_add_agility",
+    "uses_starting_3",
+    "uses_type_supply"
+  ],
+  "03032": [
+    "chaos_reveal_token_auto_fail",
+    "chaos_reveal_token_cultist",
+    "chaos_reveal_token_elder_thing",
+    "chaos_reveal_token_skull",
+    "chaos_reveal_token_tablet",
+    "cost_action_exhaust_self",
+    "gain_resource_1",
+    "initiate_test_willpower_1",
+    "take_damage",
+    "uses_starting_3",
+    "uses_type_charge"
+  ],
+  "03033": [
+    "trait_ritual",
+    "trait_spell"
+  ],
+  "03034": [
+    "bold_move",
+    "chaos_reveal_token_auto_fail",
+    "chaos_reveal_token_cultist",
+    "chaos_reveal_token_elder_thing",
+    "chaos_reveal_token_skull",
+    "chaos_reveal_token_tablet",
+    "take_damage",
+    "trait_ally",
+    "trait_item"
+  ],
+  "03035": [
+    "bold_fight",
+    "boost_combat_2",
+    "cost_action_exhaust_self",
+    "cost_fast_exhaust_self",
+    "trait_spell"
+  ],
+  "03036": [
+    "bold_investigate"
+  ],
+  "03037": [
+    "bold_fight",
+    "boost_combat_2"
+  ],
+  "03038": [
+    "elite_unusable",
+    "fast_play"
+  ],
+  "03039": [],
+  "03106": [
+    "elite_unusable",
+    "fast_play"
+  ],
+  "03107": [
+    "boost_agility_1",
+    "boost_combat_1",
+    "fast_play",
+    "trait_composure"
+  ],
+  "03108": [
+    "elite_unusable",
+    "fast_play"
+  ],
+  "03109": [
+    "boost_combat_1",
+    "boost_intellect_1",
+    "fast_play",
+    "trait_composure"
+  ],
+  "03110": [
+    "bold_fight",
+    "damage_plus_1"
+  ],
+  "03111": [
+    "boost_agility_1",
+    "boost_willpower_1",
+    "fast_play",
+    "trait_composure"
+  ],
+  "03112": [
+    "boost_willpower_1",
+    "gain_resource_1"
+  ],
+  "03113": [
+    "fast_play",
+    "trait_composure",
+    "trait_spell"
+  ],
+  "03114": [],
+  "03115": [
+    "boost_intellect_1",
+    "boost_willpower_1",
+    "fast_play",
+    "trait_composure"
+  ],
+  "03116": [
+    "max_1_commit"
+  ],
+  "03117": [
+    "max_1_commit"
+  ],
+  "03118": [
+    "max_1_commit"
+  ],
+  "03119": [
+    "max_1_commit"
+  ],
+  "03147": [
+    "bold_fight",
+    "engage_with_you"
+  ],
+  "03148": [],
+  "03149": [
+    "cost_fast_exhaust_self",
+    "trait_item"
+  ],
+  "03150": [
+    "fast_play"
+  ],
+  "03151": [
+    "boost_intellect_1",
+    "boost_willpower_1",
+    "cost_action_exhaust_self",
+    "gain_resource_2"
+  ],
+  "03152": [
+    "engage_not_with_you",
+    "engage_with_you"
+  ],
+  "03153": [
+    "bold_fight",
+    "chaos_reveal_token_auto_fail",
+    "chaos_reveal_token_cultist",
+    "chaos_reveal_token_elder_thing",
+    "chaos_reveal_token_skull",
+    "chaos_reveal_token_tablet"
+  ],
+  "03154": [
+    "cost_action_exhaust_self",
+    "trait_spell"
+  ],
+  "03155": [
+    "fast_play",
+    "timing_fast_during_your_turn"
+  ],
+  "03156": [
+    "fast_play"
+  ],
+  "03157": [
+    "fast_play"
+  ],
+  "03158": [
+    "trait_ally"
+  ],
+  "03189": [
+    "elite_unusable",
+    "engage_with_you"
+  ],
+  "03190": [
+    "bold_fight",
+    "boost_combat_2",
+    "damage_plus_1",
+    "uses_starting_4",
+    "uses_type_ammo"
+  ],
+  "03191": [
+    "trait_terror"
+  ],
+  "03192": [
+    "bold_investigate",
+    "uses_starting_3",
+    "uses_type_charge"
+  ],
+  "03193": [
+    "bold_investigate",
+    "uses_starting_3",
+    "uses_type_charge"
+  ],
+  "03194": [
+    "bold_fight",
+    "stat_add_agility",
+    "succeed_by_2"
+  ],
+  "03195": [
+    "cost_reaction_exhaust_self",
+    "draw_player_1",
+    "fast_play",
+    "gain_resource_1"
+  ],
+  "03196": [
+    "draw_player_1"
+  ],
+  "03197": [
+    "chaos_reveal_token_auto_fail",
+    "chaos_reveal_token_cultist",
+    "chaos_reveal_token_elder_thing",
+    "chaos_reveal_token_skull",
+    "chaos_reveal_token_tablet",
+    "trait_relic",
+    "trait_spell"
+  ],
+  "03198": [
+    "cost_fast_exhaust_self",
+    "draw_player_1",
+    "gain_resource_1"
+  ],
+  "03199": [
+    "elite_unusable"
+  ],
+  "03228": [
+    "trait_ally"
+  ],
+  "03229": [
+    "engage_with_you"
+  ],
+  "03230": [
+    "discard_zero_uses",
+    "trait_ally",
+    "uses_starting_4",
+    "uses_type_supply"
+  ],
+  "03231": [],
+  "03232": [
+    "cost_fast_exhaust_self",
+    "fast_play",
+    "timing_fast_during_your_turn"
+  ],
+  "03233": [
+    "succeed_by_1"
+  ],
+  "03234": [
+    "bold_fight",
+    "boost_combat_2",
+    "damage_plus_1",
+    "succeed_by_1",
+    "succeed_by_3",
+    "uses_starting_3",
+    "uses_type_ammo"
+  ],
+  "03235": [],
+  "03236": [
+    "cost_fast_exhaust_self",
+    "take_horror",
+    "trait_omen",
+    "trait_terror",
+    "uses_starting_3",
+    "uses_type_charge"
+  ],
+  "03237": [
+    "elite_unusable",
+    "initiate_test_agility_x"
+  ],
+  "03238": [
+    "trait_ally"
+  ],
+  "03239": [
+    "gain_resource_4"
+  ],
+  "03263": [
+    "engage_with_you",
+    "fast_play"
+  ],
+  "03264": [
+    "trait_supply",
+    "trait_tactic"
+  ],
+  "03265": [],
+  "03266": [
+    "uses_starting_3",
+    "uses_type_charge"
+  ],
+  "03267": [
+    "fast_play"
+  ],
+  "03268": [
+    "bold_evade",
+    "cost_action_exhaust_self",
+    "elite_unusable",
+    "stat_add_willpower",
+    "uses_starting_3",
+    "uses_type_charge"
+  ],
+  "03269": [
+    "boost_intellect_1",
+    "boost_willpower_1"
+  ],
+  "03270": [
+    "fast_play",
+    "take_horror"
+  ],
+  "03271": [
+    "cost_fast_exhaust_self",
+    "trait_spell"
+  ],
+  "03272": [
+    "engage_with_you"
+  ],
+  "03273": [
+    "trait_innate"
+  ],
+  "03304": [
+    "fast_play",
+    "trait_firearm"
+  ],
+  "03305": [
+    "cost_reaction_exhaust_self"
+  ],
+  "03306": [
+    "trait_insight"
+  ],
+  "03307": [
+    "fast_play",
+    "timing_fast_during_any_window"
+  ],
+  "03308": [],
+  "03309": [
+    "bold_fight",
+    "boost_combat_1",
+    "damage_plus_1",
+    "uses_starting_2",
+    "uses_type_ammo"
+  ],
+  "03310": [
+    "engage_with_you",
+    "fast_play"
+  ],
+  "03311": [
+    "fast_play"
+  ],
+  "03312": [
+    "chaos_reveal_token_elder_sign"
+  ],
+  "03313": [
+    "boost_intellect_2"
+  ],
+  "03314": [
+    "elite_unusable",
+    "fast_play"
+  ],
+  "03315": [],
+  "05007": [
+    "cost_action_exhaust_self",
+    "cost_reaction_exhaust_self",
+    "deck_restriction",
+    "draw_player_1",
+    "initiate_test_intellect_2"
+  ],
+  "05009": [
+    "bold_fight",
+    "boost_combat_1",
+    "damage_plus_1",
+    "deck_restriction",
+    "trait_insight",
+    "trait_tool",
+    "uses_starting_4",
+    "uses_type_ammo"
+  ],
+  "05011": [
+    "deck_restriction"
+  ],
+  "05013": [
+    "bold_fight",
+    "deck_restriction"
+  ],
+  "05014": [
+    "deck_restriction",
+    "fast_play"
+  ],
+  "05016": [
+    "deck_restriction",
+    "fast_play",
+    "timing_fast_during_your_turn"
+  ],
+  "05018": [
+    "deck_restriction",
+    "fast_play"
+  ],
+  "05020": [
+    "bold_parley",
+    "initiate_test_combat_3",
+    "trait_humanoid"
+  ],
+  "05021": [
+    "fast_play",
+    "timing_fast_during_your_turn"
+  ],
+  "05022": [],
+  "05023": [
+    "boost_combat_1"
+  ],
+  "05024": [
+    "bold_investigate",
+    "boost_intellect_1",
+    "cost_action_exhaust_self",
+    "uses_starting_3",
+    "uses_type_supply"
+  ],
+  "05025": [
+    "fast_play"
+  ],
+  "05026": [],
+  "05027": [
+    "boost_intellect_1"
+  ],
+  "05028": [
+    "limit_1_per_investigator"
+  ],
+  "05029": [
+    "fast_play"
+  ],
+  "05030": [],
+  "05031": [
+    "boost_agility_1"
+  ],
+  "05032": [
+    "fast_play"
+  ],
+  "05033": [
+    "chaos_reveal_token_auto_fail",
+    "chaos_reveal_token_cultist",
+    "chaos_reveal_token_elder_thing",
+    "chaos_reveal_token_skull",
+    "chaos_reveal_token_tablet",
+    "fast_play"
+  ],
+  "05034": [],
+  "05035": [
+    "boost_willpower_1"
+  ],
+  "05036": [
+    "boost_agility_1",
+    "cost_reaction_exhaust_self",
+    "initiate_test_agility_3",
+    "trait_footwear"
+  ],
+  "05037": [
+    "bold_fight",
+    "damage_plus_1",
+    "trait_item"
+  ],
+  "05038": [
+    "trait_item"
+  ],
+  "05039": [],
+  "05040": [],
+  "05109": [],
+  "05110": [
+    "fast_play"
+  ],
+  "05111": [],
+  "05112": [
+    "fast_play",
+    "trait_ritual",
+    "trait_spell"
+  ],
+  "05113": [
+    "bold_evade",
+    "chaos_reveal_token_cultist",
+    "chaos_reveal_token_elder_thing",
+    "chaos_reveal_token_skull",
+    "chaos_reveal_token_tablet",
+    "elite_unusable"
+  ],
+  "05114": [
+    "bold_fight",
+    "boost_combat_1",
+    "boost_combat_2",
+    "damage_plus_1",
+    "take_horror"
+  ],
+  "05115": [
+    "bold_fight",
+    "boost_combat_2",
+    "damage_plus_1",
+    "uses_starting_5",
+    "uses_type_ammo"
+  ],
+  "05116": [
+    "cost_action_exhaust_self",
+    "uses_starting_3",
+    "uses_type_secret"
+  ],
+  "05117": [
+    "bold_fight",
+    "boost_combat_3",
+    "boost_willpower_2",
+    "uses_starting_2",
+    "uses_type_supply"
+  ],
+  "05118": [
+    "bold_fight",
+    "boost_combat_1",
+    "damage_plus_1",
+    "uses_starting_3",
+    "uses_type_charge"
+  ],
+  "05119": [
+    "cost_reaction_exhaust_self"
+  ],
+  "05151": [
+    "boost_intellect_1",
+    "cost_reaction_exhaust_self"
+  ],
+  "05152": [
+    "fast_play",
+    "timing_fast_during_your_turn",
+    "trait_item",
+    "trait_upgrade"
+  ],
+  "05153": [
+    "cost_fast_exhaust_self",
+    "uses_starting_3",
+    "uses_type_secret"
+  ],
+  "05154": [
+    "boost_intellect_1",
+    "boost_willpower_1"
+  ],
+  "05155": [
+    "chaos_reveal_token_auto_fail",
+    "chaos_reveal_token_cultist",
+    "chaos_reveal_token_elder_thing",
+    "chaos_reveal_token_skull",
+    "chaos_reveal_token_tablet",
+    "cost_action_exhaust_self",
+    "draw_player_1",
+    "gain_resource_1"
+  ],
+  "05156": [
+    "fast_play"
+  ],
+  "05157": [
+    "bold_fight",
+    "chaos_reveal_token_cultist",
+    "chaos_reveal_token_elder_thing",
+    "chaos_reveal_token_skull",
+    "chaos_reveal_token_tablet"
+  ],
+  "05158": [
+    "bold_investigate",
+    "chaos_reveal_token_cultist",
+    "chaos_reveal_token_elder_thing",
+    "chaos_reveal_token_skull",
+    "chaos_reveal_token_tablet"
+  ],
+  "05159": [
+    "cost_reaction_exhaust_self",
+    "draw_player_1",
+    "gain_resource_2"
+  ],
+  "05160": [
+    "fast_play"
+  ],
+  "05186": [
+    "bold_fight",
+    "boost_combat_2",
+    "damage_plus_1",
+    "uses_starting_5",
+    "uses_type_ammo"
+  ],
+  "05187": [
+    "bold_fight",
+    "boost_combat_2",
+    "damage_plus_1",
+    "uses_starting_5",
+    "uses_type_ammo"
+  ],
+  "05188": [
+    "cost_action_exhaust_self",
+    "uses_starting_3",
+    "uses_type_secret"
+  ],
+  "05189": [
+    "cost_action_exhaust_self",
+    "uses_starting_4",
+    "uses_type_secret"
+  ],
+  "05190": [
+    "bold_fight",
+    "boost_combat_3",
+    "boost_willpower_3",
+    "damage_plus_1",
+    "fast_play",
+    "uses_starting_2",
+    "uses_type_supply"
+  ],
+  "05191": [
+    "bold_fight",
+    "boost_combat_3",
+    "boost_willpower_2",
+    "elite_unusable",
+    "uses_starting_3",
+    "uses_type_supply"
+  ],
+  "05192": [
+    "bold_fight",
+    "boost_combat_2",
+    "damage_plus_1",
+    "draw_player_1",
+    "uses_starting_3",
+    "uses_type_charge"
+  ],
+  "05193": [
+    "bold_fight",
+    "boost_combat_1",
+    "boost_combat_2",
+    "damage_plus_1",
+    "uses_starting_4",
+    "uses_type_charge"
+  ],
+  "05194": [
+    "cost_reaction_exhaust_self",
+    "draw_player_1"
+  ],
+  "05195": [
+    "cost_reaction_exhaust_self"
+  ],
+  "05196": [
+    "cost_action_multiple"
+  ],
+  "05229": [
+    "elite_unusable",
+    "trait_firearm"
+  ],
+  "05230": [
+    "cost_reaction_exhaust_self",
+    "elite_unusable",
+    "engage_with_you",
+    "fast_play",
+    "trait_firearm"
+  ],
+  "05231": [
+    "draw_player_1",
+    "fast_play",
+    "timing_fast_during_your_turn",
+    "trait_spell",
+    "trait_tome"
+  ],
+  "05232": [
+    "cost_action_exhaust_self",
+    "uses_starting_4",
+    "uses_type_secret"
+  ],
+  "05233": [
+    "cost_action_exhaust_self",
+    "cost_fast_exhaust_self",
+    "uses_starting_0",
+    "uses_type_supply"
+  ],
+  "05234": [
+    "bold_evade",
+    "elite_unusable"
+  ],
+  "05235": [
+    "cost_action_exhaust_self",
+    "trait_insight",
+    "trait_spell"
+  ],
+  "05236": [
+    "boost_intellect_1"
+  ],
+  "05237": [
+    "fast_play"
+  ],
+  "05273": [
+    "bold_fight",
+    "boost_combat_2",
+    "discard_zero_uses",
+    "uses_starting_3",
+    "uses_type_supply"
+  ],
+  "05274": [
+    "cost_fast_exhaust_self"
+  ],
+  "05275": [],
+  "05276": [],
+  "05277": [
+    "elite_unusable"
+  ],
+  "05278": [],
+  "05279": [
+    "trait_spell",
+    "uses_starting_3",
+    "uses_type_secret"
+  ],
+  "05280": [
+    "fast_play"
+  ],
+  "05281": [
+    "fast_play",
+    "timing_fast_during_your_turn"
+  ],
+  "05282": [
+    "bold_evade",
+    "elite_unusable"
+  ],
+  "05283": [
+    "trait_tarot"
+  ],
+  "05313": [
+    "limit_1_per_deck"
+  ],
+  "05314": [
+    "draw_player_1",
+    "trait_ally"
+  ],
+  "05315": [
+    "fast_play"
+  ],
+  "05316": [
+    "limit_1_per_deck"
+  ],
+  "05317": [
+    "draw_player_2",
+    "gain_resource_1"
+  ],
+  "05318": [],
+  "05319": [
+    "draw_player_1"
+  ],
+  "05320": [
+    "cost_reaction_exhaust_self"
+  ],
+  "05321": [
+    "bold_fight",
+    "boost_willpower_2",
+    "chaos_reveal_token_cultist",
+    "chaos_reveal_token_elder_thing",
+    "chaos_reveal_token_skull",
+    "chaos_reveal_token_tablet"
+  ],
+  "05322": [
+    "bold_investigate",
+    "boost_willpower_2",
+    "chaos_reveal_token_cultist",
+    "chaos_reveal_token_elder_thing",
+    "chaos_reveal_token_skull",
+    "chaos_reveal_token_tablet"
+  ],
+  "05323": [],
+  "05324": [
+    "chaos_reveal_token_auto_fail",
+    "chaos_reveal_token_elder_sign",
+    "fast_play"
+  ],
+  "90052b": [
+    "chaos_reveal_token_auto_fail",
+    "chaos_reveal_token_cultist",
+    "chaos_reveal_token_curse",
+    "chaos_reveal_token_elder_sign",
+    "chaos_reveal_token_elder_thing",
+    "chaos_reveal_token_skull",
+    "chaos_reveal_token_tablet"
+  ],
+  "07006": [
+    "chaos_reveal_token_bless",
+    "deck_restriction"
+  ],
+  "07008": [
+    "deck_restriction",
+    "fast_play"
+  ],
+  "07010": [
+    "deck_restriction",
+    "engage_with_you",
+    "fast_play"
+  ],
+  "07012": [
+    "deck_restriction"
+  ],
+  "07014": [
+    "bold_fight",
+    "boost_combat_1",
+    "damage_plus_1",
+    "deck_restriction"
+  ],
+  "07015": [
+    "bold_evade",
+    "boost_agility_1",
+    "deck_restriction",
+    "engage_with_you"
+  ],
+  "07017": [
+    "chaos_reveal_token_bless",
+    "uses_starting_4",
+    "uses_type_secret"
+  ],
+  "07018": [
+    "bold_fight",
+    "boost_combat_1",
+    "chaos_reveal_token_bless",
+    "chaos_reveal_token_elder_sign",
+    "damage_plus_1"
+  ],
+  "07019": [
+    "chaos_reveal_token_bless",
+    "cost_reaction_exhaust_self",
+    "discard_zero_uses"
+  ],
+  "07020": [
+    "chaos_reveal_token_bless",
+    "fast_play"
+  ],
+  "07021": [
+    "bold_investigate",
+    "cost_action_exhaust_self",
+    "uses_starting_3",
+    "uses_type_secret"
+  ],
+  "07022": [
+    "chaos_reveal_token_bless",
+    "chaos_reveal_token_curse"
+  ],
+  "07023": [
+    "chaos_reveal_token_curse"
+  ],
+  "07024": [
+    "draw_player_1"
+  ],
+  "07025": [
+    "bold_fight",
+    "boost_combat_2",
+    "damage_plus_1",
+    "fast_play",
+    "uses_starting_4",
+    "uses_type_ammo"
+  ],
+  "07026": [
+    "chaos_reveal_token_curse"
+  ],
+  "07027": [
+    "fast_play",
+    "uses_starting_3",
+    "uses_type_charge"
+  ],
+  "07028": [
+    "chaos_reveal_token_curse"
+  ],
+  "07029": [
+    "bold_evade",
+    "cost_action_exhaust_self"
+  ],
+  "07030": [
+    "chaos_reveal_token_bless",
+    "chaos_reveal_token_curse",
+    "fast_play"
+  ],
+  "07031": [
+    "chaos_reveal_token_bless",
+    "chaos_reveal_token_elder_sign",
+    "fast_play"
+  ],
+  "07032": [
+    "chaos_reveal_token_curse",
+    "take_horror"
+  ],
+  "07033": [
+    "chaos_reveal_token_auto_fail",
+    "chaos_reveal_token_bless",
+    "chaos_reveal_token_curse",
+    "cost_reaction_exhaust_self"
+  ],
+  "07034": [
+    "chaos_reveal_token_bless",
+    "fast_play"
+  ],
+  "07035": [
+    "chaos_reveal_token_bless",
+    "chaos_reveal_token_curse",
+    "max_1_commit"
+  ],
+  "07036": [
+    "chaos_reveal_token_bless"
+  ],
+  "07037": [
+    "chaos_reveal_token_bless",
+    "chaos_reveal_token_curse",
+    "draw_player_1",
+    "fast_play"
+  ],
+  "07108": [],
+  "07109": [
+    "bold_engage",
+    "chaos_reveal_token_bless"
+  ],
+  "07110": [
+    "chaos_reveal_token_bless",
+    "cost_reaction_exhaust_self",
+    "limit_1_per_deck",
+    "trait_covenant"
+  ],
+  "07111": [
+    "uses_starting_3",
+    "uses_type_secret"
+  ],
+  "07112": [
+    "chaos_reveal_token_curse"
+  ],
+  "07113": [
+    "chaos_reveal_token_curse",
+    "cost_reaction_exhaust_self",
+    "limit_1_per_deck",
+    "trait_covenant"
+  ],
+  "07114": [
+    "bold_investigate",
+    "stat_add_agility",
+    "succeed_by_2"
+  ],
+  "07115": [
+    "chaos_reveal_token_bless",
+    "chaos_reveal_token_curse"
+  ],
+  "07116": [
+    "chaos_reveal_token_curse",
+    "cost_reaction_exhaust_self",
+    "limit_1_per_deck",
+    "trait_covenant"
+  ],
+  "07117": [
+    "bold_fight",
+    "chaos_reveal_token_curse",
+    "damage_plus_1",
+    "uses_starting_3",
+    "uses_type_charge"
+  ],
+  "07118": [
+    "bold_investigate",
+    "chaos_reveal_token_curse",
+    "uses_starting_3",
+    "uses_type_charge"
+  ],
+  "07119": [
+    "bold_evade",
+    "chaos_reveal_token_curse",
+    "elite_unusable",
+    "uses_starting_3",
+    "uses_type_charge"
+  ],
+  "07120": [
+    "chaos_reveal_token_bless",
+    "chaos_reveal_token_curse",
+    "cost_reaction_exhaust_self",
+    "limit_1_per_deck",
+    "trait_covenant"
+  ],
+  "07121": [
+    "bold_investigate",
+    "boost_intellect_1",
+    "cost_action_exhaust_self"
+  ],
+  "07122": [
+    "chaos_reveal_token_bless",
+    "cost_reaction_exhaust_self",
+    "limit_1_per_deck",
+    "trait_covenant"
+  ],
+  "07152": [
+    "boost_combat_1",
+    "boost_intellect_1"
+  ],
+  "07153": [
+    "bold_fight",
+    "chaos_reveal_token_bless",
+    "damage_plus_1"
+  ],
+  "07154": [
+    "bold_move"
+  ],
+  "07155": [
+    "chaos_reveal_token_auto_fail",
+    "chaos_reveal_token_curse"
+  ],
+  "07156": [
+    "chaos_reveal_token_bless",
+    "chaos_reveal_token_curse"
+  ],
+  "07157": [
+    "elite_unusable"
+  ],
+  "07158": [
+    "boost_combat_2",
+    "boost_willpower_2"
+  ],
+  "07159": [
+    "bold_fight",
+    "cost_action_exhaust_self",
+    "damage_plus_1"
+  ],
+  "07160": [
+    "fast_play"
+  ],
+  "07161": [
+    "fast_play"
+  ],
+  "07162": [
+    "chaos_reveal_token_auto_fail",
+    "chaos_reveal_token_bless",
+    "chaos_reveal_token_curse",
+    "chaos_reveal_token_elder_sign",
+    "trait_ally"
+  ],
+  "07189": [],
+  "07190": [
+    "chaos_reveal_token_bless",
+    "chaos_reveal_token_elder_sign",
+    "cost_reaction_exhaust_self"
+  ],
+  "07191": [
+    "chaos_reveal_token_curse",
+    "trait_insight"
+  ],
+  "07192": [
+    "chaos_reveal_token_curse"
+  ],
+  "07193": [
+    "bold_fight",
+    "boost_combat_1",
+    "chaos_reveal_token_curse",
+    "damage_plus_1"
+  ],
+  "07194": [
+    "chaos_reveal_token_bless",
+    "chaos_reveal_token_curse"
+  ],
+  "07195": [
+    "chaos_reveal_token_curse",
+    "chaos_reveal_token_skull",
+    "cost_reaction_exhaust_self"
+  ],
+  "07196": [
+    "chaos_reveal_token_auto_fail",
+    "chaos_reveal_token_bless",
+    "chaos_reveal_token_elder_sign",
+    "draw_player_2"
+  ],
+  "07197": [
+    "chaos_reveal_token_bless"
+  ],
+  "07220": [
+    "boost_willpower_1",
+    "chaos_reveal_token_bless",
+    "cost_reaction_exhaust_self"
+  ],
+  "07221": [
+    "chaos_reveal_token_bless",
+    "cost_reaction_exhaust_self",
+    "discard_zero_uses"
+  ],
+  "07222": [
+    "chaos_reveal_token_curse"
+  ],
+  "07223": [
+    "uses_starting_4",
+    "uses_type_secret"
+  ],
+  "07224": [
+    "chaos_reveal_token_bless",
+    "chaos_reveal_token_curse",
+    "draw_player_1"
+  ],
+  "07225": [
+    "chaos_reveal_token_bless",
+    "chaos_reveal_token_curse",
+    "cost_reaction_exhaust_self"
+  ],
+  "07226": [
+    "bold_fight",
+    "boost_willpower_2",
+    "chaos_reveal_token_curse",
+    "damage_plus_1",
+    "uses_starting_3",
+    "uses_type_charge"
+  ],
+  "07227": [
+    "bold_investigate",
+    "boost_willpower_2",
+    "chaos_reveal_token_curse",
+    "uses_starting_3",
+    "uses_type_charge"
+  ],
+  "07228": [
+    "bold_evade",
+    "boost_willpower_2",
+    "chaos_reveal_token_curse",
+    "elite_unusable",
+    "uses_starting_3",
+    "uses_type_charge"
+  ],
+  "07229": [
+    "chaos_reveal_token_bless",
+    "chaos_reveal_token_curse",
+    "take_damage"
+  ],
+  "07230": [
+    "chaos_reveal_token_bless",
+    "chaos_reveal_token_curse",
+    "gain_resource_1"
+  ],
+  "07261": [
+    "cost_reaction_exhaust_self",
+    "damage_plus_1",
+    "trait_relic",
+    "trait_weapon"
+  ],
+  "07262": [
+    "boost_willpower_1",
+    "chaos_reveal_token_bless",
+    "cost_fast_exhaust_self"
+  ],
+  "07263": [
+    "chaos_reveal_token_curse",
+    "fast_play",
+    "timing_fast_during_your_turn"
+  ],
+  "07264": [
+    "boost_agility_1",
+    "boost_intellect_1",
+    "uses_replenish",
+    "uses_starting_2",
+    "uses_type_resource"
+  ],
+  "07265": [
+    "boost_agility_1",
+    "boost_combat_1",
+    "boost_intellect_1",
+    "boost_willpower_1",
+    "chaos_reveal_token_curse"
+  ],
+  "07266": [
+    "boost_agility_1",
+    "boost_combat_1",
+    "uses_replenish",
+    "uses_starting_2",
+    "uses_type_resource"
+  ],
+  "07267": [
+    "boost_intellect_1",
+    "boost_willpower_1",
+    "cost_reaction_exhaust_self"
+  ],
+  "07268": [
+    "chaos_reveal_token_curse",
+    "cost_action_exhaust_self",
+    "elite_unusable"
+  ],
+  "07269": [
+    "chaos_reveal_token_bless",
+    "fast_play"
+  ],
+  "07270": [
+    "boost_agility_1",
+    "boost_willpower_1",
+    "uses_replenish",
+    "uses_starting_2",
+    "uses_type_resource"
+  ],
+  "07271": [
+    "chaos_reveal_token_curse",
+    "cost_reaction_exhaust_self",
+    "fast_play",
+    "gain_resource_1"
+  ],
+  "07272": [
+    "chaos_reveal_token_bless",
+    "cost_reaction_exhaust_self",
+    "fast_play"
+  ],
+  "07273": [
+    "take_damage"
+  ],
+  "07301": [
+    "chaos_reveal_token_bless"
+  ],
+  "07302": [
+    "bold_fight",
+    "boost_combat_2",
+    "boost_combat_4",
+    "chaos_reveal_token_bless",
+    "damage_plus_1",
+    "damage_plus_2"
+  ],
+  "07303": [],
+  "07304": [
+    "cost_fast_exhaust_self",
+    "uses_starting_0",
+    "uses_type_secret"
+  ],
+  "07305": [
+    "bold_fight",
+    "boost_combat_2",
+    "damage_plus_1",
+    "fast_play",
+    "uses_starting_4",
+    "uses_type_ammo"
+  ],
+  "07306": [
+    "chaos_reveal_token_curse"
+  ],
+  "07307": [
+    "chaos_reveal_token_auto_fail",
+    "chaos_reveal_token_curse"
+  ],
+  "07308": [
+    "chaos_reveal_token_bless",
+    "chaos_reveal_token_curse"
+  ],
+  "07309": [
+    "chaos_reveal_token_bless",
+    "cost_reaction_exhaust_self"
+  ],
+  "07310": [
+    "uses_starting_3",
+    "uses_type_offerings"
+  ],
+  "10005b": [
+    "deck_restriction"
+  ]
+}

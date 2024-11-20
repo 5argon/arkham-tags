@@ -1,0 +1,63 @@
+[
+  {
+    "name": "spend_resource",
+    "rules": [
+      {
+        "type": "any",
+        "param": ["cost_fast_spend_resource", "cost_reaction_spend_resource"]
+      }
+    ]
+  },
+  {
+    "name": "stat_base_set",
+    "rules": [
+      {
+        "type": "prefix",
+        "param": "stat_base_"
+      }
+    ]
+  },
+  {
+    "name": "initiate_test",
+    "rules": [
+      {
+        "type": "prefix",
+        "param": "initiate_test_"
+      }
+    ]
+  },
+  {
+    "name": "additional_slot",
+    "rules": [
+      {
+        "type": "prefix",
+        "param": "additional_slot_"
+      }
+    ]
+  },
+  {
+    "name": "role_clue",
+    "rules": [
+      {
+        "type": "prefix",
+        "param": "additional_clue"
+      },
+      {
+        "type": "prefix",
+        "param": "discover_clue_connecting_location"
+      },
+      {
+        "type": "prefix",
+        "param": "discover_clue_your_location"
+      },
+      {
+        "type": "prefix",
+        "param": "discover_clue_remote"
+      },
+      {
+        "type": "any",
+        "param": ["testless_clue"]
+      }
+    ]
+  }
+]
