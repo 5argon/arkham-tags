@@ -212,13 +212,13 @@
     "count": 2,
     "usages": [
       {
-        "code": "02189",
-        "name": "Streetwise",
+        "code": "02114",
+        "name": "Fire Extinguisher",
         "pack": "dwl"
       },
       {
-        "code": "02114",
-        "name": "Fire Extinguisher",
+        "code": "02189",
+        "name": "Streetwise",
         "pack": "dwl"
       }
     ]
@@ -260,13 +260,13 @@
     "count": 2,
     "usages": [
       {
-        "code": "02233",
-        "name": "Rite of Seeking",
+        "code": "02150",
+        "name": "Deduction",
         "pack": "dwl"
       },
       {
-        "code": "02150",
-        "name": "Deduction",
+        "code": "02233",
+        "name": "Rite of Seeking",
         "pack": "dwl"
       }
     ]
@@ -736,22 +736,6 @@
     ]
   },
   {
-    "tag": "initiate_test_willpower_1",
-    "count": 2,
-    "usages": [
-      {
-        "code": "08117",
-        "name": "Earthly Serenity",
-        "pack": "eote"
-      },
-      {
-        "code": "03032",
-        "name": "Alchemical Transmutation",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
     "tag": "initiate_test_willpower_0",
     "count": 2,
     "usages": [
@@ -764,6 +748,22 @@
         "code": "52007",
         "name": "Alchemical Transmutation",
         "pack": "rt"
+      }
+    ]
+  },
+  {
+    "tag": "initiate_test_willpower_1",
+    "count": 2,
+    "usages": [
+      {
+        "code": "08117",
+        "name": "Earthly Serenity",
+        "pack": "eote"
+      },
+      {
+        "code": "03032",
+        "name": "Alchemical Transmutation",
+        "pack": "ptc"
       }
     ]
   },
@@ -916,13 +916,13 @@
     "count": 2,
     "usages": [
       {
-        "code": "01579",
-        "name": "\"Look what I found!\"",
+        "code": "01564",
+        "name": "Drawn to the Flame",
         "pack": "rcore"
       },
       {
-        "code": "01564",
-        "name": "Drawn to the Flame",
+        "code": "01579",
+        "name": "\"Look what I found!\"",
         "pack": "rcore"
       }
     ]
@@ -964,12 +964,12 @@
     "count": 2,
     "usages": [
       {
-        "code": "01580",
+        "code": "01584",
         "name": "Lucky!",
         "pack": "rcore"
       },
       {
-        "code": "01584",
+        "code": "01580",
         "name": "Lucky!",
         "pack": "rcore"
       }

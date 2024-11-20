@@ -200,11 +200,6 @@
         "pack": "dwl"
       },
       {
-        "code": "01566",
-        "name": "Blinding Light",
-        "pack": "rcore"
-      },
-      {
         "code": "01536",
         "name": "Mind over Matter",
         "pack": "rcore"
@@ -212,6 +207,11 @@
       {
         "code": "01560",
         "name": "Shrivelling",
+        "pack": "rcore"
+      },
+      {
+        "code": "01566",
+        "name": "Blinding Light",
         "pack": "rcore"
       }
     ]
@@ -221,13 +221,13 @@
     "count": 5,
     "usages": [
       {
-        "code": "02308",
-        "name": "Aquinnah",
+        "code": "02153",
+        "name": "Hypnotic Gaze",
         "pack": "dwl"
       },
       {
-        "code": "02153",
-        "name": "Hypnotic Gaze",
+        "code": "02308",
+        "name": "Aquinnah",
         "pack": "dwl"
       },
       {
@@ -257,13 +257,13 @@
         "pack": "dwl"
       },
       {
-        "code": "04195",
-        "name": "Expose Weakness",
+        "code": "04199",
+        "name": "Premonition",
         "pack": "tfa"
       },
       {
-        "code": "04199",
-        "name": "Premonition",
+        "code": "04195",
+        "name": "Expose Weakness",
         "pack": "tfa"
       },
       {
@@ -368,6 +368,37 @@
         "code": "05020",
         "name": "Interrogate",
         "pack": "tcu"
+      }
+    ]
+  },
+  {
+    "tag": "trait_covenant",
+    "count": 5,
+    "usages": [
+      {
+        "code": "07110",
+        "name": "Sacred Covenant",
+        "pack": "tic"
+      },
+      {
+        "code": "07113",
+        "name": "Blasphemous Covenant",
+        "pack": "tic"
+      },
+      {
+        "code": "07116",
+        "name": "False Covenant",
+        "pack": "tic"
+      },
+      {
+        "code": "07120",
+        "name": "Paradoxical Covenant",
+        "pack": "tic"
+      },
+      {
+        "code": "07122",
+        "name": "Ancient Covenant",
+        "pack": "tic"
       }
     ]
   },
@@ -537,6 +568,11 @@
         "pack": "dwl"
       },
       {
+        "code": "01536",
+        "name": "Mind over Matter",
+        "pack": "rcore"
+      },
+      {
         "code": "01566",
         "name": "Blinding Light",
         "pack": "rcore"
@@ -544,11 +580,6 @@
       {
         "code": "01569",
         "name": "Blinding Light",
-        "pack": "rcore"
-      },
-      {
-        "code": "01536",
-        "name": "Mind over Matter",
         "pack": "rcore"
       }
     ]
@@ -594,13 +625,13 @@
         "pack": "dwl"
       },
       {
-        "code": "01529",
-        "name": "Shotgun",
+        "code": "01525",
+        "name": "Vicious Blow",
         "pack": "rcore"
       },
       {
-        "code": "01525",
-        "name": "Vicious Blow",
+        "code": "01529",
+        "name": "Shotgun",
         "pack": "rcore"
       }
     ]
@@ -662,23 +693,23 @@
     "count": 4,
     "usages": [
       {
-        "code": "02228",
-        "name": "Expose Weakness",
-        "pack": "dwl"
-      },
-      {
         "code": "02185",
         "name": "Keen Eye",
         "pack": "dwl"
       },
       {
-        "code": "01542",
-        "name": "Encyclopedia",
-        "pack": "rcore"
+        "code": "02228",
+        "name": "Expose Weakness",
+        "pack": "dwl"
       },
       {
         "code": "01568",
         "name": "Mind Wipe",
+        "pack": "rcore"
+      },
+      {
+        "code": "01542",
+        "name": "Encyclopedia",
         "pack": "rcore"
       }
     ]
@@ -745,11 +776,6 @@
         "pack": "dwl"
       },
       {
-        "code": "01581",
-        "name": "Survival Instinct",
-        "pack": "rcore"
-      },
-      {
         "code": "01525",
         "name": "Vicious Blow",
         "pack": "rcore"
@@ -757,6 +783,11 @@
       {
         "code": "01539",
         "name": "Deduction",
+        "pack": "rcore"
+      },
+      {
+        "code": "01581",
+        "name": "Survival Instinct",
         "pack": "rcore"
       }
     ]
@@ -823,12 +854,12 @@
         "pack": "rcore"
       },
       {
-        "code": "01580",
+        "code": "01584",
         "name": "Lucky!",
         "pack": "rcore"
       },
       {
-        "code": "01584",
+        "code": "01580",
         "name": "Lucky!",
         "pack": "rcore"
       },
@@ -892,48 +923,17 @@
     ]
   },
   {
-    "tag": "trait_covenant",
-    "count": 5,
-    "usages": [
-      {
-        "code": "07110",
-        "name": "Sacred Covenant",
-        "pack": "tic"
-      },
-      {
-        "code": "07113",
-        "name": "Blasphemous Covenant",
-        "pack": "tic"
-      },
-      {
-        "code": "07116",
-        "name": "False Covenant",
-        "pack": "tic"
-      },
-      {
-        "code": "07120",
-        "name": "Paradoxical Covenant",
-        "pack": "tic"
-      },
-      {
-        "code": "07122",
-        "name": "Ancient Covenant",
-        "pack": "tic"
-      }
-    ]
-  },
-  {
     "tag": "uses_starting_1",
     "count": 4,
     "usages": [
       {
-        "code": "08075",
-        "name": "Bangle of Jinxes",
+        "code": "08070",
+        "name": "True Magick",
         "pack": "eote"
       },
       {
-        "code": "08070",
-        "name": "True Magick",
+        "code": "08075",
+        "name": "Bangle of Jinxes",
         "pack": "eote"
       },
       {
@@ -979,13 +979,13 @@
     "count": 4,
     "usages": [
       {
-        "code": "09058",
-        "name": "Gray's Anatomy",
+        "code": "09040",
+        "name": "Alchemical Distillation",
         "pack": "tsk"
       },
       {
-        "code": "09040",
-        "name": "Alchemical Distillation",
+        "code": "09058",
+        "name": "Gray's Anatomy",
         "pack": "tsk"
       },
       {
@@ -1067,11 +1067,6 @@
         "pack": "tde"
       },
       {
-        "code": "10064",
-        "name": "Blackmail File",
-        "pack": "fhv"
-      },
-      {
         "code": "10094",
         "name": "Drain Essence",
         "pack": "fhv"
@@ -1079,6 +1074,11 @@
       {
         "code": "10114",
         "name": "Stall for Time",
+        "pack": "fhv"
+      },
+      {
+        "code": "10064",
+        "name": "Blackmail File",
         "pack": "fhv"
       }
     ]

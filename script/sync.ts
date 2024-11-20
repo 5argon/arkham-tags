@@ -182,6 +182,7 @@ for await (const entry of Deno.readDir(packFolder)) {
       tagsJsonSet.delete(t);
     }
   });
+  tagsJson.sort((a, b) => a.name.localeCompare(b.name));
 
   await Deno.writeTextFile(tagsJsonFile, JSON.stringify(tagsJson, null, 2));
 

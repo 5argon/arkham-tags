@@ -14,7 +14,6 @@ This is similar to "heal damage" and "heal horror" already in use in arkhamdb ca
 ## Public Facing Contents
 
 - `json/output/tagged-cards.json` is the mapping from card's code to its tags.
-- `json/output/tags.json` is a list of all tags in use.
 - `dist` folder has TypeScript type definitions to work with that JSON (`TaggedCards` type, and `Tags` for union of `string` of all tags available.).
 
 ## Examples
@@ -49,7 +48,7 @@ For ease of hand-tagging literally to the text, tags defined are very fine-grain
 
 ### Postprocessing
 
-Post process your work in `input/pack/[pack-name].json` with `sync` script in `package.json`. This uses Deno to run the script. It updates files in `json/output`, `json/statistics`, as well as some files in `src` folder. Some of those are what this package exports.
+Post process your work in `input/pack/[pack-name].json` with `sync` script in `package.json`. This uses Deno to run the script. It updates files in `json/output`, `json/statistics`, as well as some files in `src` folder. Some of those are what this package exports. One input file `json/input/tags.json` is also updated for each new tags introduced. Here you can type in description, so the next `sync` they became visible in the auto-completion.
 
 In the post processing step, the script adds **additional tags** based on existing tags, using rules defined in `json/input/compound-tags.json`. For example any card with tags starting (prefixed) with `additional_slot_` would automatically get `additional_slot` tag. One can then search for cards that provide any kind of additional slot with that one tag. Person tagging the card also won't have to tag all the more general variations and just use the most specific one.
 

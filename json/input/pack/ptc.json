@@ -25,7 +25,9 @@
     "tags": [
       "cost_reaction_exhaust_self",
       "deck_restriction",
-      "draw_player_1"
+      "draw_player_1",
+      "commit_remote",
+      "skill_card"
     ]
   },
   {
@@ -33,7 +35,8 @@
     "name": "The Painted World",
     "text": "Sefina Rousseau deck only.\nCannot be placed beneath Sefina Rousseau.\nPlay The Painted World as an exact copy of a non-exceptional event that is beneath Sefina Rousseau. Remove The Painted World from the game instead of discarding it.",
     "tags": [
-      "deck_restriction"
+      "deck_restriction",
+      "event_card"
     ]
   },
   {

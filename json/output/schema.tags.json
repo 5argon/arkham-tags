@@ -317,6 +317,10 @@
       "description": ""
     },
     {
+      "const": "commit_remote",
+      "description": ""
+    },
+    {
       "const": "connecting_location_enemy",
       "description": ""
     },
@@ -603,6 +607,10 @@
     {
       "const": "enters_play",
       "description": "Most enter play benefit are timing_reaction_enters_play. This is for rare cases like Arcane Initiate."
+    },
+    {
+      "const": "event_card",
+      "description": "Effect works with cart type Event."
     },
     {
       "const": "exhausted_enemy",
@@ -966,7 +974,7 @@
     },
     {
       "const": "skill_card",
-      "description": "Effect works with skill card."
+      "description": "Effect works with card type Skill."
     },
     {
       "const": "skill_gains_willpower_wild",

@@ -858,17 +858,6 @@
     ]
   },
   {
-    "tag": "trait_fortune",
-    "count": 1,
-    "usages": [
-      {
-        "code": "08120",
-        "name": "Prophetic",
-        "pack": "eote"
-      }
-    ]
-  },
-  {
     "tag": "trait_charm",
     "count": 1,
     "usages": [
@@ -880,12 +869,12 @@
     ]
   },
   {
-    "tag": "trait_favor",
+    "tag": "trait_fortune",
     "count": 1,
     "usages": [
       {
-        "code": "08124",
-        "name": "Antiquary",
+        "code": "08120",
+        "name": "Prophetic",
         "pack": "eote"
       }
     ]
@@ -897,6 +886,17 @@
       {
         "code": "08128",
         "name": "Rod of Animalism",
+        "pack": "eote"
+      }
+    ]
+  },
+  {
+    "tag": "trait_favor",
+    "count": 1,
+    "usages": [
+      {
+        "code": "08124",
+        "name": "Antiquary",
         "pack": "eote"
       }
     ]
@@ -979,23 +979,23 @@
     ]
   },
   {
-    "tag": "uses_type_aether",
-    "count": 1,
-    "usages": [
-      {
-        "code": "09119",
-        "name": "Hyperphysical Shotcaster",
-        "pack": "tsk"
-      }
-    ]
-  },
-  {
     "tag": "uses_type_time",
     "count": 1,
     "usages": [
       {
         "code": "09100",
         "name": "Makeshift Trap",
+        "pack": "tsk"
+      }
+    ]
+  },
+  {
+    "tag": "uses_type_aether",
+    "count": 1,
+    "usages": [
+      {
+        "code": "09119",
+        "name": "Hyperphysical Shotcaster",
         "pack": "tsk"
       }
     ]
@@ -1188,6 +1188,17 @@
     ]
   },
   {
+    "tag": "timing_reaction_after_evade",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01546",
+        "name": "Pickpocketing",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
     "tag": "stat_use_agility",
     "count": 1,
     "usages": [
@@ -1265,50 +1276,6 @@
     ]
   },
   {
-    "tag": "chaos_ignore",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01571",
-        "name": "Grotesque Statue",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "chaos_resolve_choose",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01571",
-        "name": "Grotesque Statue",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "chaos_reveal_more_instead",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01571",
-        "name": "Grotesque Statue",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "timing_reaction_chaos_reveal_would",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01571",
-        "name": "Grotesque Statue",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
     "tag": "additional_slot_arcane",
     "count": 1,
     "usages": [
@@ -1375,28 +1342,6 @@
     ]
   },
   {
-    "tag": "enemy_manage_shuffle",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01583",
-        "name": "Close Call",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "timing_fast_after_evaded",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01583",
-        "name": "Close Call",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
     "tag": "chaos_do_not_reveal",
     "count": 1,
     "usages": [
@@ -1419,12 +1364,23 @@
     ]
   },
   {
-    "tag": "cost_action_discard_self",
+    "tag": "enemy_manage_shuffle",
     "count": 1,
     "usages": [
       {
-        "code": "01586",
-        "name": "Knife",
+        "code": "01583",
+        "name": "Close Call",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "timing_fast_after_evaded",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01583",
+        "name": "Close Call",
         "pack": "rcore"
       }
     ]
@@ -1529,6 +1485,50 @@
     ]
   },
   {
+    "tag": "chaos_ignore",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01571",
+        "name": "Grotesque Statue",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "chaos_resolve_choose",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01571",
+        "name": "Grotesque Statue",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "chaos_reveal_more_instead",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01571",
+        "name": "Grotesque Statue",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "timing_reaction_chaos_reveal_would",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01571",
+        "name": "Grotesque Statue",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
     "tag": "cancel_chaos",
     "count": 1,
     "usages": [
@@ -1562,12 +1562,12 @@
     ]
   },
   {
-    "tag": "timing_reaction_after_evade",
+    "tag": "cost_action_discard_self",
     "count": 1,
     "usages": [
       {
-        "code": "01546",
-        "name": "Pickpocketing",
+        "code": "01586",
+        "name": "Knife",
         "pack": "rcore"
       }
     ]
@@ -1623,6 +1623,28 @@
       {
         "code": "03007",
         "name": "The Home Front",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "commit_remote",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03010",
+        "name": "Analytical Mind",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "event_card",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03012",
+        "name": "The Painted World",
         "pack": "ptc"
       }
     ]
@@ -1705,6 +1727,28 @@
     ]
   },
   {
+    "tag": "boost_intellect_6",
+    "count": 1,
+    "usages": [
+      {
+        "code": "10058",
+        "name": "Microscope",
+        "pack": "fhv"
+      }
+    ]
+  },
+  {
+    "tag": "uses_starting_10",
+    "count": 1,
+    "usages": [
+      {
+        "code": "10062",
+        "name": "Bianca \"Die Katz\"",
+        "pack": "fhv"
+      }
+    ]
+  },
+  {
     "tag": "initiate_test_agility_0",
     "count": 1,
     "usages": [
@@ -1733,28 +1777,6 @@
       {
         "code": "10132",
         "name": "Occult Reliquary",
-        "pack": "fhv"
-      }
-    ]
-  },
-  {
-    "tag": "boost_intellect_6",
-    "count": 1,
-    "usages": [
-      {
-        "code": "10058",
-        "name": "Microscope",
-        "pack": "fhv"
-      }
-    ]
-  },
-  {
-    "tag": "uses_starting_10",
-    "count": 1,
-    "usages": [
-      {
-        "code": "10062",
-        "name": "Bianca \"Die Katz\"",
         "pack": "fhv"
       }
     ]

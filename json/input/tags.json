@@ -20,6 +20,10 @@
     "description": "Use for exactly additional clue from the location you are investigating, not when it gets more from other locations."
   },
   {
+    "name": "additional_slot",
+    "description": ""
+  },
+  {
     "name": "additional_slot_accessory",
     "description": ""
   },
@@ -92,6 +96,10 @@
     "description": "Use when bold action designator exists."
   },
   {
+    "name": "bold_move",
+    "description": ""
+  },
+  {
     "name": "bold_parley",
     "description": "Use when bold action designator exists."
   },
@@ -140,6 +148,10 @@
     "description": ""
   },
   {
+    "name": "boost_combat_4",
+    "description": ""
+  },
+  {
     "name": "boost_combat_5",
     "description": ""
   },
@@ -157,6 +169,18 @@
   },
   {
     "name": "boost_intellect_3",
+    "description": ""
+  },
+  {
+    "name": "boost_intellect_5",
+    "description": ""
+  },
+  {
+    "name": "boost_intellect_6",
+    "description": ""
+  },
+  {
+    "name": "boost_passive",
     "description": ""
   },
   {
@@ -288,6 +312,14 @@
     "description": ""
   },
   {
+    "name": "clue_tech",
+    "description": ""
+  },
+  {
+    "name": "commit_remote",
+    "description": ""
+  },
+  {
     "name": "connecting_location_enemy",
     "description": ""
   },
@@ -302,6 +334,10 @@
   {
     "name": "cost_action_exhaust_self",
     "description": ""
+  },
+  {
+    "name": "cost_action_multiple",
+    "description": "When there are more than one arrow of the action cost."
   },
   {
     "name": "cost_action_spend_ammo",
@@ -360,6 +396,10 @@
     "description": ""
   },
   {
+    "name": "customizable",
+    "description": ""
+  },
+  {
     "name": "damage_plus_1",
     "description": ""
   },
@@ -382,6 +422,10 @@
   {
     "name": "damage_redirect",
     "description": "Select new target for enemy's damage that's not simply soaking."
+  },
+  {
+    "name": "damage_token_manipulation",
+    "description": ""
   },
   {
     "name": "deal_damage_enemy",
@@ -564,6 +608,10 @@
     "description": "Most enter play benefit are timing_reaction_enters_play. This is for rare cases like Arcane Initiate."
   },
   {
+    "name": "event_card",
+    "description": "Effect works with cart type Event."
+  },
+  {
     "name": "exhausted_enemy",
     "description": "Check for exhausted status of enemy."
   },
@@ -592,11 +640,31 @@
     "description": ""
   },
   {
+    "name": "gain_resource_10",
+    "description": ""
+  },
+  {
     "name": "gain_resource_2",
     "description": ""
   },
   {
     "name": "gain_resource_3",
+    "description": ""
+  },
+  {
+    "name": "gain_resource_4",
+    "description": ""
+  },
+  {
+    "name": "gain_resource_5",
+    "description": ""
+  },
+  {
+    "name": "gain_resource_6",
+    "description": ""
+  },
+  {
+    "name": "gain_resource_9",
     "description": ""
   },
   {
@@ -648,11 +716,23 @@
     "description": "Old Book of Lore 3, Ever Vigilant"
   },
   {
+    "name": "initiate_test",
+    "description": ""
+  },
+  {
+    "name": "initiate_test_agility_0",
+    "description": ""
+  },
+  {
     "name": "initiate_test_agility_1",
     "description": ""
   },
   {
     "name": "initiate_test_agility_3",
+    "description": ""
+  },
+  {
+    "name": "initiate_test_agility_x",
     "description": ""
   },
   {
@@ -665,6 +745,10 @@
   },
   {
     "name": "initiate_test_intellect",
+    "description": ""
+  },
+  {
+    "name": "initiate_test_intellect_0",
     "description": ""
   },
   {
@@ -684,6 +768,14 @@
     "description": ""
   },
   {
+    "name": "initiate_test_intellect_x",
+    "description": ""
+  },
+  {
+    "name": "initiate_test_willpower_0",
+    "description": ""
+  },
+  {
     "name": "initiate_test_willpower_1",
     "description": ""
   },
@@ -696,6 +788,10 @@
     "description": ""
   },
   {
+    "name": "initiate_test_willpower_x",
+    "description": ""
+  },
+  {
     "name": "instead_of_clue",
     "description": ""
   },
@@ -704,11 +800,11 @@
     "description": ""
   },
   {
-    "name": "limit_1_per_investigator",
+    "name": "limit_1_per_deck",
     "description": ""
   },
   {
-    "name": "limit_1_per_deck",
+    "name": "limit_1_per_investigator",
     "description": ""
   },
   {
@@ -750,6 +846,14 @@
   {
     "name": "max_1_commit",
     "description": ""
+  },
+  {
+    "name": "max_per_game_1",
+    "description": "Max once per game."
+  },
+  {
+    "name": "max_per_game_2",
+    "description": "Max twice per game."
   },
   {
     "name": "move_enemy_control",
@@ -848,6 +952,10 @@
     "description": ""
   },
   {
+    "name": "shroud_reduction",
+    "description": ""
+  },
+  {
     "name": "shuffle_player",
     "description": "Cause player deck to shuffle."
   },
@@ -865,7 +973,7 @@
   },
   {
     "name": "skill_card",
-    "description": "Effect works with skill card."
+    "description": "Effect works with card type Skill."
   },
   {
     "name": "skill_gains_willpower_wild",
@@ -881,6 +989,10 @@
   },
   {
     "name": "spend_action",
+    "description": ""
+  },
+  {
+    "name": "spend_ammo",
     "description": ""
   },
   {
@@ -916,8 +1028,20 @@
     "description": "Card can set base stat to a specific number."
   },
   {
+    "name": "stat_base_combat_4",
+    "description": ""
+  },
+  {
     "name": "stat_base_combat_6",
     "description": "Card can set base stat to a specific number."
+  },
+  {
+    "name": "stat_base_intellect_4",
+    "description": ""
+  },
+  {
+    "name": "stat_base_set",
+    "description": ""
   },
   {
     "name": "stat_from_spent_resource",
@@ -950,6 +1074,10 @@
   {
     "name": "succeed_by",
     "description": "For dynamic succeed by effect"
+  },
+  {
+    "name": "succeed_by_0",
+    "description": ""
   },
   {
     "name": "succeed_by_1",
@@ -1080,11 +1208,19 @@
     "description": ""
   },
   {
+    "name": "timing_reaction_after_enemy_engages",
+    "description": ""
+  },
+  {
     "name": "timing_reaction_after_evade",
     "description": ""
   },
   {
     "name": "timing_reaction_after_investigate_success",
+    "description": ""
+  },
+  {
+    "name": "timing_reaction_after_play",
     "description": ""
   },
   {
@@ -1160,16 +1296,128 @@
     "description": "Card support positively to other cards of this trait."
   },
   {
+    "name": "trait_armor",
+    "description": ""
+  },
+  {
+    "name": "trait_blessed",
+    "description": ""
+  },
+  {
+    "name": "trait_charm",
+    "description": ""
+  },
+  {
+    "name": "trait_clothing",
+    "description": ""
+  },
+  {
+    "name": "trait_composure",
+    "description": ""
+  },
+  {
+    "name": "trait_covenant",
+    "description": ""
+  },
+  {
+    "name": "trait_creature",
+    "description": ""
+  },
+  {
+    "name": "trait_cursed",
+    "description": ""
+  },
+  {
+    "name": "trait_dilemma",
+    "description": ""
+  },
+  {
+    "name": "trait_favor",
+    "description": ""
+  },
+  {
     "name": "trait_firearm",
     "description": "Card support positively to other cards of this trait."
+  },
+  {
+    "name": "trait_footwear",
+    "description": ""
+  },
+  {
+    "name": "trait_fortune",
+    "description": ""
+  },
+  {
+    "name": "trait_geist",
+    "description": ""
+  },
+  {
+    "name": "trait_hazard",
+    "description": ""
+  },
+  {
+    "name": "trait_humanoid",
+    "description": ""
+  },
+  {
+    "name": "trait_illicit",
+    "description": ""
+  },
+  {
+    "name": "trait_innate",
+    "description": ""
+  },
+  {
+    "name": "trait_insight",
+    "description": ""
   },
   {
     "name": "trait_item",
     "description": "Card support positively to other cards of this trait."
   },
   {
+    "name": "trait_mask",
+    "description": ""
+  },
+  {
+    "name": "trait_melee",
+    "description": ""
+  },
+  {
+    "name": "trait_miskatonic",
+    "description": ""
+  },
+  {
     "name": "trait_monster",
     "description": "Card support positively to other cards of this trait."
+  },
+  {
+    "name": "trait_omen",
+    "description": ""
+  },
+  {
+    "name": "trait_practiced",
+    "description": ""
+  },
+  {
+    "name": "trait_ranged",
+    "description": ""
+  },
+  {
+    "name": "trait_relic",
+    "description": ""
+  },
+  {
+    "name": "trait_ritual",
+    "description": ""
+  },
+  {
+    "name": "trait_rot",
+    "description": ""
+  },
+  {
+    "name": "trait_science",
+    "description": ""
   },
   {
     "name": "trait_spell",
@@ -1180,8 +1428,44 @@
     "description": "Card support positively to other cards of this trait."
   },
   {
+    "name": "trait_spirit",
+    "description": ""
+  },
+  {
+    "name": "trait_supply",
+    "description": ""
+  },
+  {
+    "name": "trait_tactic",
+    "description": ""
+  },
+  {
+    "name": "trait_tarot",
+    "description": ""
+  },
+  {
+    "name": "trait_terror",
+    "description": ""
+  },
+  {
     "name": "trait_tome",
     "description": "Card support positively to other cards of this trait."
+  },
+  {
+    "name": "trait_tool",
+    "description": ""
+  },
+  {
+    "name": "trait_trick",
+    "description": ""
+  },
+  {
+    "name": "trait_unbroken",
+    "description": ""
+  },
+  {
+    "name": "trait_upgrade",
+    "description": ""
   },
   {
     "name": "trait_weapon",
@@ -1220,6 +1504,10 @@
     "description": ""
   },
   {
+    "name": "uses_starting_10",
+    "description": ""
+  },
+  {
     "name": "uses_starting_2",
     "description": ""
   },
@@ -1252,11 +1540,43 @@
     "description": ""
   },
   {
+    "name": "uses_type_aether",
+    "description": ""
+  },
+  {
     "name": "uses_type_ammo",
     "description": ""
   },
   {
+    "name": "uses_type_bounties",
+    "description": ""
+  },
+  {
     "name": "uses_type_charge",
+    "description": ""
+  },
+  {
+    "name": "uses_type_durability",
+    "description": ""
+  },
+  {
+    "name": "uses_type_evidence",
+    "description": ""
+  },
+  {
+    "name": "uses_type_keys",
+    "description": ""
+  },
+  {
+    "name": "uses_type_leylines",
+    "description": ""
+  },
+  {
+    "name": "uses_type_offerings",
+    "description": ""
+  },
+  {
+    "name": "uses_type_resource",
     "description": ""
   },
   {
@@ -1265,6 +1585,14 @@
   },
   {
     "name": "uses_type_supply",
+    "description": ""
+  },
+  {
+    "name": "uses_type_time",
+    "description": ""
+  },
+  {
+    "name": "uses_type_tries",
     "description": ""
   },
   {
@@ -1286,325 +1614,5 @@
   {
     "name": "your_location_skill_test",
     "description": "Card that detects any skill test occuring at your location."
-  },
-  {
-    "name": "cost_action_multiple",
-    "description": "When there are more than one arrow of the action cost."
-  },
-  {
-    "name": "max_per_game_1",
-    "description": "Max once per game."
-  },
-  {
-    "name": "max_per_game_2",
-    "description": "Max twice per game."
-  },
-  {
-    "name": "timing_reaction_after_enemy_engages",
-    "description": ""
-  },
-  {
-    "name": "spend_ammo",
-    "description": ""
-  },
-  {
-    "name": "stat_base_combat_4",
-    "description": ""
-  },
-  {
-    "name": "stat_base_intellect_4",
-    "description": ""
-  },
-  {
-    "name": "trait_unbroken",
-    "description": ""
-  },
-  {
-    "name": "trait_composure",
-    "description": ""
-  },
-  {
-    "name": "trait_footwear",
-    "description": ""
-  },
-  {
-    "name": "trait_relic",
-    "description": ""
-  },
-  {
-    "name": "uses_type_leylines",
-    "description": ""
-  },
-  {
-    "name": "bold_move",
-    "description": ""
-  },
-  {
-    "name": "gain_resource_4",
-    "description": ""
-  },
-  {
-    "name": "gain_resource_5",
-    "description": ""
-  },
-  {
-    "name": "gain_resource_6",
-    "description": ""
-  },
-  {
-    "name": "gain_resource_9",
-    "description": ""
-  },
-  {
-    "name": "uses_type_durability",
-    "description": ""
-  },
-  {
-    "name": "trait_ranged",
-    "description": ""
-  },
-  {
-    "name": "succeed_by_0",
-    "description": ""
-  },
-  {
-    "name": "trait_hazard",
-    "description": ""
-  },
-  {
-    "name": "gain_resource_10",
-    "description": ""
-  },
-  {
-    "name": "initiate_test_willpower_0",
-    "description": ""
-  },
-  {
-    "name": "uses_type_resource",
-    "description": ""
-  },
-  {
-    "name": "trait_fortune",
-    "description": ""
-  },
-  {
-    "name": "trait_spirit",
-    "description": ""
-  },
-  {
-    "name": "trait_charm",
-    "description": ""
-  },
-  {
-    "name": "trait_tactic",
-    "description": ""
-  },
-  {
-    "name": "trait_armor",
-    "description": ""
-  },
-  {
-    "name": "trait_melee",
-    "description": ""
-  },
-  {
-    "name": "trait_insight",
-    "description": ""
-  },
-  {
-    "name": "trait_tool",
-    "description": ""
-  },
-  {
-    "name": "trait_trick",
-    "description": ""
-  },
-  {
-    "name": "trait_favor",
-    "description": ""
-  },
-  {
-    "name": "trait_ritual",
-    "description": ""
-  },
-  {
-    "name": "trait_creature",
-    "description": ""
-  },
-  {
-    "name": "uses_type_bounties",
-    "description": ""
-  },
-  {
-    "name": "boost_intellect_5",
-    "description": ""
-  },
-  {
-    "name": "trait_practiced",
-    "description": ""
-  },
-  {
-    "name": "initiate_test_willpower_x",
-    "description": ""
-  },
-  {
-    "name": "customizable",
-    "description": ""
-  },
-  {
-    "name": "trait_humanoid",
-    "description": ""
-  },
-  {
-    "name": "initiate_test_intellect_0",
-    "description": ""
-  },
-  {
-    "name": "uses_type_evidence",
-    "description": ""
-  },
-  {
-    "name": "trait_clothing",
-    "description": ""
-  },
-  {
-    "name": "trait_illicit",
-    "description": ""
-  },
-  {
-    "name": "uses_type_time",
-    "description": ""
-  },
-  {
-    "name": "trait_dilemma",
-    "description": ""
-  },
-  {
-    "name": "uses_type_keys",
-    "description": ""
-  },
-  {
-    "name": "uses_type_aether",
-    "description": ""
-  },
-  {
-    "name": "timing_reaction_after_play",
-    "description": ""
-  },
-  {
-    "name": "boost_combat_4",
-    "description": ""
-  },
-  {
-    "name": "trait_terror",
-    "description": ""
-  },
-  {
-    "name": "trait_supply",
-    "description": ""
-  },
-  {
-    "name": "trait_tarot",
-    "description": ""
-  },
-  {
-    "name": "initiate_test_intellect_x",
-    "description": ""
-  },
-  {
-    "name": "uses_type_tries",
-    "description": ""
-  },
-  {
-    "name": "trait_omen",
-    "description": ""
-  },
-  {
-    "name": "initiate_test_agility_x",
-    "description": ""
-  },
-  {
-    "name": "trait_innate",
-    "description": ""
-  },
-  {
-    "name": "trait_upgrade",
-    "description": ""
-  },
-  {
-    "name": "trait_miskatonic",
-    "description": ""
-  },
-  {
-    "name": "trait_geist",
-    "description": ""
-  },
-  {
-    "name": "trait_covenant",
-    "description": ""
-  },
-  {
-    "name": "uses_type_offerings",
-    "description": ""
-  },
-  {
-    "name": "trait_mask",
-    "description": ""
-  },
-  {
-    "name": "trait_science",
-    "description": ""
-  },
-  {
-    "name": "boost_intellect_6",
-    "description": ""
-  },
-  {
-    "name": "uses_starting_10",
-    "description": ""
-  },
-  {
-    "name": "initiate_test_agility_0",
-    "description": ""
-  },
-  {
-    "name": "trait_rot",
-    "description": ""
-  },
-  {
-    "name": "trait_blessed",
-    "description": ""
-  },
-  {
-    "name": "trait_cursed",
-    "description": ""
-  },
-  {
-    "name": "stat_base_set",
-    "description": ""
-  },
-  {
-    "name": "initiate_test",
-    "description": ""
-  },
-  {
-    "name": "boost_passive",
-    "description": ""
-  },
-  {
-    "name": "additional_slot",
-    "description": ""
-  },
-  {
-    "name": "clue_tech",
-    "description": ""
-  },
-  {
-    "name": "shroud_reduction",
-    "description": ""
-  },
-  {
-    "name": "damage_token_manipulation",
-    "description": ""
   }
 ]
