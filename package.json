@@ -1,0 +1,13 @@
+{
+  "name": "@5argon/arkham-tags",
+  "type": "module",
+  "scripts": {
+    "sync": "deno run --allow-read --allow-write ./script/sync.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "main": "dist/index.js",
+  "devDependencies": {
+    "typescript": "^4.0.0"
+  }
+}

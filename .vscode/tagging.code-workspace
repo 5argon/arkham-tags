@@ -12,6 +12,7 @@
         ],
         "url": "../json/schema.json"
       }
-    ]
+    ],
+    "deno.enable": true
   },
 }

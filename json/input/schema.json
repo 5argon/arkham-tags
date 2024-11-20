@@ -16,7 +16,7 @@
       "tags": {
         "type": "array",
         "items": {
-          "$ref": "./schema.tags.json"
+          "$ref": "../schema.tags.json"
         }
       }
     },

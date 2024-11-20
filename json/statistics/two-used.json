@@ -1,0 +1,1058 @@
+[
+  {
+    "tag": "current_clue_value",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02008",
+        "name": "Search for the Truth",
+        "pack": "dwl"
+      },
+      {
+        "code": "02107",
+        "name": "\"I've got a plan!\"",
+        "pack": "dwl"
+      }
+    ]
+  },
+  {
+    "tag": "result_attack_fail",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02016",
+        "name": "Blackjack",
+        "pack": "dwl"
+      },
+      {
+        "code": "01529",
+        "name": "Shotgun",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "engage_effect",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02017",
+        "name": "Taunt",
+        "pack": "dwl"
+      },
+      {
+        "code": "02019",
+        "name": "Taunt",
+        "pack": "dwl"
+      }
+    ]
+  },
+  {
+    "tag": "initiate_test_intellect_4",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02021",
+        "name": "Strange Solution",
+        "pack": "dwl"
+      },
+      {
+        "code": "09005",
+        "name": "Bonesaw",
+        "pack": "tsk"
+      }
+    ]
+  },
+  {
+    "tag": "result_test_fail",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02024",
+        "name": "Liquid Courage",
+        "pack": "dwl"
+      },
+      {
+        "code": "01535",
+        "name": "Medical Texts",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "heal_horror_soak",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02033",
+        "name": "Peter Sylvestre",
+        "pack": "dwl"
+      },
+      {
+        "code": "02035",
+        "name": "Peter Sylvestre",
+        "pack": "dwl"
+      }
+    ]
+  },
+  {
+    "tag": "timing_reaction_after_turn_ends",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02033",
+        "name": "Peter Sylvestre",
+        "pack": "dwl"
+      },
+      {
+        "code": "02035",
+        "name": "Peter Sylvestre",
+        "pack": "dwl"
+      }
+    ]
+  },
+  {
+    "tag": "spend_action",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02036",
+        "name": "Kukri",
+        "pack": "dwl"
+      },
+      {
+        "code": "02304",
+        "name": "Chicago Typewriter",
+        "pack": "dwl"
+      }
+    ]
+  },
+  {
+    "tag": "heal_damage_ally",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02105",
+        "name": "Emergency Aid",
+        "pack": "dwl"
+      },
+      {
+        "code": "01683",
+        "name": "First Aid",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "your_location_ally",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02105",
+        "name": "Emergency Aid",
+        "pack": "dwl"
+      },
+      {
+        "code": "01683",
+        "name": "First Aid",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "uses_add_ammo",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02109",
+        "name": "Contraband",
+        "pack": "dwl"
+      },
+      {
+        "code": "01526",
+        "name": "Extra Ammunition",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "growth",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02110",
+        "name": "Adaptable",
+        "pack": "dwl"
+      },
+      {
+        "code": "02111",
+        "name": "Delve Too Deep",
+        "pack": "dwl"
+      }
+    ]
+  },
+  {
+    "tag": "fail_by_2_or_less",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02113",
+        "name": "Oops!",
+        "pack": "dwl"
+      },
+      {
+        "code": "01579",
+        "name": "\"Look what I found!\"",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "boost_agility_3",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02114",
+        "name": "Fire Extinguisher",
+        "pack": "dwl"
+      },
+      {
+        "code": "02189",
+        "name": "Streetwise",
+        "pack": "dwl"
+      }
+    ]
+  },
+  {
+    "tag": "any_investigator",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02115",
+        "name": "Flare",
+        "pack": "dwl"
+      },
+      {
+        "code": "02270",
+        "name": "A Chance Encounter",
+        "pack": "dwl"
+      }
+    ]
+  },
+  {
+    "tag": "additional_slot_hand",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02147",
+        "name": "Bandolier",
+        "pack": "dwl"
+      },
+      {
+        "code": "01008",
+        "name": "Daisy's Tote Bag",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "additional_clue_2",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02150",
+        "name": "Deduction",
+        "pack": "dwl"
+      },
+      {
+        "code": "02233",
+        "name": "Rite of Seeking",
+        "pack": "dwl"
+      }
+    ]
+  },
+  {
+    "tag": "cancel_attack",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02153",
+        "name": "Hypnotic Gaze",
+        "pack": "dwl"
+      },
+      {
+        "code": "01523",
+        "name": "Dodge",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "at_end_of_round",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02156",
+        "name": "Lure",
+        "pack": "dwl"
+      },
+      {
+        "code": "02270",
+        "name": "A Chance Encounter",
+        "pack": "dwl"
+      }
+    ]
+  },
+  {
+    "tag": "attach_location",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02156",
+        "name": "Lure",
+        "pack": "dwl"
+      },
+      {
+        "code": "01538",
+        "name": "Barricade",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "move_enemy_control",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02156",
+        "name": "Lure",
+        "pack": "dwl"
+      },
+      {
+        "code": "01538",
+        "name": "Barricade",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "additional_slot_accessory",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02157",
+        "name": "Relic Hunter",
+        "pack": "dwl"
+      },
+      {
+        "code": "01695",
+        "name": "Relic Hunter",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "additional_slot_ally",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02158",
+        "name": "Charisma",
+        "pack": "dwl"
+      },
+      {
+        "code": "01694",
+        "name": "Charisma",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "to_hand_from_deck",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02184",
+        "name": "Prepared for the Worst",
+        "pack": "dwl"
+      },
+      {
+        "code": "01532",
+        "name": "Research Librarian",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "chaos_ignore_effect",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02190",
+        "name": "Defiance",
+        "pack": "dwl"
+      },
+      {
+        "code": "02230",
+        "name": "Lucky Dice",
+        "pack": "dwl"
+      }
+    ]
+  },
+  {
+    "tag": "chaos_ignore_modifier",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02190",
+        "name": "Defiance",
+        "pack": "dwl"
+      },
+      {
+        "code": "02230",
+        "name": "Lucky Dice",
+        "pack": "dwl"
+      }
+    ]
+  },
+  {
+    "tag": "timing_fast_defeat_enemy",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02225",
+        "name": "\"If it bleeds...\"",
+        "pack": "dwl"
+      },
+      {
+        "code": "01522",
+        "name": "Evidence!",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "trait_monster",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02225",
+        "name": "\"If it bleeds...\"",
+        "pack": "dwl"
+      },
+      {
+        "code": "04193",
+        "name": "Custom Ammunition",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "succeed_by",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02228",
+        "name": "Expose Weakness",
+        "pack": "dwl"
+      },
+      {
+        "code": "01529",
+        "name": "Shotgun",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "end_your_turn",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02233",
+        "name": "Rite of Seeking",
+        "pack": "dwl"
+      },
+      {
+        "code": "01689",
+        "name": "Rite of Seeking",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "cancel_damage",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02261",
+        "name": "\"I've had worse…\"",
+        "pack": "dwl"
+      },
+      {
+        "code": "01684",
+        "name": "\"I've had worse…\"",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "cancel_horror",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02261",
+        "name": "\"I've had worse…\"",
+        "pack": "dwl"
+      },
+      {
+        "code": "01684",
+        "name": "\"I've had worse…\"",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "timing_fast_dealt_damage",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02261",
+        "name": "\"I've had worse…\"",
+        "pack": "dwl"
+      },
+      {
+        "code": "01684",
+        "name": "\"I've had worse…\"",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "timing_fast_dealt_horror",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02261",
+        "name": "\"I've had worse…\"",
+        "pack": "dwl"
+      },
+      {
+        "code": "01684",
+        "name": "\"I've had worse…\"",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "to_play_from_discard",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02270",
+        "name": "A Chance Encounter",
+        "pack": "dwl"
+      },
+      {
+        "code": "01014",
+        "name": "Wendy's Amulet",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "boost_combat_5",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02301",
+        "name": "Lightning Gun",
+        "pack": "dwl"
+      },
+      {
+        "code": "08096",
+        "name": "Sledgehammer",
+        "pack": "eote"
+      }
+    ]
+  },
+  {
+    "tag": "timing_fast_after_phase_begin",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02305",
+        "name": "The Gold Pocket Watch",
+        "pack": "dwl"
+      },
+      {
+        "code": "01568",
+        "name": "Mind Wipe",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "timing_fast_when_draw_treachery",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02307",
+        "name": "Ward of Protection",
+        "pack": "dwl"
+      },
+      {
+        "code": "01565",
+        "name": "Ward of Protection",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "timing_reaction_after_test_fail",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02309",
+        "name": "Try and Try Again",
+        "pack": "dwl"
+      },
+      {
+        "code": "01575",
+        "name": "Rabbit's Foot",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "trait_footwear",
+    "count": 2,
+    "usages": [
+      {
+        "code": "08035",
+        "name": "Hiking Boots",
+        "pack": "eote"
+      },
+      {
+        "code": "05036",
+        "name": "Track Shoes",
+        "pack": "tcu"
+      }
+    ]
+  },
+  {
+    "tag": "gain_resource_4",
+    "count": 2,
+    "usages": [
+      {
+        "code": "08048",
+        "name": "21 or Bust",
+        "pack": "eote"
+      },
+      {
+        "code": "03239",
+        "name": "Emergency Cache",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "gain_resource_5",
+    "count": 2,
+    "usages": [
+      {
+        "code": "08048",
+        "name": "21 or Bust",
+        "pack": "eote"
+      },
+      {
+        "code": "03025",
+        "name": "Archaic Glyphs",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "uses_starting_9",
+    "count": 2,
+    "usages": [
+      {
+        "code": "08092",
+        "name": "Brand of Cthugha",
+        "pack": "eote"
+      },
+      {
+        "code": "06162",
+        "name": "Gregory Gry",
+        "pack": "tde"
+      }
+    ]
+  },
+  {
+    "tag": "damage_plus_5",
+    "count": 2,
+    "usages": [
+      {
+        "code": "08096",
+        "name": "Sledgehammer",
+        "pack": "eote"
+      },
+      {
+        "code": "01529",
+        "name": "Shotgun",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "gain_resource_10",
+    "count": 2,
+    "usages": [
+      {
+        "code": "08113",
+        "name": "Unscrupulous Loan",
+        "pack": "eote"
+      },
+      {
+        "code": "50006",
+        "name": "Hot Streak",
+        "pack": "rt"
+      }
+    ]
+  },
+  {
+    "tag": "initiate_test_willpower_1",
+    "count": 2,
+    "usages": [
+      {
+        "code": "08117",
+        "name": "Earthly Serenity",
+        "pack": "eote"
+      },
+      {
+        "code": "03032",
+        "name": "Alchemical Transmutation",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "initiate_test_willpower_0",
+    "count": 2,
+    "usages": [
+      {
+        "code": "08119",
+        "name": "Earthly Serenity",
+        "pack": "eote"
+      },
+      {
+        "code": "52007",
+        "name": "Alchemical Transmutation",
+        "pack": "rt"
+      }
+    ]
+  },
+  {
+    "tag": "trait_armor",
+    "count": 2,
+    "usages": [
+      {
+        "code": "08122",
+        "name": "Bruiser",
+        "pack": "eote"
+      },
+      {
+        "code": "09065",
+        "name": "Hidden Pocket",
+        "pack": "tsk"
+      }
+    ]
+  },
+  {
+    "tag": "initiate_test_intellect_0",
+    "count": 2,
+    "usages": [
+      {
+        "code": "09045",
+        "name": "Research Notes",
+        "pack": "tsk"
+      },
+      {
+        "code": "04267",
+        "name": "Feed the Mind",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "uses_type_keys",
+    "count": 2,
+    "usages": [
+      {
+        "code": "09117",
+        "name": "Old Keyring",
+        "pack": "tsk"
+      },
+      {
+        "code": "60507",
+        "name": "Old Keyring",
+        "pack": "ste"
+      }
+    ]
+  },
+  {
+    "tag": "duration_until_end_round",
+    "count": 2,
+    "usages": [
+      {
+        "code": "01010",
+        "name": "On the Lam",
+        "pack": "rcore"
+      },
+      {
+        "code": "01536",
+        "name": "Mind over Matter",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "timing_fast_test",
+    "count": 2,
+    "usages": [
+      {
+        "code": "01517",
+        "name": "Physical Training",
+        "pack": "rcore"
+      },
+      {
+        "code": "01577",
+        "name": "Dig Deep",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "cost_fast_discard_self",
+    "count": 2,
+    "usages": [
+      {
+        "code": "01518",
+        "name": "Beat Cop",
+        "pack": "rcore"
+      },
+      {
+        "code": "01527",
+        "name": "Police Badge",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "soak_benefit_damage",
+    "count": 2,
+    "usages": [
+      {
+        "code": "01521",
+        "name": "Guard Dog",
+        "pack": "rcore"
+      },
+      {
+        "code": "01528",
+        "name": "Beat Cop",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "deal_damage_investigator",
+    "count": 2,
+    "usages": [
+      {
+        "code": "01524",
+        "name": "Dynamite Blast",
+        "pack": "rcore"
+      },
+      {
+        "code": "01535",
+        "name": "Medical Texts",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "chaos_modifier",
+    "count": 2,
+    "usages": [
+      {
+        "code": "01556",
+        "name": "Sure Gamble",
+        "pack": "rcore"
+      },
+      {
+        "code": "01692",
+        "name": "Eucatastrophe",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "discover_clue_your_location_2",
+    "count": 2,
+    "usages": [
+      {
+        "code": "01564",
+        "name": "Drawn to the Flame",
+        "pack": "rcore"
+      },
+      {
+        "code": "01579",
+        "name": "\"Look what I found!\"",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "auto_evade",
+    "count": 2,
+    "usages": [
+      {
+        "code": "01576",
+        "name": "Stray Cat",
+        "pack": "rcore"
+      },
+      {
+        "code": "01578",
+        "name": "Cunning Distraction",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "testless_evade",
+    "count": 2,
+    "usages": [
+      {
+        "code": "01576",
+        "name": "Stray Cat",
+        "pack": "rcore"
+      },
+      {
+        "code": "01578",
+        "name": "Cunning Distraction",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "timing_fast_would_fail",
+    "count": 2,
+    "usages": [
+      {
+        "code": "01580",
+        "name": "Lucky!",
+        "pack": "rcore"
+      },
+      {
+        "code": "01584",
+        "name": "Lucky!",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "succeed_by_4",
+    "count": 2,
+    "usages": [
+      {
+        "code": "60321",
+        "name": "Mauser C96",
+        "pack": "win"
+      },
+      {
+        "code": "60331",
+        "name": "Beretta M1918",
+        "pack": "win"
+      }
+    ]
+  },
+  {
+    "tag": "trait_tarot",
+    "count": 2,
+    "usages": [
+      {
+        "code": "54012",
+        "name": "Moon Pendant",
+        "pack": "rt"
+      },
+      {
+        "code": "05283",
+        "name": "Anna Kaslow",
+        "pack": "tcu"
+      }
+    ]
+  },
+  {
+    "tag": "initiate_test_agility_x",
+    "count": 2,
+    "usages": [
+      {
+        "code": "03237",
+        "name": "Waylay",
+        "pack": "ptc"
+      },
+      {
+        "code": "10062",
+        "name": "Bianca \"Die Katz\"",
+        "pack": "fhv"
+      }
+    ]
+  },
+  {
+    "tag": "bold_engage",
+    "count": 2,
+    "usages": [
+      {
+        "code": "60114",
+        "name": "\"Get over here!\"",
+        "pack": "nat"
+      },
+      {
+        "code": "07109",
+        "name": "Righteous Hunt",
+        "pack": "tic"
+      }
+    ]
+  },
+  {
+    "tag": "trait_science",
+    "count": 2,
+    "usages": [
+      {
+        "code": "10051",
+        "name": "Well-Funded",
+        "pack": "fhv"
+      },
+      {
+        "code": "10054",
+        "name": "Fine Tuning",
+        "pack": "fhv"
+      }
+    ]
+  },
+  {
+    "tag": "trait_rot",
+    "count": 2,
+    "usages": [
+      {
+        "code": "10085",
+        "name": "Rod of Carnamagos",
+        "pack": "fhv"
+      },
+      {
+        "code": "10098",
+        "name": "Rod of Carnamagos",
+        "pack": "fhv"
+      }
+    ]
+  }
+]

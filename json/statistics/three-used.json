@@ -1,0 +1,737 @@
+[
+  {
+    "tag": "spend_resource",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02006",
+        "name": "Zoey's Cross",
+        "pack": "dwl"
+      },
+      {
+        "code": "02027",
+        "name": "Hired Muscle",
+        "pack": "dwl"
+      },
+      {
+        "code": "02032",
+        "name": "Fire Axe",
+        "pack": "dwl"
+      }
+    ]
+  },
+  {
+    "tag": "connecting_location_investigator",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02012",
+        "name": "Jim's Trumpet",
+        "pack": "dwl"
+      },
+      {
+        "code": "02022",
+        "name": "Shortcut",
+        "pack": "dwl"
+      },
+      {
+        "code": "01524",
+        "name": "Dynamite Blast",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "move_investigator_any",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02022",
+        "name": "Shortcut",
+        "pack": "dwl"
+      },
+      {
+        "code": "02235",
+        "name": "Survival Instinct",
+        "pack": "dwl"
+      },
+      {
+        "code": "01581",
+        "name": "Survival Instinct",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "stat_not_intellect",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02028",
+        "name": "Rite of Seeking",
+        "pack": "dwl"
+      },
+      {
+        "code": "02233",
+        "name": "Rite of Seeking",
+        "pack": "dwl"
+      },
+      {
+        "code": "01689",
+        "name": "Rite of Seeking",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "chaos_reveal_during_effect",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02029",
+        "name": "Ritual Candles",
+        "pack": "dwl"
+      },
+      {
+        "code": "01560",
+        "name": "Shrivelling",
+        "pack": "rcore"
+      },
+      {
+        "code": "01689",
+        "name": "Rite of Seeking",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "initiate_test_willpower_3",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02031",
+        "name": "Bind Monster",
+        "pack": "dwl"
+      },
+      {
+        "code": "60513",
+        "name": "A Test of Will",
+        "pack": "ste"
+      },
+      {
+        "code": "60523",
+        "name": "A Test of Will",
+        "pack": "ste"
+      }
+    ]
+  },
+  {
+    "tag": "heal_horror_ally",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02033",
+        "name": "Peter Sylvestre",
+        "pack": "dwl"
+      },
+      {
+        "code": "02035",
+        "name": "Peter Sylvestre",
+        "pack": "dwl"
+      },
+      {
+        "code": "01683",
+        "name": "First Aid",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "draw_encounter",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02111",
+        "name": "Delve Too Deep",
+        "pack": "dwl"
+      },
+      {
+        "code": "02302",
+        "name": "Dr. William T. Maleson",
+        "pack": "dwl"
+      },
+      {
+        "code": "01564",
+        "name": "Drawn to the Flame",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "aoe_evade",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02114",
+        "name": "Fire Extinguisher",
+        "pack": "dwl"
+      },
+      {
+        "code": "02235",
+        "name": "Survival Instinct",
+        "pack": "dwl"
+      },
+      {
+        "code": "01578",
+        "name": "Cunning Distraction",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "exile",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02114",
+        "name": "Fire Extinguisher",
+        "pack": "dwl"
+      },
+      {
+        "code": "02115",
+        "name": "Flare",
+        "pack": "dwl"
+      },
+      {
+        "code": "02271",
+        "name": "Stroke of Luck",
+        "pack": "dwl"
+      }
+    ]
+  },
+  {
+    "tag": "discover_clue_your_location_1",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02149",
+        "name": "Art Student",
+        "pack": "dwl"
+      },
+      {
+        "code": "01522",
+        "name": "Evidence!",
+        "pack": "rcore"
+      },
+      {
+        "code": "01537",
+        "name": "Working a Hunch",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "investigate_while",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02155",
+        "name": "Newspaper",
+        "pack": "dwl"
+      },
+      {
+        "code": "01530",
+        "name": "Magnifying Glass",
+        "pack": "rcore"
+      },
+      {
+        "code": "01540",
+        "name": "Magnifying Glass",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "location_clue_exist",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02186",
+        "name": "Preposterous Sketches",
+        "pack": "dwl"
+      },
+      {
+        "code": "02227",
+        "name": "Inquiring Mind",
+        "pack": "dwl"
+      },
+      {
+        "code": "01006",
+        "name": "Roland's .38 Special",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "boost_intellect_3",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02189",
+        "name": "Streetwise",
+        "pack": "dwl"
+      },
+      {
+        "code": "02306",
+        "name": "Shrivelling",
+        "pack": "dwl"
+      },
+      {
+        "code": "10042",
+        "name": "Microscope",
+        "pack": "fhv"
+      }
+    ]
+  },
+  {
+    "tag": "doom_add",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02191",
+        "name": "Blood Pact",
+        "pack": "dwl"
+      },
+      {
+        "code": "02232",
+        "name": "Alyssa Graham",
+        "pack": "dwl"
+      },
+      {
+        "code": "01563",
+        "name": "Arcane Initiate",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "to_hand_from_commit",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02231",
+        "name": "Opportunist",
+        "pack": "dwl"
+      },
+      {
+        "code": "02309",
+        "name": "Try and Try Again",
+        "pack": "dwl"
+      },
+      {
+        "code": "01553",
+        "name": "Opportunist",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "boost_intellect_1_passive",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02232",
+        "name": "Alyssa Graham",
+        "pack": "dwl"
+      },
+      {
+        "code": "02234",
+        "name": "Dark Horse",
+        "pack": "dwl"
+      },
+      {
+        "code": "01533",
+        "name": "Dr. Milan Christopher",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "look_at_encounter",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02232",
+        "name": "Alyssa Graham",
+        "pack": "dwl"
+      },
+      {
+        "code": "01561",
+        "name": "Scrying",
+        "pack": "rcore"
+      },
+      {
+        "code": "01690",
+        "name": "Scrying",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "look_at_investigator",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02232",
+        "name": "Alyssa Graham",
+        "pack": "dwl"
+      },
+      {
+        "code": "01561",
+        "name": "Scrying",
+        "pack": "rcore"
+      },
+      {
+        "code": "01690",
+        "name": "Scrying",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "order_encounter",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02232",
+        "name": "Alyssa Graham",
+        "pack": "dwl"
+      },
+      {
+        "code": "01561",
+        "name": "Scrying",
+        "pack": "rcore"
+      },
+      {
+        "code": "01690",
+        "name": "Scrying",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "order_investigator",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02232",
+        "name": "Alyssa Graham",
+        "pack": "dwl"
+      },
+      {
+        "code": "01561",
+        "name": "Scrying",
+        "pack": "rcore"
+      },
+      {
+        "code": "01690",
+        "name": "Scrying",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "gain_resource",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02261",
+        "name": "\"I've had worse…\"",
+        "pack": "dwl"
+      },
+      {
+        "code": "01557",
+        "name": "Hot Streak",
+        "pack": "rcore"
+      },
+      {
+        "code": "01684",
+        "name": "\"I've had worse…\"",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "researched",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02262",
+        "name": "Strange Solution",
+        "pack": "dwl"
+      },
+      {
+        "code": "02263",
+        "name": "Strange Solution",
+        "pack": "dwl"
+      },
+      {
+        "code": "02264",
+        "name": "Strange Solution",
+        "pack": "dwl"
+      }
+    ]
+  },
+  {
+    "tag": "cost_reaction_horror_self",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02308",
+        "name": "Aquinnah",
+        "pack": "dwl"
+      },
+      {
+        "code": "01582",
+        "name": "Aquinnah",
+        "pack": "rcore"
+      },
+      {
+        "code": "01691",
+        "name": "Aquinnah",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "soak_benefit_horror",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02308",
+        "name": "Aquinnah",
+        "pack": "dwl"
+      },
+      {
+        "code": "01582",
+        "name": "Aquinnah",
+        "pack": "rcore"
+      },
+      {
+        "code": "01691",
+        "name": "Aquinnah",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "initiate_test_intellect_2",
+    "count": 3,
+    "usages": [
+      {
+        "code": "08038",
+        "name": "Medical Texts",
+        "pack": "eote"
+      },
+      {
+        "code": "01535",
+        "name": "Medical Texts",
+        "pack": "rcore"
+      },
+      {
+        "code": "05007",
+        "name": "Hypnotic Therapy",
+        "pack": "tcu"
+      }
+    ]
+  },
+  {
+    "tag": "trait_ranged",
+    "count": 3,
+    "usages": [
+      {
+        "code": "08087",
+        "name": "Snipe",
+        "pack": "eote"
+      },
+      {
+        "code": "04104",
+        "name": "Marksmanship",
+        "pack": "tfa"
+      },
+      {
+        "code": "10031",
+        "name": "Strong-Armed",
+        "pack": "fhv"
+      }
+    ]
+  },
+  {
+    "tag": "trait_spirit",
+    "count": 3,
+    "usages": [
+      {
+        "code": "08120",
+        "name": "Prophetic",
+        "pack": "eote"
+      },
+      {
+        "code": "60105",
+        "name": "Boxing Gloves",
+        "pack": "nat"
+      },
+      {
+        "code": "60127",
+        "name": "Boxing Gloves",
+        "pack": "nat"
+      }
+    ]
+  },
+  {
+    "tag": "max_per_game_1",
+    "count": 3,
+    "usages": [
+      {
+        "code": "09005",
+        "name": "Bonesaw",
+        "pack": "tsk"
+      },
+      {
+        "code": "09121",
+        "name": "Refine",
+        "pack": "tsk"
+      },
+      {
+        "code": "04276",
+        "name": "Timeworn Brand",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "testless_clue",
+    "count": 3,
+    "usages": [
+      {
+        "code": "01537",
+        "name": "Working a Hunch",
+        "pack": "rcore"
+      },
+      {
+        "code": "01564",
+        "name": "Drawn to the Flame",
+        "pack": "rcore"
+      },
+      {
+        "code": "01579",
+        "name": "\"Look what I found!\"",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "boost_any_2",
+    "count": 3,
+    "usages": [
+      {
+        "code": "01542",
+        "name": "Encyclopedia",
+        "pack": "rcore"
+      },
+      {
+        "code": "01580",
+        "name": "Lucky!",
+        "pack": "rcore"
+      },
+      {
+        "code": "01584",
+        "name": "Lucky!",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "additional_action_1",
+    "count": 3,
+    "usages": [
+      {
+        "code": "01548",
+        "name": "Leo De Luca",
+        "pack": "rcore"
+      },
+      {
+        "code": "01554",
+        "name": "Leo De Luca",
+        "pack": "rcore"
+      },
+      {
+        "code": "01688",
+        "name": ".41 Derringer",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "disengage",
+    "count": 3,
+    "usages": [
+      {
+        "code": "01550",
+        "name": "Elusive",
+        "pack": "rcore"
+      },
+      {
+        "code": "01555",
+        "name": "Cat Burglar",
+        "pack": "rcore"
+      },
+      {
+        "code": "01581",
+        "name": "Survival Instinct",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "trait_terror",
+    "count": 3,
+    "usages": [
+      {
+        "code": "52003",
+        "name": "Logical Reasoning",
+        "pack": "rt"
+      },
+      {
+        "code": "03191",
+        "name": "Logical Reasoning",
+        "pack": "ptc"
+      },
+      {
+        "code": "03236",
+        "name": "Scrying",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "trait_supply",
+    "count": 3,
+    "usages": [
+      {
+        "code": "53011",
+        "name": "Backpack",
+        "pack": "rt"
+      },
+      {
+        "code": "04037",
+        "name": "Backpack",
+        "pack": "tfa"
+      },
+      {
+        "code": "03264",
+        "name": "Stick to the Plan",
+        "pack": "ptc"
+      }
+    ]
+  }
+]

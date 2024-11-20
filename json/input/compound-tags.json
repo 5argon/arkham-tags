@@ -59,5 +59,14 @@
         "param": ["testless_clue"]
       }
     ]
+  },
+  {
+    "name": "boost_passive",
+    "rules": [
+      {
+        "type": "suffix",
+        "param": "_passive"
+      }
+    ]
   }
 ]
