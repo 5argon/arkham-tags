@@ -27,7 +27,7 @@
       "deck_restriction",
       "draw_player_1",
       "commit_remote",
-      "skill_card"
+      "target_any_skill"
     ]
   },
   {
@@ -36,7 +36,8 @@
     "text": "Sefina Rousseau deck only.\nCannot be placed beneath Sefina Rousseau.\nPlay The Painted World as an exact copy of a non-exceptional event that is beneath Sefina Rousseau. Remove The Painted World from the game instead of discarding it.",
     "tags": [
       "deck_restriction",
-      "event_card"
+      "target_any_event",
+      "rfg_self"
     ]
   },
   {
@@ -44,8 +45,12 @@
     "name": "Spirit-Speaker",
     "text": "Akachi Onyele deck only.\n[free] Exhaust Spirit-Speaker: Choose an asset you control with \"uses (charges).\" Either return that asset to your hand, or move all charges from that asset to your resource pool <i>(as resources)</i> and discard that asset.",
     "tags": [
-      "cost_fast_exhaust_self",
-      "deck_restriction"
+      "cost_free_exhaust_self",
+      "deck_restriction",
+      "to_hand_from_play",
+      "uses_support_charge",
+      "uses_manip_charge_to_resource",
+      "cost_free_exhaust_self"
     ]
   },
   {
@@ -55,7 +60,9 @@
     "tags": [
       "fast_play",
       "deck_restriction",
-      "elite_unusable"
+      "elite_unusable",
+      "timing_fast_defeat_enemy",
+      "growth"
     ]
   },
   {
@@ -66,7 +73,8 @@
       "fast_play",
       "deck_restriction",
       "draw_player_1",
-      "timing_fast_during_your_turn"
+      "timing_fast_during_your_turn",
+      "discount_3"
     ]
   },
   {
@@ -77,35 +85,52 @@
       "uses_starting_6",
       "uses_type_ammo",
       "bold_fight",
-      "damage_plus_1"
+      "damage_plus_1",
+      "cost_action_spend_ammo"
     ]
   },
   {
     "code": "03021",
     "name": "True Grit",
     "text": "True Grit may be assigned damage dealt to other investigators at your location.",
-    "tags": []
+    "tags": [
+      "tank_damage",
+      "your_location_investigator"
+    ]
   },
   {
     "code": "03022",
     "name": "\"Let me handle this!\"",
     "text": "Fast. Play after another investigator draws a non-peril encounter card, but before resolving that card's effects.\nYou are considered to have drawn that encounter card, instead. You get +2 to each of your skills while resolving that card's revelation effect.",
     "tags": [
-      "fast_play"
+      "fast_play",
+      "timing_fast_after_draw_encounter",
+      "encounter_redirect",
+      "encounter_revelation",
+      "boost_any_2"
     ]
   },
   {
     "code": "03023",
     "name": "Ever Vigilant",
     "text": "One at a time, play up to 3 assets from your hand, reducing the resource cost of each by 1.",
-    "tags": []
+    "tags": [
+      "play_from_hand_paying_cost",
+      "discount_1",
+      "target_any_asset"
+    ]
   },
   {
     "code": "03024",
     "name": "Fieldwork",
     "text": "[reaction] After you move to a location, if that location has at least 1 clue on it, exhaust Fieldwork: You get +2 skill value for the next skill test you perform this phase.",
     "tags": [
-      "cost_reaction_exhaust_self"
+      "cost_reaction_exhaust_self",
+      "timing_reaction_after_move",
+      "location_clue_exist",
+      "cost_reaction_exhaust_self",
+      "boost_any_2",
+      "duration_next_skill_test_this_phase"
     ]
   },
   {
@@ -113,6 +138,11 @@
     "name": "Archaic Glyphs",
     "text": "[action] Discard a card with at least 1 [intellect] skill icon from your hand: Place 1 resource on Archaic Glyphs from the token pool, as a secret.\n<b>Forced</b> - After the third secret is placed on Archaic Glyphs: Discard Archaic Glyphs and gain 5 resources. Record in your Campaign Log that \"you have translated the glyphs.\"",
     "tags": [
+      "gain_resource_5",
+      "discard_card_choose",
+      "cost_action_discard_from_hand",
+      "unidentified",
+      "discard_self",
       "gain_resource_5"
     ]
   },
@@ -120,7 +150,11 @@
     "code": "03026",
     "name": "No Stone Unturned",
     "text": "Choose an investigator at your location. That investigator searches the top 6 cards of his or her deck for a card, draws it, and shuffles his or her deck.",
-    "tags": []
+    "tags": [
+      "search_player",
+      "card_range_6",
+      "shuffle_player"
+    ]
   },
   {
     "code": "03027",
@@ -129,7 +163,11 @@
     "tags": [
       "uses_starting_3",
       "uses_type_secret",
-      "bold_investigate"
+      "bold_investigate",
+      "cost_action_spend_secret",
+      "location_revealed",
+      "investigate_remote",
+      "as_if_you_were_at_location"
     ]
   },
   {
@@ -138,6 +176,12 @@
     "text": "[action] Exhaust Stealth: <b>Evade.</b> The chosen enemy gets -2 evade for this evasion attempt. If you successfully evade the enemy, disengage with it but do not exhaust it. Until the end of your turn, that enemy cannot engage you.",
     "tags": [
       "bold_evade",
+      "difficulty_decrease_evade_2",
+      "disengage",
+      "disengage_without_exhaust",
+      "enemy_cannot_engage",
+      "cost_action_exhaust_self",
+      "duration_until_end_turn",
       "cost_action_exhaust_self"
     ]
   },
@@ -148,7 +192,10 @@
     "tags": [
       "fast_play",
       "timing_fast_during_your_turn",
-      "trait_item"
+      "trait_item",
+      "to_play_from_hand",
+      "at_end_of_turn",
+      "to_hand_from_play"
     ]
   },
   {
@@ -156,7 +203,9 @@
     "name": "Daring Maneuver",
     "text": "Fast. Play when you would succeed at a skill test.\nYou get +2 skill value for this test.",
     "tags": [
-      "fast_play"
+      "fast_play",
+      "timing_fast_when_would_succeed",
+      "boost_any_2"
     ]
   },
   {
@@ -169,7 +218,9 @@
       "bold_investigate",
       "cost_action_exhaust_self",
       "discard_zero_uses",
-      "stat_add_agility"
+      "stat_add_agility",
+      "stat_combine_intellect_agility",
+      "succeed_by_2"
     ]
   },
   {
@@ -179,6 +230,8 @@
     "tags": [
       "uses_starting_3",
       "uses_type_charge",
+      "cost_action_exhaust_self",
+      "cost_action_spend_charge",
       "chaos_reveal_token_auto_fail",
       "chaos_reveal_token_cultist",
       "chaos_reveal_token_elder_thing",
@@ -186,7 +239,10 @@
       "chaos_reveal_token_tablet",
       "cost_action_exhaust_self",
       "gain_resource_1",
+      "gain_resource_2",
+      "gain_resource_3",
       "initiate_test_willpower_1",
+      "succeed_by",
       "take_damage"
     ]
   },
@@ -196,7 +252,9 @@
     "text": "Play a [[Spell]] or [[Ritual]] card from your hand, reducing its resource cost by 3.",
     "tags": [
       "trait_ritual",
-      "trait_spell"
+      "trait_spell",
+      "discount_3",
+      "play_from_hand_paying_cost"
     ]
   },
   {
@@ -210,9 +268,12 @@
       "chaos_reveal_token_elder_thing",
       "chaos_reveal_token_skull",
       "chaos_reveal_token_tablet",
+      "move_investigator_self",
+      "move_remote",
       "take_damage",
       "trait_ally",
-      "trait_item"
+      "trait_item",
+      "discard_card_choose"
     ]
   },
   {
@@ -223,8 +284,11 @@
       "bold_fight",
       "boost_combat_2",
       "cost_action_exhaust_self",
-      "cost_fast_exhaust_self",
-      "trait_spell"
+      "cost_free_exhaust_self",
+      "trait_spell",
+      "timing_fast_during_skill_test",
+      "boost_combat_2",
+      "boost_any_2"
     ]
   },
   {
@@ -232,7 +296,14 @@
     "name": "Lantern",
     "text": "[action]: <b>Investigate.</b> Your location gets -1 shroud for this investigation.\n[action] Discard Lantern: Deal 1 damage to an enemy at your location. This action does not provoke attacks of opportunity.",
     "tags": [
-      "bold_investigate"
+      "bold_investigate",
+      "shroud_minus_1",
+      "cost_action_discard_self",
+      "deal_damage_enemy",
+      "your_location_enemy",
+      "investigate_asset_unlimited",
+      "not_aoo",
+      "testless_damage"
     ]
   },
   {
@@ -241,7 +312,10 @@
     "text": "[action]: <b>Fight.</b> You get +2 [combat] for this attack.\n[action] Discard Gravedigger's Shovel: Discover 1 clue at your location.",
     "tags": [
       "bold_fight",
-      "boost_combat_2"
+      "boost_combat_2",
+      "cost_action_discard_self",
+      "discover_clue_your_location_1",
+      "testless_clue"
     ]
   },
   {
@@ -250,14 +324,23 @@
     "text": "Fast. Attach Hiding Spot to any location.\nEach non-[[Elite]] enemy at attached location gains aloof.\n<b>Forced</b> - At the end of the enemy phase, if a ready enemy is at attached location: Discard Hiding Spot.",
     "tags": [
       "fast_play",
-      "elite_unusable"
+      "elite_unusable",
+      "attach_location",
+      "gain_aloof",
+      "at_end_of_enemy_phase",
+      "ready_enemy",
+      "discard_self"
     ]
   },
   {
     "code": "03039",
     "name": "Resourceful",
     "text": "If this skill test is successful, choose a [survivor] card not named Resourceful in your discard pile. Add the chosen card to your hand.",
-    "tags": []
+    "tags": [
+      "timing_skill_successful",
+      "class_survivor",
+      "to_hand_from_discard"
+    ]
   },
   {
     "code": "03106",
@@ -265,6 +348,12 @@
     "text": "Fast. Play when a non-[[Elite]] enemy would attack another investigator at your location.\nEngage that enemy and resolve its attack against you instead. Then, deal it 1 damage.",
     "tags": [
       "fast_play",
+      "timing_fast_enemy_attacks",
+      "your_location_another_investigator",
+      "engage_effect",
+      "tank_attack",
+      "deal_damage_enemy",
+      "testless_damage",
       "elite_unusable"
     ]
   },
@@ -276,7 +365,9 @@
       "fast_play",
       "boost_agility_1",
       "boost_combat_1",
-      "trait_composure"
+      "limit_1_in_play",
+      "cost_free_spend_resource",
+      "stat_from_spent_resource"
     ]
   },
   {
@@ -296,7 +387,7 @@
       "fast_play",
       "boost_combat_1",
       "boost_intellect_1",
-      "trait_composure"
+      "limit_1_in_play"
     ]
   },
   {
@@ -316,7 +407,7 @@
       "fast_play",
       "boost_agility_1",
       "boost_willpower_1",
-      "trait_composure"
+      "limit_1_in_play"
     ]
   },
   {
@@ -334,7 +425,7 @@
     "text": "Fast. Limit 1 [[Composure]] in play.\nNon-direct horror must be assigned to Grounded before it can be assigned to your investigator card.\n[free] During a skill test on a [[Spell]] card, spend 1 resource: You get +1 skill value for this test.",
     "tags": [
       "fast_play",
-      "trait_composure",
+      "limit_1_in_play",
       "trait_spell"
     ]
   },
@@ -352,7 +443,7 @@
       "fast_play",
       "boost_intellect_1",
       "boost_willpower_1",
-      "trait_composure"
+      "limit_1_in_play"
     ]
   },
   {
@@ -407,7 +498,7 @@
     "name": "Charles Ross, Esq.",
     "text": "You may spend resources to pay for [[Item]] assets played by other investigators at your location.\n[free] Exhaust Charles Ross, Esq.: Reduce the cost of the next [[Item]] asset played by an investigator at your location by 1.",
     "tags": [
-      "cost_fast_exhaust_self",
+      "cost_free_exhaust_self",
       "trait_item"
     ]
   },
@@ -591,7 +682,7 @@
     "name": "Madame Labranche",
     "text": "[free] If you have no cards in your hand, exhaust Madame Labranche: Draw 1 card.\n[free] If you have no resources, exhaust Madame Labranche: Gain 1 resource.",
     "tags": [
-      "cost_fast_exhaust_self",
+      "cost_free_exhaust_self",
       "draw_player_1",
       "gain_resource_1"
     ]
@@ -643,7 +734,7 @@
     "text": "Fast. Play only during your turn.\nAttach to your location. Attached location gains:\n\"[free] Exhaust Shortcut: <b>Move</b> <i>(to a connecting location)</i>. Any investigator at this location may trigger this ability.\"",
     "tags": [
       "fast_play",
-      "cost_fast_exhaust_self",
+      "cost_free_exhaust_self",
       "timing_fast_during_your_turn"
     ]
   },
@@ -682,7 +773,7 @@
     "tags": [
       "uses_starting_3",
       "uses_type_charge",
-      "cost_fast_exhaust_self",
+      "cost_free_exhaust_self",
       "take_horror",
       "trait_omen",
       "trait_terror"
@@ -790,7 +881,7 @@
     "name": "Arcane Initiate",
     "text": "<b>Forced</b> - After Arcane Initiate enters play: Place 1 doom or 2 horror on it.\n[free] Exhaust Arcane Initiate: Search the top 3 cards of your deck for a [[Spell]] card and draw it. Shuffle your deck.",
     "tags": [
-      "cost_fast_exhaust_self",
+      "cost_free_exhaust_self",
       "trait_spell"
     ]
   },

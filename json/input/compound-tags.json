@@ -4,7 +4,7 @@
     "rules": [
       {
         "type": "any",
-        "param": ["cost_fast_spend_resource", "cost_reaction_spend_resource"]
+        "param": ["cost_free_spend_resource", "cost_reaction_spend_resource"]
       }
     ]
   },

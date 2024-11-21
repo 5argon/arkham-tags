@@ -57,7 +57,19 @@
       "description": "Multiple enemies at the same location are evaded, or one enemy at different locations are evaded."
     },
     {
+      "const": "as_if_you_were_at_location",
+      "description": ""
+    },
+    {
+      "const": "at_end_of_enemy_phase",
+      "description": ""
+    },
+    {
       "const": "at_end_of_round",
+      "description": ""
+    },
+    {
+      "const": "at_end_of_turn",
       "description": ""
     },
     {
@@ -233,6 +245,22 @@
       "description": ""
     },
     {
+      "const": "card_range_1",
+      "description": "Indicates how many cards in searching, revealing, or looking at a deck. (1 means only the top of that deck.)"
+    },
+    {
+      "const": "card_range_3",
+      "description": "Indicates how many cards in searching, revealing, or looking at a deck."
+    },
+    {
+      "const": "card_range_6",
+      "description": "Indicates how many cards in searching, revealing, or looking at a deck."
+    },
+    {
+      "const": "card_range_9",
+      "description": "Indicates how many cards in searching, revealing, or looking at a deck."
+    },
+    {
       "const": "chaos_do_not_reveal",
       "description": "Will to Survive, Pnakotic Manuscript, Justify the Means."
     },
@@ -313,6 +341,10 @@
       "description": ""
     },
     {
+      "const": "class_survivor",
+      "description": ""
+    },
+    {
       "const": "clue_tech",
       "description": ""
     },
@@ -326,6 +358,10 @@
     },
     {
       "const": "connecting_location_investigator",
+      "description": ""
+    },
+    {
+      "const": "cost_action_discard_from_hand",
       "description": ""
     },
     {
@@ -349,15 +385,11 @@
       "description": ""
     },
     {
+      "const": "cost_action_spend_secret",
+      "description": ""
+    },
+    {
       "const": "cost_action_spend_supply",
-      "description": ""
-    },
-    {
-      "const": "cost_fast_damage_self",
-      "description": ""
-    },
-    {
-      "const": "cost_fast_discard_self",
       "description": ""
     },
     {
@@ -365,7 +397,19 @@
       "description": ""
     },
     {
-      "const": "cost_fast_spend_resource",
+      "const": "cost_free_damage_self",
+      "description": ""
+    },
+    {
+      "const": "cost_free_discard_self",
+      "description": ""
+    },
+    {
+      "const": "cost_free_exhaust_self",
+      "description": ""
+    },
+    {
+      "const": "cost_free_spend_resource",
       "description": ""
     },
     {
@@ -449,12 +493,20 @@
       "description": "Can decrease test difficulty, that is not shroud, evade, and fight."
     },
     {
+      "const": "difficulty_decrease_evade_2",
+      "description": ""
+    },
+    {
       "const": "difficulty_decrease_fight",
       "description": "Can decrease enemy's fight value."
     },
     {
       "const": "difficulty_increase",
       "description": "Can decrease test difficulty, that is not shroud, evade, and fight."
+    },
+    {
+      "const": "discard_card_choose",
+      "description": ""
     },
     {
       "const": "discard_card_random",
@@ -469,8 +521,16 @@
       "description": "Discard itself when uses count runs out."
     },
     {
+      "const": "discount_1",
+      "description": ""
+    },
+    {
       "const": "discount_2",
       "description": "Reduce play cost of other cards."
+    },
+    {
+      "const": "discount_3",
+      "description": ""
     },
     {
       "const": "discover_clue_connecting_location",
@@ -501,16 +561,16 @@
       "description": ""
     },
     {
+      "const": "disengage_without_exhaust",
+      "description": ""
+    },
+    {
       "const": "doom_add",
       "description": "Card can place doom on something."
     },
     {
       "const": "doom_remove",
       "description": "Card can remove doom from something."
-    },
-    {
-      "const": "draw_encounter",
-      "description": "Draw cards from encounter deck."
     },
     {
       "const": "draw_player",
@@ -530,6 +590,10 @@
     },
     {
       "const": "duration_enemy_phase",
+      "description": ""
+    },
+    {
+      "const": "duration_next_skill_test_this_phase",
       "description": ""
     },
     {
@@ -553,12 +617,28 @@
       "description": "Use only on non-Elite."
     },
     {
+      "const": "encounter_draw",
+      "description": ""
+    },
+    {
+      "const": "encounter_redirect",
+      "description": ""
+    },
+    {
+      "const": "encounter_revelation",
+      "description": ""
+    },
+    {
       "const": "end_your_turn",
       "description": "Cause you to end your turn, like Rite of Seeking or Fated cards."
     },
     {
       "const": "enemy_cannot_attack",
       "description": "Prevents enemies from attacking."
+    },
+    {
+      "const": "enemy_cannot_engage",
+      "description": ""
     },
     {
       "const": "enemy_manage_defeat",
@@ -609,10 +689,6 @@
       "description": "Most enter play benefit are timing_reaction_enters_play. This is for rare cases like Arcane Initiate."
     },
     {
-      "const": "event_card",
-      "description": "Effect works with cart type Event."
-    },
-    {
       "const": "exhausted_enemy",
       "description": "Check for exhausted status of enemy."
     },
@@ -631,6 +707,10 @@
     {
       "const": "fast_play",
       "description": "\"Fast.\" on assets and events."
+    },
+    {
+      "const": "gain_aloof",
+      "description": ""
     },
     {
       "const": "gain_resource",
@@ -797,7 +877,19 @@
       "description": ""
     },
     {
+      "const": "investigate_asset_unlimited",
+      "description": ""
+    },
+    {
+      "const": "investigate_remote",
+      "description": ""
+    },
+    {
       "const": "investigate_while",
+      "description": ""
+    },
+    {
+      "const": "limit_1_in_play",
       "description": ""
     },
     {
@@ -873,6 +965,10 @@
       "description": "Effect can move the card's owner."
     },
     {
+      "const": "move_remote",
+      "description": "Can move to far away location like Astral Travel, Open Gate, Ethereal Slip"
+    },
+    {
       "const": "no_resource",
       "description": ""
     },
@@ -902,6 +998,10 @@
     },
     {
       "const": "play_from_hand_paying_cost",
+      "description": ""
+    },
+    {
+      "const": "ready_enemy",
       "description": ""
     },
     {
@@ -949,6 +1049,10 @@
       "description": "Effect varies depending on location's shroud value."
     },
     {
+      "const": "shroud_minus_1",
+      "description": ""
+    },
+    {
       "const": "shroud_minus_2",
       "description": ""
     },
@@ -971,10 +1075,6 @@
     {
       "const": "skill_benefit_self",
       "description": "Skill card owner gets a benefit other than the commit icon."
-    },
-    {
-      "const": "skill_card",
-      "description": "Effect works with card type Skill."
     },
     {
       "const": "skill_gains_willpower_wild",
@@ -1042,6 +1142,10 @@
     },
     {
       "const": "stat_base_set",
+      "description": ""
+    },
+    {
+      "const": "stat_combine_intellect_agility",
       "description": ""
     },
     {
@@ -1117,12 +1221,28 @@
       "description": "Able to get resource from other players."
     },
     {
+      "const": "tank_attack",
+      "description": ""
+    },
+    {
       "const": "tank_damage",
       "description": "Tank means redirecting damage that would have been assigned to others to you instead."
     },
     {
       "const": "tank_horror",
       "description": "Tank means redirecting horror that would have been assigned to others to you instead."
+    },
+    {
+      "const": "target_any_asset",
+      "description": "Card works in general way with any card of type asset. (Card such as Extra Ammunition doesn't count as it is trait locked.)"
+    },
+    {
+      "const": "target_any_event",
+      "description": "Card works in general way with any card of type event."
+    },
+    {
+      "const": "target_any_skill",
+      "description": "Card works in general way with any card of type skill."
     },
     {
       "const": "test_you_perform",
@@ -1139,6 +1259,10 @@
     {
       "const": "testless_evade",
       "description": "Automatically evade without any test."
+    },
+    {
+      "const": "timing_fast_after_draw_encounter",
+      "description": ""
     },
     {
       "const": "timing_fast_after_evaded",
@@ -1181,6 +1305,10 @@
       "description": ""
     },
     {
+      "const": "timing_fast_during_skill_test",
+      "description": ""
+    },
+    {
       "const": "timing_fast_during_your_turn",
       "description": ""
     },
@@ -1205,6 +1333,10 @@
       "description": ""
     },
     {
+      "const": "timing_fast_when_would_succeed",
+      "description": ""
+    },
+    {
       "const": "timing_fast_would_fail",
       "description": ""
     },
@@ -1218,6 +1350,10 @@
     },
     {
       "const": "timing_reaction_after_investigate_success",
+      "description": ""
+    },
+    {
+      "const": "timing_reaction_after_move",
       "description": ""
     },
     {
@@ -1265,6 +1401,10 @@
       "description": ""
     },
     {
+      "const": "timing_skill_successful",
+      "description": ""
+    },
+    {
       "const": "to_deck_from_play",
       "description": "Bring back to deck from play."
     },
@@ -1291,6 +1431,10 @@
     {
       "const": "to_play_from_discard",
       "description": "Put into play from discard pile."
+    },
+    {
+      "const": "to_play_from_hand",
+      "description": ""
     },
     {
       "const": "trait_ally",
@@ -1489,6 +1633,10 @@
       "description": ""
     },
     {
+      "const": "uses_manip_charge_to_resource",
+      "description": ""
+    },
+    {
       "const": "uses_manip_secret_to_resource",
       "description": ""
     },
@@ -1538,6 +1686,10 @@
     },
     {
       "const": "uses_starting_9",
+      "description": ""
+    },
+    {
+      "const": "uses_support_charge",
       "description": ""
     },
     {
@@ -1603,6 +1755,10 @@
     {
       "const": "your_location_ally",
       "description": "Often indicates teamplay feature."
+    },
+    {
+      "const": "your_location_another_investigator",
+      "description": ""
     },
     {
       "const": "your_location_enemy",

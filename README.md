@@ -34,7 +34,7 @@ Please install [Deno](https://deno.com) to use the tag transforming script.
 
 ## Tagging Rules
 
-Clone this repository, then open `.vscode/tagging.code-workspace` in Visual Studio Code to get the JSON schema working, and turn on "View: Toggle Word Wrap" so card text wraps to new line even though they are actually one long line.
+Clone this repository, then open `.vscode/tagging.code-workspace` in Visual Studio Code to get the JSON schema working, and turn on "View: Toggle Word Wrap" so card text wraps to new line even though they are actually one long line. "View: Toggle Zen Mode" is also recommended once you are in the JSON file you want to tag.
 
 Work on files in `input/pack/[pack-name].json`. They have game text available for you to read while tagging. Some untagged cards are already tagged partially, programmatically by Regex, which might be wrong.
 

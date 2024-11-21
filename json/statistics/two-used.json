@@ -32,22 +32,6 @@
     ]
   },
   {
-    "tag": "engage_effect",
-    "count": 2,
-    "usages": [
-      {
-        "code": "02017",
-        "name": "Taunt",
-        "pack": "dwl"
-      },
-      {
-        "code": "02019",
-        "name": "Taunt",
-        "pack": "dwl"
-      }
-    ]
-  },
-  {
     "tag": "initiate_test_intellect_4",
     "count": 2,
     "usages": [
@@ -60,6 +44,22 @@
         "code": "09005",
         "name": "Bonesaw",
         "pack": "tsk"
+      }
+    ]
+  },
+  {
+    "tag": "unidentified",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02021",
+        "name": "Strange Solution",
+        "pack": "dwl"
+      },
+      {
+        "code": "03025",
+        "name": "Archaic Glyphs",
+        "pack": "ptc"
       }
     ]
   },
@@ -160,6 +160,22 @@
     ]
   },
   {
+    "tag": "tank_damage",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02106",
+        "name": "Brother Xavier",
+        "pack": "dwl"
+      },
+      {
+        "code": "03021",
+        "name": "True Grit",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
     "tag": "uses_add_ammo",
     "count": 2,
     "usages": [
@@ -172,22 +188,6 @@
         "code": "01526",
         "name": "Extra Ammunition",
         "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "growth",
-    "count": 2,
-    "usages": [
-      {
-        "code": "02110",
-        "name": "Adaptable",
-        "pack": "dwl"
-      },
-      {
-        "code": "02111",
-        "name": "Delve Too Deep",
-        "pack": "dwl"
       }
     ]
   },
@@ -235,6 +235,22 @@
       {
         "code": "02270",
         "name": "A Chance Encounter",
+        "pack": "dwl"
+      }
+    ]
+  },
+  {
+    "tag": "card_range_9",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02115",
+        "name": "Flare",
+        "pack": "dwl"
+      },
+      {
+        "code": "02184",
+        "name": "Prepared for the Worst",
         "pack": "dwl"
       }
     ]
@@ -304,22 +320,6 @@
     ]
   },
   {
-    "tag": "attach_location",
-    "count": 2,
-    "usages": [
-      {
-        "code": "02156",
-        "name": "Lure",
-        "pack": "dwl"
-      },
-      {
-        "code": "01538",
-        "name": "Barricade",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
     "tag": "move_enemy_control",
     "count": 2,
     "usages": [
@@ -331,38 +331,6 @@
       {
         "code": "01538",
         "name": "Barricade",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "additional_slot_accessory",
-    "count": 2,
-    "usages": [
-      {
-        "code": "02157",
-        "name": "Relic Hunter",
-        "pack": "dwl"
-      },
-      {
-        "code": "01695",
-        "name": "Relic Hunter",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "additional_slot_ally",
-    "count": 2,
-    "usages": [
-      {
-        "code": "02158",
-        "name": "Charisma",
-        "pack": "dwl"
-      },
-      {
-        "code": "01694",
-        "name": "Charisma",
         "pack": "rcore"
       }
     ]
@@ -380,6 +348,22 @@
         "code": "01532",
         "name": "Research Librarian",
         "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "trait_monster",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02225",
+        "name": "\"If it bleeds...\"",
+        "pack": "dwl"
+      },
+      {
+        "code": "04193",
+        "name": "Custom Ammunition",
+        "pack": "tfa"
       }
     ]
   },
@@ -416,50 +400,162 @@
     ]
   },
   {
-    "tag": "timing_fast_defeat_enemy",
+    "tag": "additional_slot_ally",
     "count": 2,
     "usages": [
       {
-        "code": "02225",
-        "name": "\"If it bleeds...\"",
+        "code": "02158",
+        "name": "Charisma",
         "pack": "dwl"
       },
       {
-        "code": "01522",
-        "name": "Evidence!",
+        "code": "01694",
+        "name": "Charisma",
         "pack": "rcore"
       }
     ]
   },
   {
-    "tag": "trait_monster",
+    "tag": "additional_slot_accessory",
     "count": 2,
     "usages": [
       {
-        "code": "02225",
-        "name": "\"If it bleeds...\"",
+        "code": "02157",
+        "name": "Relic Hunter",
         "pack": "dwl"
       },
       {
-        "code": "04193",
-        "name": "Custom Ammunition",
-        "pack": "tfa"
+        "code": "01695",
+        "name": "Relic Hunter",
+        "pack": "rcore"
       }
     ]
   },
   {
-    "tag": "succeed_by",
+    "tag": "timing_fast_after_phase_begin",
     "count": 2,
     "usages": [
       {
-        "code": "02228",
-        "name": "Expose Weakness",
+        "code": "02305",
+        "name": "The Gold Pocket Watch",
         "pack": "dwl"
       },
       {
-        "code": "01529",
-        "name": "Shotgun",
+        "code": "01568",
+        "name": "Mind Wipe",
         "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "boost_combat_5",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02301",
+        "name": "Lightning Gun",
+        "pack": "dwl"
+      },
+      {
+        "code": "08096",
+        "name": "Sledgehammer",
+        "pack": "eote"
+      }
+    ]
+  },
+  {
+    "tag": "timing_fast_when_draw_treachery",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02307",
+        "name": "Ward of Protection",
+        "pack": "dwl"
+      },
+      {
+        "code": "01565",
+        "name": "Ward of Protection",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "target_any_skill",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02309",
+        "name": "Try and Try Again",
+        "pack": "dwl"
+      },
+      {
+        "code": "03010",
+        "name": "Analytical Mind",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "timing_reaction_after_test_fail",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02309",
+        "name": "Try and Try Again",
+        "pack": "dwl"
+      },
+      {
+        "code": "01575",
+        "name": "Rabbit's Foot",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "location_revealed",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02303",
+        "name": "Deciphered Reality",
+        "pack": "dwl"
+      },
+      {
+        "code": "03027",
+        "name": "In the Know",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "to_play_from_discard",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02270",
+        "name": "A Chance Encounter",
+        "pack": "dwl"
+      },
+      {
+        "code": "01014",
+        "name": "Wendy's Amulet",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "rfg_self",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02230",
+        "name": "Lucky Dice",
+        "pack": "dwl"
+      },
+      {
+        "code": "03012",
+        "name": "The Painted World",
+        "pack": "ptc"
       }
     ]
   },
@@ -539,102 +635,6 @@
       {
         "code": "01684",
         "name": "\"I've had worse…\"",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "to_play_from_discard",
-    "count": 2,
-    "usages": [
-      {
-        "code": "02270",
-        "name": "A Chance Encounter",
-        "pack": "dwl"
-      },
-      {
-        "code": "01014",
-        "name": "Wendy's Amulet",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "boost_combat_5",
-    "count": 2,
-    "usages": [
-      {
-        "code": "02301",
-        "name": "Lightning Gun",
-        "pack": "dwl"
-      },
-      {
-        "code": "08096",
-        "name": "Sledgehammer",
-        "pack": "eote"
-      }
-    ]
-  },
-  {
-    "tag": "timing_fast_after_phase_begin",
-    "count": 2,
-    "usages": [
-      {
-        "code": "02305",
-        "name": "The Gold Pocket Watch",
-        "pack": "dwl"
-      },
-      {
-        "code": "01568",
-        "name": "Mind Wipe",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "timing_fast_when_draw_treachery",
-    "count": 2,
-    "usages": [
-      {
-        "code": "02307",
-        "name": "Ward of Protection",
-        "pack": "dwl"
-      },
-      {
-        "code": "01565",
-        "name": "Ward of Protection",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "skill_card",
-    "count": 2,
-    "usages": [
-      {
-        "code": "02309",
-        "name": "Try and Try Again",
-        "pack": "dwl"
-      },
-      {
-        "code": "03010",
-        "name": "Analytical Mind",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "timing_reaction_after_test_fail",
-    "count": 2,
-    "usages": [
-      {
-        "code": "02309",
-        "name": "Try and Try Again",
-        "pack": "dwl"
-      },
-      {
-        "code": "01575",
-        "name": "Rabbit's Foot",
         "pack": "rcore"
       }
     ]
@@ -736,18 +736,18 @@
     ]
   },
   {
-    "tag": "initiate_test_willpower_0",
+    "tag": "trait_armor",
     "count": 2,
     "usages": [
       {
-        "code": "08119",
-        "name": "Earthly Serenity",
+        "code": "08122",
+        "name": "Bruiser",
         "pack": "eote"
       },
       {
-        "code": "52007",
-        "name": "Alchemical Transmutation",
-        "pack": "rt"
+        "code": "09065",
+        "name": "Hidden Pocket",
+        "pack": "tsk"
       }
     ]
   },
@@ -768,18 +768,18 @@
     ]
   },
   {
-    "tag": "trait_armor",
+    "tag": "initiate_test_willpower_0",
     "count": 2,
     "usages": [
       {
-        "code": "08122",
-        "name": "Bruiser",
+        "code": "08119",
+        "name": "Earthly Serenity",
         "pack": "eote"
       },
       {
-        "code": "09065",
-        "name": "Hidden Pocket",
-        "pack": "tsk"
+        "code": "52007",
+        "name": "Alchemical Transmutation",
+        "pack": "rt"
       }
     ]
   },
@@ -848,7 +848,7 @@
     ]
   },
   {
-    "tag": "cost_fast_discard_self",
+    "tag": "cost_free_discard_self",
     "count": 2,
     "usages": [
       {
@@ -896,6 +896,22 @@
     ]
   },
   {
+    "tag": "not_aoo",
+    "count": 2,
+    "usages": [
+      {
+        "code": "01555",
+        "name": "Cat Burglar",
+        "pack": "rcore"
+      },
+      {
+        "code": "03036",
+        "name": "Lantern",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
     "tag": "chaos_modifier",
     "count": 2,
     "usages": [
@@ -916,13 +932,77 @@
     "count": 2,
     "usages": [
       {
-        "code": "01564",
-        "name": "Drawn to the Flame",
+        "code": "01579",
+        "name": "\"Look what I found!\"",
         "pack": "rcore"
       },
       {
-        "code": "01579",
-        "name": "\"Look what I found!\"",
+        "code": "01564",
+        "name": "Drawn to the Flame",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "to_hand_from_discard",
+    "count": 2,
+    "usages": [
+      {
+        "code": "01573",
+        "name": "Scavenging",
+        "pack": "rcore"
+      },
+      {
+        "code": "03039",
+        "name": "Resourceful",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "shroud_reduction",
+    "count": 2,
+    "usages": [
+      {
+        "code": "01587",
+        "name": "Flashlight",
+        "pack": "rcore"
+      },
+      {
+        "code": "03036",
+        "name": "Lantern",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "duration_until_end_turn",
+    "count": 2,
+    "usages": [
+      {
+        "code": "01585",
+        "name": "Will to Survive",
+        "pack": "rcore"
+      },
+      {
+        "code": "03028",
+        "name": "Stealth",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "timing_fast_would_fail",
+    "count": 2,
+    "usages": [
+      {
+        "code": "01584",
+        "name": "Lucky!",
+        "pack": "rcore"
+      },
+      {
+        "code": "01580",
+        "name": "Lucky!",
         "pack": "rcore"
       }
     ]
@@ -960,22 +1040,6 @@
     ]
   },
   {
-    "tag": "timing_fast_would_fail",
-    "count": 2,
-    "usages": [
-      {
-        "code": "01584",
-        "name": "Lucky!",
-        "pack": "rcore"
-      },
-      {
-        "code": "01580",
-        "name": "Lucky!",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
     "tag": "succeed_by_4",
     "count": 2,
     "usages": [
@@ -1004,6 +1068,38 @@
         "code": "05283",
         "name": "Anna Kaslow",
         "pack": "tcu"
+      }
+    ]
+  },
+  {
+    "tag": "discount_3",
+    "count": 2,
+    "usages": [
+      {
+        "code": "03018",
+        "name": "Improvisation",
+        "pack": "ptc"
+      },
+      {
+        "code": "03033",
+        "name": "Uncage the Soul",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "discard_card_choose",
+    "count": 2,
+    "usages": [
+      {
+        "code": "03025",
+        "name": "Archaic Glyphs",
+        "pack": "ptc"
+      },
+      {
+        "code": "03034",
+        "name": "Astral Travel",
+        "pack": "ptc"
       }
     ]
   },

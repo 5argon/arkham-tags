@@ -121,17 +121,6 @@
     ]
   },
   {
-    "tag": "unidentified",
-    "count": 1,
-    "usages": [
-      {
-        "code": "02021",
-        "name": "Strange Solution",
-        "pack": "dwl"
-      }
-    ]
-  },
-  {
     "tag": "discover_clue_connecting_location_1",
     "count": 1,
     "usages": [
@@ -248,17 +237,6 @@
       {
         "code": "02034",
         "name": "Bait and Switch",
-        "pack": "dwl"
-      }
-    ]
-  },
-  {
-    "tag": "tank_damage",
-    "count": 1,
-    "usages": [
-      {
-        "code": "02106",
-        "name": "Brother Xavier",
         "pack": "dwl"
       }
     ]
@@ -407,28 +385,6 @@
     ]
   },
   {
-    "tag": "chaos_reveal_before_effect",
-    "count": 1,
-    "usages": [
-      {
-        "code": "02190",
-        "name": "Defiance",
-        "pack": "dwl"
-      }
-    ]
-  },
-  {
-    "tag": "limit_per_test_1",
-    "count": 1,
-    "usages": [
-      {
-        "code": "02191",
-        "name": "Blood Pact",
-        "pack": "dwl"
-      }
-    ]
-  },
-  {
     "tag": "difficulty_check_higher_2",
     "count": 1,
     "usages": [
@@ -451,111 +407,23 @@
     ]
   },
   {
-    "tag": "difficulty_decrease_fight",
+    "tag": "chaos_reveal_before_effect",
     "count": 1,
     "usages": [
       {
-        "code": "02228",
-        "name": "Expose Weakness",
+        "code": "02190",
+        "name": "Defiance",
         "pack": "dwl"
       }
     ]
   },
   {
-    "tag": "enemy_value_fight",
+    "tag": "limit_per_test_1",
     "count": 1,
     "usages": [
       {
-        "code": "02228",
-        "name": "Expose Weakness",
-        "pack": "dwl"
-      }
-    ]
-  },
-  {
-    "tag": "initiate_test_intellect",
-    "count": 1,
-    "usages": [
-      {
-        "code": "02228",
-        "name": "Expose Weakness",
-        "pack": "dwl"
-      }
-    ]
-  },
-  {
-    "tag": "take_action_now",
-    "count": 1,
-    "usages": [
-      {
-        "code": "02229",
-        "name": "Quick Thinking",
-        "pack": "dwl"
-      }
-    ]
-  },
-  {
-    "tag": "chaos_reveal_another_instead",
-    "count": 1,
-    "usages": [
-      {
-        "code": "02230",
-        "name": "Lucky Dice",
-        "pack": "dwl"
-      }
-    ]
-  },
-  {
-    "tag": "cost_reaction_spend_resource",
-    "count": 1,
-    "usages": [
-      {
-        "code": "02230",
-        "name": "Lucky Dice",
-        "pack": "dwl"
-      }
-    ]
-  },
-  {
-    "tag": "rfg_self",
-    "count": 1,
-    "usages": [
-      {
-        "code": "02230",
-        "name": "Lucky Dice",
-        "pack": "dwl"
-      }
-    ]
-  },
-  {
-    "tag": "bottom_of_deck",
-    "count": 1,
-    "usages": [
-      {
-        "code": "02232",
-        "name": "Alyssa Graham",
-        "pack": "dwl"
-      }
-    ]
-  },
-  {
-    "tag": "current_resource_zero",
-    "count": 1,
-    "usages": [
-      {
-        "code": "02234",
-        "name": "Dark Horse",
-        "pack": "dwl"
-      }
-    ]
-  },
-  {
-    "tag": "phase_upkeep",
-    "count": 1,
-    "usages": [
-      {
-        "code": "02234",
-        "name": "Dark Horse",
+        "code": "02191",
+        "name": "Blood Pact",
         "pack": "dwl"
       }
     ]
@@ -583,34 +451,23 @@
     ]
   },
   {
-    "tag": "stat_base_combat_6",
+    "tag": "current_resource_zero",
     "count": 1,
     "usages": [
       {
-        "code": "02263",
-        "name": "Strange Solution",
+        "code": "02234",
+        "name": "Dark Horse",
         "pack": "dwl"
       }
     ]
   },
   {
-    "tag": "stat_base_agility_6",
+    "tag": "phase_upkeep",
     "count": 1,
     "usages": [
       {
-        "code": "02264",
-        "name": "Strange Solution",
-        "pack": "dwl"
-      }
-    ]
-  },
-  {
-    "tag": "play_from_hand_paying_cost",
-    "count": 1,
-    "usages": [
-      {
-        "code": "02265",
-        "name": "Joey \"The Rat\" Vigil",
+        "code": "02234",
+        "name": "Dark Horse",
         "pack": "dwl"
       }
     ]
@@ -627,6 +484,17 @@
     ]
   },
   {
+    "tag": "stat_base_agility_6",
+    "count": 1,
+    "usages": [
+      {
+        "code": "02264",
+        "name": "Strange Solution",
+        "pack": "dwl"
+      }
+    ]
+  },
+  {
     "tag": "doom_remove",
     "count": 1,
     "usages": [
@@ -638,56 +506,12 @@
     ]
   },
   {
-    "tag": "your_location_skill_test",
-    "count": 1,
-    "usages": [
-      {
-        "code": "02269",
-        "name": "Jewel of Aureolus",
-        "pack": "dwl"
-      }
-    ]
-  },
-  {
-    "tag": "auto_success",
-    "count": 1,
-    "usages": [
-      {
-        "code": "02271",
-        "name": "Stroke of Luck",
-        "pack": "dwl"
-      }
-    ]
-  },
-  {
-    "tag": "timing_skill_chaos_reveal_after",
-    "count": 1,
-    "usages": [
-      {
-        "code": "02271",
-        "name": "Stroke of Luck",
-        "pack": "dwl"
-      }
-    ]
-  },
-  {
     "tag": "difficulty_decrease",
     "count": 1,
     "usages": [
       {
         "code": "02272",
         "name": "Fine Clothes",
-        "pack": "dwl"
-      }
-    ]
-  },
-  {
-    "tag": "location_enemy_zero",
-    "count": 1,
-    "usages": [
-      {
-        "code": "02273",
-        "name": "Moment of Respite",
         "pack": "dwl"
       }
     ]
@@ -726,39 +550,6 @@
     ]
   },
   {
-    "tag": "discover_clue_remote",
-    "count": 1,
-    "usages": [
-      {
-        "code": "02303",
-        "name": "Deciphered Reality",
-        "pack": "dwl"
-      }
-    ]
-  },
-  {
-    "tag": "location_revealed",
-    "count": 1,
-    "usages": [
-      {
-        "code": "02303",
-        "name": "Deciphered Reality",
-        "pack": "dwl"
-      }
-    ]
-  },
-  {
-    "tag": "shroud_dependent",
-    "count": 1,
-    "usages": [
-      {
-        "code": "02303",
-        "name": "Deciphered Reality",
-        "pack": "dwl"
-      }
-    ]
-  },
-  {
     "tag": "timing_fast_after_phase_end",
     "count": 1,
     "usages": [
@@ -781,6 +572,17 @@
     ]
   },
   {
+    "tag": "location_enemy_zero",
+    "count": 1,
+    "usages": [
+      {
+        "code": "02273",
+        "name": "Moment of Respite",
+        "pack": "dwl"
+      }
+    ]
+  },
+  {
     "tag": "phase_mythos_end",
     "count": 1,
     "usages": [
@@ -798,6 +600,160 @@
       {
         "code": "02310",
         "name": "The Red-Gloved Man",
+        "pack": "dwl"
+      }
+    ]
+  },
+  {
+    "tag": "auto_success",
+    "count": 1,
+    "usages": [
+      {
+        "code": "02271",
+        "name": "Stroke of Luck",
+        "pack": "dwl"
+      }
+    ]
+  },
+  {
+    "tag": "timing_skill_chaos_reveal_after",
+    "count": 1,
+    "usages": [
+      {
+        "code": "02271",
+        "name": "Stroke of Luck",
+        "pack": "dwl"
+      }
+    ]
+  },
+  {
+    "tag": "discover_clue_remote",
+    "count": 1,
+    "usages": [
+      {
+        "code": "02303",
+        "name": "Deciphered Reality",
+        "pack": "dwl"
+      }
+    ]
+  },
+  {
+    "tag": "shroud_dependent",
+    "count": 1,
+    "usages": [
+      {
+        "code": "02303",
+        "name": "Deciphered Reality",
+        "pack": "dwl"
+      }
+    ]
+  },
+  {
+    "tag": "your_location_skill_test",
+    "count": 1,
+    "usages": [
+      {
+        "code": "02269",
+        "name": "Jewel of Aureolus",
+        "pack": "dwl"
+      }
+    ]
+  },
+  {
+    "tag": "take_action_now",
+    "count": 1,
+    "usages": [
+      {
+        "code": "02229",
+        "name": "Quick Thinking",
+        "pack": "dwl"
+      }
+    ]
+  },
+  {
+    "tag": "difficulty_decrease_fight",
+    "count": 1,
+    "usages": [
+      {
+        "code": "02228",
+        "name": "Expose Weakness",
+        "pack": "dwl"
+      }
+    ]
+  },
+  {
+    "tag": "enemy_value_fight",
+    "count": 1,
+    "usages": [
+      {
+        "code": "02228",
+        "name": "Expose Weakness",
+        "pack": "dwl"
+      }
+    ]
+  },
+  {
+    "tag": "initiate_test_intellect",
+    "count": 1,
+    "usages": [
+      {
+        "code": "02228",
+        "name": "Expose Weakness",
+        "pack": "dwl"
+      }
+    ]
+  },
+  {
+    "tag": "bottom_of_deck",
+    "count": 1,
+    "usages": [
+      {
+        "code": "02232",
+        "name": "Alyssa Graham",
+        "pack": "dwl"
+      }
+    ]
+  },
+  {
+    "tag": "card_range_1",
+    "count": 1,
+    "usages": [
+      {
+        "code": "02232",
+        "name": "Alyssa Graham",
+        "pack": "dwl"
+      }
+    ]
+  },
+  {
+    "tag": "chaos_reveal_another_instead",
+    "count": 1,
+    "usages": [
+      {
+        "code": "02230",
+        "name": "Lucky Dice",
+        "pack": "dwl"
+      }
+    ]
+  },
+  {
+    "tag": "cost_reaction_spend_resource",
+    "count": 1,
+    "usages": [
+      {
+        "code": "02230",
+        "name": "Lucky Dice",
+        "pack": "dwl"
+      }
+    ]
+  },
+  {
+    "tag": "stat_base_combat_6",
+    "count": 1,
+    "usages": [
+      {
+        "code": "02263",
+        "name": "Strange Solution",
         "pack": "dwl"
       }
     ]
@@ -1089,7 +1045,7 @@
     ]
   },
   {
-    "tag": "cost_fast_damage_self",
+    "tag": "cost_free_damage_self",
     "count": 1,
     "usages": [
       {
@@ -1123,17 +1079,6 @@
   },
   {
     "tag": "location_clue_zero",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01540",
-        "name": "Magnifying Glass",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "to_hand_from_play",
     "count": 1,
     "usages": [
       {
@@ -1221,17 +1166,6 @@
     ]
   },
   {
-    "tag": "not_aoo",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01555",
-        "name": "Cat Burglar",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
     "tag": "timing_fast_chaos_reveal_after",
     "count": 1,
     "usages": [
@@ -1243,12 +1177,177 @@
     ]
   },
   {
-    "tag": "uses_manip_secret_to_resource",
+    "tag": "timing_reaction_after_investigate_success",
     "count": 1,
     "usages": [
       {
-        "code": "01558",
-        "name": "Forbidden Knowledge",
+        "code": "01573",
+        "name": "Scavenging",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "shroud_minus_2",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01587",
+        "name": "Flashlight",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "chaos_do_not_reveal",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01585",
+        "name": "Will to Survive",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "timing_fast_after_fail",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01579",
+        "name": "\"Look what I found!\"",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "enemy_manage_shuffle",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01583",
+        "name": "Close Call",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "timing_fast_after_evaded",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01583",
+        "name": "Close Call",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "heal_both",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01683",
+        "name": "First Aid",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "discover_clue_connecting_location",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01685",
+        "name": "Seeking Answers",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "discover_clue_your_location",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01685",
+        "name": "Seeking Answers",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "once_per_turn",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01688",
+        "name": ".41 Derringer",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "discount_2",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01686",
+        "name": "Old Book of Lore",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "immediately_play",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01686",
+        "name": "Old Book of Lore",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "spend_secret",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01686",
+        "name": "Old Book of Lore",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "cancel_chaos",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01692",
+        "name": "Eucatastrophe",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "chaos_treat_as_elder_sign",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01692",
+        "name": "Eucatastrophe",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "timing_fast_chaos_reveal_when",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01692",
+        "name": "Eucatastrophe",
         "pack": "rcore"
       }
     ]
@@ -1309,182 +1408,6 @@
     ]
   },
   {
-    "tag": "timing_reaction_after_investigate_success",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01573",
-        "name": "Scavenging",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "to_hand_from_discard",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01573",
-        "name": "Scavenging",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "timing_fast_after_fail",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01579",
-        "name": "\"Look what I found!\"",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "chaos_do_not_reveal",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01585",
-        "name": "Will to Survive",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "duration_until_end_turn",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01585",
-        "name": "Will to Survive",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "enemy_manage_shuffle",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01583",
-        "name": "Close Call",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "timing_fast_after_evaded",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01583",
-        "name": "Close Call",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "shroud_minus_2",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01587",
-        "name": "Flashlight",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "shroud_reduction",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01587",
-        "name": "Flashlight",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "discover_clue_connecting_location",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01685",
-        "name": "Seeking Answers",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "discover_clue_your_location",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01685",
-        "name": "Seeking Answers",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "heal_both",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01683",
-        "name": "First Aid",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "discount_2",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01686",
-        "name": "Old Book of Lore",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "immediately_play",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01686",
-        "name": "Old Book of Lore",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "spend_secret",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01686",
-        "name": "Old Book of Lore",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "once_per_turn",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01688",
-        "name": ".41 Derringer",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
     "tag": "chaos_ignore",
     "count": 1,
     "usages": [
@@ -1529,45 +1452,12 @@
     ]
   },
   {
-    "tag": "cancel_chaos",
+    "tag": "uses_manip_secret_to_resource",
     "count": 1,
     "usages": [
       {
-        "code": "01692",
-        "name": "Eucatastrophe",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "chaos_treat_as_elder_sign",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01692",
-        "name": "Eucatastrophe",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "timing_fast_chaos_reveal_when",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01692",
-        "name": "Eucatastrophe",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "cost_action_discard_self",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01586",
-        "name": "Knife",
+        "code": "01558",
+        "name": "Forbidden Knowledge",
         "pack": "rcore"
       }
     ]
@@ -1639,12 +1529,364 @@
     ]
   },
   {
-    "tag": "event_card",
+    "tag": "target_any_event",
     "count": 1,
     "usages": [
       {
         "code": "03012",
         "name": "The Painted World",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "uses_support_charge",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03014",
+        "name": "Spirit-Speaker",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "uses_manip_charge_to_resource",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03014",
+        "name": "Spirit-Speaker",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "timing_fast_after_draw_encounter",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03022",
+        "name": "\"Let me handle this!\"",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "encounter_redirect",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03022",
+        "name": "\"Let me handle this!\"",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "encounter_revelation",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03022",
+        "name": "\"Let me handle this!\"",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "discount_1",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03023",
+        "name": "Ever Vigilant",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "target_any_asset",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03023",
+        "name": "Ever Vigilant",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "timing_reaction_after_move",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03024",
+        "name": "Fieldwork",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "duration_next_skill_test_this_phase",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03024",
+        "name": "Fieldwork",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "cost_action_discard_from_hand",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03025",
+        "name": "Archaic Glyphs",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "card_range_6",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03026",
+        "name": "No Stone Unturned",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "cost_action_spend_secret",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03027",
+        "name": "In the Know",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "investigate_remote",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03027",
+        "name": "In the Know",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "as_if_you_were_at_location",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03027",
+        "name": "In the Know",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "difficulty_decrease_evade_2",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03028",
+        "name": "Stealth",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "disengage_without_exhaust",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03028",
+        "name": "Stealth",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "enemy_cannot_engage",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03028",
+        "name": "Stealth",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "to_play_from_hand",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03029",
+        "name": "Sleight of Hand",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "at_end_of_turn",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03029",
+        "name": "Sleight of Hand",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "timing_fast_when_would_succeed",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03030",
+        "name": "Daring Maneuver",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "stat_combine_intellect_agility",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03031",
+        "name": "Lockpicks",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "move_remote",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03034",
+        "name": "Astral Travel",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "timing_fast_during_skill_test",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03035",
+        "name": "Spirit Athame",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "shroud_minus_1",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03036",
+        "name": "Lantern",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "investigate_asset_unlimited",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03036",
+        "name": "Lantern",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "gain_aloof",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03038",
+        "name": "Hiding Spot",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "at_end_of_enemy_phase",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03038",
+        "name": "Hiding Spot",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "ready_enemy",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03038",
+        "name": "Hiding Spot",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "timing_skill_successful",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03039",
+        "name": "Resourceful",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "class_survivor",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03039",
+        "name": "Resourceful",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "your_location_another_investigator",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03106",
+        "name": "Heroic Rescue",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "tank_attack",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03106",
+        "name": "Heroic Rescue",
         "pack": "ptc"
       }
     ]

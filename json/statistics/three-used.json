@@ -21,6 +21,27 @@
     ]
   },
   {
+    "tag": "engage_effect",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02017",
+        "name": "Taunt",
+        "pack": "dwl"
+      },
+      {
+        "code": "02019",
+        "name": "Taunt",
+        "pack": "dwl"
+      },
+      {
+        "code": "03106",
+        "name": "Heroic Rescue",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
     "tag": "move_investigator_any",
     "count": 3,
     "usages": [
@@ -46,12 +67,12 @@
     "count": 3,
     "usages": [
       {
-        "code": "02028",
+        "code": "02233",
         "name": "Rite of Seeking",
         "pack": "dwl"
       },
       {
-        "code": "02233",
+        "code": "02028",
         "name": "Rite of Seeking",
         "pack": "dwl"
       },
@@ -126,7 +147,28 @@
     ]
   },
   {
-    "tag": "draw_encounter",
+    "tag": "growth",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02110",
+        "name": "Adaptable",
+        "pack": "dwl"
+      },
+      {
+        "code": "02111",
+        "name": "Delve Too Deep",
+        "pack": "dwl"
+      },
+      {
+        "code": "03016",
+        "name": "Bury Them Deep",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "encounter_draw",
     "count": 3,
     "usages": [
       {
@@ -172,40 +214,19 @@
     "count": 3,
     "usages": [
       {
-        "code": "02115",
-        "name": "Flare",
+        "code": "02114",
+        "name": "Fire Extinguisher",
         "pack": "dwl"
       },
       {
-        "code": "02114",
-        "name": "Fire Extinguisher",
+        "code": "02115",
+        "name": "Flare",
         "pack": "dwl"
       },
       {
         "code": "02271",
         "name": "Stroke of Luck",
         "pack": "dwl"
-      }
-    ]
-  },
-  {
-    "tag": "discover_clue_your_location_1",
-    "count": 3,
-    "usages": [
-      {
-        "code": "02149",
-        "name": "Art Student",
-        "pack": "dwl"
-      },
-      {
-        "code": "01522",
-        "name": "Evidence!",
-        "pack": "rcore"
-      },
-      {
-        "code": "01537",
-        "name": "Working a Hunch",
-        "pack": "rcore"
       }
     ]
   },
@@ -231,23 +252,44 @@
     ]
   },
   {
-    "tag": "location_clue_exist",
+    "tag": "attach_location",
     "count": 3,
     "usages": [
       {
-        "code": "02186",
-        "name": "Preposterous Sketches",
+        "code": "02156",
+        "name": "Lure",
         "pack": "dwl"
       },
       {
-        "code": "02227",
-        "name": "Inquiring Mind",
-        "pack": "dwl"
-      },
-      {
-        "code": "01006",
-        "name": "Roland's .38 Special",
+        "code": "01538",
+        "name": "Barricade",
         "pack": "rcore"
+      },
+      {
+        "code": "03038",
+        "name": "Hiding Spot",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "timing_fast_defeat_enemy",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02225",
+        "name": "\"If it bleeds...\"",
+        "pack": "dwl"
+      },
+      {
+        "code": "01522",
+        "name": "Evidence!",
+        "pack": "rcore"
+      },
+      {
+        "code": "03016",
+        "name": "Bury Them Deep",
+        "pack": "ptc"
       }
     ]
   },
@@ -273,27 +315,6 @@
     ]
   },
   {
-    "tag": "to_hand_from_commit",
-    "count": 3,
-    "usages": [
-      {
-        "code": "02231",
-        "name": "Opportunist",
-        "pack": "dwl"
-      },
-      {
-        "code": "02309",
-        "name": "Try and Try Again",
-        "pack": "dwl"
-      },
-      {
-        "code": "01553",
-        "name": "Opportunist",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
     "tag": "boost_intellect_1_passive",
     "count": 3,
     "usages": [
@@ -311,6 +332,111 @@
         "code": "01533",
         "name": "Dr. Milan Christopher",
         "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "researched",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02262",
+        "name": "Strange Solution",
+        "pack": "dwl"
+      },
+      {
+        "code": "02263",
+        "name": "Strange Solution",
+        "pack": "dwl"
+      },
+      {
+        "code": "02264",
+        "name": "Strange Solution",
+        "pack": "dwl"
+      }
+    ]
+  },
+  {
+    "tag": "cost_reaction_horror_self",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02308",
+        "name": "Aquinnah",
+        "pack": "dwl"
+      },
+      {
+        "code": "01582",
+        "name": "Aquinnah",
+        "pack": "rcore"
+      },
+      {
+        "code": "01691",
+        "name": "Aquinnah",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "soak_benefit_horror",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02308",
+        "name": "Aquinnah",
+        "pack": "dwl"
+      },
+      {
+        "code": "01582",
+        "name": "Aquinnah",
+        "pack": "rcore"
+      },
+      {
+        "code": "01691",
+        "name": "Aquinnah",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "to_hand_from_commit",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02309",
+        "name": "Try and Try Again",
+        "pack": "dwl"
+      },
+      {
+        "code": "02231",
+        "name": "Opportunist",
+        "pack": "dwl"
+      },
+      {
+        "code": "01553",
+        "name": "Opportunist",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "succeed_by",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02228",
+        "name": "Expose Weakness",
+        "pack": "dwl"
+      },
+      {
+        "code": "01529",
+        "name": "Shotgun",
+        "pack": "rcore"
+      },
+      {
+        "code": "03032",
+        "name": "Alchemical Transmutation",
+        "pack": "ptc"
       }
     ]
   },
@@ -420,65 +546,23 @@
     ]
   },
   {
-    "tag": "researched",
+    "tag": "play_from_hand_paying_cost",
     "count": 3,
     "usages": [
       {
-        "code": "02263",
-        "name": "Strange Solution",
+        "code": "02265",
+        "name": "Joey \"The Rat\" Vigil",
         "pack": "dwl"
       },
       {
-        "code": "02262",
-        "name": "Strange Solution",
-        "pack": "dwl"
+        "code": "03023",
+        "name": "Ever Vigilant",
+        "pack": "ptc"
       },
       {
-        "code": "02264",
-        "name": "Strange Solution",
-        "pack": "dwl"
-      }
-    ]
-  },
-  {
-    "tag": "cost_reaction_horror_self",
-    "count": 3,
-    "usages": [
-      {
-        "code": "02308",
-        "name": "Aquinnah",
-        "pack": "dwl"
-      },
-      {
-        "code": "01582",
-        "name": "Aquinnah",
-        "pack": "rcore"
-      },
-      {
-        "code": "01691",
-        "name": "Aquinnah",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "soak_benefit_horror",
-    "count": 3,
-    "usages": [
-      {
-        "code": "02308",
-        "name": "Aquinnah",
-        "pack": "dwl"
-      },
-      {
-        "code": "01582",
-        "name": "Aquinnah",
-        "pack": "rcore"
-      },
-      {
-        "code": "01691",
-        "name": "Aquinnah",
-        "pack": "rcore"
+        "code": "03033",
+        "name": "Uncage the Soul",
+        "pack": "ptc"
       }
     ]
   },
@@ -546,23 +630,23 @@
     ]
   },
   {
-    "tag": "testless_clue",
+    "tag": "to_hand_from_play",
     "count": 3,
     "usages": [
       {
-        "code": "01537",
-        "name": "Working a Hunch",
+        "code": "01540",
+        "name": "Magnifying Glass",
         "pack": "rcore"
       },
       {
-        "code": "01564",
-        "name": "Drawn to the Flame",
-        "pack": "rcore"
+        "code": "03014",
+        "name": "Spirit-Speaker",
+        "pack": "ptc"
       },
       {
-        "code": "01579",
-        "name": "\"Look what I found!\"",
-        "pack": "rcore"
+        "code": "03029",
+        "name": "Sleight of Hand",
+        "pack": "ptc"
       }
     ]
   },
@@ -588,23 +672,23 @@
     ]
   },
   {
-    "tag": "disengage",
+    "tag": "cost_action_discard_self",
     "count": 3,
     "usages": [
       {
-        "code": "01550",
-        "name": "Elusive",
+        "code": "01586",
+        "name": "Knife",
         "pack": "rcore"
       },
       {
-        "code": "01555",
-        "name": "Cat Burglar",
-        "pack": "rcore"
+        "code": "03037",
+        "name": "Gravedigger's Shovel",
+        "pack": "ptc"
       },
       {
-        "code": "01581",
-        "name": "Survival Instinct",
-        "pack": "rcore"
+        "code": "03036",
+        "name": "Lantern",
+        "pack": "ptc"
       }
     ]
   },
