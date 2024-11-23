@@ -80,7 +80,7 @@
       "boost_willpower_1",
       "cost_free_spend_resource",
       "stat_from_spent_resource",
-      "timing_fast_test"
+      "timing_free_during_skill_test"
     ]
   },
   {
@@ -283,7 +283,8 @@
       "boost_agility_1",
       "boost_intellect_1",
       "cost_free_spend_resource",
-      "stat_from_spent_resource"
+      "stat_from_spent_resource",
+      "timing_free_during_skill_test"
     ]
   },
   {
@@ -452,7 +453,8 @@
       "boost_agility_1",
       "boost_combat_1",
       "cost_free_spend_resource",
-      "stat_from_spent_resource"
+      "stat_from_spent_resource",
+      "timing_free_during_skill_test"
     ]
   },
   {
@@ -599,7 +601,8 @@
       "boost_intellect_1",
       "boost_willpower_1",
       "cost_free_spend_resource",
-      "stat_from_spent_resource"
+      "stat_from_spent_resource",
+      "timing_free_during_skill_test"
     ]
   },
   {
@@ -782,7 +785,7 @@
       "boost_willpower_1",
       "cost_free_spend_resource",
       "stat_from_spent_resource",
-      "timing_fast_test"
+      "timing_free_during_skill_test"
     ]
   },
   {
@@ -1038,13 +1041,14 @@
     "name": "Lockpicks",
     "text": "Uses (3 supplies). If Lockpicks has no supplies, discard it.\n[action] Exhaust Lockpicks: <b>Investigate.</b> Add your [agility] value to your skill value for this investigation. If you do not succeed by at least 2, remove 1 supply from Lockpicks.",
     "tags": [
+      "uses_starting_3",
+      "uses_type_supply",
       "bold_investigate",
       "cost_action_exhaust_self",
       "discard_zero_uses",
       "stat_add_agility",
-      "succeed_by_2",
-      "uses_starting_3",
-      "uses_type_supply"
+      "stat_combine_intellect_agility",
+      "succeed_by_2"
     ]
   },
   {

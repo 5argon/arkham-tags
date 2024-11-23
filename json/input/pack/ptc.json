@@ -366,8 +366,10 @@
       "boost_agility_1",
       "boost_combat_1",
       "limit_1_in_play",
+      "timing_free_during_skill_test",
       "cost_free_spend_resource",
-      "stat_from_spent_resource"
+      "stat_from_spent_resource",
+      "soak_conditional"
     ]
   },
   {
@@ -376,7 +378,12 @@
     "text": "Fast. Play during any investigator's turn. Play only if you have 5 or more remaining sanity.\nChoose a non-[[Elite]] enemy at your location. Until the end of the active investigator's turn, that enemy gets -2 fight and -2 evade.",
     "tags": [
       "fast_play",
-      "elite_unusable"
+      "timing_fast_during_any_turn",
+      "current_sanity_more",
+      "elite_unusable",
+      "duration_until_end_turn",
+      "difficulty_decrease_fight_2",
+      "difficulty_decrease_evade_2"
     ]
   },
   {
@@ -387,7 +394,11 @@
       "fast_play",
       "boost_combat_1",
       "boost_intellect_1",
-      "limit_1_in_play"
+      "limit_1_in_play",
+      "timing_free_during_skill_test",
+      "cost_free_spend_resource",
+      "stat_from_spent_resource",
+      "soak_conditional"
     ]
   },
   {
@@ -396,7 +407,8 @@
     "text": "[action]: <b>Fight.</b> This attack deals +1 damage. The attacked enemy gains retaliate for this attack.",
     "tags": [
       "bold_fight",
-      "damage_plus_1"
+      "damage_plus_1",
+      "gain_retaliate"
     ]
   },
   {
@@ -407,7 +419,11 @@
       "fast_play",
       "boost_agility_1",
       "boost_willpower_1",
-      "limit_1_in_play"
+      "limit_1_in_play",
+      "timing_free_during_skill_test",
+      "cost_free_spend_resource",
+      "stat_from_spent_resource",
+      "soak_conditional"
     ]
   },
   {
@@ -415,8 +431,11 @@
     "name": "David Renfield",
     "text": "While David Renfield has at least 1 doom on him, you get +1 [willpower].\n[fast] Exhaust David Renfield: You may place 1 doom on David Renfield. Gain 1 resource for each doom on David Renfield.",
     "tags": [
-      "boost_willpower_1",
-      "gain_resource_1"
+      "boost_willpower_1_passive",
+      "doom_add",
+      "doom_check",
+      "cost_free_exhaust_self",
+      "gain_resource"
     ]
   },
   {
@@ -426,7 +445,12 @@
     "tags": [
       "fast_play",
       "limit_1_in_play",
-      "trait_spell"
+      "trait_spell",
+      "boost_any_1",
+      "timing_free_during_skill_test",
+      "cost_free_spend_resource",
+      "stat_from_spent_resource",
+      "soak_conditional"
     ]
   },
   {
@@ -443,7 +467,11 @@
       "fast_play",
       "boost_intellect_1",
       "boost_willpower_1",
-      "limit_1_in_play"
+      "timing_free_during_skill_test",
+      "cost_free_spend_resource",
+      "stat_from_spent_resource",
+      "limit_1_in_play",
+      "soak_conditional"
     ]
   },
   {
@@ -451,7 +479,8 @@
     "name": "Say Your Prayers",
     "text": "Max 1 committed per skill test.\nCommit to a skill test only if you have 3 or fewer remaining sanity.",
     "tags": [
-      "max_1_commit"
+      "max_1_commit",
+      "current_sanity_less"
     ]
   },
   {
@@ -459,7 +488,8 @@
     "name": "Desperate Search",
     "text": "Max 1 committed per skill test.\nCommit to a skill test only if you have 3 or fewer remaining sanity.",
     "tags": [
-      "max_1_commit"
+      "max_1_commit",
+      "current_sanity_less"
     ]
   },
   {
@@ -467,7 +497,8 @@
     "name": "Reckless Assault",
     "text": "Max 1 committed per skill test.\nCommit to a skill test only if you have 3 or fewer remaining sanity.",
     "tags": [
-      "max_1_commit"
+      "max_1_commit",
+      "current_sanity_less"
     ]
   },
   {
@@ -475,7 +506,8 @@
     "name": "Run For Your Life",
     "text": "Max 1 committed per skill test.\nCommit to a skill test only if you have 3 or fewer remaining sanity.",
     "tags": [
-      "max_1_commit"
+      "max_1_commit",
+      "current_sanity_less"
     ]
   },
   {
@@ -484,14 +516,22 @@
     "text": "Engage actions you perform do not provoke attacks of opportunity.\n[action]: <b>Fight.</b> You get +X [combat] for this attack. X is the number of enemies engaged with you.",
     "tags": [
       "bold_fight",
-      "engage_with_you"
+      "engage_related",
+      "engage_with_you",
+      "boost_combat_x"
     ]
   },
   {
     "code": "03148",
     "name": "Ambush",
     "text": "Attach to your location.\nIf there are no investigators at attached location, discard Ambush.\n<b>Forced</b> - After an enemy spawns at attached location: Deal 2 damage to that enemy and discard Ambush.",
-    "tags": []
+    "tags": [
+      "attach_location",
+      "timing_forced_spawn_your_location",
+      "deal_damage_enemy",
+      "discard_self",
+      "testless_damage"
+    ]
   },
   {
     "code": "03149",
@@ -499,7 +539,10 @@
     "text": "You may spend resources to pay for [[Item]] assets played by other investigators at your location.\n[free] Exhaust Charles Ross, Esq.: Reduce the cost of the next [[Item]] asset played by an investigator at your location by 1.",
     "tags": [
       "cost_free_exhaust_self",
-      "trait_item"
+      "trait_item",
+      "your_location_another_investigator",
+      "discount_1",
+      "duration_next"
     ]
   },
   {
@@ -507,7 +550,10 @@
     "name": "Forewarned",
     "text": "Fast. Play when you draw a non-weakness treachery card.\nPlace 1 of your clues on your location. Then, cancel that card's revelation effect.",
     "tags": [
-      "fast_play"
+      "fast_play",
+      "timing_fast_when_draw_treachery",
+      "clue_drop",
+      "cancel_revelation"
     ]
   },
   {
@@ -515,9 +561,10 @@
     "name": "Dario El-Amin",
     "text": "While you have 10 or more resources, you get +1 [willpower] and +1 [intellect].\n[action] If there are no enemies at your location, exhaust Dario El-Amin: Gain 2 resources.",
     "tags": [
-      "boost_intellect_1",
-      "boost_willpower_1",
+      "boost_intellect_1_passive",
+      "boost_willpower_1_passive",
       "cost_action_exhaust_self",
+      "location_enemy_zero",
       "gain_resource_2"
     ]
   },
@@ -527,7 +574,9 @@
     "text": "Deal 2 damage to an enemy not engaged with you at your location.",
     "tags": [
       "engage_not_with_you",
-      "engage_with_you"
+      "your_location_enemy",
+      "deal_damage_enemy",
+      "testless_damage"
     ]
   },
   {
@@ -536,6 +585,14 @@
     "text": "<b>Fight.</b> This attack uses [willpower] instead of [combat]. If you succeed, instead of its standard damage, this attack deals 2 damage to each enemy at the attacked enemy's location <i>(any additional damage is dealt to the attacked enemy)</i>. If a [skull], [cultist], [tablet], [elder_thing], or [auto_fail] token is revealed during this attack, deal 1 damage to each investigator at the attacked enemy's location.",
     "tags": [
       "bold_fight",
+      "stat_use_willpower",
+      "stat_not_combat",
+      "result_attack_success",
+      "aoe_damage",
+      "your_location_enemy",
+      "your_location_investigator",
+      "deal_damage_enemy",
+      "deal_damage_investigator",
       "chaos_reveal_token_auto_fail",
       "chaos_reveal_token_cultist",
       "chaos_reveal_token_elder_thing",
@@ -549,7 +606,9 @@
     "text": "[action] Exhaust Book of Shadows and spend 1 resource: Add 1 charge to a [[Spell]] asset you control.",
     "tags": [
       "cost_action_exhaust_self",
-      "trait_spell"
+      "trait_spell",
+      "uses_add_charge",
+      "cost_action_spend_resource"
     ]
   },
   {
@@ -558,7 +617,11 @@
     "text": "Fast. Play only during your turn.\nUntil the end of the round, you get +X [combat] and +X [agility], where X is the amount of horror on you.",
     "tags": [
       "fast_play",
-      "timing_fast_during_your_turn"
+      "timing_fast_during_your_turn",
+      "duration_until_end_round",
+      "boost_combat_x",
+      "boost_agility_x",
+      "current_horror_more"
     ]
   },
   {
@@ -566,7 +629,11 @@
     "name": "A Test of Will",
     "text": "Fast. Play when an investigator at your location draws a non-weakness treachery card.\nCancel that card's revelation effect. Exile A Test of Will.",
     "tags": [
-      "fast_play"
+      "fast_play",
+      "your_location_investigator",
+      "timing_fast_when_draw_treachery",
+      "cancel_revelation",
+      "exile"
     ]
   },
   {
@@ -574,7 +641,12 @@
     "name": "Devil's Luck",
     "text": "Fast. Play when you are dealt damage and/or horror.\nCancel up to 10 damage and/or horror just dealt to you. Exile Devil's Luck.",
     "tags": [
-      "fast_play"
+      "fast_play",
+      "timing_fast_dealt_damage",
+      "timing_fast_dealt_horror",
+      "cancel_damage",
+      "cancel_horror",
+      "exile"
     ]
   },
   {
@@ -582,7 +654,13 @@
     "name": "Calling in Favors",
     "text": "Choose an [[Ally]] asset you control and return it to your hand. Then, search the top 9 cards of your deck for an [[Ally]] asset and play it, reducing its cost by X. X is the cost of the [[Ally]] asset returned to your hand. Shuffle your deck.",
     "tags": [
-      "trait_ally"
+      "trait_ally",
+      "to_hand_from_play",
+      "search_player",
+      "card_range_9",
+      "play_from_hand_paying_cost",
+      "discount_x",
+      "shuffle_player"
     ]
   },
   {
@@ -591,7 +669,9 @@
     "text": "Each non-[[Elite]] enemy engaged with you is defeated. You are defeated and suffer 1 physical trauma. This action does not provoke attacks of opportunity.",
     "tags": [
       "elite_unusable",
-      "engage_with_you"
+      "engage_with_you",
+      "enemy_manage_defeat",
+      "not_aoo"
     ]
   },
   {
@@ -603,7 +683,9 @@
       "uses_type_ammo",
       "bold_fight",
       "boost_combat_2",
-      "damage_plus_1"
+      "damage_plus_1",
+      "cost_action_spend_ammo",
+      "retaliate_ignore"
     ]
   },
   {
@@ -611,7 +693,11 @@
     "name": "Logical Reasoning",
     "text": "Play only if you have at least 1 clue.\nChoose an investigator at your location. That investigator either heals 2 horror or discards a [[Terror]] card from his or her threat area.",
     "tags": [
-      "trait_terror"
+      "trait_terror",
+      "current_clue_value",
+      "your_location_investigator",
+      "heal_horror",
+      "discard_treachery"
     ]
   },
   {
@@ -619,9 +705,13 @@
     "name": "Archaic Glyphs",
     "text": "Researched. Uses (3 charges).\n[action] Spend 1 charge: <b>Investigate.</b> For every 2 points you succeed by, discover 1 additional clue at your location.",
     "tags": [
+      "researched",
       "uses_starting_3",
       "uses_type_charge",
-      "bold_investigate"
+      "bold_investigate",
+      "cost_action_spend_charge",
+      "succeed_by",
+      "additional_clue"
     ]
   },
   {
@@ -629,9 +719,13 @@
     "name": "Archaic Glyphs",
     "text": "Researched. Uses (3 charges).\n[action] Spend 1 charge: <b>Investigate.</b> If you succeed, you may automatically evade an engaged enemy. This action does not provoke attacks of opportunity.",
     "tags": [
+      "researched",
       "uses_starting_3",
       "uses_type_charge",
-      "bold_investigate"
+      "bold_investigate",
+      "cost_action_spend_charge",
+      "auto_evade",
+      "not_aoo"
     ]
   },
   {
@@ -641,7 +735,8 @@
     "tags": [
       "bold_fight",
       "stat_add_agility",
-      "succeed_by_2"
+      "succeed_by_2",
+      "auto_evade"
     ]
   },
   {
@@ -651,8 +746,10 @@
     "tags": [
       "fast_play",
       "cost_reaction_exhaust_self",
+      "timing_fast_after_evaded",
       "draw_player_1",
-      "gain_resource_1"
+      "gain_resource_1",
+      "succeed_by_2"
     ]
   },
   {
@@ -660,7 +757,10 @@
     "name": "Quantum Flux",
     "text": "Shuffle your discard pile into your deck and draw 1 card. Remove Quantum Flux from the game.",
     "tags": [
-      "draw_player_1"
+      "draw_player_1",
+      "shuffle_player",
+      "to_deck_from_discard",
+      "rfg_self"
     ]
   },
   {
@@ -674,7 +774,9 @@
       "chaos_reveal_token_skull",
       "chaos_reveal_token_tablet",
       "trait_relic",
-      "trait_spell"
+      "trait_spell",
+      "chaos_reveal_manual",
+      "uses_add_charge"
     ]
   },
   {
@@ -684,7 +786,9 @@
     "tags": [
       "cost_free_exhaust_self",
       "draw_player_1",
-      "gain_resource_1"
+      "gain_resource_1",
+      "hand_check_less",
+      "current_resource_zero"
     ]
   },
   {
@@ -692,7 +796,13 @@
     "name": "Snare Trap",
     "text": "Attach to your location. Limit 1 per location.\n<b>Forced</b> - After a non-[[Elite]] enemy enters attached location: Exhaust that enemy, disengage it from all investigators, and attach Snare Trap to it.\n<b>Forced</b> - When attached enemy would ready: Instead, discard Snare Trap.",
     "tags": [
-      "elite_unusable"
+      "elite_unusable",
+      "attach_location",
+      "timing_forced_enters_location",
+      "exhaust_enemy",
+      "disengage",
+      "attach_enemy",
+      "enemy_manage_long_exhaust"
     ]
   },
   {

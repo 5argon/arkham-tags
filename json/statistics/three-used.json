@@ -1,5 +1,26 @@
 [
   {
+    "tag": "current_clue_value",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02008",
+        "name": "Search for the Truth",
+        "pack": "dwl"
+      },
+      {
+        "code": "02107",
+        "name": "\"I've got a plan!\"",
+        "pack": "dwl"
+      },
+      {
+        "code": "03191",
+        "name": "Logical Reasoning",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
     "tag": "connecting_location_investigator",
     "count": 3,
     "usages": [
@@ -63,16 +84,37 @@
     ]
   },
   {
+    "tag": "spawn",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02025",
+        "name": "Think on Your Feet",
+        "pack": "dwl"
+      },
+      {
+        "code": "01541",
+        "name": "Disc of Itzamna",
+        "pack": "rcore"
+      },
+      {
+        "code": "03148",
+        "name": "Ambush",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
     "tag": "stat_not_intellect",
     "count": 3,
     "usages": [
       {
-        "code": "02233",
+        "code": "02028",
         "name": "Rite of Seeking",
         "pack": "dwl"
       },
       {
-        "code": "02028",
+        "code": "02233",
         "name": "Rite of Seeking",
         "pack": "dwl"
       },
@@ -172,13 +214,13 @@
     "count": 3,
     "usages": [
       {
-        "code": "02111",
-        "name": "Delve Too Deep",
+        "code": "02302",
+        "name": "Dr. William T. Maleson",
         "pack": "dwl"
       },
       {
-        "code": "02302",
-        "name": "Dr. William T. Maleson",
+        "code": "02111",
+        "name": "Delve Too Deep",
         "pack": "dwl"
       },
       {
@@ -193,13 +235,13 @@
     "count": 3,
     "usages": [
       {
-        "code": "02114",
-        "name": "Fire Extinguisher",
+        "code": "02235",
+        "name": "Survival Instinct",
         "pack": "dwl"
       },
       {
-        "code": "02235",
-        "name": "Survival Instinct",
+        "code": "02114",
+        "name": "Fire Extinguisher",
         "pack": "dwl"
       },
       {
@@ -210,23 +252,23 @@
     ]
   },
   {
-    "tag": "exile",
+    "tag": "card_range_9",
     "count": 3,
     "usages": [
-      {
-        "code": "02114",
-        "name": "Fire Extinguisher",
-        "pack": "dwl"
-      },
       {
         "code": "02115",
         "name": "Flare",
         "pack": "dwl"
       },
       {
-        "code": "02271",
-        "name": "Stroke of Luck",
+        "code": "02184",
+        "name": "Prepared for the Worst",
         "pack": "dwl"
+      },
+      {
+        "code": "03158",
+        "name": "Calling in Favors",
+        "pack": "ptc"
       }
     ]
   },
@@ -252,27 +294,6 @@
     ]
   },
   {
-    "tag": "attach_location",
-    "count": 3,
-    "usages": [
-      {
-        "code": "02156",
-        "name": "Lure",
-        "pack": "dwl"
-      },
-      {
-        "code": "01538",
-        "name": "Barricade",
-        "pack": "rcore"
-      },
-      {
-        "code": "03038",
-        "name": "Hiding Spot",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
     "tag": "timing_fast_defeat_enemy",
     "count": 3,
     "usages": [
@@ -294,107 +315,23 @@
     ]
   },
   {
-    "tag": "doom_add",
+    "tag": "rfg_self",
     "count": 3,
     "usages": [
       {
-        "code": "02191",
-        "name": "Blood Pact",
+        "code": "02230",
+        "name": "Lucky Dice",
         "pack": "dwl"
       },
       {
-        "code": "02232",
-        "name": "Alyssa Graham",
-        "pack": "dwl"
+        "code": "03012",
+        "name": "The Painted World",
+        "pack": "ptc"
       },
       {
-        "code": "01563",
-        "name": "Arcane Initiate",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "boost_intellect_1_passive",
-    "count": 3,
-    "usages": [
-      {
-        "code": "02232",
-        "name": "Alyssa Graham",
-        "pack": "dwl"
-      },
-      {
-        "code": "02234",
-        "name": "Dark Horse",
-        "pack": "dwl"
-      },
-      {
-        "code": "01533",
-        "name": "Dr. Milan Christopher",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "researched",
-    "count": 3,
-    "usages": [
-      {
-        "code": "02262",
-        "name": "Strange Solution",
-        "pack": "dwl"
-      },
-      {
-        "code": "02263",
-        "name": "Strange Solution",
-        "pack": "dwl"
-      },
-      {
-        "code": "02264",
-        "name": "Strange Solution",
-        "pack": "dwl"
-      }
-    ]
-  },
-  {
-    "tag": "cost_reaction_horror_self",
-    "count": 3,
-    "usages": [
-      {
-        "code": "02308",
-        "name": "Aquinnah",
-        "pack": "dwl"
-      },
-      {
-        "code": "01582",
-        "name": "Aquinnah",
-        "pack": "rcore"
-      },
-      {
-        "code": "01691",
-        "name": "Aquinnah",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "soak_benefit_horror",
-    "count": 3,
-    "usages": [
-      {
-        "code": "02308",
-        "name": "Aquinnah",
-        "pack": "dwl"
-      },
-      {
-        "code": "01582",
-        "name": "Aquinnah",
-        "pack": "rcore"
-      },
-      {
-        "code": "01691",
-        "name": "Aquinnah",
-        "pack": "rcore"
+        "code": "03196",
+        "name": "Quantum Flux",
+        "pack": "ptc"
       }
     ]
   },
@@ -403,40 +340,19 @@
     "count": 3,
     "usages": [
       {
-        "code": "02309",
-        "name": "Try and Try Again",
+        "code": "02231",
+        "name": "Opportunist",
         "pack": "dwl"
       },
       {
-        "code": "02231",
-        "name": "Opportunist",
+        "code": "02309",
+        "name": "Try and Try Again",
         "pack": "dwl"
       },
       {
         "code": "01553",
         "name": "Opportunist",
         "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "succeed_by",
-    "count": 3,
-    "usages": [
-      {
-        "code": "02228",
-        "name": "Expose Weakness",
-        "pack": "dwl"
-      },
-      {
-        "code": "01529",
-        "name": "Shotgun",
-        "pack": "rcore"
-      },
-      {
-        "code": "03032",
-        "name": "Alchemical Transmutation",
-        "pack": "ptc"
       }
     ]
   },
@@ -525,7 +441,7 @@
     ]
   },
   {
-    "tag": "gain_resource",
+    "tag": "cancel_damage",
     "count": 3,
     "usages": [
       {
@@ -534,35 +450,119 @@
         "pack": "dwl"
       },
       {
-        "code": "01557",
-        "name": "Hot Streak",
+        "code": "01684",
+        "name": "\"I've had worse…\"",
         "pack": "rcore"
+      },
+      {
+        "code": "03157",
+        "name": "Devil's Luck",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "cancel_horror",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02261",
+        "name": "\"I've had worse…\"",
+        "pack": "dwl"
       },
       {
         "code": "01684",
         "name": "\"I've had worse…\"",
         "pack": "rcore"
+      },
+      {
+        "code": "03157",
+        "name": "Devil's Luck",
+        "pack": "ptc"
       }
     ]
   },
   {
-    "tag": "play_from_hand_paying_cost",
+    "tag": "timing_fast_dealt_damage",
     "count": 3,
     "usages": [
       {
-        "code": "02265",
-        "name": "Joey \"The Rat\" Vigil",
+        "code": "02261",
+        "name": "\"I've had worse…\"",
         "pack": "dwl"
       },
       {
-        "code": "03023",
-        "name": "Ever Vigilant",
-        "pack": "ptc"
+        "code": "01684",
+        "name": "\"I've had worse…\"",
+        "pack": "rcore"
       },
       {
-        "code": "03033",
-        "name": "Uncage the Soul",
+        "code": "03157",
+        "name": "Devil's Luck",
         "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "timing_fast_dealt_horror",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02261",
+        "name": "\"I've had worse…\"",
+        "pack": "dwl"
+      },
+      {
+        "code": "01684",
+        "name": "\"I've had worse…\"",
+        "pack": "rcore"
+      },
+      {
+        "code": "03157",
+        "name": "Devil's Luck",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "cost_reaction_horror_self",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02308",
+        "name": "Aquinnah",
+        "pack": "dwl"
+      },
+      {
+        "code": "01582",
+        "name": "Aquinnah",
+        "pack": "rcore"
+      },
+      {
+        "code": "01691",
+        "name": "Aquinnah",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "soak_benefit_horror",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02308",
+        "name": "Aquinnah",
+        "pack": "dwl"
+      },
+      {
+        "code": "01582",
+        "name": "Aquinnah",
+        "pack": "rcore"
+      },
+      {
+        "code": "01691",
+        "name": "Aquinnah",
+        "pack": "rcore"
       }
     ]
   },
@@ -630,22 +630,43 @@
     ]
   },
   {
-    "tag": "to_hand_from_play",
+    "tag": "duration_until_end_round",
     "count": 3,
     "usages": [
       {
-        "code": "01540",
-        "name": "Magnifying Glass",
+        "code": "01010",
+        "name": "On the Lam",
         "pack": "rcore"
       },
       {
-        "code": "03014",
-        "name": "Spirit-Speaker",
-        "pack": "ptc"
+        "code": "01536",
+        "name": "Mind over Matter",
+        "pack": "rcore"
       },
       {
-        "code": "03029",
-        "name": "Sleight of Hand",
+        "code": "03155",
+        "name": "Fight or Flight",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "deal_damage_investigator",
+    "count": 3,
+    "usages": [
+      {
+        "code": "01524",
+        "name": "Dynamite Blast",
+        "pack": "rcore"
+      },
+      {
+        "code": "01535",
+        "name": "Medical Texts",
+        "pack": "rcore"
+      },
+      {
+        "code": "03153",
+        "name": "Storm of Spirits",
         "pack": "ptc"
       }
     ]
@@ -655,12 +676,12 @@
     "count": 3,
     "usages": [
       {
-        "code": "01548",
+        "code": "01554",
         "name": "Leo De Luca",
         "pack": "rcore"
       },
       {
-        "code": "01554",
+        "code": "01548",
         "name": "Leo De Luca",
         "pack": "rcore"
       },
@@ -668,6 +689,48 @@
         "code": "01688",
         "name": ".41 Derringer",
         "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "cancel_revelation",
+    "count": 3,
+    "usages": [
+      {
+        "code": "01565",
+        "name": "Ward of Protection",
+        "pack": "rcore"
+      },
+      {
+        "code": "03150",
+        "name": "Forewarned",
+        "pack": "ptc"
+      },
+      {
+        "code": "03156",
+        "name": "A Test of Will",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "uses_add_charge",
+    "count": 3,
+    "usages": [
+      {
+        "code": "01570",
+        "name": "Book of Shadows",
+        "pack": "rcore"
+      },
+      {
+        "code": "03154",
+        "name": "Book of Shadows",
+        "pack": "ptc"
+      },
+      {
+        "code": "03197",
+        "name": "Recharge",
+        "pack": "ptc"
       }
     ]
   },
@@ -681,34 +744,34 @@
         "pack": "rcore"
       },
       {
-        "code": "03037",
-        "name": "Gravedigger's Shovel",
+        "code": "03036",
+        "name": "Lantern",
         "pack": "ptc"
       },
       {
-        "code": "03036",
-        "name": "Lantern",
+        "code": "03037",
+        "name": "Gravedigger's Shovel",
         "pack": "ptc"
       }
     ]
   },
   {
-    "tag": "trait_supply",
+    "tag": "duration_until_end_turn",
     "count": 3,
     "usages": [
       {
-        "code": "53011",
-        "name": "Backpack",
-        "pack": "rt"
+        "code": "01585",
+        "name": "Will to Survive",
+        "pack": "rcore"
       },
       {
-        "code": "04037",
-        "name": "Backpack",
-        "pack": "tfa"
+        "code": "03028",
+        "name": "Stealth",
+        "pack": "ptc"
       },
       {
-        "code": "03264",
-        "name": "Stick to the Plan",
+        "code": "03108",
+        "name": "Anatomical Diagrams",
         "pack": "ptc"
       }
     ]
@@ -735,17 +798,38 @@
     ]
   },
   {
+    "tag": "trait_supply",
+    "count": 3,
+    "usages": [
+      {
+        "code": "53011",
+        "name": "Backpack",
+        "pack": "rt"
+      },
+      {
+        "code": "04037",
+        "name": "Backpack",
+        "pack": "tfa"
+      },
+      {
+        "code": "03264",
+        "name": "Stick to the Plan",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
     "tag": "boost_intellect_3",
     "count": 3,
     "usages": [
       {
-        "code": "02189",
-        "name": "Streetwise",
+        "code": "02306",
+        "name": "Shrivelling",
         "pack": "dwl"
       },
       {
-        "code": "02306",
-        "name": "Shrivelling",
+        "code": "02189",
+        "name": "Streetwise",
         "pack": "dwl"
       },
       {

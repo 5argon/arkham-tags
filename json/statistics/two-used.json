@@ -1,21 +1,5 @@
 [
   {
-    "tag": "current_clue_value",
-    "count": 2,
-    "usages": [
-      {
-        "code": "02008",
-        "name": "Search for the Truth",
-        "pack": "dwl"
-      },
-      {
-        "code": "02107",
-        "name": "\"I've got a plan!\"",
-        "pack": "dwl"
-      }
-    ]
-  },
-  {
     "tag": "result_attack_fail",
     "count": 2,
     "usages": [
@@ -76,6 +60,38 @@
         "code": "01535",
         "name": "Medical Texts",
         "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "boost_any_1",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02029",
+        "name": "Ritual Candles",
+        "pack": "dwl"
+      },
+      {
+        "code": "03113",
+        "name": "Grounded",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "attach_enemy",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02031",
+        "name": "Bind Monster",
+        "pack": "dwl"
+      },
+      {
+        "code": "03199",
+        "name": "Snare Trap",
+        "pack": "ptc"
       }
     ]
   },
@@ -240,22 +256,6 @@
     ]
   },
   {
-    "tag": "card_range_9",
-    "count": 2,
-    "usages": [
-      {
-        "code": "02115",
-        "name": "Flare",
-        "pack": "dwl"
-      },
-      {
-        "code": "02184",
-        "name": "Prepared for the Worst",
-        "pack": "dwl"
-      }
-    ]
-  },
-  {
     "tag": "additional_slot_hand",
     "count": 2,
     "usages": [
@@ -304,6 +304,22 @@
     ]
   },
   {
+    "tag": "chaos_reveal_manual",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02153",
+        "name": "Hypnotic Gaze",
+        "pack": "dwl"
+      },
+      {
+        "code": "03197",
+        "name": "Recharge",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
     "tag": "at_end_of_round",
     "count": 2,
     "usages": [
@@ -336,6 +352,38 @@
     ]
   },
   {
+    "tag": "additional_slot_accessory",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02157",
+        "name": "Relic Hunter",
+        "pack": "dwl"
+      },
+      {
+        "code": "01695",
+        "name": "Relic Hunter",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "additional_slot_ally",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02158",
+        "name": "Charisma",
+        "pack": "dwl"
+      },
+      {
+        "code": "01694",
+        "name": "Charisma",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
     "tag": "to_hand_from_deck",
     "count": 2,
     "usages": [
@@ -348,22 +396,6 @@
         "code": "01532",
         "name": "Research Librarian",
         "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "trait_monster",
-    "count": 2,
-    "usages": [
-      {
-        "code": "02225",
-        "name": "\"If it bleeds...\"",
-        "pack": "dwl"
-      },
-      {
-        "code": "04193",
-        "name": "Custom Ammunition",
-        "pack": "tfa"
       }
     ]
   },
@@ -400,50 +432,98 @@
     ]
   },
   {
-    "tag": "additional_slot_ally",
+    "tag": "trait_monster",
     "count": 2,
     "usages": [
       {
-        "code": "02158",
-        "name": "Charisma",
+        "code": "02225",
+        "name": "\"If it bleeds...\"",
         "pack": "dwl"
       },
       {
-        "code": "01694",
-        "name": "Charisma",
+        "code": "04193",
+        "name": "Custom Ammunition",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "end_your_turn",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02233",
+        "name": "Rite of Seeking",
+        "pack": "dwl"
+      },
+      {
+        "code": "01689",
+        "name": "Rite of Seeking",
         "pack": "rcore"
       }
     ]
   },
   {
-    "tag": "additional_slot_accessory",
+    "tag": "current_resource_zero",
     "count": 2,
     "usages": [
       {
-        "code": "02157",
-        "name": "Relic Hunter",
+        "code": "02234",
+        "name": "Dark Horse",
         "pack": "dwl"
       },
       {
-        "code": "01695",
-        "name": "Relic Hunter",
+        "code": "03198",
+        "name": "Madame Labranche",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "to_play_from_discard",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02270",
+        "name": "A Chance Encounter",
+        "pack": "dwl"
+      },
+      {
+        "code": "01014",
+        "name": "Wendy's Amulet",
         "pack": "rcore"
       }
     ]
   },
   {
-    "tag": "timing_fast_after_phase_begin",
+    "tag": "location_enemy_zero",
     "count": 2,
     "usages": [
       {
-        "code": "02305",
-        "name": "The Gold Pocket Watch",
+        "code": "02273",
+        "name": "Moment of Respite",
         "pack": "dwl"
       },
       {
-        "code": "01568",
-        "name": "Mind Wipe",
-        "pack": "rcore"
+        "code": "03151",
+        "name": "Dario El-Amin",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "enemy_manage_defeat",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02300",
+        "name": "Monster Slayer",
+        "pack": "dwl"
+      },
+      {
+        "code": "03189",
+        "name": "\"I'll see you in hell!\"",
+        "pack": "ptc"
       }
     ]
   },
@@ -464,17 +544,33 @@
     ]
   },
   {
-    "tag": "timing_fast_when_draw_treachery",
+    "tag": "location_revealed",
     "count": 2,
     "usages": [
       {
-        "code": "02307",
-        "name": "Ward of Protection",
+        "code": "02303",
+        "name": "Deciphered Reality",
         "pack": "dwl"
       },
       {
-        "code": "01565",
-        "name": "Ward of Protection",
+        "code": "03027",
+        "name": "In the Know",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "timing_fast_after_phase_begin",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02305",
+        "name": "The Gold Pocket Watch",
+        "pack": "dwl"
+      },
+      {
+        "code": "01568",
+        "name": "Mind Wipe",
         "pack": "rcore"
       }
     ]
@@ -507,134 +603,6 @@
       {
         "code": "01575",
         "name": "Rabbit's Foot",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "location_revealed",
-    "count": 2,
-    "usages": [
-      {
-        "code": "02303",
-        "name": "Deciphered Reality",
-        "pack": "dwl"
-      },
-      {
-        "code": "03027",
-        "name": "In the Know",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "to_play_from_discard",
-    "count": 2,
-    "usages": [
-      {
-        "code": "02270",
-        "name": "A Chance Encounter",
-        "pack": "dwl"
-      },
-      {
-        "code": "01014",
-        "name": "Wendy's Amulet",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "rfg_self",
-    "count": 2,
-    "usages": [
-      {
-        "code": "02230",
-        "name": "Lucky Dice",
-        "pack": "dwl"
-      },
-      {
-        "code": "03012",
-        "name": "The Painted World",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "end_your_turn",
-    "count": 2,
-    "usages": [
-      {
-        "code": "02233",
-        "name": "Rite of Seeking",
-        "pack": "dwl"
-      },
-      {
-        "code": "01689",
-        "name": "Rite of Seeking",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "cancel_damage",
-    "count": 2,
-    "usages": [
-      {
-        "code": "02261",
-        "name": "\"I've had worse…\"",
-        "pack": "dwl"
-      },
-      {
-        "code": "01684",
-        "name": "\"I've had worse…\"",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "cancel_horror",
-    "count": 2,
-    "usages": [
-      {
-        "code": "02261",
-        "name": "\"I've had worse…\"",
-        "pack": "dwl"
-      },
-      {
-        "code": "01684",
-        "name": "\"I've had worse…\"",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "timing_fast_dealt_damage",
-    "count": 2,
-    "usages": [
-      {
-        "code": "02261",
-        "name": "\"I've had worse…\"",
-        "pack": "dwl"
-      },
-      {
-        "code": "01684",
-        "name": "\"I've had worse…\"",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "timing_fast_dealt_horror",
-    "count": 2,
-    "usages": [
-      {
-        "code": "02261",
-        "name": "\"I've had worse…\"",
-        "pack": "dwl"
-      },
-      {
-        "code": "01684",
-        "name": "\"I've had worse…\"",
         "pack": "rcore"
       }
     ]
@@ -736,22 +704,6 @@
     ]
   },
   {
-    "tag": "trait_armor",
-    "count": 2,
-    "usages": [
-      {
-        "code": "08122",
-        "name": "Bruiser",
-        "pack": "eote"
-      },
-      {
-        "code": "09065",
-        "name": "Hidden Pocket",
-        "pack": "tsk"
-      }
-    ]
-  },
-  {
     "tag": "initiate_test_willpower_1",
     "count": 2,
     "usages": [
@@ -780,6 +732,22 @@
         "code": "52007",
         "name": "Alchemical Transmutation",
         "pack": "rt"
+      }
+    ]
+  },
+  {
+    "tag": "trait_armor",
+    "count": 2,
+    "usages": [
+      {
+        "code": "08122",
+        "name": "Bruiser",
+        "pack": "eote"
+      },
+      {
+        "code": "09065",
+        "name": "Hidden Pocket",
+        "pack": "tsk"
       }
     ]
   },
@@ -816,38 +784,6 @@
     ]
   },
   {
-    "tag": "duration_until_end_round",
-    "count": 2,
-    "usages": [
-      {
-        "code": "01010",
-        "name": "On the Lam",
-        "pack": "rcore"
-      },
-      {
-        "code": "01536",
-        "name": "Mind over Matter",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "timing_fast_test",
-    "count": 2,
-    "usages": [
-      {
-        "code": "01517",
-        "name": "Physical Training",
-        "pack": "rcore"
-      },
-      {
-        "code": "01577",
-        "name": "Dig Deep",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
     "tag": "cost_free_discard_self",
     "count": 2,
     "usages": [
@@ -880,7 +816,7 @@
     ]
   },
   {
-    "tag": "deal_damage_investigator",
+    "tag": "aoe_damage",
     "count": 2,
     "usages": [
       {
@@ -889,24 +825,8 @@
         "pack": "rcore"
       },
       {
-        "code": "01535",
-        "name": "Medical Texts",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "not_aoo",
-    "count": 2,
-    "usages": [
-      {
-        "code": "01555",
-        "name": "Cat Burglar",
-        "pack": "rcore"
-      },
-      {
-        "code": "03036",
-        "name": "Lantern",
+        "code": "03153",
+        "name": "Storm of Spirits",
         "pack": "ptc"
       }
     ]
@@ -932,14 +852,30 @@
     "count": 2,
     "usages": [
       {
-        "code": "01579",
-        "name": "\"Look what I found!\"",
-        "pack": "rcore"
-      },
-      {
         "code": "01564",
         "name": "Drawn to the Flame",
         "pack": "rcore"
+      },
+      {
+        "code": "01579",
+        "name": "\"Look what I found!\"",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "timing_fast_after_evaded",
+    "count": 2,
+    "usages": [
+      {
+        "code": "01583",
+        "name": "Close Call",
+        "pack": "rcore"
+      },
+      {
+        "code": "03195",
+        "name": "Pickpocketing",
+        "pack": "ptc"
       }
     ]
   },
@@ -960,6 +896,38 @@
     ]
   },
   {
+    "tag": "testless_evade",
+    "count": 2,
+    "usages": [
+      {
+        "code": "01576",
+        "name": "Stray Cat",
+        "pack": "rcore"
+      },
+      {
+        "code": "01578",
+        "name": "Cunning Distraction",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "timing_fast_would_fail",
+    "count": 2,
+    "usages": [
+      {
+        "code": "01580",
+        "name": "Lucky!",
+        "pack": "rcore"
+      },
+      {
+        "code": "01584",
+        "name": "Lucky!",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
     "tag": "shroud_reduction",
     "count": 2,
     "usages": [
@@ -976,66 +944,18 @@
     ]
   },
   {
-    "tag": "duration_until_end_turn",
+    "tag": "stat_combine_intellect_agility",
     "count": 2,
     "usages": [
       {
-        "code": "01585",
-        "name": "Will to Survive",
+        "code": "01687",
+        "name": "Lockpicks",
         "pack": "rcore"
       },
       {
-        "code": "03028",
-        "name": "Stealth",
+        "code": "03031",
+        "name": "Lockpicks",
         "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "timing_fast_would_fail",
-    "count": 2,
-    "usages": [
-      {
-        "code": "01584",
-        "name": "Lucky!",
-        "pack": "rcore"
-      },
-      {
-        "code": "01580",
-        "name": "Lucky!",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "auto_evade",
-    "count": 2,
-    "usages": [
-      {
-        "code": "01576",
-        "name": "Stray Cat",
-        "pack": "rcore"
-      },
-      {
-        "code": "01578",
-        "name": "Cunning Distraction",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "testless_evade",
-    "count": 2,
-    "usages": [
-      {
-        "code": "01576",
-        "name": "Stray Cat",
-        "pack": "rcore"
-      },
-      {
-        "code": "01578",
-        "name": "Cunning Distraction",
-        "pack": "rcore"
       }
     ]
   },
@@ -1088,6 +1008,22 @@
     ]
   },
   {
+    "tag": "discount_1",
+    "count": 2,
+    "usages": [
+      {
+        "code": "03023",
+        "name": "Ever Vigilant",
+        "pack": "ptc"
+      },
+      {
+        "code": "03149",
+        "name": "Charles Ross, Esq.",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
     "tag": "discard_card_choose",
     "count": 2,
     "usages": [
@@ -1099,6 +1035,54 @@
       {
         "code": "03034",
         "name": "Astral Travel",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "difficulty_decrease_evade_2",
+    "count": 2,
+    "usages": [
+      {
+        "code": "03028",
+        "name": "Stealth",
+        "pack": "ptc"
+      },
+      {
+        "code": "03108",
+        "name": "Anatomical Diagrams",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "your_location_another_investigator",
+    "count": 2,
+    "usages": [
+      {
+        "code": "03106",
+        "name": "Heroic Rescue",
+        "pack": "ptc"
+      },
+      {
+        "code": "03149",
+        "name": "Charles Ross, Esq.",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "boost_combat_x",
+    "count": 2,
+    "usages": [
+      {
+        "code": "03147",
+        "name": "Trench Knife",
+        "pack": "ptc"
+      },
+      {
+        "code": "03155",
+        "name": "Fight or Flight",
         "pack": "ptc"
       }
     ]

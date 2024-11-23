@@ -12,6 +12,10 @@
     "description": "Use when a card let you take additional action. Not when it let you immediately take action."
   },
   {
+    "name": "additional_clue",
+    "description": ""
+  },
+  {
     "name": "additional_clue_1",
     "description": "Use for exactly additional clue from the location you are investigating, not when it gets more from other locations."
   },
@@ -136,6 +140,10 @@
     "description": ""
   },
   {
+    "name": "boost_agility_x",
+    "description": ""
+  },
+  {
     "name": "boost_any_1",
     "description": ""
   },
@@ -165,6 +173,10 @@
   },
   {
     "name": "boost_combat_5",
+    "description": ""
+  },
+  {
+    "name": "boost_combat_x",
     "description": ""
   },
   {
@@ -344,6 +356,10 @@
     "description": ""
   },
   {
+    "name": "clue_drop",
+    "description": ""
+  },
+  {
     "name": "clue_tech",
     "description": ""
   },
@@ -381,6 +397,10 @@
   },
   {
     "name": "cost_action_spend_charge",
+    "description": ""
+  },
+  {
+    "name": "cost_action_spend_resource",
     "description": ""
   },
   {
@@ -436,7 +456,19 @@
     "description": ""
   },
   {
+    "name": "current_horror_more",
+    "description": ""
+  },
+  {
     "name": "current_resource_zero",
+    "description": "Effect usable when you have zero resource."
+  },
+  {
+    "name": "current_sanity_less",
+    "description": ""
+  },
+  {
+    "name": "current_sanity_more",
     "description": ""
   },
   {
@@ -500,6 +532,10 @@
     "description": "Can decrease enemy's fight value."
   },
   {
+    "name": "difficulty_decrease_fight_2",
+    "description": ""
+  },
+  {
     "name": "difficulty_increase",
     "description": "Can decrease test difficulty, that is not shroud, evade, and fight."
   },
@@ -516,6 +552,10 @@
     "description": "Somehow can discard itself."
   },
   {
+    "name": "discard_treachery",
+    "description": ""
+  },
+  {
     "name": "discard_zero_uses",
     "description": "Discard itself when uses count runs out."
   },
@@ -529,6 +569,10 @@
   },
   {
     "name": "discount_3",
+    "description": ""
+  },
+  {
+    "name": "discount_x",
     "description": ""
   },
   {
@@ -568,6 +612,10 @@
     "description": "Card can place doom on something."
   },
   {
+    "name": "doom_check",
+    "description": ""
+  },
+  {
     "name": "doom_remove",
     "description": "Card can remove doom from something."
   },
@@ -590,6 +638,10 @@
   {
     "name": "duration_enemy_phase",
     "description": ""
+  },
+  {
+    "name": "duration_next",
+    "description": "The effect lasts indefinitely until the next something is performed."
   },
   {
     "name": "duration_next_skill_test_this_phase",
@@ -648,6 +700,10 @@
     "description": ""
   },
   {
+    "name": "enemy_manage_long_exhaust",
+    "description": "Can manage enemies with prolonged exhaustion."
+  },
+  {
     "name": "enemy_manage_shuffle",
     "description": ""
   },
@@ -676,6 +732,10 @@
     "description": "Effect related to something not engaged with you."
   },
   {
+    "name": "engage_related",
+    "description": ""
+  },
+  {
     "name": "engage_with_another",
     "description": "Effect related to something engaged with others."
   },
@@ -686,6 +746,10 @@
   {
     "name": "enters_play",
     "description": "Most enter play benefit are timing_reaction_enters_play. This is for rare cases like Arcane Initiate."
+  },
+  {
+    "name": "exhaust_enemy",
+    "description": "Card can exhaust an enemy outside of Evade or automatic evade."
   },
   {
     "name": "exhausted_enemy",
@@ -748,6 +812,10 @@
     "description": ""
   },
   {
+    "name": "gain_retaliate",
+    "description": ""
+  },
+  {
     "name": "give_asset",
     "description": "Can transfer asset from you to other investigator."
   },
@@ -760,8 +828,12 @@
     "description": "Related to improving the deck. Gaining XP, providing upgrade / purchase advantage, or like Adaptable / Versatile."
   },
   {
-    "name": "hand_check",
-    "description": "Effect changes based on amount of cards in hand."
+    "name": "hand_check_less",
+    "description": "Card requires less than certain amount of cards in hand, or more effective the less cards you have in hand."
+  },
+  {
+    "name": "hand_check_more",
+    "description": "Card requires more than certain amount of cards in hand, or more effective the more cards you have in hand."
   },
   {
     "name": "hand_size_increase",
@@ -1032,6 +1104,10 @@
     "description": "Use other more specific result before this one"
   },
   {
+    "name": "retaliate_ignore",
+    "description": ""
+  },
+  {
     "name": "rfg_self",
     "description": "Remove self from game."
   },
@@ -1081,11 +1157,19 @@
   },
   {
     "name": "soak_benefit_damage",
-    "description": "Effect related to built-in health soak of that card taking damage. Not the investigator's health"
+    "description": "Something happen when you soak using the damage side of that card."
   },
   {
     "name": "soak_benefit_horror",
-    "description": "Effect related to built-in sanity soak of that card taking horror. Not the investigator's sanity"
+    "description": "Something happen when you soak using the horror side of that card."
+  },
+  {
+    "name": "soak_conditional",
+    "description": "There are soaks printed on the card, but card text put some rules over using them."
+  },
+  {
+    "name": "spawn",
+    "description": ""
   },
   {
     "name": "spend_action",
@@ -1300,6 +1384,10 @@
     "description": ""
   },
   {
+    "name": "timing_fast_during_any_turn",
+    "description": ""
+  },
+  {
     "name": "timing_fast_during_any_window",
     "description": ""
   },
@@ -1324,10 +1412,6 @@
     "description": ""
   },
   {
-    "name": "timing_fast_test",
-    "description": "This is for stat pump cards. There is no condition in front of colon, but after it says \"for this test\"."
-  },
-  {
     "name": "timing_fast_when_draw_treachery",
     "description": ""
   },
@@ -1337,6 +1421,18 @@
   },
   {
     "name": "timing_fast_would_fail",
+    "description": ""
+  },
+  {
+    "name": "timing_forced_enters_location",
+    "description": ""
+  },
+  {
+    "name": "timing_forced_spawn_your_location",
+    "description": ""
+  },
+  {
+    "name": "timing_free_during_skill_test",
     "description": ""
   },
   {
@@ -1401,6 +1497,10 @@
   },
   {
     "name": "timing_skill_successful",
+    "description": ""
+  },
+  {
+    "name": "to_deck_from_discard",
     "description": ""
   },
   {

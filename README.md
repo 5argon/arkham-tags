@@ -32,7 +32,7 @@ Please install [Deno](https://deno.com) to use the tag transforming script.
 - `sync` : Run every time you are done with working on manually tagging cards in `json/input/pack` to update many files in the project. This includes what goes into the `build` command.
 - `build` : Build the `dist` which package consumer access.
 
-## Tagging Rules
+## Tagging Workflow
 
 Clone this repository, then open `.vscode/tagging.code-workspace` in Visual Studio Code to get the JSON schema working, and turn on "View: Toggle Word Wrap" so card text wraps to new line even though they are actually one long line. "View: Toggle Zen Mode" is also recommended once you are in the JSON file you want to tag.
 
@@ -44,7 +44,11 @@ If you got the tooling right, each new tags introduced will be underlined, and a
 
 ![Tagging](./readme-1.webp)
 
-For ease of hand-tagging literally to the text, tags defined are very fine-grained. For example if you see "[fast] Spend 1 resource :", it should use a more specific tag `cost_fast_spend_resource` even though the card is technically also `spend_resource`. However there is no `cost_fast_spend_resource_1` to use. Some tag offer numerical value because they are common values, such as `gain_resource_1` or `draw_player_1`.
+### Learning available tags
+
+In addition to just reading a list of all available tags in `/json/input/tags.json`, try looking at similar cards that are already tagged and you think should share similar tags to discover what's available for use.
+
+For ease of hand-tagging literally to the text, tags defined are very fine-grained. For example if you see "[free] Spend 1 resource :", it should use a more specific tag `cost_free_spend_resource` even though the card is technically also `spend_resource`. However there is no `cost_free_spend_resource_1` to use. Some tag offer numerical value because they are common values, such as `gain_resource_1` or `draw_player_1`.
 
 ### Postprocessing
 

@@ -23,7 +23,7 @@ const statsFolder = "./json/statistics";
 interface CompoundTagItem {
   name: string;
   rules: {
-    type: "all" | "any" | "prefix" | "suffix";
+    type: "all" | "any" | "prefix" | "suffix" | "contains";
     param: string | string[];
   }[];
 }
@@ -85,6 +85,8 @@ async function addCompoundTags(currentTags: string[]): Promise<string[]> {
         match = currentTags.some((tag) => tag.startsWith(param));
       } else if (rule.type === "suffix" && typeof param === "string") {
         match = currentTags.some((tag) => tag.endsWith(param));
+      } else if (rule.type === "contains" && typeof param === "string") {
+        match = currentTags.some((tag) => tag.includes(param));
       }
       if (match) {
         newTags.add(compoundTag.name);
@@ -163,7 +165,7 @@ for await (const entry of Deno.readDir(packFolder)) {
   const tagsJsonRead = await Deno.readTextFile(tagsJsonFile);
   let tagsJson: Tag[] = JSON.parse(tagsJsonRead);
   // Do the same but for name-description pairs.
-  const tagsJsonSet = new Set(tagsJson.map((t) => t.name));
+  const tagsJsonSet = new Set<string>(tagsJson.map((t) => t.name));
 
   const newTags = new Set<string>();
   uniqueTags.forEach((t) => {

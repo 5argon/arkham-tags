@@ -1,6 +1,7 @@
 [
   {
     "name": "spend_resource",
+    "description": "There is a way to spend resource in this card.",
     "rules": [
       {
         "type": "any",
@@ -10,6 +11,7 @@
   },
   {
     "name": "shroud_reduction",
+    "description": "There is a way to reduce the shroud value of a location.",
     "rules": [
       {
         "type": "prefix",
@@ -19,6 +21,7 @@
   },
   {
     "name": "stat_base_set",
+    "description": "This card can set your base value for a stat.",
     "rules": [
       {
         "type": "prefix",
@@ -28,6 +31,7 @@
   },
   {
     "name": "initiate_test",
+    "description": "This card can initiate a skill test.",
     "rules": [
       {
         "type": "prefix",
@@ -37,6 +41,7 @@
   },
   {
     "name": "additional_slot",
+    "description": "Card grants an additional slot of any type.",
     "rules": [
       {
         "type": "prefix",
@@ -46,6 +51,7 @@
   },
   {
     "name": "clue_tech",
+    "description": "Card provide additional feature on finding clues.",
     "rules": [
       {
         "type": "prefix",
@@ -75,10 +81,21 @@
   },
   {
     "name": "boost_passive",
+    "description": "Card has any kind of passive boost.",
     "rules": [
       {
         "type": "suffix",
         "param": "_passive"
+      }
+    ]
+  },
+  {
+    "name": "spawn",
+    "description": "Card that deals with enemy spawning.",
+    "rules": [
+      {
+        "type": "contains",
+        "param": "spawn"
       }
     ]
   }

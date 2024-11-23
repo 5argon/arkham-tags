@@ -640,7 +640,7 @@
       "boost_intellect_2",
       "boost_willpower_2",
       "cost_free_spend_resource",
-      "hand_check",
+      "hand_check_more",
       "stat_from_spent_resource"
     ]
   },
