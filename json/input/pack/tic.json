@@ -320,7 +320,7 @@
     "text": "<b>Investigate.</b> Add your [agility] value to your skill value for this investigation. If you succeed by 2 or more, you may automatically evade an enemy at this location. This action does not provoke attacks of opportunity.",
     "tags": [
       "bold_investigate",
-      "stat_add_agility",
+      "stat_add_agility_for_investigate",
       "succeed_by_2"
     ]
   },

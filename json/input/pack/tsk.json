@@ -318,7 +318,7 @@
     "text": "<b>Investigate.</b> Add your [willpower] or [agility] to your skill value for this investigation. If you succeed, instead of discovering clues at this location, attach Map the Area to it. Limit 1 per location.\nReduce the difficulty of all skill tests at attached location by 1.",
     "tags": [
       "bold_investigate",
-      "stat_add_willpower"
+      "stat_add_willpower_for_investigate"
     ]
   },
   {
@@ -558,7 +558,7 @@
     "text": "<b>Investigate.</b> Add your [agility] value to your skill value for this investigation. If you succeed by 1 or more, you may automatically evade an enemy at this location. If you succeed by 3 or more, return Breaking and Entering to your hand at the end of your turn. This action does not provoke attacks of opportunity.",
     "tags": [
       "bold_investigate",
-      "stat_add_agility",
+      "stat_add_agility_for_investigate",
       "succeed_by_1",
       "succeed_by_3"
     ]

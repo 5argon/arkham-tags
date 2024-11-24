@@ -234,7 +234,7 @@
       "bold_evade",
       "cost_action_exhaust_self",
       "discard_zero_uses",
-      "stat_add_willpower"
+      "stat_add_willpower_for_evade"
     ]
   },
   {

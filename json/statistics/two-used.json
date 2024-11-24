@@ -100,12 +100,12 @@
     "count": 2,
     "usages": [
       {
-        "code": "02033",
+        "code": "02035",
         "name": "Peter Sylvestre",
         "pack": "dwl"
       },
       {
-        "code": "02035",
+        "code": "02033",
         "name": "Peter Sylvestre",
         "pack": "dwl"
       }
@@ -116,12 +116,12 @@
     "count": 2,
     "usages": [
       {
-        "code": "02033",
+        "code": "02035",
         "name": "Peter Sylvestre",
         "pack": "dwl"
       },
       {
-        "code": "02035",
+        "code": "02033",
         "name": "Peter Sylvestre",
         "pack": "dwl"
       }
@@ -140,38 +140,6 @@
         "code": "02304",
         "name": "Chicago Typewriter",
         "pack": "dwl"
-      }
-    ]
-  },
-  {
-    "tag": "heal_damage_ally",
-    "count": 2,
-    "usages": [
-      {
-        "code": "02105",
-        "name": "Emergency Aid",
-        "pack": "dwl"
-      },
-      {
-        "code": "01683",
-        "name": "First Aid",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "your_location_ally",
-    "count": 2,
-    "usages": [
-      {
-        "code": "02105",
-        "name": "Emergency Aid",
-        "pack": "dwl"
-      },
-      {
-        "code": "01683",
-        "name": "First Aid",
-        "pack": "rcore"
       }
     ]
   },
@@ -208,6 +176,22 @@
     ]
   },
   {
+    "tag": "uses_add_supply",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02109",
+        "name": "Contraband",
+        "pack": "dwl"
+      },
+      {
+        "code": "03239",
+        "name": "Emergency Cache",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
     "tag": "fail_by_2_or_less",
     "count": 2,
     "usages": [
@@ -220,38 +204,6 @@
         "code": "01579",
         "name": "\"Look what I found!\"",
         "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "boost_agility_3",
-    "count": 2,
-    "usages": [
-      {
-        "code": "02114",
-        "name": "Fire Extinguisher",
-        "pack": "dwl"
-      },
-      {
-        "code": "02189",
-        "name": "Streetwise",
-        "pack": "dwl"
-      }
-    ]
-  },
-  {
-    "tag": "any_investigator",
-    "count": 2,
-    "usages": [
-      {
-        "code": "02115",
-        "name": "Flare",
-        "pack": "dwl"
-      },
-      {
-        "code": "02270",
-        "name": "A Chance Encounter",
-        "pack": "dwl"
       }
     ]
   },
@@ -272,6 +224,22 @@
     ]
   },
   {
+    "tag": "aoo_support",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02148",
+        "name": "Stand Together",
+        "pack": "dwl"
+      },
+      {
+        "code": "03239",
+        "name": "Emergency Cache",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
     "tag": "additional_clue_2",
     "count": 2,
     "usages": [
@@ -284,22 +252,6 @@
         "code": "02233",
         "name": "Rite of Seeking",
         "pack": "dwl"
-      }
-    ]
-  },
-  {
-    "tag": "cancel_attack",
-    "count": 2,
-    "usages": [
-      {
-        "code": "02153",
-        "name": "Hypnotic Gaze",
-        "pack": "dwl"
-      },
-      {
-        "code": "01523",
-        "name": "Dodge",
-        "pack": "rcore"
       }
     ]
   },
@@ -448,6 +400,22 @@
     ]
   },
   {
+    "tag": "boost_willpower_2_investigate",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02233",
+        "name": "Rite of Seeking",
+        "pack": "dwl"
+      },
+      {
+        "code": "01689",
+        "name": "Rite of Seeking",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
     "tag": "end_your_turn",
     "count": 2,
     "usages": [
@@ -480,18 +448,18 @@
     ]
   },
   {
-    "tag": "to_play_from_discard",
+    "tag": "skill_gains_willpower_wild",
     "count": 2,
     "usages": [
       {
-        "code": "02270",
-        "name": "A Chance Encounter",
+        "code": "02260",
+        "name": "Leadership",
         "pack": "dwl"
       },
       {
-        "code": "01014",
-        "name": "Wendy's Amulet",
-        "pack": "rcore"
+        "code": "03235",
+        "name": "Torrent of Power",
+        "pack": "ptc"
       }
     ]
   },
@@ -508,38 +476,6 @@
         "code": "03151",
         "name": "Dario El-Amin",
         "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "enemy_manage_defeat",
-    "count": 2,
-    "usages": [
-      {
-        "code": "02300",
-        "name": "Monster Slayer",
-        "pack": "dwl"
-      },
-      {
-        "code": "03189",
-        "name": "\"I'll see you in hell!\"",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "boost_combat_5",
-    "count": 2,
-    "usages": [
-      {
-        "code": "02301",
-        "name": "Lightning Gun",
-        "pack": "dwl"
-      },
-      {
-        "code": "08096",
-        "name": "Sledgehammer",
-        "pack": "eote"
       }
     ]
   },
@@ -656,6 +592,27 @@
     ]
   },
   {
+    "tag": "trait_ranged",
+    "count": 3,
+    "usages": [
+      {
+        "code": "08087",
+        "name": "Snipe",
+        "pack": "eote"
+      },
+      {
+        "code": "04104",
+        "name": "Marksmanship",
+        "pack": "tfa"
+      },
+      {
+        "code": "10031",
+        "name": "Strong-Armed",
+        "pack": "fhv"
+      }
+    ]
+  },
+  {
     "tag": "uses_starting_9",
     "count": 2,
     "usages": [
@@ -752,6 +709,53 @@
     ]
   },
   {
+    "tag": "trait_melee",
+    "count": 4,
+    "usages": [
+      {
+        "code": "08122",
+        "name": "Bruiser",
+        "pack": "eote"
+      },
+      {
+        "code": "09027",
+        "name": "Grievous Wound",
+        "pack": "tsk"
+      },
+      {
+        "code": "10031",
+        "name": "Strong-Armed",
+        "pack": "fhv"
+      },
+      {
+        "code": "10037",
+        "name": "Flurry of Blows",
+        "pack": "fhv"
+      }
+    ]
+  },
+  {
+    "tag": "stat_add_willpower_for_investigate",
+    "count": 3,
+    "usages": [
+      {
+        "code": "06117",
+        "name": "Read the Signs",
+        "pack": "tde"
+      },
+      {
+        "code": "09048",
+        "name": "Map the Area",
+        "pack": "tsk"
+      },
+      {
+        "code": "10101",
+        "name": "Read the Signs",
+        "pack": "fhv"
+      }
+    ]
+  },
+  {
     "tag": "initiate_test_intellect_0",
     "count": 2,
     "usages": [
@@ -832,6 +836,38 @@
     ]
   },
   {
+    "tag": "boost_intellect_1_investigate",
+    "count": 2,
+    "usages": [
+      {
+        "code": "01530",
+        "name": "Magnifying Glass",
+        "pack": "rcore"
+      },
+      {
+        "code": "01540",
+        "name": "Magnifying Glass",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "exhausted_enemy",
+    "count": 2,
+    "usages": [
+      {
+        "code": "01552",
+        "name": "Sneak Attack",
+        "pack": "rcore"
+      },
+      {
+        "code": "03237",
+        "name": "Waylay",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
     "tag": "chaos_modifier",
     "count": 2,
     "usages": [
@@ -852,30 +888,14 @@
     "count": 2,
     "usages": [
       {
-        "code": "01564",
-        "name": "Drawn to the Flame",
-        "pack": "rcore"
-      },
-      {
         "code": "01579",
         "name": "\"Look what I found!\"",
         "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "timing_fast_after_evaded",
-    "count": 2,
-    "usages": [
-      {
-        "code": "01583",
-        "name": "Close Call",
-        "pack": "rcore"
       },
       {
-        "code": "03195",
-        "name": "Pickpocketing",
-        "pack": "ptc"
+        "code": "01564",
+        "name": "Drawn to the Flame",
+        "pack": "rcore"
       }
     ]
   },
@@ -900,13 +920,13 @@
     "count": 2,
     "usages": [
       {
-        "code": "01576",
-        "name": "Stray Cat",
+        "code": "01578",
+        "name": "Cunning Distraction",
         "pack": "rcore"
       },
       {
-        "code": "01578",
-        "name": "Cunning Distraction",
+        "code": "01576",
+        "name": "Stray Cat",
         "pack": "rcore"
       }
     ]
@@ -928,7 +948,23 @@
     ]
   },
   {
-    "tag": "shroud_reduction",
+    "tag": "timing_fast_after_evaded",
+    "count": 2,
+    "usages": [
+      {
+        "code": "01583",
+        "name": "Close Call",
+        "pack": "rcore"
+      },
+      {
+        "code": "03195",
+        "name": "Pickpocketing",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "shroud_minus_2",
     "count": 2,
     "usages": [
       {
@@ -937,8 +973,24 @@
         "pack": "rcore"
       },
       {
-        "code": "03036",
-        "name": "Lantern",
+        "code": "03266",
+        "name": "Arcane Insight",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "heal_both",
+    "count": 2,
+    "usages": [
+      {
+        "code": "01683",
+        "name": "First Aid",
+        "pack": "rcore"
+      },
+      {
+        "code": "03230",
+        "name": "First Aid",
         "pack": "ptc"
       }
     ]
@@ -976,6 +1028,22 @@
     ]
   },
   {
+    "tag": "trait_terror",
+    "count": 2,
+    "usages": [
+      {
+        "code": "52003",
+        "name": "Logical Reasoning",
+        "pack": "rt"
+      },
+      {
+        "code": "03191",
+        "name": "Logical Reasoning",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
     "tag": "trait_tarot",
     "count": 2,
     "usages": [
@@ -992,6 +1060,37 @@
     ]
   },
   {
+    "tag": "initiate_test_intellect_x",
+    "count": 5,
+    "usages": [
+      {
+        "code": "04027",
+        "name": "Eavesdrop",
+        "pack": "tfa"
+      },
+      {
+        "code": "04195",
+        "name": "Expose Weakness",
+        "pack": "tfa"
+      },
+      {
+        "code": "10057",
+        "name": "Confound",
+        "pack": "fhv"
+      },
+      {
+        "code": "10073",
+        "name": "Stir the Pot",
+        "pack": "fhv"
+      },
+      {
+        "code": "10083",
+        "name": "Stir the Pot",
+        "pack": "fhv"
+      }
+    ]
+  },
+  {
     "tag": "discount_3",
     "count": 2,
     "usages": [
@@ -1003,6 +1102,22 @@
       {
         "code": "03033",
         "name": "Uncage the Soul",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "timing_fast_after_draw_encounter",
+    "count": 2,
+    "usages": [
+      {
+        "code": "03022",
+        "name": "\"Let me handle this!\"",
+        "pack": "ptc"
+      },
+      {
+        "code": "03263",
+        "name": "On the Hunt",
         "pack": "ptc"
       }
     ]
@@ -1056,22 +1171,6 @@
     ]
   },
   {
-    "tag": "your_location_another_investigator",
-    "count": 2,
-    "usages": [
-      {
-        "code": "03106",
-        "name": "Heroic Rescue",
-        "pack": "ptc"
-      },
-      {
-        "code": "03149",
-        "name": "Charles Ross, Esq.",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
     "tag": "boost_combat_x",
     "count": 2,
     "usages": [
@@ -1100,54 +1199,6 @@
         "code": "07109",
         "name": "Righteous Hunt",
         "pack": "tic"
-      }
-    ]
-  },
-  {
-    "tag": "initiate_test_agility_x",
-    "count": 2,
-    "usages": [
-      {
-        "code": "03237",
-        "name": "Waylay",
-        "pack": "ptc"
-      },
-      {
-        "code": "10062",
-        "name": "Bianca \"Die Katz\"",
-        "pack": "fhv"
-      }
-    ]
-  },
-  {
-    "tag": "trait_science",
-    "count": 2,
-    "usages": [
-      {
-        "code": "10051",
-        "name": "Well-Funded",
-        "pack": "fhv"
-      },
-      {
-        "code": "10054",
-        "name": "Fine Tuning",
-        "pack": "fhv"
-      }
-    ]
-  },
-  {
-    "tag": "trait_rot",
-    "count": 2,
-    "usages": [
-      {
-        "code": "10085",
-        "name": "Rod of Carnamagos",
-        "pack": "fhv"
-      },
-      {
-        "code": "10098",
-        "name": "Rod of Carnamagos",
-        "pack": "fhv"
       }
     ]
   }

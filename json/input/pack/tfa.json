@@ -595,7 +595,7 @@
     "tags": [
       "bold_evade",
       "elite_unusable",
-      "stat_add_intellect",
+      "stat_add_intellect_for_evade",
       "succeed_by_2"
     ]
   },
@@ -765,7 +765,7 @@
       "damage_plus_3",
       "draw_player_3",
       "max_per_game_1",
-      "stat_add_willpower"
+      "stat_add_willpower_for_attack"
     ]
   },
   {

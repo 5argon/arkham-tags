@@ -26,7 +26,7 @@
     "text": "Jenny Barnes deck only. Uses (X ammo).\n[action] Spend 1 ammo: <b>Fight.</b> You get +2 [combat] for this attack. This attack deals +1 damage.",
     "tags": [
       "bold_fight",
-      "boost_combat_2",
+      "boost_combat_2_attack",
       "damage_plus_1",
       "spend_ammo",
       "uses_type_ammo"
@@ -63,7 +63,7 @@
     "text": "[action]: <b>Fight.</b> You get +1 [combat] for this attack. If you perform this attack against an enemy engaged with another investigator and you fail, you deal no damage.",
     "tags": [
       "bold_fight",
-      "boost_combat_1",
+      "boost_combat_1_attack",
       "engage_with_another",
       "result_attack_fail"
     ]
@@ -254,7 +254,7 @@
     "text": "[action]: <b>Fight.</b> If you have no resources in your resource pool, this attack deals +1 damage.\n[free] During an attack using Fire Axe, spend 1 resource: You get +2 [combat] for this skill test. (Limit three times per attack.)",
     "tags": [
       "bold_fight",
-      "boost_combat_2",
+      "boost_combat_2_attack",
       "damage_plus_1",
       "limit_per_test_3",
       "no_resource",
@@ -302,7 +302,7 @@
     "text": "[action]: <b>Fight.</b> You get +1 [combat] for this attack. If you succeed, you may spend 1 additional action to deal +1 damage for this attack.",
     "tags": [
       "bold_fight",
-      "boost_combat_1",
+      "boost_combat_1_attack",
       "damage_plus_1",
       "result_attack_success",
       "spend_action"
@@ -393,7 +393,7 @@
     "text": "Uses (5 charges).\n[action] Spend 1 charge: <b>Fight.</b> This attack uses [willpower] instead of [combat]. You get +1 [willpower] for this attack. If a [skull] symbol is revealed during this attack, this attack deals +2 damage.",
     "tags": [
       "bold_fight",
-      "boost_willpower_1",
+      "boost_willpower_1_attack",
       "chaos_reveal_token_skull",
       "cost_action_spend_charge",
       "damage_plus_2",
@@ -423,11 +423,12 @@
       "aoe_evade",
       "bold_evade",
       "bold_fight",
-      "boost_agility_3",
-      "boost_combat_1",
+      "boost_agility_3_evade",
+      "boost_combat_1_attack",
       "engage_with_you",
       "exile",
-      "result_evade_success"
+      "result_evade_success",
+      "aoe_evade"
     ]
   },
   {
@@ -437,7 +438,7 @@
     "tags": [
       "any_investigator",
       "bold_fight",
-      "boost_combat_3",
+      "boost_combat_3_attack",
       "damage_plus_2",
       "exile",
       "search_player",
@@ -487,7 +488,8 @@
     "tags": [
       "draw_player_2",
       "gain_resource_2",
-      "your_location_investigator"
+      "your_location_investigator",
+      "aoo_support"
     ]
   },
   {
@@ -525,7 +527,7 @@
     "text": "Fast.\n[action] <b>Fight.</b> You get +2 [combat] for this attack. If you succeed by 2 or more, this attack deals +1 damage.",
     "tags": [
       "bold_fight",
-      "boost_combat_2",
+      "boost_combat_2_attack",
       "damage_plus_1",
       "fast_play",
       "succeed_by_2"
@@ -552,7 +554,7 @@
     "text": "Uses (4 charges).\n[action] Spend one charge: <b>Fight.</b> This attack uses [willpower] instead of [combat]. You get +2 [willpower] and deal +1 damage for this attack. If a [skull], [cultist], [tablet], [elder_thing], or [auto_fail] symbol is revealed during this attack, take 1 horror. ",
     "tags": [
       "bold_fight",
-      "boost_intellect_2",
+      "boost_willpower_2_attack",
       "chaos_reveal_token_skull",
       "cost_action_spend_charge",
       "damage_plus_1",
@@ -566,7 +568,7 @@
     "name": "Newspaper",
     "text": "You get +2 [intellect] while investigating if you have no clues.",
     "tags": [
-      "boost_intellect_2",
+      "boost_intellect_2_investigate",
       "current_clue_zero",
       "investigate_while"
     ]
@@ -736,7 +738,7 @@
     "name": "Springfield M1903",
     "text": "Uses (3 ammo).\n[action] Spend 1 ammo: <b>Fight</b>. You get +3 [combat] and deal +2 damage for this attack. Cannot be used to attack enemies engaged with you.",
     "tags": [
-      "boost_combat_3",
+      "boost_combat_3_attack",
       "cost_action_spend_ammo",
       "damage_plus_2",
       "engage_not_with_you",
@@ -822,7 +824,7 @@
     "tags": [
       "additional_clue_2",
       "bold_investigate",
-      "boost_willpower_2",
+      "boost_willpower_2_investigate",
       "chaos_reveal_token_auto_fail",
       "chaos_reveal_token_cultist",
       "chaos_reveal_token_elder_sign",
@@ -1041,7 +1043,7 @@
     "text": "Uses (3 ammo).\n[action] Spend 1 ammo: <b>Fight.</b> You get +5 [combat] for this attack. This attack deals +2 damage.",
     "tags": [
       "bold_fight",
-      "boost_combat_5",
+      "boost_combat_5_attack",
       "cost_action_spend_ammo",
       "damage_plus_2",
       "uses_starting_3",
@@ -1077,7 +1079,7 @@
     "text": "Uses (4 ammo).\n[action] Spend 1 ammo: <b>Fight.</b> You may spend any number of additional actions when you perform this attack. You get +2 [combat] for this attack for each action being spent (including this ability's [action] cost). This attack deals +2 damage.",
     "tags": [
       "bold_fight",
-      "boost_combat_2",
+      "boost_combat_2_attack",
       "cost_action_spend_ammo",
       "damage_plus_2",
       "spend_action",
@@ -1100,7 +1102,7 @@
     "text": "Uses (4 charges).\n[action] Spend 1 charge: <b>Fight.</b> This attack uses [willpower] instead of [combat]. You get +3 [willpower] and deal +2 damage for this attack. If a [skull], [cultist], [tablet], [elder_thing], or [auto_fail] symbol is revealed during this attack, take 2 horror.",
     "tags": [
       "bold_fight",
-      "boost_intellect_3",
+      "boost_willpower_3_attack",
       "chaos_reveal_token_auto_fail",
       "chaos_reveal_token_cultist",
       "chaos_reveal_token_elder_thing",

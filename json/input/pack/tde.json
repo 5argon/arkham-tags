@@ -269,7 +269,7 @@
     "text": "<b>Investigate.</b> Add your [willpower] value to your skill value for this investigation. You may ignore any effect or keyword on your location which would trigger during this investigation. If you succeed, discover 1 additional clue at this location.",
     "tags": [
       "bold_investigate",
-      "stat_add_willpower"
+      "stat_add_willpower_for_investigate"
     ]
   },
   {
@@ -365,7 +365,7 @@
     "tags": [
       "bold_evade",
       "engage_with_you",
-      "stat_add_willpower"
+      "stat_add_willpower_for_evade"
     ]
   },
   {
@@ -453,7 +453,7 @@
       "damage_plus_1",
       "damage_plus_2",
       "elite_unusable",
-      "stat_add_willpower"
+      "stat_add_willpower_for_attack"
     ]
   },
   {

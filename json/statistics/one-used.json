@@ -253,23 +253,34 @@
     ]
   },
   {
-    "tag": "uses_add_supply",
-    "count": 1,
-    "usages": [
-      {
-        "code": "02109",
-        "name": "Contraband",
-        "pack": "dwl"
-      }
-    ]
-  },
-  {
     "tag": "between_scenarios",
     "count": 1,
     "usages": [
       {
         "code": "02110",
         "name": "Adaptable",
+        "pack": "dwl"
+      }
+    ]
+  },
+  {
+    "tag": "boost_willpower_1_attack",
+    "count": 1,
+    "usages": [
+      {
+        "code": "02112",
+        "name": "Song of the Dead",
+        "pack": "dwl"
+      }
+    ]
+  },
+  {
+    "tag": "boost_agility_3_evade",
+    "count": 1,
+    "usages": [
+      {
+        "code": "02114",
+        "name": "Fire Extinguisher",
         "pack": "dwl"
       }
     ]
@@ -303,6 +314,28 @@
       {
         "code": "02151",
         "name": "\"I'm outta here!\"",
+        "pack": "dwl"
+      }
+    ]
+  },
+  {
+    "tag": "boost_willpower_2_attack",
+    "count": 1,
+    "usages": [
+      {
+        "code": "02154",
+        "name": "Shrivelling",
+        "pack": "dwl"
+      }
+    ]
+  },
+  {
+    "tag": "boost_intellect_2_investigate",
+    "count": 1,
+    "usages": [
+      {
+        "code": "02155",
+        "name": "Newspaper",
         "pack": "dwl"
       }
     ]
@@ -347,6 +380,28 @@
       {
         "code": "02188",
         "name": "Lone Wolf",
+        "pack": "dwl"
+      }
+    ]
+  },
+  {
+    "tag": "boost_agility_3",
+    "count": 1,
+    "usages": [
+      {
+        "code": "02189",
+        "name": "Streetwise",
+        "pack": "dwl"
+      }
+    ]
+  },
+  {
+    "tag": "boost_intellect_3",
+    "count": 1,
+    "usages": [
+      {
+        "code": "02189",
+        "name": "Streetwise",
         "pack": "dwl"
       }
     ]
@@ -506,17 +561,6 @@
     ]
   },
   {
-    "tag": "skill_gains_willpower_wild",
-    "count": 1,
-    "usages": [
-      {
-        "code": "02260",
-        "name": "Leadership",
-        "pack": "dwl"
-      }
-    ]
-  },
-  {
     "tag": "stat_base_combat_6",
     "count": 1,
     "usages": [
@@ -605,6 +649,17 @@
     ]
   },
   {
+    "tag": "boost_combat_5_attack",
+    "count": 1,
+    "usages": [
+      {
+        "code": "02301",
+        "name": "Lightning Gun",
+        "pack": "dwl"
+      }
+    ]
+  },
+  {
     "tag": "cancel_encounter_draw",
     "count": 1,
     "usages": [
@@ -655,6 +710,17 @@
       {
         "code": "02305",
         "name": "The Gold Pocket Watch",
+        "pack": "dwl"
+      }
+    ]
+  },
+  {
+    "tag": "boost_willpower_3_attack",
+    "count": 1,
+    "usages": [
+      {
+        "code": "02306",
+        "name": "Shrivelling",
         "pack": "dwl"
       }
     ]
@@ -748,6 +814,17 @@
     ]
   },
   {
+    "tag": "boost_combat_5",
+    "count": 1,
+    "usages": [
+      {
+        "code": "08096",
+        "name": "Sledgehammer",
+        "pack": "eote"
+      }
+    ]
+  },
+  {
     "tag": "trait_fortune",
     "count": 1,
     "usages": [
@@ -836,6 +913,17 @@
     ]
   },
   {
+    "tag": "initiate_test_willpower_x",
+    "count": 1,
+    "usages": [
+      {
+        "code": "06329",
+        "name": "Shining Trapezohedron",
+        "pack": "tde"
+      }
+    ]
+  },
+  {
     "tag": "initiate_test_combat_1",
     "count": 1,
     "usages": [
@@ -858,23 +946,23 @@
     ]
   },
   {
-    "tag": "uses_type_time",
-    "count": 1,
-    "usages": [
-      {
-        "code": "09100",
-        "name": "Makeshift Trap",
-        "pack": "tsk"
-      }
-    ]
-  },
-  {
     "tag": "trait_clothing",
     "count": 1,
     "usages": [
       {
         "code": "09065",
         "name": "Hidden Pocket",
+        "pack": "tsk"
+      }
+    ]
+  },
+  {
+    "tag": "uses_type_time",
+    "count": 1,
+    "usages": [
+      {
+        "code": "09100",
+        "name": "Makeshift Trap",
         "pack": "tsk"
       }
     ]
@@ -1177,17 +1265,6 @@
     ]
   },
   {
-    "tag": "enemy_manage_shuffle",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01583",
-        "name": "Close Call",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
     "tag": "timing_reaction_after_investigate_success",
     "count": 1,
     "usages": [
@@ -1199,12 +1276,23 @@
     ]
   },
   {
-    "tag": "shroud_minus_2",
+    "tag": "timing_fast_after_fail",
     "count": 1,
     "usages": [
       {
-        "code": "01587",
-        "name": "Flashlight",
+        "code": "01579",
+        "name": "\"Look what I found!\"",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "enemy_manage_shuffle",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01583",
+        "name": "Close Call",
         "pack": "rcore"
       }
     ]
@@ -1216,17 +1304,6 @@
       {
         "code": "01585",
         "name": "Will to Survive",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "heal_both",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01683",
-        "name": "First Aid",
         "pack": "rcore"
       }
     ]
@@ -1287,17 +1364,6 @@
     ]
   },
   {
-    "tag": "once_per_turn",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01688",
-        "name": ".41 Derringer",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
     "tag": "cancel_chaos",
     "count": 1,
     "usages": [
@@ -1331,28 +1397,6 @@
     ]
   },
   {
-    "tag": "exhausted_enemy",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01552",
-        "name": "Sneak Attack",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "timing_fast_after_fail",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01579",
-        "name": "\"Look what I found!\"",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
     "tag": "initiate_test_intellect_3",
     "count": 1,
     "usages": [
@@ -1375,23 +1419,23 @@
     ]
   },
   {
-    "tag": "uses_starting_8",
-    "count": 1,
-    "usages": [
-      {
-        "code": "04229",
-        "name": "M1918 BAR",
-        "pack": "tfa"
-      }
-    ]
-  },
-  {
     "tag": "uses_starting_7",
     "count": 1,
     "usages": [
       {
         "code": "04311",
         "name": "Seal of the Seventh Sign",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "uses_starting_8",
+    "count": 1,
+    "usages": [
+      {
+        "code": "04229",
+        "name": "M1918 BAR",
         "pack": "tfa"
       }
     ]
@@ -1447,17 +1491,6 @@
       {
         "code": "03014",
         "name": "Spirit-Speaker",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "timing_fast_after_draw_encounter",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03022",
-        "name": "\"Let me handle this!\"",
         "pack": "ptc"
       }
     ]
@@ -1540,6 +1573,39 @@
     ]
   },
   {
+    "tag": "cost_action_spend_secret",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03027",
+        "name": "In the Know",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "investigate_remote",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03027",
+        "name": "In the Know",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "as_if_you_were_at_location",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03027",
+        "name": "In the Know",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
     "tag": "disengage_without_exhaust",
     "count": 1,
     "usages": [
@@ -1595,12 +1661,45 @@
     ]
   },
   {
+    "tag": "move_remote",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03034",
+        "name": "Astral Travel",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
     "tag": "timing_fast_during_skill_test",
     "count": 1,
     "usages": [
       {
         "code": "03035",
         "name": "Spirit Athame",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "shroud_minus_1",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03036",
+        "name": "Lantern",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "investigate_asset_unlimited",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03036",
+        "name": "Lantern",
         "pack": "ptc"
       }
     ]
@@ -1634,17 +1733,6 @@
       {
         "code": "03038",
         "name": "Hiding Spot",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "timing_skill_successful",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03039",
-        "name": "Resourceful",
         "pack": "ptc"
       }
     ]
@@ -1738,6 +1826,17 @@
     ]
   },
   {
+    "tag": "timing_forced_spawn_your_location",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03148",
+        "name": "Ambush",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
     "tag": "duration_next",
     "count": 1,
     "usages": [
@@ -1760,6 +1859,17 @@
     ]
   },
   {
+    "tag": "cost_action_spend_resource",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03154",
+        "name": "Book of Shadows",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
     "tag": "boost_agility_x",
     "count": 1,
     "usages": [
@@ -1777,6 +1887,17 @@
       {
         "code": "03155",
         "name": "Fight or Flight",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "discount_x",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03158",
+        "name": "Calling in Favors",
         "pack": "ptc"
       }
     ]
@@ -1870,89 +1991,155 @@
     ]
   },
   {
-    "tag": "cost_action_spend_secret",
+    "tag": "ready_asset",
     "count": 1,
     "usages": [
       {
-        "code": "03027",
-        "name": "In the Know",
+        "code": "03228",
+        "name": "Inspiring Presence",
         "pack": "ptc"
       }
     ]
   },
   {
-    "tag": "investigate_remote",
+    "tag": "play_only_first_action",
     "count": 1,
     "usages": [
       {
-        "code": "03027",
-        "name": "In the Know",
+        "code": "03229",
+        "name": "Mano a Mano",
         "pack": "ptc"
       }
     ]
   },
   {
-    "tag": "as_if_you_were_at_location",
+    "tag": "uses_manip_charge_spend",
     "count": 1,
     "usages": [
       {
-        "code": "03027",
-        "name": "In the Know",
+        "code": "03235",
+        "name": "Torrent of Power",
         "pack": "ptc"
       }
     ]
   },
   {
-    "tag": "move_remote",
+    "tag": "initiate_test_agility_x",
     "count": 1,
     "usages": [
       {
-        "code": "03034",
-        "name": "Astral Travel",
+        "code": "03237",
+        "name": "Waylay",
         "pack": "ptc"
       }
     ]
   },
   {
-    "tag": "trait_omen",
+    "tag": "enemy_value_evade",
     "count": 1,
     "usages": [
       {
-        "code": "03236",
-        "name": "Scrying",
+        "code": "03237",
+        "name": "Waylay",
         "pack": "ptc"
       }
     ]
   },
   {
-    "tag": "timing_forced_spawn_your_location",
+    "tag": "phase_mythos",
     "count": 1,
     "usages": [
       {
-        "code": "03148",
-        "name": "Ambush",
+        "code": "03263",
+        "name": "On the Hunt",
         "pack": "ptc"
       }
     ]
   },
   {
-    "tag": "shroud_minus_1",
+    "tag": "search_encounter",
     "count": 1,
     "usages": [
       {
-        "code": "03036",
-        "name": "Lantern",
+        "code": "03263",
+        "name": "On the Hunt",
         "pack": "ptc"
       }
     ]
   },
   {
-    "tag": "investigate_asset_unlimited",
+    "tag": "shuffle_encounter",
     "count": 1,
     "usages": [
       {
-        "code": "03036",
-        "name": "Lantern",
+        "code": "03263",
+        "name": "On the Hunt",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "timing_reaction_before_opening_hand",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03264",
+        "name": "Stick to the Plan",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "exhaust_self",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03264",
+        "name": "Stick to the Plan",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "timing_free_taking_turn",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03266",
+        "name": "Arcane Insight",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "cost_free_spend_charge",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03266",
+        "name": "Arcane Insight",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "timing_fast_enemy_aoo",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03267",
+        "name": "Narrow Escape",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "duration_next_skill_test_this_turn",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03267",
+        "name": "Narrow Escape",
         "pack": "ptc"
       }
     ]
@@ -1964,28 +2151,6 @@
       {
         "code": "03273",
         "name": "True Survivor",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "discount_x",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03158",
-        "name": "Calling in Favors",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "cost_action_spend_resource",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03154",
-        "name": "Book of Shadows",
         "pack": "ptc"
       }
     ]
@@ -2035,6 +2200,17 @@
     ]
   },
   {
+    "tag": "stat_add_intellect",
+    "count": 1,
+    "usages": [
+      {
+        "code": "60226",
+        "name": "Mind over Matter",
+        "pack": "har"
+      }
+    ]
+  },
+  {
     "tag": "trait_geist",
     "count": 1,
     "usages": [
@@ -2046,57 +2222,13 @@
     ]
   },
   {
-    "tag": "boost_intellect_6",
+    "tag": "uses_type_offerings",
     "count": 1,
     "usages": [
       {
-        "code": "10058",
-        "name": "Microscope",
-        "pack": "fhv"
-      }
-    ]
-  },
-  {
-    "tag": "uses_starting_10",
-    "count": 1,
-    "usages": [
-      {
-        "code": "10062",
-        "name": "Bianca \"Die Katz\"",
-        "pack": "fhv"
-      }
-    ]
-  },
-  {
-    "tag": "initiate_test_agility_0",
-    "count": 1,
-    "usages": [
-      {
-        "code": "10071",
-        "name": "Grift",
-        "pack": "fhv"
-      }
-    ]
-  },
-  {
-    "tag": "trait_blessed",
-    "count": 1,
-    "usages": [
-      {
-        "code": "10132",
-        "name": "Occult Reliquary",
-        "pack": "fhv"
-      }
-    ]
-  },
-  {
-    "tag": "trait_cursed",
-    "count": 1,
-    "usages": [
-      {
-        "code": "10132",
-        "name": "Occult Reliquary",
-        "pack": "fhv"
+        "code": "07310",
+        "name": "Shrine of the Moirai",
+        "pack": "tic"
       }
     ]
   }

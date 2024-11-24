@@ -60,6 +60,10 @@
     "description": "Multiple enemies at the same location are evaded, or one enemy at different locations are evaded."
   },
   {
+    "name": "aoo_support",
+    "description": ""
+  },
+  {
     "name": "as_if_you_were_at_location",
     "description": ""
   },
@@ -140,6 +144,10 @@
     "description": ""
   },
   {
+    "name": "boost_agility_3_evade",
+    "description": ""
+  },
+  {
     "name": "boost_agility_x",
     "description": ""
   },
@@ -156,6 +164,10 @@
     "description": ""
   },
   {
+    "name": "boost_combat_1_attack",
+    "description": ""
+  },
+  {
     "name": "boost_combat_1_passive",
     "description": "Passive boost can be conditioned such as The Black Fan or Dissection Tool."
   },
@@ -164,7 +176,15 @@
     "description": ""
   },
   {
+    "name": "boost_combat_2_attack",
+    "description": ""
+  },
+  {
     "name": "boost_combat_3",
+    "description": ""
+  },
+  {
+    "name": "boost_combat_3_attack",
     "description": ""
   },
   {
@@ -176,6 +196,10 @@
     "description": ""
   },
   {
+    "name": "boost_combat_5_attack",
+    "description": ""
+  },
+  {
     "name": "boost_combat_x",
     "description": ""
   },
@@ -184,11 +208,19 @@
     "description": ""
   },
   {
+    "name": "boost_intellect_1_investigate",
+    "description": ""
+  },
+  {
     "name": "boost_intellect_1_passive",
     "description": "Passive boost can be conditioned such as The Black Fan or Dissection Tool."
   },
   {
     "name": "boost_intellect_2",
+    "description": ""
+  },
+  {
+    "name": "boost_intellect_2_investigate",
     "description": ""
   },
   {
@@ -212,6 +244,10 @@
     "description": ""
   },
   {
+    "name": "boost_willpower_1_attack",
+    "description": ""
+  },
+  {
     "name": "boost_willpower_1_passive",
     "description": "Passive boost can be conditioned such as The Black Fan or Dissection Tool."
   },
@@ -220,7 +256,19 @@
     "description": ""
   },
   {
+    "name": "boost_willpower_2_attack",
+    "description": ""
+  },
+  {
+    "name": "boost_willpower_2_investigate",
+    "description": ""
+  },
+  {
     "name": "boost_willpower_3",
+    "description": ""
+  },
+  {
+    "name": "boost_willpower_3_attack",
     "description": ""
   },
   {
@@ -425,6 +473,10 @@
   },
   {
     "name": "cost_free_exhaust_self",
+    "description": ""
+  },
+  {
+    "name": "cost_free_spend_charge",
     "description": ""
   },
   {
@@ -648,6 +700,10 @@
     "description": ""
   },
   {
+    "name": "duration_next_skill_test_this_turn",
+    "description": ""
+  },
+  {
     "name": "duration_until_end_phase",
     "description": "Effect duration indicator. \"This phase\" can also be tagged with this I think?"
   },
@@ -712,6 +768,10 @@
     "description": "Card that can take advantage of how many damage enemy can deal."
   },
   {
+    "name": "enemy_value_evade",
+    "description": ""
+  },
+  {
     "name": "enemy_value_fight",
     "description": ""
   },
@@ -750,6 +810,10 @@
   {
     "name": "exhaust_enemy",
     "description": "Card can exhaust an enemy outside of Evade or automatic evade."
+  },
+  {
+    "name": "exhaust_self",
+    "description": ""
   },
   {
     "name": "exhausted_enemy",
@@ -1060,6 +1124,10 @@
     "description": "Can reorder investigator deck."
   },
   {
+    "name": "phase_mythos",
+    "description": ""
+  },
+  {
     "name": "phase_mythos_end",
     "description": ""
   },
@@ -1069,6 +1137,14 @@
   },
   {
     "name": "play_from_hand_paying_cost",
+    "description": ""
+  },
+  {
+    "name": "play_only_first_action",
+    "description": ""
+  },
+  {
+    "name": "ready_asset",
     "description": ""
   },
   {
@@ -1116,6 +1192,10 @@
     "description": "Card effect mentions scenario card."
   },
   {
+    "name": "search_encounter",
+    "description": ""
+  },
+  {
     "name": "search_player",
     "description": "Searches the player's deck."
   },
@@ -1136,6 +1216,10 @@
     "description": ""
   },
   {
+    "name": "shuffle_encounter",
+    "description": ""
+  },
+  {
     "name": "shuffle_player",
     "description": "Cause player deck to shuffle."
   },
@@ -1146,10 +1230,6 @@
   {
     "name": "skill_benefit_performing",
     "description": "Test performer gets a benefit other than the commit icon."
-  },
-  {
-    "name": "skill_benefit_self",
-    "description": "Skill card owner gets a benefit other than the commit icon."
   },
   {
     "name": "skill_gains_willpower_wild",
@@ -1193,15 +1273,39 @@
   },
   {
     "name": "stat_add_agility",
-    "description": "Add this stat to the action type's stat."
+    "description": ""
+  },
+  {
+    "name": "stat_add_agility_for_attack",
+    "description": ""
+  },
+  {
+    "name": "stat_add_agility_for_investigate",
+    "description": ""
   },
   {
     "name": "stat_add_intellect",
     "description": "Add this stat to the action type's stat."
   },
   {
+    "name": "stat_add_intellect_for_evade",
+    "description": ""
+  },
+  {
     "name": "stat_add_willpower",
     "description": "Add this stat to the action type's stat."
+  },
+  {
+    "name": "stat_add_willpower_for_attack",
+    "description": ""
+  },
+  {
+    "name": "stat_add_willpower_for_evade",
+    "description": ""
+  },
+  {
+    "name": "stat_add_willpower_for_investigate",
+    "description": ""
   },
   {
     "name": "stat_base_6",
@@ -1400,6 +1504,10 @@
     "description": ""
   },
   {
+    "name": "timing_fast_enemy_aoo",
+    "description": ""
+  },
+  {
     "name": "timing_fast_enemy_attacks",
     "description": ""
   },
@@ -1436,6 +1544,10 @@
     "description": ""
   },
   {
+    "name": "timing_free_taking_turn",
+    "description": ""
+  },
+  {
     "name": "timing_reaction_after_enemy_engages",
     "description": ""
   },
@@ -1461,6 +1573,10 @@
   },
   {
     "name": "timing_reaction_after_turn_ends",
+    "description": ""
+  },
+  {
+    "name": "timing_reaction_before_opening_hand",
     "description": ""
   },
   {
@@ -1636,10 +1752,6 @@
     "description": "Card support positively to other cards of this trait."
   },
   {
-    "name": "trait_omen",
-    "description": ""
-  },
-  {
     "name": "trait_practiced",
     "description": ""
   },
@@ -1729,6 +1841,10 @@
   },
   {
     "name": "uses_add_supply",
+    "description": ""
+  },
+  {
+    "name": "uses_manip_charge_spend",
     "description": ""
   },
   {

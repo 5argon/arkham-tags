@@ -218,7 +218,7 @@
       "bold_investigate",
       "cost_action_exhaust_self",
       "discard_zero_uses",
-      "stat_add_agility",
+      "stat_add_agility_for_investigate",
       "stat_combine_intellect_agility",
       "succeed_by_2"
     ]
@@ -734,7 +734,7 @@
     "text": "<b>Fight.</b> Add your [agility] value to your skill value for this attack. If you succeed by 2 or more, automatically evade the attacked enemy.",
     "tags": [
       "bold_fight",
-      "stat_add_agility",
+      "stat_add_agility_for_attack",
       "succeed_by_2",
       "auto_evade"
     ]
@@ -810,7 +810,12 @@
     "name": "Inspiring Presence",
     "text": "If this skill test is successful, ready an [[Ally]] asset at your location and heal 1 damage or 1 horror from it.",
     "tags": [
-      "trait_ally"
+      "trait_ally",
+      "timing_skill_successful",
+      "ready_asset",
+      "heal_damage_ally",
+      "heal_horror_ally",
+      "your_location_ally"
     ]
   },
   {
@@ -818,7 +823,12 @@
     "name": "Mano a Mano",
     "text": "Play only as your first action.\nDeal 1 damage to an enemy engaged with you. This action does not provoke attacks of opportunity.",
     "tags": [
-      "engage_with_you"
+      "engage_with_you",
+      "play_only_first_action",
+      "deal_damage_enemy",
+      "engage_with_you",
+      "not_aoo",
+      "testless_damage"
     ]
   },
   {
@@ -826,17 +836,33 @@
     "name": "First Aid",
     "text": "Uses (4 supplies). If First Aid has no supplies, discard it.\n[action] Spend 1 supply: Heal 1 damage and 1 horror from an investigator or [[Ally]] asset in your location.",
     "tags": [
+      "cost_action_spend_supply",
+      "discard_zero_uses",
+      "heal_both",
+      "heal_damage",
+      "heal_damage_ally",
+      "heal_horror",
+      "heal_horror_ally",
+      "spend_supply",
+      "trait_ally",
       "uses_starting_4",
       "uses_type_supply",
-      "discard_zero_uses",
-      "trait_ally"
+      "your_location_ally",
+      "your_location_investigator"
     ]
   },
   {
     "code": "03231",
     "name": "Eureka!",
     "text": "If this skill test is successful, the investigator performing this test searches the top 3 cards of his or her deck for a card, draws it, and shuffles his or her deck.",
-    "tags": []
+    "tags": [
+      "timing_skill_successful",
+      "skill_benefit_performing",
+      "search_player",
+      "card_range_3",
+      "draw_player_1",
+      "shuffle_player"
+    ]
   },
   {
     "code": "03232",
@@ -845,7 +871,10 @@
     "tags": [
       "fast_play",
       "cost_free_exhaust_self",
-      "timing_fast_during_your_turn"
+      "timing_fast_during_your_turn",
+      "attach_location",
+      "bold_move",
+      "move_investigator_any"
     ]
   },
   {
@@ -853,7 +882,13 @@
     "name": "\"Watch this!\"",
     "text": "Commit only to a skill test you are performing. As an additional cost to commit \"Watch this!\" to a skill test, spend up to 3 resources.\nIf you succeed by 1 or more, gain twice that many resources.",
     "tags": [
-      "succeed_by_1"
+      "succeed_by_1",
+      "test_you_perform",
+      "spend_resource",
+      "succeed_by_1",
+      "gain_resource_1",
+      "gain_resource_2",
+      "gain_resource_3"
     ]
   },
   {
@@ -861,32 +896,41 @@
     "name": ".41 Derringer",
     "text": "Uses (3 ammo).\n[action] Spend 1 ammo: <b>Fight.</b> You get +2 [combat] for this attack. If you succeed by 1 or more, this attack deals +1 damage. Once per turn, if you succeed by 3 or more, you may take an additional action this turn.",
     "tags": [
-      "uses_starting_3",
-      "uses_type_ammo",
+      "additional_action_1",
       "bold_fight",
-      "boost_combat_2",
+      "boost_combat_2_attack",
       "damage_plus_1",
+      "once_per_turn",
       "succeed_by_1",
-      "succeed_by_3"
+      "succeed_by_3",
+      "uses_starting_3",
+      "uses_type_ammo"
     ]
   },
   {
     "code": "03235",
     "name": "Torrent of Power",
     "text": "As an additional cost to commit Torrent of Power to a skill test, spend up to 3 charges from among assets you control.\nFor each charge spent in this way, Torrent of Power gains [willpower] [wild].",
-    "tags": []
+    "tags": [
+      "uses_manip_charge_spend",
+      "skill_gains_willpower_wild"
+    ]
   },
   {
     "code": "03236",
     "name": "Scrying",
     "text": "Uses (3 charges).\n[free] Exhaust Scrying and spend 1 charge: Look at the top 3 cards of any investigator's deck, or the encounter deck. Return them to the top of that deck, in any order. If a [[Terror]] or [[Omen]] card is among the looked-at cards, take 1 horror.",
     "tags": [
+      "cost_action_spend_charge",
+      "cost_free_exhaust_self",
+      "look_at_encounter",
+      "look_at_investigator",
+      "order_encounter",
+      "order_investigator",
+      "take_horror",
       "uses_starting_3",
       "uses_type_charge",
-      "cost_free_exhaust_self",
-      "take_horror",
-      "trait_omen",
-      "trait_terror"
+      "card_range_3"
     ]
   },
   {
@@ -895,7 +939,11 @@
     "text": "Choose an exhausted non-[[Elite]] enemy at your location and test [agility] (X), where X is that enemy's evade value. If you succeed, defeat that enemy.",
     "tags": [
       "elite_unusable",
-      "initiate_test_agility_x"
+      "initiate_test_agility_x",
+      "exhausted_enemy",
+      "enemy_value_evade",
+      "result_test_success",
+      "enemy_manage_defeat"
     ]
   },
   {
@@ -903,7 +951,9 @@
     "name": "A Chance Encounter",
     "text": "Choose an [[Ally]] asset with printed resource cost X in any player's discard pile. Put that asset into play under your control.",
     "tags": [
-      "trait_ally"
+      "trait_ally",
+      "any_investigator",
+      "to_play_from_discard"
     ]
   },
   {
@@ -911,7 +961,13 @@
     "name": "Emergency Cache",
     "text": "Gain 4 resources or place 4 supply tokens among assets controlled by investigators at your location, or any combination thereof.",
     "tags": [
-      "gain_resource_4"
+      "gain_resource_1",
+      "gain_resource_2",
+      "gain_resource_3",
+      "gain_resource_4",
+      "uses_add_supply",
+      "your_location_investigator",
+      "aoo_support"
     ]
   },
   {
@@ -920,7 +976,14 @@
     "text": "Fast. Play when you would draw an encounter card during the mythos phase.\nInstead, search the top 9 cards of the encounter deck for an enemy, spawn it engaged with you <i>(instead of its normal spawn location)</i>, and shuffle the encounter deck. If you cannot, draw the top card of the encounter deck.",
     "tags": [
       "fast_play",
-      "engage_with_you"
+      "timing_fast_after_draw_encounter",
+      "phase_mythos",
+      "search_encounter",
+      "card_range_9",
+      "spawn",
+      "shuffle_encounter",
+      "engage_with_you",
+      "encounter_draw"
     ]
   },
   {
@@ -929,14 +992,22 @@
     "text": "Permanent. Exceptional.\n[reaction] Before you draw your opening hand: Search your deck for up to 3 different [[Tactic]] and/or [[Supply]] events, and attach them facedown to Stick to the Plan. Shuffle your deck.\nCards attached to Stick to the Plan may be played as if they were in your hand. As an additional cost to play an attached card, exhaust Stick to the Plan.",
     "tags": [
       "trait_supply",
-      "trait_tactic"
+      "trait_tactic",
+      "timing_reaction_before_opening_hand",
+      "search_player",
+      "card_range_3",
+      "shuffle_player",
+      "exhaust_self"
     ]
   },
   {
     "code": "03265",
     "name": "Guidance",
     "text": "Choose another investigator at your location who has yet to take his or her turn this round. That investigator may take an additional action during his or her turn this round.",
-    "tags": []
+    "tags": [
+      "your_location_another_investigator",
+      "additional_action_1"
+    ]
   },
   {
     "code": "03266",
@@ -944,7 +1015,12 @@
     "text": "Uses (3 charges).\n[free] While an investigator is taking his or her turn, spend 1 charge: Your location gets -2 shroud until the end of this turn. (Limit once per turn.)",
     "tags": [
       "uses_starting_3",
-      "uses_type_charge"
+      "uses_type_charge",
+      "timing_free_taking_turn",
+      "cost_free_spend_charge",
+      "duration_until_end_turn",
+      "shroud_minus_2",
+      "once_per_turn"
     ]
   },
   {
@@ -952,7 +1028,11 @@
     "name": "Narrow Escape",
     "text": "Fast. Play when an enemy makes an attack of opportunity against you.\nCancel that attack. You get +2 skill value for the next skill test you perform this turn.",
     "tags": [
-      "fast_play"
+      "fast_play",
+      "timing_fast_enemy_aoo",
+      "cancel_attack",
+      "boost_any_2",
+      "duration_next_skill_test_this_turn"
     ]
   },
   {
@@ -965,7 +1045,7 @@
       "bold_evade",
       "cost_action_exhaust_self",
       "elite_unusable",
-      "stat_add_willpower"
+      "stat_add_willpower_for_evade"
     ]
   },
   {

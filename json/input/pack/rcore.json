@@ -8,8 +8,8 @@
       "uses_starting_4",
       "uses_type_ammo",
       "bold_fight",
-      "boost_combat_1",
-      "boost_combat_3",
+      "boost_combat_1_attack",
+      "boost_combat_3_attack",
       "damage_plus_1",
       "cost_action_spend_ammo",
       "location_clue_exist"
@@ -64,7 +64,7 @@
     "text": "Uses (4 ammo).\n[action] Spend 1 ammo: <b>Fight.</b> You get +1 [combat] for this attack. This attack deals +1 damage.",
     "tags": [
       "bold_fight",
-      "boost_combat_1",
+      "boost_combat_1_attack",
       "cost_action_spend_ammo",
       "damage_plus_1",
       "uses_starting_4",
@@ -215,7 +215,7 @@
     "name": "Shotgun",
     "text": "Uses (2 ammo).\n[action] Spend 1 ammo: <b>Fight.</b> You get +3 [combat] for this attack. Instead of its standard damage, this attack deals 1 damage for each point you succeed by (to a minimum of 1, to a maximum of 5). If you fail and would damage another investigator, this attack deals 1 damage for each point you fail by (to a minimum of 1, to a maximum of 5).",
     "tags": [
-      "boost_combat_3",
+      "boost_combat_3_attack",
       "cost_action_spend_ammo",
       "damage_plus_1",
       "damage_plus_2",
@@ -235,7 +235,7 @@
     "name": "Magnifying Glass",
     "text": "Fast.\nYou get +1 [intellect] while investigating.",
     "tags": [
-      "boost_intellect_1",
+      "boost_intellect_1_investigate",
       "fast_play",
       "investigate_while"
     ]
@@ -350,7 +350,7 @@
     "name": "Magnifying Glass",
     "text": "Fast.\nYou get +1 [intellect] while investigating.\n[free] If there are no clues on your location: Return Magnifying Glass to your hand.",
     "tags": [
-      "boost_intellect_1",
+      "boost_intellect_1_investigate",
       "fast_play",
       "investigate_while",
       "location_clue_zero",
@@ -429,7 +429,7 @@
     "text": "Uses (3 ammo).\n[action] Spend 1 ammo: <b>Fight.</b> You get +2 [combat] for this attack. If you succeed by 2 or more, this attack deals +1 damage.",
     "tags": [
       "bold_fight",
-      "boost_combat_2",
+      "boost_combat_2_attack",
       "cost_action_spend_ammo",
       "damage_plus_1",
       "succeed_by_2",
@@ -495,7 +495,6 @@
     "name": "Opportunist",
     "text": "Commit only to a skill test you are performing.\nIf you succeed by 3 or more, return Opportunist to your hand after this test instead of discarding it.",
     "tags": [
-      "skill_benefit_self",
       "succeed_by_3",
       "test_you_perform",
       "to_hand_from_commit"
@@ -664,8 +663,7 @@
     "text": "If this skill test is successful, heal 1 horror.",
     "tags": [
       "heal_horror",
-      "result_test_success",
-      "skill_benefit_self"
+      "result_test_success"
     ]
   },
   {
@@ -748,7 +746,7 @@
     "text": "[action]: <b>Fight.</b> You get +2 [combat] for this attack. This attack deals +1 damage. If a [skull] or [auto_fail] symbol is revealed during this attack, discard Baseball Bat after the attack resolves.",
     "tags": [
       "bold_fight",
-      "boost_combat_2",
+      "boost_combat_2_attack",
       "chaos_reveal_token_auto_fail",
       "chaos_reveal_token_skull",
       "damage_plus_1",
@@ -886,8 +884,8 @@
     "text": "[action]: <b>Fight.</b> You get +1 [combat] for this attack.\n[action] Discard Knife: <b>Fight.</b> You get +2 [combat] for this attack. This attack deals +1 damage.",
     "tags": [
       "bold_fight",
-      "boost_combat_1",
-      "boost_combat_2",
+      "boost_combat_1_attack",
+      "boost_combat_2_attack",
       "cost_action_discard_self",
       "damage_plus_1"
     ]
@@ -919,8 +917,7 @@
     "tags": [
       "draw_player_1",
       "max_1_commit",
-      "result_test_success",
-      "skill_benefit_self"
+      "result_test_success"
     ]
   },
   {
@@ -930,8 +927,7 @@
     "tags": [
       "draw_player_1",
       "max_1_commit",
-      "result_test_success",
-      "skill_benefit_self"
+      "result_test_success"
     ]
   },
   {
@@ -941,8 +937,7 @@
     "tags": [
       "draw_player_1",
       "max_1_commit",
-      "result_test_success",
-      "skill_benefit_self"
+      "result_test_success"
     ]
   },
   {
@@ -952,8 +947,7 @@
     "tags": [
       "draw_player_1",
       "max_1_commit",
-      "result_test_success",
-      "skill_benefit_self"
+      "result_test_success"
     ]
   },
   {
@@ -1046,7 +1040,7 @@
       "bold_investigate",
       "cost_action_exhaust_self",
       "discard_zero_uses",
-      "stat_add_agility",
+      "stat_add_agility_for_investigate",
       "stat_combine_intellect_agility",
       "succeed_by_2"
     ]
@@ -1058,7 +1052,7 @@
     "tags": [
       "additional_action_1",
       "bold_fight",
-      "boost_combat_2",
+      "boost_combat_2_attack",
       "damage_plus_1",
       "once_per_turn",
       "succeed_by_1",
@@ -1074,7 +1068,7 @@
     "tags": [
       "additional_clue_1",
       "bold_investigate",
-      "boost_willpower_2",
+      "boost_willpower_2_investigate",
       "chaos_reveal_during_effect",
       "chaos_reveal_token_auto_fail",
       "chaos_reveal_token_cultist",

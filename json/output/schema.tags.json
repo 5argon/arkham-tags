@@ -61,6 +61,10 @@
       "description": "Multiple enemies at the same location are evaded, or one enemy at different locations are evaded."
     },
     {
+      "const": "aoo_support",
+      "description": ""
+    },
+    {
       "const": "as_if_you_were_at_location",
       "description": ""
     },
@@ -141,6 +145,10 @@
       "description": ""
     },
     {
+      "const": "boost_agility_3_evade",
+      "description": ""
+    },
+    {
       "const": "boost_agility_x",
       "description": ""
     },
@@ -157,6 +165,10 @@
       "description": ""
     },
     {
+      "const": "boost_combat_1_attack",
+      "description": ""
+    },
+    {
       "const": "boost_combat_1_passive",
       "description": "Passive boost can be conditioned such as The Black Fan or Dissection Tool."
     },
@@ -165,7 +177,15 @@
       "description": ""
     },
     {
+      "const": "boost_combat_2_attack",
+      "description": ""
+    },
+    {
       "const": "boost_combat_3",
+      "description": ""
+    },
+    {
+      "const": "boost_combat_3_attack",
       "description": ""
     },
     {
@@ -177,6 +197,10 @@
       "description": ""
     },
     {
+      "const": "boost_combat_5_attack",
+      "description": ""
+    },
+    {
       "const": "boost_combat_x",
       "description": ""
     },
@@ -185,11 +209,19 @@
       "description": ""
     },
     {
+      "const": "boost_intellect_1_investigate",
+      "description": ""
+    },
+    {
       "const": "boost_intellect_1_passive",
       "description": "Passive boost can be conditioned such as The Black Fan or Dissection Tool."
     },
     {
       "const": "boost_intellect_2",
+      "description": ""
+    },
+    {
+      "const": "boost_intellect_2_investigate",
       "description": ""
     },
     {
@@ -213,6 +245,10 @@
       "description": ""
     },
     {
+      "const": "boost_willpower_1_attack",
+      "description": ""
+    },
+    {
       "const": "boost_willpower_1_passive",
       "description": "Passive boost can be conditioned such as The Black Fan or Dissection Tool."
     },
@@ -221,7 +257,19 @@
       "description": ""
     },
     {
+      "const": "boost_willpower_2_attack",
+      "description": ""
+    },
+    {
+      "const": "boost_willpower_2_investigate",
+      "description": ""
+    },
+    {
       "const": "boost_willpower_3",
+      "description": ""
+    },
+    {
+      "const": "boost_willpower_3_attack",
       "description": ""
     },
     {
@@ -426,6 +474,10 @@
     },
     {
       "const": "cost_free_exhaust_self",
+      "description": ""
+    },
+    {
+      "const": "cost_free_spend_charge",
       "description": ""
     },
     {
@@ -649,6 +701,10 @@
       "description": ""
     },
     {
+      "const": "duration_next_skill_test_this_turn",
+      "description": ""
+    },
+    {
       "const": "duration_until_end_phase",
       "description": "Effect duration indicator. \"This phase\" can also be tagged with this I think?"
     },
@@ -702,7 +758,7 @@
     },
     {
       "const": "enemy_manage_long_exhaust",
-      "description": ""
+      "description": "Can manage enemies with prolonged exhaustion."
     },
     {
       "const": "enemy_manage_shuffle",
@@ -711,6 +767,10 @@
     {
       "const": "enemy_value_damage",
       "description": "Card that can take advantage of how many damage enemy can deal."
+    },
+    {
+      "const": "enemy_value_evade",
+      "description": ""
     },
     {
       "const": "enemy_value_fight",
@@ -751,6 +811,10 @@
     {
       "const": "exhaust_enemy",
       "description": "Card can exhaust an enemy outside of Evade or automatic evade."
+    },
+    {
+      "const": "exhaust_self",
+      "description": ""
     },
     {
       "const": "exhausted_enemy",
@@ -1061,6 +1125,10 @@
       "description": "Can reorder investigator deck."
     },
     {
+      "const": "phase_mythos",
+      "description": ""
+    },
+    {
       "const": "phase_mythos_end",
       "description": ""
     },
@@ -1070,6 +1138,14 @@
     },
     {
       "const": "play_from_hand_paying_cost",
+      "description": ""
+    },
+    {
+      "const": "play_only_first_action",
+      "description": ""
+    },
+    {
+      "const": "ready_asset",
       "description": ""
     },
     {
@@ -1117,6 +1193,10 @@
       "description": "Card effect mentions scenario card."
     },
     {
+      "const": "search_encounter",
+      "description": ""
+    },
+    {
       "const": "search_player",
       "description": "Searches the player's deck."
     },
@@ -1137,6 +1217,10 @@
       "description": ""
     },
     {
+      "const": "shuffle_encounter",
+      "description": ""
+    },
+    {
       "const": "shuffle_player",
       "description": "Cause player deck to shuffle."
     },
@@ -1147,10 +1231,6 @@
     {
       "const": "skill_benefit_performing",
       "description": "Test performer gets a benefit other than the commit icon."
-    },
-    {
-      "const": "skill_benefit_self",
-      "description": "Skill card owner gets a benefit other than the commit icon."
     },
     {
       "const": "skill_gains_willpower_wild",
@@ -1194,15 +1274,39 @@
     },
     {
       "const": "stat_add_agility",
-      "description": "Add this stat to the action type's stat."
+      "description": ""
+    },
+    {
+      "const": "stat_add_agility_for_attack",
+      "description": ""
+    },
+    {
+      "const": "stat_add_agility_for_investigate",
+      "description": ""
     },
     {
       "const": "stat_add_intellect",
       "description": "Add this stat to the action type's stat."
     },
     {
+      "const": "stat_add_intellect_for_evade",
+      "description": ""
+    },
+    {
       "const": "stat_add_willpower",
       "description": "Add this stat to the action type's stat."
+    },
+    {
+      "const": "stat_add_willpower_for_attack",
+      "description": ""
+    },
+    {
+      "const": "stat_add_willpower_for_evade",
+      "description": ""
+    },
+    {
+      "const": "stat_add_willpower_for_investigate",
+      "description": ""
     },
     {
       "const": "stat_base_6",
@@ -1401,6 +1505,10 @@
       "description": ""
     },
     {
+      "const": "timing_fast_enemy_aoo",
+      "description": ""
+    },
+    {
       "const": "timing_fast_enemy_attacks",
       "description": ""
     },
@@ -1437,6 +1545,10 @@
       "description": ""
     },
     {
+      "const": "timing_free_taking_turn",
+      "description": ""
+    },
+    {
       "const": "timing_reaction_after_enemy_engages",
       "description": ""
     },
@@ -1462,6 +1574,10 @@
     },
     {
       "const": "timing_reaction_after_turn_ends",
+      "description": ""
+    },
+    {
+      "const": "timing_reaction_before_opening_hand",
       "description": ""
     },
     {
@@ -1637,10 +1753,6 @@
       "description": "Card support positively to other cards of this trait."
     },
     {
-      "const": "trait_omen",
-      "description": ""
-    },
-    {
       "const": "trait_practiced",
       "description": ""
     },
@@ -1730,6 +1842,10 @@
     },
     {
       "const": "uses_add_supply",
+      "description": ""
+    },
+    {
+      "const": "uses_manip_charge_spend",
       "description": ""
     },
     {

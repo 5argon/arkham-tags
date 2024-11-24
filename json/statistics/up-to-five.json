@@ -14,17 +14,17 @@
         "pack": "dwl"
       },
       {
+        "code": "01531",
+        "name": "Old Book of Lore",
+        "pack": "rcore"
+      },
+      {
         "code": "01563",
         "name": "Arcane Initiate",
         "pack": "rcore"
       },
       {
         "code": "01686",
-        "name": "Old Book of Lore",
-        "pack": "rcore"
-      },
-      {
-        "code": "01531",
         "name": "Old Book of Lore",
         "pack": "rcore"
       }
@@ -50,45 +50,76 @@
         "pack": "dwl"
       },
       {
-        "code": "01532",
-        "name": "Research Librarian",
+        "code": "01012",
+        "name": "Heirloom of Hyperborea",
         "pack": "rcore"
       },
       {
-        "code": "01012",
-        "name": "Heirloom of Hyperborea",
+        "code": "01532",
+        "name": "Research Librarian",
         "pack": "rcore"
       }
     ]
   },
   {
-    "tag": "test_you_perform",
+    "tag": "spend_supply",
     "count": 5,
     "usages": [
       {
-        "code": "02029",
-        "name": "Ritual Candles",
+        "code": "02024",
+        "name": "Liquid Courage",
         "pack": "dwl"
       },
       {
-        "code": "02231",
-        "name": "Opportunist",
+        "code": "02117",
+        "name": "Painkillers",
         "pack": "dwl"
       },
       {
-        "code": "02271",
-        "name": "Stroke of Luck",
+        "code": "02116",
+        "name": "Smoking Pipe",
         "pack": "dwl"
       },
       {
-        "code": "02192",
-        "name": "Rise to the Occasion",
-        "pack": "dwl"
-      },
-      {
-        "code": "01553",
-        "name": "Opportunist",
+        "code": "01683",
+        "name": "First Aid",
         "pack": "rcore"
+      },
+      {
+        "code": "03230",
+        "name": "First Aid",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "heal_horror_ally",
+    "count": 5,
+    "usages": [
+      {
+        "code": "02035",
+        "name": "Peter Sylvestre",
+        "pack": "dwl"
+      },
+      {
+        "code": "02033",
+        "name": "Peter Sylvestre",
+        "pack": "dwl"
+      },
+      {
+        "code": "01683",
+        "name": "First Aid",
+        "pack": "rcore"
+      },
+      {
+        "code": "03228",
+        "name": "Inspiring Presence",
+        "pack": "ptc"
+      },
+      {
+        "code": "03230",
+        "name": "First Aid",
+        "pack": "ptc"
       }
     ]
   },
@@ -107,13 +138,13 @@
         "pack": "dwl"
       },
       {
-        "code": "01529",
-        "name": "Shotgun",
+        "code": "01525",
+        "name": "Vicious Blow",
         "pack": "rcore"
       },
       {
-        "code": "01525",
-        "name": "Vicious Blow",
+        "code": "01529",
+        "name": "Shotgun",
         "pack": "rcore"
       },
       {
@@ -174,13 +205,13 @@
         "pack": "rcore"
       },
       {
-        "code": "01560",
-        "name": "Shrivelling",
+        "code": "01566",
+        "name": "Blinding Light",
         "pack": "rcore"
       },
       {
-        "code": "01566",
-        "name": "Blinding Light",
+        "code": "01560",
+        "name": "Shrivelling",
         "pack": "rcore"
       }
     ]
@@ -189,6 +220,11 @@
     "tag": "exile",
     "count": 5,
     "usages": [
+      {
+        "code": "02114",
+        "name": "Fire Extinguisher",
+        "pack": "dwl"
+      },
       {
         "code": "02115",
         "name": "Flare",
@@ -200,11 +236,6 @@
         "pack": "dwl"
       },
       {
-        "code": "02114",
-        "name": "Fire Extinguisher",
-        "pack": "dwl"
-      },
-      {
         "code": "03156",
         "name": "A Test of Will",
         "pack": "ptc"
@@ -212,37 +243,6 @@
       {
         "code": "03157",
         "name": "Devil's Luck",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "attach_location",
-    "count": 5,
-    "usages": [
-      {
-        "code": "02156",
-        "name": "Lure",
-        "pack": "dwl"
-      },
-      {
-        "code": "01538",
-        "name": "Barricade",
-        "pack": "rcore"
-      },
-      {
-        "code": "03038",
-        "name": "Hiding Spot",
-        "pack": "ptc"
-      },
-      {
-        "code": "03148",
-        "name": "Ambush",
-        "pack": "ptc"
-      },
-      {
-        "code": "03199",
-        "name": "Snare Trap",
         "pack": "ptc"
       }
     ]
@@ -279,6 +279,37 @@
     ]
   },
   {
+    "tag": "skill_benefit_performing",
+    "count": 5,
+    "usages": [
+      {
+        "code": "02235",
+        "name": "Survival Instinct",
+        "pack": "dwl"
+      },
+      {
+        "code": "01525",
+        "name": "Vicious Blow",
+        "pack": "rcore"
+      },
+      {
+        "code": "01539",
+        "name": "Deduction",
+        "pack": "rcore"
+      },
+      {
+        "code": "01581",
+        "name": "Survival Instinct",
+        "pack": "rcore"
+      },
+      {
+        "code": "03231",
+        "name": "Eureka!",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
     "tag": "researched",
     "count": 5,
     "usages": [
@@ -306,6 +337,42 @@
         "code": "03193",
         "name": "Archaic Glyphs",
         "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "stat_add_agility_for_attack",
+    "count": 6,
+    "usages": [
+      {
+        "code": "08023",
+        "name": "Sweeping Kick",
+        "pack": "eote"
+      },
+      {
+        "code": "08029",
+        "name": "Fang of Tyr'thrha",
+        "pack": "eote"
+      },
+      {
+        "code": "60312",
+        "name": "Cheap Shot",
+        "pack": "win"
+      },
+      {
+        "code": "60323",
+        "name": "Cheap Shot",
+        "pack": "win"
+      },
+      {
+        "code": "03194",
+        "name": "Cheap Shot",
+        "pack": "ptc"
+      },
+      {
+        "code": "10117",
+        "name": "Hatchet",
+        "pack": "fhv"
       }
     ]
   },
@@ -341,37 +408,6 @@
     ]
   },
   {
-    "tag": "bold_move",
-    "count": 5,
-    "usages": [
-      {
-        "code": "08047",
-        "name": "Scout Ahead",
-        "pack": "eote"
-      },
-      {
-        "code": "08127",
-        "name": "Sled Dog",
-        "pack": "eote"
-      },
-      {
-        "code": "60413",
-        "name": "Astral Travel",
-        "pack": "jac"
-      },
-      {
-        "code": "03034",
-        "name": "Astral Travel",
-        "pack": "ptc"
-      },
-      {
-        "code": "07154",
-        "name": "The Truth Beckons",
-        "pack": "tic"
-      }
-    ]
-  },
-  {
     "tag": "trait_tactic",
     "count": 5,
     "usages": [
@@ -403,17 +439,53 @@
     ]
   },
   {
+    "tag": "trait_ritual",
+    "count": 6,
+    "usages": [
+      {
+        "code": "08124",
+        "name": "Antiquary",
+        "pack": "eote"
+      },
+      {
+        "code": "09095",
+        "name": "Uncage the Soul",
+        "pack": "tsk"
+      },
+      {
+        "code": "54008",
+        "name": "Sign Magick",
+        "pack": "rt"
+      },
+      {
+        "code": "03033",
+        "name": "Uncage the Soul",
+        "pack": "ptc"
+      },
+      {
+        "code": "05112",
+        "name": "Sign Magick",
+        "pack": "tcu"
+      },
+      {
+        "code": "10091",
+        "name": "Speak to the Dead",
+        "pack": "fhv"
+      }
+    ]
+  },
+  {
     "tag": "trait_humanoid",
     "count": 5,
     "usages": [
       {
-        "code": "09067",
-        "name": "\"I'll take that!\"",
+        "code": "09035",
+        "name": "Handcuffs",
         "pack": "tsk"
       },
       {
-        "code": "09035",
-        "name": "Handcuffs",
+        "code": "09067",
+        "name": "\"I'll take that!\"",
         "pack": "tsk"
       },
       {
@@ -434,33 +506,64 @@
     ]
   },
   {
-    "tag": "card_range_3",
+    "tag": "stat_add_agility_for_investigate",
     "count": 5,
     "usages": [
       {
-        "code": "01563",
-        "name": "Arcane Initiate",
+        "code": "09074",
+        "name": "Breaking and Entering",
+        "pack": "tsk"
+      },
+      {
+        "code": "01687",
+        "name": "Lockpicks",
         "pack": "rcore"
       },
       {
-        "code": "01561",
-        "name": "Scrying",
+        "code": "60305",
+        "name": "Lockpicks",
+        "pack": "win"
+      },
+      {
+        "code": "03031",
+        "name": "Lockpicks",
+        "pack": "ptc"
+      },
+      {
+        "code": "07114",
+        "name": "Breaking and Entering",
+        "pack": "tic"
+      }
+    ]
+  },
+  {
+    "tag": "additional_action_1",
+    "count": 5,
+    "usages": [
+      {
+        "code": "01554",
+        "name": "Leo De Luca",
         "pack": "rcore"
       },
       {
-        "code": "01690",
-        "name": "Scrying",
+        "code": "01688",
+        "name": ".41 Derringer",
         "pack": "rcore"
       },
       {
-        "code": "01686",
-        "name": "Old Book of Lore",
+        "code": "01548",
+        "name": "Leo De Luca",
         "pack": "rcore"
       },
       {
-        "code": "01531",
-        "name": "Old Book of Lore",
-        "pack": "rcore"
+        "code": "03234",
+        "name": ".41 Derringer",
+        "pack": "ptc"
+      },
+      {
+        "code": "03265",
+        "name": "Guidance",
+        "pack": "ptc"
       }
     ]
   },
@@ -491,6 +594,37 @@
       {
         "code": "03199",
         "name": "Snare Trap",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "not_aoo",
+    "count": 5,
+    "usages": [
+      {
+        "code": "01555",
+        "name": "Cat Burglar",
+        "pack": "rcore"
+      },
+      {
+        "code": "03036",
+        "name": "Lantern",
+        "pack": "ptc"
+      },
+      {
+        "code": "03189",
+        "name": "\"I'll see you in hell!\"",
+        "pack": "ptc"
+      },
+      {
+        "code": "03193",
+        "name": "Archaic Glyphs",
+        "pack": "ptc"
+      },
+      {
+        "code": "03229",
+        "name": "Mano a Mano",
         "pack": "ptc"
       }
     ]
@@ -577,13 +711,13 @@
         "pack": "tic"
       },
       {
-        "code": "07120",
-        "name": "Paradoxical Covenant",
+        "code": "07122",
+        "name": "Ancient Covenant",
         "pack": "tic"
       },
       {
-        "code": "07122",
-        "name": "Ancient Covenant",
+        "code": "07120",
+        "name": "Paradoxical Covenant",
         "pack": "tic"
       }
     ]
@@ -603,13 +737,13 @@
         "pack": "dwl"
       },
       {
-        "code": "02230",
-        "name": "Lucky Dice",
+        "code": "02269",
+        "name": "Jewel of Aureolus",
         "pack": "dwl"
       },
       {
-        "code": "02269",
-        "name": "Jewel of Aureolus",
+        "code": "02230",
+        "name": "Lucky Dice",
         "pack": "dwl"
       }
     ]
@@ -624,13 +758,13 @@
         "pack": "dwl"
       },
       {
-        "code": "02263",
-        "name": "Strange Solution",
+        "code": "02310",
+        "name": "The Red-Gloved Man",
         "pack": "dwl"
       },
       {
-        "code": "02310",
-        "name": "The Red-Gloved Man",
+        "code": "02263",
+        "name": "Strange Solution",
         "pack": "dwl"
       },
       {
@@ -641,28 +775,54 @@
     ]
   },
   {
-    "tag": "spend_supply",
+    "tag": "move_investigator_any",
     "count": 4,
     "usages": [
       {
-        "code": "02116",
-        "name": "Smoking Pipe",
+        "code": "02022",
+        "name": "Shortcut",
         "pack": "dwl"
       },
       {
-        "code": "02024",
-        "name": "Liquid Courage",
+        "code": "02235",
+        "name": "Survival Instinct",
         "pack": "dwl"
       },
       {
-        "code": "02117",
-        "name": "Painkillers",
-        "pack": "dwl"
-      },
-      {
-        "code": "01683",
-        "name": "First Aid",
+        "code": "01581",
+        "name": "Survival Instinct",
         "pack": "rcore"
+      },
+      {
+        "code": "03232",
+        "name": "Shortcut",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "spawn",
+    "count": 4,
+    "usages": [
+      {
+        "code": "02025",
+        "name": "Think on Your Feet",
+        "pack": "dwl"
+      },
+      {
+        "code": "01541",
+        "name": "Disc of Itzamna",
+        "pack": "rcore"
+      },
+      {
+        "code": "03148",
+        "name": "Ambush",
+        "pack": "ptc"
+      },
+      {
+        "code": "03263",
+        "name": "On the Hunt",
+        "pack": "ptc"
       }
     ]
   },
@@ -697,13 +857,13 @@
     "count": 4,
     "usages": [
       {
-        "code": "02028",
-        "name": "Rite of Seeking",
+        "code": "02150",
+        "name": "Deduction",
         "pack": "dwl"
       },
       {
-        "code": "02150",
-        "name": "Deduction",
+        "code": "02028",
+        "name": "Rite of Seeking",
         "pack": "dwl"
       },
       {
@@ -723,8 +883,8 @@
     "count": 4,
     "usages": [
       {
-        "code": "02031",
-        "name": "Bind Monster",
+        "code": "02114",
+        "name": "Fire Extinguisher",
         "pack": "dwl"
       },
       {
@@ -733,8 +893,8 @@
         "pack": "dwl"
       },
       {
-        "code": "02114",
-        "name": "Fire Extinguisher",
+        "code": "02031",
+        "name": "Bind Monster",
         "pack": "dwl"
       },
       {
@@ -759,12 +919,12 @@
         "pack": "rcore"
       },
       {
-        "code": "01566",
+        "code": "01569",
         "name": "Blinding Light",
         "pack": "rcore"
       },
       {
-        "code": "01569",
+        "code": "01566",
         "name": "Blinding Light",
         "pack": "rcore"
       }
@@ -774,6 +934,11 @@
     "tag": "boost_agility_1_passive",
     "count": 4,
     "usages": [
+      {
+        "code": "02035",
+        "name": "Peter Sylvestre",
+        "pack": "dwl"
+      },
       {
         "code": "02033",
         "name": "Peter Sylvestre",
@@ -785,14 +950,87 @@
         "pack": "dwl"
       },
       {
-        "code": "02035",
-        "name": "Peter Sylvestre",
-        "pack": "dwl"
-      },
-      {
         "code": "01555",
         "name": "Cat Burglar",
         "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "heal_damage_ally",
+    "count": 4,
+    "usages": [
+      {
+        "code": "02105",
+        "name": "Emergency Aid",
+        "pack": "dwl"
+      },
+      {
+        "code": "01683",
+        "name": "First Aid",
+        "pack": "rcore"
+      },
+      {
+        "code": "03228",
+        "name": "Inspiring Presence",
+        "pack": "ptc"
+      },
+      {
+        "code": "03230",
+        "name": "First Aid",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "your_location_ally",
+    "count": 4,
+    "usages": [
+      {
+        "code": "02105",
+        "name": "Emergency Aid",
+        "pack": "dwl"
+      },
+      {
+        "code": "01683",
+        "name": "First Aid",
+        "pack": "rcore"
+      },
+      {
+        "code": "03228",
+        "name": "Inspiring Presence",
+        "pack": "ptc"
+      },
+      {
+        "code": "03230",
+        "name": "First Aid",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "encounter_draw",
+    "count": 4,
+    "usages": [
+      {
+        "code": "02111",
+        "name": "Delve Too Deep",
+        "pack": "dwl"
+      },
+      {
+        "code": "02302",
+        "name": "Dr. William T. Maleson",
+        "pack": "dwl"
+      },
+      {
+        "code": "01564",
+        "name": "Drawn to the Flame",
+        "pack": "rcore"
+      },
+      {
+        "code": "03263",
+        "name": "On the Hunt",
+        "pack": "ptc"
       }
     ]
   },
@@ -849,6 +1087,58 @@
     ]
   },
   {
+    "tag": "boost_combat_3_attack",
+    "count": 4,
+    "usages": [
+      {
+        "code": "02115",
+        "name": "Flare",
+        "pack": "dwl"
+      },
+      {
+        "code": "02226",
+        "name": "Springfield M1903",
+        "pack": "dwl"
+      },
+      {
+        "code": "01006",
+        "name": "Roland's .38 Special",
+        "pack": "rcore"
+      },
+      {
+        "code": "01529",
+        "name": "Shotgun",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "card_range_9",
+    "count": 4,
+    "usages": [
+      {
+        "code": "02115",
+        "name": "Flare",
+        "pack": "dwl"
+      },
+      {
+        "code": "02184",
+        "name": "Prepared for the Worst",
+        "pack": "dwl"
+      },
+      {
+        "code": "03158",
+        "name": "Calling in Favors",
+        "pack": "ptc"
+      },
+      {
+        "code": "03263",
+        "name": "On the Hunt",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
     "tag": "discover_clue_your_location_1",
     "count": 4,
     "usages": [
@@ -879,13 +1169,13 @@
     "count": 4,
     "usages": [
       {
-        "code": "02228",
-        "name": "Expose Weakness",
+        "code": "02185",
+        "name": "Keen Eye",
         "pack": "dwl"
       },
       {
-        "code": "02185",
-        "name": "Keen Eye",
+        "code": "02228",
+        "name": "Expose Weakness",
         "pack": "dwl"
       },
       {
@@ -931,13 +1221,13 @@
     "count": 4,
     "usages": [
       {
-        "code": "02232",
-        "name": "Alyssa Graham",
+        "code": "02191",
+        "name": "Blood Pact",
         "pack": "dwl"
       },
       {
-        "code": "02191",
-        "name": "Blood Pact",
+        "code": "02232",
+        "name": "Alyssa Graham",
         "pack": "dwl"
       },
       {
@@ -1009,13 +1299,13 @@
     "count": 4,
     "usages": [
       {
-        "code": "02232",
-        "name": "Alyssa Graham",
+        "code": "02234",
+        "name": "Dark Horse",
         "pack": "dwl"
       },
       {
-        "code": "02234",
-        "name": "Dark Horse",
+        "code": "02232",
+        "name": "Alyssa Graham",
         "pack": "dwl"
       },
       {
@@ -1031,6 +1321,110 @@
     ]
   },
   {
+    "tag": "look_at_encounter",
+    "count": 4,
+    "usages": [
+      {
+        "code": "02232",
+        "name": "Alyssa Graham",
+        "pack": "dwl"
+      },
+      {
+        "code": "01690",
+        "name": "Scrying",
+        "pack": "rcore"
+      },
+      {
+        "code": "01561",
+        "name": "Scrying",
+        "pack": "rcore"
+      },
+      {
+        "code": "03236",
+        "name": "Scrying",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "look_at_investigator",
+    "count": 4,
+    "usages": [
+      {
+        "code": "02232",
+        "name": "Alyssa Graham",
+        "pack": "dwl"
+      },
+      {
+        "code": "01690",
+        "name": "Scrying",
+        "pack": "rcore"
+      },
+      {
+        "code": "01561",
+        "name": "Scrying",
+        "pack": "rcore"
+      },
+      {
+        "code": "03236",
+        "name": "Scrying",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "order_encounter",
+    "count": 4,
+    "usages": [
+      {
+        "code": "02232",
+        "name": "Alyssa Graham",
+        "pack": "dwl"
+      },
+      {
+        "code": "01690",
+        "name": "Scrying",
+        "pack": "rcore"
+      },
+      {
+        "code": "01561",
+        "name": "Scrying",
+        "pack": "rcore"
+      },
+      {
+        "code": "03236",
+        "name": "Scrying",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "order_investigator",
+    "count": 4,
+    "usages": [
+      {
+        "code": "02232",
+        "name": "Alyssa Graham",
+        "pack": "dwl"
+      },
+      {
+        "code": "01690",
+        "name": "Scrying",
+        "pack": "rcore"
+      },
+      {
+        "code": "01561",
+        "name": "Scrying",
+        "pack": "rcore"
+      },
+      {
+        "code": "03236",
+        "name": "Scrying",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
     "tag": "lose_action",
     "count": 4,
     "usages": [
@@ -1040,44 +1434,18 @@
         "pack": "dwl"
       },
       {
-        "code": "01566",
+        "code": "01569",
         "name": "Blinding Light",
         "pack": "rcore"
       },
       {
-        "code": "01569",
+        "code": "01566",
         "name": "Blinding Light",
         "pack": "rcore"
       },
       {
         "code": "01689",
         "name": "Rite of Seeking",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "skill_benefit_performing",
-    "count": 4,
-    "usages": [
-      {
-        "code": "02235",
-        "name": "Survival Instinct",
-        "pack": "dwl"
-      },
-      {
-        "code": "01539",
-        "name": "Deduction",
-        "pack": "rcore"
-      },
-      {
-        "code": "01581",
-        "name": "Survival Instinct",
-        "pack": "rcore"
-      },
-      {
-        "code": "01525",
-        "name": "Vicious Blow",
         "pack": "rcore"
       }
     ]
@@ -1092,13 +1460,13 @@
         "pack": "dwl"
       },
       {
-        "code": "01557",
-        "name": "Hot Streak",
+        "code": "01684",
+        "name": "\"I've had worse…\"",
         "pack": "rcore"
       },
       {
-        "code": "01684",
-        "name": "\"I've had worse…\"",
+        "code": "01557",
+        "name": "Hot Streak",
         "pack": "rcore"
       },
       {
@@ -1213,6 +1581,47 @@
     ]
   },
   {
+    "tag": "boost_agility_2",
+    "count": 7,
+    "usages": [
+      {
+        "code": "06242",
+        "name": "Empower Self",
+        "pack": "tde"
+      },
+      {
+        "code": "09062",
+        "name": "Disguise",
+        "pack": "tsk"
+      },
+      {
+        "code": "60311",
+        "name": "Streetwise",
+        "pack": "win"
+      },
+      {
+        "code": "04204",
+        "name": "Ornate Bow",
+        "pack": "tfa"
+      },
+      {
+        "code": "10023",
+        "name": "Wolf Mask",
+        "pack": "fhv"
+      },
+      {
+        "code": "10067",
+        "name": "Fox Mask",
+        "pack": "fhv"
+      },
+      {
+        "code": "10111",
+        "name": "Sparrow Mask",
+        "pack": "fhv"
+      }
+    ]
+  },
+  {
     "tag": "testless_clue",
     "count": 4,
     "usages": [
@@ -1222,13 +1631,13 @@
         "pack": "rcore"
       },
       {
-        "code": "01564",
-        "name": "Drawn to the Flame",
+        "code": "01579",
+        "name": "\"Look what I found!\"",
         "pack": "rcore"
       },
       {
-        "code": "01579",
-        "name": "\"Look what I found!\"",
+        "code": "01564",
+        "name": "Drawn to the Flame",
         "pack": "rcore"
       },
       {
@@ -1265,43 +1674,17 @@
     ]
   },
   {
-    "tag": "not_aoo",
-    "count": 4,
-    "usages": [
-      {
-        "code": "01555",
-        "name": "Cat Burglar",
-        "pack": "rcore"
-      },
-      {
-        "code": "03036",
-        "name": "Lantern",
-        "pack": "ptc"
-      },
-      {
-        "code": "03189",
-        "name": "\"I'll see you in hell!\"",
-        "pack": "ptc"
-      },
-      {
-        "code": "03193",
-        "name": "Archaic Glyphs",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
     "tag": "auto_evade",
     "count": 4,
     "usages": [
       {
-        "code": "01576",
-        "name": "Stray Cat",
+        "code": "01578",
+        "name": "Cunning Distraction",
         "pack": "rcore"
       },
       {
-        "code": "01578",
-        "name": "Cunning Distraction",
+        "code": "01576",
+        "name": "Stray Cat",
         "pack": "rcore"
       },
       {
@@ -1317,54 +1700,28 @@
     ]
   },
   {
-    "tag": "stat_add_intellect",
+    "tag": "duration_until_end_turn",
     "count": 4,
     "usages": [
       {
-        "code": "60314",
-        "name": "Slip Away",
-        "pack": "win"
+        "code": "01585",
+        "name": "Will to Survive",
+        "pack": "rcore"
       },
       {
-        "code": "60324",
-        "name": "Slip Away",
-        "pack": "win"
+        "code": "03028",
+        "name": "Stealth",
+        "pack": "ptc"
       },
       {
-        "code": "04232",
-        "name": "Slip Away",
-        "pack": "tfa"
+        "code": "03108",
+        "name": "Anatomical Diagrams",
+        "pack": "ptc"
       },
       {
-        "code": "60226",
-        "name": "Mind over Matter",
-        "pack": "har"
-      }
-    ]
-  },
-  {
-    "tag": "boost_combat_4",
-    "count": 4,
-    "usages": [
-      {
-        "code": "60331",
-        "name": "Beretta M1918",
-        "pack": "win"
-      },
-      {
-        "code": "04305",
-        "name": "Flamethrower",
-        "pack": "tfa"
-      },
-      {
-        "code": "90030",
-        "name": "Roland's .38 Special",
-        "pack": "par"
-      },
-      {
-        "code": "07302",
-        "name": "Holy Spear",
-        "pack": "tic"
+        "code": "03266",
+        "name": "Arcane Insight",
+        "pack": "ptc"
       }
     ]
   },
@@ -1395,163 +1752,28 @@
     ]
   },
   {
-    "tag": "uses_starting_1",
+    "tag": "boost_combat_4",
     "count": 4,
     "usages": [
       {
-        "code": "08070",
-        "name": "True Magick",
-        "pack": "eote"
-      },
-      {
-        "code": "08075",
-        "name": "Bangle of Jinxes",
-        "pack": "eote"
-      },
-      {
-        "code": "04204",
-        "name": "Ornate Bow",
-        "pack": "tfa"
-      },
-      {
-        "code": "10022",
-        "name": "Ofuda",
-        "pack": "fhv"
-      }
-    ]
-  },
-  {
-    "tag": "trait_trick",
-    "count": 4,
-    "usages": [
-      {
-        "code": "08123",
-        "name": "Crafty",
-        "pack": "eote"
-      },
-      {
-        "code": "09072",
-        "name": "Chuck Fergus",
-        "pack": "tsk"
-      },
-      {
-        "code": "60332",
-        "name": "Chuck Fergus",
+        "code": "60331",
+        "name": "Beretta M1918",
         "pack": "win"
       },
       {
-        "code": "10079",
-        "name": "Bewitching",
-        "pack": "fhv"
-      }
-    ]
-  },
-  {
-    "tag": "initiate_test_intellect_1",
-    "count": 4,
-    "usages": [
-      {
-        "code": "09058",
-        "name": "Gray's Anatomy",
-        "pack": "tsk"
-      },
-      {
-        "code": "09040",
-        "name": "Alchemical Distillation",
-        "pack": "tsk"
-      },
-      {
-        "code": "60209",
-        "name": "Feed the Mind",
-        "pack": "har"
-      },
-      {
-        "code": "10066",
-        "name": "Fake Credentials",
-        "pack": "fhv"
-      }
-    ]
-  },
-  {
-    "tag": "trait_melee",
-    "count": 4,
-    "usages": [
-      {
-        "code": "08122",
-        "name": "Bruiser",
-        "pack": "eote"
-      },
-      {
-        "code": "09027",
-        "name": "Grievous Wound",
-        "pack": "tsk"
-      },
-      {
-        "code": "10031",
-        "name": "Strong-Armed",
-        "pack": "fhv"
-      },
-      {
-        "code": "10037",
-        "name": "Flurry of Blows",
-        "pack": "fhv"
-      }
-    ]
-  },
-  {
-    "tag": "initiate_test_intellect_x",
-    "count": 5,
-    "usages": [
-      {
-        "code": "04027",
-        "name": "Eavesdrop",
+        "code": "04305",
+        "name": "Flamethrower",
         "pack": "tfa"
       },
       {
-        "code": "04195",
-        "name": "Expose Weakness",
-        "pack": "tfa"
+        "code": "90030",
+        "name": "Roland's .38 Special",
+        "pack": "par"
       },
       {
-        "code": "10057",
-        "name": "Confound",
-        "pack": "fhv"
-      },
-      {
-        "code": "10073",
-        "name": "Stir the Pot",
-        "pack": "fhv"
-      },
-      {
-        "code": "10083",
-        "name": "Stir the Pot",
-        "pack": "fhv"
-      }
-    ]
-  },
-  {
-    "tag": "initiate_test_willpower_x",
-    "count": 4,
-    "usages": [
-      {
-        "code": "06329",
-        "name": "Shining Trapezohedron",
-        "pack": "tde"
-      },
-      {
-        "code": "10064",
-        "name": "Blackmail File",
-        "pack": "fhv"
-      },
-      {
-        "code": "10094",
-        "name": "Drain Essence",
-        "pack": "fhv"
-      },
-      {
-        "code": "10114",
-        "name": "Stall for Time",
-        "pack": "fhv"
+        "code": "07302",
+        "name": "Holy Spear",
+        "pack": "tic"
       }
     ]
   }
