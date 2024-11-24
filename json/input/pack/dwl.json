@@ -84,10 +84,8 @@
     "name": "Teamwork",
     "text": "Investigators at your location may give or trade any number of [[Item]] assets, [[Ally]] assets, or resources among one another.",
     "tags": [
-      "give_asset",
-      "give_resource",
-      "take_asset",
-      "take_resource",
+      "transfer_asset",
+      "transfer_resource",
       "trait_ally",
       "trait_item",
       "your_location_investigator"
@@ -407,7 +405,7 @@
     "name": "Oops!",
     "text": "Fast. Play after you fail a skill test by 2 or less while attacking an enemy engaged with you.\nDeal this attack's damage to a different enemy at your location.",
     "tags": [
-      "damage_redirect",
+      "redirect_damage",
       "enemy_value_damage",
       "engage_with_you",
       "fail_by_2_or_less",
@@ -489,7 +487,7 @@
       "draw_player_2",
       "gain_resource_2",
       "your_location_investigator",
-      "aoo_support"
+      "aoe_support"
     ]
   },
   {
@@ -1067,7 +1065,7 @@
     "text": "<b>Investigate.</b> The difficulty of this skill test is equal to the highest shroud value among revealed locations in play. If you succeed, discover 1 clue from each revealed location in play.",
     "tags": [
       "bold_investigate",
-      "discover_clue_remote",
+      "remote_discover_clue",
       "location_revealed",
       "result_investigate_success",
       "shroud_dependent"
@@ -1135,7 +1133,7 @@
     "tags": [
       "cost_reaction_exhaust_self",
       "cost_reaction_horror_self",
-      "damage_redirect",
+      "redirect_damage",
       "enemy_value_damage",
       "soak_benefit_horror",
       "timing_fast_enemy_attacks",

@@ -66,7 +66,7 @@
     ]
   },
   {
-    "tag": "give_asset",
+    "tag": "transfer_asset",
     "count": 1,
     "usages": [
       {
@@ -77,29 +77,7 @@
     ]
   },
   {
-    "tag": "give_resource",
-    "count": 1,
-    "usages": [
-      {
-        "code": "02018",
-        "name": "Teamwork",
-        "pack": "dwl"
-      }
-    ]
-  },
-  {
-    "tag": "take_asset",
-    "count": 1,
-    "usages": [
-      {
-        "code": "02018",
-        "name": "Teamwork",
-        "pack": "dwl"
-      }
-    ]
-  },
-  {
-    "tag": "take_resource",
+    "tag": "transfer_resource",
     "count": 1,
     "usages": [
       {
@@ -396,17 +374,6 @@
     ]
   },
   {
-    "tag": "boost_intellect_3",
-    "count": 1,
-    "usages": [
-      {
-        "code": "02189",
-        "name": "Streetwise",
-        "pack": "dwl"
-      }
-    ]
-  },
-  {
     "tag": "chaos_reveal_before_effect",
     "count": 1,
     "usages": [
@@ -682,7 +649,7 @@
     ]
   },
   {
-    "tag": "discover_clue_remote",
+    "tag": "remote_discover_clue",
     "count": 1,
     "usages": [
       {
@@ -913,17 +880,6 @@
     ]
   },
   {
-    "tag": "initiate_test_willpower_x",
-    "count": 1,
-    "usages": [
-      {
-        "code": "06329",
-        "name": "Shining Trapezohedron",
-        "pack": "tde"
-      }
-    ]
-  },
-  {
     "tag": "initiate_test_combat_1",
     "count": 1,
     "usages": [
@@ -1018,17 +974,6 @@
       {
         "code": "01521",
         "name": "Guard Dog",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "connecting_location_enemy",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01524",
-        "name": "Dynamite Blast",
         "pack": "rcore"
       }
     ]
@@ -1166,56 +1111,23 @@
     ]
   },
   {
+    "tag": "connecting_location_enemy",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01524",
+        "name": "Dynamite Blast",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
     "tag": "timing_fast_chaos_reveal_after",
     "count": 1,
     "usages": [
       {
         "code": "01556",
         "name": "Sure Gamble",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "uses_manip_secret_to_resource",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01558",
-        "name": "Forbidden Knowledge",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "enters_play",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01563",
-        "name": "Arcane Initiate",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "additional_slot_arcane",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01570",
-        "name": "Book of Shadows",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "trait_spell_asset",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01570",
-        "name": "Book of Shadows",
         "pack": "rcore"
       }
     ]
@@ -1265,6 +1177,28 @@
     ]
   },
   {
+    "tag": "additional_slot_arcane",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01570",
+        "name": "Book of Shadows",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "trait_spell_asset",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01570",
+        "name": "Book of Shadows",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
     "tag": "timing_reaction_after_investigate_success",
     "count": 1,
     "usages": [
@@ -1293,17 +1227,6 @@
       {
         "code": "01583",
         "name": "Close Call",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "chaos_do_not_reveal",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01585",
-        "name": "Will to Survive",
         "pack": "rcore"
       }
     ]
@@ -1397,6 +1320,39 @@
     ]
   },
   {
+    "tag": "enters_play",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01563",
+        "name": "Arcane Initiate",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "chaos_do_not_reveal",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01585",
+        "name": "Will to Survive",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "uses_manip_secret_to_resource",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01558",
+        "name": "Forbidden Knowledge",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
     "tag": "initiate_test_intellect_3",
     "count": 1,
     "usages": [
@@ -1419,23 +1375,23 @@
     ]
   },
   {
-    "tag": "uses_starting_7",
-    "count": 1,
-    "usages": [
-      {
-        "code": "04311",
-        "name": "Seal of the Seventh Sign",
-        "pack": "tfa"
-      }
-    ]
-  },
-  {
     "tag": "uses_starting_8",
     "count": 1,
     "usages": [
       {
         "code": "04229",
         "name": "M1918 BAR",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "uses_starting_7",
+    "count": 1,
+    "usages": [
+      {
+        "code": "04311",
+        "name": "Seal of the Seventh Sign",
         "pack": "tfa"
       }
     ]
@@ -1452,7 +1408,7 @@
     ]
   },
   {
-    "tag": "commit_remote",
+    "tag": "remote_commit",
     "count": 1,
     "usages": [
       {
@@ -1496,7 +1452,7 @@
     ]
   },
   {
-    "tag": "encounter_redirect",
+    "tag": "tank_encounter",
     "count": 1,
     "usages": [
       {
@@ -1584,7 +1540,7 @@
     ]
   },
   {
-    "tag": "investigate_remote",
+    "tag": "remote_investigate",
     "count": 1,
     "usages": [
       {
@@ -1661,7 +1617,7 @@
     ]
   },
   {
-    "tag": "move_remote",
+    "tag": "remote_move",
     "count": 1,
     "usages": [
       {
@@ -1793,17 +1749,6 @@
     ]
   },
   {
-    "tag": "gain_retaliate",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03110",
-        "name": "Knuckleduster",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
     "tag": "doom_check",
     "count": 1,
     "usages": [
@@ -1865,28 +1810,6 @@
       {
         "code": "03154",
         "name": "Book of Shadows",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "boost_agility_x",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03155",
-        "name": "Fight or Flight",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "current_horror_more",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03155",
-        "name": "Fight or Flight",
         "pack": "ptc"
       }
     ]
@@ -2024,17 +1947,6 @@
     ]
   },
   {
-    "tag": "initiate_test_agility_x",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03237",
-        "name": "Waylay",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
     "tag": "enemy_value_evade",
     "count": 1,
     "usages": [
@@ -2156,6 +2068,39 @@
     ]
   },
   {
+    "tag": "gain_retaliate",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03110",
+        "name": "Knuckleduster",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "boost_agility_x",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03155",
+        "name": "Fight or Flight",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "current_horror_more",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03155",
+        "name": "Fight or Flight",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
     "tag": "initiate_test_combat_3",
     "count": 1,
     "usages": [
@@ -2189,23 +2134,23 @@
     ]
   },
   {
-    "tag": "trait_miskatonic",
-    "count": 1,
-    "usages": [
-      {
-        "code": "60232",
-        "name": "Miskatonic Archaeology Funding",
-        "pack": "har"
-      }
-    ]
-  },
-  {
     "tag": "stat_add_intellect",
     "count": 1,
     "usages": [
       {
         "code": "60226",
         "name": "Mind over Matter",
+        "pack": "har"
+      }
+    ]
+  },
+  {
+    "tag": "trait_miskatonic",
+    "count": 1,
+    "usages": [
+      {
+        "code": "60232",
+        "name": "Miskatonic Archaeology Funding",
         "pack": "har"
       }
     ]
@@ -2222,13 +2167,57 @@
     ]
   },
   {
-    "tag": "uses_type_offerings",
+    "tag": "boost_intellect_6",
     "count": 1,
     "usages": [
       {
-        "code": "07310",
-        "name": "Shrine of the Moirai",
-        "pack": "tic"
+        "code": "10058",
+        "name": "Microscope",
+        "pack": "fhv"
+      }
+    ]
+  },
+  {
+    "tag": "uses_starting_10",
+    "count": 1,
+    "usages": [
+      {
+        "code": "10062",
+        "name": "Bianca \"Die Katz\"",
+        "pack": "fhv"
+      }
+    ]
+  },
+  {
+    "tag": "initiate_test_agility_0",
+    "count": 1,
+    "usages": [
+      {
+        "code": "10071",
+        "name": "Grift",
+        "pack": "fhv"
+      }
+    ]
+  },
+  {
+    "tag": "trait_blessed",
+    "count": 1,
+    "usages": [
+      {
+        "code": "10132",
+        "name": "Occult Reliquary",
+        "pack": "fhv"
+      }
+    ]
+  },
+  {
+    "tag": "trait_cursed",
+    "count": 1,
+    "usages": [
+      {
+        "code": "10132",
+        "name": "Occult Reliquary",
+        "pack": "fhv"
       }
     ]
   }

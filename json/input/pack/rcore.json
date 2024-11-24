@@ -19,10 +19,7 @@
     "code": "01008",
     "name": "Daisy's Tote Bag",
     "text": "Daisy Walker deck only.\nYou have 2 additional hand slots, which can only be used to hold [[Tome]] assets.",
-    "tags": [
-      "deck_restriction",
-      "additional_slot_hand"
-    ]
+    "tags": ["deck_restriction", "additional_slot_hand"]
   },
   {
     "code": "01010",
@@ -113,11 +110,7 @@
     "code": "01520",
     "name": "Machete",
     "text": "[action]: <b>Fight.</b> You get +1 [combat] for this attack. If the attacked enemy is the only enemy engaged with you, this attack deals +1 damage.",
-    "tags": [
-      "bold_fight",
-      "damage_plus_1",
-      "engage_with_you"
-    ]
+    "tags": ["bold_fight", "damage_plus_1", "engage_with_you"]
   },
   {
     "code": "01521",
@@ -178,11 +171,7 @@
     "code": "01526",
     "name": "Extra Ammunition",
     "text": "Place 3 ammo tokens on a [[Firearm]] asset controlled by an investigator at your location.",
-    "tags": [
-      "trait_firearm",
-      "uses_add_ammo",
-      "your_location_investigator"
-    ]
+    "tags": ["trait_firearm", "uses_add_ammo", "your_location_investigator"]
   },
   {
     "code": "01527",
@@ -234,11 +223,7 @@
     "code": "01530",
     "name": "Magnifying Glass",
     "text": "Fast.\nYou get +1 [intellect] while investigating.",
-    "tags": [
-      "boost_intellect_1_investigate",
-      "fast_play",
-      "investigate_while"
-    ]
+    "tags": ["boost_intellect_1_investigate", "fast_play", "investigate_while"]
   },
   {
     "code": "01531",
@@ -394,12 +379,7 @@
     "code": "01544",
     "name": "Switchblade",
     "text": "Fast.\n[action]: <b>Fight.</b> If you succeed by 2 or more, this attack deals +1 damage.",
-    "tags": [
-      "bold_fight",
-      "damage_plus_1",
-      "fast_play",
-      "succeed_by_2"
-    ]
+    "tags": ["bold_fight", "damage_plus_1", "fast_play", "succeed_by_2"]
   },
   {
     "code": "01545",
@@ -441,9 +421,7 @@
     "code": "01548",
     "name": "Leo De Luca",
     "text": "You may take an additional action during your turn.",
-    "tags": [
-      "additional_action_1"
-    ]
+    "tags": ["additional_action_1"]
   },
   {
     "code": "01549",
@@ -494,19 +472,13 @@
     "code": "01553",
     "name": "Opportunist",
     "text": "Commit only to a skill test you are performing.\nIf you succeed by 3 or more, return Opportunist to your hand after this test instead of discarding it.",
-    "tags": [
-      "succeed_by_3",
-      "test_you_perform",
-      "to_hand_from_commit"
-    ]
+    "tags": ["succeed_by_3", "test_you_perform", "to_hand_from_commit"]
   },
   {
     "code": "01554",
     "name": "Leo De Luca",
     "text": "You may take an additional action during your turn.",
-    "tags": [
-      "additional_action_1"
-    ]
+    "tags": ["additional_action_1"]
   },
   {
     "code": "01555",
@@ -524,19 +496,13 @@
     "code": "01556",
     "name": "Sure Gamble",
     "text": "Fast. Play after you reveal a chaos token with a negative modifier.\nSwitch that token's \"-\" to a \"+\".",
-    "tags": [
-      "chaos_modifier",
-      "fast_play",
-      "timing_fast_chaos_reveal_after"
-    ]
+    "tags": ["chaos_modifier", "fast_play", "timing_fast_chaos_reveal_after"]
   },
   {
     "code": "01557",
     "name": "Hot Streak",
     "text": "Gain 10 resources.",
-    "tags": [
-      "gain_resource"
-    ]
+    "tags": ["gain_resource"]
   },
   {
     "code": "01558",
@@ -554,9 +520,7 @@
     "code": "01559",
     "name": "Holy Rosary",
     "text": "You get +1 [willpower].",
-    "tags": [
-      "boost_willpower_1_passive"
-    ]
+    "tags": ["boost_willpower_1_passive"]
   },
   {
     "code": "01560",
@@ -623,11 +587,7 @@
     "code": "01564",
     "name": "Drawn to the Flame",
     "text": "Draw the top card of the encounter deck. Then, discover 2 clues at your location.",
-    "tags": [
-      "discover_clue_your_location_2",
-      "encounter_draw",
-      "testless_clue"
-    ]
+    "tags": ["discover_clue_your_location_2", "encounter_draw", "testless_clue"]
   },
   {
     "code": "01565",
@@ -661,10 +621,7 @@
     "code": "01567",
     "name": "Fearless",
     "text": "If this skill test is successful, heal 1 horror.",
-    "tags": [
-      "heal_horror",
-      "result_test_success"
-    ]
+    "tags": ["heal_horror", "result_test_success"]
   },
   {
     "code": "01568",
@@ -814,11 +771,7 @@
     "code": "01580",
     "name": "Lucky!",
     "text": "Fast. Play when you would fail a skill test.\nGet +2 to your skill value for that test.",
-    "tags": [
-      "boost_any_2",
-      "fast_play",
-      "timing_fast_would_fail"
-    ]
+    "tags": ["boost_any_2", "fast_play", "timing_fast_would_fail"]
   },
   {
     "code": "01581",
@@ -838,7 +791,7 @@
     "tags": [
       "cost_reaction_exhaust_self",
       "cost_reaction_horror_self",
-      "damage_redirect",
+      "redirect_damage",
       "enemy_value_damage",
       "soak_benefit_horror",
       "timing_fast_enemy_attacks"
@@ -906,57 +859,37 @@
     "code": "01588",
     "name": "Emergency Cache",
     "text": "Gain 3 resources.",
-    "tags": [
-      "gain_resource_3"
-    ]
+    "tags": ["gain_resource_3"]
   },
   {
     "code": "01589",
     "name": "Guts",
     "text": "Max 1 committed per skill test.\nIf this test is successful, draw 1 card.",
-    "tags": [
-      "draw_player_1",
-      "max_1_commit",
-      "result_test_success"
-    ]
+    "tags": ["draw_player_1", "max_1_commit", "result_test_success"]
   },
   {
     "code": "01590",
     "name": "Perception",
     "text": "Max 1 committed per skill test.\nIf this test is successful, draw 1 card.",
-    "tags": [
-      "draw_player_1",
-      "max_1_commit",
-      "result_test_success"
-    ]
+    "tags": ["draw_player_1", "max_1_commit", "result_test_success"]
   },
   {
     "code": "01591",
     "name": "Overpower",
     "text": "Max 1 committed per skill test.\nIf this test is successful, draw 1 card.",
-    "tags": [
-      "draw_player_1",
-      "max_1_commit",
-      "result_test_success"
-    ]
+    "tags": ["draw_player_1", "max_1_commit", "result_test_success"]
   },
   {
     "code": "01592",
     "name": "Manual Dexterity",
     "text": "Max 1 committed per skill test.\nIf this test is successful, draw 1 card.",
-    "tags": [
-      "draw_player_1",
-      "max_1_commit",
-      "result_test_success"
-    ]
+    "tags": ["draw_player_1", "max_1_commit", "result_test_success"]
   },
   {
     "code": "01593",
     "name": "Unexpected Courage",
     "text": "Max 1 committed per skill test.",
-    "tags": [
-      "max_1_commit"
-    ]
+    "tags": ["max_1_commit"]
   },
   {
     "code": "01594",
@@ -1041,7 +974,6 @@
       "cost_action_exhaust_self",
       "discard_zero_uses",
       "stat_add_agility_for_investigate",
-      "stat_combine_intellect_agility",
       "succeed_by_2"
     ]
   },
@@ -1109,7 +1041,7 @@
     "tags": [
       "cost_reaction_exhaust_self",
       "cost_reaction_horror_self",
-      "damage_redirect",
+      "redirect_damage",
       "enemy_value_damage",
       "soak_benefit_horror",
       "timing_fast_enemy_attacks",
@@ -1132,25 +1064,18 @@
     "code": "01693",
     "name": "Emergency Cache",
     "text": "Gain 3 resources and draw 1 card.",
-    "tags": [
-      "draw_player_1",
-      "gain_resource_3"
-    ]
+    "tags": ["draw_player_1", "gain_resource_3"]
   },
   {
     "code": "01694",
     "name": "Charisma",
     "text": "Permanent.\nYou have 1 additional ally slot.",
-    "tags": [
-      "additional_slot_ally"
-    ]
+    "tags": ["additional_slot_ally"]
   },
   {
     "code": "01695",
     "name": "Relic Hunter",
     "text": "Permanent.\nYou have 1 additional accessory slot.",
-    "tags": [
-      "additional_slot_accessory"
-    ]
+    "tags": ["additional_slot_accessory"]
   }
 ]

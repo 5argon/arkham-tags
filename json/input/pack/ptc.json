@@ -26,7 +26,7 @@
       "cost_reaction_exhaust_self",
       "deck_restriction",
       "draw_player_1",
-      "commit_remote",
+      "remote_commit",
       "target_any_skill"
     ]
   },
@@ -105,7 +105,7 @@
     "tags": [
       "fast_play",
       "timing_fast_after_draw_encounter",
-      "encounter_redirect",
+      "tank_encounter",
       "encounter_revelation",
       "boost_any_2"
     ]
@@ -166,7 +166,7 @@
       "bold_investigate",
       "cost_action_spend_secret",
       "location_revealed",
-      "investigate_remote",
+      "remote_investigate",
       "as_if_you_were_at_location"
     ]
   },
@@ -219,7 +219,6 @@
       "cost_action_exhaust_self",
       "discard_zero_uses",
       "stat_add_agility_for_investigate",
-      "stat_combine_intellect_agility",
       "succeed_by_2"
     ]
   },
@@ -269,7 +268,7 @@
       "chaos_reveal_token_skull",
       "chaos_reveal_token_tablet",
       "move_investigator_self",
-      "move_remote",
+      "remote_move",
       "take_damage",
       "trait_ally",
       "trait_item",
@@ -967,7 +966,7 @@
       "gain_resource_4",
       "uses_add_supply",
       "your_location_investigator",
-      "aoo_support"
+      "aoe_support"
     ]
   },
   {

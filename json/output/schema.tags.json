@@ -61,7 +61,7 @@
       "description": "Multiple enemies at the same location are evaded, or one enemy at different locations are evaded."
     },
     {
-      "const": "aoo_support",
+      "const": "aoe_support",
       "description": ""
     },
     {
@@ -413,10 +413,6 @@
       "description": ""
     },
     {
-      "const": "commit_remote",
-      "description": ""
-    },
-    {
       "const": "connecting_location_enemy",
       "description": ""
     },
@@ -549,10 +545,6 @@
       "description": ""
     },
     {
-      "const": "damage_redirect",
-      "description": "Select new target for enemy's damage that's not simply soaking."
-    },
-    {
       "const": "damage_token_manipulation",
       "description": ""
     },
@@ -635,10 +627,6 @@
     {
       "const": "discover_clue_connecting_location_1",
       "description": ""
-    },
-    {
-      "const": "discover_clue_remote",
-      "description": "Deciphered Reality. Use discover_clue_connecting_location_ first if possible"
     },
     {
       "const": "discover_clue_your_location",
@@ -726,10 +714,6 @@
     },
     {
       "const": "encounter_draw",
-      "description": ""
-    },
-    {
-      "const": "encounter_redirect",
       "description": ""
     },
     {
@@ -881,14 +865,6 @@
       "description": ""
     },
     {
-      "const": "give_asset",
-      "description": "Can transfer asset from you to other investigator."
-    },
-    {
-      "const": "give_resource",
-      "description": "Can transfer resource from you to other investigator."
-    },
-    {
       "const": "growth",
       "description": "Related to improving the deck. Gaining XP, providing upgrade / purchase advantage, or like Adaptable / Versatile."
     },
@@ -1017,10 +993,6 @@
       "description": ""
     },
     {
-      "const": "investigate_remote",
-      "description": ""
-    },
-    {
       "const": "investigate_while",
       "description": ""
     },
@@ -1101,10 +1073,6 @@
       "description": "Effect can move the card's owner."
     },
     {
-      "const": "move_remote",
-      "description": "Can move to far away location like Astral Travel, Open Gate, Ethereal Slip"
-    },
-    {
       "const": "no_resource",
       "description": ""
     },
@@ -1150,6 +1118,26 @@
     },
     {
       "const": "ready_enemy",
+      "description": ""
+    },
+    {
+      "const": "redirect_damage",
+      "description": ""
+    },
+    {
+      "const": "remote_commit",
+      "description": ""
+    },
+    {
+      "const": "remote_discover_clue",
+      "description": ""
+    },
+    {
+      "const": "remote_investigate",
+      "description": ""
+    },
+    {
+      "const": "remote_move",
       "description": ""
     },
     {
@@ -1333,10 +1321,6 @@
       "description": ""
     },
     {
-      "const": "stat_combine_intellect_agility",
-      "description": ""
-    },
-    {
       "const": "stat_from_spent_resource",
       "description": "Stat pump cards where you get more the more you spent."
     },
@@ -1393,10 +1377,6 @@
       "description": "Such as Quick Thinking, The Stars Are Right"
     },
     {
-      "const": "take_asset",
-      "description": "Able to get asset from other players."
-    },
-    {
       "const": "take_damage",
       "description": "Card user take damage inside the effect."
     },
@@ -1405,16 +1385,16 @@
       "description": "Card user take horror inside the effect."
     },
     {
-      "const": "take_resource",
-      "description": "Able to get resource from other players."
-    },
-    {
       "const": "tank_attack",
       "description": ""
     },
     {
       "const": "tank_damage",
       "description": "Tank means redirecting damage that would have been assigned to others to you instead."
+    },
+    {
+      "const": "tank_encounter",
+      "description": ""
     },
     {
       "const": "tank_horror",
@@ -1827,6 +1807,14 @@
     {
       "const": "trait_weapon",
       "description": "Card support positively to other cards of this trait."
+    },
+    {
+      "const": "transfer_asset",
+      "description": ""
+    },
+    {
+      "const": "transfer_resource",
+      "description": ""
     },
     {
       "const": "unidentified",

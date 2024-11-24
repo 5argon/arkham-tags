@@ -60,7 +60,7 @@
     "description": "Multiple enemies at the same location are evaded, or one enemy at different locations are evaded."
   },
   {
-    "name": "aoo_support",
+    "name": "aoe_support",
     "description": ""
   },
   {
@@ -412,10 +412,6 @@
     "description": ""
   },
   {
-    "name": "commit_remote",
-    "description": ""
-  },
-  {
     "name": "connecting_location_enemy",
     "description": ""
   },
@@ -548,10 +544,6 @@
     "description": ""
   },
   {
-    "name": "damage_redirect",
-    "description": "Select new target for enemy's damage that's not simply soaking."
-  },
-  {
     "name": "damage_token_manipulation",
     "description": ""
   },
@@ -634,10 +626,6 @@
   {
     "name": "discover_clue_connecting_location_1",
     "description": ""
-  },
-  {
-    "name": "discover_clue_remote",
-    "description": "Deciphered Reality. Use discover_clue_connecting_location_ first if possible"
   },
   {
     "name": "discover_clue_your_location",
@@ -725,10 +713,6 @@
   },
   {
     "name": "encounter_draw",
-    "description": ""
-  },
-  {
-    "name": "encounter_redirect",
     "description": ""
   },
   {
@@ -880,14 +864,6 @@
     "description": ""
   },
   {
-    "name": "give_asset",
-    "description": "Can transfer asset from you to other investigator."
-  },
-  {
-    "name": "give_resource",
-    "description": "Can transfer resource from you to other investigator."
-  },
-  {
     "name": "growth",
     "description": "Related to improving the deck. Gaining XP, providing upgrade / purchase advantage, or like Adaptable / Versatile."
   },
@@ -1016,10 +992,6 @@
     "description": ""
   },
   {
-    "name": "investigate_remote",
-    "description": ""
-  },
-  {
     "name": "investigate_while",
     "description": ""
   },
@@ -1100,10 +1072,6 @@
     "description": "Effect can move the card's owner."
   },
   {
-    "name": "move_remote",
-    "description": "Can move to far away location like Astral Travel, Open Gate, Ethereal Slip"
-  },
-  {
     "name": "no_resource",
     "description": ""
   },
@@ -1149,6 +1117,26 @@
   },
   {
     "name": "ready_enemy",
+    "description": ""
+  },
+  {
+    "name": "redirect_damage",
+    "description": ""
+  },
+  {
+    "name": "remote_commit",
+    "description": ""
+  },
+  {
+    "name": "remote_discover_clue",
+    "description": ""
+  },
+  {
+    "name": "remote_investigate",
+    "description": ""
+  },
+  {
+    "name": "remote_move",
     "description": ""
   },
   {
@@ -1332,10 +1320,6 @@
     "description": ""
   },
   {
-    "name": "stat_combine_intellect_agility",
-    "description": ""
-  },
-  {
     "name": "stat_from_spent_resource",
     "description": "Stat pump cards where you get more the more you spent."
   },
@@ -1392,10 +1376,6 @@
     "description": "Such as Quick Thinking, The Stars Are Right"
   },
   {
-    "name": "take_asset",
-    "description": "Able to get asset from other players."
-  },
-  {
     "name": "take_damage",
     "description": "Card user take damage inside the effect."
   },
@@ -1404,16 +1384,16 @@
     "description": "Card user take horror inside the effect."
   },
   {
-    "name": "take_resource",
-    "description": "Able to get resource from other players."
-  },
-  {
     "name": "tank_attack",
     "description": ""
   },
   {
     "name": "tank_damage",
     "description": "Tank means redirecting damage that would have been assigned to others to you instead."
+  },
+  {
+    "name": "tank_encounter",
+    "description": ""
   },
   {
     "name": "tank_horror",
@@ -1826,6 +1806,14 @@
   {
     "name": "trait_weapon",
     "description": "Card support positively to other cards of this trait."
+  },
+  {
+    "name": "transfer_asset",
+    "description": ""
+  },
+  {
+    "name": "transfer_resource",
+    "description": ""
   },
   {
     "name": "unidentified",
