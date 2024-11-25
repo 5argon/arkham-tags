@@ -12,8 +12,8 @@
     "name": "Regurgitation",
     "text": "Subject 5U-21 deck only.\nFast. Play only during your turn.\nIf Ravenous <i>(Uncontrolled Hunger)</i> is face up, flip it over. Choose and return up to 3 cards you devoured <i>(beneath Ravenous or set-aside)</i> to their owners' hands. For each card returned in this way, heal 1 damage or 1 horror.",
     "tags": [
-      "fast_play",
       "deck_restriction",
+      "fast_play",
       "timing_fast_during_your_turn"
     ]
   },
@@ -67,8 +67,8 @@
     "name": "Mysteries Remain",
     "text": "Roland Banks deck only. Replacement.\nFast. Play only during your turn.\nEither place 1 clue <i>(from the token bank)</i> on your location, or discover 1 clue at your location. Remove Mysteries Remain from the game.",
     "tags": [
-      "fast_play",
       "deck_restriction",
+      "fast_play",
       "timing_fast_during_your_turn"
     ]
   },
@@ -120,8 +120,8 @@
     "name": "Mystifying Song",
     "text": "Marie Lambeau deck only.\nFast. Play when the agenda would advance by reaching its doom threshold.\nUntil the end of the phase, the agenda cannot advance by reaching its doom threshold. Remove Mystifying Song from the game.",
     "tags": [
-      "fast_play",
-      "deck_restriction"
+      "deck_restriction",
+      "fast_play"
     ]
   }
 ]

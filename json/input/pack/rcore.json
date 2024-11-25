@@ -4,14 +4,14 @@
     "name": "Roland's .38 Special",
     "text": "Roland Banks deck only.\nUses (4 ammo).\n[action] Spend 1 ammo: <b>Fight.</b> You get +1 [combat] for this attack (if there are 1 or more clues on your location, you get +3 [combat], instead). This attack deals +1 damage.",
     "tags": [
-      "deck_restriction",
-      "uses_starting_4",
       "uses_type_ammo",
+      "uses_starting_4",
       "bold_fight",
       "boost_combat_1_attack",
       "boost_combat_3_attack",
-      "damage_plus_1",
       "cost_action_spend_ammo",
+      "damage_plus_1",
+      "deck_restriction",
       "location_clue_exist"
     ]
   },
@@ -19,7 +19,10 @@
     "code": "01008",
     "name": "Daisy's Tote Bag",
     "text": "Daisy Walker deck only.\nYou have 2 additional hand slots, which can only be used to hold [[Tome]] assets.",
-    "tags": ["deck_restriction", "additional_slot_hand"]
+    "tags": [
+      "additional_slot_hand",
+      "deck_restriction"
+    ]
   },
   {
     "code": "01010",
@@ -27,10 +30,10 @@
     "text": "\"Skids\" O'Toole deck only.\nFast. Play after your turn begins.\nUntil the end of the round, non-[[Elite]] enemies cannot attack you.",
     "tags": [
       "deck_restriction",
-      "fast_play",
       "duration_until_end_round",
+      "elite_unusable",
       "enemy_cannot_attack",
-      "elite_unusable"
+      "fast_play"
     ]
   },
   {
@@ -39,9 +42,9 @@
     "text": "Agnes Baker deck only.\n[reaction] After you play a [[Spell]] card: Draw 1 card.",
     "tags": [
       "deck_restriction",
-      "trait_spell",
       "draw_player_1",
-      "timing_reaction_enters_play"
+      "timing_reaction_enters_play",
+      "trait_spell"
     ]
   },
   {
@@ -50,9 +53,9 @@
     "text": "Wendy Adams deck only.\nYou may play the topmost event in your discard pile as if it were in your hand.\n<b>Forced</b> - After you play an event or discard an event from play: Place it on the bottom of your deck instead of in your discard pile.",
     "tags": [
       "deck_restriction",
-      "to_play_from_discard",
+      "timing_reaction_after_play",
       "to_deck_from_play",
-      "timing_reaction_after_play"
+      "to_play_from_discard"
     ]
   },
   {
@@ -60,12 +63,12 @@
     "name": ".45 Automatic",
     "text": "Uses (4 ammo).\n[action] Spend 1 ammo: <b>Fight.</b> You get +1 [combat] for this attack. This attack deals +1 damage.",
     "tags": [
+      "uses_type_ammo",
+      "uses_starting_4",
       "bold_fight",
       "boost_combat_1_attack",
       "cost_action_spend_ammo",
-      "damage_plus_1",
-      "uses_starting_4",
-      "uses_type_ammo"
+      "damage_plus_1"
     ]
   },
   {
@@ -97,12 +100,12 @@
     "name": "First Aid",
     "text": "Uses (3 supplies). If First Aid has no supplies, discard it.\n[action] Spend 1 supply: Heal 1 damage or horror from an investigator at your location.",
     "tags": [
+      "uses_type_supply",
+      "uses_starting_3",
       "cost_action_spend_supply",
       "discard_zero_uses",
       "heal_damage",
       "heal_horror",
-      "uses_starting_3",
-      "uses_type_supply",
       "your_location_investigator"
     ]
   },
@@ -110,7 +113,11 @@
     "code": "01520",
     "name": "Machete",
     "text": "[action]: <b>Fight.</b> You get +1 [combat] for this attack. If the attacked enemy is the only enemy engaged with you, this attack deals +1 damage.",
-    "tags": ["bold_fight", "damage_plus_1", "engage_with_you"]
+    "tags": [
+      "bold_fight",
+      "damage_plus_1",
+      "engage_with_you"
+    ]
   },
   {
     "code": "01521",
@@ -171,7 +178,11 @@
     "code": "01526",
     "name": "Extra Ammunition",
     "text": "Place 3 ammo tokens on a [[Firearm]] asset controlled by an investigator at your location.",
-    "tags": ["trait_firearm", "uses_add_ammo", "your_location_investigator"]
+    "tags": [
+      "trait_firearm",
+      "uses_add_ammo",
+      "your_location_investigator"
+    ]
   },
   {
     "code": "01527",
@@ -204,6 +215,8 @@
     "name": "Shotgun",
     "text": "Uses (2 ammo).\n[action] Spend 1 ammo: <b>Fight.</b> You get +3 [combat] for this attack. Instead of its standard damage, this attack deals 1 damage for each point you succeed by (to a minimum of 1, to a maximum of 5). If you fail and would damage another investigator, this attack deals 1 damage for each point you fail by (to a minimum of 1, to a maximum of 5).",
     "tags": [
+      "uses_type_ammo",
+      "uses_starting_2",
       "boost_combat_3_attack",
       "cost_action_spend_ammo",
       "damage_plus_1",
@@ -214,28 +227,30 @@
       "fail_by",
       "result_attack_fail",
       "result_attack_success",
-      "succeed_by",
-      "uses_starting_2",
-      "uses_type_ammo"
+      "succeed_by"
     ]
   },
   {
     "code": "01530",
     "name": "Magnifying Glass",
     "text": "Fast.\nYou get +1 [intellect] while investigating.",
-    "tags": ["boost_intellect_1_investigate", "fast_play", "investigate_while"]
+    "tags": [
+      "boost_intellect_1_investigate",
+      "fast_play",
+      "investigate_while"
+    ]
   },
   {
     "code": "01531",
     "name": "Old Book of Lore",
     "text": "[action] Exhaust Old Book of Lore: Choose an investigator at your location. That investigator searches the top 3 cards of his or her deck for a card, draws it, and shuffles the remaining cards into his or her deck.",
     "tags": [
+      "card_range_3",
       "cost_action_exhaust_self",
       "draw_player",
       "search_player",
       "shuffle_player",
-      "your_location_investigator",
-      "card_range_3"
+      "your_location_investigator"
     ]
   },
   {
@@ -379,7 +394,12 @@
     "code": "01544",
     "name": "Switchblade",
     "text": "Fast.\n[action]: <b>Fight.</b> If you succeed by 2 or more, this attack deals +1 damage.",
-    "tags": ["bold_fight", "damage_plus_1", "fast_play", "succeed_by_2"]
+    "tags": [
+      "bold_fight",
+      "damage_plus_1",
+      "fast_play",
+      "succeed_by_2"
+    ]
   },
   {
     "code": "01545",
@@ -408,20 +428,22 @@
     "name": ".41 Derringer",
     "text": "Uses (3 ammo).\n[action] Spend 1 ammo: <b>Fight.</b> You get +2 [combat] for this attack. If you succeed by 2 or more, this attack deals +1 damage.",
     "tags": [
+      "uses_type_ammo",
+      "uses_starting_3",
       "bold_fight",
       "boost_combat_2_attack",
       "cost_action_spend_ammo",
       "damage_plus_1",
-      "succeed_by_2",
-      "uses_starting_3",
-      "uses_type_ammo"
+      "succeed_by_2"
     ]
   },
   {
     "code": "01548",
     "name": "Leo De Luca",
     "text": "You may take an additional action during your turn.",
-    "tags": ["additional_action_1"]
+    "tags": [
+      "additional_action_1"
+    ]
   },
   {
     "code": "01549",
@@ -472,13 +494,19 @@
     "code": "01553",
     "name": "Opportunist",
     "text": "Commit only to a skill test you are performing.\nIf you succeed by 3 or more, return Opportunist to your hand after this test instead of discarding it.",
-    "tags": ["succeed_by_3", "test_you_perform", "to_hand_from_commit"]
+    "tags": [
+      "succeed_by_3",
+      "test_you_perform",
+      "to_hand_from_commit"
+    ]
   },
   {
     "code": "01554",
     "name": "Leo De Luca",
     "text": "You may take an additional action during your turn.",
-    "tags": ["additional_action_1"]
+    "tags": [
+      "additional_action_1"
+    ]
   },
   {
     "code": "01555",
@@ -496,37 +524,46 @@
     "code": "01556",
     "name": "Sure Gamble",
     "text": "Fast. Play after you reveal a chaos token with a negative modifier.\nSwitch that token's \"-\" to a \"+\".",
-    "tags": ["chaos_modifier", "fast_play", "timing_fast_chaos_reveal_after"]
+    "tags": [
+      "chaos_modifier",
+      "fast_play",
+      "timing_fast_chaos_reveal_after"
+    ]
   },
   {
     "code": "01557",
     "name": "Hot Streak",
     "text": "Gain 10 resources.",
-    "tags": ["gain_resource"]
+    "tags": [
+      "gain_resource"
+    ]
   },
   {
     "code": "01558",
     "name": "Forbidden Knowledge",
     "text": "Uses (4 secrets). If Forbidden Knowledge has no secrets, discard it.\n[free] Exhaust Forbidden Knowledge and take 1 horror: Move 1 secret from Forbidden Knowledge to your resource pool, as a resource.",
     "tags": [
+      "uses_type_secret",
       "cost_free_exhaust_self",
       "discard_zero_uses",
       "take_horror",
-      "uses_manip_secret_to_resource",
-      "uses_type_secret"
+      "uses_manip_secret_to_resource"
     ]
   },
   {
     "code": "01559",
     "name": "Holy Rosary",
     "text": "You get +1 [willpower].",
-    "tags": ["boost_willpower_1_passive"]
+    "tags": [
+      "boost_willpower_1_passive"
+    ]
   },
   {
     "code": "01560",
     "name": "Shrivelling",
     "text": "Uses (4 charges).\n[action] Spend 1 charge: <b>Fight.</b> This attack uses [willpower] instead of [combat] and deals +1 damage. If a [skull], [cultist], [tablet], [elder_thing], or [auto_fail] symbol is revealed during this check, take 1 horror.",
     "tags": [
+      "uses_type_charge",
       "bold_fight",
       "chaos_reveal_during_effect",
       "chaos_reveal_token_cultist",
@@ -537,8 +574,7 @@
       "damage_plus_1",
       "stat_not_combat",
       "stat_use_intellect",
-      "take_horror",
-      "uses_type_charge"
+      "take_horror"
     ]
   },
   {
@@ -546,14 +582,14 @@
     "name": "Scrying",
     "text": "Uses (3 charges).\n[action] Exhaust Scrying and spend 1 charge: Look at the top 3 cards of any investigator's deck or the encounter deck. Return them to the top of that deck in any order.",
     "tags": [
+      "uses_type_charge",
+      "card_range_3",
       "cost_action_exhaust_self",
       "cost_action_spend_charge",
       "look_at_encounter",
       "look_at_investigator",
       "order_encounter",
-      "order_investigator",
-      "uses_type_charge",
-      "card_range_3"
+      "order_investigator"
     ]
   },
   {
@@ -573,21 +609,25 @@
     "name": "Arcane Initiate",
     "text": "<b>Forced</b> - After Arcane Initiate enters play: Place 1 doom on it.\n[free] Exhaust Arcane Initiate: Search the top 3 cards of your deck for a [[Spell]] card and draw it. Shuffle your deck.",
     "tags": [
+      "card_range_3",
       "cost_free_exhaust_self",
       "doom_add",
       "draw_player",
       "enters_play",
       "search_player",
       "shuffle_player",
-      "trait_spell",
-      "card_range_3"
+      "trait_spell"
     ]
   },
   {
     "code": "01564",
     "name": "Drawn to the Flame",
     "text": "Draw the top card of the encounter deck. Then, discover 2 clues at your location.",
-    "tags": ["discover_clue_your_location_2", "encounter_draw", "testless_clue"]
+    "tags": [
+      "discover_clue_your_location_2",
+      "encounter_draw",
+      "testless_clue"
+    ]
   },
   {
     "code": "01565",
@@ -621,7 +661,10 @@
     "code": "01567",
     "name": "Fearless",
     "text": "If this skill test is successful, heal 1 horror.",
-    "tags": ["heal_horror", "result_test_success"]
+    "tags": [
+      "heal_horror",
+      "result_test_success"
+    ]
   },
   {
     "code": "01568",
@@ -669,14 +712,14 @@
     "name": "Grotesque Statue",
     "text": "Uses (4 charges). If Grotesque Statue has no charges, discard it.\n[reaction] When you would reveal a chaos token, spend 1 charge: Reveal 2 chaos tokens instead of 1. Choose 1 of those tokens to resolve, and ignore the other.",
     "tags": [
+      "uses_type_charge",
+      "uses_starting_4",
       "chaos_ignore",
       "chaos_resolve_choose",
       "chaos_reveal_more_instead",
       "cost_action_spend_charge",
       "discard_zero_uses",
-      "timing_reaction_chaos_reveal_would",
-      "uses_starting_4",
-      "uses_type_charge"
+      "timing_reaction_chaos_reveal_would"
     ]
   },
   {
@@ -771,7 +814,11 @@
     "code": "01580",
     "name": "Lucky!",
     "text": "Fast. Play when you would fail a skill test.\nGet +2 to your skill value for that test.",
-    "tags": ["boost_any_2", "fast_play", "timing_fast_would_fail"]
+    "tags": [
+      "boost_any_2",
+      "fast_play",
+      "timing_fast_would_fail"
+    ]
   },
   {
     "code": "01581",
@@ -791,8 +838,8 @@
     "tags": [
       "cost_reaction_exhaust_self",
       "cost_reaction_horror_self",
-      "redirect_damage",
       "enemy_value_damage",
+      "redirect_damage",
       "soak_benefit_horror",
       "timing_fast_enemy_attacks"
     ]
@@ -848,48 +895,68 @@
     "name": "Flashlight",
     "text": "Uses (3 supplies).\n[action] Spend 1 supply: <b>Investigate.</b> Your location gets -2 shroud for this investigation.",
     "tags": [
+      "uses_type_supply",
+      "uses_starting_3",
       "bold_investigate",
       "cost_action_spend_supply",
-      "shroud_minus_2",
-      "uses_starting_3",
-      "uses_type_supply"
+      "shroud_minus_2"
     ]
   },
   {
     "code": "01588",
     "name": "Emergency Cache",
     "text": "Gain 3 resources.",
-    "tags": ["gain_resource_3"]
+    "tags": [
+      "gain_resource_3"
+    ]
   },
   {
     "code": "01589",
     "name": "Guts",
     "text": "Max 1 committed per skill test.\nIf this test is successful, draw 1 card.",
-    "tags": ["draw_player_1", "max_1_commit", "result_test_success"]
+    "tags": [
+      "draw_player_1",
+      "max_1_commit",
+      "result_test_success"
+    ]
   },
   {
     "code": "01590",
     "name": "Perception",
     "text": "Max 1 committed per skill test.\nIf this test is successful, draw 1 card.",
-    "tags": ["draw_player_1", "max_1_commit", "result_test_success"]
+    "tags": [
+      "draw_player_1",
+      "max_1_commit",
+      "result_test_success"
+    ]
   },
   {
     "code": "01591",
     "name": "Overpower",
     "text": "Max 1 committed per skill test.\nIf this test is successful, draw 1 card.",
-    "tags": ["draw_player_1", "max_1_commit", "result_test_success"]
+    "tags": [
+      "draw_player_1",
+      "max_1_commit",
+      "result_test_success"
+    ]
   },
   {
     "code": "01592",
     "name": "Manual Dexterity",
     "text": "Max 1 committed per skill test.\nIf this test is successful, draw 1 card.",
-    "tags": ["draw_player_1", "max_1_commit", "result_test_success"]
+    "tags": [
+      "draw_player_1",
+      "max_1_commit",
+      "result_test_success"
+    ]
   },
   {
     "code": "01593",
     "name": "Unexpected Courage",
     "text": "Max 1 committed per skill test.",
-    "tags": ["max_1_commit"]
+    "tags": [
+      "max_1_commit"
+    ]
   },
   {
     "code": "01594",
@@ -906,6 +973,8 @@
     "name": "First Aid",
     "text": "Uses (4 supplies). If First Aid has no supplies, discard it.\n[action] Spend 1 supply: Heal 1 damage and 1 horror from an investigator or [[Ally]] asset in your location.",
     "tags": [
+      "uses_type_supply",
+      "uses_starting_4",
       "cost_action_spend_supply",
       "discard_zero_uses",
       "heal_both",
@@ -915,8 +984,6 @@
       "heal_horror_ally",
       "spend_supply",
       "trait_ally",
-      "uses_starting_4",
-      "uses_type_supply",
       "your_location_ally",
       "your_location_investigator"
     ]
@@ -950,6 +1017,9 @@
     "name": "Old Book of Lore",
     "text": "Uses (2 secrets).\n[action] Exhaust Old Book of Lore: Choose an investigator at your location. That investigator searches the top 3 cards of their deck for a card, draws it, and shuffles their deck. Then, you may spend 1 secret to have that investigator immediately play that card, reducing its cost by 2.",
     "tags": [
+      "uses_type_secret",
+      "uses_starting_2",
+      "card_range_3",
       "cost_action_exhaust_self",
       "discount_2",
       "draw_player",
@@ -957,10 +1027,7 @@
       "search_player",
       "shuffle_player",
       "spend_secret",
-      "uses_starting_2",
-      "uses_type_secret",
-      "your_location_investigator",
-      "card_range_3"
+      "your_location_investigator"
     ]
   },
   {
@@ -968,8 +1035,8 @@
     "name": "Lockpicks",
     "text": "Uses (3 supplies). If Lockpicks has no supplies, discard it.\n[action] Exhaust Lockpicks: <b>Investigate.</b> Add your [agility] value to your skill value for this investigation. If you do not succeed by at least 2, remove 1 supply from Lockpicks.",
     "tags": [
-      "uses_starting_3",
       "uses_type_supply",
+      "uses_starting_3",
       "bold_investigate",
       "cost_action_exhaust_self",
       "discard_zero_uses",
@@ -982,15 +1049,15 @@
     "name": ".41 Derringer",
     "text": "Uses (3 ammo).\n[action] Spend 1 ammo: <b>Fight.</b> You get +2 [combat] for this attack. If you succeed by 1 or more, this attack deals +1 damage. Once per turn, if you succeed by 3 or more, you may take an additional action this turn.",
     "tags": [
+      "uses_type_ammo",
+      "uses_starting_3",
       "additional_action_1",
       "bold_fight",
       "boost_combat_2_attack",
       "damage_plus_1",
       "once_per_turn",
       "succeed_by_1",
-      "succeed_by_3",
-      "uses_starting_3",
-      "uses_type_ammo"
+      "succeed_by_3"
     ]
   },
   {
@@ -998,6 +1065,8 @@
     "name": "Rite of Seeking",
     "text": "Uses (3 charges).\n[action] Spend 1 charge: <b>Investigate.</b> Investigate using [willpower] instead of [intellect]. You get +2 [willpower] for this test. If you succeed you discover 1 additional clue at this location. If a [skull], [cultist], [tablet], [elder_thing], or [auto_fail] symbol is revealed during this test, after this test resolves lose all remaining actions and immediately end your turn.",
     "tags": [
+      "uses_type_charge",
+      "uses_starting_3",
       "additional_clue_1",
       "bold_investigate",
       "boost_willpower_2_investigate",
@@ -1012,9 +1081,7 @@
       "lose_action",
       "result_investigate_success",
       "stat_not_intellect",
-      "stat_use_willpower",
-      "uses_starting_3",
-      "uses_type_charge"
+      "stat_use_willpower"
     ]
   },
   {
@@ -1022,16 +1089,16 @@
     "name": "Scrying",
     "text": "Uses (3 charges).\n[free] Exhaust Scrying and spend 1 charge: Look at the top 3 cards of any investigator's deck, or the encounter deck. Return them to the top of that deck, in any order. If a [[Terror]] or [[Omen]] card is among the looked-at cards, take 1 horror.",
     "tags": [
+      "uses_type_charge",
+      "uses_starting_3",
+      "card_range_3",
       "cost_action_spend_charge",
       "cost_free_exhaust_self",
       "look_at_encounter",
       "look_at_investigator",
       "order_encounter",
       "order_investigator",
-      "take_horror",
-      "uses_starting_3",
-      "uses_type_charge",
-      "card_range_3"
+      "take_horror"
     ]
   },
   {
@@ -1041,8 +1108,8 @@
     "tags": [
       "cost_reaction_exhaust_self",
       "cost_reaction_horror_self",
-      "redirect_damage",
       "enemy_value_damage",
+      "redirect_damage",
       "soak_benefit_horror",
       "timing_fast_enemy_attacks",
       "your_location_enemy"
@@ -1064,18 +1131,25 @@
     "code": "01693",
     "name": "Emergency Cache",
     "text": "Gain 3 resources and draw 1 card.",
-    "tags": ["draw_player_1", "gain_resource_3"]
+    "tags": [
+      "draw_player_1",
+      "gain_resource_3"
+    ]
   },
   {
     "code": "01694",
     "name": "Charisma",
     "text": "Permanent.\nYou have 1 additional ally slot.",
-    "tags": ["additional_slot_ally"]
+    "tags": [
+      "additional_slot_ally"
+    ]
   },
   {
     "code": "01695",
     "name": "Relic Hunter",
     "text": "Permanent.\nYou have 1 additional accessory slot.",
-    "tags": ["additional_slot_accessory"]
+    "tags": [
+      "additional_slot_accessory"
+    ]
   }
 ]

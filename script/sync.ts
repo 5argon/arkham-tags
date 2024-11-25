@@ -47,10 +47,10 @@ interface Card {
 }
 
 interface Schema {
-  anyOf:{
+  anyOf: {
     const: string;
     description: string;
-  }[]
+  }[];
 }
 
 interface OldSchema {
@@ -97,6 +97,35 @@ async function addCompoundTags(currentTags: string[]): Promise<string[]> {
   return Array.from(newTags);
 }
 
+function sortTags(tags: string[]): string[] {
+  return tags.sort((a, b) => {
+    if (a.startsWith("uses_type_") && !b.startsWith("uses_type_")) return -1;
+    if (!a.startsWith("uses_type_") && b.startsWith("uses_type_")) return 1;
+    if (a.startsWith("uses_starting_") && !b.startsWith("uses_starting_"))
+      return -1;
+    if (!a.startsWith("uses_starting_") && b.startsWith("uses_starting_"))
+      return 1;
+    return a.localeCompare(b);
+  });
+}
+
+// Sort and write back first before working on them.
+{
+  for await (const entry of Deno.readDir(packFolder)) {
+    if (entry.isFile) {
+      const content = await Deno.readTextFile(`${packFolder}/${entry.name}`);
+      const cards: Card[] = JSON.parse(content);
+      cards.forEach((card) => {
+        card.tags = sortTags(card.tags); // Sort tags
+      });
+      await Deno.writeTextFile(
+        `${packFolder}/${entry.name}`,
+        JSON.stringify(cards, null, 2)
+      );
+    }
+  }
+}
+
 const uniqueTags = new Set<string>();
 for await (const entry of Deno.readDir(packFolder)) {
   if (entry.isFile) {
@@ -116,9 +145,9 @@ for await (const entry of Deno.readDir(packFolder)) {
   const schemaTags: Schema = JSON.parse(schemaContent);
   const tagsJsonRead = await Deno.readTextFile(tagsJsonFile);
   const tagsJson: Tag[] = JSON.parse(tagsJsonRead);
-  const tagsMap = new Map(tagsJson.map(tag => [tag.name, tag.description]));
+  const tagsMap = new Map(tagsJson.map((tag) => [tag.name, tag.description]));
 
-  const schemaTagSet = new Set(schemaTags.anyOf.map(tag => tag.const));
+  const schemaTagSet = new Set(schemaTags.anyOf.map((tag) => tag.const));
 
   const newTags = new Set<string>();
   uniqueTags.forEach((t) => {
@@ -136,9 +165,9 @@ for await (const entry of Deno.readDir(packFolder)) {
     }
   });
 
-  schemaTags.anyOf = Array.from(schemaTagSet).map(tag => ({
+  schemaTags.anyOf = Array.from(schemaTagSet).map((tag) => ({
     const: tag,
-    description: tagsMap.get(tag) || ""
+    description: tagsMap.get(tag) || "",
   }));
   schemaTags.anyOf.sort((a, b) => a.const.localeCompare(b.const));
   await Deno.writeTextFile(
@@ -212,7 +241,7 @@ for await (const entry of Deno.readDir(packFolder)) {
       const cards: Card[] = JSON.parse(content);
       cards.forEach(async (card) => {
         card.tags = await addCompoundTags(card.tags); // Add compound tags
-        card.tags.sort();
+        card.tags = sortTags(card.tags); // Sort tags
         cardsTagged.push({ card: card.code, tags: card.tags });
       });
     }
@@ -247,6 +276,7 @@ await mod.emptyDir(statsFolder);
       const packName = entry.name.replace(".json", "");
       cards.forEach(async (card) => {
         card.tags = await addCompoundTags(card.tags); // Add compound tags
+        card.tags = sortTags(card.tags); // Sort tags
         card.tags.forEach((tag) => {
           tagUsageCount[tag].count += 1;
           tagUsageCount[tag].usages.push({

@@ -16,8 +16,8 @@
     "name": "Detective's Colt 1911s",
     "text": "Joe Diamond deck only. Uses (4 ammo).\nUp to 2 [[Tool]] assets you control do not take up hand slots.\n[action] Spend 1 ammo: <b>Fight.</b> You get +1 [combat] and deal +1 damage for this attack. If this attack defeats an enemy, you may move an [[Insight]] event from your discard pile to the bottom of your hunch deck.",
     "tags": [
-      "uses_starting_4",
       "uses_type_ammo",
+      "uses_starting_4",
       "bold_fight",
       "boost_combat_1",
       "damage_plus_1",
@@ -48,8 +48,8 @@
     "name": "Dark Insight",
     "text": "Diana Stanley deck only.\nFast. Play when an investigator at your location draws an encounter card or a weakness.\nCancel all of that card's effects and shuffle it back into its deck. <i>(Do not draw a new card to replace it.)</i>",
     "tags": [
-      "fast_play",
-      "deck_restriction"
+      "deck_restriction",
+      "fast_play"
     ]
   },
   {
@@ -57,8 +57,8 @@
     "name": "\"I'm done runnin'!\"",
     "text": "Rita Young deck only.\nFast. Play only during your turn.\nReady and engage all enemies at your location. For the remainder of your turn, whenever you evade an enemy, instead of exhausting and disengaging from that enemy, you may deal it 1 damage. <i>(All other effects of the successful evasion still apply.)</i>",
     "tags": [
-      "fast_play",
       "deck_restriction",
+      "fast_play",
       "timing_fast_during_your_turn"
     ]
   },
@@ -67,8 +67,8 @@
     "name": "Mystifying Song",
     "text": "Marie Lambeau deck only.\nFast. Play when the agenda would advance by reaching its doom threshold.\nUntil the end of the phase, the agenda cannot advance by reaching its doom threshold. Remove Mystifying Song from the game.",
     "tags": [
-      "fast_play",
-      "deck_restriction"
+      "deck_restriction",
+      "fast_play"
     ]
   },
   {
@@ -109,8 +109,8 @@
     "name": "Fingerprint Kit",
     "text": "Uses (3 supplies).\n[action] Exhaust Fingerprint Kit and spend 1 supply: <b>Investigate.</b> You get +1 [intellect] for this investigation. If you succeed, you discover 1 additional clue at your location.",
     "tags": [
-      "uses_starting_3",
       "uses_type_supply",
+      "uses_starting_3",
       "bold_investigate",
       "boost_intellect_1",
       "cost_action_exhaust_self"
@@ -181,12 +181,12 @@
     "name": "Eldritch Inspiration",
     "text": "Fast. Play when you would resolve an effect on a [mystic] card that triggers \"when,\" \"if,\" or \"after\" a [skull], [cultist], [tablet], [elder_thing], or [auto_fail] symbol is revealed.\nEither cancel that effect, or resolve it an additional time.",
     "tags": [
-      "fast_play",
       "chaos_reveal_token_auto_fail",
       "chaos_reveal_token_cultist",
       "chaos_reveal_token_elder_thing",
       "chaos_reveal_token_skull",
-      "chaos_reveal_token_tablet"
+      "chaos_reveal_token_tablet",
+      "fast_play"
     ]
   },
   {
@@ -304,8 +304,8 @@
     "name": ".45 Thompson",
     "text": "Uses (5 ammo).\n[action] Spend 1 ammo: <b>Fight.</b> You get +2 [combat] and deal +1 damage for this attack.",
     "tags": [
-      "uses_starting_5",
       "uses_type_ammo",
+      "uses_starting_5",
       "bold_fight",
       "boost_combat_2",
       "damage_plus_1"
@@ -316,8 +316,8 @@
     "name": "Scroll of Secrets",
     "text": "Uses (3 secrets).\n[action] Exhaust Scroll of Secrets and spend 1 secret: Look at the bottom card of any investigator's deck or the encounter deck. Then, either discard that card, add it to its owner's hand, place it on the bottom of its deck, or place it on the top of its deck.",
     "tags": [
-      "uses_starting_3",
       "uses_type_secret",
+      "uses_starting_3",
       "cost_action_exhaust_self"
     ]
   },
@@ -326,8 +326,8 @@
     "name": "Tennessee Sour Mash",
     "text": "Uses (2 supplies).\n[fast] Exhaust Tennessee Sour Mash and spend 1 supply: You get +2 [willpower] for a skill test on a treachery card.\n[action] Discard Tennessee Sour Mash: <b>Fight.</b> You get +3 [combat] for this attack.",
     "tags": [
-      "uses_starting_2",
       "uses_type_supply",
+      "uses_starting_2",
       "bold_fight",
       "boost_combat_3",
       "boost_willpower_2"
@@ -338,8 +338,8 @@
     "name": "Enchanted Blade",
     "text": "Uses (3 charges).\n[action]: <b>Fight.</b> You get +1 [combat] for this attack. As an additional cost to initiate this ability, you may spend 1 charge to empower the blade. If you do, you get +1 [combat] and deal +1 damage for this attack.",
     "tags": [
-      "uses_starting_3",
       "uses_type_charge",
+      "uses_starting_3",
       "bold_fight",
       "boost_combat_1",
       "damage_plus_1"
@@ -378,8 +378,8 @@
     "name": "Mr. \"Rook\"",
     "text": "Uses (3 secrets).\n[free] Exhaust Mr. \"Rook\" and spend 1 secret: Search the top 3, 6, or 9 cards of your deck for any card and draw it. If at least 1 weakness is among the searched cards, draw 1 of them, as well. Shuffle your deck.",
     "tags": [
-      "uses_starting_3",
       "uses_type_secret",
+      "uses_starting_3",
       "cost_fast_exhaust_self"
     ]
   },
@@ -462,8 +462,8 @@
     "name": ".45 Thompson",
     "text": "Uses (5 ammo).\nAmmo spent from .45 Thompson is placed in your resource pool, as resources.\n[action] Spend 1 ammo: <b>Fight.</b> You get +2 [combat] and deal +1 damage for this attack.",
     "tags": [
-      "uses_starting_5",
       "uses_type_ammo",
+      "uses_starting_5",
       "bold_fight",
       "boost_combat_2",
       "damage_plus_1"
@@ -474,8 +474,8 @@
     "name": ".45 Thompson",
     "text": "Uses (5 ammo).\n[action] Spend 1 ammo: <b>Fight.</b> You get +2 [combat] and deal +1 damage for this attack. If you succeed by at least X, you may spend 1 ammo to deal this attack's damage to another enemy at your location, where X is that enemy's fight value.",
     "tags": [
-      "uses_starting_5",
       "uses_type_ammo",
+      "uses_starting_5",
       "bold_fight",
       "boost_combat_2",
       "damage_plus_1"
@@ -486,8 +486,8 @@
     "name": "Scroll of Secrets",
     "text": "Uses (3 secrets).\n[action] Exhaust Scroll of Secrets and spend 1 secret: Look at the bottom 3 cards of any investigator's deck or the encounter deck. You may discard 1 of those cards. You may add 1 of those cards to its owner's hand. Place the rest of those cards on either the top or bottom of their deck, in any order.",
     "tags": [
-      "uses_starting_3",
       "uses_type_secret",
+      "uses_starting_3",
       "cost_action_exhaust_self"
     ]
   },
@@ -496,8 +496,8 @@
     "name": "Scroll of Secrets",
     "text": "Uses (4 secrets).\n[action] Exhaust Scroll of Secrets and spend 1 secret: Look at the top or bottom card of any investigator's deck or the encounter deck. Then, either discard that card, add it to its owner's hand, place it on the bottom of its deck, or place it on top of its deck.",
     "tags": [
-      "uses_starting_4",
       "uses_type_secret",
+      "uses_starting_4",
       "cost_action_exhaust_self"
     ]
   },
@@ -506,13 +506,13 @@
     "name": "Tennessee Sour Mash",
     "text": "Fast. Uses (2 supplies).\n[fast] Exhaust Tennessee Sour Mash and spend 1 supply: You get +3 [willpower] for a skill test on a treachery card.\n[action] Discard Tennessee Sour Mash: <b>Fight.</b> You get +3 [combat] and deal +1 damage for this attack.",
     "tags": [
-      "fast_play",
-      "uses_starting_2",
       "uses_type_supply",
+      "uses_starting_2",
       "bold_fight",
       "boost_combat_3",
       "boost_willpower_3",
-      "damage_plus_1"
+      "damage_plus_1",
+      "fast_play"
     ]
   },
   {
@@ -520,8 +520,8 @@
     "name": "Tennessee Sour Mash",
     "text": "Uses (3 supplies).\n[fast] Exhaust Tennessee Sour Mash and spend 1 supply: You get +2 [willpower] for a skill test on a treachery card.\n[action] Discard Tennessee Sour Mash: <b>Fight.</b> You get +3 [combat] for this attack. If this attack succeeds against a non-[[Elite]] enemy, automatically evade it.",
     "tags": [
-      "uses_starting_3",
       "uses_type_supply",
+      "uses_starting_3",
       "bold_fight",
       "boost_combat_3",
       "boost_willpower_2",
@@ -533,8 +533,8 @@
     "name": "Enchanted Blade",
     "text": "Uses (3 charges).\n[action]: <b>Fight.</b> You get +2 [combat] for this attack. If you succeed, you may spend 1 charge to empower the blade, dealing +1 damage for this attack. If the blade is empowered and this attack defeats an enemy, draw 1 card and heal 1 horror.",
     "tags": [
-      "uses_starting_3",
       "uses_type_charge",
+      "uses_starting_3",
       "bold_fight",
       "boost_combat_2",
       "damage_plus_1",
@@ -546,8 +546,8 @@
     "name": "Enchanted Blade",
     "text": "Uses (4 charges).\n[action]: <b>Fight.</b> You get +2 [combat] for this attack. As an additional cost to use this ability, you may spend up to 2 charges to empower the blade (for each charge spent in this way, you get +1 [combat] and deal +1 damage for this attack).",
     "tags": [
-      "uses_starting_4",
       "uses_type_charge",
+      "uses_starting_4",
       "bold_fight",
       "boost_combat_1",
       "boost_combat_2",
@@ -593,10 +593,10 @@
     "name": "Telescopic Sight",
     "text": "Fast. Attach to a [[Firearm]] asset you control that takes up two hand slots. Attached asset cannot be used to attack enemies engaged with you.\n[reaction] When you perform a <b>Fight</b> action using attached asset, if you are engaged with no enemies, exhaust Telecopic Sight: This attack can target a non-[[Elite]] enemy at a connecting location. Ignore the aloof and retaliate keywords for this attack.",
     "tags": [
-      "fast_play",
       "cost_reaction_exhaust_self",
       "elite_unusable",
       "engage_with_you",
+      "fast_play",
       "trait_firearm"
     ]
   },
@@ -605,8 +605,8 @@
     "name": "Knowledge is Power",
     "text": "Fast. Play only during your turn.\nChoose a [[Tome]] or [[Spell]] asset you control, or reveal a [[Tome]] or [[Spell]] asset from your hand. Resolve an [action] or [free] ability on that asset, ignoring all costs <i>(including its [action] cost, if any)</i>. Then, if that asset was in your hand, you may discard it to draw 1 card.",
     "tags": [
-      "fast_play",
       "draw_player_1",
+      "fast_play",
       "timing_fast_during_your_turn",
       "trait_spell",
       "trait_tome"
@@ -617,8 +617,8 @@
     "name": "Esoteric Atlas",
     "text": "Uses (4 secrets).\n[action] Spend 1 secret and exhaust Esoteric Atlas: Choose a revealed location that is exactly 2 connections away from your location. Move to that location.",
     "tags": [
-      "uses_starting_4",
       "uses_type_secret",
+      "uses_starting_4",
       "cost_action_exhaust_self"
     ]
   },
@@ -627,8 +627,8 @@
     "name": "Investments",
     "text": "Uses (0 supplies). Limit 10 supplies on Investments.\n[free] Exhaust Investments: Place 1 supply on it.\n[action] Exhaust and discard Investments: Move all supplies from it to your resource pool, as resources.",
     "tags": [
-      "uses_starting_0",
       "uses_type_supply",
+      "uses_starting_0",
       "cost_action_exhaust_self",
       "cost_fast_exhaust_self"
     ]
@@ -673,8 +673,8 @@
     "name": "Mk 1 Grenades",
     "text": "Uses (3 supplies). If Mk 1 Grenades has no supplies, discard it.\n[action] Spend 1 supply: <b>Fight.</b> You get +2 [combat] for this attack. If this attack is successful, instead of its standard damage, this attack deals 2 damage to each enemy and each other investigator at the attacked enemy's location <i>(any additional damage is dealt to the attacked enemy).</i>",
     "tags": [
-      "uses_starting_3",
       "uses_type_supply",
+      "uses_starting_3",
       "bold_fight",
       "boost_combat_2",
       "discard_zero_uses"
@@ -719,8 +719,8 @@
     "name": "Dayana Esperence",
     "text": "Uses (3 secrets).\n[free]: Attach a non-weakness [[Spell]] event from your hand to Dayana Esperence. Limit 1 event attached to her.\nThe attached event may be played as if it were in your hand. It is not placed in your discard pile after it is played <i>(it remains attached)</i>. As an additional cost to play the attached event, exhaust Dayana Esperence and spend 1 secret.",
     "tags": [
-      "uses_starting_3",
       "uses_type_secret",
+      "uses_starting_3",
       "trait_spell"
     ]
   },
@@ -859,9 +859,9 @@
     "name": "Eucatastrophe",
     "text": "Fast. Play when you reveal a chaos token that would reduce your skill value to 0 during a skill test (including the [auto_fail] token).\nCancel that token and treat it as an [elder_sign] token, instead.",
     "tags": [
-      "fast_play",
       "chaos_reveal_token_auto_fail",
-      "chaos_reveal_token_elder_sign"
+      "chaos_reveal_token_elder_sign",
+      "fast_play"
     ]
   }
 ]

@@ -4,8 +4,8 @@
     "name": "Becky",
     "text": "Tommy Muldoon deck only. Uses (2 ammo).\nEach resource gained from Tommy Muldoon's [reaction] ability may instead be placed on Becky, as ammo.\n[action] Spend 1 ammo: <b>Fight.</b> You get +2 [combat] and deal +1 damage for this attack.",
     "tags": [
-      "uses_starting_2",
       "uses_type_ammo",
+      "uses_starting_2",
       "bold_fight",
       "boost_combat_2",
       "damage_plus_1",
@@ -25,8 +25,8 @@
     "name": "Bounty Contracts",
     "text": "Permanent. Tony Morgan deck only. Uses (6 bounties).\n[reaction]: After an enemy enters play: Move 1-3 bounties from Bounty Contracts to that enemy, to a maximum of that enemy's health.\n<b>Forced</b> - After you defeat an enemy with 1 or more bounties on it: Move its bounties to your resource pool, as resources.",
     "tags": [
-      "uses_starting_6",
       "uses_type_bounties",
+      "uses_starting_6",
       "deck_restriction"
     ]
   },
@@ -35,8 +35,8 @@
     "name": "Tony's .38 Long Colt",
     "text": "Tony Morgan deck only. Uses (3 ammo).\n[reaction]: After you play Tony's .38 Long Colt: Play another Tony's .38 Long Colt from your hand, at no cost.\n[action] Spend 1 ammo: <b>Fight.</b> You get +1 [combat] for each bounty on the attacked enemy. This attack deals +1 damage. If this attack defeats an enemy with 1 or more bounties on it, place 1 bounty on Bounty Contracts.",
     "tags": [
-      "uses_starting_3",
       "uses_type_ammo",
+      "uses_starting_3",
       "bold_fight",
       "boost_combat_1",
       "damage_plus_1",
@@ -48,8 +48,8 @@
     "name": "Gate Box",
     "text": "Luke Robinson deck only. Uses (3 charges).\n[fast] Exhaust Gate Box and spend 1 charge: Disengage from each enemy engaged with you, search your bonded cards for Dream-Gate <i>(Wondrous Journey)</i>, put it into play, and move to it.",
     "tags": [
-      "uses_starting_3",
       "uses_type_charge",
+      "uses_starting_3",
       "deck_restriction",
       "engage_with_you"
     ]
@@ -108,8 +108,8 @@
     "name": "Pendant of the Queen",
     "text": "Bonded (Segment of Onyx). Uses (3 charges). If this card has no charges, set it aside, out of play, and shuffle 3 set-aside copies of Segment of Onyx into your deck.\n[free] Exhaust Pendant of the Queen and spend 1 charge: Choose a revealed location and select one - move to that location, discover 1 clue at that location, or automatically evade an enemy at that location.",
     "tags": [
-      "uses_starting_3",
       "uses_type_charge",
+      "uses_starting_3",
       "cost_fast_exhaust_self"
     ]
   },
@@ -174,9 +174,9 @@
     "name": "Hope",
     "text": "Bonded (Miss Doyle). Fast.\n<b>Forced</b> - After Hope enters play: Discard Zeal and Augur.\n[action] If Hope is ready, exhaust or discard him: <b>Evade.</b> Attempt to evade with a base [agility] value of 5. (If you discarded Hope, this test is automatically successful. Then, you may shuffle Hope into your deck to put Zeal or Augur into play from your discard pile.)",
     "tags": [
-      "fast_play",
       "bold_evade",
-      "cost_action_exhaust_self"
+      "cost_action_exhaust_self",
+      "fast_play"
     ]
   },
   {
@@ -184,9 +184,9 @@
     "name": "Zeal",
     "text": "Bonded (Miss Doyle). Fast.\n<b>Forced</b> - After Zeal enters play: Discard Hope and Augur.\n[action] If Zeal is ready, exhaust or discard her: <b>Fight.</b> Fight with a base [combat] value of 5. (If you discarded Zeal, this test is automatically successful. Then, you may shuffle Zeal into your deck to put Hope or Augur into play from your discard pile.)",
     "tags": [
-      "fast_play",
       "bold_fight",
-      "cost_action_exhaust_self"
+      "cost_action_exhaust_self",
+      "fast_play"
     ]
   },
   {
@@ -194,9 +194,9 @@
     "name": "Augur",
     "text": "Bonded (Miss Doyle). Fast.\n<b>Forced</b> - After Augur enters play: Discard Hope and Zeal.\n[action] If Augur is ready, exhaust or discard her: <b>Investigate.</b> Investigate with a base [intellect] value of 5. (If you discarded Augur, this test is automatically successful. Then, you may shuffle Augur into your deck to put Hope or Zeal into play from your discard pile.)",
     "tags": [
-      "fast_play",
       "bold_investigate",
-      "cost_action_exhaust_self"
+      "cost_action_exhaust_self",
+      "fast_play"
     ]
   },
   {
@@ -258,8 +258,8 @@
     "name": "Scroll of Prophecies",
     "text": "Uses (4 secrets).\n[action] Spend 1 secret: Choose an investigator at your location. That investigator draws 3 cards, then discards 1 card from their hand.",
     "tags": [
-      "uses_starting_4",
       "uses_type_secret",
+      "uses_starting_4",
       "draw_player_3"
     ]
   },
@@ -309,8 +309,8 @@
     "name": "Otherworld Codex",
     "text": "Uses (3 secrets).\n[action] Exhaust Otherworld Codex and spend 1 secret: Search the top 9 cards of the encounter deck and choose a non-[[Elite]] card among them. Discard a copy of the chosen card from play. Shuffle all of the searched cards back into the encounter deck.",
     "tags": [
-      "uses_starting_3",
       "uses_type_secret",
+      "uses_starting_3",
       "cost_action_exhaust_self",
       "elite_unusable"
     ]
@@ -345,8 +345,8 @@
     "name": "Gregory Gry",
     "text": "Uses (9 resources).\n[reaction] When you initiate a skill test, spend up to 3 resources from Gregory Gry: If this skill test succeeds by at least that amount, gain that many resources.",
     "tags": [
-      "uses_starting_9",
-      "uses_type_resource"
+      "uses_type_resource",
+      "uses_starting_9"
     ]
   },
   {
@@ -354,8 +354,8 @@
     "name": "Healing Words",
     "text": "Uses (3 charges).\n[action] Spend 1 charge: Heal 1 damage from an investigator at your location.",
     "tags": [
-      "uses_starting_3",
-      "uses_type_charge"
+      "uses_type_charge",
+      "uses_starting_3"
     ]
   },
   {
@@ -394,8 +394,8 @@
     "name": ".35 Winchester",
     "text": "Uses (5 ammo).\n[action] Spend 1 ammo: <b>Fight.</b> You get +2 [combat] for this attack. If a +1, 0, or [elder_sign] chaos token is revealed during this attack, this attack deals +2 damage.",
     "tags": [
-      "uses_starting_5",
       "uses_type_ammo",
+      "uses_starting_5",
       "bold_fight",
       "boost_combat_2",
       "chaos_reveal_token_elder_sign",
@@ -492,8 +492,8 @@
     "name": "Heroic Rescue",
     "text": "Fast. Play when a non-[[Elite]] enemy would attack another investigator at your location or a connecting location.\nMove to that location if you are not already there. Engage that enemy and resolve its attack against you instead. Then, deal it 1 damage.",
     "tags": [
-      "fast_play",
-      "elite_unusable"
+      "elite_unusable",
+      "fast_play"
     ]
   },
   {
@@ -592,8 +592,8 @@
     "name": "Empty Vessel",
     "text": "Limit 1 per deck. Uses (0 charges).\n[reaction] After you defeat an enemy: Place 1 charge on Empty Vessel.\n[fast] If there are at least 3 charges on Empty Vessel: Search your bonded cards for Wish Eater and swap it with Empty Vessel, moving all charges from Empty Vessel to Wish Eater.",
     "tags": [
-      "uses_starting_0",
       "uses_type_charge",
+      "uses_starting_0",
       "limit_1_per_deck"
     ]
   },
@@ -621,8 +621,8 @@
     "name": "Old Book of Lore",
     "text": "Uses (2 secrets).\n[action] Exhaust Old Book of Lore: Choose an investigator at your location. That investigator searches the top 3 cards of their deck for a card, draws it, and shuffles their deck. Then, you may spend 1 secret to have that investigator immediately play that card, reducing its cost by 2.",
     "tags": [
-      "uses_starting_2",
       "uses_type_secret",
+      "uses_starting_2",
       "cost_action_exhaust_self"
     ]
   },
@@ -704,8 +704,8 @@
     "name": "Sawed-Off Shotgun",
     "text": "Uses (2 ammo).\n[action] Spend 1 ammo: <b>Fight.</b> Instead of its standard damage, this attack deals 1 damage for each point you succeed by (to a minimum of 1, to a maximum of 6). If you fail and would damage another investigator, this attack deals 1 damage for each point you fail by (to a minimum of 1, to a maximum of 6).",
     "tags": [
-      "uses_starting_2",
       "uses_type_ammo",
+      "uses_starting_2",
       "bold_fight"
     ]
   },
@@ -714,8 +714,8 @@
     "name": "Mind's Eye",
     "text": "Myriad. Uses (3 secrets).\n[reaction] When you would test your [intellect], [combat], or [agility], spend 1 secret: Test your [willpower] instead.\n[fast] Discard a copy of Mind's Eye from your hand: Place 2 secrets on this copy of Mind's Eye.",
     "tags": [
-      "uses_starting_3",
-      "uses_type_secret"
+      "uses_type_secret",
+      "uses_starting_3"
     ]
   },
   {

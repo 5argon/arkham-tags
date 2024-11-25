@@ -7,8 +7,8 @@
       "deal_damage_enemy",
       "engage_with_you",
       "spend_resource",
-      "timing_reaction_after_enemy_engages",
-      "testless_damage"
+      "testless_damage",
+      "timing_reaction_after_enemy_engages"
     ]
   },
   {
@@ -16,8 +16,8 @@
     "name": "Search for the Truth",
     "text": "Rex Murphy deck only.\nDraw X cards, where X is the number of clues on Rex Murphy (to a maximum of 5).",
     "tags": [
-      "draw_player",
-      "current_clue_value"
+      "current_clue_value",
+      "draw_player"
     ]
   },
   {
@@ -25,11 +25,11 @@
     "name": "Jenny's Twin .45s",
     "text": "Jenny Barnes deck only. Uses (X ammo).\n[action] Spend 1 ammo: <b>Fight.</b> You get +2 [combat] for this attack. This attack deals +1 damage.",
     "tags": [
+      "uses_type_ammo",
       "bold_fight",
       "boost_combat_2_attack",
       "damage_plus_1",
-      "spend_ammo",
-      "uses_type_ammo"
+      "spend_ammo"
     ]
   },
   {
@@ -38,10 +38,10 @@
     "text": "Jim Culver deck only.\n[reaction] When a [skull] token is revealed during a skill test, exhaust Jim's Trumpet: Heal 1 horror from an investigator at your location or a connecting location.",
     "tags": [
       "chaos_reveal_token_skull",
+      "connecting_location_investigator",
       "heal_horror",
       "timing_reaction_chaos_reveal_after",
-      "your_location_investigator",
-      "connecting_location_investigator"
+      "your_location_investigator"
     ]
   },
   {
@@ -84,10 +84,10 @@
     "name": "Teamwork",
     "text": "Investigators at your location may give or trade any number of [[Item]] assets, [[Ally]] assets, or resources among one another.",
     "tags": [
-      "transfer_asset",
-      "transfer_resource",
       "trait_ally",
       "trait_item",
+      "transfer_asset",
+      "transfer_resource",
       "your_location_investigator"
     ]
   },
@@ -149,13 +149,13 @@
     "name": "Liquid Courage",
     "text": "Uses (4 supplies).\n[action] Spend 1 supply: Choose an investigator at your location to heal 1 horror. Then, that investigator tests [willpower] (2). If the test succeeds, he or she heals 1 additional horror. If the test fails, he or she discards 1 card at random from his or her hand.",
     "tags": [
+      "uses_type_supply",
       "discard_card_random",
       "heal_horror",
       "initiate_test_willpower_2",
       "result_test_fail",
       "result_test_success",
       "spend_supply",
-      "uses_type_supply",
       "your_location_investigator"
     ]
   },
@@ -195,14 +195,14 @@
     "name": "Rite of Seeking",
     "text": "Uses (3 charges).\n[action] Spend 1 charge: <b>Investigate.</b> Investigate using [willpower] instead of [intellect]. If you succeed, discover 1 additional clue at this location. If a [skull], [cultist], [tablet], [elder_thing], or [auto_fail] symbol is revealed during this test, after this test resolves lose all remaining actions and immediately end your turn.",
     "tags": [
+      "uses_type_charge",
       "additional_clue_1",
       "bold_investigate",
       "chaos_reveal_token_cultist",
       "chaos_reveal_token_skull",
       "result_investigate_success",
       "stat_not_intellect",
-      "stat_use_willpower",
-      "uses_type_charge"
+      "stat_use_willpower"
     ]
   },
   {
@@ -225,9 +225,9 @@
     "name": "Clarity of Mind",
     "text": "Uses (3 charges).\n[action] Spend 1 charge: Heal 1 horror from an investigator at your location.",
     "tags": [
+      "uses_type_charge",
       "cost_action_spend_charge",
       "heal_horror",
-      "uses_type_charge",
       "your_location_investigator"
     ]
   },
@@ -390,14 +390,14 @@
     "name": "Song of the Dead",
     "text": "Uses (5 charges).\n[action] Spend 1 charge: <b>Fight.</b> This attack uses [willpower] instead of [combat]. You get +1 [willpower] for this attack. If a [skull] symbol is revealed during this attack, this attack deals +2 damage.",
     "tags": [
+      "uses_type_charge",
       "bold_fight",
       "boost_willpower_1_attack",
       "chaos_reveal_token_skull",
       "cost_action_spend_charge",
       "damage_plus_2",
       "stat_not_combat",
-      "stat_use_willpower",
-      "uses_type_charge"
+      "stat_use_willpower"
     ]
   },
   {
@@ -405,11 +405,11 @@
     "name": "Oops!",
     "text": "Fast. Play after you fail a skill test by 2 or less while attacking an enemy engaged with you.\nDeal this attack's damage to a different enemy at your location.",
     "tags": [
-      "redirect_damage",
       "enemy_value_damage",
       "engage_with_you",
       "fail_by_2_or_less",
       "fast_play",
+      "redirect_damage",
       "your_location_enemy"
     ]
   },
@@ -419,14 +419,14 @@
     "text": "[action]: <b>Fight</b>. You get +1 [combat] for this attack.\n[action] Exile Fire Extinguisher: <b>Evade</b>. You get +3 [agility] for this test. If you are successful, evade each other enemy engaged with you, as well.",
     "tags": [
       "aoe_evade",
+      "aoe_evade",
       "bold_evade",
       "bold_fight",
       "boost_agility_3_evade",
       "boost_combat_1_attack",
       "engage_with_you",
       "exile",
-      "result_evade_success",
-      "aoe_evade"
+      "result_evade_success"
     ]
   },
   {
@@ -437,13 +437,13 @@
       "any_investigator",
       "bold_fight",
       "boost_combat_3_attack",
+      "card_range_9",
       "damage_plus_2",
       "exile",
       "search_player",
       "shuffle_player",
       "to_play_from_deck",
-      "trait_ally",
-      "card_range_9"
+      "trait_ally"
     ]
   },
   {
@@ -451,11 +451,11 @@
     "name": "Smoking Pipe",
     "text": "Uses (3 supplies).\n[free] Spend 1 supply, exhaust Smoking Pipe, and take 1 damage: Heal 1 horror.",
     "tags": [
+      "uses_type_supply",
       "cost_free_exhaust_self",
       "heal_horror",
       "spend_supply",
-      "take_damage",
-      "uses_type_supply"
+      "take_damage"
     ]
   },
   {
@@ -463,11 +463,11 @@
     "name": "Painkillers",
     "text": "Uses (3 supplies).\n[free] Spend 1 supply, exhaust Painkillers, and take 1 horror: Heal 1 damage.",
     "tags": [
+      "uses_type_supply",
       "cost_free_exhaust_self",
       "heal_damage",
       "spend_supply",
-      "take_horror",
-      "uses_type_supply"
+      "take_horror"
     ]
   },
   {
@@ -484,10 +484,10 @@
     "name": "Stand Together",
     "text": "Choose another investigator at your location. Both you and that investigator draw 2 cards and gain 2 resources.",
     "tags": [
+      "aoe_support",
       "draw_player_2",
       "gain_resource_2",
-      "your_location_investigator",
-      "aoe_support"
+      "your_location_investigator"
     ]
   },
   {
@@ -551,14 +551,14 @@
     "name": "Shrivelling",
     "text": "Uses (4 charges).\n[action] Spend one charge: <b>Fight.</b> This attack uses [willpower] instead of [combat]. You get +2 [willpower] and deal +1 damage for this attack. If a [skull], [cultist], [tablet], [elder_thing], or [auto_fail] symbol is revealed during this attack, take 1 horror. ",
     "tags": [
+      "uses_type_charge",
       "bold_fight",
       "boost_willpower_2_attack",
       "chaos_reveal_token_skull",
       "cost_action_spend_charge",
       "damage_plus_1",
       "stat_not_combat",
-      "stat_use_intellect",
-      "uses_type_charge"
+      "stat_use_intellect"
     ]
   },
   {
@@ -604,11 +604,11 @@
     "name": "Prepared for the Worst",
     "text": "Search the top 9 cards of your deck for a [[Weapon]] asset and add it to your hand. Shuffle your deck.",
     "tags": [
+      "card_range_9",
       "search_player",
       "shuffle_player",
       "to_hand_from_deck",
-      "trait_weapon",
-      "card_range_9"
+      "trait_weapon"
     ]
   },
   {
@@ -736,11 +736,11 @@
     "name": "Springfield M1903",
     "text": "Uses (3 ammo).\n[action] Spend 1 ammo: <b>Fight</b>. You get +3 [combat] and deal +2 damage for this attack. Cannot be used to attack enemies engaged with you.",
     "tags": [
+      "uses_type_ammo",
       "boost_combat_3_attack",
       "cost_action_spend_ammo",
       "damage_plus_2",
-      "engage_not_with_you",
-      "uses_type_ammo"
+      "engage_not_with_you"
     ]
   },
   {
@@ -806,13 +806,13 @@
     "tags": [
       "boost_intellect_1_passive",
       "bottom_of_deck",
+      "card_range_1",
       "cost_free_exhaust_self",
       "doom_add",
       "look_at_encounter",
       "look_at_investigator",
       "order_encounter",
-      "order_investigator",
-      "card_range_1"
+      "order_investigator"
     ]
   },
   {
@@ -820,6 +820,8 @@
     "name": "Rite of Seeking",
     "text": "Uses (3 charges).\n[action] Spend 1 charge: <b>Investigate.</b> Investigate using [willpower] instead of [intellect]. You get +2 [willpower] for this test. If successful, you discover 2 additional clues at this location. If a [skull], [cultist], [tablet], [elder_thing], or [auto_fail] symbol is revealed during this test, after this test resolves lose all remaining actions and immediately end your turn.",
     "tags": [
+      "uses_type_charge",
+      "uses_starting_3",
       "additional_clue_2",
       "bold_investigate",
       "boost_willpower_2_investigate",
@@ -833,9 +835,7 @@
       "lose_action",
       "result_test_success",
       "stat_not_intellect",
-      "stat_use_willpower",
-      "uses_starting_3",
-      "uses_type_charge"
+      "stat_use_willpower"
     ]
   },
   {
@@ -889,11 +889,11 @@
     "name": "Strange Solution",
     "text": "Researched. Uses (4 supplies).\n[action] Spend 1 supply: Heal 2 damage from an investigator at your location.",
     "tags": [
+      "uses_type_supply",
+      "uses_starting_4",
       "cost_action_spend_supply",
       "heal_damage",
       "researched",
-      "uses_starting_4",
-      "uses_type_supply",
       "your_location_investigator"
     ]
   },
@@ -902,13 +902,13 @@
     "name": "Strange Solution",
     "text": "Researched. Uses (3 supplies).\n[action] Spend 1 supply: <b>Fight.</b> Attack with a base [combat] skill of 6. This attack deals +2 damage.",
     "tags": [
+      "uses_type_supply",
+      "uses_starting_3",
       "bold_fight",
       "cost_action_spend_supply",
       "damage_plus_2",
       "researched",
-      "stat_base_combat_6",
-      "uses_starting_3",
-      "uses_type_supply"
+      "stat_base_combat_6"
     ]
   },
   {
@@ -916,12 +916,12 @@
     "name": "Strange Solution",
     "text": "Researched. Uses (4 supplies).\n[action] Spend 1 supply: <b>Evade.</b> Evade with a base [agility] skill of 6.",
     "tags": [
+      "uses_type_supply",
+      "uses_starting_4",
       "bold_evade",
       "cost_action_spend_supply",
       "researched",
-      "stat_base_agility_6",
-      "uses_starting_4",
-      "uses_type_supply"
+      "stat_base_agility_6"
     ]
   },
   {
@@ -1040,12 +1040,12 @@
     "name": "Lightning Gun",
     "text": "Uses (3 ammo).\n[action] Spend 1 ammo: <b>Fight.</b> You get +5 [combat] for this attack. This attack deals +2 damage.",
     "tags": [
+      "uses_type_ammo",
+      "uses_starting_3",
       "bold_fight",
       "boost_combat_5_attack",
       "cost_action_spend_ammo",
-      "damage_plus_2",
-      "uses_starting_3",
-      "uses_type_ammo"
+      "damage_plus_2"
     ]
   },
   {
@@ -1065,8 +1065,8 @@
     "text": "<b>Investigate.</b> The difficulty of this skill test is equal to the highest shroud value among revealed locations in play. If you succeed, discover 1 clue from each revealed location in play.",
     "tags": [
       "bold_investigate",
-      "remote_discover_clue",
       "location_revealed",
+      "remote_discover_clue",
       "result_investigate_success",
       "shroud_dependent"
     ]
@@ -1076,13 +1076,13 @@
     "name": "Chicago Typewriter",
     "text": "Uses (4 ammo).\n[action] Spend 1 ammo: <b>Fight.</b> You may spend any number of additional actions when you perform this attack. You get +2 [combat] for this attack for each action being spent (including this ability's [action] cost). This attack deals +2 damage.",
     "tags": [
+      "uses_type_ammo",
+      "uses_starting_4",
       "bold_fight",
       "boost_combat_2_attack",
       "cost_action_spend_ammo",
       "damage_plus_2",
-      "spend_action",
-      "uses_starting_4",
-      "uses_type_ammo"
+      "spend_action"
     ]
   },
   {
@@ -1099,6 +1099,8 @@
     "name": "Shrivelling",
     "text": "Uses (4 charges).\n[action] Spend 1 charge: <b>Fight.</b> This attack uses [willpower] instead of [combat]. You get +3 [willpower] and deal +2 damage for this attack. If a [skull], [cultist], [tablet], [elder_thing], or [auto_fail] symbol is revealed during this attack, take 2 horror.",
     "tags": [
+      "uses_type_charge",
+      "uses_starting_4",
       "bold_fight",
       "boost_willpower_3_attack",
       "chaos_reveal_token_auto_fail",
@@ -1110,9 +1112,7 @@
       "damage_plus_2",
       "stat_not_combat",
       "stat_use_willpower",
-      "take_horror",
-      "uses_starting_4",
-      "uses_type_charge"
+      "take_horror"
     ]
   },
   {
@@ -1133,8 +1133,8 @@
     "tags": [
       "cost_reaction_exhaust_self",
       "cost_reaction_horror_self",
-      "redirect_damage",
       "enemy_value_damage",
+      "redirect_damage",
       "soak_benefit_horror",
       "timing_fast_enemy_attacks",
       "your_location_enemy"

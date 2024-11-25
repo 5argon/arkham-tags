@@ -24,8 +24,8 @@
     "name": "Scrying Mirror",
     "text": "Uses (4 secrets).\n[reaction] After a skill test at your location begins, exhaust Scrying Mirror and spend 1 secret: Perform the \"reveal chaos token\" step of the test now <i>(before committing cards)</i>, instead of after committing cards.",
     "tags": [
-      "uses_starting_4",
       "uses_type_secret",
+      "uses_starting_4",
       "cost_reaction_exhaust_self"
     ]
   },
@@ -34,8 +34,8 @@
     "name": "Azure Flame",
     "text": "Uses (4 charges).\n[action] Spend 1 charge: <b>Fight.</b> This attack uses [willpower] instead of [combat] and deals +1 damage. If an [elder_sign], \"+1,\" or \"0\" token is revealed during this attack, take 1 damage.",
     "tags": [
-      "uses_starting_4",
       "uses_type_charge",
+      "uses_starting_4",
       "bold_fight",
       "chaos_reveal_token_elder_sign",
       "damage_plus_1",
@@ -47,8 +47,8 @@
     "name": "Clairvoyance",
     "text": "Uses (3 charges).\n[action] Spend 1 charge: <b>Investigate.</b> Investigate using [willpower] instead of [intellect]. If you succeed, discover 1 additional clue at this location. If an [elder_sign], \"+1,\" or \"0\" token is revealed during this investigation, take 1 horror.",
     "tags": [
-      "uses_starting_3",
       "uses_type_charge",
+      "uses_starting_3",
       "bold_investigate",
       "chaos_reveal_token_elder_sign",
       "take_horror"
@@ -59,8 +59,8 @@
     "name": "Ineffable Truth",
     "text": "Uses (3 charges).\n[action] Spend 1 charge: <b>Evade.</b> This evasion attempt uses [willpower] instead of [agility]. If you succeed, deal 1 damage to the evaded enemy. If an [elder_sign], \"+1,\" or \"0\" token is revealed during this evasion attempt, lose 1 resource.",
     "tags": [
-      "uses_starting_3",
       "uses_type_charge",
+      "uses_starting_3",
       "bold_evade",
       "chaos_reveal_token_elder_sign"
     ]
@@ -113,12 +113,12 @@
     "name": "Hypnotic Gaze",
     "text": "Fast. Play when an enemy attacks an investigator at your location.\nCancel that attack. Then, reveal a random token from the chaos bag. If it has a [skull], [cultist], [tablet], [elder_thing], or [auto_fail] symbol, deal the attacking enemy's damage to itself. ",
     "tags": [
-      "fast_play",
       "chaos_reveal_token_auto_fail",
       "chaos_reveal_token_cultist",
       "chaos_reveal_token_elder_thing",
       "chaos_reveal_token_skull",
-      "chaos_reveal_token_tablet"
+      "chaos_reveal_token_tablet",
+      "fast_play"
     ]
   },
   {
@@ -151,12 +151,12 @@
     "name": "Dark Prophecy",
     "text": "Fast. Play when you would reveal a chaos token.\nReveal 5 chaos tokens instead of 1. Choose one of those tokens with a [skull], [cultist], [tablet], [elder_thing], or [auto_fail] symbol to resolve, and ignore the rest. (If no such token is revealed, choose any one of those tokens to resolve, and ignore the rest.)",
     "tags": [
-      "fast_play",
       "chaos_reveal_token_auto_fail",
       "chaos_reveal_token_cultist",
       "chaos_reveal_token_elder_thing",
       "chaos_reveal_token_skull",
-      "chaos_reveal_token_tablet"
+      "chaos_reveal_token_tablet",
+      "fast_play"
     ]
   },
   {
@@ -192,8 +192,8 @@
     "name": "Grotesque Statue",
     "text": "Uses (3 charges). If Grotesque Statue has no charges, discard it.\n[reaction] When you would reveal a chaos token, spend 1 charge: Reveal 2 chaos tokens instead of 1. Choose one of those tokens to resolve, and ignore the other.",
     "tags": [
-      "uses_starting_3",
       "uses_type_charge",
+      "uses_starting_3",
       "discard_zero_uses"
     ]
   },
@@ -211,12 +211,12 @@
     "name": "Hypnotic Gaze",
     "text": "Fast. Play when an enemy attacks an investigator at your location.\nCancel that attack. Then, reveal a random token from the chaos bag. If it has a [skull], [cultist], [tablet], [elder_thing], or [auto_fail] symbol, deal damage to the attacking enemy equal to its damage or horror.",
     "tags": [
-      "fast_play",
       "chaos_reveal_token_auto_fail",
       "chaos_reveal_token_cultist",
       "chaos_reveal_token_elder_thing",
       "chaos_reveal_token_skull",
-      "chaos_reveal_token_tablet"
+      "chaos_reveal_token_tablet",
+      "fast_play"
     ]
   },
   {
@@ -233,8 +233,8 @@
     "name": "Azure Flame",
     "text": "Uses (4 charges).\n[action] Spend 1 charge: <b>Fight.</b> This attack uses [willpower] instead of [combat]. You get +2 [willpower] and deal +1 damage for this attack. If an [elder_sign], \"+1,\" or \"0\" token is revealed during this attack, take 1 damage.",
     "tags": [
-      "uses_starting_4",
       "uses_type_charge",
+      "uses_starting_4",
       "bold_fight",
       "boost_willpower_2",
       "chaos_reveal_token_elder_sign",
@@ -247,8 +247,8 @@
     "name": "Clairvoyance",
     "text": "Uses (3 charges).\n[action] Spend 1 charge: <b>Investigate.</b> Investigate using [willpower] instead of [intellect]. You get +2 [willpower] for this investigation. If you succeed, discover 1 additional clue at this location. If an [elder_sign], \"+1,\" or \"0\" token is revealed during this investigation, take 1 horror.",
     "tags": [
-      "uses_starting_3",
       "uses_type_charge",
+      "uses_starting_3",
       "bold_investigate",
       "boost_willpower_2",
       "chaos_reveal_token_elder_sign",
@@ -260,8 +260,8 @@
     "name": "Ineffable Truth",
     "text": "Uses (3 charges).\n[action] Spend 1 charge: <b>Evade.</b> This evasion attempt uses [willpower] instead of [agility]. You get +2 [willpower] for this evasion attempt. If you succeed, deal 1 damage to the evaded enemy. If an [elder_sign], \"+1,\" or \"0\" token is revealed during this evasion attempt, lose 1 resource.",
     "tags": [
-      "uses_starting_3",
       "uses_type_charge",
+      "uses_starting_3",
       "bold_evade",
       "boost_willpower_2",
       "chaos_reveal_token_elder_sign"
@@ -272,11 +272,11 @@
     "name": "Arcane Studies",
     "text": "Uses (2 resources). Replenish these resources at the start of each round.\n[fast] Spend 1 resource from your resource pool or from Arcane Studies: You get +1 [willpower] or +1 [intellect] for this skill test.",
     "tags": [
-      "uses_replenish",
-      "uses_starting_2",
       "uses_type_resource",
+      "uses_starting_2",
       "boost_intellect_1",
-      "boost_willpower_1"
+      "boost_willpower_1",
+      "uses_replenish"
     ]
   },
   {
@@ -298,8 +298,8 @@
     "name": "Azure Flame",
     "text": "Uses (4 charges).\n[action] Spend 1 charge: <b>Fight.</b> This attack uses [willpower] instead of [combat]. You get +3 [willpower] and deal +2 damage for this attack. If an [elder_sign], \"+1,\" or \"0\" token is revealed during this attack, take 2 damage.",
     "tags": [
-      "uses_starting_4",
       "uses_type_charge",
+      "uses_starting_4",
       "bold_fight",
       "boost_willpower_3",
       "chaos_reveal_token_elder_sign",
@@ -312,8 +312,8 @@
     "name": "Clairvoyance",
     "text": "Uses (3 charges).\n[action] Spend 1 charge: <b>Investigate.</b> Investigate using [willpower] instead of [intellect]. You get +3 [willpower] for this investigation. If you succeed, discover 2 additional clues at this location. If an [elder_sign], \"+1,\" or \"0\" token is revealed during this investigation, take 2 horror.",
     "tags": [
-      "uses_starting_3",
       "uses_type_charge",
+      "uses_starting_3",
       "bold_investigate",
       "boost_willpower_3",
       "chaos_reveal_token_elder_sign",
@@ -325,8 +325,8 @@
     "name": "Ineffable Truth",
     "text": "Uses (3 charges).\n[action] Spend 1 charge: <b>Evade.</b> This evasion attempt uses [willpower] instead of [agility]. You get +3 [willpower] for this evasion attempt. If you succeed, deal 2 damage to the evaded enemy. If an [elder_sign], \"+1,\" or \"0\" token is revealed during this evasion attempt, lose 2 resources.",
     "tags": [
-      "uses_starting_3",
       "uses_type_charge",
+      "uses_starting_3",
       "bold_evade",
       "boost_willpower_3",
       "chaos_reveal_token_elder_sign"

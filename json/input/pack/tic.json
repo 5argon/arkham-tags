@@ -13,8 +13,8 @@
     "name": "Obscure Studies",
     "text": "Amanda Sharpe deck only.\nFast. Play when you initiate a skill test.\nReturn the card beneath Amanda Sharpe to your hand and place Obscure Studies beneath her.",
     "tags": [
-      "fast_play",
-      "deck_restriction"
+      "deck_restriction",
+      "fast_play"
     ]
   },
   {
@@ -22,9 +22,9 @@
     "name": "In the Shadows",
     "text": "Trish Scarborough deck only.\nFast. Play after your turn begins.\nDisengage from each enemy engaged with you. Until the end of the round, enemies cannot engage you and you cannot deal damage to enemies.",
     "tags": [
-      "fast_play",
       "deck_restriction",
-      "engage_with_you"
+      "engage_with_you",
+      "fast_play"
     ]
   },
   {
@@ -62,8 +62,8 @@
     "name": "Book of Psalms",
     "text": "Uses (4 secrets).\n[action] Spend 1 secret: Heal 1 horror from an investigator at your location. Add 2 [bless] tokens to the chaos bag.",
     "tags": [
-      "uses_starting_4",
       "uses_type_secret",
+      "uses_starting_4",
       "chaos_reveal_token_bless"
     ]
   },
@@ -94,8 +94,8 @@
     "name": "Hand of Fate",
     "text": "Fast. Play when an enemy attacks an investigator at your location.\nCancel that attack. Then, add [bless] tokens to the chaos bag equal to the attacking enemy's total combined damage and horror values.",
     "tags": [
-      "fast_play",
-      "chaos_reveal_token_bless"
+      "chaos_reveal_token_bless",
+      "fast_play"
     ]
   },
   {
@@ -103,8 +103,8 @@
     "name": "Cryptographic Cipher",
     "text": "Uses (3 secrets).\n[fast] Exhaust Cryptographic Cipher and spend 1 secret: <b>Investigate.</b> Your location gets +1 shroud for this investigation.\n[action] Exhaust Cryptographic Cipher and spend 1 secret: <b>Investigate.</b> Your location gets -2 shroud for this investigation.",
     "tags": [
-      "uses_starting_3",
       "uses_type_secret",
+      "uses_starting_3",
       "bold_investigate",
       "cost_action_exhaust_self"
     ]
@@ -139,12 +139,12 @@
     "name": ".25 Automatic",
     "text": "Fast. Uses (4 ammo).\n[action] Spend 1 ammo: <b>Fight.</b> If the attacked enemy is exhausted, you get +2 [combat] and deal +1 damage for this attack.",
     "tags": [
-      "fast_play",
-      "uses_starting_4",
       "uses_type_ammo",
+      "uses_starting_4",
       "bold_fight",
       "boost_combat_2",
-      "damage_plus_1"
+      "damage_plus_1",
+      "fast_play"
     ]
   },
   {
@@ -160,9 +160,9 @@
     "name": "Obfuscation",
     "text": "Fast. Uses (3 charges).\n[reaction] When an enemy makes an attack of opportunity against you, spend 1 charge: Cancel that attack.",
     "tags": [
-      "fast_play",
+      "uses_type_charge",
       "uses_starting_3",
-      "uses_type_charge"
+      "fast_play"
     ]
   },
   {
@@ -187,9 +187,9 @@
     "name": "Tides of Fate",
     "text": "Fast. Play during any [fast] window, or at the start of the round.\nReplace all [curse] tokens in the chaos bag with an equal number of [bless] tokens. At the end of the round, replace all [bless] tokens in the chaos bag with an equal number of [curse] tokens.",
     "tags": [
-      "fast_play",
       "chaos_reveal_token_bless",
-      "chaos_reveal_token_curse"
+      "chaos_reveal_token_curse",
+      "fast_play"
     ]
   },
   {
@@ -197,9 +197,9 @@
     "name": "Ward of Radiance",
     "text": "Fast. Play when an investigator at your location draws a non-weakness treachery card.\nReveal 5 random chaos tokens from the chaos bag.\nIf a [bless] or [elder_sign] token is revealed, cancel that treachery card's revelation effect.",
     "tags": [
-      "fast_play",
       "chaos_reveal_token_bless",
-      "chaos_reveal_token_elder_sign"
+      "chaos_reveal_token_elder_sign",
+      "fast_play"
     ]
   },
   {
@@ -227,8 +227,8 @@
     "name": "Keep Faith",
     "text": "Fast. Play during any [fast] window.\nAdd 4 [bless] tokens to the chaos bag.",
     "tags": [
-      "fast_play",
-      "chaos_reveal_token_bless"
+      "chaos_reveal_token_bless",
+      "fast_play"
     ]
   },
   {
@@ -254,10 +254,10 @@
     "name": "Tempt Fate",
     "text": "Fast. Play during any [fast] window.\nAdd 3 [curse] tokens to the chaos bag. Then, add 3 [bless] tokens to the chaos bag and draw 1 card.",
     "tags": [
-      "fast_play",
       "chaos_reveal_token_bless",
       "chaos_reveal_token_curse",
-      "draw_player_1"
+      "draw_player_1",
+      "fast_play"
     ]
   },
   {
@@ -291,8 +291,8 @@
     "name": "Eldritch Sophist",
     "text": "Uses (3 secrets).\n[fast]: Exhaust Eldritch Sophist: Move 1 secret or charge from an asset you control to another asset controlled by an investigator at your location.",
     "tags": [
-      "uses_starting_3",
-      "uses_type_secret"
+      "uses_type_secret",
+      "uses_starting_3"
     ]
   },
   {
@@ -349,8 +349,8 @@
     "name": "Armageddon",
     "text": "Uses (3 charges).\n[action] Spend 1 charge: <b>Fight.</b> This attack uses [willpower] instead of [combat] and deals +1 damage. If a [curse] token is revealed during this attack, you may deal 1 damage to an enemy at your location or place 1 charge on Armageddon.",
     "tags": [
-      "uses_starting_3",
       "uses_type_charge",
+      "uses_starting_3",
       "bold_fight",
       "chaos_reveal_token_curse",
       "damage_plus_1"
@@ -361,8 +361,8 @@
     "name": "Eye of Chaos",
     "text": "Uses (3 charges).\n[action] Spend 1 charge: <b>Investigate.</b> Investigate using [willpower] instead of [intellect]. If you succeed, discover 1 additional clue at this location. If a [curse] token is revealed during this investigation, you may discover 1 clue at a connecting location or place 1 charge on Eye of Chaos.",
     "tags": [
-      "uses_starting_3",
       "uses_type_charge",
+      "uses_starting_3",
       "bold_investigate",
       "chaos_reveal_token_curse"
     ]
@@ -372,8 +372,8 @@
     "name": "Shroud of Shadows",
     "text": "Uses (3 charges).\n[action] Spend 1 charge: <b>Evade.</b> This evasion uses [willpower] instead of [agility]. If you succeed and the evaded enemy is non-[[Elite]], you may move that enemy to a connecting location. If a [curse] token is revealed during this evasion attempt, you may move to a connecting location or place 1 charge on Shroud of Shadows.",
     "tags": [
-      "uses_starting_3",
       "uses_type_charge",
+      "uses_starting_3",
       "bold_evade",
       "chaos_reveal_token_curse",
       "elite_unusable"
@@ -627,8 +627,8 @@
     "name": "Guided by the Unseen",
     "text": "Uses (4 secrets).\n[fast] During a skill test at your location: The performing investigator may search the top 3 cards of their deck for a card that can be committed to this test. You may spend 1 secret to commit that card. Shuffle the performing investigator's deck. (Limit once per test.)",
     "tags": [
-      "uses_starting_4",
-      "uses_type_secret"
+      "uses_type_secret",
+      "uses_starting_4"
     ]
   },
   {
@@ -656,8 +656,8 @@
     "name": "Armageddon",
     "text": "Uses (3 charges).\n[action] Spend 1 charge: <b>Fight.</b> This attack uses [willpower] instead of [combat]. You get +2 [willpower] and deal +1 damage for this attack. For each [curse] token revealed during this attack, you may deal 1 damage to an enemy at your location or place 1 charge on Armageddon.",
     "tags": [
-      "uses_starting_3",
       "uses_type_charge",
+      "uses_starting_3",
       "bold_fight",
       "boost_willpower_2",
       "chaos_reveal_token_curse",
@@ -669,8 +669,8 @@
     "name": "Eye of Chaos",
     "text": "Uses (3 charges).\n[action] Spend 1 charge: <b>Investigate.</b> Investigate using [willpower] instead of [intellect]. You get +2 [willpower] for this test. If you succeed, discover 1 additional clue at this location. For each [curse] token revealed during this investigation, you may discover 1 clue at a connecting location or place 1 charge on Eye of Chaos.",
     "tags": [
-      "uses_starting_3",
       "uses_type_charge",
+      "uses_starting_3",
       "bold_investigate",
       "boost_willpower_2",
       "chaos_reveal_token_curse"
@@ -681,8 +681,8 @@
     "name": "Shroud of Shadows",
     "text": "Uses (3 charges).\n[action] Spend 1 charge: <b>Evade.</b> This evasion uses [willpower] instead of [agility]. You get +2 [willpower] for this test. If you succeed and the evaded enemy is non-[[Elite]], you may move that enemy to a connecting location. For each [curse] token revealed during this evasion attempt, you may move to a connecting location or place 1 charge on Shroud of Shadows.",
     "tags": [
-      "uses_starting_3",
       "uses_type_charge",
+      "uses_starting_3",
       "bold_evade",
       "boost_willpower_2",
       "chaos_reveal_token_curse",
@@ -735,8 +735,8 @@
     "name": "The Stygian Eye",
     "text": "Fast. Play only during your turn.\nReduce the cost to play The Stygian Eye by 1 for each [curse] token in the chaos bag.\nUntil the end of the round, you get +3 to each of your skills.",
     "tags": [
-      "fast_play",
       "chaos_reveal_token_curse",
+      "fast_play",
       "timing_fast_during_your_turn"
     ]
   },
@@ -745,11 +745,11 @@
     "name": "Hyperawareness",
     "text": "Uses (2 resources). Replenish these resources at the start of each round.\n[free] Spend 1 resource from your resource pool or from Hyperawareness: You get +1 [intellect] or +1 [agility] for this skill test.",
     "tags": [
-      "uses_replenish",
-      "uses_starting_2",
       "uses_type_resource",
+      "uses_starting_2",
       "boost_agility_1",
-      "boost_intellect_1"
+      "boost_intellect_1",
+      "uses_replenish"
     ]
   },
   {
@@ -769,11 +769,11 @@
     "name": "Hard Knocks",
     "text": "Uses (2 resources). Replenish these resources at the start of each round.\n[free] Spend 1 resource from your resource pool or from Hard Knocks: You get +1 [combat] or +1 [agility] for this skill test.",
     "tags": [
-      "uses_replenish",
-      "uses_starting_2",
       "uses_type_resource",
+      "uses_starting_2",
       "boost_agility_1",
-      "boost_combat_1"
+      "boost_combat_1",
+      "uses_replenish"
     ]
   },
   {
@@ -801,8 +801,8 @@
     "name": "A Watchful Peace",
     "text": "As an additional cost to play A Watchful Peace, search the chaos bag and/or cards in play for a total of 5 [bless] tokens and return them to the token pool.\nFast. Play when the \"draw encounter cards\" step of the mythos phase would begin. Skip this step of the mythos phase.",
     "tags": [
-      "fast_play",
-      "chaos_reveal_token_bless"
+      "chaos_reveal_token_bless",
+      "fast_play"
     ]
   },
   {
@@ -810,11 +810,11 @@
     "name": "Dig Deep",
     "text": "Uses (2 resources). Replenish these resources at the start of each round.\n[free] Spend 1 resource from your resource pool or from Dig Deep: You get +1 [willpower] or +1 [agility] for this skill test.",
     "tags": [
-      "uses_replenish",
-      "uses_starting_2",
       "uses_type_resource",
+      "uses_starting_2",
       "boost_agility_1",
-      "boost_willpower_1"
+      "boost_willpower_1",
+      "uses_replenish"
     ]
   },
   {
@@ -822,9 +822,9 @@
     "name": "Favor of the Moon",
     "text": "Fast. Seal (up to 3 [curse]). If there are no tokens sealed on Favor of the Moon, discard it.\n[reaction] When you would reveal a chaos token from the chaos bag, exhaust Favor of the Moon: Resolve a token sealed here instead, as if it were just revealed from the chaos bag. Then, gain 1 resource.",
     "tags": [
-      "fast_play",
       "chaos_reveal_token_curse",
       "cost_reaction_exhaust_self",
+      "fast_play",
       "gain_resource_1"
     ]
   },
@@ -833,9 +833,9 @@
     "name": "Favor of the Sun",
     "text": "Fast. Seal (up to 3 [bless]). If there are no tokens sealed on Favor of the Sun, discard it.\n[reaction] When you would reveal a chaos token from the chaos bag, exhaust Favor of the Sun: Resolve a token sealed here instead, as if it were just revealed from the chaos bag.",
     "tags": [
-      "fast_play",
       "chaos_reveal_token_bless",
-      "cost_reaction_exhaust_self"
+      "cost_reaction_exhaust_self",
+      "fast_play"
     ]
   },
   {
@@ -878,8 +878,8 @@
     "name": "Ariadne's Twine",
     "text": "Uses (0 secrets).\nSecrets on Ariadne's Twine can be spent as if they were on any asset controlled by an investigator at your location.\n[free] Exhaust Ariadne's Twine: Move 1 secret from an asset you control to your resource pool, as a resource, or vice versa.",
     "tags": [
-      "uses_starting_0",
       "uses_type_secret",
+      "uses_starting_0",
       "cost_fast_exhaust_self"
     ]
   },
@@ -888,12 +888,12 @@
     "name": ".25 Automatic",
     "text": "Fast. Uses (4 ammo).\n[action] Spend 1 ammo: <b>Fight.</b> If the attacked enemy is exhausted, you get +2 [combat] and deal +1 damage for this attack.\n[reaction] After you evade an enemy at your location: Perform the above <b>Fight</b> ability without spending an action.",
     "tags": [
-      "fast_play",
-      "uses_starting_4",
       "uses_type_ammo",
+      "uses_starting_4",
       "bold_fight",
       "boost_combat_2",
-      "damage_plus_1"
+      "damage_plus_1",
+      "fast_play"
     ]
   },
   {
@@ -936,8 +936,8 @@
     "name": "Shrine of the Moirai",
     "text": "Attach to your location. Uses (3 offerings).\nAttached location gains: \"[fast] Draw the top card of the encounter deck, exhaust Shrine of the Moirai, and spend 1 offering: Return up to 2 cards with a total combined level of 5 or less from your discard pile to your hand. Any investigator at this location may trigger this ability.\"\n<b>Card design by the Moirai at Arkham Nights 2019.</b>",
     "tags": [
-      "uses_starting_3",
-      "uses_type_offerings"
+      "uses_type_offerings",
+      "uses_starting_3"
     ]
   }
 ]

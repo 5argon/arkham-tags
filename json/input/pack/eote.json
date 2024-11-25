@@ -23,10 +23,10 @@
     "name": "Trusty Bullwhip",
     "text": "Fast. Monterey Jack deck only.\n[action]: <b>Fight.</b> This attack uses [agility] instead of [combat]. If this attack succeeds, you may exhaust Trusty Bullwhip to either automatically evade the attacked enemy or deal +1 damage for this attack.",
     "tags": [
-      "fast_play",
       "bold_fight",
       "damage_plus_1",
-      "deck_restriction"
+      "deck_restriction",
+      "fast_play"
     ]
   },
   {
@@ -186,9 +186,9 @@
     "name": "Combat Training",
     "text": "Fast. Limit 1 [[Composure]] in play.\nYou get +1 [combat] and +1 [agility].\nNon-direct damage/horror must be assigned to Combat Training before it can be assigned to your investigator card.\n[fast] Spend 1 resource: You get +1 [combat] or +1 [agility] for this skill test.",
     "tags": [
-      "fast_play",
       "boost_agility_1",
       "boost_combat_1",
+      "fast_play",
       "trait_composure"
     ]
   },
@@ -197,8 +197,8 @@
     "name": "On the Hunt",
     "text": "Fast. Play when you would draw an encounter card during the mythos phase.\nInstead, search the encounter deck for an enemy, spawn it engaged with you <i>(instead of its normal spawn location)</i>, attach On the Hunt to it, and shuffle the encounter deck.\n[reaction] When you defeat attached enemy: Gain 3 resources.",
     "tags": [
-      "fast_play",
       "engage_with_you",
+      "fast_play",
       "gain_resource_3"
     ]
   },
@@ -306,9 +306,9 @@
     "name": "Scientific Theory",
     "text": "Fast. Limit 1 [[Composure]] in play.\nYou get +1 [intellect] and +1 [combat].\nNon-direct damage/horror must be assigned to Scientific Theory before it can be assigned to your investigator card.\n[fast] Spend 1 resource: You get +1 [intellect] or +1 [combat] for this skill test.",
     "tags": [
-      "fast_play",
       "boost_combat_1",
       "boost_intellect_1",
+      "fast_play",
       "trait_composure"
     ]
   },
@@ -317,8 +317,8 @@
     "name": "Archive of Conduits",
     "text": "Researched. Uses (4 leylines). Limit 1 per deck.\n[fast]: Move 1 leyline from this asset to a non-[[Elite]] enemy.\n[action]: Choose an investigator, and an enemy with a leyline at a revealed location. That investigator moves to that location. You may remove the leyline to deal 1 damage to that enemy.",
     "tags": [
-      "uses_starting_4",
       "uses_type_leylines",
+      "uses_starting_4",
       "elite_unusable",
       "limit_1_per_deck"
     ]
@@ -328,8 +328,8 @@
     "name": "Archive of Conduits",
     "text": "Researched. Uses (4 leylines). Limit 1 per deck.\n[fast]: Move 1 leyline from this asset to a revealed location.\n[action]: Choose an investigator and a revealed location with a leyline. That investigator moves to that location. You may remove the leyline to have them take an investigate action.",
     "tags": [
-      "uses_starting_4",
       "uses_type_leylines",
+      "uses_starting_4",
       "limit_1_per_deck"
     ]
   },
@@ -338,8 +338,8 @@
     "name": "Archive of Conduits",
     "text": "Researched. Uses (4 leylines). Limit 1 per deck.\n[fast]: Move 1 leyline from this asset to a non-[[Elite]] enemy.\n[action]: Choose an investigator engaged with an enemy with a leyline. That investigator disengages from that enemy and moves to a connecting location. You may remove the leyline to automatically evade that enemy. This action does not provoke attacks of opportunity.",
     "tags": [
-      "uses_starting_4",
       "uses_type_leylines",
+      "uses_starting_4",
       "elite_unusable",
       "limit_1_per_deck"
     ]
@@ -349,8 +349,8 @@
     "name": "Archive of Conduits",
     "text": "Researched. Uses (4 leylines). Limit 1 per deck.\n[fast]: Move 1 leyline from this asset to an investigator.\n[action]: Choose an investigator with a leyline. That investigator draws 1 card and heals 1 damage or 1 horror. You may remove the leyline to have them instead draw 2 cards and heal 2 damage or 2 horror.",
     "tags": [
-      "uses_starting_4",
       "uses_type_leylines",
+      "uses_starting_4",
       "draw_player_1",
       "draw_player_2",
       "limit_1_per_deck"
@@ -435,8 +435,8 @@
     "name": "The Red Clock",
     "text": "Exceptional. Uses (0 charges).\n<b>Forced</b> - After your turn begins: Either place 1 charge here, or take all charges here, as resources. Then, if it has exactly...\n- 1 charge, you get +3 skill value for your next skill test.\n- 2 charges, you may move up to 2 times.\n- 3 charges, you may take an additional action this turn.",
     "tags": [
-      "uses_starting_0",
-      "uses_type_charge"
+      "uses_type_charge",
+      "uses_starting_0"
     ]
   },
   {
@@ -444,8 +444,8 @@
     "name": "Money Talks",
     "text": "Fast. Play when an investigator at any location initiates a skill test.\nInstead of the skill type indicated for this test ([willpower], [intellect], [combat], or [agility]), this is a resource skill test. The performing investigator's base skill value for this test is equal to half the number of resources in your resource pool (rounded down). Draw 1 card.",
     "tags": [
-      "fast_play",
-      "draw_player_1"
+      "draw_player_1",
+      "fast_play"
     ]
   },
   {
@@ -461,9 +461,9 @@
     "name": "Moxie",
     "text": "Fast. Limit 1 [[Composure]] in play.\nYou get +1 [willpower] and +1 [agility].\nNon-direct damage/horror must be assigned to Moxie before it can be assigned to your investigator card.\n[fast] Spend 1 resource: You get +1 [willpower] or +1 [agility] for this skill test.",
     "tags": [
-      "fast_play",
       "boost_agility_1",
       "boost_willpower_1",
+      "fast_play",
       "trait_composure"
     ]
   },
@@ -478,8 +478,8 @@
     "name": "The Red Clock",
     "text": "Exceptional. Uses (0 charges).\n<b>Forced</b> - After your turn begins: You may take all charges here, as resources. Place 1 charge here. If it has exactly...\n- 1 charge, you get +4 skill value for your next skill test.\n- 2 charges, you may move up to 3 times.\n- 3 charges, you may take 2 additional actions this turn.",
     "tags": [
-      "uses_starting_0",
-      "uses_type_charge"
+      "uses_type_charge",
+      "uses_starting_0"
     ]
   },
   {
@@ -551,8 +551,8 @@
     "name": "Healing Words",
     "text": "Uses (4 charges).\n[action] Spend 1 charge: Heal 2 damage from among investigators at your location.",
     "tags": [
-      "uses_starting_4",
-      "uses_type_charge"
+      "uses_type_charge",
+      "uses_starting_4"
     ]
   },
   {
@@ -570,10 +570,10 @@
     "name": "True Magick",
     "text": "Uses (1 charge). Replenish this charge at the start of each round.\nYou may resolve abilities on [[Spell]] assets in your hand by revealing them from your hand. Treat True Magick as if it were the revealed asset <i>(to pay its costs, spend charges, perfom its effect, etc)</i>.",
     "tags": [
-      "uses_replenish",
-      "uses_starting_1",
       "uses_type_charge",
-      "trait_spell"
+      "uses_starting_1",
+      "trait_spell",
+      "uses_replenish"
     ]
   },
   {
@@ -589,8 +589,8 @@
     "name": "Schoffner's Catalogue",
     "text": "Uses (5 secrets). If Schoffner's Catalogue has no secrets, discard it.\nYou may spend secrets on Schoffner's Catalogue as resources to pay for [[Item]] assets played by any investigator at your location.",
     "tags": [
-      "uses_starting_5",
       "uses_type_secret",
+      "uses_starting_5",
       "discard_zero_uses",
       "trait_item"
     ]
@@ -600,8 +600,8 @@
     "name": "Bandages",
     "text": "Uses (3 supplies). If Bandages has no supplies, discard it.\n[reaction] After an investigator or [[Ally]] asset at your location takes 1 or more damage, spend 1 supply: Heal 1 damage from that card.",
     "tags": [
-      "uses_starting_3",
       "uses_type_supply",
+      "uses_starting_3",
       "discard_zero_uses",
       "trait_ally"
     ]
@@ -611,8 +611,8 @@
     "name": "Jury-Rig",
     "text": "Uses (3 durability).\nAttach to an [[Item]] asset controlled by an investigator at your location.\n[fast] During a skill test on attached asset, spend 1 durability: You get +2 skill value for this test.",
     "tags": [
-      "uses_starting_3",
       "uses_type_durability",
+      "uses_starting_3",
       "trait_item"
     ]
   },
@@ -621,8 +621,8 @@
     "name": "Bangle of Jinxes",
     "text": "Uses (1 charge).\n[fast] Spend 1 charge: You get +2 skill value for this test. (Limit once per test.)\n[reaction] After an enemy attacks you: Place 1 charge on Bangle of Jinxes.",
     "tags": [
-      "uses_starting_1",
-      "uses_type_charge"
+      "uses_type_charge",
+      "uses_starting_1"
     ]
   },
   {
@@ -648,8 +648,8 @@
     "name": "Blood Will Have Blood",
     "text": "Fast. Play after an enemy attacks you. Max 1 per attack.\nDamage/horror from this attack cannot be assigned to [[Ally]] assets. For each point of damage and/or horror you took from this attack, draw 1 card.",
     "tags": [
-      "fast_play",
       "draw_player_1",
+      "fast_play",
       "trait_ally"
     ]
   },
@@ -671,9 +671,9 @@
     "name": "Plucky",
     "text": "Fast. Limit 1 [[Composure]] in play.\nYou get +1 [willpower] and +1 [intellect].\nNon-direct damage/horror must be assigned to Plucky before it can be assigned to your investigator card.\n[fast] Spend 1 resource: You get +1 [willpower] or +1 [intellect] for this skill test.",
     "tags": [
-      "fast_play",
       "boost_intellect_1",
       "boost_willpower_1",
+      "fast_play",
       "trait_composure"
     ]
   },
@@ -682,8 +682,8 @@
     "name": "Fend Off",
     "text": "Fast. Play when a non-[[Elite]] enemy spawns at your location.\nThat enemy attacks you. Then, automatically evade that enemy and attach Fend Off to it.\nAttached enemy cannot ready.",
     "tags": [
-      "fast_play",
-      "elite_unusable"
+      "elite_unusable",
+      "fast_play"
     ]
   },
   {
@@ -736,8 +736,8 @@
     "name": "Old Shotgun",
     "text": "Uses (0 ammo). While playing an event, treat Old Shotgun's uses value as 2.\n[action] Spend 1 ammo: <b>Fight.</b> You get +3 [combat] for this attack. Instead of its standard damage, this attack's damage is equal to the amount you succeed by, or fail by if you fail and would damage another investigator (to a minimum of 1, to a maximum of 3).",
     "tags": [
-      "uses_starting_0",
       "uses_type_ammo",
+      "uses_starting_0",
       "bold_fight",
       "boost_combat_3"
     ]
@@ -755,8 +755,8 @@
     "name": "Brand of Cthugha",
     "text": "Uses (6 charges).\n[action]: <b>Fight.</b> For this attack, you may use [willpower] instead of [combat], and you get +1 skill value. If you succeed, spend 1 or 2 charges. Instead of its standard damage, this attack deals 1 damage for each charge spent. If you succeed by 0, lose 1 action.",
     "tags": [
-      "uses_starting_6",
       "uses_type_charge",
+      "uses_starting_6",
       "bold_fight",
       "succeed_by_0"
     ]
@@ -778,8 +778,8 @@
     "name": "Brand of Cthugha",
     "text": "Uses (9 charges).\n[action]: <b>Fight.</b> For this attack, you may use [willpower] instead of [combat], and you get +2 skill value. If you succeed, spend 1, 2, or 3 charges. Instead of its standard damage, this attack deals 1 damage for each charge spent. If you succeed by 0, lose 2 actions.",
     "tags": [
-      "uses_starting_9",
       "uses_type_charge",
+      "uses_starting_9",
       "bold_fight",
       "succeed_by_0"
     ]
@@ -843,8 +843,8 @@
     "name": "Eon Chart",
     "text": "Uses (3 secrets).\n[fast] During your turn, exhaust Eon Chart and spend 1 secret: Choose and take one of the following actions (move, evade, or investigate).",
     "tags": [
-      "uses_starting_3",
-      "uses_type_secret"
+      "uses_type_secret",
+      "uses_starting_3"
     ]
   },
   {
@@ -863,8 +863,8 @@
     "name": "Eon Chart",
     "text": "Uses (3 secrets).\n[fast] During your turn, exhaust Eon Chart and spend 1 secret: Choose and take two different actions of the following, in any order (move, evade, or investigate).",
     "tags": [
-      "uses_starting_3",
-      "uses_type_secret"
+      "uses_type_secret",
+      "uses_starting_3"
     ]
   },
   {
@@ -872,8 +872,8 @@
     "name": "Divination",
     "text": "Uses (4 charges).\n[action]: <b>Investigate.</b> For this investigation, you may use [willpower] instead of [intellect], and you get +1 skill value. If you succeed, spend 1 or 2 charges. Instead of discovering a clue at your location, discover 1 clue at your location for each charge spent. If you succeed by 0, choose and discard a card from your hand.",
     "tags": [
-      "uses_starting_4",
       "uses_type_charge",
+      "uses_starting_4",
       "bold_investigate",
       "succeed_by_0"
     ]
@@ -883,8 +883,8 @@
     "name": "Protecting the Anirniq",
     "text": "Fast. Play after an [[Ally]] asset at your location is discarded by a card effect or is defeated.\nEither return that asset to its owner's hand, or its owner draws 3 cards.",
     "tags": [
-      "fast_play",
       "draw_player_3",
+      "fast_play",
       "trait_ally"
     ]
   },
@@ -893,8 +893,8 @@
     "name": "Divination",
     "text": "Uses (6 charges).\n[action]: <b>Investigate.</b> For this investigation, you may use [willpower] instead of [intellect], and you get +2 skill value. If you succeed, spend 1, 2, or 3 charges. Instead of discovering a clue at your location, discover 1 clue at your location for each charge spent. If you succeed by 0, choose and discard 2 cards from your hand.",
     "tags": [
-      "uses_starting_6",
       "uses_type_charge",
+      "uses_starting_6",
       "bold_investigate",
       "succeed_by_0"
     ]
@@ -904,8 +904,8 @@
     "name": "Professor William Webb",
     "text": "Uses (3 secrets).\n[reaction] When you successfully investigate, exhaust Professor William Webb and spend 1 secret: Instead of discovering a clue at your location, either choose an [[Item]] card in your discard pile and add it to your hand, or discover a clue at a connecting location.",
     "tags": [
-      "uses_starting_3",
       "uses_type_secret",
+      "uses_starting_3",
       "cost_reaction_exhaust_self",
       "trait_item"
     ]
@@ -923,8 +923,8 @@
     "name": "Professor William Webb",
     "text": "Uses (3 secrets).\n[reaction] When you successfully investigate, exhaust Professor William Webb and spend 1 secret: Choose an [[Item]] card in your discard pile and add it to your hand. Instead of discovering a clue at your location, you may discover a clue at a connecting location.",
     "tags": [
-      "uses_starting_3",
       "uses_type_secret",
+      "uses_starting_3",
       "cost_reaction_exhaust_self",
       "trait_item"
     ]
@@ -934,8 +934,8 @@
     "name": "Ice Pick",
     "text": "Fast.\n[fast] During a skill test while fighting or investigating, exhaust Ice Pick: You get +1 skill value for this test. If you succeed, you may discard Ice Pick to have this attack deal +1 damage <i>(if you are fighting)</i>, or to discover 1 additional clue at your location <i>(if you are investigating)</i>.",
     "tags": [
-      "fast_play",
-      "damage_plus_1"
+      "damage_plus_1",
+      "fast_play"
     ]
   },
   {
@@ -951,8 +951,8 @@
     "name": "Blur",
     "text": "Uses (3 charges).\n[action] If Blur has charges remaining: <b>Evade.</b> For this evasion attempt, you may use [willpower] instead of [agility], and you get +1 skill value. If you succeed, spend 1 charge and you may take an additional action this turn. If you succeed by 0, take 1 damage.",
     "tags": [
-      "uses_starting_3",
       "uses_type_charge",
+      "uses_starting_3",
       "bold_evade",
       "succeed_by_0",
       "take_damage"
@@ -971,8 +971,8 @@
     "name": "Blur",
     "text": "Uses (4 charges).\n[action] If Blur has charges remaining: <b>Evade.</b> For this evasion attempt, you may use [willpower] instead of [agility] and get +2 skill value. If you succeed, spend 1 or 2 charges and you may take that many additional actions this turn. If you succeed by 0, take 2 damage.",
     "tags": [
-      "uses_starting_4",
       "uses_type_charge",
+      "uses_starting_4",
       "bold_evade",
       "succeed_by_0",
       "take_damage"
@@ -983,8 +983,8 @@
     "name": "\"Hit me!\"",
     "text": "Fast. Play after you reveal a chaos token during a skill test.\nReveal an additional chaos token, switching its \"-\" to a \"+\". If that chaos token is a [skull] token, you automatically fail.",
     "tags": [
-      "fast_play",
-      "chaos_reveal_token_skull"
+      "chaos_reveal_token_skull",
+      "fast_play"
     ]
   },
   {
@@ -1028,8 +1028,8 @@
     "name": "Earthly Serenity",
     "text": "Uses (4 charges).\n[action]: Test [willpower] (1). For each point you succeed by, you may spend 1 charge to heal 1 damage or 1 horror from an investigator at your location. If you succeed by 0, lose 1 resource.",
     "tags": [
-      "uses_starting_4",
       "uses_type_charge",
+      "uses_starting_4",
       "initiate_test_willpower_1",
       "succeed_by_0"
     ]
@@ -1039,8 +1039,8 @@
     "name": "Enchanted Bow",
     "text": "Uses (3 charges).\n[action] Exhaust Enchanted Bow: <b>Fight.</b> You must use either [willpower] or [agility] instead of [combat] and get +1 skill value for this attack. This attack deals +1 damage. As an additional cost to initiate this ability, you may spend 1 charge to have this attack target a non-[[Elite]] enemy at a connecting location; if you do, ignore the aloof and retaliate keywords for this attack.",
     "tags": [
-      "uses_starting_3",
       "uses_type_charge",
+      "uses_starting_3",
       "bold_fight",
       "cost_action_exhaust_self",
       "damage_plus_1",
@@ -1052,8 +1052,8 @@
     "name": "Earthly Serenity",
     "text": "Uses (6 charges).\n[action]: Test [willpower] (0). For each point you succeed by, you may spend 1 charge to heal 1 damage or 1 horror from an investigator at your location. If you succeed by 0, lose 2 resources.",
     "tags": [
-      "uses_starting_6",
       "uses_type_charge",
+      "uses_starting_6",
       "initiate_test_willpower_0",
       "succeed_by_0"
     ]
@@ -1063,12 +1063,12 @@
     "name": "Prophetic",
     "text": "Uses (2 resources). Replenish these resources at the start of each round.\nResources on Prophetic may be spent to pay for [[Fortune]], [[Spell]], or [[Spirit]] cards.\n[fast] During a skill test on a [[Fortune]], [[Spell]], or [[Spirit]] card, spend 1 resource from Prophetic: You get +1 skill value for this test.",
     "tags": [
-      "uses_replenish",
-      "uses_starting_2",
       "uses_type_resource",
+      "uses_starting_2",
       "trait_fortune",
       "trait_spell",
-      "trait_spirit"
+      "trait_spirit",
+      "uses_replenish"
     ]
   },
   {
@@ -1076,12 +1076,12 @@
     "name": "Sleuth",
     "text": "Uses (2 resources). Replenish these resources at the start of each round.\nResources on Sleuth may be spent to pay for [[Charm]], [[Tactic]], or [[Tome]] cards.\n[fast] During a skill test on a [[Charm]], [[Tactic]], or [[Tome]] card, spend 1 resource from Sleuth: You get +1 skill value for this test.",
     "tags": [
-      "uses_replenish",
-      "uses_starting_2",
       "uses_type_resource",
+      "uses_starting_2",
       "trait_charm",
       "trait_tactic",
-      "trait_tome"
+      "trait_tome",
+      "uses_replenish"
     ]
   },
   {
@@ -1089,12 +1089,12 @@
     "name": "Bruiser",
     "text": "Uses (2 resources). Replenish these resources at the start of each round.\nResources on Bruiser may be spent to pay for [[Armor]], [[Firearm]], or [[Melee]] cards.\n[fast] During a skill test on a [[Armor]], [[Firearm]], or [[Melee]] card, spend 1 resource from Bruiser: You get +1 skill value for this test.",
     "tags": [
-      "uses_replenish",
-      "uses_starting_2",
       "uses_type_resource",
+      "uses_starting_2",
       "trait_armor",
       "trait_firearm",
-      "trait_melee"
+      "trait_melee",
+      "uses_replenish"
     ]
   },
   {
@@ -1102,12 +1102,12 @@
     "name": "Crafty",
     "text": "Uses (2 resources). Replenish these resources at the start of each round.\nResources on Crafty may be spent to pay for [[Insight]], [[Tool]], or [[Trick]] cards.\n[fast] During a skill test on a [[Insight]], [[Tool]], or [[Trick]] card, spend 1 resource from Crafty: You get +1 skill value for this test.",
     "tags": [
-      "uses_replenish",
-      "uses_starting_2",
       "uses_type_resource",
+      "uses_starting_2",
       "trait_insight",
       "trait_tool",
-      "trait_trick"
+      "trait_trick",
+      "uses_replenish"
     ]
   },
   {
@@ -1115,12 +1115,12 @@
     "name": "Antiquary",
     "text": "Uses (2 resources). Replenish these resources at the start of each round.\nResources on Antiquary may be spent to pay for [[Favor]], [[Relic]] or [[Ritual]] cards.\n[fast] During a skill test on a [[Favor]], [[Relic]] or [[Ritual]] card, spend 1 resource from Antiquary: You get +1 skill value for this test.",
     "tags": [
-      "uses_replenish",
-      "uses_starting_2",
       "uses_type_resource",
+      "uses_starting_2",
       "trait_favor",
       "trait_relic",
-      "trait_ritual"
+      "trait_ritual",
+      "uses_replenish"
     ]
   },
   {

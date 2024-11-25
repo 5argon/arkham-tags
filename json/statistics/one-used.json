@@ -374,6 +374,17 @@
     ]
   },
   {
+    "tag": "boost_intellect_3",
+    "count": 1,
+    "usages": [
+      {
+        "code": "02189",
+        "name": "Streetwise",
+        "pack": "dwl"
+      }
+    ]
+  },
+  {
     "tag": "chaos_reveal_before_effect",
     "count": 1,
     "usages": [
@@ -880,6 +891,17 @@
     ]
   },
   {
+    "tag": "initiate_test_willpower_x",
+    "count": 1,
+    "usages": [
+      {
+        "code": "06329",
+        "name": "Shining Trapezohedron",
+        "pack": "tde"
+      }
+    ]
+  },
+  {
     "tag": "initiate_test_combat_1",
     "count": 1,
     "usages": [
@@ -946,7 +968,7 @@
     ]
   },
   {
-    "tag": "to_deck_from_play",
+    "tag": "timing_reaction_after_play",
     "count": 1,
     "usages": [
       {
@@ -957,7 +979,7 @@
     ]
   },
   {
-    "tag": "timing_reaction_after_play",
+    "tag": "to_deck_from_play",
     "count": 1,
     "usages": [
       {
@@ -974,6 +996,17 @@
       {
         "code": "01521",
         "name": "Guard Dog",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "connecting_location_enemy",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01524",
+        "name": "Dynamite Blast",
         "pack": "rcore"
       }
     ]
@@ -1111,23 +1144,45 @@
     ]
   },
   {
-    "tag": "connecting_location_enemy",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01524",
-        "name": "Dynamite Blast",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
     "tag": "timing_fast_chaos_reveal_after",
     "count": 1,
     "usages": [
       {
         "code": "01556",
         "name": "Sure Gamble",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "uses_manip_secret_to_resource",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01558",
+        "name": "Forbidden Knowledge",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "additional_slot_arcane",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01570",
+        "name": "Book of Shadows",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "trait_spell_asset",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01570",
+        "name": "Book of Shadows",
         "pack": "rcore"
       }
     ]
@@ -1177,28 +1232,6 @@
     ]
   },
   {
-    "tag": "additional_slot_arcane",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01570",
-        "name": "Book of Shadows",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "trait_spell_asset",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01570",
-        "name": "Book of Shadows",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
     "tag": "timing_reaction_after_investigate_success",
     "count": 1,
     "usages": [
@@ -1210,45 +1243,23 @@
     ]
   },
   {
-    "tag": "timing_fast_after_fail",
+    "tag": "chaos_do_not_reveal",
     "count": 1,
     "usages": [
       {
-        "code": "01579",
-        "name": "\"Look what I found!\"",
+        "code": "01585",
+        "name": "Will to Survive",
         "pack": "rcore"
       }
     ]
   },
   {
-    "tag": "enemy_manage_shuffle",
+    "tag": "enters_play",
     "count": 1,
     "usages": [
       {
-        "code": "01583",
-        "name": "Close Call",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "discover_clue_connecting_location",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01685",
-        "name": "Seeking Answers",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "discover_clue_your_location",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01685",
-        "name": "Seeking Answers",
+        "code": "01563",
+        "name": "Arcane Initiate",
         "pack": "rcore"
       }
     ]
@@ -1320,34 +1331,45 @@
     ]
   },
   {
-    "tag": "enters_play",
+    "tag": "timing_fast_after_fail",
     "count": 1,
     "usages": [
       {
-        "code": "01563",
-        "name": "Arcane Initiate",
+        "code": "01579",
+        "name": "\"Look what I found!\"",
         "pack": "rcore"
       }
     ]
   },
   {
-    "tag": "chaos_do_not_reveal",
+    "tag": "enemy_manage_shuffle",
     "count": 1,
     "usages": [
       {
-        "code": "01585",
-        "name": "Will to Survive",
+        "code": "01583",
+        "name": "Close Call",
         "pack": "rcore"
       }
     ]
   },
   {
-    "tag": "uses_manip_secret_to_resource",
+    "tag": "discover_clue_connecting_location",
     "count": 1,
     "usages": [
       {
-        "code": "01558",
-        "name": "Forbidden Knowledge",
+        "code": "01685",
+        "name": "Seeking Answers",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "discover_clue_your_location",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01685",
+        "name": "Seeking Answers",
         "pack": "rcore"
       }
     ]
@@ -1375,23 +1397,23 @@
     ]
   },
   {
-    "tag": "uses_starting_8",
-    "count": 1,
-    "usages": [
-      {
-        "code": "04229",
-        "name": "M1918 BAR",
-        "pack": "tfa"
-      }
-    ]
-  },
-  {
     "tag": "uses_starting_7",
     "count": 1,
     "usages": [
       {
         "code": "04311",
         "name": "Seal of the Seventh Sign",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "uses_starting_8",
+    "count": 1,
+    "usages": [
+      {
+        "code": "04229",
+        "name": "M1918 BAR",
         "pack": "tfa"
       }
     ]
@@ -1430,17 +1452,6 @@
     ]
   },
   {
-    "tag": "uses_support_charge",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03014",
-        "name": "Spirit-Speaker",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
     "tag": "uses_manip_charge_to_resource",
     "count": 1,
     "usages": [
@@ -1452,7 +1463,18 @@
     ]
   },
   {
-    "tag": "tank_encounter",
+    "tag": "uses_support_charge",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03014",
+        "name": "Spirit-Speaker",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "encounter_revelation",
     "count": 1,
     "usages": [
       {
@@ -1463,7 +1485,7 @@
     ]
   },
   {
-    "tag": "encounter_revelation",
+    "tag": "tank_encounter",
     "count": 1,
     "usages": [
       {
@@ -1485,7 +1507,7 @@
     ]
   },
   {
-    "tag": "timing_reaction_after_move",
+    "tag": "duration_next_skill_test_this_phase",
     "count": 1,
     "usages": [
       {
@@ -1496,7 +1518,7 @@
     ]
   },
   {
-    "tag": "duration_next_skill_test_this_phase",
+    "tag": "timing_reaction_after_move",
     "count": 1,
     "usages": [
       {
@@ -1529,6 +1551,17 @@
     ]
   },
   {
+    "tag": "as_if_you_were_at_location",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03027",
+        "name": "In the Know",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
     "tag": "cost_action_spend_secret",
     "count": 1,
     "usages": [
@@ -1541,17 +1574,6 @@
   },
   {
     "tag": "remote_investigate",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03027",
-        "name": "In the Know",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "as_if_you_were_at_location",
     "count": 1,
     "usages": [
       {
@@ -1584,7 +1606,7 @@
     ]
   },
   {
-    "tag": "to_play_from_hand",
+    "tag": "at_end_of_turn",
     "count": 1,
     "usages": [
       {
@@ -1595,7 +1617,7 @@
     ]
   },
   {
-    "tag": "at_end_of_turn",
+    "tag": "to_play_from_hand",
     "count": 1,
     "usages": [
       {
@@ -1639,17 +1661,6 @@
     ]
   },
   {
-    "tag": "shroud_minus_1",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03036",
-        "name": "Lantern",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
     "tag": "investigate_asset_unlimited",
     "count": 1,
     "usages": [
@@ -1661,7 +1672,18 @@
     ]
   },
   {
-    "tag": "gain_aloof",
+    "tag": "shroud_minus_1",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03036",
+        "name": "Lantern",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "at_end_of_enemy_phase",
     "count": 1,
     "usages": [
       {
@@ -1672,7 +1694,7 @@
     ]
   },
   {
-    "tag": "at_end_of_enemy_phase",
+    "tag": "gain_aloof",
     "count": 1,
     "usages": [
       {
@@ -1716,17 +1738,6 @@
     ]
   },
   {
-    "tag": "timing_fast_during_any_turn",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03108",
-        "name": "Anatomical Diagrams",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
     "tag": "current_sanity_more",
     "count": 1,
     "usages": [
@@ -1744,6 +1755,28 @@
       {
         "code": "03108",
         "name": "Anatomical Diagrams",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "timing_fast_during_any_turn",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03108",
+        "name": "Anatomical Diagrams",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "gain_retaliate",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03110",
+        "name": "Knuckleduster",
         "pack": "ptc"
       }
     ]
@@ -1815,6 +1848,28 @@
     ]
   },
   {
+    "tag": "boost_agility_x",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03155",
+        "name": "Fight or Flight",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "current_horror_more",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03155",
+        "name": "Fight or Flight",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
     "tag": "discount_x",
     "count": 1,
     "usages": [
@@ -1881,7 +1936,7 @@
     ]
   },
   {
-    "tag": "timing_forced_enters_location",
+    "tag": "enemy_manage_long_exhaust",
     "count": 1,
     "usages": [
       {
@@ -1903,7 +1958,7 @@
     ]
   },
   {
-    "tag": "enemy_manage_long_exhaust",
+    "tag": "timing_forced_enters_location",
     "count": 1,
     "usages": [
       {
@@ -1958,6 +2013,17 @@
     ]
   },
   {
+    "tag": "initiate_test_agility_x",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03237",
+        "name": "Waylay",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
     "tag": "phase_mythos",
     "count": 1,
     "usages": [
@@ -1991,17 +2057,6 @@
     ]
   },
   {
-    "tag": "timing_reaction_before_opening_hand",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03264",
-        "name": "Stick to the Plan",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
     "tag": "exhaust_self",
     "count": 1,
     "usages": [
@@ -2013,12 +2068,12 @@
     ]
   },
   {
-    "tag": "timing_free_taking_turn",
+    "tag": "timing_reaction_before_opening_hand",
     "count": 1,
     "usages": [
       {
-        "code": "03266",
-        "name": "Arcane Insight",
+        "code": "03264",
+        "name": "Stick to the Plan",
         "pack": "ptc"
       }
     ]
@@ -2035,7 +2090,18 @@
     ]
   },
   {
-    "tag": "timing_fast_enemy_aoo",
+    "tag": "timing_free_taking_turn",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03266",
+        "name": "Arcane Insight",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "duration_next_skill_test_this_turn",
     "count": 1,
     "usages": [
       {
@@ -2046,7 +2112,7 @@
     ]
   },
   {
-    "tag": "duration_next_skill_test_this_turn",
+    "tag": "timing_fast_enemy_aoo",
     "count": 1,
     "usages": [
       {
@@ -2068,35 +2134,13 @@
     ]
   },
   {
-    "tag": "gain_retaliate",
+    "tag": "initiate_test_agility_3",
     "count": 1,
     "usages": [
       {
-        "code": "03110",
-        "name": "Knuckleduster",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "boost_agility_x",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03155",
-        "name": "Fight or Flight",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "current_horror_more",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03155",
-        "name": "Fight or Flight",
-        "pack": "ptc"
+        "code": "05036",
+        "name": "Track Shoes",
+        "pack": "tcu"
       }
     ]
   },
@@ -2107,17 +2151,6 @@
       {
         "code": "05020",
         "name": "Interrogate",
-        "pack": "tcu"
-      }
-    ]
-  },
-  {
-    "tag": "initiate_test_agility_3",
-    "count": 1,
-    "usages": [
-      {
-        "code": "05036",
-        "name": "Track Shoes",
         "pack": "tcu"
       }
     ]
@@ -2167,57 +2200,13 @@
     ]
   },
   {
-    "tag": "boost_intellect_6",
+    "tag": "uses_type_offerings",
     "count": 1,
     "usages": [
       {
-        "code": "10058",
-        "name": "Microscope",
-        "pack": "fhv"
-      }
-    ]
-  },
-  {
-    "tag": "uses_starting_10",
-    "count": 1,
-    "usages": [
-      {
-        "code": "10062",
-        "name": "Bianca \"Die Katz\"",
-        "pack": "fhv"
-      }
-    ]
-  },
-  {
-    "tag": "initiate_test_agility_0",
-    "count": 1,
-    "usages": [
-      {
-        "code": "10071",
-        "name": "Grift",
-        "pack": "fhv"
-      }
-    ]
-  },
-  {
-    "tag": "trait_blessed",
-    "count": 1,
-    "usages": [
-      {
-        "code": "10132",
-        "name": "Occult Reliquary",
-        "pack": "fhv"
-      }
-    ]
-  },
-  {
-    "tag": "trait_cursed",
-    "count": 1,
-    "usages": [
-      {
-        "code": "10132",
-        "name": "Occult Reliquary",
-        "pack": "fhv"
+        "code": "07310",
+        "name": "Shrine of the Moirai",
+        "pack": "tic"
       }
     ]
   }

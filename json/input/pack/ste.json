@@ -12,8 +12,8 @@
     "name": ".18 Derringer",
     "text": "Uses (2 ammo).\n[action] Spend 1 ammo: <b>Fight.</b> You get +2 [combat] and deal +1 damage for this attack. If you fail, place 1 ammo on .18 Derringer.",
     "tags": [
-      "uses_starting_2",
       "uses_type_ammo",
+      "uses_starting_2",
       "bold_fight",
       "boost_combat_2",
       "damage_plus_1"
@@ -24,8 +24,8 @@
     "name": "Grimm's Fairy Tales",
     "text": "Uses (4 secrets).\n[reaction] After an investigator at your location fails a skill test by 2 or more, exhaust Grimm's Fairy Tales and spend 1 secret: Heal 1 horror from that investigator.",
     "tags": [
-      "uses_starting_4",
       "uses_type_secret",
+      "uses_starting_4",
       "cost_reaction_exhaust_self"
     ]
   },
@@ -34,8 +34,8 @@
     "name": "Old Keyring",
     "text": "Uses (2 keys). If there are no keys on Old Keyring, discard it.\n[action]: <b>Investigate.</b> Your location gets -2 shroud for this investigation. If you succeed, remove 1 key from Old Keyring.",
     "tags": [
-      "uses_starting_2",
       "uses_type_keys",
+      "uses_starting_2",
       "bold_investigate"
     ]
   },
@@ -97,8 +97,8 @@
     "name": "Dumb Luck",
     "text": "Fast. Play after you fail a skill test by 2 or less during an evasion attempt against a non-[[Elite]] enemy.\nPlace that enemy on top of the encounter deck.",
     "tags": [
-      "fast_play",
-      "elite_unusable"
+      "elite_unusable",
+      "fast_play"
     ]
   },
   {
@@ -130,8 +130,8 @@
     "name": "Oops!",
     "text": "Fast. Play after you fail a skill test by 2 or less while attacking an enemy engaged with you.\nDeal this attack's damage to a different enemy at your location.",
     "tags": [
-      "fast_play",
-      "engage_with_you"
+      "engage_with_you",
+      "fast_play"
     ]
   },
   {
@@ -161,8 +161,8 @@
     "name": ".18 Derringer",
     "text": "Uses (3 ammo).\n[action] Spend 1 ammo: <b>Fight.</b> You get +2 [combat] and deal +1 damage for this attack. If you fail, place 1 ammo on .18 Derringer and the next time you trigger this ability this round, you get an additional +1 [combat] for that attack.",
     "tags": [
-      "uses_starting_3",
       "uses_type_ammo",
+      "uses_starting_3",
       "bold_fight",
       "boost_combat_1",
       "boost_combat_2",
@@ -191,8 +191,8 @@
     "name": "Dumb Luck",
     "text": "Fast. Play after you fail a skill test by 3 or less during an evasion attempt against a non-[[Elite]] enemy.\nPlace that enemy on the bottom of the encounter deck.",
     "tags": [
-      "fast_play",
-      "elite_unusable"
+      "elite_unusable",
+      "fast_play"
     ]
   },
   {
@@ -218,8 +218,8 @@
     "name": "Lucky!",
     "text": "Fast. Play when an investigator at your location would fail a skill test.\nThey get +3 to their skill value for that test. That investigator draws 1 card.",
     "tags": [
-      "fast_play",
-      "draw_player_1"
+      "draw_player_1",
+      "fast_play"
     ]
   },
   {
@@ -227,8 +227,8 @@
     "name": "Chainsaw",
     "text": "Uses (3 supplies).\n[action] Spend 1 supply: <b>Fight.</b> You get +2 [combat] and deal +2 damage for this attack. If this attack fails, either place 1 supply on Chainsaw or deal 1 damage to the attacked enemy.",
     "tags": [
-      "uses_starting_3",
       "uses_type_supply",
+      "uses_starting_3",
       "bold_fight",
       "boost_combat_2",
       "damage_plus_2"

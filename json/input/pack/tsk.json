@@ -42,8 +42,8 @@
     "name": "Word of Woe",
     "text": "Amina Zidane deck only.\nFast. Play only during your turn.\nPlace 1 doom on an asset you control to resolve an [action] ability on it, ignoring all costs <i>(including its [action] cost)</i>. Then, if Word of Weal is in your discard pile, you may shuffle it into your deck.",
     "tags": [
-      "fast_play",
       "deck_restriction",
+      "fast_play",
       "timing_fast_during_your_turn"
     ]
   },
@@ -52,8 +52,8 @@
     "name": "Word of Weal",
     "text": "Amina Zidane deck only.\nFast. Play when you perform a skill test on an asset with 1 or more doom on it.\nAdd your [willpower] to your skill value for this test. Then, if Word of Woe is in your discard pile, you may shuffle it into your deck.",
     "tags": [
-      "fast_play",
       "deck_restriction",
+      "fast_play",
       "stat_add_willpower"
     ]
   },
@@ -89,14 +89,14 @@
     "name": "Runic Axe",
     "text": "Customizable. Uses (4 charges). Replenish 1 of these charges at the start of each round.\n[action]: <b>Fight.</b> You get +1 [combat] for this attack. Before this attack, you may spend any number of charges to imbue the axe with that many different inscriptions -\n- <i>Accuracy</i> - You get an additional +2 [combat] for this attack.\n- <i>Power</i> - This attack deals +1 damage.",
     "tags": [
-      "uses_replenish",
-      "uses_starting_4",
       "uses_type_charge",
+      "uses_starting_4",
       "bold_fight",
       "boost_combat_1",
       "boost_combat_2",
       "customizable",
-      "damage_plus_1"
+      "damage_plus_1",
+      "uses_replenish"
     ]
   },
   {
@@ -138,8 +138,8 @@
     "name": "Grievous Wound",
     "text": "Fast. Play after you successfully attack a non-[[Elite]] enemy using a [[Melee]] asset.\nAttach Grievous Wound to the attacked enemy.\n<b>Forced</b> - At the end of the round: Deal 1 damage to attached enemy.",
     "tags": [
-      "fast_play",
       "elite_unusable",
+      "fast_play",
       "trait_melee"
     ]
   },
@@ -178,8 +178,8 @@
     "name": "Bestow Resolve",
     "text": "Uses (4 charges).\n[fast] During a skill test performed by an investigator at your location or a connecting location, spend 1 charge: Commit a non-weakness card from your hand to that skill test, treating all of its skill icons as [wild]",
     "tags": [
-      "uses_starting_4",
-      "uses_type_charge"
+      "uses_type_charge",
+      "uses_starting_4"
     ]
   },
   {
@@ -201,9 +201,9 @@
     "name": "Handcuffs",
     "text": "Fast.\n[action] If Handcuffs is not attached to an enemy: <b>Evade.</b> Use only on a [[Humanoid]] enemy. This evasion attempt uses [combat] instead of [agility]. If you succeed, remove all doom from the just-evaded enemy and attach Handcuffs to it.\nIf the attached enemy is non-[[Elite]], it cannot ready and doom cannot be placed on it.",
     "tags": [
-      "fast_play",
       "bold_evade",
       "elite_unusable",
+      "fast_play",
       "trait_humanoid"
     ]
   },
@@ -240,8 +240,8 @@
     "name": "Alchemical Distillation",
     "text": "Customizable. Uses (3 supplies).\n[action] Spend 1 supply: Choose an investigator at your location and test [intellect] (1). If you succeed, that investigator performs one of the following options -\n- Draw 2 cards.\n- Gain 2 resources.",
     "tags": [
-      "uses_starting_3",
       "uses_type_supply",
+      "uses_starting_3",
       "customizable",
       "draw_player_2",
       "gain_resource_2",
@@ -282,8 +282,8 @@
     "name": "Grim Memoir",
     "text": "Uses (4 secrets).\n[action] Spend 1 secret: <b>Investigate.</b> You get +2 [intellect] for this investigation. If you succeed by 2 or more, you may draw 1 card.",
     "tags": [
-      "uses_starting_4",
       "uses_type_secret",
+      "uses_starting_4",
       "bold_investigate",
       "boost_intellect_2",
       "draw_player_1",
@@ -341,8 +341,8 @@
     "name": "Orphic Theory",
     "text": "Uses (4 secrets).\n[fast] Spend 1 secret: Choose any non-weakness treachery not attached to an [[Elite]] enemy. Until the end of the round, treat that card's printed text box as if it were blank (except for [[Traits]]).",
     "tags": [
-      "uses_starting_4",
-      "uses_type_secret"
+      "uses_type_secret",
+      "uses_starting_4"
     ]
   },
   {
@@ -381,8 +381,8 @@
     "name": "Surgical Kit",
     "text": "Uses (4 supplies).\n[reaction] When one of your card effects heals damage from an investigator, spend 1 supply: Either that effect heals 1 additional damage, or you draw 1 card and heal 1 horror.\n[action] [action]: Heal 3 damage from an investigator or [[Ally]] asset at your location.",
     "tags": [
-      "uses_starting_4",
       "uses_type_supply",
+      "uses_starting_4",
       "cost_action_multiple",
       "draw_player_1",
       "trait_ally"
@@ -393,8 +393,8 @@
     "name": "Fingerprint Kit",
     "text": "Uses (3 supplies).\n[action] Exhaust Fingerprint Kit and spend 1 supply: <b>Investigate.</b> You get +2 [intellect] for this investigation. If you succeed, you discover 2 additional clues at your location.",
     "tags": [
-      "uses_starting_3",
       "uses_type_supply",
+      "uses_starting_3",
       "bold_investigate",
       "boost_intellect_2",
       "cost_action_exhaust_self"
@@ -414,8 +414,8 @@
     "name": "Damning Testimony",
     "text": "Customizable. Uses (3 evidence).\n[action] Exhaust Damning Testimony and choose an enemy at any location: <b>Investigate</b> <i>(your location)</i>. If you succeed, you may spend 1 evidence to discover 1 additional clue at the chosen enemy's location.",
     "tags": [
-      "uses_starting_3",
       "uses_type_evidence",
+      "uses_starting_3",
       "cost_action_exhaust_self",
       "customizable"
     ]
@@ -433,8 +433,8 @@
     "name": "Honed Instinct",
     "text": "Customizable. Fast. Play this card only after one of the following conditions is met:\n- The agenda or act advances.\n- You succeed at a skill test by 3 or more.\nImmediately take an action as if it were your turn (Max once per round).",
     "tags": [
-      "fast_play",
-      "customizable"
+      "customizable",
+      "fast_play"
     ]
   },
   {
@@ -442,8 +442,8 @@
     "name": "Disguise",
     "text": "Uses (4 supplies).\n[action] Spend 1 supply: <b>Evade.</b> You get +2 [agility] for this evasion attempt. If you succeed and the evaded enemy is non-[[Elite]], it does not ready during the next upkeep phase.",
     "tags": [
-      "uses_starting_4",
       "uses_type_supply",
+      "uses_starting_4",
       "bold_evade",
       "boost_agility_2",
       "elite_unusable"
@@ -460,8 +460,8 @@
     "name": "Thieves' Kit",
     "text": "Uses (6 supplies).\n[action] Spend 1 supply: <b>Investigate.</b> You may use [agility] instead of [intellect] for this investigation. If you succeed, gain 1 resource.",
     "tags": [
-      "uses_starting_6",
       "uses_type_supply",
+      "uses_starting_6",
       "bold_investigate",
       "gain_resource_1"
     ]
@@ -513,8 +513,8 @@
     "name": "Quick Getaway",
     "text": "Fast. Play when an enemy attacks you.\n<b>Evade.</b> Attempt to evade the attacking enemy. If you succeed, cancel that enemy's attack.",
     "tags": [
-      "fast_play",
-      "bold_evade"
+      "bold_evade",
+      "fast_play"
     ]
   },
   {
@@ -568,8 +568,8 @@
     "name": "Thieves' Kit",
     "text": "Uses (6 supplies).\n[action] Spend 1 supply: <b>Investigate.</b> For this investigation, you may use [agility] instead of [intellect], and you get +1 skill value. If you succeed, gain 1 resource (2 resources instead if you succeed by 2 or more).",
     "tags": [
-      "uses_starting_6",
       "uses_type_supply",
+      "uses_starting_6",
       "bold_investigate",
       "gain_resource_1",
       "succeed_by_2"
@@ -596,8 +596,8 @@
     "name": "Clean Sneak",
     "text": "Fast. Play only during your turn.\nFor each exhausted non-swarm enemy at your location, choose a different option:\n- Gain 2 resources.\n- Deal 2 damage to that enemy.\n- Discover 1 clue at your location.\n- Draw 1 card.",
     "tags": [
-      "fast_play",
       "draw_player_1",
+      "fast_play",
       "gain_resource_2",
       "timing_fast_during_your_turn"
     ]
@@ -607,8 +607,8 @@
     "name": "Living Ink",
     "text": "Customizable. When you purchase Living Ink, choose a skill and circle it on its upgrade sheet.\nUses (3 charges).\nRemove 1 charge from Living Ink at the start of each of your turns. If Living Ink has no charges, discard it.\nYou get +1 to the chosen skill(s).",
     "tags": [
-      "uses_starting_3",
       "uses_type_charge",
+      "uses_starting_3",
       "customizable",
       "discard_zero_uses"
     ]
@@ -626,10 +626,10 @@
     "name": "Power Word",
     "text": "Customizable. Fast. Play only during your turn.\nAttach to a non-[[Elite]] enemy at your location.\n[action] If attached enemy is at your location: <b>Parley.</b> Give it a command (limit once per round per command) -\n- <i>\"Go.\"</i> This enemy moves once in a direction of your choice.\n- <i>\"Cower.\"</i> This enemy exhausts.",
     "tags": [
-      "fast_play",
       "bold_parley",
       "customizable",
       "elite_unusable",
+      "fast_play",
       "timing_fast_during_your_turn"
     ]
   },
@@ -728,8 +728,8 @@
     "name": "Moonlight Ritual",
     "text": "Fast. Play only during your turn.\nRemove all doom from a non-[[Elite]] card at your location.",
     "tags": [
-      "fast_play",
       "elite_unusable",
+      "fast_play",
       "timing_fast_during_your_turn"
     ]
   },
@@ -791,8 +791,8 @@
     "name": "Makeshift Trap",
     "text": "Customizable. Uses (2 time). If Makeshift Trap has no time, discard it.\nAttach to your location.\nEach non-[[Elite]] enemy at attached location get -1 fight and -1 evade.\n<b>Forced</b> - At the end of the round: Remove 1 time from Makeshift Trap.",
     "tags": [
-      "uses_starting_2",
       "uses_type_time",
+      "uses_starting_2",
       "customizable",
       "discard_zero_uses",
       "elite_unusable"
@@ -825,8 +825,8 @@
     "name": "End of the Road",
     "text": "Fast. Play during your turn only if the final agenda is in play.\nDraw 1 card, gain 1 resource, and gain 1 additional action. Remove End of the Road from the game.",
     "tags": [
-      "fast_play",
       "draw_player_1",
+      "fast_play",
       "gain_resource_1"
     ]
   },
@@ -937,8 +937,8 @@
     "name": "Old Keyring",
     "text": "Uses (3 keys). If there are no keys on Old Keyring, discard it.\n[action]: <b>Investigate.</b> Your location gets -2 shroud for this investigation. If you succeed, remove 1 key from Old Keyring, and if this test's difficulty is 0, you discover 1 additional clue.",
     "tags": [
-      "uses_starting_3",
       "uses_type_keys",
+      "uses_starting_3",
       "bold_investigate"
     ]
   },
@@ -955,8 +955,8 @@
     "name": "Hyperphysical Shotcaster",
     "text": "Customizable. Uses (4 aether). If Hyperphysical Shotcaster has no aether, discard it.\n[action] Spend 1 aether: Resolve the <i>Manifest</i> ability of the Hyperphysical Shotcaster's current form.\n[fast] Exhaust Hyperphysical Shotcaster: Change its form <i>(to one you have unlocked on its upgrade sheet).</i>",
     "tags": [
-      "uses_starting_4",
       "uses_type_aether",
+      "uses_starting_4",
       "customizable",
       "discard_zero_uses"
     ]
@@ -982,8 +982,8 @@
     "name": "Flashlight",
     "text": "Uses (4 supplies).\n[reaction] When you perform a skill test while investigating or attempting to evade, spend 1 supply: This test gets -2 difficulty.\n<b>Card design by the Council-in-Exile at Arkham Nights 2020.</b>",
     "tags": [
-      "uses_starting_4",
-      "uses_type_supply"
+      "uses_type_supply",
+      "uses_starting_4"
     ]
   },
   {

@@ -62,8 +62,8 @@
     "name": "Mind Wipe",
     "text": "Fast. Play after a phase begins.\nChoose a non-[[Elite]] enemy in your location. Until the end of the phase, reduce the chosen enemy's damage and horror values by 1, and treat its printed text box as if it were blank (except for [[Traits]]).",
     "tags": [
-      "fast_play",
-      "elite_unusable"
+      "elite_unusable",
+      "fast_play"
     ]
   },
   {
@@ -115,8 +115,8 @@
     "name": "Strange Solution",
     "text": "Researched. Uses (3 supplies).\n[action] Spend 1 supply and exhaust Strange Solution: Choose an investigator at your location to gain 2 resources and draw 1 card.",
     "tags": [
-      "uses_starting_3",
       "uses_type_supply",
+      "uses_starting_3",
       "cost_action_exhaust_self",
       "draw_player_1",
       "gain_resource_2"
@@ -143,8 +143,8 @@
     "name": "Rite of Seeking",
     "text": "Uses (3 charges).\n[action] Spend 1 charge: <b>Investigate.</b> Investigate using [willpower] instead of [intellect]. You get +2 [willpower] for this test. If you succeed you discover 1 additional clue at this location. If a [skull], [cultist], [tablet], [elder_thing], or [auto_fail] symbol is revealed during this test, after this test resolves lose all remaining actions and immediately end your turn.",
     "tags": [
-      "uses_starting_3",
       "uses_type_charge",
+      "uses_starting_3",
       "bold_investigate",
       "boost_willpower_2",
       "chaos_reveal_token_auto_fail",
@@ -159,8 +159,8 @@
     "name": "Clarity of Mind",
     "text": "Uses (4 charges).\n[action] Spend 1 charge: Heal 2 horror from among investigators at your location.",
     "tags": [
-      "uses_starting_4",
-      "uses_type_charge"
+      "uses_type_charge",
+      "uses_starting_4"
     ]
   },
   {
@@ -182,8 +182,8 @@
     "name": ".32 Colt",
     "text": "Uses (6 ammo).\n[action] Spend 1 ammo: <b>Fight.</b> You deal +1 damage for this attack.\n[free] Spend 1 resource: Return .32 Colt to your hand.",
     "tags": [
-      "uses_starting_6",
       "uses_type_ammo",
+      "uses_starting_6",
       "bold_fight",
       "damage_plus_1"
     ]
@@ -210,8 +210,8 @@
     "name": "Archaic Glyphs",
     "text": "Researched. Uses (3 charges).\n[action] Spend 1 charge: <b>Investigate.</b> If you succeed, you may put an asset with printed cost of X or lower into play from your hand. X is the amount you succeeded by.",
     "tags": [
-      "uses_starting_3",
       "uses_type_charge",
+      "uses_starting_3",
       "bold_investigate"
     ]
   },
@@ -229,8 +229,8 @@
     "name": "Suggestion",
     "text": "Uses (3 charges). If Suggestion has no charges, discard it.\n[action] Exhaust Suggestion: <b>Evade.</b> Add your [willpower] value to your skill value for this evasion attempt. If you do not succeed by at least 2, remove 1 charge from Suggestion.",
     "tags": [
-      "uses_starting_3",
       "uses_type_charge",
+      "uses_starting_3",
       "bold_evade",
       "cost_action_exhaust_self",
       "discard_zero_uses",
@@ -242,8 +242,8 @@
     "name": "Alchemical Transmutation",
     "text": "Uses (4 charges).\n[action] Exhaust Alchemical Transmutation, spend 1 charge: Test [willpower] (0). For each point you succeed by, gain 1 resource (to a maximum of 4). If a [skull], [cultist], [tablet], [elder_thing], or [auto_fail] symbol is revealed during this test, take 1 damage.",
     "tags": [
-      "uses_starting_4",
       "uses_type_charge",
+      "uses_starting_4",
       "chaos_reveal_token_auto_fail",
       "chaos_reveal_token_cultist",
       "chaos_reveal_token_elder_thing",
@@ -325,8 +325,8 @@
     "name": "Decorated Skull",
     "text": "Uses (0 charges).\n[reaction] After an investigator, [[Ally]] asset, or enemy at your location is defeated: Place 1 resource <i>(from the token bank)</i> on Decorated Skull, as a charge.\n[action] Spend up to 3 charges: Draw that many cards and gain that many resources.",
     "tags": [
-      "uses_starting_0",
       "uses_type_charge",
+      "uses_starting_0",
       "trait_ally"
     ]
   },
@@ -335,8 +335,8 @@
     "name": "Colt Vest Pocket",
     "text": "Uses (5 ammo).\n[action] Spend 1 ammo: <b>Fight.</b> You get +2 [combat] for this attack. This attack deals +1 damage.\n<b>Forced</b> - At the end of the round, if you triggered Colt Vest Pocket's \"[action]\" ability: Discard it.",
     "tags": [
-      "uses_starting_5",
       "uses_type_ammo",
+      "uses_starting_5",
       "bold_fight",
       "boost_combat_2",
       "damage_plus_1"
@@ -347,8 +347,8 @@
     "name": "Mists of R'lyeh",
     "text": "Uses (5 charges).\n[action] Spend 1 charge: <b>Evade.</b> This evasion attempt uses [willpower] instead of [agility]. You get +1 [willpower] for this evasion attempt. If you succeed, after evading the chosen enemy, you may move to a connecting location. If a [skull], [cultist], [tablet], [elder_thing], or [auto_fail] symbol is revealed during this evasion attempt, choose and discard a card from your hand.",
     "tags": [
-      "uses_starting_5",
       "uses_type_charge",
+      "uses_starting_5",
       "bold_evade",
       "boost_willpower_1",
       "chaos_reveal_token_auto_fail",
@@ -363,8 +363,8 @@
     "name": "The Chthonian Stone",
     "text": "Seal ([skull], [cultist], [tablet], or [elder_thing]). Uses (3 charges). If The Chthonian Stone has no charges, return it to your hand.\n<b>Forced</b> - After you reveal an [auto_fail] symbol during a skill test: Remove 1 charge from The Chthonian Stone.",
     "tags": [
-      "uses_starting_3",
       "uses_type_charge",
+      "uses_starting_3",
       "chaos_reveal_token_auto_fail",
       "chaos_reveal_token_cultist",
       "chaos_reveal_token_elder_thing",
@@ -450,9 +450,9 @@
     "name": "Sign Magick",
     "text": "Fast.\nYou have 1 additional arcane slot, which can only be used to hold a [[Spell]] or [[Ritual]] asset.\n[reaction] After you activate an [action] ability on a [[Spell]] or [[Ritual]] asset, exhaust Sign Magick: Activate an [action] ability on a different [[Spell]] or [[Ritual]] asset you control <i>(without paying its [action] cost)</i>.",
     "tags": [
-      "fast_play",
       "cost_action_exhaust_self",
       "cost_reaction_exhaust_self",
+      "fast_play",
       "trait_ritual",
       "trait_spell"
     ]

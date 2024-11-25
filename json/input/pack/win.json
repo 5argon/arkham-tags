@@ -22,8 +22,8 @@
     "name": "Mauser C96",
     "text": "Uses (5 ammo).\n[action] Exhaust Mauser C96 and spend 1 ammo: <b>Fight.</b> You get +1 [combat] and deal +1 damage for this attack. If you succeed by 2 or more, either ready Mauser C96 or gain 1 resource.",
     "tags": [
-      "uses_starting_5",
       "uses_type_ammo",
+      "uses_starting_5",
       "bold_fight",
       "boost_combat_1",
       "cost_action_exhaust_self",
@@ -37,9 +37,9 @@
     "name": "Switchblade",
     "text": "Fast.\n[action]: <b>Fight.</b> If you succeed by 2 or more, this attack deals +1 damage.",
     "tags": [
-      "fast_play",
       "bold_fight",
       "damage_plus_1",
+      "fast_play",
       "succeed_by_2"
     ]
   },
@@ -149,8 +149,8 @@
     "name": "Liquid Courage",
     "text": "Uses (4 supplies).\n[action] Spend 1 supply: Choose an investigator at your location to heal 1 horror. Then, that investigator tests [willpower] (2). If the test succeeds, they draw 1 card. If the test fails, they heal 1 additional horror and discard 1 card at random from their hand.",
     "tags": [
-      "uses_starting_4",
       "uses_type_supply",
+      "uses_starting_4",
       "draw_player_1"
     ]
   },
@@ -159,8 +159,8 @@
     "name": "Mauser C96",
     "text": "Uses (5 ammo).\n[action] Exhaust Mauser C96 and spend 1 ammo: <b>Fight.</b> You get +2 [combat] and deal +1 damage for this attack. If you succeed by 2 or more, either ready Mauser C96 or gain 1 resource (if you succeed by 4 or more, do both).",
     "tags": [
-      "uses_starting_5",
       "uses_type_ammo",
+      "uses_starting_5",
       "bold_fight",
       "boost_combat_2",
       "cost_action_exhaust_self",
@@ -175,8 +175,8 @@
     "name": "Daring Maneuver",
     "text": "Fast. Play when you would succeed at a skill test.\nYou get +3 skill value for this test. Draw 1 card.",
     "tags": [
-      "fast_play",
-      "draw_player_1"
+      "draw_player_1",
+      "fast_play"
     ]
   },
   {
@@ -258,8 +258,8 @@
     "name": "Beretta M1918",
     "text": "Uses (4 ammo).\n[action] Exhaust Beretta M1918 and spend 1 ammo: <b>Fight.</b> You get +4 [combat] and deal +1 damage for this attack. If you succeed by 2 or more, either ready Beretta M1918, or this attack deals an additional +1 damage (if you succeed by 4 or more, do both).",
     "tags": [
-      "uses_starting_4",
       "uses_type_ammo",
+      "uses_starting_4",
       "bold_fight",
       "boost_combat_4",
       "cost_action_exhaust_self",

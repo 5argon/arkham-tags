@@ -39,8 +39,8 @@
     "name": "Encyclopedia",
     "text": "Uses (5 secrets).\n[action] Exhaust Encyclopedia and spend 1 secret: Choose an investigator at your location. That investigator gets +2 to a skill of your choice until the end of the phase.",
     "tags": [
-      "uses_starting_5",
       "uses_type_secret",
+      "uses_starting_5",
       "cost_action_exhaust_self"
     ]
   },
@@ -49,8 +49,8 @@
     "name": "Feed the Mind",
     "text": "Uses (3 secrets).\n[action] Exhaust Feed the Mind and spend 1 secret: Test [intellect] (1). For each point you succeed by (to a maximum of 3), draw 1 card.",
     "tags": [
-      "uses_starting_3",
       "uses_type_secret",
+      "uses_starting_3",
       "cost_action_exhaust_self",
       "draw_player_1",
       "initiate_test_intellect_1"
@@ -61,8 +61,8 @@
     "name": "Forbidden Tome",
     "text": "Uses (5 secrets).\n[action] Exhaust Forbidden Tome and spend 1 secret: Draw 1 card. Then, if you have 10 or more cards in your hand and there are no secrets on Forbidden Tome, you may discard it to record in your Campaign Log that \"you have translated the tome.\"",
     "tags": [
-      "uses_starting_5",
       "uses_type_secret",
+      "uses_starting_5",
       "cost_action_exhaust_self",
       "draw_player_1"
     ]
@@ -163,8 +163,8 @@
     "name": "Esoteric Atlas",
     "text": "Uses (4 secrets).\n[action] Spend 1 secret: Choose a revealed location up to 3 connections away from your location. Move to that location.",
     "tags": [
-      "uses_starting_4",
-      "uses_type_secret"
+      "uses_type_secret",
+      "uses_starting_4"
     ]
   },
   {
@@ -203,8 +203,8 @@
     "name": "Mind over Matter",
     "text": "Fast. Play during your turn.\nUntil the end of the round, add your [intellect] to your [combat] and [agility]. Draw 1 card.",
     "tags": [
-      "fast_play",
       "draw_player_1",
+      "fast_play",
       "stat_add_intellect"
     ]
   },
@@ -263,8 +263,8 @@
     "name": "The Necronomicon",
     "text": "Uses (6 secrets). Limit 1 per deck.\n[free] Spend 1 secret: You get +2 skill value for this skill test.\n[free] Spend 2 secrets: Draw 2 cards.\n[free] Spend 3 secrets: Discover 1 clue at any location.\n[free] Spend 4 secrets: Deal 3 damage to an enemy engaged with you.",
     "tags": [
-      "uses_starting_6",
       "uses_type_secret",
+      "uses_starting_6",
       "draw_player_2",
       "engage_with_you",
       "limit_1_per_deck"
