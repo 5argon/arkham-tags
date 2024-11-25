@@ -73,10 +73,10 @@
     "name": "Taunt",
     "text": "Fast. Play only during your turn.\nEngage any number of enemies at your location.",
     "tags": [
-      "aoe_engage",
-      "engage_effect",
       "fast_play",
-      "timing_fast_during_your_turn"
+      "timing_fast_during_your_turn",
+      "aoe_engage",
+      "engage_effect"
     ]
   },
   {
@@ -96,10 +96,10 @@
     "name": "Taunt",
     "text": "Fast. Play only during your turn.\nEngage any number of enemies at your location. Draw 1 card for each enemy engaged in this way.",
     "tags": [
-      "draw_player",
-      "engage_effect",
       "fast_play",
-      "timing_fast_during_your_turn"
+      "timing_fast_during_your_turn",
+      "draw_player",
+      "engage_effect"
     ]
   },
   {
@@ -117,9 +117,9 @@
     "name": "Strange Solution",
     "text": "[action] Test [intellect] (4). If you succeed, discard Strange Solution and draw 2 cards. Record in your Campaign Log that \"you have identified the solution.\"",
     "tags": [
+      "unidentified",
       "draw_player_2",
-      "initiate_test_intellect_4",
-      "unidentified"
+      "initiate_test_intellect_4"
     ]
   },
   {
@@ -127,10 +127,10 @@
     "name": "Shortcut",
     "text": "Fast. Play only during your turn.\nChoose an investigator at your location. Move that investigator to a connecting location.",
     "tags": [
-      "connecting_location_investigator",
       "fast_play",
-      "move_investigator_any",
       "timing_fast_during_your_turn",
+      "connecting_location_investigator",
+      "move_investigator_any",
       "your_location_investigator"
     ]
   },
@@ -165,8 +165,8 @@
     "text": "Fast. Play when an enemy would spawn at your location.\nImmediately move to a connecting location. (The enemy still spawns at your previous location.)",
     "tags": [
       "fast_play",
-      "move_investigator_self",
-      "timing_fast_spawn_your_location"
+      "timing_fast_spawn_your_location",
+      "move_investigator_self"
     ]
   },
   {
@@ -251,10 +251,10 @@
     "name": "Fire Axe",
     "text": "[action]: <b>Fight.</b> If you have no resources in your resource pool, this attack deals +1 damage.\n[free] During an attack using Fire Axe, spend 1 resource: You get +2 [combat] for this skill test. (Limit three times per attack.)",
     "tags": [
+      "limit_per_test_3",
       "bold_fight",
       "boost_combat_2_attack",
       "damage_plus_1",
-      "limit_per_test_3",
       "no_resource",
       "spend_resource",
       "stat_from_spent_resource"
@@ -351,10 +351,10 @@
     "name": "Pathfinder",
     "text": "[free]During your turn, if you are not engaged with any enemies, exhaust Pathfinder: Move to a connecting location.",
     "tags": [
+      "timing_fast_during_your_turn",
       "cost_free_exhaust_self",
       "engage_none",
-      "move_investigator_self",
-      "timing_fast_during_your_turn"
+      "move_investigator_self"
     ]
   },
   {
@@ -405,10 +405,10 @@
     "name": "Oops!",
     "text": "Fast. Play after you fail a skill test by 2 or less while attacking an enemy engaged with you.\nDeal this attack's damage to a different enemy at your location.",
     "tags": [
+      "fast_play",
       "enemy_value_damage",
       "engage_with_you",
       "fail_by_2_or_less",
-      "fast_play",
       "redirect_damage",
       "your_location_enemy"
     ]
@@ -524,10 +524,10 @@
     "name": "Switchblade",
     "text": "Fast.\n[action] <b>Fight.</b> You get +2 [combat] for this attack. If you succeed by 2 or more, this attack deals +1 damage.",
     "tags": [
+      "fast_play",
       "bold_fight",
       "boost_combat_2_attack",
       "damage_plus_1",
-      "fast_play",
       "succeed_by_2"
     ]
   },
@@ -536,13 +536,13 @@
     "name": "Hypnotic Gaze",
     "text": "Fast. Play when an enemy attacks an investigator at your location.\nCancel that attack. Then, reveal a random token from the chaos bag. If it has a [skull], [cultist], [tablet], [elder_thing], or [auto_fail] symbol, deal the attacking enemy's damage to itself. ",
     "tags": [
+      "fast_play",
+      "timing_fast_enemy_attacks",
       "cancel_attack",
       "chaos_reveal_manual",
       "chaos_reveal_token_cultist",
       "chaos_reveal_token_skull",
       "chaos_reveal_token_tablet",
-      "fast_play",
-      "timing_fast_enemy_attacks",
       "your_location_investigator"
     ]
   },
@@ -684,10 +684,10 @@
     "name": "Blood Pact",
     "text": "Permanent.\n[free] Add 1 doom to Blood Pact: You get +3 [willpower] for this skill test. (Limit once per test.)\n[free] Add 1 doom to Blood Pact: You get +3 [combat] for this skill test. (Limit once per test.)",
     "tags": [
+      "limit_per_test_1",
       "boost_combat_3",
       "boost_willpower_3",
-      "doom_add",
-      "limit_per_test_1"
+      "doom_add"
     ]
   },
   {
@@ -724,9 +724,9 @@
     "name": "\"If it bleeds...\"",
     "text": "Fast. Play after you defeat a [[Monster]] enemy.\nEach investigator at your location heals horror equal to that enemy's horror value.",
     "tags": [
+      "timing_fast_defeat_enemy",
       "enemy_value_horror",
       "heal_horror",
-      "timing_fast_defeat_enemy",
       "trait_monster",
       "your_location_investigator"
     ]
@@ -756,13 +756,13 @@
     "name": "Expose Weakness",
     "text": "Fast. Play during any [free] player window.\nChoose an enemy at your location. Test [intellect] (X), where X is that enemy's fight value. For each point you succeed by, reduce that enemy's fight value by 1 for the next attack performed against it this phase.",
     "tags": [
+      "fast_play",
+      "timing_fast_during_any_window",
       "difficulty_decrease_fight",
       "duration_until_end_phase",
       "enemy_value_fight",
-      "fast_play",
       "initiate_test_intellect",
       "succeed_by",
-      "timing_fast_during_any_window",
       "your_location_enemy"
     ]
   },
@@ -876,12 +876,12 @@
     "name": "\"I've had worse…\"",
     "text": "Fast. Play when you are dealt damage and/or horror.\nCancel up to 5 damage and/or horror just dealt to you. Then, gain that many resources.",
     "tags": [
+      "fast_play",
+      "timing_fast_dealt_damage",
+      "timing_fast_dealt_horror",
       "cancel_damage",
       "cancel_horror",
-      "fast_play",
-      "gain_resource",
-      "timing_fast_dealt_damage",
-      "timing_fast_dealt_horror"
+      "gain_resource"
     ]
   },
   {
@@ -939,9 +939,9 @@
     "name": "Ace in the Hole",
     "text": "Exceptional. Fast. Play only during your turn.\nYou may take an additional 3 actions this turn.",
     "tags": [
-      "additional_action_3",
       "fast_play",
-      "timing_fast_during_your_turn"
+      "timing_fast_during_your_turn",
+      "additional_action_3"
     ]
   },
   {
@@ -1120,10 +1120,10 @@
     "name": "Ward of Protection",
     "text": "Fast. Play when you draw a non-weakness encounter card. \nCancel all of that card's effects and discard it. Then, take 1 horror.",
     "tags": [
-      "cancel_encounter_effect",
       "fast_play",
-      "take_horror",
-      "timing_fast_when_draw_treachery"
+      "timing_fast_when_draw_treachery",
+      "cancel_encounter_effect",
+      "take_horror"
     ]
   },
   {
@@ -1131,12 +1131,12 @@
     "name": "Aquinnah",
     "text": "[reaction] When an enemy attacks you, exhaust Aquinnah and deal 1 horror to her: Deal that enemy's damage to any enemy at your location, instead. (You still take horror dealt by the attack.)",
     "tags": [
+      "timing_fast_enemy_attacks",
       "cost_reaction_exhaust_self",
       "cost_reaction_horror_self",
       "enemy_value_damage",
       "redirect_damage",
       "soak_benefit_horror",
-      "timing_fast_enemy_attacks",
       "your_location_enemy"
     ]
   },
@@ -1156,8 +1156,8 @@
     "name": "The Red-Gloved Man",
     "text": "Fast.\n[reaction] After The Red-Gloved Man enters play: Choose two of your skills. While The Red-Gloved Man is in play, raise the base value of each of those skills to 6.\n<b>Forced</b> - At the end of the mythos phase: Discard The Red-Gloved Man.",
     "tags": [
-      "discard_self",
       "fast_play",
+      "discard_self",
       "phase_mythos_end",
       "stat_base_6",
       "timing_reaction_enters_play"

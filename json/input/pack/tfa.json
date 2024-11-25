@@ -12,8 +12,8 @@
     "name": "Jake Williams",
     "text": "Ursula Downs deck only.\nThe first move or investigate action you perform each turn does not provoke attacks of opportunity.\n[reaction] After you reveal a location or put a new location into play, exhaust Jake Williams: Draw 1 card.",
     "tags": [
-      "cost_reaction_exhaust_self",
       "deck_restriction",
+      "cost_reaction_exhaust_self",
       "draw_player_1"
     ]
   },
@@ -31,15 +31,15 @@
     "name": "Finn's Trusty .38",
     "text": "Finn Edwards deck only. Fast. Uses (3 ammo).\n[action] Spend 1 ammo: <b>Fight.</b> You get +2 [combat] for this attack. If the attacked enemy is not engaged with you, you deal +1 damage for this attack.",
     "tags": [
+      "deck_restriction",
+      "fast_play",
       "uses_type_ammo",
       "uses_starting_3",
       "bold_fight",
       "boost_combat_2",
       "damage_plus_1",
-      "deck_restriction",
       "engage_not_with_you",
-      "engage_with_you",
-      "fast_play"
+      "engage_with_you"
     ]
   },
   {
@@ -47,9 +47,9 @@
     "name": "The Codex of Ages",
     "text": "Father Mateo deck only. Seal ([elder_sign]).\nYou get +1 [willpower] while there is a token sealed here.\n[reaction] When you would reveal a chaos token from the chaos bag, discard The Codex of Ages: Resolve the [elder_sign] token that was sealed here as if it were just revealed from the chaos bag <i>(instead of revealing a token from the chaos bag)</i>.",
     "tags": [
+      "deck_restriction",
       "boost_willpower_1",
-      "chaos_reveal_token_elder_sign",
-      "deck_restriction"
+      "chaos_reveal_token_elder_sign"
     ]
   },
   {
@@ -216,12 +216,12 @@
     "name": "Dark Prophecy",
     "text": "Fast. Play when you would reveal a chaos token.\nReveal 5 chaos tokens instead of 1. Choose one of those tokens with a [skull], [cultist], [tablet], [elder_thing], or [auto_fail] symbol to resolve, and ignore the rest. (If no such token is revealed, choose any one of those tokens to resolve, and ignore the rest.)",
     "tags": [
+      "fast_play",
       "chaos_reveal_token_auto_fail",
       "chaos_reveal_token_cultist",
       "chaos_reveal_token_elder_thing",
       "chaos_reveal_token_skull",
-      "chaos_reveal_token_tablet",
-      "fast_play"
+      "chaos_reveal_token_tablet"
     ]
   },
   {
@@ -238,8 +238,8 @@
     "name": "Dumb Luck",
     "text": "Fast. Play after you fail a skill test by 2 or less during an evasion attempt against a non-[[Elite]] enemy.\nPlace that enemy on top of the encounter deck.",
     "tags": [
-      "elite_unusable",
-      "fast_play"
+      "fast_play",
+      "elite_unusable"
     ]
   },
   {
@@ -276,10 +276,10 @@
     "name": "Marksmanship",
     "text": "Fast. Play when you activate the <b>Fight</b> ability on a [[Firearm]] or [[Ranged]] asset.\nThis attack can target an enemy at a connecting location. Ignore the aloof and retaliate keywords for this attack. If this attack succeeds against an enemy not engaged with you, the attack deals +1 damage.",
     "tags": [
+      "fast_play",
       "damage_plus_1",
       "engage_not_with_you",
       "engage_with_you",
-      "fast_play",
       "trait_firearm",
       "trait_ranged"
     ]
@@ -333,11 +333,11 @@
     "name": "Counterspell",
     "text": "Fast. Play when a [skull], [cultist], [tablet], or [elder_thing] chaos token is revealed during a skill test at your location.\nCancel that chaos token. <i>(Do not reveal a new chaos token to replace it.)</i>",
     "tags": [
+      "fast_play",
       "chaos_reveal_token_cultist",
       "chaos_reveal_token_elder_thing",
       "chaos_reveal_token_skull",
-      "chaos_reveal_token_tablet",
-      "fast_play"
+      "chaos_reveal_token_tablet"
     ]
   },
   {
@@ -455,9 +455,9 @@
     "name": "Custom Ammunition",
     "text": "Fast. Play only during your turn.\nAttach to a [[Firearm]] asset controlled by an investigator at your location. Place 2 ammo on that asset. Limit 1 per asset.\nAttacks performed by attached asset deal +1 damage against [[Monster]] enemies.",
     "tags": [
-      "damage_plus_1",
       "fast_play",
       "timing_fast_during_your_turn",
+      "damage_plus_1",
       "trait_firearm",
       "trait_monster"
     ]
@@ -476,10 +476,10 @@
     "name": "Expose Weakness",
     "text": "Fast. Play during any [free] player window.\nChoose an enemy at your location. Test [intellect] (X), where X is that enemy's fight value. If you succeed, treat that enemy's fight value as if it were 0 for the next attack performed against it this phase. Draw 1 card.",
     "tags": [
-      "draw_player_1",
       "fast_play",
-      "initiate_test_intellect_x",
-      "timing_fast_during_any_window"
+      "timing_fast_during_any_window",
+      "draw_player_1",
+      "initiate_test_intellect_x"
     ]
   },
   {
@@ -633,8 +633,8 @@
     "name": "On Your Own",
     "text": "Limit 1 per investigator.\nDiscard On Your Own if you control an asset that takes up an ally slot.\n[reaction] When you play a [survivor] event, exhaust On Your Own: Reduce that event's cost by 2.",
     "tags": [
-      "cost_reaction_exhaust_self",
-      "limit_1_per_investigator"
+      "limit_1_per_investigator",
+      "cost_reaction_exhaust_self"
     ]
   },
   {

@@ -4,8 +4,8 @@
     "name": "Daisy's Tote Bag",
     "text": "Daisy Walker deck only. Advanced.\nYou have 2 additional hand slots, which can only be used to hold [[Tome]] assets.\n[reaction] When you play a [[Tome]] asset during your turn, exhaust Daisy's Tote Bag: That asset gains fast.",
     "tags": [
-      "cost_reaction_exhaust_self",
       "deck_restriction",
+      "cost_reaction_exhaust_self",
       "trait_tome"
     ]
   },
@@ -15,8 +15,8 @@
     "text": "\"Skids\" O'Toole deck only. Advanced.\nFast. Play during any [fast] window.\nUntil the end of the round, non-[[Elite]] enemies cannot attack you. At the end of the round, you may disengage from each engaged enemy and move up to 2 locations away.",
     "tags": [
       "deck_restriction",
-      "elite_unusable",
-      "fast_play"
+      "fast_play",
+      "elite_unusable"
     ]
   },
   {
@@ -43,8 +43,8 @@
     "name": "Directive",
     "text": "Roland Bank deck only. Permanent.\n<i>Regulation</i> - You cannot play more than 2 cards each round.\n[reaction] When you play an [[Insight]] or [[Tactic]] event, exhaust this Directive: That event gains fast.",
     "tags": [
-      "cost_reaction_exhaust_self",
       "deck_restriction",
+      "cost_reaction_exhaust_self",
       "trait_insight",
       "trait_tactic"
     ]
@@ -63,8 +63,8 @@
     "name": "Directive",
     "text": "Roland Bank deck only. Permanent.\n<i>Regulation</i> - When your location has 1 or more clues, you cannot commit cards to skill tests unless you have discovered a clue this round.\n[reaction] After you discover a clue, if an enemy is at your location, exhaust this Directive: Draw 1 card.",
     "tags": [
-      "cost_reaction_exhaust_self",
       "deck_restriction",
+      "cost_reaction_exhaust_self",
       "draw_player_1"
     ]
   },
@@ -81,13 +81,13 @@
     "name": "Roland's .38 Special",
     "text": "Roland Banks deck only. Advanced. Uses (4 ammo).\n[action] Spend 1 ammo: <b>Fight.</b> You get +2 [combat] for this attack (if there are 1 or more clues on your location, you get +4 [combat], instead). This attack deals +1 damage. If this attack defeats an enemy and there are no clues on your location, place 1 ammo on Roland's .38 Special",
     "tags": [
+      "deck_restriction",
       "uses_type_ammo",
       "uses_starting_4",
       "bold_fight",
       "boost_combat_2",
       "boost_combat_4",
-      "damage_plus_1",
-      "deck_restriction"
+      "damage_plus_1"
     ]
   },
   {
@@ -95,9 +95,9 @@
     "name": "Tidal Memento",
     "text": "Wendy Adams deck only. Permanent.\n[reaction] When an enemy would ready or doom would be placed on it, release a [bless] or [curse] token sealed on that enemy: Cancel that effect.\n[reaction] During a skill test you are performing, when a chaos token would be revealed from the chaos bag: Resolve a [bless] or [curse] token sealed on an enemy instead.",
     "tags": [
+      "deck_restriction",
       "chaos_reveal_token_bless",
-      "chaos_reveal_token_curse",
-      "deck_restriction"
+      "chaos_reveal_token_curse"
     ]
   },
   {
@@ -123,10 +123,10 @@
     "name": "Jim's Trumpet",
     "text": "Jim Culver deck only. Advanced.\n[reaction] When a [skull] or [curse] token is revealed during a skill test you are performing, exhaust Jim's Trumpet: Heal 1 horror from each investigator and [[Ally]] asset at your location or a connecting location.",
     "tags": [
+      "deck_restriction",
       "chaos_reveal_token_curse",
       "chaos_reveal_token_skull",
       "cost_reaction_exhaust_self",
-      "deck_restriction",
       "trait_ally"
     ]
   },
@@ -158,9 +158,9 @@
     "name": "Zoey's Cross",
     "text": "Zoey Samaras deck only. Advanced.\n[reaction] After you engage an enemy, exhaust Zoey’s Cross and spend 1 resource: Deal 1 damage to that enemy.\n[fast] Remove 2 [bless] tokens from the chaos bag: Engage an enemy at your location.",
     "tags": [
+      "deck_restriction",
       "chaos_reveal_token_bless",
-      "cost_reaction_exhaust_self",
-      "deck_restriction"
+      "cost_reaction_exhaust_self"
     ]
   },
   {
@@ -168,10 +168,10 @@
     "name": "Trusty Bullwhip",
     "text": "Fast. Monterey Jack deck only. Advanced.\n[action]: <b>Fight.</b> This attack uses [agility] instead of [combat]. You get +2 skill value for this attack. If this attack succeeds, you may exhaust Trusty Bullwhip to deal +1 damage for this attack and automatically evade the attacked enemy.",
     "tags": [
-      "bold_fight",
-      "damage_plus_1",
       "deck_restriction",
-      "fast_play"
+      "fast_play",
+      "bold_fight",
+      "damage_plus_1"
     ]
   },
   {

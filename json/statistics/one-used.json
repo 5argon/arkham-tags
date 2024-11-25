@@ -770,12 +770,12 @@
     ]
   },
   {
-    "tag": "uses_type_durability",
+    "tag": "boost_combat_5",
     "count": 1,
     "usages": [
       {
-        "code": "08074",
-        "name": "Jury-Rig",
+        "code": "08096",
+        "name": "Sledgehammer",
         "pack": "eote"
       }
     ]
@@ -792,23 +792,23 @@
     ]
   },
   {
-    "tag": "boost_combat_5",
-    "count": 1,
-    "usages": [
-      {
-        "code": "08096",
-        "name": "Sledgehammer",
-        "pack": "eote"
-      }
-    ]
-  },
-  {
     "tag": "trait_fortune",
     "count": 1,
     "usages": [
       {
         "code": "08120",
         "name": "Prophetic",
+        "pack": "eote"
+      }
+    ]
+  },
+  {
+    "tag": "uses_type_durability",
+    "count": 1,
+    "usages": [
+      {
+        "code": "08074",
+        "name": "Jury-Rig",
         "pack": "eote"
       }
     ]
@@ -825,17 +825,6 @@
     ]
   },
   {
-    "tag": "trait_favor",
-    "count": 1,
-    "usages": [
-      {
-        "code": "08124",
-        "name": "Antiquary",
-        "pack": "eote"
-      }
-    ]
-  },
-  {
     "tag": "trait_creature",
     "count": 1,
     "usages": [
@@ -847,34 +836,23 @@
     ]
   },
   {
+    "tag": "trait_favor",
+    "count": 1,
+    "usages": [
+      {
+        "code": "08124",
+        "name": "Antiquary",
+        "pack": "eote"
+      }
+    ]
+  },
+  {
     "tag": "uses_type_bounties",
     "count": 1,
     "usages": [
       {
         "code": "06010",
         "name": "Bounty Contracts",
-        "pack": "tde"
-      }
-    ]
-  },
-  {
-    "tag": "max_per_game_2",
-    "count": 1,
-    "usages": [
-      {
-        "code": "06027",
-        "name": "Stargazing",
-        "pack": "tde"
-      }
-    ]
-  },
-  {
-    "tag": "boost_intellect_5",
-    "count": 1,
-    "usages": [
-      {
-        "code": "06114",
-        "name": "Followed",
         "pack": "tde"
       }
     ]
@@ -897,6 +875,28 @@
       {
         "code": "06329",
         "name": "Shining Trapezohedron",
+        "pack": "tde"
+      }
+    ]
+  },
+  {
+    "tag": "boost_intellect_5",
+    "count": 1,
+    "usages": [
+      {
+        "code": "06114",
+        "name": "Followed",
+        "pack": "tde"
+      }
+    ]
+  },
+  {
+    "tag": "max_per_game_2",
+    "count": 1,
+    "usages": [
+      {
+        "code": "06027",
+        "name": "Stargazing",
         "pack": "tde"
       }
     ]
@@ -1012,7 +1012,7 @@
     ]
   },
   {
-    "tag": "additional_action_2",
+    "tag": "timing_fast_taking_turn",
     "count": 1,
     "usages": [
       {
@@ -1023,7 +1023,7 @@
     ]
   },
   {
-    "tag": "timing_fast_taking_turn",
+    "tag": "additional_action_2",
     "count": 1,
     "usages": [
       {
@@ -1078,39 +1078,6 @@
     ]
   },
   {
-    "tag": "cost_reaction_discard_self",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01541",
-        "name": "Disc of Itzamna",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "enemy_manage_discard",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01541",
-        "name": "Disc of Itzamna",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "timing_reaction_spawn_your_location",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01541",
-        "name": "Disc of Itzamna",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
     "tag": "instead_of_clue",
     "count": 1,
     "usages": [
@@ -1144,6 +1111,17 @@
     ]
   },
   {
+    "tag": "uses_manip_secret_to_resource",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01558",
+        "name": "Forbidden Knowledge",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
     "tag": "timing_fast_chaos_reveal_after",
     "count": 1,
     "usages": [
@@ -1155,12 +1133,12 @@
     ]
   },
   {
-    "tag": "uses_manip_secret_to_resource",
+    "tag": "enters_play",
     "count": 1,
     "usages": [
       {
-        "code": "01558",
-        "name": "Forbidden Knowledge",
+        "code": "01563",
+        "name": "Arcane Initiate",
         "pack": "rcore"
       }
     ]
@@ -1243,6 +1221,17 @@
     ]
   },
   {
+    "tag": "timing_fast_after_fail",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01579",
+        "name": "\"Look what I found!\"",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
     "tag": "chaos_do_not_reveal",
     "count": 1,
     "usages": [
@@ -1254,12 +1243,67 @@
     ]
   },
   {
-    "tag": "enters_play",
+    "tag": "enemy_manage_shuffle",
     "count": 1,
     "usages": [
       {
-        "code": "01563",
-        "name": "Arcane Initiate",
+        "code": "01583",
+        "name": "Close Call",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "cost_reaction_discard_self",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01541",
+        "name": "Disc of Itzamna",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "enemy_manage_discard",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01541",
+        "name": "Disc of Itzamna",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "timing_reaction_spawn_your_location",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01541",
+        "name": "Disc of Itzamna",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "discover_clue_connecting_location",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01685",
+        "name": "Seeking Answers",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "discover_clue_your_location",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01685",
+        "name": "Seeking Answers",
         "pack": "rcore"
       }
     ]
@@ -1298,6 +1342,17 @@
     ]
   },
   {
+    "tag": "timing_fast_chaos_reveal_when",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01692",
+        "name": "Eucatastrophe",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
     "tag": "cancel_chaos",
     "count": 1,
     "usages": [
@@ -1315,61 +1370,6 @@
       {
         "code": "01692",
         "name": "Eucatastrophe",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "timing_fast_chaos_reveal_when",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01692",
-        "name": "Eucatastrophe",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "timing_fast_after_fail",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01579",
-        "name": "\"Look what I found!\"",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "enemy_manage_shuffle",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01583",
-        "name": "Close Call",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "discover_clue_connecting_location",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01685",
-        "name": "Seeking Answers",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "discover_clue_your_location",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01685",
-        "name": "Seeking Answers",
         "pack": "rcore"
       }
     ]
@@ -1397,23 +1397,23 @@
     ]
   },
   {
-    "tag": "uses_starting_7",
-    "count": 1,
-    "usages": [
-      {
-        "code": "04311",
-        "name": "Seal of the Seventh Sign",
-        "pack": "tfa"
-      }
-    ]
-  },
-  {
     "tag": "uses_starting_8",
     "count": 1,
     "usages": [
       {
         "code": "04229",
         "name": "M1918 BAR",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "uses_starting_7",
+    "count": 1,
+    "usages": [
+      {
+        "code": "04311",
+        "name": "Seal of the Seventh Sign",
         "pack": "tfa"
       }
     ]
@@ -1524,17 +1524,6 @@
       {
         "code": "03024",
         "name": "Fieldwork",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "cost_action_discard_from_hand",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03025",
-        "name": "Archaic Glyphs",
         "pack": "ptc"
       }
     ]
@@ -1738,6 +1727,17 @@
     ]
   },
   {
+    "tag": "timing_fast_during_any_turn",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03108",
+        "name": "Anatomical Diagrams",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
     "tag": "current_sanity_more",
     "count": 1,
     "usages": [
@@ -1750,17 +1750,6 @@
   },
   {
     "tag": "difficulty_decrease_fight_2",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03108",
-        "name": "Anatomical Diagrams",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "timing_fast_during_any_turn",
     "count": 1,
     "usages": [
       {
@@ -1848,6 +1837,17 @@
     ]
   },
   {
+    "tag": "discount_x",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03158",
+        "name": "Calling in Favors",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
     "tag": "boost_agility_x",
     "count": 1,
     "usages": [
@@ -1865,28 +1865,6 @@
       {
         "code": "03155",
         "name": "Fight or Flight",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "discount_x",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03158",
-        "name": "Calling in Favors",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "retaliate_ignore",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03190",
-        "name": ".45 Automatic",
         "pack": "ptc"
       }
     ]
@@ -1914,6 +1892,17 @@
     ]
   },
   {
+    "tag": "retaliate_ignore",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03190",
+        "name": ".45 Automatic",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
     "tag": "to_deck_from_discard",
     "count": 1,
     "usages": [
@@ -1931,6 +1920,28 @@
       {
         "code": "03198",
         "name": "Madame Labranche",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "play_only_first_action",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03229",
+        "name": "Mano a Mano",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "ready_asset",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03228",
+        "name": "Inspiring Presence",
         "pack": "ptc"
       }
     ]
@@ -1964,28 +1975,6 @@
       {
         "code": "03199",
         "name": "Snare Trap",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "ready_asset",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03228",
-        "name": "Inspiring Presence",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "play_only_first_action",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03229",
-        "name": "Mano a Mano",
         "pack": "ptc"
       }
     ]
@@ -2079,6 +2068,28 @@
     ]
   },
   {
+    "tag": "timing_fast_enemy_aoo",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03267",
+        "name": "Narrow Escape",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "duration_next_skill_test_this_turn",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03267",
+        "name": "Narrow Escape",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
     "tag": "cost_free_spend_charge",
     "count": 1,
     "usages": [
@@ -2101,28 +2112,6 @@
     ]
   },
   {
-    "tag": "duration_next_skill_test_this_turn",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03267",
-        "name": "Narrow Escape",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "timing_fast_enemy_aoo",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03267",
-        "name": "Narrow Escape",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
     "tag": "trait_innate",
     "count": 1,
     "usages": [
@@ -2134,13 +2123,13 @@
     ]
   },
   {
-    "tag": "initiate_test_agility_3",
+    "tag": "cost_action_discard_from_hand",
     "count": 1,
     "usages": [
       {
-        "code": "05036",
-        "name": "Track Shoes",
-        "pack": "tcu"
+        "code": "03025",
+        "name": "Archaic Glyphs",
+        "pack": "ptc"
       }
     ]
   },
@@ -2151,6 +2140,17 @@
       {
         "code": "05020",
         "name": "Interrogate",
+        "pack": "tcu"
+      }
+    ]
+  },
+  {
+    "tag": "initiate_test_agility_3",
+    "count": 1,
+    "usages": [
+      {
+        "code": "05036",
+        "name": "Track Shoes",
         "pack": "tcu"
       }
     ]

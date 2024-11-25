@@ -4,9 +4,9 @@
     "name": "Ad Hoc",
     "text": "Wilson Richards deck only.\nAttach Ad Hoc to a [[Tool]] or [[Weapon]] asset you control.\n[reaction] After resolving an [action] ability on attached asset, exhaust Ad Hoc and discard a [[Tool]] or [[Weapon]] asset from your hand: Resolve an [action] ability on the discarded asset, ignoring all costs.",
     "tags": [
+      "deck_restriction",
       "cost_action_exhaust_self",
       "cost_reaction_exhaust_self",
-      "deck_restriction",
       "trait_tool",
       "trait_weapon"
     ]
@@ -52,11 +52,11 @@
     "name": "Beguile",
     "text": "Alessandra Zorzi deck only. Fast. Play only during your turn.\nAttach Beguile to a non-[[Elite]] enemy at your location.\n[action]: <b>Parley.</b> Either move attached enemy to a revealed connecting location, or perform a basic investigate or evade action at its location. If you fail a skill test while resolving this ability, discard Beguile. You may activate this ability from any location.",
     "tags": [
-      "bold_parley",
       "deck_restriction",
-      "elite_unusable",
       "fast_play",
-      "timing_fast_during_your_turn"
+      "timing_fast_during_your_turn",
+      "bold_parley",
+      "elite_unusable"
     ]
   },
   {
@@ -64,10 +64,10 @@
     "name": "Book of Living Myths",
     "text": "Kōhaku Narukami deck only.\n[reaction] When a chaos token would be revealed at your location, exhaust Book of Living Myths: Search the chaos bag for a [bless] or [curse] token, whichever there are more of <i>(in case of a tie, you choose)</i>, and resolve it instead.",
     "tags": [
+      "deck_restriction",
       "chaos_reveal_token_bless",
       "chaos_reveal_token_curse",
-      "cost_reaction_exhaust_self",
-      "deck_restriction"
+      "cost_reaction_exhaust_self"
     ]
   },
   {
@@ -76,8 +76,8 @@
     "text": "Hank Samson deck only.\nFast. Play when you engage a non-[[Elite]] enemy.\nMove up to 2 damage and/or horror from Hank Samson to that enemy, as damage.",
     "tags": [
       "deck_restriction",
-      "elite_unusable",
-      "fast_play"
+      "fast_play",
+      "elite_unusable"
     ]
   },
   {
@@ -269,8 +269,8 @@
     "name": "Miracle Wish",
     "text": "Fast. Play after 1 or more [bless] tokens are revealed during a skill test at your location.\nSearch your bonded cards for Evanescent Ascension and put it into play. Place up to X resources on it, as wishes (to a maximum of the number of [bless] tokens revealed). Remove Miracle Wish from the game.",
     "tags": [
-      "chaos_reveal_token_bless",
-      "fast_play"
+      "fast_play",
+      "chaos_reveal_token_bless"
     ]
   },
   {
@@ -348,8 +348,8 @@
     "name": "Control Variable",
     "text": "Fast. Play after an investigator reveals a [curse] token during a skill test at your location.\nDiscover 1 clue at your location.",
     "tags": [
-      "chaos_reveal_token_curse",
-      "fast_play"
+      "fast_play",
+      "chaos_reveal_token_curse"
     ]
   },
   {
@@ -408,8 +408,8 @@
     "name": "Steady-Handed",
     "text": "Limit 1 per investigator.\n[reaction] When you would succeed at a skill test, exhaust Steady-Handed: You either succeed by 1 more or 1 less. If you succeeded by exactly 2, heal 1 horror.",
     "tags": [
-      "cost_reaction_exhaust_self",
       "limit_1_per_investigator",
+      "cost_reaction_exhaust_self",
       "succeed_by_1"
     ]
   },
@@ -474,8 +474,8 @@
     "name": "Ravenous Myconid",
     "text": "Researched. Limit 1 per deck.\n[fast]: Search your bonded cards for Uncanny Growth and add it to your hand. (Limit once per round.)\n[fast] Choose a non-[[Elite]] enemy at your location with equal or fewer remaining health than the amount of growth on Ravenous Myconid: Defeat that enemy. Remove all growth from Ravenous Myconid.",
     "tags": [
-      "elite_unusable",
-      "limit_1_per_deck"
+      "limit_1_per_deck",
+      "elite_unusable"
     ]
   },
   {
@@ -492,12 +492,12 @@
     "name": "Bianca \"Die Katz\"",
     "text": "Limit 1 per deck. Uses (10 resources).\n[action] Exhaust Bianca \"Die Katz\": <b>Parley.</b> Move X resources from Bianca \"Die Katz\" to your resource pool. X cannot be more than 5. Test [agility] (X). If you fail, remember \"you owe Bianca X resources.\" Then, search your bonded cards for the Bianca \"Die Katz\" enemy and spawn her at your location. Remove this card from the game.",
     "tags": [
+      "limit_1_per_deck",
       "uses_type_resource",
       "uses_starting_10",
       "bold_parley",
       "cost_action_exhaust_self",
-      "initiate_test_agility_x",
-      "limit_1_per_deck"
+      "initiate_test_agility_x"
     ]
   },
   {
@@ -702,9 +702,9 @@
     "name": "Rod of Carnamagos",
     "text": "Limit 1 per deck.\n[fast] Choose a non-[[Elite]] enemy at any location and exhaust Rod of Carnamagos: Reveal 5 random chaos tokens from the chaos bag. If a [curse] token is revealed, search your bonded cards for a random [[Rot]] event and attach it to that enemy.",
     "tags": [
+      "limit_1_per_deck",
       "chaos_reveal_token_curse",
       "elite_unusable",
-      "limit_1_per_deck",
       "trait_rot"
     ]
   },
@@ -877,9 +877,9 @@
     "name": "Seal of the Elders",
     "text": "Fast. Play after a skill test at your location ends in which at least 2 [curse] tokens or 2 [bless] tokens were revealed.\nIf 2 [curse] tokens were revealed, search your bonded cards for 1 copy of Servant of Brass and put it into play. If 2 [bless] tokens were revealed, search your bonded cards for Keeper of the Key and put it into play. If 2 [curse] tokens and 2 [bless] tokens were revealed, do both instead. Remove Seal of the Elders from the game.",
     "tags": [
+      "fast_play",
       "chaos_reveal_token_bless",
-      "chaos_reveal_token_curse",
-      "fast_play"
+      "chaos_reveal_token_curse"
     ]
   },
   {
@@ -1005,10 +1005,10 @@
     "name": "Fire Axe",
     "text": "Fast.\n[action]: <b>Fight.</b> If you have no resources in your resource pool, this attack deals +1 damage.\n[free] During an attack using Fire Axe, spend 1 resource: You get +2 [combat] for this skill test. (Limit three times per attack.)",
     "tags": [
+      "fast_play",
       "bold_fight",
       "boost_combat_2",
-      "damage_plus_1",
-      "fast_play"
+      "damage_plus_1"
     ]
   },
   {
@@ -1040,8 +1040,8 @@
     "name": "Keep Faith",
     "text": "Fast. Play during any [fast] window.\nAdd 4 [bless] tokens to the chaos bag.",
     "tags": [
-      "chaos_reveal_token_bless",
-      "fast_play"
+      "fast_play",
+      "chaos_reveal_token_bless"
     ]
   },
   {
@@ -1068,11 +1068,11 @@
     "name": "Dark Horse",
     "text": "Permanent. Limit 1 per deck.\nDuring the upkeep phase, you may choose to not gain resources.\nWhile you have no resources in your resource pool, you get +1 [willpower], +1 [intellect], +1 [combat], and +1 [agility].",
     "tags": [
+      "limit_1_per_deck",
       "boost_agility_1",
       "boost_combat_1",
       "boost_intellect_1",
-      "boost_willpower_1",
-      "limit_1_per_deck"
+      "boost_willpower_1"
     ]
   },
   {
@@ -1101,8 +1101,8 @@
     "name": "Dawn Star",
     "text": "Fast. Play after revealing chaos tokens during a skill test at your location.\nIgnore the modifiers of each [curse] token revealed during this test. For each [curse] token ignored, deal 1 damage to an enemy at your location.",
     "tags": [
-      "chaos_reveal_token_curse",
-      "fast_play"
+      "fast_play",
+      "chaos_reveal_token_curse"
     ]
   },
   {
@@ -1120,9 +1120,9 @@
     "name": "Broken Diadem",
     "text": "Limit 1 per deck. Limit 1 [[Mask]] per investigator.\n[reaction] After a skill test at your location ends in which both a [bless] and [curse] token were revealed: Place 1 resource on this card, as an offering. Then, if there are 3 offerings on this card, search your bonded cards for Twilight Diadem and swap it with this card, moving all offerings from this card to Twilight Diadem.",
     "tags": [
+      "limit_1_per_deck",
       "chaos_reveal_token_bless",
       "chaos_reveal_token_curse",
-      "limit_1_per_deck",
       "trait_mask"
     ]
   },

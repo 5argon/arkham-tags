@@ -4,12 +4,12 @@
     "name": "Becky",
     "text": "Tommy Muldoon deck only. Uses (2 ammo).\nEach resource gained from Tommy Muldoon's [reaction] ability may instead be placed on Becky, as ammo.\n[action] Spend 1 ammo: <b>Fight.</b> You get +2 [combat] and deal +1 damage for this attack.",
     "tags": [
+      "deck_restriction",
       "uses_type_ammo",
       "uses_starting_2",
       "bold_fight",
       "boost_combat_2",
-      "damage_plus_1",
-      "deck_restriction"
+      "damage_plus_1"
     ]
   },
   {
@@ -25,9 +25,9 @@
     "name": "Bounty Contracts",
     "text": "Permanent. Tony Morgan deck only. Uses (6 bounties).\n[reaction]: After an enemy enters play: Move 1-3 bounties from Bounty Contracts to that enemy, to a maximum of that enemy's health.\n<b>Forced</b> - After you defeat an enemy with 1 or more bounties on it: Move its bounties to your resource pool, as resources.",
     "tags": [
+      "deck_restriction",
       "uses_type_bounties",
-      "uses_starting_6",
-      "deck_restriction"
+      "uses_starting_6"
     ]
   },
   {
@@ -35,12 +35,12 @@
     "name": "Tony's .38 Long Colt",
     "text": "Tony Morgan deck only. Uses (3 ammo).\n[reaction]: After you play Tony's .38 Long Colt: Play another Tony's .38 Long Colt from your hand, at no cost.\n[action] Spend 1 ammo: <b>Fight.</b> You get +1 [combat] for each bounty on the attacked enemy. This attack deals +1 damage. If this attack defeats an enemy with 1 or more bounties on it, place 1 bounty on Bounty Contracts.",
     "tags": [
+      "deck_restriction",
       "uses_type_ammo",
       "uses_starting_3",
       "bold_fight",
       "boost_combat_1",
-      "damage_plus_1",
-      "deck_restriction"
+      "damage_plus_1"
     ]
   },
   {
@@ -48,9 +48,9 @@
     "name": "Gate Box",
     "text": "Luke Robinson deck only. Uses (3 charges).\n[fast] Exhaust Gate Box and spend 1 charge: Disengage from each enemy engaged with you, search your bonded cards for Dream-Gate <i>(Wondrous Journey)</i>, put it into play, and move to it.",
     "tags": [
+      "deck_restriction",
       "uses_type_charge",
       "uses_starting_3",
-      "deck_restriction",
       "engage_with_you"
     ]
   },
@@ -81,10 +81,10 @@
     "name": "The Hungering Blade",
     "text": "Limit 1 per deck. As an additional cost to play this card, you must search your bonded cards for 3 copies of Bloodlust and shuffle them into your deck.\n[action]: <b>Fight.</b> You get +1 [combat] for this attack for each attached copy of Bloodlust. This attack deals +1 damage. If this attack defeats an enemy, place 1 resource on this card <i>(from the token bank)</i>, as an offering.",
     "tags": [
+      "limit_1_per_deck",
       "bold_fight",
       "boost_combat_1",
-      "damage_plus_1",
-      "limit_1_per_deck"
+      "damage_plus_1"
     ]
   },
   {
@@ -174,9 +174,9 @@
     "name": "Hope",
     "text": "Bonded (Miss Doyle). Fast.\n<b>Forced</b> - After Hope enters play: Discard Zeal and Augur.\n[action] If Hope is ready, exhaust or discard him: <b>Evade.</b> Attempt to evade with a base [agility] value of 5. (If you discarded Hope, this test is automatically successful. Then, you may shuffle Hope into your deck to put Zeal or Augur into play from your discard pile.)",
     "tags": [
+      "fast_play",
       "bold_evade",
-      "cost_action_exhaust_self",
-      "fast_play"
+      "cost_action_exhaust_self"
     ]
   },
   {
@@ -184,9 +184,9 @@
     "name": "Zeal",
     "text": "Bonded (Miss Doyle). Fast.\n<b>Forced</b> - After Zeal enters play: Discard Hope and Augur.\n[action] If Zeal is ready, exhaust or discard her: <b>Fight.</b> Fight with a base [combat] value of 5. (If you discarded Zeal, this test is automatically successful. Then, you may shuffle Zeal into your deck to put Hope or Augur into play from your discard pile.)",
     "tags": [
+      "fast_play",
       "bold_fight",
-      "cost_action_exhaust_self",
-      "fast_play"
+      "cost_action_exhaust_self"
     ]
   },
   {
@@ -194,9 +194,9 @@
     "name": "Augur",
     "text": "Bonded (Miss Doyle). Fast.\n<b>Forced</b> - After Augur enters play: Discard Hope and Zeal.\n[action] If Augur is ready, exhaust or discard her: <b>Investigate.</b> Investigate with a base [intellect] value of 5. (If you discarded Augur, this test is automatically successful. Then, you may shuffle Augur into your deck to put Hope or Zeal into play from your discard pile.)",
     "tags": [
+      "fast_play",
       "bold_investigate",
-      "cost_action_exhaust_self",
-      "fast_play"
+      "cost_action_exhaust_self"
     ]
   },
   {
@@ -492,8 +492,8 @@
     "name": "Heroic Rescue",
     "text": "Fast. Play when a non-[[Elite]] enemy would attack another investigator at your location or a connecting location.\nMove to that location if you are not already there. Engage that enemy and resolve its attack against you instead. Then, deal it 1 damage.",
     "tags": [
-      "elite_unusable",
-      "fast_play"
+      "fast_play",
+      "elite_unusable"
     ]
   },
   {
@@ -527,8 +527,8 @@
     "name": "Haste",
     "text": "Limit 1 per investigator.\n[reaction] After you perform the same type of action twice in a row, exhaust Haste: Take another action of that type again <i>(types include activate, engage, evade, fight, investigate, move, play, resource, and draw)</i>.",
     "tags": [
-      "cost_reaction_exhaust_self",
-      "limit_1_per_investigator"
+      "limit_1_per_investigator",
+      "cost_reaction_exhaust_self"
     ]
   },
   {
@@ -542,8 +542,8 @@
     "name": "Empower Self",
     "text": "Myriad. Limit 1 Empower Self <i>(Stamina)</i> per deck.\nUp to 3 Empower Self cards take up a single arcane slot.\nAnytime a card effect requires you to use [willpower] instead of [combat], you may ignore that aspect of the effect.\n[fast] Exhaust Empower Self: You get +2 [combat] for this test.",
     "tags": [
-      "boost_combat_2",
-      "limit_1_per_deck"
+      "limit_1_per_deck",
+      "boost_combat_2"
     ]
   },
   {
@@ -551,8 +551,8 @@
     "name": "Empower Self",
     "text": "Myriad. Limit 1 Empower Self <i>(Alacrity)</i> per deck.\nUp to 3 Empower Self cards take up a single arcane slot.\nAnytime a card effect requires you to use [willpower] instead of [agility], you may ignore that aspect of the effect.\n[fast] Exhaust Empower Self: You get +2 [agility] for this test.",
     "tags": [
-      "boost_agility_2",
-      "limit_1_per_deck"
+      "limit_1_per_deck",
+      "boost_agility_2"
     ]
   },
   {
@@ -560,8 +560,8 @@
     "name": "Empower Self",
     "text": "Myriad. Limit 1 Empower Self <i>(Acuity)</i> per deck.\nUp to 3 Empower Self cards take up a single arcane slot.\nAnytime a card effect requires you to use [willpower] instead of [intellect], you may ignore that aspect of the effect.\n[fast] Exhaust Empower Self: You get +2 [intellect] for this test.",
     "tags": [
-      "boost_intellect_2",
-      "limit_1_per_deck"
+      "limit_1_per_deck",
+      "boost_intellect_2"
     ]
   },
   {
@@ -592,9 +592,9 @@
     "name": "Empty Vessel",
     "text": "Limit 1 per deck. Uses (0 charges).\n[reaction] After you defeat an enemy: Place 1 charge on Empty Vessel.\n[fast] If there are at least 3 charges on Empty Vessel: Search your bonded cards for Wish Eater and swap it with Empty Vessel, moving all charges from Empty Vessel to Wish Eater.",
     "tags": [
+      "limit_1_per_deck",
       "uses_type_charge",
-      "uses_starting_0",
-      "limit_1_per_deck"
+      "uses_starting_0"
     ]
   },
   {
@@ -733,8 +733,8 @@
     "name": "Nightmare Bauble",
     "text": "Limit 1 per deck.\n<b>Forced</b> - After Nightmare Bauble enters play: Search your bonded cards for 3 copies of Dream Parasite and attach them to Nightmare Bauble. When Nightmare Bauble leaves play, set each attached Dream Parasite aside, out of play.\n[reaction] When you reveal an [auto_fail] chaos token, shuffle an attached Dream Parasite into your deck: Cancel that token.",
     "tags": [
-      "chaos_reveal_token_auto_fail",
-      "limit_1_per_deck"
+      "limit_1_per_deck",
+      "chaos_reveal_token_auto_fail"
     ]
   },
   {

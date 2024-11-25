@@ -36,9 +36,9 @@
     "name": "The Codex of Ages",
     "text": "Father Mateo deck only. Advanced. Seal ([elder_sign] or up to 3 [bless]).\nYou get +1 to each of your skills while there is a token sealed here.\n[reaction] When an investigator at your location would reveal a chaos token from the chaos bag: That investigator resolves a token sealed here instead, then releases that token. (Limit once per test.)",
     "tags": [
+      "deck_restriction",
       "chaos_reveal_token_bless",
-      "chaos_reveal_token_elder_sign",
-      "deck_restriction"
+      "chaos_reveal_token_elder_sign"
     ]
   },
   {
@@ -46,11 +46,11 @@
     "name": "Jenny's Twin .45s",
     "text": "Jenny Barnes deck only. Advanced. Uses (X ammo).\n[action] Spend 1 ammo: <b>Fight.</b> You get +2 [combat] for this attack. This attack deals +1 damage.\n[reaction] After you defeat an enemy using the above ability, exhaust Jenny's Twin .45s: Gain resources equal to that enemy's printed health.",
     "tags": [
+      "deck_restriction",
       "bold_fight",
       "boost_combat_2",
       "cost_reaction_exhaust_self",
-      "damage_plus_1",
-      "deck_restriction"
+      "damage_plus_1"
     ]
   },
   {
@@ -58,8 +58,8 @@
     "name": "Green Man Medallion",
     "text": "Jenny Barnes deck only. Replacement.\n[free] Spend up to 3 resources and exhaust Green Man Medallion: Place those resources on it, as offerings.\n[reaction] When you resign or the game ends: For every 6 offerings on Green Man Medallion, reduce the experience cost of the next card you purchase before the next scenario by 1.",
     "tags": [
-      "cost_fast_exhaust_self",
-      "deck_restriction"
+      "deck_restriction",
+      "cost_fast_exhaust_self"
     ]
   },
   {
@@ -77,8 +77,8 @@
     "name": "Split the Angle",
     "text": "Norman Withers deck only. Replacement.\n[action]: Reveal the top card of the encounter deck.\n[free] Exhaust Split the Angle and discard the top card of your deck: Discard the top card of the encounter deck.",
     "tags": [
-      "cost_fast_exhaust_self",
-      "deck_restriction"
+      "deck_restriction",
+      "cost_fast_exhaust_self"
     ]
   },
   {
@@ -103,8 +103,8 @@
     "name": "Molly Maxwell",
     "text": "Dexter Drake deck only. Replacement.\n[free] Exhaust Molly Maxwell and deal her 1 horror: Name any trait. One at a time, reveal cards from the top of your deck until an asset with the named trait is revealed. Draw that asset. Shuffle each other revealed card back into your deck.",
     "tags": [
-      "cost_fast_exhaust_self",
-      "deck_restriction"
+      "deck_restriction",
+      "cost_fast_exhaust_self"
     ]
   },
   {

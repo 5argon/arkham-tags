@@ -98,13 +98,27 @@ async function addCompoundTags(currentTags: string[]): Promise<string[]> {
 }
 
 function sortTags(tags: string[]): string[] {
+  const priority: { tag: string; type: "starts_with" | "exactly" }[] = [
+    { tag: "deck_restriction", type: "exactly" },
+    { tag: "fast_play", type: "exactly" },
+    { tag: "timing_fast_", type: "starts_with" },
+    { tag: "customizable", type: "exactly" },
+    { tag: "unidentified", type: "exactly" },
+    { tag: "limit_", type: "starts_with" },
+    { tag: "uses_type_", type: "starts_with" },
+    { tag: "uses_starting_", type: "starts_with" },
+  ];
+
   return tags.sort((a, b) => {
-    if (a.startsWith("uses_type_") && !b.startsWith("uses_type_")) return -1;
-    if (!a.startsWith("uses_type_") && b.startsWith("uses_type_")) return 1;
-    if (a.startsWith("uses_starting_") && !b.startsWith("uses_starting_"))
-      return -1;
-    if (!a.startsWith("uses_starting_") && b.startsWith("uses_starting_"))
-      return 1;
+    for (const { tag, type } of priority) {
+      if (type === "exactly") {
+        if (a === tag && b !== tag) return -1;
+        if (a !== tag && b === tag) return 1;
+      } else if (type === "starts_with") {
+        if (a.startsWith(tag) && !b.startsWith(tag)) return -1;
+        if (!a.startsWith(tag) && b.startsWith(tag)) return 1;
+      }
+    }
     return a.localeCompare(b);
   });
 }

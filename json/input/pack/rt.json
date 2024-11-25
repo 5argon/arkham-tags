@@ -62,8 +62,8 @@
     "name": "Mind Wipe",
     "text": "Fast. Play after a phase begins.\nChoose a non-[[Elite]] enemy in your location. Until the end of the phase, reduce the chosen enemy's damage and horror values by 1, and treat its printed text box as if it were blank (except for [[Traits]]).",
     "tags": [
-      "elite_unusable",
-      "fast_play"
+      "fast_play",
+      "elite_unusable"
     ]
   },
   {
@@ -450,9 +450,9 @@
     "name": "Sign Magick",
     "text": "Fast.\nYou have 1 additional arcane slot, which can only be used to hold a [[Spell]] or [[Ritual]] asset.\n[reaction] After you activate an [action] ability on a [[Spell]] or [[Ritual]] asset, exhaust Sign Magick: Activate an [action] ability on a different [[Spell]] or [[Ritual]] asset you control <i>(without paying its [action] cost)</i>.",
     "tags": [
+      "fast_play",
       "cost_action_exhaust_self",
       "cost_reaction_exhaust_self",
-      "fast_play",
       "trait_ritual",
       "trait_spell"
     ]

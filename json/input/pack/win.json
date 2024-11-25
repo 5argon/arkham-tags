@@ -37,9 +37,9 @@
     "name": "Switchblade",
     "text": "Fast.\n[action]: <b>Fight.</b> If you succeed by 2 or more, this attack deals +1 damage.",
     "tags": [
+      "fast_play",
       "bold_fight",
       "damage_plus_1",
-      "fast_play",
       "succeed_by_2"
     ]
   },
@@ -175,8 +175,8 @@
     "name": "Daring Maneuver",
     "text": "Fast. Play when you would succeed at a skill test.\nYou get +3 skill value for this test. Draw 1 card.",
     "tags": [
-      "draw_player_1",
-      "fast_play"
+      "fast_play",
+      "draw_player_1"
     ]
   },
   {

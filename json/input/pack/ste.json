@@ -97,8 +97,8 @@
     "name": "Dumb Luck",
     "text": "Fast. Play after you fail a skill test by 2 or less during an evasion attempt against a non-[[Elite]] enemy.\nPlace that enemy on top of the encounter deck.",
     "tags": [
-      "elite_unusable",
-      "fast_play"
+      "fast_play",
+      "elite_unusable"
     ]
   },
   {
@@ -130,8 +130,8 @@
     "name": "Oops!",
     "text": "Fast. Play after you fail a skill test by 2 or less while attacking an enemy engaged with you.\nDeal this attack's damage to a different enemy at your location.",
     "tags": [
-      "engage_with_you",
-      "fast_play"
+      "fast_play",
+      "engage_with_you"
     ]
   },
   {
@@ -191,8 +191,8 @@
     "name": "Dumb Luck",
     "text": "Fast. Play after you fail a skill test by 3 or less during an evasion attempt against a non-[[Elite]] enemy.\nPlace that enemy on the bottom of the encounter deck.",
     "tags": [
-      "elite_unusable",
-      "fast_play"
+      "fast_play",
+      "elite_unusable"
     ]
   },
   {
@@ -218,8 +218,8 @@
     "name": "Lucky!",
     "text": "Fast. Play when an investigator at your location would fail a skill test.\nThey get +3 to their skill value for that test. That investigator draws 1 card.",
     "tags": [
-      "draw_player_1",
-      "fast_play"
+      "fast_play",
+      "draw_player_1"
     ]
   },
   {

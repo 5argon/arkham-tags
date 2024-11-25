@@ -4,6 +4,7 @@
     "name": "Roland's .38 Special",
     "text": "Roland Banks deck only.\nUses (4 ammo).\n[action] Spend 1 ammo: <b>Fight.</b> You get +1 [combat] for this attack (if there are 1 or more clues on your location, you get +3 [combat], instead). This attack deals +1 damage.",
     "tags": [
+      "deck_restriction",
       "uses_type_ammo",
       "uses_starting_4",
       "bold_fight",
@@ -11,7 +12,6 @@
       "boost_combat_3_attack",
       "cost_action_spend_ammo",
       "damage_plus_1",
-      "deck_restriction",
       "location_clue_exist"
     ]
   },
@@ -20,8 +20,8 @@
     "name": "Daisy's Tote Bag",
     "text": "Daisy Walker deck only.\nYou have 2 additional hand slots, which can only be used to hold [[Tome]] assets.",
     "tags": [
-      "additional_slot_hand",
-      "deck_restriction"
+      "deck_restriction",
+      "additional_slot_hand"
     ]
   },
   {
@@ -30,10 +30,10 @@
     "text": "\"Skids\" O'Toole deck only.\nFast. Play after your turn begins.\nUntil the end of the round, non-[[Elite]] enemies cannot attack you.",
     "tags": [
       "deck_restriction",
+      "fast_play",
       "duration_until_end_round",
       "elite_unusable",
-      "enemy_cannot_attack",
-      "fast_play"
+      "enemy_cannot_attack"
     ]
   },
   {
@@ -135,9 +135,9 @@
     "name": "Evidence!",
     "text": "Fast. Play after you defeat an enemy.\nDiscover 1 clue at your location.",
     "tags": [
-      "discover_clue_your_location_1",
       "fast_play",
-      "timing_fast_defeat_enemy"
+      "timing_fast_defeat_enemy",
+      "discover_clue_your_location_1"
     ]
   },
   {
@@ -145,9 +145,9 @@
     "name": "Dodge",
     "text": "Fast. Play when an enemy attacks an investigator at your location.\nCancel that attack.",
     "tags": [
-      "cancel_attack",
       "fast_play",
       "timing_fast_enemy_attacks",
+      "cancel_attack",
       "your_location_investigator"
     ]
   },
@@ -189,10 +189,10 @@
     "name": "Police Badge",
     "text": "You get +1 [willpower].\n[free] While an investigator at your location is taking his or her turn, discard Police Badge: That investigator may take 2 additional actions this turn.",
     "tags": [
+      "timing_fast_taking_turn",
       "additional_action_2",
       "boost_willpower_1_passive",
       "cost_free_discard_self",
-      "timing_fast_taking_turn",
       "your_location_investigator"
     ]
   },
@@ -235,8 +235,8 @@
     "name": "Magnifying Glass",
     "text": "Fast.\nYou get +1 [intellect] while investigating.",
     "tags": [
-      "boost_intellect_1_investigate",
       "fast_play",
+      "boost_intellect_1_investigate",
       "investigate_while"
     ]
   },
@@ -305,12 +305,12 @@
     "name": "Mind over Matter",
     "text": "Fast. Play only during your turn.\nUntil the end of the round, you may use your [intellect] in place of your [combat] and [agility].",
     "tags": [
-      "duration_until_end_round",
       "fast_play",
+      "timing_fast_during_your_turn",
+      "duration_until_end_round",
       "stat_not_agility",
       "stat_not_combat",
-      "stat_use_intellect",
-      "timing_fast_during_your_turn"
+      "stat_use_intellect"
     ]
   },
   {
@@ -318,10 +318,10 @@
     "name": "Working a Hunch",
     "text": "Fast. Play only during your turn.\nDiscover 1 clue at your location.",
     "tags": [
-      "discover_clue_your_location_1",
       "fast_play",
-      "testless_clue",
-      "timing_fast_during_your_turn"
+      "timing_fast_during_your_turn",
+      "discover_clue_your_location_1",
+      "testless_clue"
     ]
   },
   {
@@ -350,8 +350,8 @@
     "name": "Magnifying Glass",
     "text": "Fast.\nYou get +1 [intellect] while investigating.\n[free] If there are no clues on your location: Return Magnifying Glass to your hand.",
     "tags": [
-      "boost_intellect_1_investigate",
       "fast_play",
+      "boost_intellect_1_investigate",
       "investigate_while",
       "location_clue_zero",
       "to_hand_from_play"
@@ -384,9 +384,9 @@
     "name": "Cryptic Research",
     "text": "Fast. Play only during your turn.\nChoose an investigator at your location. That investigator draws 3 cards.",
     "tags": [
-      "draw_player_3",
       "fast_play",
       "timing_fast_during_your_turn",
+      "draw_player_3",
       "your_location_investigator"
     ]
   },
@@ -395,9 +395,9 @@
     "name": "Switchblade",
     "text": "Fast.\n[action]: <b>Fight.</b> If you succeed by 2 or more, this attack deals +1 damage.",
     "tags": [
+      "fast_play",
       "bold_fight",
       "damage_plus_1",
-      "fast_play",
       "succeed_by_2"
     ]
   },
@@ -462,10 +462,10 @@
     "name": "Elusive",
     "text": "Fast. Play only during your turn.\nDisengage from each enemy engaged with you and move to a revealed location with no enemies.",
     "tags": [
-      "disengage",
       "fast_play",
-      "move_investigator_self",
-      "timing_fast_during_your_turn"
+      "timing_fast_during_your_turn",
+      "disengage",
+      "move_investigator_self"
     ]
   },
   {
@@ -525,9 +525,9 @@
     "name": "Sure Gamble",
     "text": "Fast. Play after you reveal a chaos token with a negative modifier.\nSwitch that token's \"-\" to a \"+\".",
     "tags": [
-      "chaos_modifier",
       "fast_play",
-      "timing_fast_chaos_reveal_after"
+      "timing_fast_chaos_reveal_after",
+      "chaos_modifier"
     ]
   },
   {
@@ -634,10 +634,10 @@
     "name": "Ward of Protection",
     "text": "Fast. Play when you draw a non-weakness treachery card.\nCancel that card's revelation effect. Then, take 1 horror.",
     "tags": [
-      "cancel_revelation",
       "fast_play",
-      "take_horror",
-      "timing_fast_when_draw_treachery"
+      "timing_fast_when_draw_treachery",
+      "cancel_revelation",
+      "take_horror"
     ]
   },
   {
@@ -671,10 +671,10 @@
     "name": "Mind Wipe",
     "text": "Fast. Play after a phase begins.\nChoose a non-[[Elite]] enemy at your location. Treat the chosen enemy's printed text box as if it were blank (except for [[Traits]]) until the end of the phase.",
     "tags": [
-      "duration_until_end_phase",
-      "elite_unusable",
       "fast_play",
       "timing_fast_after_phase_begin",
+      "duration_until_end_phase",
+      "elite_unusable",
       "your_location_enemy"
     ]
   },
@@ -803,11 +803,11 @@
     "name": "\"Look what I found!\"",
     "text": "Fast. Play after you fail a skill test by 2 or less while investigating.\nDiscover 2 clues in your location.",
     "tags": [
+      "fast_play",
+      "timing_fast_after_fail",
       "discover_clue_your_location_2",
       "fail_by_2_or_less",
-      "fast_play",
-      "testless_clue",
-      "timing_fast_after_fail"
+      "testless_clue"
     ]
   },
   {
@@ -815,9 +815,9 @@
     "name": "Lucky!",
     "text": "Fast. Play when you would fail a skill test.\nGet +2 to your skill value for that test.",
     "tags": [
-      "boost_any_2",
       "fast_play",
-      "timing_fast_would_fail"
+      "timing_fast_would_fail",
+      "boost_any_2"
     ]
   },
   {
@@ -836,12 +836,12 @@
     "name": "Aquinnah",
     "text": "[reaction] When an enemy attacks you, exhaust Aquinnah and deal 1 horror to her: Deal that enemy's damage to another enemy at your location, instead. (You still take horror dealt by the attack.)",
     "tags": [
+      "timing_fast_enemy_attacks",
       "cost_reaction_exhaust_self",
       "cost_reaction_horror_self",
       "enemy_value_damage",
       "redirect_damage",
-      "soak_benefit_horror",
-      "timing_fast_enemy_attacks"
+      "soak_benefit_horror"
     ]
   },
   {
@@ -849,10 +849,10 @@
     "name": "Close Call",
     "text": "Fast. Play after a non-weakness, non-[[Elite]] enemy at your location is evaded.\nShuffle that enemy into the encounter deck.",
     "tags": [
-      "elite_unusable",
-      "enemy_manage_shuffle",
       "fast_play",
       "timing_fast_after_evaded",
+      "elite_unusable",
+      "enemy_manage_shuffle",
       "your_location_enemy"
     ]
   },
@@ -861,10 +861,10 @@
     "name": "Lucky!",
     "text": "Fast. Play when you would fail a skill test.\nGet +2 to your skill value for that test. Draw 1 card.",
     "tags": [
-      "boost_any_2",
-      "draw_player_1",
       "fast_play",
-      "timing_fast_would_fail"
+      "timing_fast_would_fail",
+      "boost_any_2",
+      "draw_player_1"
     ]
   },
   {
@@ -872,10 +872,10 @@
     "name": "Will to Survive",
     "text": "Fast. Play only during your turn.\nUntil the end of your turn, do not reveal chaos tokens for any skill tests you perform.",
     "tags": [
-      "chaos_do_not_reveal",
-      "duration_until_end_turn",
       "fast_play",
-      "timing_fast_during_your_turn"
+      "timing_fast_during_your_turn",
+      "chaos_do_not_reveal",
+      "duration_until_end_turn"
     ]
   },
   {
@@ -993,12 +993,12 @@
     "name": "\"I've had worse…\"",
     "text": "Fast. Play when you are dealt damage and/or horror.\nCancel up to 5 damage and/or horror just dealt to you. Then, gain that many resources.",
     "tags": [
+      "fast_play",
+      "timing_fast_dealt_damage",
+      "timing_fast_dealt_horror",
       "cancel_damage",
       "cancel_horror",
-      "fast_play",
-      "gain_resource",
-      "timing_fast_dealt_damage",
-      "timing_fast_dealt_horror"
+      "gain_resource"
     ]
   },
   {
@@ -1106,12 +1106,12 @@
     "name": "Aquinnah",
     "text": "[reaction] When an enemy attacks you, exhaust Aquinnah and deal 1 horror to her: Deal that enemy's damage to any enemy at your location, instead. (You still take horror dealt by the attack.)",
     "tags": [
+      "timing_fast_enemy_attacks",
       "cost_reaction_exhaust_self",
       "cost_reaction_horror_self",
       "enemy_value_damage",
       "redirect_damage",
       "soak_benefit_horror",
-      "timing_fast_enemy_attacks",
       "your_location_enemy"
     ]
   },
@@ -1120,11 +1120,11 @@
     "name": "Eucatastrophe",
     "text": "Fast. Play when you reveal a chaos token that would reduce your skill value to 0 during a skill test (including the [auto_fail] token).\nCancel that token and treat it as an [elder_sign] token, instead.",
     "tags": [
+      "fast_play",
+      "timing_fast_chaos_reveal_when",
       "cancel_chaos",
       "chaos_modifier",
-      "chaos_treat_as_elder_sign",
-      "fast_play",
-      "timing_fast_chaos_reveal_when"
+      "chaos_treat_as_elder_sign"
     ]
   },
   {

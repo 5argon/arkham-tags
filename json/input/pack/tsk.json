@@ -13,10 +13,10 @@
     "name": "Bonesaw",
     "text": "Vincent Lee deck only.\n[action]: <b>Fight.</b> You get +2 [combat] for this attack. If this attack is successful, you may take 1 damage to deal +1 damage for this attack.\n[action]: Heal 5 damage from an investigator at your location. Test [intellect] (4). If you fail, that investigator suffers 1 physical trauma. (Max once per game.)",
     "tags": [
+      "deck_restriction",
       "bold_fight",
       "boost_combat_2",
       "damage_plus_1",
-      "deck_restriction",
       "initiate_test_intellect_4",
       "max_per_game_1",
       "take_damage"
@@ -33,8 +33,8 @@
     "name": "Grappling Hook",
     "text": "Kymani Jones deck only.\nActions performed using Grappling Hook do not provoke attacks of opportunity.\n[action][action] Exhaust Grappling Hook: Take up to 3 different basic actions from the following list, in any order (engage, evade, investigate, or move). If you investigate, use your [agility] instead of your [intellect].",
     "tags": [
-      "cost_action_exhaust_self",
-      "deck_restriction"
+      "deck_restriction",
+      "cost_action_exhaust_self"
     ]
   },
   {
@@ -62,8 +62,8 @@
     "name": "Darrell's Kodak",
     "text": "Darrell Simmons deck only.\n[reaction] After an enemy or treachery enters play, exhaust Darrell's Kodak: Place 1 resource <i>(from the token pool)</i> on that enemy or treachery, as evidence.\n[reaction] After you discover any number of clues: Move that many evidence on enemies or treacheries at that location (or not at any location) to Darrell's Kodak.",
     "tags": [
-      "cost_reaction_exhaust_self",
-      "deck_restriction"
+      "deck_restriction",
+      "cost_reaction_exhaust_self"
     ]
   },
   {
@@ -71,8 +71,8 @@
     "name": "Bonnie Walsh",
     "text": "Charlie Kane deck only.\n[reaction] After you exhaust Bonnie Walsh: Ready another [[Ally]] asset you control. (Limit once per round.)",
     "tags": [
-      "cost_reaction_exhaust_self",
       "deck_restriction",
+      "cost_reaction_exhaust_self",
       "trait_ally"
     ]
   },
@@ -89,12 +89,12 @@
     "name": "Runic Axe",
     "text": "Customizable. Uses (4 charges). Replenish 1 of these charges at the start of each round.\n[action]: <b>Fight.</b> You get +1 [combat] for this attack. Before this attack, you may spend any number of charges to imbue the axe with that many different inscriptions -\n- <i>Accuracy</i> - You get an additional +2 [combat] for this attack.\n- <i>Power</i> - This attack deals +1 damage.",
     "tags": [
+      "customizable",
       "uses_type_charge",
       "uses_starting_4",
       "bold_fight",
       "boost_combat_1",
       "boost_combat_2",
-      "customizable",
       "damage_plus_1",
       "uses_replenish"
     ]
@@ -104,9 +104,9 @@
     "name": "Custom Modifications",
     "text": "Customizable.\nAttach to a [[Firearm]] asset you control. Limit 1 per asset.\n[reaction] When you reveal a non-[auto_fail] chaos token attacking with attached asset, exhaust Custom Modifications: Cancel that chaos token, return it to the chaos bag, and reveal a new one.",
     "tags": [
+      "customizable",
       "chaos_reveal_token_auto_fail",
       "cost_reaction_exhaust_self",
-      "customizable",
       "trait_firearm"
     ]
   },
@@ -138,8 +138,8 @@
     "name": "Grievous Wound",
     "text": "Fast. Play after you successfully attack a non-[[Elite]] enemy using a [[Melee]] asset.\nAttach Grievous Wound to the attacked enemy.\n<b>Forced</b> - At the end of the round: Deal 1 damage to attached enemy.",
     "tags": [
-      "elite_unusable",
       "fast_play",
+      "elite_unusable",
       "trait_melee"
     ]
   },
@@ -201,9 +201,9 @@
     "name": "Handcuffs",
     "text": "Fast.\n[action] If Handcuffs is not attached to an enemy: <b>Evade.</b> Use only on a [[Humanoid]] enemy. This evasion attempt uses [combat] instead of [agility]. If you succeed, remove all doom from the just-evaded enemy and attach Handcuffs to it.\nIf the attached enemy is non-[[Elite]], it cannot ready and doom cannot be placed on it.",
     "tags": [
+      "fast_play",
       "bold_evade",
       "elite_unusable",
-      "fast_play",
       "trait_humanoid"
     ]
   },
@@ -240,9 +240,9 @@
     "name": "Alchemical Distillation",
     "text": "Customizable. Uses (3 supplies).\n[action] Spend 1 supply: Choose an investigator at your location and test [intellect] (1). If you succeed, that investigator performs one of the following options -\n- Draw 2 cards.\n- Gain 2 resources.",
     "tags": [
+      "customizable",
       "uses_type_supply",
       "uses_starting_3",
-      "customizable",
       "draw_player_2",
       "gain_resource_2",
       "initiate_test_intellect_1"
@@ -254,8 +254,8 @@
     "text": "Customizable. Limit 1 per investigator.\n<b>Forced</b> - At the start of the round: Choose one of the following criteria for this round\n- You fail a test by 2 or more.\n- You succeed at a test by 3 or more.\nWhen the chosen criteria is met, you may exhaust Empirical Hypothesis to add 1 evidence to it.\n[fast] Spend 1 evidence: Draw 1 card.",
     "tags": [
       "customizable",
-      "draw_player_1",
-      "limit_1_per_investigator"
+      "limit_1_per_investigator",
+      "draw_player_1"
     ]
   },
   {
@@ -414,10 +414,10 @@
     "name": "Damning Testimony",
     "text": "Customizable. Uses (3 evidence).\n[action] Exhaust Damning Testimony and choose an enemy at any location: <b>Investigate</b> <i>(your location)</i>. If you succeed, you may spend 1 evidence to discover 1 additional clue at the chosen enemy's location.",
     "tags": [
+      "customizable",
       "uses_type_evidence",
       "uses_starting_3",
-      "cost_action_exhaust_self",
-      "customizable"
+      "cost_action_exhaust_self"
     ]
   },
   {
@@ -433,8 +433,8 @@
     "name": "Honed Instinct",
     "text": "Customizable. Fast. Play this card only after one of the following conditions is met:\n- The agenda or act advances.\n- You succeed at a skill test by 3 or more.\nImmediately take an action as if it were your turn (Max once per round).",
     "tags": [
-      "customizable",
-      "fast_play"
+      "fast_play",
+      "customizable"
     ]
   },
   {
@@ -513,8 +513,8 @@
     "name": "Quick Getaway",
     "text": "Fast. Play when an enemy attacks you.\n<b>Evade.</b> Attempt to evade the attacking enemy. If you succeed, cancel that enemy's attack.",
     "tags": [
-      "bold_evade",
-      "fast_play"
+      "fast_play",
+      "bold_evade"
     ]
   },
   {
@@ -548,8 +548,8 @@
     "name": "Dirty Fighting",
     "text": "Limit 1 per investigator.\nWhile attacking, parleying, or attempting to evade an exhausted enemy, you get +2 skill value.\n[reaction] After you evade an enemy, exhaust Dirty Fighting: Take a fight action against that enemy. Ignore the aloof keyword for this attack.",
     "tags": [
-      "cost_reaction_exhaust_self",
-      "limit_1_per_investigator"
+      "limit_1_per_investigator",
+      "cost_reaction_exhaust_self"
     ]
   },
   {
@@ -596,10 +596,10 @@
     "name": "Clean Sneak",
     "text": "Fast. Play only during your turn.\nFor each exhausted non-swarm enemy at your location, choose a different option:\n- Gain 2 resources.\n- Deal 2 damage to that enemy.\n- Discover 1 clue at your location.\n- Draw 1 card.",
     "tags": [
-      "draw_player_1",
       "fast_play",
-      "gain_resource_2",
-      "timing_fast_during_your_turn"
+      "timing_fast_during_your_turn",
+      "draw_player_1",
+      "gain_resource_2"
     ]
   },
   {
@@ -607,9 +607,9 @@
     "name": "Living Ink",
     "text": "Customizable. When you purchase Living Ink, choose a skill and circle it on its upgrade sheet.\nUses (3 charges).\nRemove 1 charge from Living Ink at the start of each of your turns. If Living Ink has no charges, discard it.\nYou get +1 to the chosen skill(s).",
     "tags": [
+      "customizable",
       "uses_type_charge",
       "uses_starting_3",
-      "customizable",
       "discard_zero_uses"
     ]
   },
@@ -626,11 +626,11 @@
     "name": "Power Word",
     "text": "Customizable. Fast. Play only during your turn.\nAttach to a non-[[Elite]] enemy at your location.\n[action] If attached enemy is at your location: <b>Parley.</b> Give it a command (limit once per round per command) -\n- <i>\"Go.\"</i> This enemy moves once in a direction of your choice.\n- <i>\"Cower.\"</i> This enemy exhausts.",
     "tags": [
-      "bold_parley",
-      "customizable",
-      "elite_unusable",
       "fast_play",
-      "timing_fast_during_your_turn"
+      "timing_fast_during_your_turn",
+      "customizable",
+      "bold_parley",
+      "elite_unusable"
     ]
   },
   {
@@ -728,9 +728,9 @@
     "name": "Moonlight Ritual",
     "text": "Fast. Play only during your turn.\nRemove all doom from a non-[[Elite]] card at your location.",
     "tags": [
-      "elite_unusable",
       "fast_play",
-      "timing_fast_during_your_turn"
+      "timing_fast_during_your_turn",
+      "elite_unusable"
     ]
   },
   {
@@ -791,9 +791,9 @@
     "name": "Makeshift Trap",
     "text": "Customizable. Uses (2 time). If Makeshift Trap has no time, discard it.\nAttach to your location.\nEach non-[[Elite]] enemy at attached location get -1 fight and -1 evade.\n<b>Forced</b> - At the end of the round: Remove 1 time from Makeshift Trap.",
     "tags": [
+      "customizable",
       "uses_type_time",
       "uses_starting_2",
-      "customizable",
       "discard_zero_uses",
       "elite_unusable"
     ]
@@ -825,8 +825,8 @@
     "name": "End of the Road",
     "text": "Fast. Play during your turn only if the final agenda is in play.\nDraw 1 card, gain 1 resource, and gain 1 additional action. Remove End of the Road from the game.",
     "tags": [
-      "draw_player_1",
       "fast_play",
+      "draw_player_1",
       "gain_resource_1"
     ]
   },
@@ -955,9 +955,9 @@
     "name": "Hyperphysical Shotcaster",
     "text": "Customizable. Uses (4 aether). If Hyperphysical Shotcaster has no aether, discard it.\n[action] Spend 1 aether: Resolve the <i>Manifest</i> ability of the Hyperphysical Shotcaster's current form.\n[fast] Exhaust Hyperphysical Shotcaster: Change its form <i>(to one you have unlocked on its upgrade sheet).</i>",
     "tags": [
+      "customizable",
       "uses_type_aether",
       "uses_starting_4",
-      "customizable",
       "discard_zero_uses"
     ]
   },

@@ -29,13 +29,13 @@
         "pack": "dwl"
       },
       {
-        "code": "02152",
-        "name": "Switchblade",
+        "code": "02153",
+        "name": "Hypnotic Gaze",
         "pack": "dwl"
       },
       {
-        "code": "02153",
-        "name": "Hypnotic Gaze",
+        "code": "02152",
+        "name": "Switchblade",
         "pack": "dwl"
       },
       {
@@ -99,11 +99,6 @@
         "pack": "eote"
       },
       {
-        "code": "08040",
-        "name": "Scientific Theory",
-        "pack": "eote"
-      },
-      {
         "code": "08049",
         "name": "Counterespionage",
         "pack": "eote"
@@ -116,16 +111,6 @@
       {
         "code": "08054",
         "name": "Money Talks",
-        "pack": "eote"
-      },
-      {
-        "code": "08055",
-        "name": "Black Market",
-        "pack": "eote"
-      },
-      {
-        "code": "08056",
-        "name": "Moxie",
         "pack": "eote"
       },
       {
@@ -144,11 +129,6 @@
         "pack": "eote"
       },
       {
-        "code": "08081",
-        "name": "Plucky",
-        "pack": "eote"
-      },
-      {
         "code": "08082",
         "name": "Fend Off",
         "pack": "eote"
@@ -156,11 +136,6 @@
       {
         "code": "08102",
         "name": "Protecting the Anirniq",
-        "pack": "eote"
-      },
-      {
-        "code": "08105",
-        "name": "Ice Pick",
         "pack": "eote"
       },
       {
@@ -174,8 +149,33 @@
         "pack": "eote"
       },
       {
+        "code": "08105",
+        "name": "Ice Pick",
+        "pack": "eote"
+      },
+      {
         "code": "08116",
         "name": "Talisman of Protection",
+        "pack": "eote"
+      },
+      {
+        "code": "08040",
+        "name": "Scientific Theory",
+        "pack": "eote"
+      },
+      {
+        "code": "08055",
+        "name": "Black Market",
+        "pack": "eote"
+      },
+      {
+        "code": "08056",
+        "name": "Moxie",
+        "pack": "eote"
+      },
+      {
+        "code": "08081",
+        "name": "Plucky",
         "pack": "eote"
       },
       {
@@ -234,11 +234,6 @@
         "pack": "tde"
       },
       {
-        "code": "99002",
-        "name": "Mystifying Song",
-        "pack": "etc"
-      },
-      {
         "code": "89003",
         "name": "Regurgitation",
         "pack": "etc"
@@ -246,6 +241,11 @@
       {
         "code": "98005",
         "name": "Mysteries Remain",
+        "pack": "etc"
+      },
+      {
+        "code": "99002",
+        "name": "Mystifying Song",
         "pack": "etc"
       },
       {
@@ -269,8 +269,8 @@
         "pack": "tsk"
       },
       {
-        "code": "09035",
-        "name": "Handcuffs",
+        "code": "09061",
+        "name": "Honed Instinct",
         "pack": "tsk"
       },
       {
@@ -289,6 +289,11 @@
         "pack": "tsk"
       },
       {
+        "code": "09065",
+        "name": "Hidden Pocket",
+        "pack": "tsk"
+      },
+      {
         "code": "09078",
         "name": "Clean Sneak",
         "pack": "tsk"
@@ -304,21 +309,6 @@
         "pack": "tsk"
       },
       {
-        "code": "09110",
-        "name": "Lifeline",
-        "pack": "tsk"
-      },
-      {
-        "code": "09061",
-        "name": "Honed Instinct",
-        "pack": "tsk"
-      },
-      {
-        "code": "09108",
-        "name": "Shed a Light",
-        "pack": "tsk"
-      },
-      {
         "code": "09104",
         "name": "End of the Road",
         "pack": "tsk"
@@ -329,8 +319,18 @@
         "pack": "tsk"
       },
       {
-        "code": "09065",
-        "name": "Hidden Pocket",
+        "code": "09108",
+        "name": "Shed a Light",
+        "pack": "tsk"
+      },
+      {
+        "code": "09110",
+        "name": "Lifeline",
+        "pack": "tsk"
+      },
+      {
+        "code": "09035",
+        "name": "Handcuffs",
         "pack": "tsk"
       },
       {
@@ -444,11 +444,6 @@
         "pack": "rcore"
       },
       {
-        "code": "01565",
-        "name": "Ward of Protection",
-        "pack": "rcore"
-      },
-      {
         "code": "01568",
         "name": "Mind Wipe",
         "pack": "rcore"
@@ -469,11 +464,6 @@
         "pack": "rcore"
       },
       {
-        "code": "01584",
-        "name": "Lucky!",
-        "pack": "rcore"
-      },
-      {
         "code": "01585",
         "name": "Will to Survive",
         "pack": "rcore"
@@ -484,8 +474,18 @@
         "pack": "rcore"
       },
       {
+        "code": "01584",
+        "name": "Lucky!",
+        "pack": "rcore"
+      },
+      {
         "code": "01692",
         "name": "Eucatastrophe",
+        "pack": "rcore"
+      },
+      {
+        "code": "01565",
+        "name": "Ward of Protection",
         "pack": "rcore"
       },
       {
@@ -534,13 +534,18 @@
         "pack": "rt"
       },
       {
-        "code": "51006",
-        "name": "Think on Your Feet",
+        "code": "51009",
+        "name": "Oops!",
         "pack": "rt"
       },
       {
-        "code": "51009",
-        "name": "Oops!",
+        "code": "54010",
+        "name": "Trial by Fire",
+        "pack": "rt"
+      },
+      {
+        "code": "51006",
+        "name": "Think on Your Feet",
         "pack": "rt"
       },
       {
@@ -551,11 +556,6 @@
       {
         "code": "54008",
         "name": "Sign Magick",
-        "pack": "rt"
-      },
-      {
-        "code": "54010",
-        "name": "Trial by Fire",
         "pack": "rt"
       },
       {
@@ -609,13 +609,23 @@
         "pack": "tfa"
       },
       {
-        "code": "04200",
-        "name": "Live and Learn",
+        "code": "04195",
+        "name": "Expose Weakness",
         "pack": "tfa"
       },
       {
         "code": "04199",
         "name": "Premonition",
+        "pack": "tfa"
+      },
+      {
+        "code": "04202",
+        "name": "Against All Odds",
+        "pack": "tfa"
+      },
+      {
+        "code": "04200",
+        "name": "Live and Learn",
         "pack": "tfa"
       },
       {
@@ -629,23 +639,23 @@
         "pack": "tfa"
       },
       {
-        "code": "04195",
-        "name": "Expose Weakness",
-        "pack": "tfa"
-      },
-      {
         "code": "04313",
         "name": "Alter Fate",
         "pack": "tfa"
       },
       {
-        "code": "04202",
-        "name": "Against All Odds",
-        "pack": "tfa"
+        "code": "03016",
+        "name": "Bury Them Deep",
+        "pack": "ptc"
       },
       {
         "code": "03018",
         "name": "Improvisation",
+        "pack": "ptc"
+      },
+      {
+        "code": "03022",
+        "name": "\"Let me handle this!\"",
         "pack": "ptc"
       },
       {
@@ -681,6 +691,21 @@
       {
         "code": "03109",
         "name": "Scientific Theory",
+        "pack": "ptc"
+      },
+      {
+        "code": "03111",
+        "name": "Moxie",
+        "pack": "ptc"
+      },
+      {
+        "code": "03113",
+        "name": "Grounded",
+        "pack": "ptc"
+      },
+      {
+        "code": "03115",
+        "name": "Plucky",
         "pack": "ptc"
       },
       {
@@ -744,38 +769,13 @@
         "pack": "ptc"
       },
       {
-        "code": "03016",
-        "name": "Bury Them Deep",
-        "pack": "ptc"
-      },
-      {
-        "code": "03311",
-        "name": "Time Warp",
-        "pack": "ptc"
-      },
-      {
         "code": "03314",
         "name": "Infighting",
         "pack": "ptc"
       },
       {
-        "code": "03022",
-        "name": "\"Let me handle this!\"",
-        "pack": "ptc"
-      },
-      {
-        "code": "03111",
-        "name": "Moxie",
-        "pack": "ptc"
-      },
-      {
-        "code": "03115",
-        "name": "Plucky",
-        "pack": "ptc"
-      },
-      {
-        "code": "03113",
-        "name": "Grounded",
+        "code": "03311",
+        "name": "Time Warp",
         "pack": "ptc"
       },
       {
@@ -799,11 +799,6 @@
         "pack": "tcu"
       },
       {
-        "code": "05025",
-        "name": "Connect the Dots",
-        "pack": "tcu"
-      },
-      {
         "code": "05029",
         "name": "Money Talks",
         "pack": "tcu"
@@ -811,16 +806,6 @@
       {
         "code": "05032",
         "name": "Deny Existence",
-        "pack": "tcu"
-      },
-      {
-        "code": "05033",
-        "name": "Eldritch Inspiration",
-        "pack": "tcu"
-      },
-      {
-        "code": "05110",
-        "name": "Crack the Case",
         "pack": "tcu"
       },
       {
@@ -869,6 +854,26 @@
         "pack": "tcu"
       },
       {
+        "code": "05324",
+        "name": "Eucatastrophe",
+        "pack": "tcu"
+      },
+      {
+        "code": "05025",
+        "name": "Connect the Dots",
+        "pack": "tcu"
+      },
+      {
+        "code": "05033",
+        "name": "Eldritch Inspiration",
+        "pack": "tcu"
+      },
+      {
+        "code": "05110",
+        "name": "Crack the Case",
+        "pack": "tcu"
+      },
+      {
         "code": "05281",
         "name": "Trial by Fire",
         "pack": "tcu"
@@ -876,11 +881,6 @@
       {
         "code": "05315",
         "name": "\"I've had worse…\"",
-        "pack": "tcu"
-      },
-      {
-        "code": "05324",
-        "name": "Eucatastrophe",
         "pack": "tcu"
       },
       {
@@ -979,6 +979,11 @@
         "pack": "tic"
       },
       {
+        "code": "07031",
+        "name": "Ward of Radiance",
+        "pack": "tic"
+      },
+      {
         "code": "07034",
         "name": "Keep Faith",
         "pack": "tic"
@@ -989,28 +994,13 @@
         "pack": "tic"
       },
       {
-        "code": "07160",
-        "name": "Butterfly Effect",
-        "pack": "tic"
-      },
-      {
         "code": "07161",
         "name": "Third Time's a Charm",
         "pack": "tic"
       },
       {
-        "code": "07269",
-        "name": "A Watchful Peace",
-        "pack": "tic"
-      },
-      {
-        "code": "07031",
-        "name": "Ward of Radiance",
-        "pack": "tic"
-      },
-      {
-        "code": "07272",
-        "name": "Favor of the Sun",
+        "code": "07160",
+        "name": "Butterfly Effect",
         "pack": "tic"
       },
       {
@@ -1019,13 +1009,23 @@
         "pack": "tic"
       },
       {
-        "code": "07305",
-        "name": ".25 Automatic",
+        "code": "07269",
+        "name": "A Watchful Peace",
         "pack": "tic"
       },
       {
         "code": "07271",
         "name": "Favor of the Moon",
+        "pack": "tic"
+      },
+      {
+        "code": "07272",
+        "name": "Favor of the Sun",
+        "pack": "tic"
+      },
+      {
+        "code": "07305",
+        "name": ".25 Automatic",
         "pack": "tic"
       },
       {
@@ -1115,13 +1115,13 @@
         "pack": "dwl"
       },
       {
-        "code": "02036",
-        "name": "Kukri",
+        "code": "02107",
+        "name": "\"I've got a plan!\"",
         "pack": "dwl"
       },
       {
-        "code": "02107",
-        "name": "\"I've got a plan!\"",
+        "code": "02036",
+        "name": "Kukri",
         "pack": "dwl"
       },
       {
@@ -1130,13 +1130,13 @@
         "pack": "dwl"
       },
       {
-        "code": "02114",
-        "name": "Fire Extinguisher",
+        "code": "02115",
+        "name": "Flare",
         "pack": "dwl"
       },
       {
-        "code": "02115",
-        "name": "Flare",
+        "code": "02114",
+        "name": "Fire Extinguisher",
         "pack": "dwl"
       },
       {
@@ -1150,8 +1150,8 @@
         "pack": "dwl"
       },
       {
-        "code": "02263",
-        "name": "Strange Solution",
+        "code": "02301",
+        "name": "Lightning Gun",
         "pack": "dwl"
       },
       {
@@ -1160,13 +1160,13 @@
         "pack": "dwl"
       },
       {
-        "code": "02301",
-        "name": "Lightning Gun",
+        "code": "02304",
+        "name": "Chicago Typewriter",
         "pack": "dwl"
       },
       {
-        "code": "02304",
-        "name": "Chicago Typewriter",
+        "code": "02263",
+        "name": "Strange Solution",
         "pack": "dwl"
       },
       {
@@ -1215,38 +1215,8 @@
         "pack": "eote"
       },
       {
-        "code": "08060",
-        "name": "Dragon Pole",
-        "pack": "eote"
-      },
-      {
         "code": "08080",
         "name": "Fire Extinguisher",
-        "pack": "eote"
-      },
-      {
-        "code": "08088",
-        "name": "Old Shotgun",
-        "pack": "eote"
-      },
-      {
-        "code": "08090",
-        "name": "Brand of Cthugha",
-        "pack": "eote"
-      },
-      {
-        "code": "08092",
-        "name": "Brand of Cthugha",
-        "pack": "eote"
-      },
-      {
-        "code": "08093",
-        "name": "Cyclopean Hammer",
-        "pack": "eote"
-      },
-      {
-        "code": "08094",
-        "name": "Sledgehammer",
         "pack": "eote"
       },
       {
@@ -1255,13 +1225,43 @@
         "pack": "eote"
       },
       {
-        "code": "08118",
-        "name": "Enchanted Bow",
+        "code": "08094",
+        "name": "Sledgehammer",
+        "pack": "eote"
+      },
+      {
+        "code": "08093",
+        "name": "Cyclopean Hammer",
+        "pack": "eote"
+      },
+      {
+        "code": "08090",
+        "name": "Brand of Cthugha",
         "pack": "eote"
       },
       {
         "code": "08127",
         "name": "Sled Dog",
+        "pack": "eote"
+      },
+      {
+        "code": "08060",
+        "name": "Dragon Pole",
+        "pack": "eote"
+      },
+      {
+        "code": "08088",
+        "name": "Old Shotgun",
+        "pack": "eote"
+      },
+      {
+        "code": "08092",
+        "name": "Brand of Cthugha",
+        "pack": "eote"
+      },
+      {
+        "code": "08118",
+        "name": "Enchanted Bow",
         "pack": "eote"
       },
       {
@@ -1325,13 +1325,13 @@
         "pack": "tsk"
       },
       {
-        "code": "09113",
-        "name": "Baseball Bat",
+        "code": "09096",
+        "name": "Ceremonial Sickle",
         "pack": "tsk"
       },
       {
-        "code": "09096",
-        "name": "Ceremonial Sickle",
+        "code": "09113",
+        "name": "Baseball Bat",
         "pack": "tsk"
       },
       {
@@ -1450,23 +1450,8 @@
         "pack": "jac"
       },
       {
-        "code": "52001",
-        "name": ".32 Colt",
-        "pack": "rt"
-      },
-      {
         "code": "51002",
         "name": "Blackjack",
-        "pack": "rt"
-      },
-      {
-        "code": "52008",
-        "name": "Storm of Spirits",
-        "pack": "rt"
-      },
-      {
-        "code": "52010",
-        "name": "Gravedigger's Shovel",
         "pack": "rt"
       },
       {
@@ -1482,6 +1467,21 @@
       {
         "code": "53006",
         "name": "Colt Vest Pocket",
+        "pack": "rt"
+      },
+      {
+        "code": "52001",
+        "name": ".32 Colt",
+        "pack": "rt"
+      },
+      {
+        "code": "52008",
+        "name": "Storm of Spirits",
+        "pack": "rt"
+      },
+      {
+        "code": "52010",
+        "name": "Gravedigger's Shovel",
         "pack": "rt"
       },
       {
@@ -1510,18 +1510,13 @@
         "pack": "tfa"
       },
       {
-        "code": "04276",
-        "name": "Timeworn Brand",
-        "pack": "tfa"
-      },
-      {
-        "code": "04305",
-        "name": "Flamethrower",
-        "pack": "tfa"
-      },
-      {
         "code": "04266",
         "name": "Blood Eclipse",
+        "pack": "tfa"
+      },
+      {
+        "code": "04276",
+        "name": "Timeworn Brand",
         "pack": "tfa"
       },
       {
@@ -1530,8 +1525,13 @@
         "pack": "tfa"
       },
       {
-        "code": "03037",
-        "name": "Gravedigger's Shovel",
+        "code": "04305",
+        "name": "Flamethrower",
+        "pack": "tfa"
+      },
+      {
+        "code": "03020",
+        "name": ".32 Colt",
         "pack": "ptc"
       },
       {
@@ -1540,13 +1540,13 @@
         "pack": "ptc"
       },
       {
-        "code": "03147",
-        "name": "Trench Knife",
+        "code": "03153",
+        "name": "Storm of Spirits",
         "pack": "ptc"
       },
       {
-        "code": "03153",
-        "name": "Storm of Spirits",
+        "code": "03190",
+        "name": ".45 Automatic",
         "pack": "ptc"
       },
       {
@@ -1565,8 +1565,8 @@
         "pack": "ptc"
       },
       {
-        "code": "03020",
-        "name": ".32 Colt",
+        "code": "03037",
+        "name": "Gravedigger's Shovel",
         "pack": "ptc"
       },
       {
@@ -1575,8 +1575,8 @@
         "pack": "ptc"
       },
       {
-        "code": "03190",
-        "name": ".45 Automatic",
+        "code": "03147",
+        "name": "Trench Knife",
         "pack": "ptc"
       },
       {
@@ -1592,11 +1592,6 @@
       {
         "code": "05037",
         "name": "Act of Desperation",
-        "pack": "tcu"
-      },
-      {
-        "code": "05114",
-        "name": "Meat Cleaver",
         "pack": "tcu"
       },
       {
@@ -1640,8 +1635,13 @@
         "pack": "tcu"
       },
       {
-        "code": "05192",
-        "name": "Enchanted Blade",
+        "code": "05273",
+        "name": "Mk 1 Grenades",
+        "pack": "tcu"
+      },
+      {
+        "code": "05114",
+        "name": "Meat Cleaver",
         "pack": "tcu"
       },
       {
@@ -1650,8 +1650,8 @@
         "pack": "tcu"
       },
       {
-        "code": "05273",
-        "name": "Mk 1 Grenades",
+        "code": "05192",
+        "name": "Enchanted Blade",
         "pack": "tcu"
       },
       {
@@ -1735,6 +1735,11 @@
         "pack": "tic"
       },
       {
+        "code": "07193",
+        "name": "Ríastrad",
+        "pack": "tic"
+      },
+      {
         "code": "07153",
         "name": "Radiant Smite",
         "pack": "tic"
@@ -1742,11 +1747,6 @@
       {
         "code": "07159",
         "name": "Abyssal Tome",
-        "pack": "tic"
-      },
-      {
-        "code": "07193",
-        "name": "Ríastrad",
         "pack": "tic"
       },
       {
@@ -1841,13 +1841,13 @@
         "pack": "dwl"
       },
       {
-        "code": "02308",
-        "name": "Aquinnah",
+        "code": "02309",
+        "name": "Try and Try Again",
         "pack": "dwl"
       },
       {
-        "code": "02309",
-        "name": "Try and Try Again",
+        "code": "02308",
+        "name": "Aquinnah",
         "pack": "dwl"
       },
       {
@@ -1861,18 +1861,8 @@
         "pack": "eote"
       },
       {
-        "code": "08086",
-        "name": "Michael Leigh",
-        "pack": "eote"
-      },
-      {
-        "code": "08091",
-        "name": "Nkosi Mabati",
-        "pack": "eote"
-      },
-      {
-        "code": "08099",
-        "name": "Gené Beauregard",
+        "code": "08106",
+        "name": "Professor William Webb",
         "pack": "eote"
       },
       {
@@ -1881,8 +1871,18 @@
         "pack": "eote"
       },
       {
-        "code": "08106",
-        "name": "Professor William Webb",
+        "code": "08115",
+        "name": "Precious Memento",
+        "pack": "eote"
+      },
+      {
+        "code": "08091",
+        "name": "Nkosi Mabati",
+        "pack": "eote"
+      },
+      {
+        "code": "08086",
+        "name": "Michael Leigh",
         "pack": "eote"
       },
       {
@@ -1891,8 +1891,8 @@
         "pack": "eote"
       },
       {
-        "code": "08115",
-        "name": "Precious Memento",
+        "code": "08099",
+        "name": "Gené Beauregard",
         "pack": "eote"
       },
       {
@@ -1986,13 +1986,13 @@
         "pack": "tsk"
       },
       {
-        "code": "09114",
-        "name": "Katja Eastbank",
+        "code": "09102",
+        "name": "Idol of Xanatos",
         "pack": "tsk"
       },
       {
-        "code": "09102",
-        "name": "Idol of Xanatos",
+        "code": "09114",
+        "name": "Katja Eastbank",
         "pack": "tsk"
       },
       {
@@ -2101,8 +2101,8 @@
         "pack": "rt"
       },
       {
-        "code": "54008",
-        "name": "Sign Magick",
+        "code": "54009",
+        "name": "Nine of Rods",
         "pack": "rt"
       },
       {
@@ -2111,8 +2111,8 @@
         "pack": "rt"
       },
       {
-        "code": "54009",
-        "name": "Nine of Rods",
+        "code": "54008",
+        "name": "Sign Magick",
         "pack": "rt"
       },
       {
@@ -2131,13 +2131,13 @@
         "pack": "tfa"
       },
       {
-        "code": "04108",
-        "name": "Fence",
+        "code": "04107",
+        "name": "Lucky Cigarette Case",
         "pack": "tfa"
       },
       {
-        "code": "04107",
-        "name": "Lucky Cigarette Case",
+        "code": "04108",
+        "name": "Fence",
         "pack": "tfa"
       },
       {
@@ -2181,18 +2181,8 @@
         "pack": "tcu"
       },
       {
-        "code": "05036",
-        "name": "Track Shoes",
-        "pack": "tcu"
-      },
-      {
         "code": "05119",
         "name": "Grisly Totem",
-        "pack": "tcu"
-      },
-      {
-        "code": "05151",
-        "name": "Alice Luxley",
         "pack": "tcu"
       },
       {
@@ -2213,6 +2203,16 @@
       {
         "code": "05230",
         "name": "Telescopic Sight",
+        "pack": "tcu"
+      },
+      {
+        "code": "05036",
+        "name": "Track Shoes",
+        "pack": "tcu"
+      },
+      {
+        "code": "05151",
+        "name": "Alice Luxley",
         "pack": "tcu"
       },
       {
@@ -2321,6 +2321,16 @@
         "pack": "tic"
       },
       {
+        "code": "07120",
+        "name": "Paradoxical Covenant",
+        "pack": "tic"
+      },
+      {
+        "code": "07122",
+        "name": "Ancient Covenant",
+        "pack": "tic"
+      },
+      {
         "code": "07190",
         "name": "Blessing of Isis",
         "pack": "tic"
@@ -2331,13 +2341,13 @@
         "pack": "tic"
       },
       {
-        "code": "07220",
-        "name": "Holy Rosary",
+        "code": "07221",
+        "name": "Shield of Faith",
         "pack": "tic"
       },
       {
-        "code": "07221",
-        "name": "Shield of Faith",
+        "code": "07220",
+        "name": "Holy Rosary",
         "pack": "tic"
       },
       {
@@ -2346,33 +2356,23 @@
         "pack": "tic"
       },
       {
-        "code": "07267",
-        "name": "Ikiaq",
-        "pack": "tic"
-      },
-      {
         "code": "07261",
         "name": "Enchant Weapon",
         "pack": "tic"
       },
       {
-        "code": "07120",
-        "name": "Paradoxical Covenant",
-        "pack": "tic"
-      },
-      {
-        "code": "07272",
-        "name": "Favor of the Sun",
-        "pack": "tic"
-      },
-      {
-        "code": "07122",
-        "name": "Ancient Covenant",
+        "code": "07267",
+        "name": "Ikiaq",
         "pack": "tic"
       },
       {
         "code": "07271",
         "name": "Favor of the Moon",
+        "pack": "tic"
+      },
+      {
+        "code": "07272",
+        "name": "Favor of the Sun",
         "pack": "tic"
       },
       {
@@ -2467,13 +2467,13 @@
         "pack": "dwl"
       },
       {
-        "code": "02036",
-        "name": "Kukri",
+        "code": "02107",
+        "name": "\"I've got a plan!\"",
         "pack": "dwl"
       },
       {
-        "code": "02107",
-        "name": "\"I've got a plan!\"",
+        "code": "02036",
+        "name": "Kukri",
         "pack": "dwl"
       },
       {
@@ -2527,28 +2527,8 @@
         "pack": "eote"
       },
       {
-        "code": "08060",
-        "name": "Dragon Pole",
-        "pack": "eote"
-      },
-      {
         "code": "08080",
         "name": "Fire Extinguisher",
-        "pack": "eote"
-      },
-      {
-        "code": "08086",
-        "name": "Michael Leigh",
-        "pack": "eote"
-      },
-      {
-        "code": "08093",
-        "name": "Cyclopean Hammer",
-        "pack": "eote"
-      },
-      {
-        "code": "08094",
-        "name": "Sledgehammer",
         "pack": "eote"
       },
       {
@@ -2557,8 +2537,28 @@
         "pack": "eote"
       },
       {
+        "code": "08094",
+        "name": "Sledgehammer",
+        "pack": "eote"
+      },
+      {
+        "code": "08093",
+        "name": "Cyclopean Hammer",
+        "pack": "eote"
+      },
+      {
         "code": "08107",
         "name": "Ice Pick",
+        "pack": "eote"
+      },
+      {
+        "code": "08060",
+        "name": "Dragon Pole",
+        "pack": "eote"
+      },
+      {
+        "code": "08086",
+        "name": "Michael Leigh",
         "pack": "eote"
       },
       {
@@ -2612,13 +2612,13 @@
         "pack": "tsk"
       },
       {
-        "code": "09113",
-        "name": "Baseball Bat",
+        "code": "09096",
+        "name": "Ceremonial Sickle",
         "pack": "tsk"
       },
       {
-        "code": "09096",
-        "name": "Ceremonial Sickle",
+        "code": "09113",
+        "name": "Baseball Bat",
         "pack": "tsk"
       },
       {
@@ -2717,11 +2717,6 @@
         "pack": "jac"
       },
       {
-        "code": "52001",
-        "name": ".32 Colt",
-        "pack": "rt"
-      },
-      {
         "code": "51002",
         "name": "Blackjack",
         "pack": "rt"
@@ -2734,6 +2729,11 @@
       {
         "code": "53006",
         "name": "Colt Vest Pocket",
+        "pack": "rt"
+      },
+      {
+        "code": "52001",
+        "name": ".32 Colt",
         "pack": "rt"
       },
       {
@@ -2762,8 +2762,8 @@
         "pack": "tfa"
       },
       {
-        "code": "04268",
-        "name": "Colt Vest Pocket",
+        "code": "04266",
+        "name": "Blood Eclipse",
         "pack": "tfa"
       },
       {
@@ -2772,18 +2772,28 @@
         "pack": "tfa"
       },
       {
-        "code": "04266",
-        "name": "Blood Eclipse",
-        "pack": "tfa"
-      },
-      {
         "code": "04310",
         "name": "Shards of the Void",
         "pack": "tfa"
       },
       {
+        "code": "04268",
+        "name": "Colt Vest Pocket",
+        "pack": "tfa"
+      },
+      {
+        "code": "03020",
+        "name": ".32 Colt",
+        "pack": "ptc"
+      },
+      {
         "code": "03110",
         "name": "Knuckleduster",
+        "pack": "ptc"
+      },
+      {
+        "code": "03190",
+        "name": ".45 Automatic",
         "pack": "ptc"
       },
       {
@@ -2797,16 +2807,6 @@
         "pack": "ptc"
       },
       {
-        "code": "03020",
-        "name": ".32 Colt",
-        "pack": "ptc"
-      },
-      {
-        "code": "03190",
-        "name": ".45 Automatic",
-        "pack": "ptc"
-      },
-      {
         "code": "05009",
         "name": "Detective's Colt 1911s",
         "pack": "tcu"
@@ -2814,11 +2814,6 @@
       {
         "code": "05037",
         "name": "Act of Desperation",
-        "pack": "tcu"
-      },
-      {
-        "code": "05114",
-        "name": "Meat Cleaver",
         "pack": "tcu"
       },
       {
@@ -2847,12 +2842,17 @@
         "pack": "tcu"
       },
       {
-        "code": "05192",
-        "name": "Enchanted Blade",
+        "code": "05114",
+        "name": "Meat Cleaver",
         "pack": "tcu"
       },
       {
         "code": "05193",
+        "name": "Enchanted Blade",
+        "pack": "tcu"
+      },
+      {
+        "code": "05192",
         "name": "Enchanted Blade",
         "pack": "tcu"
       },
@@ -2922,6 +2922,11 @@
         "pack": "tic"
       },
       {
+        "code": "07193",
+        "name": "Ríastrad",
+        "pack": "tic"
+      },
+      {
         "code": "07153",
         "name": "Radiant Smite",
         "pack": "tic"
@@ -2932,8 +2937,8 @@
         "pack": "tic"
       },
       {
-        "code": "07193",
-        "name": "Ríastrad",
+        "code": "07261",
+        "name": "Enchant Weapon",
         "pack": "tic"
       },
       {
@@ -2944,11 +2949,6 @@
       {
         "code": "07302",
         "name": "Holy Spear",
-        "pack": "tic"
-      },
-      {
-        "code": "07261",
-        "name": "Enchant Weapon",
         "pack": "tic"
       },
       {
@@ -3093,11 +3093,6 @@
         "pack": "tde"
       },
       {
-        "code": "99002",
-        "name": "Mystifying Song",
-        "pack": "etc"
-      },
-      {
         "code": "89002",
         "name": "Ravenous",
         "pack": "etc"
@@ -3150,6 +3145,11 @@
       {
         "code": "98020",
         "name": "Ruth Westmacott",
+        "pack": "etc"
+      },
+      {
+        "code": "99002",
+        "name": "Mystifying Song",
         "pack": "etc"
       },
       {
@@ -3283,13 +3283,13 @@
         "pack": "ptc"
       },
       {
-        "code": "03018",
-        "name": "Improvisation",
+        "code": "03016",
+        "name": "Bury Them Deep",
         "pack": "ptc"
       },
       {
-        "code": "03016",
-        "name": "Bury Them Deep",
+        "code": "03018",
+        "name": "Improvisation",
         "pack": "ptc"
       },
       {
@@ -3358,18 +3358,13 @@
         "pack": "par"
       },
       {
-        "code": "90027",
-        "name": "Directive",
-        "pack": "par"
-      },
-      {
         "code": "90026",
         "name": "Directive",
         "pack": "par"
       },
       {
-        "code": "90039",
-        "name": "Wendy's Amulet",
+        "code": "90027",
+        "name": "Directive",
         "pack": "par"
       },
       {
@@ -3383,13 +3378,8 @@
         "pack": "par"
       },
       {
-        "code": "90052",
-        "name": "The Beyond",
-        "pack": "par"
-      },
-      {
-        "code": "90038",
-        "name": "Tidal Memento",
+        "code": "90039",
+        "name": "Wendy's Amulet",
         "pack": "par"
       },
       {
@@ -3398,18 +3388,8 @@
         "pack": "par"
       },
       {
-        "code": "90050",
-        "name": "Jim's Trumpet",
-        "pack": "par"
-      },
-      {
-        "code": "90060",
-        "name": "Zoey's Cross",
-        "pack": "par"
-      },
-      {
-        "code": "90079",
-        "name": "Search for the Truth",
+        "code": "90038",
+        "name": "Tidal Memento",
         "pack": "par"
       },
       {
@@ -3418,8 +3398,28 @@
         "pack": "par"
       },
       {
+        "code": "90050",
+        "name": "Jim's Trumpet",
+        "pack": "par"
+      },
+      {
+        "code": "90052",
+        "name": "The Beyond",
+        "pack": "par"
+      },
+      {
+        "code": "90060",
+        "name": "Zoey's Cross",
+        "pack": "par"
+      },
+      {
         "code": "90063",
         "name": "Trusty Bullwhip",
+        "pack": "par"
+      },
+      {
+        "code": "90079",
+        "name": "Search for the Truth",
         "pack": "par"
       },
       {
@@ -3514,11 +3514,6 @@
         "pack": "eote"
       },
       {
-        "code": "08051",
-        "name": "Untimely Transaction",
-        "pack": "eote"
-      },
-      {
         "code": "08054",
         "name": "Money Talks",
         "pack": "eote"
@@ -3531,6 +3526,11 @@
       {
         "code": "08079",
         "name": "Blood Will Have Blood",
+        "pack": "eote"
+      },
+      {
+        "code": "08051",
+        "name": "Untimely Transaction",
         "pack": "eote"
       },
       {
@@ -3574,11 +3574,6 @@
         "pack": "tsk"
       },
       {
-        "code": "09041",
-        "name": "Empirical Hypothesis",
-        "pack": "tsk"
-      },
-      {
         "code": "09044",
         "name": "Grim Memoir",
         "pack": "tsk"
@@ -3594,11 +3589,6 @@
         "pack": "tsk"
       },
       {
-        "code": "09107",
-        "name": "Predator or Prey",
-        "pack": "tsk"
-      },
-      {
         "code": "09086",
         "name": "Eldritch Initiation",
         "pack": "tsk"
@@ -3606,6 +3596,16 @@
       {
         "code": "09104",
         "name": "End of the Road",
+        "pack": "tsk"
+      },
+      {
+        "code": "09107",
+        "name": "Predator or Prey",
+        "pack": "tsk"
+      },
+      {
+        "code": "09041",
+        "name": "Empirical Hypothesis",
         "pack": "tsk"
       },
       {
@@ -3634,11 +3634,6 @@
         "pack": "rcore"
       },
       {
-        "code": "01584",
-        "name": "Lucky!",
-        "pack": "rcore"
-      },
-      {
         "code": "01589",
         "name": "Guts",
         "pack": "rcore"
@@ -3656,6 +3651,11 @@
       {
         "code": "01592",
         "name": "Manual Dexterity",
+        "pack": "rcore"
+      },
+      {
+        "code": "01584",
+        "name": "Lucky!",
         "pack": "rcore"
       },
       {
@@ -3739,8 +3739,13 @@
         "pack": "tfa"
       },
       {
-        "code": "04309",
-        "name": "All In",
+        "code": "04195",
+        "name": "Expose Weakness",
+        "pack": "tfa"
+      },
+      {
+        "code": "04267",
+        "name": "Feed the Mind",
         "pack": "tfa"
       },
       {
@@ -3749,13 +3754,8 @@
         "pack": "tfa"
       },
       {
-        "code": "04195",
-        "name": "Expose Weakness",
-        "pack": "tfa"
-      },
-      {
-        "code": "04267",
-        "name": "Feed the Mind",
+        "code": "04309",
+        "name": "All In",
         "pack": "tfa"
       },
       {
@@ -3804,11 +3804,6 @@
         "pack": "tcu"
       },
       {
-        "code": "05192",
-        "name": "Enchanted Blade",
-        "pack": "tcu"
-      },
-      {
         "code": "05194",
         "name": "Grisly Totem",
         "pack": "tcu"
@@ -3819,13 +3814,18 @@
         "pack": "tcu"
       },
       {
-        "code": "05314",
-        "name": "Soothing Melody",
+        "code": "05319",
+        "name": "\"You owe me one!\"",
         "pack": "tcu"
       },
       {
-        "code": "05319",
-        "name": "\"You owe me one!\"",
+        "code": "05192",
+        "name": "Enchanted Blade",
+        "pack": "tcu"
+      },
+      {
+        "code": "05314",
+        "name": "Soothing Melody",
         "pack": "tcu"
       },
       {
@@ -3940,13 +3940,13 @@
         "pack": "dwl"
       },
       {
-        "code": "02263",
-        "name": "Strange Solution",
+        "code": "02301",
+        "name": "Lightning Gun",
         "pack": "dwl"
       },
       {
-        "code": "02301",
-        "name": "Lightning Gun",
+        "code": "02263",
+        "name": "Strange Solution",
         "pack": "dwl"
       },
       {
@@ -3965,8 +3965,13 @@
         "pack": "eote"
       },
       {
-        "code": "08100",
-        "name": "Eon Chart",
+        "code": "08106",
+        "name": "Professor William Webb",
+        "pack": "eote"
+      },
+      {
+        "code": "08109",
+        "name": "Blur",
         "pack": "eote"
       },
       {
@@ -3975,13 +3980,8 @@
         "pack": "eote"
       },
       {
-        "code": "08106",
-        "name": "Professor William Webb",
-        "pack": "eote"
-      },
-      {
-        "code": "08109",
-        "name": "Blur",
+        "code": "08100",
+        "name": "Eon Chart",
         "pack": "eote"
       },
       {
@@ -4030,13 +4030,13 @@
         "pack": "tsk"
       },
       {
-        "code": "09079",
-        "name": "Living Ink",
+        "code": "09059",
+        "name": "Damning Testimony",
         "pack": "tsk"
       },
       {
-        "code": "09059",
-        "name": "Damning Testimony",
+        "code": "09079",
+        "name": "Living Ink",
         "pack": "tsk"
       },
       {
@@ -4075,6 +4075,11 @@
         "pack": "rcore"
       },
       {
+        "code": "01690",
+        "name": "Scrying",
+        "pack": "rcore"
+      },
+      {
         "code": "01688",
         "name": ".41 Derringer",
         "pack": "rcore"
@@ -4082,11 +4087,6 @@
       {
         "code": "01689",
         "name": "Rite of Seeking",
-        "pack": "rcore"
-      },
-      {
-        "code": "01690",
-        "name": "Scrying",
         "pack": "rcore"
       },
       {
@@ -4135,11 +4135,6 @@
         "pack": "rt"
       },
       {
-        "code": "52004",
-        "name": "Archaic Glyphs",
-        "pack": "rt"
-      },
-      {
         "code": "52006",
         "name": "Suggestion",
         "pack": "rt"
@@ -4147,6 +4142,11 @@
       {
         "code": "53008",
         "name": "The Chthonian Stone",
+        "pack": "rt"
+      },
+      {
+        "code": "52004",
+        "name": "Archaic Glyphs",
         "pack": "rt"
       },
       {
@@ -4165,8 +4165,8 @@
         "pack": "tfa"
       },
       {
-        "code": "04274",
-        "name": "Thermos",
+        "code": "04267",
+        "name": "Feed the Mind",
         "pack": "tfa"
       },
       {
@@ -4175,8 +4175,8 @@
         "pack": "tfa"
       },
       {
-        "code": "04304",
-        "name": "Kerosene",
+        "code": "04310",
+        "name": "Shards of the Void",
         "pack": "tfa"
       },
       {
@@ -4185,13 +4185,13 @@
         "pack": "tfa"
       },
       {
-        "code": "04310",
-        "name": "Shards of the Void",
+        "code": "04304",
+        "name": "Kerosene",
         "pack": "tfa"
       },
       {
-        "code": "04267",
-        "name": "Feed the Mind",
+        "code": "04274",
+        "name": "Thermos",
         "pack": "tfa"
       },
       {
@@ -4202,16 +4202,6 @@
       {
         "code": "03031",
         "name": "Lockpicks",
-        "pack": "ptc"
-      },
-      {
-        "code": "03032",
-        "name": "Alchemical Transmutation",
-        "pack": "ptc"
-      },
-      {
-        "code": "03192",
-        "name": "Archaic Glyphs",
         "pack": "ptc"
       },
       {
@@ -4230,8 +4220,18 @@
         "pack": "ptc"
       },
       {
+        "code": "03192",
+        "name": "Archaic Glyphs",
+        "pack": "ptc"
+      },
+      {
         "code": "03268",
         "name": "Suggestion",
+        "pack": "ptc"
+      },
+      {
+        "code": "03032",
+        "name": "Alchemical Transmutation",
         "pack": "ptc"
       },
       {
@@ -4255,11 +4255,6 @@
         "pack": "tcu"
       },
       {
-        "code": "05153",
-        "name": "Mr. \"Rook\"",
-        "pack": "tcu"
-      },
-      {
         "code": "05188",
         "name": "Scroll of Secrets",
         "pack": "tcu"
@@ -4270,11 +4265,6 @@
         "pack": "tcu"
       },
       {
-        "code": "05192",
-        "name": "Enchanted Blade",
-        "pack": "tcu"
-      },
-      {
         "code": "05273",
         "name": "Mk 1 Grenades",
         "pack": "tcu"
@@ -4282,6 +4272,16 @@
       {
         "code": "05279",
         "name": "Dayana Esperence",
+        "pack": "tcu"
+      },
+      {
+        "code": "05153",
+        "name": "Mr. \"Rook\"",
+        "pack": "tcu"
+      },
+      {
+        "code": "05192",
+        "name": "Enchanted Blade",
         "pack": "tcu"
       },
       {
@@ -4305,12 +4305,22 @@
         "pack": "tic"
       },
       {
+        "code": "07119",
+        "name": "Shroud of Shadows",
+        "pack": "tic"
+      },
+      {
+        "code": "07118",
+        "name": "Eye of Chaos",
+        "pack": "tic"
+      },
+      {
         "code": "07117",
         "name": "Armageddon",
         "pack": "tic"
       },
       {
-        "code": "07118",
+        "code": "07227",
         "name": "Eye of Chaos",
         "pack": "tic"
       },
@@ -4320,23 +4330,13 @@
         "pack": "tic"
       },
       {
-        "code": "07119",
-        "name": "Shroud of Shadows",
+        "code": "07310",
+        "name": "Shrine of the Moirai",
         "pack": "tic"
       },
       {
         "code": "07228",
         "name": "Shroud of Shadows",
-        "pack": "tic"
-      },
-      {
-        "code": "07227",
-        "name": "Eye of Chaos",
-        "pack": "tic"
-      },
-      {
-        "code": "07310",
-        "name": "Shrine of the Moirai",
         "pack": "tic"
       },
       {
@@ -4401,11 +4401,6 @@
         "pack": "eote"
       },
       {
-        "code": "08058",
-        "name": "The Red Clock",
-        "pack": "eote"
-      },
-      {
         "code": "08068",
         "name": "Healing Words",
         "pack": "eote"
@@ -4426,21 +4421,6 @@
         "pack": "eote"
       },
       {
-        "code": "08092",
-        "name": "Brand of Cthugha",
-        "pack": "eote"
-      },
-      {
-        "code": "08101",
-        "name": "Divination",
-        "pack": "eote"
-      },
-      {
-        "code": "08103",
-        "name": "Divination",
-        "pack": "eote"
-      },
-      {
         "code": "08109",
         "name": "Blur",
         "pack": "eote"
@@ -4456,13 +4436,33 @@
         "pack": "eote"
       },
       {
-        "code": "08118",
-        "name": "Enchanted Bow",
+        "code": "08103",
+        "name": "Divination",
         "pack": "eote"
       },
       {
         "code": "08119",
         "name": "Earthly Serenity",
+        "pack": "eote"
+      },
+      {
+        "code": "08058",
+        "name": "The Red Clock",
+        "pack": "eote"
+      },
+      {
+        "code": "08092",
+        "name": "Brand of Cthugha",
+        "pack": "eote"
+      },
+      {
+        "code": "08101",
+        "name": "Divination",
+        "pack": "eote"
+      },
+      {
+        "code": "08118",
+        "name": "Enchanted Bow",
         "pack": "eote"
       },
       {
@@ -4491,13 +4491,13 @@
         "pack": "tsk"
       },
       {
-        "code": "09032",
-        "name": "Bestow Resolve",
+        "code": "09079",
+        "name": "Living Ink",
         "pack": "tsk"
       },
       {
-        "code": "09079",
-        "name": "Living Ink",
+        "code": "09032",
+        "name": "Bestow Resolve",
         "pack": "tsk"
       },
       {
@@ -4516,13 +4516,13 @@
         "pack": "rcore"
       },
       {
-        "code": "01689",
-        "name": "Rite of Seeking",
+        "code": "01690",
+        "name": "Scrying",
         "pack": "rcore"
       },
       {
-        "code": "01690",
-        "name": "Scrying",
+        "code": "01689",
+        "name": "Rite of Seeking",
         "pack": "rcore"
       },
       {
@@ -4581,16 +4581,6 @@
         "pack": "rt"
       },
       {
-        "code": "51008",
-        "name": "Clarity of Mind",
-        "pack": "rt"
-      },
-      {
-        "code": "52004",
-        "name": "Archaic Glyphs",
-        "pack": "rt"
-      },
-      {
         "code": "52006",
         "name": "Suggestion",
         "pack": "rt"
@@ -4616,6 +4606,16 @@
         "pack": "rt"
       },
       {
+        "code": "52004",
+        "name": "Archaic Glyphs",
+        "pack": "rt"
+      },
+      {
+        "code": "51008",
+        "name": "Clarity of Mind",
+        "pack": "rt"
+      },
+      {
         "code": "04026",
         "name": "Decorated Skull",
         "pack": "tfa"
@@ -4631,24 +4631,14 @@
         "pack": "tfa"
       },
       {
-        "code": "04271",
-        "name": "Mists of R'lyeh",
-        "pack": "tfa"
-      },
-      {
         "code": "04311",
         "name": "Seal of the Seventh Sign",
         "pack": "tfa"
       },
       {
-        "code": "03032",
-        "name": "Alchemical Transmutation",
-        "pack": "ptc"
-      },
-      {
-        "code": "03192",
-        "name": "Archaic Glyphs",
-        "pack": "ptc"
+        "code": "04271",
+        "name": "Mists of R'lyeh",
+        "pack": "tfa"
       },
       {
         "code": "03193",
@@ -4661,8 +4651,18 @@
         "pack": "ptc"
       },
       {
+        "code": "03192",
+        "name": "Archaic Glyphs",
+        "pack": "ptc"
+      },
+      {
         "code": "03268",
         "name": "Suggestion",
+        "pack": "ptc"
+      },
+      {
+        "code": "03032",
+        "name": "Alchemical Transmutation",
         "pack": "ptc"
       },
       {
@@ -4676,12 +4676,12 @@
         "pack": "tcu"
       },
       {
-        "code": "05192",
+        "code": "05193",
         "name": "Enchanted Blade",
         "pack": "tcu"
       },
       {
-        "code": "05193",
+        "code": "05192",
         "name": "Enchanted Blade",
         "pack": "tcu"
       },
@@ -4696,12 +4696,22 @@
         "pack": "tic"
       },
       {
+        "code": "07119",
+        "name": "Shroud of Shadows",
+        "pack": "tic"
+      },
+      {
+        "code": "07118",
+        "name": "Eye of Chaos",
+        "pack": "tic"
+      },
+      {
         "code": "07117",
         "name": "Armageddon",
         "pack": "tic"
       },
       {
-        "code": "07118",
+        "code": "07227",
         "name": "Eye of Chaos",
         "pack": "tic"
       },
@@ -4711,18 +4721,8 @@
         "pack": "tic"
       },
       {
-        "code": "07119",
-        "name": "Shroud of Shadows",
-        "pack": "tic"
-      },
-      {
         "code": "07228",
         "name": "Shroud of Shadows",
-        "pack": "tic"
-      },
-      {
-        "code": "07227",
-        "name": "Eye of Chaos",
         "pack": "tic"
       },
       {
@@ -4742,13 +4742,13 @@
     "count": 84,
     "usages": [
       {
-        "code": "02031",
-        "name": "Bind Monster",
+        "code": "02034",
+        "name": "Bait and Switch",
         "pack": "dwl"
       },
       {
-        "code": "02034",
-        "name": "Bait and Switch",
+        "code": "02031",
+        "name": "Bind Monster",
         "pack": "dwl"
       },
       {
@@ -4758,11 +4758,6 @@
       },
       {
         "code": "08041",
-        "name": "Archive of Conduits",
-        "pack": "eote"
-      },
-      {
-        "code": "08043",
         "name": "Archive of Conduits",
         "pack": "eote"
       },
@@ -4782,11 +4777,6 @@
         "pack": "eote"
       },
       {
-        "code": "08099",
-        "name": "Gené Beauregard",
-        "pack": "eote"
-      },
-      {
         "code": "08108",
         "name": "Ethereal Slip",
         "pack": "eote"
@@ -4794,6 +4784,16 @@
       {
         "code": "08110",
         "name": "Ethereal Slip",
+        "pack": "eote"
+      },
+      {
+        "code": "08043",
+        "name": "Archive of Conduits",
+        "pack": "eote"
+      },
+      {
+        "code": "08099",
+        "name": "Gené Beauregard",
         "pack": "eote"
       },
       {
@@ -4832,11 +4832,6 @@
         "pack": "tsk"
       },
       {
-        "code": "09035",
-        "name": "Handcuffs",
-        "pack": "tsk"
-      },
-      {
         "code": "09052",
         "name": "Existential Riddle",
         "pack": "tsk"
@@ -4867,6 +4862,11 @@
         "pack": "tsk"
       },
       {
+        "code": "09088",
+        "name": "String of Curses",
+        "pack": "tsk"
+      },
+      {
         "code": "09093",
         "name": "Moonlight Ritual",
         "pack": "tsk"
@@ -4877,8 +4877,8 @@
         "pack": "tsk"
       },
       {
-        "code": "09088",
-        "name": "String of Curses",
+        "code": "09035",
+        "name": "Handcuffs",
         "pack": "tsk"
       },
       {
@@ -4952,6 +4952,11 @@
         "pack": "tfa"
       },
       {
+        "code": "03016",
+        "name": "Bury Them Deep",
+        "pack": "ptc"
+      },
+      {
         "code": "03038",
         "name": "Hiding Spot",
         "pack": "ptc"
@@ -4984,11 +4989,6 @@
       {
         "code": "03268",
         "name": "Suggestion",
-        "pack": "ptc"
-      },
-      {
-        "code": "03016",
-        "name": "Bury Them Deep",
         "pack": "ptc"
       },
       {
@@ -5057,13 +5057,13 @@
         "pack": "par"
       },
       {
-        "code": "07157",
-        "name": "Under Surveillance",
+        "code": "07119",
+        "name": "Shroud of Shadows",
         "pack": "tic"
       },
       {
-        "code": "07119",
-        "name": "Shroud of Shadows",
+        "code": "07157",
+        "name": "Under Surveillance",
         "pack": "tic"
       },
       {
@@ -5168,13 +5168,13 @@
     "count": 65,
     "usages": [
       {
-        "code": "08118",
-        "name": "Enchanted Bow",
+        "code": "08127",
+        "name": "Sled Dog",
         "pack": "eote"
       },
       {
-        "code": "08127",
-        "name": "Sled Dog",
+        "code": "08118",
+        "name": "Enchanted Bow",
         "pack": "eote"
       },
       {
@@ -5313,8 +5313,8 @@
         "pack": "tfa"
       },
       {
-        "code": "04274",
-        "name": "Thermos",
+        "code": "04267",
+        "name": "Feed the Mind",
         "pack": "tfa"
       },
       {
@@ -5328,14 +5328,9 @@
         "pack": "tfa"
       },
       {
-        "code": "04267",
-        "name": "Feed the Mind",
+        "code": "04274",
+        "name": "Thermos",
         "pack": "tfa"
-      },
-      {
-        "code": "03028",
-        "name": "Stealth",
-        "pack": "ptc"
       },
       {
         "code": "03031",
@@ -5343,8 +5338,8 @@
         "pack": "ptc"
       },
       {
-        "code": "03032",
-        "name": "Alchemical Transmutation",
+        "code": "03151",
+        "name": "Dario El-Amin",
         "pack": "ptc"
       },
       {
@@ -5358,13 +5353,18 @@
         "pack": "ptc"
       },
       {
-        "code": "03035",
-        "name": "Spirit Athame",
+        "code": "03028",
+        "name": "Stealth",
         "pack": "ptc"
       },
       {
-        "code": "03151",
-        "name": "Dario El-Amin",
+        "code": "03032",
+        "name": "Alchemical Transmutation",
+        "pack": "ptc"
+      },
+      {
+        "code": "03035",
+        "name": "Spirit Athame",
         "pack": "ptc"
       },
       {
@@ -5448,6 +5448,11 @@
         "pack": "tic"
       },
       {
+        "code": "07121",
+        "name": "Mariner's Compass",
+        "pack": "tic"
+      },
+      {
         "code": "07159",
         "name": "Abyssal Tome",
         "pack": "tic"
@@ -5455,11 +5460,6 @@
       {
         "code": "07268",
         "name": "Flute of the Outer Gods",
-        "pack": "tic"
-      },
-      {
-        "code": "07121",
-        "name": "Mariner's Compass",
         "pack": "tic"
       },
       {
@@ -5490,297 +5490,6 @@
       {
         "code": "10122",
         "name": "Mariner's Compass",
-        "pack": "fhv"
-      }
-    ]
-  },
-  {
-    "tag": "chaos_reveal_token_skull",
-    "count": 57,
-    "usages": [
-      {
-        "code": "02012",
-        "name": "Jim's Trumpet",
-        "pack": "dwl"
-      },
-      {
-        "code": "02028",
-        "name": "Rite of Seeking",
-        "pack": "dwl"
-      },
-      {
-        "code": "02029",
-        "name": "Ritual Candles",
-        "pack": "dwl"
-      },
-      {
-        "code": "02112",
-        "name": "Song of the Dead",
-        "pack": "dwl"
-      },
-      {
-        "code": "02153",
-        "name": "Hypnotic Gaze",
-        "pack": "dwl"
-      },
-      {
-        "code": "02154",
-        "name": "Shrivelling",
-        "pack": "dwl"
-      },
-      {
-        "code": "02190",
-        "name": "Defiance",
-        "pack": "dwl"
-      },
-      {
-        "code": "02233",
-        "name": "Rite of Seeking",
-        "pack": "dwl"
-      },
-      {
-        "code": "02306",
-        "name": "Shrivelling",
-        "pack": "dwl"
-      },
-      {
-        "code": "08048",
-        "name": "21 or Bust",
-        "pack": "eote"
-      },
-      {
-        "code": "08087",
-        "name": "Snipe",
-        "pack": "eote"
-      },
-      {
-        "code": "08112",
-        "name": "\"Hit me!\"",
-        "pack": "eote"
-      },
-      {
-        "code": "06277",
-        "name": "Wish Eater",
-        "pack": "tde"
-      },
-      {
-        "code": "89005",
-        "name": "Reality Acid",
-        "pack": "etc"
-      },
-      {
-        "code": "09113",
-        "name": "Baseball Bat",
-        "pack": "tsk"
-      },
-      {
-        "code": "01560",
-        "name": "Shrivelling",
-        "pack": "rcore"
-      },
-      {
-        "code": "01566",
-        "name": "Blinding Light",
-        "pack": "rcore"
-      },
-      {
-        "code": "01569",
-        "name": "Blinding Light",
-        "pack": "rcore"
-      },
-      {
-        "code": "01574",
-        "name": "Baseball Bat",
-        "pack": "rcore"
-      },
-      {
-        "code": "01689",
-        "name": "Rite of Seeking",
-        "pack": "rcore"
-      },
-      {
-        "code": "60405",
-        "name": "Ritual Candles",
-        "pack": "jac"
-      },
-      {
-        "code": "60413",
-        "name": "Astral Travel",
-        "pack": "jac"
-      },
-      {
-        "code": "60414",
-        "name": "Hypnotic Gaze",
-        "pack": "jac"
-      },
-      {
-        "code": "60415",
-        "name": "Parallel Fates",
-        "pack": "jac"
-      },
-      {
-        "code": "60416",
-        "name": "Voice of Ra",
-        "pack": "jac"
-      },
-      {
-        "code": "60417",
-        "name": "Dark Prophecy",
-        "pack": "jac"
-      },
-      {
-        "code": "60418",
-        "name": "Defiance",
-        "pack": "jac"
-      },
-      {
-        "code": "60423",
-        "name": "Hypnotic Gaze",
-        "pack": "jac"
-      },
-      {
-        "code": "60429",
-        "name": "Recharge",
-        "pack": "jac"
-      },
-      {
-        "code": "51007",
-        "name": "Rite of Seeking",
-        "pack": "rt"
-      },
-      {
-        "code": "52007",
-        "name": "Alchemical Transmutation",
-        "pack": "rt"
-      },
-      {
-        "code": "52008",
-        "name": "Storm of Spirits",
-        "pack": "rt"
-      },
-      {
-        "code": "53007",
-        "name": "Mists of R'lyeh",
-        "pack": "rt"
-      },
-      {
-        "code": "53008",
-        "name": "The Chthonian Stone",
-        "pack": "rt"
-      },
-      {
-        "code": "04029",
-        "name": "Mists of R'lyeh",
-        "pack": "tfa"
-      },
-      {
-        "code": "04030",
-        "name": "The Chthonian Stone",
-        "pack": "tfa"
-      },
-      {
-        "code": "04032",
-        "name": "Dark Prophecy",
-        "pack": "tfa"
-      },
-      {
-        "code": "04110",
-        "name": "Counterspell",
-        "pack": "tfa"
-      },
-      {
-        "code": "04273",
-        "name": "Old Hunting Rifle",
-        "pack": "tfa"
-      },
-      {
-        "code": "04271",
-        "name": "Mists of R'lyeh",
-        "pack": "tfa"
-      },
-      {
-        "code": "04311",
-        "name": "Seal of the Seventh Sign",
-        "pack": "tfa"
-      },
-      {
-        "code": "04198",
-        "name": "Defiance",
-        "pack": "tfa"
-      },
-      {
-        "code": "03032",
-        "name": "Alchemical Transmutation",
-        "pack": "ptc"
-      },
-      {
-        "code": "03034",
-        "name": "Astral Travel",
-        "pack": "ptc"
-      },
-      {
-        "code": "03153",
-        "name": "Storm of Spirits",
-        "pack": "ptc"
-      },
-      {
-        "code": "03197",
-        "name": "Recharge",
-        "pack": "ptc"
-      },
-      {
-        "code": "05033",
-        "name": "Eldritch Inspiration",
-        "pack": "tcu"
-      },
-      {
-        "code": "05113",
-        "name": "Banish",
-        "pack": "tcu"
-      },
-      {
-        "code": "05155",
-        "name": "Henry Wan",
-        "pack": "tcu"
-      },
-      {
-        "code": "05157",
-        "name": "Wither",
-        "pack": "tcu"
-      },
-      {
-        "code": "05158",
-        "name": "Sixth Sense",
-        "pack": "tcu"
-      },
-      {
-        "code": "05321",
-        "name": "Wither",
-        "pack": "tcu"
-      },
-      {
-        "code": "05322",
-        "name": "Sixth Sense",
-        "pack": "tcu"
-      },
-      {
-        "code": "90050",
-        "name": "Jim's Trumpet",
-        "pack": "par"
-      },
-      {
-        "code": "90052b",
-        "name": "The Beyond",
-        "pack": "par"
-      },
-      {
-        "code": "07195",
-        "name": "Curse of Aeons",
-        "pack": "tic"
-      },
-      {
-        "code": "10091",
-        "name": "Speak to the Dead",
         "pack": "fhv"
       }
     ]
@@ -5820,17 +5529,17 @@
         "pack": "eote"
       },
       {
+        "code": "08103",
+        "name": "Divination",
+        "pack": "eote"
+      },
+      {
         "code": "08097",
         "name": "Pocket Telescope",
         "pack": "eote"
       },
       {
         "code": "08101",
-        "name": "Divination",
-        "pack": "eote"
-      },
-      {
-        "code": "08103",
         "name": "Divination",
         "pack": "eote"
       },
@@ -5890,11 +5599,6 @@
         "pack": "tsk"
       },
       {
-        "code": "09117",
-        "name": "Old Keyring",
-        "pack": "tsk"
-      },
-      {
         "code": "09083",
         "name": "Dowsing Rod",
         "pack": "tsk"
@@ -5902,6 +5606,11 @@
       {
         "code": "09097",
         "name": "Dowsing Rod",
+        "pack": "tsk"
+      },
+      {
+        "code": "09117",
+        "name": "Old Keyring",
         "pack": "tsk"
       },
       {
@@ -6015,12 +5724,12 @@
         "pack": "ptc"
       },
       {
-        "code": "03192",
+        "code": "03193",
         "name": "Archaic Glyphs",
         "pack": "ptc"
       },
       {
-        "code": "03193",
+        "code": "03192",
         "name": "Archaic Glyphs",
         "pack": "ptc"
       },
@@ -6060,13 +5769,13 @@
         "pack": "tic"
       },
       {
-        "code": "07121",
-        "name": "Mariner's Compass",
+        "code": "07114",
+        "name": "Breaking and Entering",
         "pack": "tic"
       },
       {
-        "code": "07114",
-        "name": "Breaking and Entering",
+        "code": "07121",
+        "name": "Mariner's Compass",
         "pack": "tic"
       },
       {
@@ -6122,6 +5831,297 @@
     ]
   },
   {
+    "tag": "chaos_reveal_token_skull",
+    "count": 57,
+    "usages": [
+      {
+        "code": "02012",
+        "name": "Jim's Trumpet",
+        "pack": "dwl"
+      },
+      {
+        "code": "02028",
+        "name": "Rite of Seeking",
+        "pack": "dwl"
+      },
+      {
+        "code": "02029",
+        "name": "Ritual Candles",
+        "pack": "dwl"
+      },
+      {
+        "code": "02112",
+        "name": "Song of the Dead",
+        "pack": "dwl"
+      },
+      {
+        "code": "02153",
+        "name": "Hypnotic Gaze",
+        "pack": "dwl"
+      },
+      {
+        "code": "02154",
+        "name": "Shrivelling",
+        "pack": "dwl"
+      },
+      {
+        "code": "02190",
+        "name": "Defiance",
+        "pack": "dwl"
+      },
+      {
+        "code": "02233",
+        "name": "Rite of Seeking",
+        "pack": "dwl"
+      },
+      {
+        "code": "02306",
+        "name": "Shrivelling",
+        "pack": "dwl"
+      },
+      {
+        "code": "08048",
+        "name": "21 or Bust",
+        "pack": "eote"
+      },
+      {
+        "code": "08112",
+        "name": "\"Hit me!\"",
+        "pack": "eote"
+      },
+      {
+        "code": "08087",
+        "name": "Snipe",
+        "pack": "eote"
+      },
+      {
+        "code": "06277",
+        "name": "Wish Eater",
+        "pack": "tde"
+      },
+      {
+        "code": "89005",
+        "name": "Reality Acid",
+        "pack": "etc"
+      },
+      {
+        "code": "09113",
+        "name": "Baseball Bat",
+        "pack": "tsk"
+      },
+      {
+        "code": "01560",
+        "name": "Shrivelling",
+        "pack": "rcore"
+      },
+      {
+        "code": "01569",
+        "name": "Blinding Light",
+        "pack": "rcore"
+      },
+      {
+        "code": "01574",
+        "name": "Baseball Bat",
+        "pack": "rcore"
+      },
+      {
+        "code": "01566",
+        "name": "Blinding Light",
+        "pack": "rcore"
+      },
+      {
+        "code": "01689",
+        "name": "Rite of Seeking",
+        "pack": "rcore"
+      },
+      {
+        "code": "60405",
+        "name": "Ritual Candles",
+        "pack": "jac"
+      },
+      {
+        "code": "60413",
+        "name": "Astral Travel",
+        "pack": "jac"
+      },
+      {
+        "code": "60414",
+        "name": "Hypnotic Gaze",
+        "pack": "jac"
+      },
+      {
+        "code": "60415",
+        "name": "Parallel Fates",
+        "pack": "jac"
+      },
+      {
+        "code": "60416",
+        "name": "Voice of Ra",
+        "pack": "jac"
+      },
+      {
+        "code": "60417",
+        "name": "Dark Prophecy",
+        "pack": "jac"
+      },
+      {
+        "code": "60418",
+        "name": "Defiance",
+        "pack": "jac"
+      },
+      {
+        "code": "60423",
+        "name": "Hypnotic Gaze",
+        "pack": "jac"
+      },
+      {
+        "code": "60429",
+        "name": "Recharge",
+        "pack": "jac"
+      },
+      {
+        "code": "51007",
+        "name": "Rite of Seeking",
+        "pack": "rt"
+      },
+      {
+        "code": "52007",
+        "name": "Alchemical Transmutation",
+        "pack": "rt"
+      },
+      {
+        "code": "53007",
+        "name": "Mists of R'lyeh",
+        "pack": "rt"
+      },
+      {
+        "code": "53008",
+        "name": "The Chthonian Stone",
+        "pack": "rt"
+      },
+      {
+        "code": "52008",
+        "name": "Storm of Spirits",
+        "pack": "rt"
+      },
+      {
+        "code": "04029",
+        "name": "Mists of R'lyeh",
+        "pack": "tfa"
+      },
+      {
+        "code": "04030",
+        "name": "The Chthonian Stone",
+        "pack": "tfa"
+      },
+      {
+        "code": "04032",
+        "name": "Dark Prophecy",
+        "pack": "tfa"
+      },
+      {
+        "code": "04110",
+        "name": "Counterspell",
+        "pack": "tfa"
+      },
+      {
+        "code": "04198",
+        "name": "Defiance",
+        "pack": "tfa"
+      },
+      {
+        "code": "04273",
+        "name": "Old Hunting Rifle",
+        "pack": "tfa"
+      },
+      {
+        "code": "04311",
+        "name": "Seal of the Seventh Sign",
+        "pack": "tfa"
+      },
+      {
+        "code": "04271",
+        "name": "Mists of R'lyeh",
+        "pack": "tfa"
+      },
+      {
+        "code": "03034",
+        "name": "Astral Travel",
+        "pack": "ptc"
+      },
+      {
+        "code": "03153",
+        "name": "Storm of Spirits",
+        "pack": "ptc"
+      },
+      {
+        "code": "03197",
+        "name": "Recharge",
+        "pack": "ptc"
+      },
+      {
+        "code": "03032",
+        "name": "Alchemical Transmutation",
+        "pack": "ptc"
+      },
+      {
+        "code": "05113",
+        "name": "Banish",
+        "pack": "tcu"
+      },
+      {
+        "code": "05155",
+        "name": "Henry Wan",
+        "pack": "tcu"
+      },
+      {
+        "code": "05157",
+        "name": "Wither",
+        "pack": "tcu"
+      },
+      {
+        "code": "05158",
+        "name": "Sixth Sense",
+        "pack": "tcu"
+      },
+      {
+        "code": "05322",
+        "name": "Sixth Sense",
+        "pack": "tcu"
+      },
+      {
+        "code": "05033",
+        "name": "Eldritch Inspiration",
+        "pack": "tcu"
+      },
+      {
+        "code": "05321",
+        "name": "Wither",
+        "pack": "tcu"
+      },
+      {
+        "code": "90050",
+        "name": "Jim's Trumpet",
+        "pack": "par"
+      },
+      {
+        "code": "90052b",
+        "name": "The Beyond",
+        "pack": "par"
+      },
+      {
+        "code": "07195",
+        "name": "Curse of Aeons",
+        "pack": "tic"
+      },
+      {
+        "code": "10091",
+        "name": "Speak to the Dead",
+        "pack": "fhv"
+      }
+    ]
+  },
+  {
     "tag": "boost_combat_1",
     "count": 53,
     "usages": [
@@ -6156,6 +6156,16 @@
         "pack": "eote"
       },
       {
+        "code": "08080",
+        "name": "Fire Extinguisher",
+        "pack": "eote"
+      },
+      {
+        "code": "08096",
+        "name": "Sledgehammer",
+        "pack": "eote"
+      },
+      {
         "code": "08040",
         "name": "Scientific Theory",
         "pack": "eote"
@@ -6166,18 +6176,8 @@
         "pack": "eote"
       },
       {
-        "code": "08080",
-        "name": "Fire Extinguisher",
-        "pack": "eote"
-      },
-      {
         "code": "08086",
         "name": "Michael Leigh",
-        "pack": "eote"
-      },
-      {
-        "code": "08096",
-        "name": "Sledgehammer",
         "pack": "eote"
       },
       {
@@ -6271,13 +6271,13 @@
         "pack": "tfa"
       },
       {
-        "code": "04268",
-        "name": "Colt Vest Pocket",
+        "code": "04235",
+        "name": "Crystalline Elder Sign",
         "pack": "tfa"
       },
       {
-        "code": "04235",
-        "name": "Crystalline Elder Sign",
+        "code": "04268",
+        "name": "Colt Vest Pocket",
         "pack": "tfa"
       },
       {
@@ -6306,13 +6306,13 @@
         "pack": "tcu"
       },
       {
-        "code": "05114",
-        "name": "Meat Cleaver",
+        "code": "05118",
+        "name": "Enchanted Blade",
         "pack": "tcu"
       },
       {
-        "code": "05118",
-        "name": "Enchanted Blade",
+        "code": "05114",
+        "name": "Meat Cleaver",
         "pack": "tcu"
       },
       {
@@ -6432,13 +6432,13 @@
         "pack": "eote"
       },
       {
-        "code": "08087",
-        "name": "Snipe",
+        "code": "08091",
+        "name": "Nkosi Mabati",
         "pack": "eote"
       },
       {
-        "code": "08091",
-        "name": "Nkosi Mabati",
+        "code": "08087",
+        "name": "Snipe",
         "pack": "eote"
       },
       {
@@ -6457,12 +6457,12 @@
         "pack": "rcore"
       },
       {
-        "code": "01566",
+        "code": "01569",
         "name": "Blinding Light",
         "pack": "rcore"
       },
       {
-        "code": "01569",
+        "code": "01566",
         "name": "Blinding Light",
         "pack": "rcore"
       },
@@ -6527,11 +6527,6 @@
         "pack": "rt"
       },
       {
-        "code": "52008",
-        "name": "Storm of Spirits",
-        "pack": "rt"
-      },
-      {
         "code": "53007",
         "name": "Mists of R'lyeh",
         "pack": "rt"
@@ -6539,6 +6534,11 @@
       {
         "code": "53008",
         "name": "The Chthonian Stone",
+        "pack": "rt"
+      },
+      {
+        "code": "52008",
+        "name": "Storm of Spirits",
         "pack": "rt"
       },
       {
@@ -6562,8 +6562,8 @@
         "pack": "tfa"
       },
       {
-        "code": "04271",
-        "name": "Mists of R'lyeh",
+        "code": "04198",
+        "name": "Defiance",
         "pack": "tfa"
       },
       {
@@ -6572,14 +6572,9 @@
         "pack": "tfa"
       },
       {
-        "code": "04198",
-        "name": "Defiance",
+        "code": "04271",
+        "name": "Mists of R'lyeh",
         "pack": "tfa"
-      },
-      {
-        "code": "03032",
-        "name": "Alchemical Transmutation",
-        "pack": "ptc"
       },
       {
         "code": "03034",
@@ -6597,9 +6592,9 @@
         "pack": "ptc"
       },
       {
-        "code": "05033",
-        "name": "Eldritch Inspiration",
-        "pack": "tcu"
+        "code": "03032",
+        "name": "Alchemical Transmutation",
+        "pack": "ptc"
       },
       {
         "code": "05113",
@@ -6622,13 +6617,18 @@
         "pack": "tcu"
       },
       {
-        "code": "05321",
-        "name": "Wither",
+        "code": "05322",
+        "name": "Sixth Sense",
         "pack": "tcu"
       },
       {
-        "code": "05322",
-        "name": "Sixth Sense",
+        "code": "05033",
+        "name": "Eldritch Inspiration",
+        "pack": "tcu"
+      },
+      {
+        "code": "05321",
+        "name": "Wither",
         "pack": "tcu"
       },
       {
@@ -6673,13 +6673,13 @@
         "pack": "eote"
       },
       {
-        "code": "08087",
-        "name": "Snipe",
+        "code": "08091",
+        "name": "Nkosi Mabati",
         "pack": "eote"
       },
       {
-        "code": "08091",
-        "name": "Nkosi Mabati",
+        "code": "08087",
+        "name": "Snipe",
         "pack": "eote"
       },
       {
@@ -6703,12 +6703,12 @@
         "pack": "rcore"
       },
       {
-        "code": "01566",
+        "code": "01569",
         "name": "Blinding Light",
         "pack": "rcore"
       },
       {
-        "code": "01569",
+        "code": "01566",
         "name": "Blinding Light",
         "pack": "rcore"
       },
@@ -6773,11 +6773,6 @@
         "pack": "rt"
       },
       {
-        "code": "52008",
-        "name": "Storm of Spirits",
-        "pack": "rt"
-      },
-      {
         "code": "53007",
         "name": "Mists of R'lyeh",
         "pack": "rt"
@@ -6785,6 +6780,11 @@
       {
         "code": "53008",
         "name": "The Chthonian Stone",
+        "pack": "rt"
+      },
+      {
+        "code": "52008",
+        "name": "Storm of Spirits",
         "pack": "rt"
       },
       {
@@ -6808,8 +6808,8 @@
         "pack": "tfa"
       },
       {
-        "code": "04271",
-        "name": "Mists of R'lyeh",
+        "code": "04198",
+        "name": "Defiance",
         "pack": "tfa"
       },
       {
@@ -6818,14 +6818,9 @@
         "pack": "tfa"
       },
       {
-        "code": "04198",
-        "name": "Defiance",
+        "code": "04271",
+        "name": "Mists of R'lyeh",
         "pack": "tfa"
-      },
-      {
-        "code": "03032",
-        "name": "Alchemical Transmutation",
-        "pack": "ptc"
       },
       {
         "code": "03034",
@@ -6843,9 +6838,9 @@
         "pack": "ptc"
       },
       {
-        "code": "05033",
-        "name": "Eldritch Inspiration",
-        "pack": "tcu"
+        "code": "03032",
+        "name": "Alchemical Transmutation",
+        "pack": "ptc"
       },
       {
         "code": "05113",
@@ -6868,13 +6863,18 @@
         "pack": "tcu"
       },
       {
-        "code": "05321",
-        "name": "Wither",
+        "code": "05322",
+        "name": "Sixth Sense",
         "pack": "tcu"
       },
       {
-        "code": "05322",
-        "name": "Sixth Sense",
+        "code": "05033",
+        "name": "Eldritch Inspiration",
+        "pack": "tcu"
+      },
+      {
+        "code": "05321",
+        "name": "Wither",
         "pack": "tcu"
       },
       {
@@ -6889,12 +6889,12 @@
     "count": 51,
     "usages": [
       {
-        "code": "02262",
+        "code": "02264",
         "name": "Strange Solution",
         "pack": "dwl"
       },
       {
-        "code": "02264",
+        "code": "02262",
         "name": "Strange Solution",
         "pack": "dwl"
       },
@@ -6919,11 +6919,6 @@
         "pack": "eote"
       },
       {
-        "code": "08043",
-        "name": "Archive of Conduits",
-        "pack": "eote"
-      },
-      {
         "code": "08044",
         "name": "Archive of Conduits",
         "pack": "eote"
@@ -6931,11 +6926,6 @@
       {
         "code": "08068",
         "name": "Healing Words",
-        "pack": "eote"
-      },
-      {
-        "code": "08101",
-        "name": "Divination",
         "pack": "eote"
       },
       {
@@ -6949,6 +6939,16 @@
         "pack": "eote"
       },
       {
+        "code": "08043",
+        "name": "Archive of Conduits",
+        "pack": "eote"
+      },
+      {
+        "code": "08101",
+        "name": "Divination",
+        "pack": "eote"
+      },
+      {
         "code": "06116",
         "name": "Scroll of Prophecies",
         "pack": "tde"
@@ -6956,11 +6956,6 @@
       {
         "code": "09022",
         "name": "Runic Axe",
-        "pack": "tsk"
-      },
-      {
-        "code": "09032",
-        "name": "Bestow Resolve",
         "pack": "tsk"
       },
       {
@@ -6986,6 +6981,11 @@
       {
         "code": "09122",
         "name": "Flashlight",
+        "pack": "tsk"
+      },
+      {
+        "code": "09032",
+        "name": "Bestow Resolve",
         "pack": "tsk"
       },
       {
@@ -7049,13 +7049,13 @@
         "pack": "jac"
       },
       {
-        "code": "51008",
-        "name": "Clarity of Mind",
+        "code": "52007",
+        "name": "Alchemical Transmutation",
         "pack": "rt"
       },
       {
-        "code": "52007",
-        "name": "Alchemical Transmutation",
+        "code": "51008",
+        "name": "Clarity of Mind",
         "pack": "rt"
       },
       {
@@ -7069,13 +7069,13 @@
         "pack": "tfa"
       },
       {
-        "code": "03230",
-        "name": "First Aid",
+        "code": "03190",
+        "name": ".45 Automatic",
         "pack": "ptc"
       },
       {
-        "code": "03190",
-        "name": ".45 Automatic",
+        "code": "03230",
+        "name": "First Aid",
         "pack": "ptc"
       },
       {
@@ -7089,13 +7089,13 @@
         "pack": "tcu"
       },
       {
-        "code": "05193",
-        "name": "Enchanted Blade",
+        "code": "05232",
+        "name": "Esoteric Atlas",
         "pack": "tcu"
       },
       {
-        "code": "05232",
-        "name": "Esoteric Atlas",
+        "code": "05193",
+        "name": "Enchanted Blade",
         "pack": "tcu"
       },
       {
@@ -7170,13 +7170,13 @@
         "pack": "eote"
       },
       {
-        "code": "08087",
-        "name": "Snipe",
+        "code": "08091",
+        "name": "Nkosi Mabati",
         "pack": "eote"
       },
       {
-        "code": "08091",
-        "name": "Nkosi Mabati",
+        "code": "08087",
+        "name": "Snipe",
         "pack": "eote"
       },
       {
@@ -7200,12 +7200,12 @@
         "pack": "rcore"
       },
       {
-        "code": "01566",
+        "code": "01569",
         "name": "Blinding Light",
         "pack": "rcore"
       },
       {
-        "code": "01569",
+        "code": "01566",
         "name": "Blinding Light",
         "pack": "rcore"
       },
@@ -7270,11 +7270,6 @@
         "pack": "rt"
       },
       {
-        "code": "52008",
-        "name": "Storm of Spirits",
-        "pack": "rt"
-      },
-      {
         "code": "53007",
         "name": "Mists of R'lyeh",
         "pack": "rt"
@@ -7282,6 +7277,11 @@
       {
         "code": "53008",
         "name": "The Chthonian Stone",
+        "pack": "rt"
+      },
+      {
+        "code": "52008",
+        "name": "Storm of Spirits",
         "pack": "rt"
       },
       {
@@ -7305,8 +7305,8 @@
         "pack": "tfa"
       },
       {
-        "code": "04271",
-        "name": "Mists of R'lyeh",
+        "code": "04198",
+        "name": "Defiance",
         "pack": "tfa"
       },
       {
@@ -7315,14 +7315,9 @@
         "pack": "tfa"
       },
       {
-        "code": "04198",
-        "name": "Defiance",
+        "code": "04271",
+        "name": "Mists of R'lyeh",
         "pack": "tfa"
-      },
-      {
-        "code": "03032",
-        "name": "Alchemical Transmutation",
-        "pack": "ptc"
       },
       {
         "code": "03034",
@@ -7340,9 +7335,9 @@
         "pack": "ptc"
       },
       {
-        "code": "05033",
-        "name": "Eldritch Inspiration",
-        "pack": "tcu"
+        "code": "03032",
+        "name": "Alchemical Transmutation",
+        "pack": "ptc"
       },
       {
         "code": "05113",
@@ -7365,13 +7360,18 @@
         "pack": "tcu"
       },
       {
-        "code": "05321",
-        "name": "Wither",
+        "code": "05322",
+        "name": "Sixth Sense",
         "pack": "tcu"
       },
       {
-        "code": "05322",
-        "name": "Sixth Sense",
+        "code": "05033",
+        "name": "Eldritch Inspiration",
+        "pack": "tcu"
+      },
+      {
+        "code": "05321",
+        "name": "Wither",
         "pack": "tcu"
       },
       {
@@ -7411,13 +7411,13 @@
         "pack": "eote"
       },
       {
-        "code": "08087",
-        "name": "Snipe",
+        "code": "08126",
+        "name": "Heavy Furs",
         "pack": "eote"
       },
       {
-        "code": "08126",
-        "name": "Heavy Furs",
+        "code": "08087",
+        "name": "Snipe",
         "pack": "eote"
       },
       {
@@ -7441,11 +7441,6 @@
         "pack": "tsk"
       },
       {
-        "code": "01566",
-        "name": "Blinding Light",
-        "pack": "rcore"
-      },
-      {
         "code": "01569",
         "name": "Blinding Light",
         "pack": "rcore"
@@ -7453,6 +7448,11 @@
       {
         "code": "01574",
         "name": "Baseball Bat",
+        "pack": "rcore"
+      },
+      {
+        "code": "01566",
+        "name": "Blinding Light",
         "pack": "rcore"
       },
       {
@@ -7506,11 +7506,6 @@
         "pack": "rt"
       },
       {
-        "code": "52008",
-        "name": "Storm of Spirits",
-        "pack": "rt"
-      },
-      {
         "code": "53007",
         "name": "Mists of R'lyeh",
         "pack": "rt"
@@ -7518,6 +7513,11 @@
       {
         "code": "53008",
         "name": "The Chthonian Stone",
+        "pack": "rt"
+      },
+      {
+        "code": "52008",
+        "name": "Storm of Spirits",
         "pack": "rt"
       },
       {
@@ -7546,19 +7546,14 @@
         "pack": "tfa"
       },
       {
-        "code": "04271",
-        "name": "Mists of R'lyeh",
-        "pack": "tfa"
-      },
-      {
         "code": "04311",
         "name": "Seal of the Seventh Sign",
         "pack": "tfa"
       },
       {
-        "code": "03032",
-        "name": "Alchemical Transmutation",
-        "pack": "ptc"
+        "code": "04271",
+        "name": "Mists of R'lyeh",
+        "pack": "tfa"
       },
       {
         "code": "03034",
@@ -7576,9 +7571,9 @@
         "pack": "ptc"
       },
       {
-        "code": "05033",
-        "name": "Eldritch Inspiration",
-        "pack": "tcu"
+        "code": "03032",
+        "name": "Alchemical Transmutation",
+        "pack": "ptc"
       },
       {
         "code": "05155",
@@ -7591,6 +7586,11 @@
         "pack": "tcu"
       },
       {
+        "code": "05033",
+        "name": "Eldritch Inspiration",
+        "pack": "tcu"
+      },
+      {
         "code": "90052b",
         "name": "The Beyond",
         "pack": "par"
@@ -7598,11 +7598,6 @@
       {
         "code": "07033",
         "name": "Token of Faith",
-        "pack": "tic"
-      },
-      {
-        "code": "07155",
-        "name": "Gaze of Ouraxsh",
         "pack": "tic"
       },
       {
@@ -7621,234 +7616,13 @@
         "pack": "tic"
       },
       {
+        "code": "07155",
+        "name": "Gaze of Ouraxsh",
+        "pack": "tic"
+      },
+      {
         "code": "10126",
         "name": "Token of Faith",
-        "pack": "fhv"
-      }
-    ]
-  },
-  {
-    "tag": "bold_evade",
-    "count": 44,
-    "usages": [
-      {
-        "code": "02031",
-        "name": "Bind Monster",
-        "pack": "dwl"
-      },
-      {
-        "code": "02034",
-        "name": "Bait and Switch",
-        "pack": "dwl"
-      },
-      {
-        "code": "02114",
-        "name": "Fire Extinguisher",
-        "pack": "dwl"
-      },
-      {
-        "code": "02264",
-        "name": "Strange Solution",
-        "pack": "dwl"
-      },
-      {
-        "code": "08080",
-        "name": "Fire Extinguisher",
-        "pack": "eote"
-      },
-      {
-        "code": "08109",
-        "name": "Blur",
-        "pack": "eote"
-      },
-      {
-        "code": "08111",
-        "name": "Blur",
-        "pack": "eote"
-      },
-      {
-        "code": "06031",
-        "name": "Hope",
-        "pack": "tde"
-      },
-      {
-        "code": "06164",
-        "name": "Ethereal Form",
-        "pack": "tde"
-      },
-      {
-        "code": "09025",
-        "name": "Bolas",
-        "pack": "tsk"
-      },
-      {
-        "code": "09035",
-        "name": "Handcuffs",
-        "pack": "tsk"
-      },
-      {
-        "code": "09062",
-        "name": "Disguise",
-        "pack": "tsk"
-      },
-      {
-        "code": "09069",
-        "name": "Quick Getaway",
-        "pack": "tsk"
-      },
-      {
-        "code": "09085",
-        "name": "Onyx Pentacle",
-        "pack": "tsk"
-      },
-      {
-        "code": "09098",
-        "name": "Onyx Pentacle",
-        "pack": "tsk"
-      },
-      {
-        "code": "01566",
-        "name": "Blinding Light",
-        "pack": "rcore"
-      },
-      {
-        "code": "01569",
-        "name": "Blinding Light",
-        "pack": "rcore"
-      },
-      {
-        "code": "01578",
-        "name": "Cunning Distraction",
-        "pack": "rcore"
-      },
-      {
-        "code": "60314",
-        "name": "Slip Away",
-        "pack": "win"
-      },
-      {
-        "code": "60316",
-        "name": "Sneak By",
-        "pack": "win"
-      },
-      {
-        "code": "60324",
-        "name": "Slip Away",
-        "pack": "win"
-      },
-      {
-        "code": "60409",
-        "name": "Ineffable Truth",
-        "pack": "jac"
-      },
-      {
-        "code": "60427",
-        "name": "Ineffable Truth",
-        "pack": "jac"
-      },
-      {
-        "code": "60432",
-        "name": "Ineffable Truth",
-        "pack": "jac"
-      },
-      {
-        "code": "52005",
-        "name": "Stealth",
-        "pack": "rt"
-      },
-      {
-        "code": "52006",
-        "name": "Suggestion",
-        "pack": "rt"
-      },
-      {
-        "code": "53007",
-        "name": "Mists of R'lyeh",
-        "pack": "rt"
-      },
-      {
-        "code": "04029",
-        "name": "Mists of R'lyeh",
-        "pack": "tfa"
-      },
-      {
-        "code": "04232",
-        "name": "Slip Away",
-        "pack": "tfa"
-      },
-      {
-        "code": "04271",
-        "name": "Mists of R'lyeh",
-        "pack": "tfa"
-      },
-      {
-        "code": "04312",
-        "name": "Impromptu Barrier",
-        "pack": "tfa"
-      },
-      {
-        "code": "04265",
-        "name": "Handcuffs",
-        "pack": "tfa"
-      },
-      {
-        "code": "03028",
-        "name": "Stealth",
-        "pack": "ptc"
-      },
-      {
-        "code": "03268",
-        "name": "Suggestion",
-        "pack": "ptc"
-      },
-      {
-        "code": "05113",
-        "name": "Banish",
-        "pack": "tcu"
-      },
-      {
-        "code": "05234",
-        "name": "Decoy",
-        "pack": "tcu"
-      },
-      {
-        "code": "05282",
-        "name": "Bait and Switch",
-        "pack": "tcu"
-      },
-      {
-        "code": "07015",
-        "name": "Silas's Net",
-        "pack": "tic"
-      },
-      {
-        "code": "07029",
-        "name": "Sword Cane",
-        "pack": "tic"
-      },
-      {
-        "code": "07119",
-        "name": "Shroud of Shadows",
-        "pack": "tic"
-      },
-      {
-        "code": "07228",
-        "name": "Shroud of Shadows",
-        "pack": "tic"
-      },
-      {
-        "code": "10007",
-        "name": "Aetheric Current",
-        "pack": "fhv"
-      },
-      {
-        "code": "10050",
-        "name": "Transmogrify",
-        "pack": "fhv"
-      },
-      {
-        "code": "10100",
-        "name": "Ethereal Form",
         "pack": "fhv"
       }
     ]
@@ -7868,6 +7642,11 @@
         "pack": "eote"
       },
       {
+        "code": "08045",
+        "name": "Prophesiae Profana",
+        "pack": "eote"
+      },
+      {
         "code": "08032",
         "name": "Jeremiah Kirby",
         "pack": "eote"
@@ -7875,11 +7654,6 @@
       {
         "code": "08040",
         "name": "Scientific Theory",
-        "pack": "eote"
-      },
-      {
-        "code": "08045",
-        "name": "Prophesiae Profana",
         "pack": "eote"
       },
       {
@@ -7958,11 +7732,6 @@
         "pack": "tfa"
       },
       {
-        "code": "04275",
-        "name": "Hemispheric Map",
-        "pack": "tfa"
-      },
-      {
         "code": "04196",
         "name": "Lola Santiago",
         "pack": "tfa"
@@ -7973,18 +7742,23 @@
         "pack": "tfa"
       },
       {
+        "code": "04275",
+        "name": "Hemispheric Map",
+        "pack": "tfa"
+      },
+      {
         "code": "03109",
         "name": "Scientific Theory",
         "pack": "ptc"
       },
       {
-        "code": "03269",
-        "name": "St. Hubert's Key",
+        "code": "03115",
+        "name": "Plucky",
         "pack": "ptc"
       },
       {
-        "code": "03115",
-        "name": "Plucky",
+        "code": "03269",
+        "name": "St. Hubert's Key",
         "pack": "ptc"
       },
       {
@@ -7998,13 +7772,13 @@
         "pack": "tcu"
       },
       {
-        "code": "05151",
-        "name": "Alice Luxley",
+        "code": "05154",
+        "name": "Hawk-Eye Folding Camera",
         "pack": "tcu"
       },
       {
-        "code": "05154",
-        "name": "Hawk-Eye Folding Camera",
+        "code": "05151",
+        "name": "Alice Luxley",
         "pack": "tcu"
       },
       {
@@ -8043,13 +7817,13 @@
         "pack": "nat"
       },
       {
-        "code": "07264",
-        "name": "Hyperawareness",
+        "code": "07121",
+        "name": "Mariner's Compass",
         "pack": "tic"
       },
       {
-        "code": "07265",
-        "name": "Geas",
+        "code": "07264",
+        "name": "Hyperawareness",
         "pack": "tic"
       },
       {
@@ -8058,8 +7832,8 @@
         "pack": "tic"
       },
       {
-        "code": "07121",
-        "name": "Mariner's Compass",
+        "code": "07265",
+        "name": "Geas",
         "pack": "tic"
       },
       {
@@ -8085,6 +7859,232 @@
       {
         "code": "10127",
         "name": "Dark Horse",
+        "pack": "fhv"
+      }
+    ]
+  },
+  {
+    "tag": "bold_evade",
+    "count": 44,
+    "usages": [
+      {
+        "code": "02034",
+        "name": "Bait and Switch",
+        "pack": "dwl"
+      },
+      {
+        "code": "02031",
+        "name": "Bind Monster",
+        "pack": "dwl"
+      },
+      {
+        "code": "02114",
+        "name": "Fire Extinguisher",
+        "pack": "dwl"
+      },
+      {
+        "code": "02264",
+        "name": "Strange Solution",
+        "pack": "dwl"
+      },
+      {
+        "code": "08080",
+        "name": "Fire Extinguisher",
+        "pack": "eote"
+      },
+      {
+        "code": "08109",
+        "name": "Blur",
+        "pack": "eote"
+      },
+      {
+        "code": "08111",
+        "name": "Blur",
+        "pack": "eote"
+      },
+      {
+        "code": "06031",
+        "name": "Hope",
+        "pack": "tde"
+      },
+      {
+        "code": "06164",
+        "name": "Ethereal Form",
+        "pack": "tde"
+      },
+      {
+        "code": "09025",
+        "name": "Bolas",
+        "pack": "tsk"
+      },
+      {
+        "code": "09062",
+        "name": "Disguise",
+        "pack": "tsk"
+      },
+      {
+        "code": "09069",
+        "name": "Quick Getaway",
+        "pack": "tsk"
+      },
+      {
+        "code": "09098",
+        "name": "Onyx Pentacle",
+        "pack": "tsk"
+      },
+      {
+        "code": "09035",
+        "name": "Handcuffs",
+        "pack": "tsk"
+      },
+      {
+        "code": "09085",
+        "name": "Onyx Pentacle",
+        "pack": "tsk"
+      },
+      {
+        "code": "01569",
+        "name": "Blinding Light",
+        "pack": "rcore"
+      },
+      {
+        "code": "01578",
+        "name": "Cunning Distraction",
+        "pack": "rcore"
+      },
+      {
+        "code": "01566",
+        "name": "Blinding Light",
+        "pack": "rcore"
+      },
+      {
+        "code": "60314",
+        "name": "Slip Away",
+        "pack": "win"
+      },
+      {
+        "code": "60316",
+        "name": "Sneak By",
+        "pack": "win"
+      },
+      {
+        "code": "60324",
+        "name": "Slip Away",
+        "pack": "win"
+      },
+      {
+        "code": "60409",
+        "name": "Ineffable Truth",
+        "pack": "jac"
+      },
+      {
+        "code": "60427",
+        "name": "Ineffable Truth",
+        "pack": "jac"
+      },
+      {
+        "code": "60432",
+        "name": "Ineffable Truth",
+        "pack": "jac"
+      },
+      {
+        "code": "52005",
+        "name": "Stealth",
+        "pack": "rt"
+      },
+      {
+        "code": "52006",
+        "name": "Suggestion",
+        "pack": "rt"
+      },
+      {
+        "code": "53007",
+        "name": "Mists of R'lyeh",
+        "pack": "rt"
+      },
+      {
+        "code": "04029",
+        "name": "Mists of R'lyeh",
+        "pack": "tfa"
+      },
+      {
+        "code": "04232",
+        "name": "Slip Away",
+        "pack": "tfa"
+      },
+      {
+        "code": "04265",
+        "name": "Handcuffs",
+        "pack": "tfa"
+      },
+      {
+        "code": "04312",
+        "name": "Impromptu Barrier",
+        "pack": "tfa"
+      },
+      {
+        "code": "04271",
+        "name": "Mists of R'lyeh",
+        "pack": "tfa"
+      },
+      {
+        "code": "03268",
+        "name": "Suggestion",
+        "pack": "ptc"
+      },
+      {
+        "code": "03028",
+        "name": "Stealth",
+        "pack": "ptc"
+      },
+      {
+        "code": "05113",
+        "name": "Banish",
+        "pack": "tcu"
+      },
+      {
+        "code": "05234",
+        "name": "Decoy",
+        "pack": "tcu"
+      },
+      {
+        "code": "05282",
+        "name": "Bait and Switch",
+        "pack": "tcu"
+      },
+      {
+        "code": "07015",
+        "name": "Silas's Net",
+        "pack": "tic"
+      },
+      {
+        "code": "07029",
+        "name": "Sword Cane",
+        "pack": "tic"
+      },
+      {
+        "code": "07119",
+        "name": "Shroud of Shadows",
+        "pack": "tic"
+      },
+      {
+        "code": "07228",
+        "name": "Shroud of Shadows",
+        "pack": "tic"
+      },
+      {
+        "code": "10007",
+        "name": "Aetheric Current",
+        "pack": "fhv"
+      },
+      {
+        "code": "10050",
+        "name": "Transmogrify",
+        "pack": "fhv"
+      },
+      {
+        "code": "10100",
+        "name": "Ethereal Form",
         "pack": "fhv"
       }
     ]
@@ -8174,11 +8174,6 @@
         "pack": "rt"
       },
       {
-        "code": "52010",
-        "name": "Gravedigger's Shovel",
-        "pack": "rt"
-      },
-      {
         "code": "53002",
         "name": "Survival Knife",
         "pack": "rt"
@@ -8186,6 +8181,11 @@
       {
         "code": "53006",
         "name": "Colt Vest Pocket",
+        "pack": "rt"
+      },
+      {
+        "code": "52010",
+        "name": "Gravedigger's Shovel",
         "pack": "rt"
       },
       {
@@ -8204,6 +8204,11 @@
         "pack": "tfa"
       },
       {
+        "code": "03190",
+        "name": ".45 Automatic",
+        "pack": "ptc"
+      },
+      {
         "code": "03037",
         "name": "Gravedigger's Shovel",
         "pack": "ptc"
@@ -8212,16 +8217,6 @@
         "code": "03035",
         "name": "Spirit Athame",
         "pack": "ptc"
-      },
-      {
-        "code": "03190",
-        "name": ".45 Automatic",
-        "pack": "ptc"
-      },
-      {
-        "code": "05114",
-        "name": "Meat Cleaver",
-        "pack": "tcu"
       },
       {
         "code": "05115",
@@ -8239,8 +8234,13 @@
         "pack": "tcu"
       },
       {
-        "code": "05192",
-        "name": "Enchanted Blade",
+        "code": "05273",
+        "name": "Mk 1 Grenades",
+        "pack": "tcu"
+      },
+      {
+        "code": "05114",
+        "name": "Meat Cleaver",
         "pack": "tcu"
       },
       {
@@ -8249,8 +8249,8 @@
         "pack": "tcu"
       },
       {
-        "code": "05273",
-        "name": "Mk 1 Grenades",
+        "code": "05192",
+        "name": "Enchanted Blade",
         "pack": "tcu"
       },
       {
@@ -8326,212 +8326,6 @@
     ]
   },
   {
-    "tag": "uses_type_ammo",
-    "count": 40,
-    "usages": [
-      {
-        "code": "02010",
-        "name": "Jenny's Twin .45s",
-        "pack": "dwl"
-      },
-      {
-        "code": "02226",
-        "name": "Springfield M1903",
-        "pack": "dwl"
-      },
-      {
-        "code": "02301",
-        "name": "Lightning Gun",
-        "pack": "dwl"
-      },
-      {
-        "code": "02304",
-        "name": "Chicago Typewriter",
-        "pack": "dwl"
-      },
-      {
-        "code": "08088",
-        "name": "Old Shotgun",
-        "pack": "eote"
-      },
-      {
-        "code": "06006",
-        "name": "Becky",
-        "pack": "tde"
-      },
-      {
-        "code": "06011",
-        "name": "Tony's .38 Long Colt",
-        "pack": "tde"
-      },
-      {
-        "code": "06195",
-        "name": ".35 Winchester",
-        "pack": "tde"
-      },
-      {
-        "code": "06327",
-        "name": "Sawed-Off Shotgun",
-        "pack": "tde"
-      },
-      {
-        "code": "60505",
-        "name": ".18 Derringer",
-        "pack": "ste"
-      },
-      {
-        "code": "60522",
-        "name": ".18 Derringer",
-        "pack": "ste"
-      },
-      {
-        "code": "01006",
-        "name": "Roland's .38 Special",
-        "pack": "rcore"
-      },
-      {
-        "code": "01516",
-        "name": ".45 Automatic",
-        "pack": "rcore"
-      },
-      {
-        "code": "01529",
-        "name": "Shotgun",
-        "pack": "rcore"
-      },
-      {
-        "code": "01547",
-        "name": ".41 Derringer",
-        "pack": "rcore"
-      },
-      {
-        "code": "01688",
-        "name": ".41 Derringer",
-        "pack": "rcore"
-      },
-      {
-        "code": "60306",
-        "name": "Mauser C96",
-        "pack": "win"
-      },
-      {
-        "code": "60321",
-        "name": "Mauser C96",
-        "pack": "win"
-      },
-      {
-        "code": "60331",
-        "name": "Beretta M1918",
-        "pack": "win"
-      },
-      {
-        "code": "52001",
-        "name": ".32 Colt",
-        "pack": "rt"
-      },
-      {
-        "code": "53006",
-        "name": "Colt Vest Pocket",
-        "pack": "rt"
-      },
-      {
-        "code": "04011",
-        "name": "Finn's Trusty .38",
-        "pack": "tfa"
-      },
-      {
-        "code": "04229",
-        "name": "M1918 BAR",
-        "pack": "tfa"
-      },
-      {
-        "code": "04204",
-        "name": "Ornate Bow",
-        "pack": "tfa"
-      },
-      {
-        "code": "04273",
-        "name": "Old Hunting Rifle",
-        "pack": "tfa"
-      },
-      {
-        "code": "04268",
-        "name": "Colt Vest Pocket",
-        "pack": "tfa"
-      },
-      {
-        "code": "04305",
-        "name": "Flamethrower",
-        "pack": "tfa"
-      },
-      {
-        "code": "03234",
-        "name": ".41 Derringer",
-        "pack": "ptc"
-      },
-      {
-        "code": "03309",
-        "name": "Lupara",
-        "pack": "ptc"
-      },
-      {
-        "code": "03020",
-        "name": ".32 Colt",
-        "pack": "ptc"
-      },
-      {
-        "code": "03190",
-        "name": ".45 Automatic",
-        "pack": "ptc"
-      },
-      {
-        "code": "05009",
-        "name": "Detective's Colt 1911s",
-        "pack": "tcu"
-      },
-      {
-        "code": "05115",
-        "name": ".45 Thompson",
-        "pack": "tcu"
-      },
-      {
-        "code": "05186",
-        "name": ".45 Thompson",
-        "pack": "tcu"
-      },
-      {
-        "code": "05187",
-        "name": ".45 Thompson",
-        "pack": "tcu"
-      },
-      {
-        "code": "90030",
-        "name": "Roland's .38 Special",
-        "pack": "par"
-      },
-      {
-        "code": "07025",
-        "name": ".25 Automatic",
-        "pack": "tic"
-      },
-      {
-        "code": "07305",
-        "name": ".25 Automatic",
-        "pack": "tic"
-      },
-      {
-        "code": "10065",
-        "name": "British Bull Dog",
-        "pack": "fhv"
-      },
-      {
-        "code": "10077",
-        "name": "British Bull Dog",
-        "pack": "fhv"
-      }
-    ]
-  },
-  {
     "tag": "timing_fast_during_your_turn",
     "count": 42,
     "usages": [
@@ -8601,6 +8395,11 @@
         "pack": "tsk"
       },
       {
+        "code": "09065",
+        "name": "Hidden Pocket",
+        "pack": "tsk"
+      },
+      {
         "code": "09078",
         "name": "Clean Sneak",
         "pack": "tsk"
@@ -8613,11 +8412,6 @@
       {
         "code": "09093",
         "name": "Moonlight Ritual",
-        "pack": "tsk"
-      },
-      {
-        "code": "09065",
-        "name": "Hidden Pocket",
         "pack": "tsk"
       },
       {
@@ -8748,163 +8542,354 @@
     ]
   },
   {
-    "tag": "boost_willpower_1",
-    "count": 37,
+    "tag": "uses_type_ammo",
+    "count": 40,
     "usages": [
       {
-        "code": "08011a",
-        "name": "Discipline",
+        "code": "02010",
+        "name": "Jenny's Twin .45s",
+        "pack": "dwl"
+      },
+      {
+        "code": "02226",
+        "name": "Springfield M1903",
+        "pack": "dwl"
+      },
+      {
+        "code": "02301",
+        "name": "Lightning Gun",
+        "pack": "dwl"
+      },
+      {
+        "code": "02304",
+        "name": "Chicago Typewriter",
+        "pack": "dwl"
+      },
+      {
+        "code": "08088",
+        "name": "Old Shotgun",
         "pack": "eote"
       },
       {
-        "code": "08056",
-        "name": "Moxie",
-        "pack": "eote"
-      },
-      {
-        "code": "08081",
-        "name": "Plucky",
-        "pack": "eote"
-      },
-      {
-        "code": "06203",
-        "name": "Moonstone",
+        "code": "06006",
+        "name": "Becky",
         "pack": "tde"
       },
       {
-        "code": "60508",
-        "name": "Granny Orne",
+        "code": "06011",
+        "name": "Tony's .38 Long Colt",
+        "pack": "tde"
+      },
+      {
+        "code": "06195",
+        "name": ".35 Winchester",
+        "pack": "tde"
+      },
+      {
+        "code": "06327",
+        "name": "Sawed-Off Shotgun",
+        "pack": "tde"
+      },
+      {
+        "code": "60505",
+        "name": ".18 Derringer",
         "pack": "ste"
       },
       {
-        "code": "60527",
-        "name": "Granny Orne",
+        "code": "60522",
+        "name": ".18 Derringer",
         "pack": "ste"
       },
       {
-        "code": "01517",
-        "name": "Physical Training",
+        "code": "01006",
+        "name": "Roland's .38 Special",
         "pack": "rcore"
       },
       {
-        "code": "01562",
-        "name": "Arcane Studies",
+        "code": "01516",
+        "name": ".45 Automatic",
         "pack": "rcore"
       },
       {
-        "code": "01577",
-        "name": "Dig Deep",
+        "code": "01529",
+        "name": "Shotgun",
         "pack": "rcore"
       },
       {
-        "code": "60411",
-        "name": "Crystal Pendulum",
-        "pack": "jac"
+        "code": "01547",
+        "name": ".41 Derringer",
+        "pack": "rcore"
       },
       {
-        "code": "60428",
-        "name": "Arcane Studies",
-        "pack": "jac"
+        "code": "01688",
+        "name": ".41 Derringer",
+        "pack": "rcore"
       },
       {
-        "code": "50001",
-        "name": "Physical Training",
+        "code": "60306",
+        "name": "Mauser C96",
+        "pack": "win"
+      },
+      {
+        "code": "60321",
+        "name": "Mauser C96",
+        "pack": "win"
+      },
+      {
+        "code": "60331",
+        "name": "Beretta M1918",
+        "pack": "win"
+      },
+      {
+        "code": "53006",
+        "name": "Colt Vest Pocket",
         "pack": "rt"
       },
       {
-        "code": "50007",
-        "name": "Arcane Studies",
+        "code": "52001",
+        "name": ".32 Colt",
         "pack": "rt"
       },
       {
-        "code": "50009",
-        "name": "Dig Deep",
-        "pack": "rt"
+        "code": "04011",
+        "name": "Finn's Trusty .38",
+        "pack": "tfa"
       },
       {
-        "code": "51001",
-        "name": "Bandolier",
-        "pack": "rt"
+        "code": "04229",
+        "name": "M1918 BAR",
+        "pack": "tfa"
       },
       {
-        "code": "53007",
-        "name": "Mists of R'lyeh",
-        "pack": "rt"
+        "code": "04204",
+        "name": "Ornate Bow",
+        "pack": "tfa"
       },
       {
-        "code": "04013",
+        "code": "04273",
+        "name": "Old Hunting Rifle",
+        "pack": "tfa"
+      },
+      {
+        "code": "04268",
+        "name": "Colt Vest Pocket",
+        "pack": "tfa"
+      },
+      {
+        "code": "04305",
+        "name": "Flamethrower",
+        "pack": "tfa"
+      },
+      {
+        "code": "03020",
+        "name": ".32 Colt",
+        "pack": "ptc"
+      },
+      {
+        "code": "03190",
+        "name": ".45 Automatic",
+        "pack": "ptc"
+      },
+      {
+        "code": "03234",
+        "name": ".41 Derringer",
+        "pack": "ptc"
+      },
+      {
+        "code": "03309",
+        "name": "Lupara",
+        "pack": "ptc"
+      },
+      {
+        "code": "05009",
+        "name": "Detective's Colt 1911s",
+        "pack": "tcu"
+      },
+      {
+        "code": "05115",
+        "name": ".45 Thompson",
+        "pack": "tcu"
+      },
+      {
+        "code": "05186",
+        "name": ".45 Thompson",
+        "pack": "tcu"
+      },
+      {
+        "code": "05187",
+        "name": ".45 Thompson",
+        "pack": "tcu"
+      },
+      {
+        "code": "90030",
+        "name": "Roland's .38 Special",
+        "pack": "par"
+      },
+      {
+        "code": "07025",
+        "name": ".25 Automatic",
+        "pack": "tic"
+      },
+      {
+        "code": "07305",
+        "name": ".25 Automatic",
+        "pack": "tic"
+      },
+      {
+        "code": "10065",
+        "name": "British Bull Dog",
+        "pack": "fhv"
+      },
+      {
+        "code": "10077",
+        "name": "British Bull Dog",
+        "pack": "fhv"
+      }
+    ]
+  },
+  {
+    "tag": "chaos_reveal_token_bless",
+    "count": 57,
+    "usages": [
+      {
+        "code": "90082",
         "name": "The Codex of Ages",
-        "pack": "tfa"
+        "pack": "etc"
       },
       {
-        "code": "04023",
-        "name": "Tooth of Eztli",
-        "pack": "tfa"
+        "code": "90038",
+        "name": "Tidal Memento",
+        "pack": "par"
       },
       {
-        "code": "04275",
-        "name": "Hemispheric Map",
-        "pack": "tfa"
+        "code": "90060",
+        "name": "Zoey's Cross",
+        "pack": "par"
       },
       {
-        "code": "04266",
-        "name": "Blood Eclipse",
-        "pack": "tfa"
+        "code": "07006",
+        "name": "Guardian Angel",
+        "pack": "tic"
       },
       {
-        "code": "04235",
-        "name": "Crystalline Elder Sign",
-        "pack": "tfa"
+        "code": "07017",
+        "name": "Book of Psalms",
+        "pack": "tic"
       },
       {
-        "code": "03269",
-        "name": "St. Hubert's Key",
-        "pack": "ptc"
+        "code": "07018",
+        "name": "Blessed Blade",
+        "pack": "tic"
       },
       {
-        "code": "03111",
-        "name": "Moxie",
-        "pack": "ptc"
+        "code": "07019",
+        "name": "Rite of Sanctification",
+        "pack": "tic"
       },
       {
-        "code": "03115",
-        "name": "Plucky",
-        "pack": "ptc"
+        "code": "07020",
+        "name": "Hand of Fate",
+        "pack": "tic"
       },
       {
-        "code": "05035",
-        "name": "Four of Cups",
-        "pack": "tcu"
+        "code": "07022",
+        "name": "Cryptic Grimoire",
+        "pack": "tic"
       },
       {
-        "code": "05154",
-        "name": "Hawk-Eye Folding Camera",
-        "pack": "tcu"
+        "code": "07030",
+        "name": "Tides of Fate",
+        "pack": "tic"
       },
       {
-        "code": "60206",
-        "name": "Celaeno Fragments",
-        "pack": "har"
+        "code": "07031",
+        "name": "Ward of Radiance",
+        "pack": "tic"
       },
       {
-        "code": "60211",
-        "name": "Higher Education",
-        "pack": "har"
+        "code": "07033",
+        "name": "Token of Faith",
+        "pack": "tic"
       },
       {
-        "code": "60223",
-        "name": "Whitton Greene",
-        "pack": "har"
+        "code": "07034",
+        "name": "Keep Faith",
+        "pack": "tic"
       },
       {
-        "code": "60108",
-        "name": "Physical Training",
-        "pack": "nat"
+        "code": "07035",
+        "name": "Predestined",
+        "pack": "tic"
       },
       {
-        "code": "60131",
-        "name": "Physical Training",
-        "pack": "nat"
+        "code": "07036",
+        "name": "Beloved",
+        "pack": "tic"
+      },
+      {
+        "code": "07037",
+        "name": "Tempt Fate",
+        "pack": "tic"
+      },
+      {
+        "code": "07109",
+        "name": "Righteous Hunt",
+        "pack": "tic"
+      },
+      {
+        "code": "07110",
+        "name": "Sacred Covenant",
+        "pack": "tic"
+      },
+      {
+        "code": "07115",
+        "name": "Skeptic",
+        "pack": "tic"
+      },
+      {
+        "code": "07120",
+        "name": "Paradoxical Covenant",
+        "pack": "tic"
+      },
+      {
+        "code": "07122",
+        "name": "Ancient Covenant",
+        "pack": "tic"
+      },
+      {
+        "code": "07162",
+        "name": "Manipulate Destiny",
+        "pack": "tic"
+      },
+      {
+        "code": "07190",
+        "name": "Blessing of Isis",
+        "pack": "tic"
+      },
+      {
+        "code": "07197",
+        "name": "Signum Crucis",
+        "pack": "tic"
+      },
+      {
+        "code": "07194",
+        "name": "Tristan Botley",
+        "pack": "tic"
+      },
+      {
+        "code": "07196",
+        "name": "Unrelenting",
+        "pack": "tic"
+      },
+      {
+        "code": "07153",
+        "name": "Radiant Smite",
+        "pack": "tic"
+      },
+      {
+        "code": "07221",
+        "name": "Shield of Faith",
+        "pack": "tic"
       },
       {
         "code": "07220",
@@ -8912,18 +8897,8 @@
         "pack": "tic"
       },
       {
-        "code": "07265",
-        "name": "Geas",
-        "pack": "tic"
-      },
-      {
-        "code": "07270",
-        "name": "Dig Deep",
-        "pack": "tic"
-      },
-      {
-        "code": "07267",
-        "name": "Ikiaq",
+        "code": "07225",
+        "name": "Eye of the Djinn",
         "pack": "tic"
       },
       {
@@ -8932,541 +8907,133 @@
         "pack": "tic"
       },
       {
-        "code": "10127",
-        "name": "Dark Horse",
-        "pack": "fhv"
-      }
-    ]
-  },
-  {
-    "tag": "boost_agility_1",
-    "count": 34,
-    "usages": [
-      {
-        "code": "02193",
-        "name": "Scrapper",
-        "pack": "dwl"
-      },
-      {
-        "code": "08014a",
-        "name": "Discipline",
-        "pack": "eote"
-      },
-      {
-        "code": "08027",
-        "name": "Combat Training",
-        "pack": "eote"
-      },
-      {
-        "code": "08035",
-        "name": "Hiking Boots",
-        "pack": "eote"
-      },
-      {
-        "code": "08045",
-        "name": "Prophesiae Profana",
-        "pack": "eote"
-      },
-      {
-        "code": "08056",
-        "name": "Moxie",
-        "pack": "eote"
-      },
-      {
-        "code": "08099",
-        "name": "Gené Beauregard",
-        "pack": "eote"
-      },
-      {
-        "code": "06281",
-        "name": "Delilah O'Rourke",
-        "pack": "tde"
-      },
-      {
-        "code": "06203",
-        "name": "Moonstone",
-        "pack": "tde"
-      },
-      {
-        "code": "09043",
-        "name": "Dissection Tools",
-        "pack": "tsk"
-      },
-      {
-        "code": "09085",
-        "name": "Onyx Pentacle",
-        "pack": "tsk"
-      },
-      {
-        "code": "09098",
-        "name": "Onyx Pentacle",
-        "pack": "tsk"
-      },
-      {
-        "code": "60511",
-        "name": "Scrapper",
-        "pack": "ste"
-      },
-      {
-        "code": "01534",
-        "name": "Hyperawareness",
-        "pack": "rcore"
-      },
-      {
-        "code": "01549",
-        "name": "Hard Knocks",
-        "pack": "rcore"
-      },
-      {
-        "code": "01577",
-        "name": "Dig Deep",
-        "pack": "rcore"
-      },
-      {
-        "code": "50003",
-        "name": "Hyperawareness",
-        "pack": "rt"
-      },
-      {
-        "code": "50005",
-        "name": "Hard Knocks",
-        "pack": "rt"
-      },
-      {
-        "code": "50009",
-        "name": "Dig Deep",
-        "pack": "rt"
-      },
-      {
-        "code": "04023",
-        "name": "Tooth of Eztli",
-        "pack": "tfa"
-      },
-      {
-        "code": "04192",
-        "name": "Intrepid",
-        "pack": "tfa"
-      },
-      {
-        "code": "04203",
-        "name": "Trench Coat",
-        "pack": "tfa"
-      },
-      {
-        "code": "04196",
-        "name": "Lola Santiago",
-        "pack": "tfa"
-      },
-      {
-        "code": "04235",
-        "name": "Crystalline Elder Sign",
-        "pack": "tfa"
-      },
-      {
-        "code": "03107",
-        "name": "Combat Training",
-        "pack": "ptc"
-      },
-      {
-        "code": "03111",
-        "name": "Moxie",
-        "pack": "ptc"
-      },
-      {
-        "code": "05031",
-        "name": "The Moon • XVIII",
-        "pack": "tcu"
-      },
-      {
-        "code": "05036",
-        "name": "Track Shoes",
-        "pack": "tcu"
-      },
-      {
-        "code": "07015",
-        "name": "Silas's Net",
+        "code": "07230",
+        "name": "Harmony Restored",
         "pack": "tic"
       },
       {
-        "code": "07264",
-        "name": "Hyperawareness",
+        "code": "07229",
+        "name": "Spirit of Humanity",
         "pack": "tic"
       },
       {
-        "code": "07265",
-        "name": "Geas",
+        "code": "07269",
+        "name": "A Watchful Peace",
         "pack": "tic"
       },
       {
-        "code": "07270",
-        "name": "Dig Deep",
+        "code": "07272",
+        "name": "Favor of the Sun",
         "pack": "tic"
       },
       {
-        "code": "07266",
-        "name": "Hard Knocks",
+        "code": "07302",
+        "name": "Holy Spear",
         "pack": "tic"
       },
       {
-        "code": "10127",
-        "name": "Dark Horse",
-        "pack": "fhv"
-      }
-    ]
-  },
-  {
-    "tag": "uses_type_secret",
-    "count": 34,
-    "usages": [
-      {
-        "code": "08072",
-        "name": "Schoffner's Catalogue",
-        "pack": "eote"
-      },
-      {
-        "code": "08098",
-        "name": "Eon Chart",
-        "pack": "eote"
-      },
-      {
-        "code": "08100",
-        "name": "Eon Chart",
-        "pack": "eote"
-      },
-      {
-        "code": "08104",
-        "name": "Professor William Webb",
-        "pack": "eote"
-      },
-      {
-        "code": "08106",
-        "name": "Professor William Webb",
-        "pack": "eote"
-      },
-      {
-        "code": "06116",
-        "name": "Scroll of Prophecies",
-        "pack": "tde"
-      },
-      {
-        "code": "06158",
-        "name": "Otherworld Codex",
-        "pack": "tde"
-      },
-      {
-        "code": "06279",
-        "name": "Old Book of Lore",
-        "pack": "tde"
-      },
-      {
-        "code": "06328",
-        "name": "Mind's Eye",
-        "pack": "tde"
-      },
-      {
-        "code": "09044",
-        "name": "Grim Memoir",
-        "pack": "tsk"
-      },
-      {
-        "code": "09051",
-        "name": "Orphic Theory",
-        "pack": "tsk"
-      },
-      {
-        "code": "60506",
-        "name": "Grimm's Fairy Tales",
-        "pack": "ste"
-      },
-      {
-        "code": "01558",
-        "name": "Forbidden Knowledge",
-        "pack": "rcore"
-      },
-      {
-        "code": "01686",
-        "name": "Old Book of Lore",
-        "pack": "rcore"
-      },
-      {
-        "code": "60406",
-        "name": "Scrying Mirror",
-        "pack": "jac"
-      },
-      {
-        "code": "04307",
-        "name": "Pnakotic Manuscripts",
-        "pack": "tfa"
-      },
-      {
-        "code": "04267",
-        "name": "Feed the Mind",
-        "pack": "tfa"
-      },
-      {
-        "code": "03027",
-        "name": "In the Know",
-        "pack": "ptc"
-      },
-      {
-        "code": "05116",
-        "name": "Scroll of Secrets",
-        "pack": "tcu"
-      },
-      {
-        "code": "05153",
-        "name": "Mr. \"Rook\"",
-        "pack": "tcu"
-      },
-      {
-        "code": "05188",
-        "name": "Scroll of Secrets",
-        "pack": "tcu"
-      },
-      {
-        "code": "05189",
-        "name": "Scroll of Secrets",
-        "pack": "tcu"
-      },
-      {
-        "code": "05232",
-        "name": "Esoteric Atlas",
-        "pack": "tcu"
-      },
-      {
-        "code": "05279",
-        "name": "Dayana Esperence",
-        "pack": "tcu"
-      },
-      {
-        "code": "60208",
-        "name": "Encyclopedia",
-        "pack": "har"
-      },
-      {
-        "code": "60209",
-        "name": "Feed the Mind",
-        "pack": "har"
-      },
-      {
-        "code": "60210",
-        "name": "Forbidden Tome",
-        "pack": "har"
-      },
-      {
-        "code": "60222",
-        "name": "Esoteric Atlas",
-        "pack": "har"
-      },
-      {
-        "code": "60233",
-        "name": "The Necronomicon",
-        "pack": "har"
-      },
-      {
-        "code": "07017",
-        "name": "Book of Psalms",
+        "code": "07301",
+        "name": "Hallow",
         "pack": "tic"
       },
       {
-        "code": "07021",
-        "name": "Cryptographic Cipher",
+        "code": "07308",
+        "name": "Rite of Equilibrium",
         "pack": "tic"
       },
       {
-        "code": "07111",
-        "name": "Eldritch Sophist",
+        "code": "07309",
+        "name": "Jacob Morrison",
         "pack": "tic"
       },
       {
-        "code": "07223",
-        "name": "Guided by the Unseen",
+        "code": "07224",
+        "name": "\"Lucky\" Penny",
         "pack": "tic"
       },
       {
-        "code": "07304",
-        "name": "Ariadne's Twine",
+        "code": "07156",
+        "name": "Priest of Two Faiths",
         "pack": "tic"
-      }
-    ]
-  },
-  {
-    "tag": "uses_type_supply",
-    "count": 35,
-    "usages": [
-      {
-        "code": "02024",
-        "name": "Liquid Courage",
-        "pack": "dwl"
       },
       {
-        "code": "02116",
-        "name": "Smoking Pipe",
-        "pack": "dwl"
-      },
-      {
-        "code": "02117",
-        "name": "Painkillers",
-        "pack": "dwl"
-      },
-      {
-        "code": "02262",
-        "name": "Strange Solution",
-        "pack": "dwl"
-      },
-      {
-        "code": "02263",
-        "name": "Strange Solution",
-        "pack": "dwl"
-      },
-      {
-        "code": "02264",
-        "name": "Strange Solution",
-        "pack": "dwl"
-      },
-      {
-        "code": "08073",
-        "name": "Bandages",
-        "pack": "eote"
-      },
-      {
-        "code": "09040",
-        "name": "Alchemical Distillation",
-        "pack": "tsk"
-      },
-      {
-        "code": "09056",
-        "name": "Surgical Kit",
-        "pack": "tsk"
-      },
-      {
-        "code": "09057",
-        "name": "Fingerprint Kit",
-        "pack": "tsk"
-      },
-      {
-        "code": "09062",
-        "name": "Disguise",
-        "pack": "tsk"
-      },
-      {
-        "code": "09064",
-        "name": "Thieves' Kit",
-        "pack": "tsk"
-      },
-      {
-        "code": "09075",
-        "name": "Thieves' Kit",
-        "pack": "tsk"
-      },
-      {
-        "code": "09122",
-        "name": "Flashlight",
-        "pack": "tsk"
-      },
-      {
-        "code": "60529",
-        "name": "Chainsaw",
-        "pack": "ste"
-      },
-      {
-        "code": "01519",
-        "name": "First Aid",
-        "pack": "rcore"
-      },
-      {
-        "code": "01587",
-        "name": "Flashlight",
-        "pack": "rcore"
-      },
-      {
-        "code": "01683",
-        "name": "First Aid",
-        "pack": "rcore"
-      },
-      {
-        "code": "01687",
-        "name": "Lockpicks",
-        "pack": "rcore"
-      },
-      {
-        "code": "60320",
-        "name": "Liquid Courage",
-        "pack": "win"
-      },
-      {
-        "code": "51004",
-        "name": "Strange Solution",
-        "pack": "rt"
-      },
-      {
-        "code": "04018",
-        "name": "Venturer",
-        "pack": "tfa"
-      },
-      {
-        "code": "04274",
-        "name": "Thermos",
-        "pack": "tfa"
-      },
-      {
-        "code": "04304",
-        "name": "Kerosene",
-        "pack": "tfa"
-      },
-      {
-        "code": "03031",
-        "name": "Lockpicks",
-        "pack": "ptc"
-      },
-      {
-        "code": "03230",
-        "name": "First Aid",
-        "pack": "ptc"
-      },
-      {
-        "code": "05024",
-        "name": "Fingerprint Kit",
-        "pack": "tcu"
-      },
-      {
-        "code": "05117",
-        "name": "Tennessee Sour Mash",
-        "pack": "tcu"
-      },
-      {
-        "code": "05190",
-        "name": "Tennessee Sour Mash",
-        "pack": "tcu"
-      },
-      {
-        "code": "05191",
-        "name": "Tennessee Sour Mash",
-        "pack": "tcu"
-      },
-      {
-        "code": "05233",
-        "name": "Investments",
-        "pack": "tcu"
-      },
-      {
-        "code": "05273",
-        "name": "Mk 1 Grenades",
-        "pack": "tcu"
-      },
-      {
-        "code": "10020",
-        "name": "Cleaning Kit",
+        "code": "10013",
+        "name": "Book of Living Myths",
         "pack": "fhv"
       },
       {
-        "code": "10033",
-        "name": "Cleaning Kit",
+        "code": "10019",
+        "name": "Ancestral Token",
         "pack": "fhv"
       },
       {
-        "code": "10108",
-        "name": "Matchbox",
+        "code": "10022",
+        "name": "Ofuda",
+        "pack": "fhv"
+      },
+      {
+        "code": "10024",
+        "name": "Absolution",
+        "pack": "fhv"
+      },
+      {
+        "code": "10025",
+        "name": "Guided by Faith",
+        "pack": "fhv"
+      },
+      {
+        "code": "10029",
+        "name": "Purified",
+        "pack": "fhv"
+      },
+      {
+        "code": "10034",
+        "name": "Blessed Blade",
+        "pack": "fhv"
+      },
+      {
+        "code": "10038",
+        "name": "Miracle Wish",
+        "pack": "fhv"
+      },
+      {
+        "code": "10104",
+        "name": "The Key of Solomon",
+        "pack": "fhv"
+      },
+      {
+        "code": "10105",
+        "name": "Seal of the Elders",
+        "pack": "fhv"
+      },
+      {
+        "code": "10106",
+        "name": "Keeper of the Key",
+        "pack": "fhv"
+      },
+      {
+        "code": "10124",
+        "name": "Keep Faith",
+        "pack": "fhv"
+      },
+      {
+        "code": "10125",
+        "name": "Providential",
+        "pack": "fhv"
+      },
+      {
+        "code": "10126",
+        "name": "Token of Faith",
+        "pack": "fhv"
+      },
+      {
+        "code": "10133",
+        "name": "Broken Diadem",
+        "pack": "fhv"
+      },
+      {
+        "code": "10134",
+        "name": "Twilight Diadem",
         "pack": "fhv"
       }
     ]
@@ -9546,13 +9113,18 @@
         "pack": "tic"
       },
       {
+        "code": "07115",
+        "name": "Skeptic",
+        "pack": "tic"
+      },
+      {
         "code": "07116",
         "name": "False Covenant",
         "pack": "tic"
       },
       {
-        "code": "07117",
-        "name": "Armageddon",
+        "code": "07119",
+        "name": "Shroud of Shadows",
         "pack": "tic"
       },
       {
@@ -9561,13 +9133,13 @@
         "pack": "tic"
       },
       {
-        "code": "07155",
-        "name": "Gaze of Ouraxsh",
+        "code": "07120",
+        "name": "Paradoxical Covenant",
         "pack": "tic"
       },
       {
-        "code": "07156",
-        "name": "Priest of Two Faiths",
+        "code": "07117",
+        "name": "Armageddon",
         "pack": "tic"
       },
       {
@@ -9586,13 +9158,13 @@
         "pack": "tic"
       },
       {
-        "code": "07193",
-        "name": "Ríastrad",
+        "code": "07194",
+        "name": "Tristan Botley",
         "pack": "tic"
       },
       {
-        "code": "07194",
-        "name": "Tristan Botley",
+        "code": "07193",
+        "name": "Ríastrad",
         "pack": "tic"
       },
       {
@@ -9611,48 +9183,13 @@
         "pack": "tic"
       },
       {
+        "code": "07227",
+        "name": "Eye of Chaos",
+        "pack": "tic"
+      },
+      {
         "code": "07226",
         "name": "Armageddon",
-        "pack": "tic"
-      },
-      {
-        "code": "07229",
-        "name": "Spirit of Humanity",
-        "pack": "tic"
-      },
-      {
-        "code": "07265",
-        "name": "Geas",
-        "pack": "tic"
-      },
-      {
-        "code": "07119",
-        "name": "Shroud of Shadows",
-        "pack": "tic"
-      },
-      {
-        "code": "07224",
-        "name": "\"Lucky\" Penny",
-        "pack": "tic"
-      },
-      {
-        "code": "07308",
-        "name": "Rite of Equilibrium",
-        "pack": "tic"
-      },
-      {
-        "code": "07268",
-        "name": "Flute of the Outer Gods",
-        "pack": "tic"
-      },
-      {
-        "code": "07120",
-        "name": "Paradoxical Covenant",
-        "pack": "tic"
-      },
-      {
-        "code": "07306",
-        "name": "Justify the Means",
         "pack": "tic"
       },
       {
@@ -9661,23 +9198,23 @@
         "pack": "tic"
       },
       {
-        "code": "07228",
-        "name": "Shroud of Shadows",
-        "pack": "tic"
-      },
-      {
-        "code": "07115",
-        "name": "Skeptic",
-        "pack": "tic"
-      },
-      {
         "code": "07263",
         "name": "The Stygian Eye",
         "pack": "tic"
       },
       {
-        "code": "07227",
-        "name": "Eye of Chaos",
+        "code": "07229",
+        "name": "Spirit of Humanity",
+        "pack": "tic"
+      },
+      {
+        "code": "07268",
+        "name": "Flute of the Outer Gods",
+        "pack": "tic"
+      },
+      {
+        "code": "07265",
+        "name": "Geas",
         "pack": "tic"
       },
       {
@@ -9688,6 +9225,36 @@
       {
         "code": "07307",
         "name": "Lucky Dice",
+        "pack": "tic"
+      },
+      {
+        "code": "07306",
+        "name": "Justify the Means",
+        "pack": "tic"
+      },
+      {
+        "code": "07308",
+        "name": "Rite of Equilibrium",
+        "pack": "tic"
+      },
+      {
+        "code": "07155",
+        "name": "Gaze of Ouraxsh",
+        "pack": "tic"
+      },
+      {
+        "code": "07224",
+        "name": "\"Lucky\" Penny",
+        "pack": "tic"
+      },
+      {
+        "code": "07156",
+        "name": "Priest of Two Faiths",
+        "pack": "tic"
+      },
+      {
+        "code": "07228",
+        "name": "Shroud of Shadows",
         "pack": "tic"
       },
       {
@@ -9803,6 +9370,730 @@
     ]
   },
   {
+    "tag": "boost_willpower_1",
+    "count": 37,
+    "usages": [
+      {
+        "code": "08011a",
+        "name": "Discipline",
+        "pack": "eote"
+      },
+      {
+        "code": "08056",
+        "name": "Moxie",
+        "pack": "eote"
+      },
+      {
+        "code": "08081",
+        "name": "Plucky",
+        "pack": "eote"
+      },
+      {
+        "code": "06203",
+        "name": "Moonstone",
+        "pack": "tde"
+      },
+      {
+        "code": "60508",
+        "name": "Granny Orne",
+        "pack": "ste"
+      },
+      {
+        "code": "60527",
+        "name": "Granny Orne",
+        "pack": "ste"
+      },
+      {
+        "code": "01517",
+        "name": "Physical Training",
+        "pack": "rcore"
+      },
+      {
+        "code": "01562",
+        "name": "Arcane Studies",
+        "pack": "rcore"
+      },
+      {
+        "code": "01577",
+        "name": "Dig Deep",
+        "pack": "rcore"
+      },
+      {
+        "code": "60411",
+        "name": "Crystal Pendulum",
+        "pack": "jac"
+      },
+      {
+        "code": "60428",
+        "name": "Arcane Studies",
+        "pack": "jac"
+      },
+      {
+        "code": "50001",
+        "name": "Physical Training",
+        "pack": "rt"
+      },
+      {
+        "code": "50007",
+        "name": "Arcane Studies",
+        "pack": "rt"
+      },
+      {
+        "code": "50009",
+        "name": "Dig Deep",
+        "pack": "rt"
+      },
+      {
+        "code": "51001",
+        "name": "Bandolier",
+        "pack": "rt"
+      },
+      {
+        "code": "53007",
+        "name": "Mists of R'lyeh",
+        "pack": "rt"
+      },
+      {
+        "code": "04013",
+        "name": "The Codex of Ages",
+        "pack": "tfa"
+      },
+      {
+        "code": "04023",
+        "name": "Tooth of Eztli",
+        "pack": "tfa"
+      },
+      {
+        "code": "04235",
+        "name": "Crystalline Elder Sign",
+        "pack": "tfa"
+      },
+      {
+        "code": "04266",
+        "name": "Blood Eclipse",
+        "pack": "tfa"
+      },
+      {
+        "code": "04275",
+        "name": "Hemispheric Map",
+        "pack": "tfa"
+      },
+      {
+        "code": "03111",
+        "name": "Moxie",
+        "pack": "ptc"
+      },
+      {
+        "code": "03115",
+        "name": "Plucky",
+        "pack": "ptc"
+      },
+      {
+        "code": "03269",
+        "name": "St. Hubert's Key",
+        "pack": "ptc"
+      },
+      {
+        "code": "05035",
+        "name": "Four of Cups",
+        "pack": "tcu"
+      },
+      {
+        "code": "05154",
+        "name": "Hawk-Eye Folding Camera",
+        "pack": "tcu"
+      },
+      {
+        "code": "60206",
+        "name": "Celaeno Fragments",
+        "pack": "har"
+      },
+      {
+        "code": "60211",
+        "name": "Higher Education",
+        "pack": "har"
+      },
+      {
+        "code": "60223",
+        "name": "Whitton Greene",
+        "pack": "har"
+      },
+      {
+        "code": "60108",
+        "name": "Physical Training",
+        "pack": "nat"
+      },
+      {
+        "code": "60131",
+        "name": "Physical Training",
+        "pack": "nat"
+      },
+      {
+        "code": "07220",
+        "name": "Holy Rosary",
+        "pack": "tic"
+      },
+      {
+        "code": "07262",
+        "name": "Nephthys",
+        "pack": "tic"
+      },
+      {
+        "code": "07267",
+        "name": "Ikiaq",
+        "pack": "tic"
+      },
+      {
+        "code": "07265",
+        "name": "Geas",
+        "pack": "tic"
+      },
+      {
+        "code": "07270",
+        "name": "Dig Deep",
+        "pack": "tic"
+      },
+      {
+        "code": "10127",
+        "name": "Dark Horse",
+        "pack": "fhv"
+      }
+    ]
+  },
+  {
+    "tag": "uses_type_secret",
+    "count": 34,
+    "usages": [
+      {
+        "code": "08072",
+        "name": "Schoffner's Catalogue",
+        "pack": "eote"
+      },
+      {
+        "code": "08098",
+        "name": "Eon Chart",
+        "pack": "eote"
+      },
+      {
+        "code": "08106",
+        "name": "Professor William Webb",
+        "pack": "eote"
+      },
+      {
+        "code": "08104",
+        "name": "Professor William Webb",
+        "pack": "eote"
+      },
+      {
+        "code": "08100",
+        "name": "Eon Chart",
+        "pack": "eote"
+      },
+      {
+        "code": "06116",
+        "name": "Scroll of Prophecies",
+        "pack": "tde"
+      },
+      {
+        "code": "06158",
+        "name": "Otherworld Codex",
+        "pack": "tde"
+      },
+      {
+        "code": "06279",
+        "name": "Old Book of Lore",
+        "pack": "tde"
+      },
+      {
+        "code": "06328",
+        "name": "Mind's Eye",
+        "pack": "tde"
+      },
+      {
+        "code": "09044",
+        "name": "Grim Memoir",
+        "pack": "tsk"
+      },
+      {
+        "code": "09051",
+        "name": "Orphic Theory",
+        "pack": "tsk"
+      },
+      {
+        "code": "60506",
+        "name": "Grimm's Fairy Tales",
+        "pack": "ste"
+      },
+      {
+        "code": "01558",
+        "name": "Forbidden Knowledge",
+        "pack": "rcore"
+      },
+      {
+        "code": "01686",
+        "name": "Old Book of Lore",
+        "pack": "rcore"
+      },
+      {
+        "code": "60406",
+        "name": "Scrying Mirror",
+        "pack": "jac"
+      },
+      {
+        "code": "04267",
+        "name": "Feed the Mind",
+        "pack": "tfa"
+      },
+      {
+        "code": "04307",
+        "name": "Pnakotic Manuscripts",
+        "pack": "tfa"
+      },
+      {
+        "code": "03027",
+        "name": "In the Know",
+        "pack": "ptc"
+      },
+      {
+        "code": "05116",
+        "name": "Scroll of Secrets",
+        "pack": "tcu"
+      },
+      {
+        "code": "05188",
+        "name": "Scroll of Secrets",
+        "pack": "tcu"
+      },
+      {
+        "code": "05189",
+        "name": "Scroll of Secrets",
+        "pack": "tcu"
+      },
+      {
+        "code": "05232",
+        "name": "Esoteric Atlas",
+        "pack": "tcu"
+      },
+      {
+        "code": "05279",
+        "name": "Dayana Esperence",
+        "pack": "tcu"
+      },
+      {
+        "code": "05153",
+        "name": "Mr. \"Rook\"",
+        "pack": "tcu"
+      },
+      {
+        "code": "60208",
+        "name": "Encyclopedia",
+        "pack": "har"
+      },
+      {
+        "code": "60209",
+        "name": "Feed the Mind",
+        "pack": "har"
+      },
+      {
+        "code": "60210",
+        "name": "Forbidden Tome",
+        "pack": "har"
+      },
+      {
+        "code": "60222",
+        "name": "Esoteric Atlas",
+        "pack": "har"
+      },
+      {
+        "code": "60233",
+        "name": "The Necronomicon",
+        "pack": "har"
+      },
+      {
+        "code": "07017",
+        "name": "Book of Psalms",
+        "pack": "tic"
+      },
+      {
+        "code": "07021",
+        "name": "Cryptographic Cipher",
+        "pack": "tic"
+      },
+      {
+        "code": "07111",
+        "name": "Eldritch Sophist",
+        "pack": "tic"
+      },
+      {
+        "code": "07223",
+        "name": "Guided by the Unseen",
+        "pack": "tic"
+      },
+      {
+        "code": "07304",
+        "name": "Ariadne's Twine",
+        "pack": "tic"
+      }
+    ]
+  },
+  {
+    "tag": "boost_agility_1",
+    "count": 34,
+    "usages": [
+      {
+        "code": "02193",
+        "name": "Scrapper",
+        "pack": "dwl"
+      },
+      {
+        "code": "08014a",
+        "name": "Discipline",
+        "pack": "eote"
+      },
+      {
+        "code": "08027",
+        "name": "Combat Training",
+        "pack": "eote"
+      },
+      {
+        "code": "08035",
+        "name": "Hiking Boots",
+        "pack": "eote"
+      },
+      {
+        "code": "08045",
+        "name": "Prophesiae Profana",
+        "pack": "eote"
+      },
+      {
+        "code": "08056",
+        "name": "Moxie",
+        "pack": "eote"
+      },
+      {
+        "code": "08099",
+        "name": "Gené Beauregard",
+        "pack": "eote"
+      },
+      {
+        "code": "06203",
+        "name": "Moonstone",
+        "pack": "tde"
+      },
+      {
+        "code": "06281",
+        "name": "Delilah O'Rourke",
+        "pack": "tde"
+      },
+      {
+        "code": "09043",
+        "name": "Dissection Tools",
+        "pack": "tsk"
+      },
+      {
+        "code": "09098",
+        "name": "Onyx Pentacle",
+        "pack": "tsk"
+      },
+      {
+        "code": "09085",
+        "name": "Onyx Pentacle",
+        "pack": "tsk"
+      },
+      {
+        "code": "60511",
+        "name": "Scrapper",
+        "pack": "ste"
+      },
+      {
+        "code": "01534",
+        "name": "Hyperawareness",
+        "pack": "rcore"
+      },
+      {
+        "code": "01549",
+        "name": "Hard Knocks",
+        "pack": "rcore"
+      },
+      {
+        "code": "01577",
+        "name": "Dig Deep",
+        "pack": "rcore"
+      },
+      {
+        "code": "50003",
+        "name": "Hyperawareness",
+        "pack": "rt"
+      },
+      {
+        "code": "50005",
+        "name": "Hard Knocks",
+        "pack": "rt"
+      },
+      {
+        "code": "50009",
+        "name": "Dig Deep",
+        "pack": "rt"
+      },
+      {
+        "code": "04023",
+        "name": "Tooth of Eztli",
+        "pack": "tfa"
+      },
+      {
+        "code": "04192",
+        "name": "Intrepid",
+        "pack": "tfa"
+      },
+      {
+        "code": "04196",
+        "name": "Lola Santiago",
+        "pack": "tfa"
+      },
+      {
+        "code": "04203",
+        "name": "Trench Coat",
+        "pack": "tfa"
+      },
+      {
+        "code": "04235",
+        "name": "Crystalline Elder Sign",
+        "pack": "tfa"
+      },
+      {
+        "code": "03107",
+        "name": "Combat Training",
+        "pack": "ptc"
+      },
+      {
+        "code": "03111",
+        "name": "Moxie",
+        "pack": "ptc"
+      },
+      {
+        "code": "05031",
+        "name": "The Moon • XVIII",
+        "pack": "tcu"
+      },
+      {
+        "code": "05036",
+        "name": "Track Shoes",
+        "pack": "tcu"
+      },
+      {
+        "code": "07015",
+        "name": "Silas's Net",
+        "pack": "tic"
+      },
+      {
+        "code": "07264",
+        "name": "Hyperawareness",
+        "pack": "tic"
+      },
+      {
+        "code": "07265",
+        "name": "Geas",
+        "pack": "tic"
+      },
+      {
+        "code": "07270",
+        "name": "Dig Deep",
+        "pack": "tic"
+      },
+      {
+        "code": "07266",
+        "name": "Hard Knocks",
+        "pack": "tic"
+      },
+      {
+        "code": "10127",
+        "name": "Dark Horse",
+        "pack": "fhv"
+      }
+    ]
+  },
+  {
+    "tag": "uses_type_supply",
+    "count": 35,
+    "usages": [
+      {
+        "code": "02024",
+        "name": "Liquid Courage",
+        "pack": "dwl"
+      },
+      {
+        "code": "02117",
+        "name": "Painkillers",
+        "pack": "dwl"
+      },
+      {
+        "code": "02116",
+        "name": "Smoking Pipe",
+        "pack": "dwl"
+      },
+      {
+        "code": "02264",
+        "name": "Strange Solution",
+        "pack": "dwl"
+      },
+      {
+        "code": "02262",
+        "name": "Strange Solution",
+        "pack": "dwl"
+      },
+      {
+        "code": "02263",
+        "name": "Strange Solution",
+        "pack": "dwl"
+      },
+      {
+        "code": "08073",
+        "name": "Bandages",
+        "pack": "eote"
+      },
+      {
+        "code": "09040",
+        "name": "Alchemical Distillation",
+        "pack": "tsk"
+      },
+      {
+        "code": "09056",
+        "name": "Surgical Kit",
+        "pack": "tsk"
+      },
+      {
+        "code": "09057",
+        "name": "Fingerprint Kit",
+        "pack": "tsk"
+      },
+      {
+        "code": "09062",
+        "name": "Disguise",
+        "pack": "tsk"
+      },
+      {
+        "code": "09064",
+        "name": "Thieves' Kit",
+        "pack": "tsk"
+      },
+      {
+        "code": "09075",
+        "name": "Thieves' Kit",
+        "pack": "tsk"
+      },
+      {
+        "code": "09122",
+        "name": "Flashlight",
+        "pack": "tsk"
+      },
+      {
+        "code": "60529",
+        "name": "Chainsaw",
+        "pack": "ste"
+      },
+      {
+        "code": "01519",
+        "name": "First Aid",
+        "pack": "rcore"
+      },
+      {
+        "code": "01587",
+        "name": "Flashlight",
+        "pack": "rcore"
+      },
+      {
+        "code": "01683",
+        "name": "First Aid",
+        "pack": "rcore"
+      },
+      {
+        "code": "01687",
+        "name": "Lockpicks",
+        "pack": "rcore"
+      },
+      {
+        "code": "60320",
+        "name": "Liquid Courage",
+        "pack": "win"
+      },
+      {
+        "code": "51004",
+        "name": "Strange Solution",
+        "pack": "rt"
+      },
+      {
+        "code": "04018",
+        "name": "Venturer",
+        "pack": "tfa"
+      },
+      {
+        "code": "04304",
+        "name": "Kerosene",
+        "pack": "tfa"
+      },
+      {
+        "code": "04274",
+        "name": "Thermos",
+        "pack": "tfa"
+      },
+      {
+        "code": "03031",
+        "name": "Lockpicks",
+        "pack": "ptc"
+      },
+      {
+        "code": "03230",
+        "name": "First Aid",
+        "pack": "ptc"
+      },
+      {
+        "code": "05024",
+        "name": "Fingerprint Kit",
+        "pack": "tcu"
+      },
+      {
+        "code": "05117",
+        "name": "Tennessee Sour Mash",
+        "pack": "tcu"
+      },
+      {
+        "code": "05190",
+        "name": "Tennessee Sour Mash",
+        "pack": "tcu"
+      },
+      {
+        "code": "05191",
+        "name": "Tennessee Sour Mash",
+        "pack": "tcu"
+      },
+      {
+        "code": "05233",
+        "name": "Investments",
+        "pack": "tcu"
+      },
+      {
+        "code": "05273",
+        "name": "Mk 1 Grenades",
+        "pack": "tcu"
+      },
+      {
+        "code": "10020",
+        "name": "Cleaning Kit",
+        "pack": "fhv"
+      },
+      {
+        "code": "10033",
+        "name": "Cleaning Kit",
+        "pack": "fhv"
+      },
+      {
+        "code": "10108",
+        "name": "Matchbox",
+        "pack": "fhv"
+      }
+    ]
+  },
+  {
     "tag": "limit_1_per_deck",
     "count": 41,
     "usages": [
@@ -9832,18 +10123,8 @@
         "pack": "eote"
       },
       {
-        "code": "08043",
-        "name": "Archive of Conduits",
-        "pack": "eote"
-      },
-      {
         "code": "08044",
         "name": "Archive of Conduits",
-        "pack": "eote"
-      },
-      {
-        "code": "08046",
-        "name": "Underworld Support",
         "pack": "eote"
       },
       {
@@ -9857,8 +10138,8 @@
         "pack": "eote"
       },
       {
-        "code": "08114",
-        "name": "Precious Memento",
+        "code": "08046",
+        "name": "Underworld Support",
         "pack": "eote"
       },
       {
@@ -9869,6 +10150,16 @@
       {
         "code": "08125",
         "name": "In the Thick of It",
+        "pack": "eote"
+      },
+      {
+        "code": "08043",
+        "name": "Archive of Conduits",
+        "pack": "eote"
+      },
+      {
+        "code": "08114",
+        "name": "Precious Memento",
         "pack": "eote"
       },
       {
@@ -10153,13 +10444,13 @@
         "pack": "ptc"
       },
       {
-        "code": "03230",
-        "name": "First Aid",
+        "code": "03239",
+        "name": "Emergency Cache",
         "pack": "ptc"
       },
       {
-        "code": "03239",
-        "name": "Emergency Cache",
+        "code": "03230",
+        "name": "First Aid",
         "pack": "ptc"
       }
     ]
@@ -10214,11 +10505,6 @@
         "pack": "tsk"
       },
       {
-        "code": "09028",
-        "name": "Motivational Speech",
-        "pack": "tsk"
-      },
-      {
         "code": "09046",
         "name": "Bizarre Diagnosis",
         "pack": "tsk"
@@ -10231,6 +10517,11 @@
       {
         "code": "09066",
         "name": "Hit and Run",
+        "pack": "tsk"
+      },
+      {
+        "code": "09028",
+        "name": "Motivational Speech",
         "pack": "tsk"
       },
       {
@@ -10279,13 +10570,13 @@
         "pack": "ptc"
       },
       {
-        "code": "03230",
-        "name": "First Aid",
+        "code": "03238",
+        "name": "A Chance Encounter",
         "pack": "ptc"
       },
       {
-        "code": "03238",
-        "name": "A Chance Encounter",
+        "code": "03230",
+        "name": "First Aid",
         "pack": "ptc"
       },
       {
@@ -10380,11 +10671,6 @@
         "pack": "tsk"
       },
       {
-        "code": "09026",
-        "name": "Breach the Door",
-        "pack": "tsk"
-      },
-      {
         "code": "09040",
         "name": "Alchemical Distillation",
         "pack": "tsk"
@@ -10397,6 +10683,11 @@
       {
         "code": "09058",
         "name": "Gray's Anatomy",
+        "pack": "tsk"
+      },
+      {
+        "code": "09026",
+        "name": "Breach the Door",
         "pack": "tsk"
       },
       {
@@ -10440,13 +10731,13 @@
         "pack": "tfa"
       },
       {
-        "code": "03032",
-        "name": "Alchemical Transmutation",
+        "code": "03237",
+        "name": "Waylay",
         "pack": "ptc"
       },
       {
-        "code": "03237",
-        "name": "Waylay",
+        "code": "03032",
+        "name": "Alchemical Transmutation",
         "pack": "ptc"
       },
       {
@@ -10517,599 +10808,6 @@
     ]
   },
   {
-    "tag": "trait_spell",
-    "count": 30,
-    "usages": [
-      {
-        "code": "08069",
-        "name": "Grounded",
-        "pack": "eote"
-      },
-      {
-        "code": "08070",
-        "name": "True Magick",
-        "pack": "eote"
-      },
-      {
-        "code": "08120",
-        "name": "Prophetic",
-        "pack": "eote"
-      },
-      {
-        "code": "06202",
-        "name": "Word of Command",
-        "pack": "tde"
-      },
-      {
-        "code": "06244",
-        "name": "Twila Katherine Price",
-        "pack": "tde"
-      },
-      {
-        "code": "06329",
-        "name": "Shining Trapezohedron",
-        "pack": "tde"
-      },
-      {
-        "code": "09042",
-        "name": "The Raven Quill",
-        "pack": "tsk"
-      },
-      {
-        "code": "09095",
-        "name": "Uncage the Soul",
-        "pack": "tsk"
-      },
-      {
-        "code": "01012",
-        "name": "Heirloom of Hyperborea",
-        "pack": "rcore"
-      },
-      {
-        "code": "01563",
-        "name": "Arcane Initiate",
-        "pack": "rcore"
-      },
-      {
-        "code": "60410",
-        "name": "Familiar Spirit",
-        "pack": "jac"
-      },
-      {
-        "code": "60412",
-        "name": "Robes of Endless Night",
-        "pack": "jac"
-      },
-      {
-        "code": "60419",
-        "name": "Prescient",
-        "pack": "jac"
-      },
-      {
-        "code": "60422",
-        "name": "Robes of Endless Night",
-        "pack": "jac"
-      },
-      {
-        "code": "60429",
-        "name": "Recharge",
-        "pack": "jac"
-      },
-      {
-        "code": "54008",
-        "name": "Sign Magick",
-        "pack": "rt"
-      },
-      {
-        "code": "04109",
-        "name": "Arcane Research",
-        "pack": "tfa"
-      },
-      {
-        "code": "03033",
-        "name": "Uncage the Soul",
-        "pack": "ptc"
-      },
-      {
-        "code": "03154",
-        "name": "Book of Shadows",
-        "pack": "ptc"
-      },
-      {
-        "code": "03197",
-        "name": "Recharge",
-        "pack": "ptc"
-      },
-      {
-        "code": "03271",
-        "name": "Arcane Initiate",
-        "pack": "ptc"
-      },
-      {
-        "code": "03035",
-        "name": "Spirit Athame",
-        "pack": "ptc"
-      },
-      {
-        "code": "03113",
-        "name": "Grounded",
-        "pack": "ptc"
-      },
-      {
-        "code": "05112",
-        "name": "Sign Magick",
-        "pack": "tcu"
-      },
-      {
-        "code": "05231",
-        "name": "Knowledge is Power",
-        "pack": "tcu"
-      },
-      {
-        "code": "05235",
-        "name": "De Vermis Mysteriis",
-        "pack": "tcu"
-      },
-      {
-        "code": "05279",
-        "name": "Dayana Esperence",
-        "pack": "tcu"
-      },
-      {
-        "code": "90018",
-        "name": "Heirloom of Hyperborea",
-        "pack": "par"
-      },
-      {
-        "code": "10091",
-        "name": "Speak to the Dead",
-        "pack": "fhv"
-      },
-      {
-        "code": "10103",
-        "name": "Ethereal Weaving",
-        "pack": "fhv"
-      }
-    ]
-  },
-  {
-    "tag": "chaos_reveal_token_bless",
-    "count": 57,
-    "usages": [
-      {
-        "code": "90082",
-        "name": "The Codex of Ages",
-        "pack": "etc"
-      },
-      {
-        "code": "90038",
-        "name": "Tidal Memento",
-        "pack": "par"
-      },
-      {
-        "code": "90060",
-        "name": "Zoey's Cross",
-        "pack": "par"
-      },
-      {
-        "code": "07006",
-        "name": "Guardian Angel",
-        "pack": "tic"
-      },
-      {
-        "code": "07017",
-        "name": "Book of Psalms",
-        "pack": "tic"
-      },
-      {
-        "code": "07018",
-        "name": "Blessed Blade",
-        "pack": "tic"
-      },
-      {
-        "code": "07019",
-        "name": "Rite of Sanctification",
-        "pack": "tic"
-      },
-      {
-        "code": "07020",
-        "name": "Hand of Fate",
-        "pack": "tic"
-      },
-      {
-        "code": "07022",
-        "name": "Cryptic Grimoire",
-        "pack": "tic"
-      },
-      {
-        "code": "07030",
-        "name": "Tides of Fate",
-        "pack": "tic"
-      },
-      {
-        "code": "07033",
-        "name": "Token of Faith",
-        "pack": "tic"
-      },
-      {
-        "code": "07034",
-        "name": "Keep Faith",
-        "pack": "tic"
-      },
-      {
-        "code": "07035",
-        "name": "Predestined",
-        "pack": "tic"
-      },
-      {
-        "code": "07036",
-        "name": "Beloved",
-        "pack": "tic"
-      },
-      {
-        "code": "07037",
-        "name": "Tempt Fate",
-        "pack": "tic"
-      },
-      {
-        "code": "07109",
-        "name": "Righteous Hunt",
-        "pack": "tic"
-      },
-      {
-        "code": "07110",
-        "name": "Sacred Covenant",
-        "pack": "tic"
-      },
-      {
-        "code": "07153",
-        "name": "Radiant Smite",
-        "pack": "tic"
-      },
-      {
-        "code": "07156",
-        "name": "Priest of Two Faiths",
-        "pack": "tic"
-      },
-      {
-        "code": "07162",
-        "name": "Manipulate Destiny",
-        "pack": "tic"
-      },
-      {
-        "code": "07190",
-        "name": "Blessing of Isis",
-        "pack": "tic"
-      },
-      {
-        "code": "07194",
-        "name": "Tristan Botley",
-        "pack": "tic"
-      },
-      {
-        "code": "07197",
-        "name": "Signum Crucis",
-        "pack": "tic"
-      },
-      {
-        "code": "07220",
-        "name": "Holy Rosary",
-        "pack": "tic"
-      },
-      {
-        "code": "07221",
-        "name": "Shield of Faith",
-        "pack": "tic"
-      },
-      {
-        "code": "07225",
-        "name": "Eye of the Djinn",
-        "pack": "tic"
-      },
-      {
-        "code": "07229",
-        "name": "Spirit of Humanity",
-        "pack": "tic"
-      },
-      {
-        "code": "07269",
-        "name": "A Watchful Peace",
-        "pack": "tic"
-      },
-      {
-        "code": "07196",
-        "name": "Unrelenting",
-        "pack": "tic"
-      },
-      {
-        "code": "07224",
-        "name": "\"Lucky\" Penny",
-        "pack": "tic"
-      },
-      {
-        "code": "07308",
-        "name": "Rite of Equilibrium",
-        "pack": "tic"
-      },
-      {
-        "code": "07302",
-        "name": "Holy Spear",
-        "pack": "tic"
-      },
-      {
-        "code": "07031",
-        "name": "Ward of Radiance",
-        "pack": "tic"
-      },
-      {
-        "code": "07120",
-        "name": "Paradoxical Covenant",
-        "pack": "tic"
-      },
-      {
-        "code": "07230",
-        "name": "Harmony Restored",
-        "pack": "tic"
-      },
-      {
-        "code": "07272",
-        "name": "Favor of the Sun",
-        "pack": "tic"
-      },
-      {
-        "code": "07122",
-        "name": "Ancient Covenant",
-        "pack": "tic"
-      },
-      {
-        "code": "07115",
-        "name": "Skeptic",
-        "pack": "tic"
-      },
-      {
-        "code": "07301",
-        "name": "Hallow",
-        "pack": "tic"
-      },
-      {
-        "code": "07262",
-        "name": "Nephthys",
-        "pack": "tic"
-      },
-      {
-        "code": "07309",
-        "name": "Jacob Morrison",
-        "pack": "tic"
-      },
-      {
-        "code": "10013",
-        "name": "Book of Living Myths",
-        "pack": "fhv"
-      },
-      {
-        "code": "10019",
-        "name": "Ancestral Token",
-        "pack": "fhv"
-      },
-      {
-        "code": "10022",
-        "name": "Ofuda",
-        "pack": "fhv"
-      },
-      {
-        "code": "10024",
-        "name": "Absolution",
-        "pack": "fhv"
-      },
-      {
-        "code": "10025",
-        "name": "Guided by Faith",
-        "pack": "fhv"
-      },
-      {
-        "code": "10029",
-        "name": "Purified",
-        "pack": "fhv"
-      },
-      {
-        "code": "10034",
-        "name": "Blessed Blade",
-        "pack": "fhv"
-      },
-      {
-        "code": "10038",
-        "name": "Miracle Wish",
-        "pack": "fhv"
-      },
-      {
-        "code": "10104",
-        "name": "The Key of Solomon",
-        "pack": "fhv"
-      },
-      {
-        "code": "10105",
-        "name": "Seal of the Elders",
-        "pack": "fhv"
-      },
-      {
-        "code": "10106",
-        "name": "Keeper of the Key",
-        "pack": "fhv"
-      },
-      {
-        "code": "10124",
-        "name": "Keep Faith",
-        "pack": "fhv"
-      },
-      {
-        "code": "10125",
-        "name": "Providential",
-        "pack": "fhv"
-      },
-      {
-        "code": "10126",
-        "name": "Token of Faith",
-        "pack": "fhv"
-      },
-      {
-        "code": "10133",
-        "name": "Broken Diadem",
-        "pack": "fhv"
-      },
-      {
-        "code": "10134",
-        "name": "Twilight Diadem",
-        "pack": "fhv"
-      }
-    ]
-  },
-  {
-    "tag": "engage_with_you",
-    "count": 28,
-    "usages": [
-      {
-        "code": "02006",
-        "name": "Zoey's Cross",
-        "pack": "dwl"
-      },
-      {
-        "code": "02113",
-        "name": "Oops!",
-        "pack": "dwl"
-      },
-      {
-        "code": "02114",
-        "name": "Fire Extinguisher",
-        "pack": "dwl"
-      },
-      {
-        "code": "02235",
-        "name": "Survival Instinct",
-        "pack": "dwl"
-      },
-      {
-        "code": "08028",
-        "name": "On the Hunt",
-        "pack": "eote"
-      },
-      {
-        "code": "08080",
-        "name": "Fire Extinguisher",
-        "pack": "eote"
-      },
-      {
-        "code": "06013",
-        "name": "Gate Box",
-        "pack": "tde"
-      },
-      {
-        "code": "06164",
-        "name": "Ethereal Form",
-        "pack": "tde"
-      },
-      {
-        "code": "09068",
-        "name": "Kicking the Hornet's Nest",
-        "pack": "tsk"
-      },
-      {
-        "code": "09087",
-        "name": "Explosive Ward",
-        "pack": "tsk"
-      },
-      {
-        "code": "60518",
-        "name": "Oops!",
-        "pack": "ste"
-      },
-      {
-        "code": "01520",
-        "name": "Machete",
-        "pack": "rcore"
-      },
-      {
-        "code": "04011",
-        "name": "Finn's Trusty .38",
-        "pack": "tfa"
-      },
-      {
-        "code": "04104",
-        "name": "Marksmanship",
-        "pack": "tfa"
-      },
-      {
-        "code": "04305",
-        "name": "Flamethrower",
-        "pack": "tfa"
-      },
-      {
-        "code": "03147",
-        "name": "Trench Knife",
-        "pack": "ptc"
-      },
-      {
-        "code": "03189",
-        "name": "\"I'll see you in hell!\"",
-        "pack": "ptc"
-      },
-      {
-        "code": "03229",
-        "name": "Mano a Mano",
-        "pack": "ptc"
-      },
-      {
-        "code": "03263",
-        "name": "On the Hunt",
-        "pack": "ptc"
-      },
-      {
-        "code": "03272",
-        "name": "\"Not without a fight!\"",
-        "pack": "ptc"
-      },
-      {
-        "code": "03310",
-        "name": "Cheat Death",
-        "pack": "ptc"
-      },
-      {
-        "code": "05230",
-        "name": "Telescopic Sight",
-        "pack": "tcu"
-      },
-      {
-        "code": "60233",
-        "name": "The Necronomicon",
-        "pack": "har"
-      },
-      {
-        "code": "60125",
-        "name": "Mano a Mano",
-        "pack": "nat"
-      },
-      {
-        "code": "90025",
-        "name": "Directive",
-        "pack": "par"
-      },
-      {
-        "code": "07010",
-        "name": "In the Shadows",
-        "pack": "tic"
-      },
-      {
-        "code": "07015",
-        "name": "Silas's Net",
-        "pack": "tic"
-      },
-      {
-        "code": "10100",
-        "name": "Ethereal Form",
-        "pack": "fhv"
-      }
-    ]
-  },
-  {
     "tag": "succeed_by_2",
     "count": 30,
     "usages": [
@@ -11159,12 +10857,12 @@
         "pack": "tsk"
       },
       {
-        "code": "09085",
+        "code": "09098",
         "name": "Onyx Pentacle",
         "pack": "tsk"
       },
       {
-        "code": "09098",
+        "code": "09085",
         "name": "Onyx Pentacle",
         "pack": "tsk"
       },
@@ -11266,6 +10964,308 @@
     ]
   },
   {
+    "tag": "trait_spell",
+    "count": 30,
+    "usages": [
+      {
+        "code": "08069",
+        "name": "Grounded",
+        "pack": "eote"
+      },
+      {
+        "code": "08070",
+        "name": "True Magick",
+        "pack": "eote"
+      },
+      {
+        "code": "08120",
+        "name": "Prophetic",
+        "pack": "eote"
+      },
+      {
+        "code": "06202",
+        "name": "Word of Command",
+        "pack": "tde"
+      },
+      {
+        "code": "06244",
+        "name": "Twila Katherine Price",
+        "pack": "tde"
+      },
+      {
+        "code": "06329",
+        "name": "Shining Trapezohedron",
+        "pack": "tde"
+      },
+      {
+        "code": "09042",
+        "name": "The Raven Quill",
+        "pack": "tsk"
+      },
+      {
+        "code": "09095",
+        "name": "Uncage the Soul",
+        "pack": "tsk"
+      },
+      {
+        "code": "01012",
+        "name": "Heirloom of Hyperborea",
+        "pack": "rcore"
+      },
+      {
+        "code": "01563",
+        "name": "Arcane Initiate",
+        "pack": "rcore"
+      },
+      {
+        "code": "60410",
+        "name": "Familiar Spirit",
+        "pack": "jac"
+      },
+      {
+        "code": "60412",
+        "name": "Robes of Endless Night",
+        "pack": "jac"
+      },
+      {
+        "code": "60419",
+        "name": "Prescient",
+        "pack": "jac"
+      },
+      {
+        "code": "60422",
+        "name": "Robes of Endless Night",
+        "pack": "jac"
+      },
+      {
+        "code": "60429",
+        "name": "Recharge",
+        "pack": "jac"
+      },
+      {
+        "code": "54008",
+        "name": "Sign Magick",
+        "pack": "rt"
+      },
+      {
+        "code": "04109",
+        "name": "Arcane Research",
+        "pack": "tfa"
+      },
+      {
+        "code": "03033",
+        "name": "Uncage the Soul",
+        "pack": "ptc"
+      },
+      {
+        "code": "03113",
+        "name": "Grounded",
+        "pack": "ptc"
+      },
+      {
+        "code": "03154",
+        "name": "Book of Shadows",
+        "pack": "ptc"
+      },
+      {
+        "code": "03197",
+        "name": "Recharge",
+        "pack": "ptc"
+      },
+      {
+        "code": "03271",
+        "name": "Arcane Initiate",
+        "pack": "ptc"
+      },
+      {
+        "code": "03035",
+        "name": "Spirit Athame",
+        "pack": "ptc"
+      },
+      {
+        "code": "05112",
+        "name": "Sign Magick",
+        "pack": "tcu"
+      },
+      {
+        "code": "05231",
+        "name": "Knowledge is Power",
+        "pack": "tcu"
+      },
+      {
+        "code": "05279",
+        "name": "Dayana Esperence",
+        "pack": "tcu"
+      },
+      {
+        "code": "05235",
+        "name": "De Vermis Mysteriis",
+        "pack": "tcu"
+      },
+      {
+        "code": "90018",
+        "name": "Heirloom of Hyperborea",
+        "pack": "par"
+      },
+      {
+        "code": "10091",
+        "name": "Speak to the Dead",
+        "pack": "fhv"
+      },
+      {
+        "code": "10103",
+        "name": "Ethereal Weaving",
+        "pack": "fhv"
+      }
+    ]
+  },
+  {
+    "tag": "engage_with_you",
+    "count": 28,
+    "usages": [
+      {
+        "code": "02006",
+        "name": "Zoey's Cross",
+        "pack": "dwl"
+      },
+      {
+        "code": "02113",
+        "name": "Oops!",
+        "pack": "dwl"
+      },
+      {
+        "code": "02114",
+        "name": "Fire Extinguisher",
+        "pack": "dwl"
+      },
+      {
+        "code": "02235",
+        "name": "Survival Instinct",
+        "pack": "dwl"
+      },
+      {
+        "code": "08028",
+        "name": "On the Hunt",
+        "pack": "eote"
+      },
+      {
+        "code": "08080",
+        "name": "Fire Extinguisher",
+        "pack": "eote"
+      },
+      {
+        "code": "06013",
+        "name": "Gate Box",
+        "pack": "tde"
+      },
+      {
+        "code": "06164",
+        "name": "Ethereal Form",
+        "pack": "tde"
+      },
+      {
+        "code": "09068",
+        "name": "Kicking the Hornet's Nest",
+        "pack": "tsk"
+      },
+      {
+        "code": "09087",
+        "name": "Explosive Ward",
+        "pack": "tsk"
+      },
+      {
+        "code": "60518",
+        "name": "Oops!",
+        "pack": "ste"
+      },
+      {
+        "code": "01520",
+        "name": "Machete",
+        "pack": "rcore"
+      },
+      {
+        "code": "04011",
+        "name": "Finn's Trusty .38",
+        "pack": "tfa"
+      },
+      {
+        "code": "04104",
+        "name": "Marksmanship",
+        "pack": "tfa"
+      },
+      {
+        "code": "04305",
+        "name": "Flamethrower",
+        "pack": "tfa"
+      },
+      {
+        "code": "03189",
+        "name": "\"I'll see you in hell!\"",
+        "pack": "ptc"
+      },
+      {
+        "code": "03229",
+        "name": "Mano a Mano",
+        "pack": "ptc"
+      },
+      {
+        "code": "03263",
+        "name": "On the Hunt",
+        "pack": "ptc"
+      },
+      {
+        "code": "03272",
+        "name": "\"Not without a fight!\"",
+        "pack": "ptc"
+      },
+      {
+        "code": "03310",
+        "name": "Cheat Death",
+        "pack": "ptc"
+      },
+      {
+        "code": "03147",
+        "name": "Trench Knife",
+        "pack": "ptc"
+      },
+      {
+        "code": "05230",
+        "name": "Telescopic Sight",
+        "pack": "tcu"
+      },
+      {
+        "code": "60233",
+        "name": "The Necronomicon",
+        "pack": "har"
+      },
+      {
+        "code": "60125",
+        "name": "Mano a Mano",
+        "pack": "nat"
+      },
+      {
+        "code": "90025",
+        "name": "Directive",
+        "pack": "par"
+      },
+      {
+        "code": "07010",
+        "name": "In the Shadows",
+        "pack": "tic"
+      },
+      {
+        "code": "07015",
+        "name": "Silas's Net",
+        "pack": "tic"
+      },
+      {
+        "code": "10100",
+        "name": "Ethereal Form",
+        "pack": "fhv"
+      }
+    ]
+  },
+  {
     "tag": "trait_item",
     "count": 27,
     "usages": [
@@ -11290,11 +11290,6 @@
         "pack": "eote"
       },
       {
-        "code": "08051",
-        "name": "Untimely Transaction",
-        "pack": "eote"
-      },
-      {
         "code": "08072",
         "name": "Schoffner's Catalogue",
         "pack": "eote"
@@ -11305,13 +11300,18 @@
         "pack": "eote"
       },
       {
+        "code": "08106",
+        "name": "Professor William Webb",
+        "pack": "eote"
+      },
+      {
         "code": "08104",
         "name": "Professor William Webb",
         "pack": "eote"
       },
       {
-        "code": "08106",
-        "name": "Professor William Webb",
+        "code": "08051",
+        "name": "Untimely Transaction",
         "pack": "eote"
       },
       {
@@ -11407,142 +11407,6 @@
     ]
   },
   {
-    "tag": "max_1_commit",
-    "count": 26,
-    "usages": [
-      {
-        "code": "02026",
-        "name": "Double or Nothing",
-        "pack": "dwl"
-      },
-      {
-        "code": "06166",
-        "name": "Brute Force",
-        "pack": "tde"
-      },
-      {
-        "code": "06204",
-        "name": "Sharp Vision",
-        "pack": "tde"
-      },
-      {
-        "code": "06246",
-        "name": "Expeditious Retreat",
-        "pack": "tde"
-      },
-      {
-        "code": "09070",
-        "name": "Calculated Risk",
-        "pack": "tsk"
-      },
-      {
-        "code": "09112",
-        "name": "Gumption",
-        "pack": "tsk"
-      },
-      {
-        "code": "60519",
-        "name": "Take Heart",
-        "pack": "ste"
-      },
-      {
-        "code": "60526",
-        "name": "Unexpected Courage",
-        "pack": "ste"
-      },
-      {
-        "code": "01589",
-        "name": "Guts",
-        "pack": "rcore"
-      },
-      {
-        "code": "01590",
-        "name": "Perception",
-        "pack": "rcore"
-      },
-      {
-        "code": "01591",
-        "name": "Overpower",
-        "pack": "rcore"
-      },
-      {
-        "code": "01592",
-        "name": "Manual Dexterity",
-        "pack": "rcore"
-      },
-      {
-        "code": "01593",
-        "name": "Unexpected Courage",
-        "pack": "rcore"
-      },
-      {
-        "code": "60325",
-        "name": "Manual Dexterity",
-        "pack": "win"
-      },
-      {
-        "code": "60419",
-        "name": "Prescient",
-        "pack": "jac"
-      },
-      {
-        "code": "60424",
-        "name": "Guts",
-        "pack": "jac"
-      },
-      {
-        "code": "04309",
-        "name": "All In",
-        "pack": "tfa"
-      },
-      {
-        "code": "04201",
-        "name": "Take Heart",
-        "pack": "tfa"
-      },
-      {
-        "code": "03116",
-        "name": "Say Your Prayers",
-        "pack": "ptc"
-      },
-      {
-        "code": "03117",
-        "name": "Desperate Search",
-        "pack": "ptc"
-      },
-      {
-        "code": "03119",
-        "name": "Run For Your Life",
-        "pack": "ptc"
-      },
-      {
-        "code": "03118",
-        "name": "Reckless Assault",
-        "pack": "ptc"
-      },
-      {
-        "code": "60228",
-        "name": "Perception",
-        "pack": "har"
-      },
-      {
-        "code": "60126",
-        "name": "Overpower",
-        "pack": "nat"
-      },
-      {
-        "code": "07035",
-        "name": "Predestined",
-        "pack": "tic"
-      },
-      {
-        "code": "10029",
-        "name": "Purified",
-        "pack": "fhv"
-      }
-    ]
-  },
-  {
     "tag": "gain_resource_1",
     "count": 29,
     "usages": [
@@ -11577,13 +11441,13 @@
         "pack": "tsk"
       },
       {
-        "code": "09104",
-        "name": "End of the Road",
+        "code": "09088",
+        "name": "String of Curses",
         "pack": "tsk"
       },
       {
-        "code": "09088",
-        "name": "String of Curses",
+        "code": "09104",
+        "name": "End of the Road",
         "pack": "tsk"
       },
       {
@@ -11627,11 +11491,6 @@
         "pack": "tfa"
       },
       {
-        "code": "03032",
-        "name": "Alchemical Transmutation",
-        "pack": "ptc"
-      },
-      {
         "code": "03195",
         "name": "Pickpocketing",
         "pack": "ptc"
@@ -11642,13 +11501,18 @@
         "pack": "ptc"
       },
       {
-        "code": "03233",
-        "name": "\"Watch this!\"",
+        "code": "03239",
+        "name": "Emergency Cache",
         "pack": "ptc"
       },
       {
-        "code": "03239",
-        "name": "Emergency Cache",
+        "code": "03032",
+        "name": "Alchemical Transmutation",
+        "pack": "ptc"
+      },
+      {
+        "code": "03233",
+        "name": "\"Watch this!\"",
         "pack": "ptc"
       },
       {
@@ -11808,6 +11672,11 @@
         "pack": "tic"
       },
       {
+        "code": "07031",
+        "name": "Ward of Radiance",
+        "pack": "tic"
+      },
+      {
         "code": "07162",
         "name": "Manipulate Destiny",
         "pack": "tic"
@@ -11823,11 +11692,6 @@
         "pack": "tic"
       },
       {
-        "code": "07031",
-        "name": "Ward of Radiance",
-        "pack": "tic"
-      },
-      {
         "code": "10025",
         "name": "Guided by Faith",
         "pack": "fhv"
@@ -11840,6 +11704,142 @@
       {
         "code": "10134",
         "name": "Twilight Diadem",
+        "pack": "fhv"
+      }
+    ]
+  },
+  {
+    "tag": "max_1_commit",
+    "count": 26,
+    "usages": [
+      {
+        "code": "02026",
+        "name": "Double or Nothing",
+        "pack": "dwl"
+      },
+      {
+        "code": "06166",
+        "name": "Brute Force",
+        "pack": "tde"
+      },
+      {
+        "code": "06204",
+        "name": "Sharp Vision",
+        "pack": "tde"
+      },
+      {
+        "code": "06246",
+        "name": "Expeditious Retreat",
+        "pack": "tde"
+      },
+      {
+        "code": "09070",
+        "name": "Calculated Risk",
+        "pack": "tsk"
+      },
+      {
+        "code": "09112",
+        "name": "Gumption",
+        "pack": "tsk"
+      },
+      {
+        "code": "60519",
+        "name": "Take Heart",
+        "pack": "ste"
+      },
+      {
+        "code": "60526",
+        "name": "Unexpected Courage",
+        "pack": "ste"
+      },
+      {
+        "code": "01589",
+        "name": "Guts",
+        "pack": "rcore"
+      },
+      {
+        "code": "01590",
+        "name": "Perception",
+        "pack": "rcore"
+      },
+      {
+        "code": "01591",
+        "name": "Overpower",
+        "pack": "rcore"
+      },
+      {
+        "code": "01592",
+        "name": "Manual Dexterity",
+        "pack": "rcore"
+      },
+      {
+        "code": "01593",
+        "name": "Unexpected Courage",
+        "pack": "rcore"
+      },
+      {
+        "code": "60325",
+        "name": "Manual Dexterity",
+        "pack": "win"
+      },
+      {
+        "code": "60419",
+        "name": "Prescient",
+        "pack": "jac"
+      },
+      {
+        "code": "60424",
+        "name": "Guts",
+        "pack": "jac"
+      },
+      {
+        "code": "04201",
+        "name": "Take Heart",
+        "pack": "tfa"
+      },
+      {
+        "code": "04309",
+        "name": "All In",
+        "pack": "tfa"
+      },
+      {
+        "code": "03116",
+        "name": "Say Your Prayers",
+        "pack": "ptc"
+      },
+      {
+        "code": "03117",
+        "name": "Desperate Search",
+        "pack": "ptc"
+      },
+      {
+        "code": "03118",
+        "name": "Reckless Assault",
+        "pack": "ptc"
+      },
+      {
+        "code": "03119",
+        "name": "Run For Your Life",
+        "pack": "ptc"
+      },
+      {
+        "code": "60228",
+        "name": "Perception",
+        "pack": "har"
+      },
+      {
+        "code": "60126",
+        "name": "Overpower",
+        "pack": "nat"
+      },
+      {
+        "code": "07035",
+        "name": "Predestined",
+        "pack": "tic"
+      },
+      {
+        "code": "10029",
+        "name": "Purified",
         "pack": "fhv"
       }
     ]
@@ -11869,11 +11869,6 @@
         "pack": "dwl"
       },
       {
-        "code": "02263",
-        "name": "Strange Solution",
-        "pack": "dwl"
-      },
-      {
         "code": "02299",
         "name": "Vicious Blow",
         "pack": "dwl"
@@ -11889,18 +11884,23 @@
         "pack": "dwl"
       },
       {
+        "code": "02263",
+        "name": "Strange Solution",
+        "pack": "dwl"
+      },
+      {
         "code": "02306",
         "name": "Shrivelling",
         "pack": "dwl"
       },
       {
-        "code": "08093",
-        "name": "Cyclopean Hammer",
+        "code": "08094",
+        "name": "Sledgehammer",
         "pack": "eote"
       },
       {
-        "code": "08094",
-        "name": "Sledgehammer",
+        "code": "08093",
+        "name": "Cyclopean Hammer",
         "pack": "eote"
       },
       {
@@ -12055,13 +12055,8 @@
         "pack": "tfa"
       },
       {
-        "code": "03032",
-        "name": "Alchemical Transmutation",
-        "pack": "ptc"
-      },
-      {
-        "code": "03233",
-        "name": "\"Watch this!\"",
+        "code": "03151",
+        "name": "Dario El-Amin",
         "pack": "ptc"
       },
       {
@@ -12070,8 +12065,13 @@
         "pack": "ptc"
       },
       {
-        "code": "03151",
-        "name": "Dario El-Amin",
+        "code": "03032",
+        "name": "Alchemical Transmutation",
+        "pack": "ptc"
+      },
+      {
+        "code": "03233",
+        "name": "\"Watch this!\"",
         "pack": "ptc"
       },
       {
@@ -12116,18 +12116,18 @@
     "count": 26,
     "usages": [
       {
-        "code": "08120",
-        "name": "Prophetic",
-        "pack": "eote"
-      },
-      {
         "code": "08121",
         "name": "Sleuth",
         "pack": "eote"
       },
       {
-        "code": "08122",
-        "name": "Bruiser",
+        "code": "08120",
+        "name": "Prophetic",
+        "pack": "eote"
+      },
+      {
+        "code": "08124",
+        "name": "Antiquary",
         "pack": "eote"
       },
       {
@@ -12136,8 +12136,8 @@
         "pack": "eote"
       },
       {
-        "code": "08124",
-        "name": "Antiquary",
+        "code": "08122",
+        "name": "Bruiser",
         "pack": "eote"
       },
       {
@@ -12332,13 +12332,13 @@
         "pack": "ptc"
       },
       {
-        "code": "03233",
-        "name": "\"Watch this!\"",
+        "code": "03111",
+        "name": "Moxie",
         "pack": "ptc"
       },
       {
-        "code": "03111",
-        "name": "Moxie",
+        "code": "03113",
+        "name": "Grounded",
         "pack": "ptc"
       },
       {
@@ -12347,8 +12347,8 @@
         "pack": "ptc"
       },
       {
-        "code": "03113",
-        "name": "Grounded",
+        "code": "03233",
+        "name": "\"Watch this!\"",
         "pack": "ptc"
       }
     ]
@@ -12373,13 +12373,13 @@
         "pack": "tsk"
       },
       {
-        "code": "09119",
-        "name": "Hyperphysical Shotcaster",
+        "code": "09100",
+        "name": "Makeshift Trap",
         "pack": "tsk"
       },
       {
-        "code": "09100",
-        "name": "Makeshift Trap",
+        "code": "09119",
+        "name": "Hyperphysical Shotcaster",
         "pack": "tsk"
       },
       {
@@ -12534,13 +12534,13 @@
         "pack": "ptc"
       },
       {
-        "code": "03037",
-        "name": "Gravedigger's Shovel",
+        "code": "03192",
+        "name": "Archaic Glyphs",
         "pack": "ptc"
       },
       {
-        "code": "03192",
-        "name": "Archaic Glyphs",
+        "code": "03037",
+        "name": "Gravedigger's Shovel",
         "pack": "ptc"
       },
       {
@@ -12585,11 +12585,6 @@
         "pack": "rcore"
       },
       {
-        "code": "01565",
-        "name": "Ward of Protection",
-        "pack": "rcore"
-      },
-      {
         "code": "01569",
         "name": "Blinding Light",
         "pack": "rcore"
@@ -12597,6 +12592,11 @@
       {
         "code": "01690",
         "name": "Scrying",
+        "pack": "rcore"
+      },
+      {
+        "code": "01565",
+        "name": "Ward of Protection",
         "pack": "rcore"
       },
       {
@@ -12642,6 +12642,97 @@
     ]
   },
   {
+    "tag": "cost_fast_exhaust_self",
+    "count": 17,
+    "usages": [
+      {
+        "code": "06022",
+        "name": "Pendant of the Queen",
+        "pack": "tde"
+      },
+      {
+        "code": "06282",
+        "name": "Summoned Hound",
+        "pack": "tde"
+      },
+      {
+        "code": "98002",
+        "name": "Green Man Medallion",
+        "pack": "etc"
+      },
+      {
+        "code": "98008",
+        "name": "Split the Angle",
+        "pack": "etc"
+      },
+      {
+        "code": "98017",
+        "name": "Molly Maxwell",
+        "pack": "etc"
+      },
+      {
+        "code": "52005",
+        "name": "Stealth",
+        "pack": "rt"
+      },
+      {
+        "code": "04018",
+        "name": "Venturer",
+        "pack": "tfa"
+      },
+      {
+        "code": "04035",
+        "name": "Yaotl",
+        "pack": "tfa"
+      },
+      {
+        "code": "04151",
+        "name": "Well Prepared",
+        "pack": "tfa"
+      },
+      {
+        "code": "04154",
+        "name": "Quick Study",
+        "pack": "tfa"
+      },
+      {
+        "code": "04156",
+        "name": "High Roller",
+        "pack": "tfa"
+      },
+      {
+        "code": "04196",
+        "name": "Lola Santiago",
+        "pack": "tfa"
+      },
+      {
+        "code": "05233",
+        "name": "Investments",
+        "pack": "tcu"
+      },
+      {
+        "code": "05274",
+        "name": "Agency Backup",
+        "pack": "tcu"
+      },
+      {
+        "code": "05153",
+        "name": "Mr. \"Rook\"",
+        "pack": "tcu"
+      },
+      {
+        "code": "07262",
+        "name": "Nephthys",
+        "pack": "tic"
+      },
+      {
+        "code": "07304",
+        "name": "Ariadne's Twine",
+        "pack": "tic"
+      }
+    ]
+  },
+  {
     "tag": "cost_free_exhaust_self",
     "count": 16,
     "usages": [
@@ -12651,13 +12742,13 @@
         "pack": "dwl"
       },
       {
-        "code": "02116",
-        "name": "Smoking Pipe",
+        "code": "02117",
+        "name": "Painkillers",
         "pack": "dwl"
       },
       {
-        "code": "02117",
-        "name": "Painkillers",
+        "code": "02116",
+        "name": "Smoking Pipe",
         "pack": "dwl"
       },
       {
@@ -12696,6 +12787,11 @@
         "pack": "ptc"
       },
       {
+        "code": "03149",
+        "name": "Charles Ross, Esq.",
+        "pack": "ptc"
+      },
+      {
         "code": "03198",
         "name": "Madame Labranche",
         "pack": "ptc"
@@ -12713,11 +12809,6 @@
       {
         "code": "03271",
         "name": "Arcane Initiate",
-        "pack": "ptc"
-      },
-      {
-        "code": "03149",
-        "name": "Charles Ross, Esq.",
         "pack": "ptc"
       },
       {
@@ -12752,38 +12843,8 @@
         "pack": "tsk"
       },
       {
-        "code": "09041",
-        "name": "Empirical Hypothesis",
-        "pack": "tsk"
-      },
-      {
         "code": "09042",
         "name": "The Raven Quill",
-        "pack": "tsk"
-      },
-      {
-        "code": "09060",
-        "name": "Friends in Low Places",
-        "pack": "tsk"
-      },
-      {
-        "code": "09079",
-        "name": "Living Ink",
-        "pack": "tsk"
-      },
-      {
-        "code": "09080",
-        "name": "Summoned Servitor",
-        "pack": "tsk"
-      },
-      {
-        "code": "09081",
-        "name": "Power Word",
-        "pack": "tsk"
-      },
-      {
-        "code": "09099",
-        "name": "Pocket Multi Tool",
         "pack": "tsk"
       },
       {
@@ -12792,13 +12853,33 @@
         "pack": "tsk"
       },
       {
+        "code": "09060",
+        "name": "Friends in Low Places",
+        "pack": "tsk"
+      },
+      {
         "code": "09061",
         "name": "Honed Instinct",
         "pack": "tsk"
       },
       {
-        "code": "09119",
-        "name": "Hyperphysical Shotcaster",
+        "code": "09079",
+        "name": "Living Ink",
+        "pack": "tsk"
+      },
+      {
+        "code": "09081",
+        "name": "Power Word",
+        "pack": "tsk"
+      },
+      {
+        "code": "09080",
+        "name": "Summoned Servitor",
+        "pack": "tsk"
+      },
+      {
+        "code": "09099",
+        "name": "Pocket Multi Tool",
         "pack": "tsk"
       },
       {
@@ -12809,6 +12890,16 @@
       {
         "code": "09101",
         "name": "Grizzled",
+        "pack": "tsk"
+      },
+      {
+        "code": "09119",
+        "name": "Hyperphysical Shotcaster",
+        "pack": "tsk"
+      },
+      {
+        "code": "09041",
+        "name": "Empirical Hypothesis",
         "pack": "tsk"
       }
     ]
@@ -12853,12 +12944,12 @@
         "pack": "rcore"
       },
       {
-        "code": "01566",
+        "code": "01569",
         "name": "Blinding Light",
         "pack": "rcore"
       },
       {
-        "code": "01569",
+        "code": "01566",
         "name": "Blinding Light",
         "pack": "rcore"
       },
@@ -12878,6 +12969,11 @@
         "pack": "ptc"
       },
       {
+        "code": "03152",
+        "name": "Sneak Attack",
+        "pack": "ptc"
+      },
+      {
         "code": "03153",
         "name": "Storm of Spirits",
         "pack": "ptc"
@@ -12885,11 +12981,6 @@
       {
         "code": "03229",
         "name": "Mano a Mano",
-        "pack": "ptc"
-      },
-      {
-        "code": "03152",
-        "name": "Sneak Attack",
         "pack": "ptc"
       }
     ]
@@ -12964,13 +13055,13 @@
         "pack": "ptc"
       },
       {
-        "code": "03115",
-        "name": "Plucky",
+        "code": "03113",
+        "name": "Grounded",
         "pack": "ptc"
       },
       {
-        "code": "03113",
-        "name": "Grounded",
+        "code": "03115",
+        "name": "Plucky",
         "pack": "ptc"
       }
     ]
@@ -13020,6 +13111,11 @@
         "pack": "rcore"
       },
       {
+        "code": "01576",
+        "name": "Stray Cat",
+        "pack": "rcore"
+      },
+      {
         "code": "01578",
         "name": "Cunning Distraction",
         "pack": "rcore"
@@ -13035,24 +13131,105 @@
         "pack": "rcore"
       },
       {
-        "code": "01576",
-        "name": "Stray Cat",
-        "pack": "rcore"
-      },
-      {
         "code": "03036",
         "name": "Lantern",
-        "pack": "ptc"
-      },
-      {
-        "code": "03153",
-        "name": "Storm of Spirits",
         "pack": "ptc"
       },
       {
         "code": "03152",
         "name": "Sneak Attack",
         "pack": "ptc"
+      },
+      {
+        "code": "03153",
+        "name": "Storm of Spirits",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "take_damage",
+    "count": 16,
+    "usages": [
+      {
+        "code": "02116",
+        "name": "Smoking Pipe",
+        "pack": "dwl"
+      },
+      {
+        "code": "08109",
+        "name": "Blur",
+        "pack": "eote"
+      },
+      {
+        "code": "08111",
+        "name": "Blur",
+        "pack": "eote"
+      },
+      {
+        "code": "09005",
+        "name": "Bonesaw",
+        "pack": "tsk"
+      },
+      {
+        "code": "60407",
+        "name": "Azure Flame",
+        "pack": "jac"
+      },
+      {
+        "code": "60413",
+        "name": "Astral Travel",
+        "pack": "jac"
+      },
+      {
+        "code": "60425",
+        "name": "Azure Flame",
+        "pack": "jac"
+      },
+      {
+        "code": "60430",
+        "name": "Azure Flame",
+        "pack": "jac"
+      },
+      {
+        "code": "52007",
+        "name": "Alchemical Transmutation",
+        "pack": "rt"
+      },
+      {
+        "code": "53001",
+        "name": "Blood Eclipse",
+        "pack": "rt"
+      },
+      {
+        "code": "03009",
+        "name": "Sophie",
+        "pack": "ptc"
+      },
+      {
+        "code": "03034",
+        "name": "Astral Travel",
+        "pack": "ptc"
+      },
+      {
+        "code": "03032",
+        "name": "Alchemical Transmutation",
+        "pack": "ptc"
+      },
+      {
+        "code": "07229",
+        "name": "Spirit of Humanity",
+        "pack": "tic"
+      },
+      {
+        "code": "07273",
+        "name": "Purifying Corruption",
+        "pack": "tic"
+      },
+      {
+        "code": "10031",
+        "name": "Strong-Armed",
+        "pack": "fhv"
       }
     ]
   },
@@ -13126,104 +13303,190 @@
         "pack": "ptc"
       },
       {
-        "code": "03115",
-        "name": "Plucky",
+        "code": "03113",
+        "name": "Grounded",
         "pack": "ptc"
       },
       {
-        "code": "03113",
-        "name": "Grounded",
+        "code": "03115",
+        "name": "Plucky",
         "pack": "ptc"
       }
     ]
   },
   {
-    "tag": "cost_fast_exhaust_self",
-    "count": 17,
+    "tag": "boost_willpower_2",
+    "count": 19,
     "usages": [
       {
-        "code": "06022",
-        "name": "Pendant of the Queen",
-        "pack": "tde"
+        "code": "02187",
+        "name": "Higher Education",
+        "pack": "dwl"
       },
       {
-        "code": "06282",
-        "name": "Summoned Hound",
-        "pack": "tde"
+        "code": "60425",
+        "name": "Azure Flame",
+        "pack": "jac"
       },
       {
-        "code": "98002",
-        "name": "Green Man Medallion",
-        "pack": "etc"
+        "code": "60426",
+        "name": "Clairvoyance",
+        "pack": "jac"
       },
       {
-        "code": "98008",
-        "name": "Split the Angle",
-        "pack": "etc"
+        "code": "60427",
+        "name": "Ineffable Truth",
+        "pack": "jac"
       },
       {
-        "code": "98017",
-        "name": "Molly Maxwell",
-        "pack": "etc"
-      },
-      {
-        "code": "52005",
-        "name": "Stealth",
+        "code": "51007",
+        "name": "Rite of Seeking",
         "pack": "rt"
       },
       {
-        "code": "04018",
-        "name": "Venturer",
+        "code": "53001",
+        "name": "Blood Eclipse",
+        "pack": "rt"
+      },
+      {
+        "code": "52008",
+        "name": "Storm of Spirits",
+        "pack": "rt"
+      },
+      {
+        "code": "04310",
+        "name": "Shards of the Void",
         "pack": "tfa"
       },
       {
-        "code": "04035",
-        "name": "Yaotl",
-        "pack": "tfa"
-      },
-      {
-        "code": "04151",
-        "name": "Well Prepared",
-        "pack": "tfa"
-      },
-      {
-        "code": "04156",
-        "name": "High Roller",
-        "pack": "tfa"
-      },
-      {
-        "code": "04154",
-        "name": "Quick Study",
-        "pack": "tfa"
-      },
-      {
-        "code": "04196",
-        "name": "Lola Santiago",
-        "pack": "tfa"
-      },
-      {
-        "code": "05153",
-        "name": "Mr. \"Rook\"",
+        "code": "05117",
+        "name": "Tennessee Sour Mash",
         "pack": "tcu"
       },
       {
-        "code": "05233",
-        "name": "Investments",
+        "code": "05191",
+        "name": "Tennessee Sour Mash",
         "pack": "tcu"
       },
       {
-        "code": "05274",
-        "name": "Agency Backup",
+        "code": "05322",
+        "name": "Sixth Sense",
         "pack": "tcu"
       },
       {
-        "code": "07304",
-        "name": "Ariadne's Twine",
+        "code": "05321",
+        "name": "Wither",
+        "pack": "tcu"
+      },
+      {
+        "code": "07158",
+        "name": "Blood Pact",
         "pack": "tic"
       },
       {
-        "code": "07262",
-        "name": "Nephthys",
+        "code": "07227",
+        "name": "Eye of Chaos",
+        "pack": "tic"
+      },
+      {
+        "code": "07226",
+        "name": "Armageddon",
+        "pack": "tic"
+      },
+      {
+        "code": "07228",
+        "name": "Shroud of Shadows",
+        "pack": "tic"
+      },
+      {
+        "code": "10043",
+        "name": "Mouse Mask",
+        "pack": "fhv"
+      },
+      {
+        "code": "10084",
+        "name": "Cat Mask",
+        "pack": "fhv"
+      },
+      {
+        "code": "10111",
+        "name": "Sparrow Mask",
+        "pack": "fhv"
+      }
+    ]
+  },
+  {
+    "tag": "draw_player_2",
+    "count": 14,
+    "usages": [
+      {
+        "code": "02020",
+        "name": "Laboratory Assistant",
+        "pack": "dwl"
+      },
+      {
+        "code": "02021",
+        "name": "Strange Solution",
+        "pack": "dwl"
+      },
+      {
+        "code": "02148",
+        "name": "Stand Together",
+        "pack": "dwl"
+      },
+      {
+        "code": "08031",
+        "name": "Forced Learning",
+        "pack": "eote"
+      },
+      {
+        "code": "08044",
+        "name": "Archive of Conduits",
+        "pack": "eote"
+      },
+      {
+        "code": "06157",
+        "name": "Self-Sacrifice",
+        "pack": "tde"
+      },
+      {
+        "code": "09040",
+        "name": "Alchemical Distillation",
+        "pack": "tsk"
+      },
+      {
+        "code": "60519",
+        "name": "Take Heart",
+        "pack": "ste"
+      },
+      {
+        "code": "04201",
+        "name": "Take Heart",
+        "pack": "tfa"
+      },
+      {
+        "code": "05317",
+        "name": "Blood-Rite",
+        "pack": "tcu"
+      },
+      {
+        "code": "60212",
+        "name": "Laboratory Assistant",
+        "pack": "har"
+      },
+      {
+        "code": "60233",
+        "name": "The Necronomicon",
+        "pack": "har"
+      },
+      {
+        "code": "60115",
+        "name": "Glory",
+        "pack": "nat"
+      },
+      {
+        "code": "07196",
+        "name": "Unrelenting",
         "pack": "tic"
       }
     ]
@@ -13243,11 +13506,6 @@
         "pack": "dwl"
       },
       {
-        "code": "02035",
-        "name": "Peter Sylvestre",
-        "pack": "dwl"
-      },
-      {
         "code": "02106",
         "name": "Brother Xavier",
         "pack": "dwl"
@@ -13260,6 +13518,11 @@
       {
         "code": "02234",
         "name": "Dark Horse",
+        "pack": "dwl"
+      },
+      {
+        "code": "02035",
+        "name": "Peter Sylvestre",
         "pack": "dwl"
       },
       {
@@ -13349,24 +13612,14 @@
         "pack": "rcore"
       },
       {
-        "code": "01689",
-        "name": "Rite of Seeking",
-        "pack": "rcore"
-      },
-      {
         "code": "01690",
         "name": "Scrying",
         "pack": "rcore"
       },
       {
-        "code": "03032",
-        "name": "Alchemical Transmutation",
-        "pack": "ptc"
-      },
-      {
-        "code": "03192",
-        "name": "Archaic Glyphs",
-        "pack": "ptc"
+        "code": "01689",
+        "name": "Rite of Seeking",
+        "pack": "rcore"
       },
       {
         "code": "03193",
@@ -13377,193 +13630,16 @@
         "code": "03236",
         "name": "Scrying",
         "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "take_damage",
-    "count": 16,
-    "usages": [
-      {
-        "code": "02116",
-        "name": "Smoking Pipe",
-        "pack": "dwl"
       },
       {
-        "code": "08109",
-        "name": "Blur",
-        "pack": "eote"
-      },
-      {
-        "code": "08111",
-        "name": "Blur",
-        "pack": "eote"
-      },
-      {
-        "code": "09005",
-        "name": "Bonesaw",
-        "pack": "tsk"
-      },
-      {
-        "code": "60407",
-        "name": "Azure Flame",
-        "pack": "jac"
-      },
-      {
-        "code": "60413",
-        "name": "Astral Travel",
-        "pack": "jac"
-      },
-      {
-        "code": "60425",
-        "name": "Azure Flame",
-        "pack": "jac"
-      },
-      {
-        "code": "60430",
-        "name": "Azure Flame",
-        "pack": "jac"
-      },
-      {
-        "code": "52007",
-        "name": "Alchemical Transmutation",
-        "pack": "rt"
-      },
-      {
-        "code": "53001",
-        "name": "Blood Eclipse",
-        "pack": "rt"
-      },
-      {
-        "code": "03009",
-        "name": "Sophie",
+        "code": "03192",
+        "name": "Archaic Glyphs",
         "pack": "ptc"
       },
       {
         "code": "03032",
         "name": "Alchemical Transmutation",
         "pack": "ptc"
-      },
-      {
-        "code": "03034",
-        "name": "Astral Travel",
-        "pack": "ptc"
-      },
-      {
-        "code": "07229",
-        "name": "Spirit of Humanity",
-        "pack": "tic"
-      },
-      {
-        "code": "07273",
-        "name": "Purifying Corruption",
-        "pack": "tic"
-      },
-      {
-        "code": "10031",
-        "name": "Strong-Armed",
-        "pack": "fhv"
-      }
-    ]
-  },
-  {
-    "tag": "boost_willpower_2",
-    "count": 19,
-    "usages": [
-      {
-        "code": "02187",
-        "name": "Higher Education",
-        "pack": "dwl"
-      },
-      {
-        "code": "60425",
-        "name": "Azure Flame",
-        "pack": "jac"
-      },
-      {
-        "code": "60426",
-        "name": "Clairvoyance",
-        "pack": "jac"
-      },
-      {
-        "code": "60427",
-        "name": "Ineffable Truth",
-        "pack": "jac"
-      },
-      {
-        "code": "51007",
-        "name": "Rite of Seeking",
-        "pack": "rt"
-      },
-      {
-        "code": "52008",
-        "name": "Storm of Spirits",
-        "pack": "rt"
-      },
-      {
-        "code": "53001",
-        "name": "Blood Eclipse",
-        "pack": "rt"
-      },
-      {
-        "code": "04310",
-        "name": "Shards of the Void",
-        "pack": "tfa"
-      },
-      {
-        "code": "05117",
-        "name": "Tennessee Sour Mash",
-        "pack": "tcu"
-      },
-      {
-        "code": "05191",
-        "name": "Tennessee Sour Mash",
-        "pack": "tcu"
-      },
-      {
-        "code": "05321",
-        "name": "Wither",
-        "pack": "tcu"
-      },
-      {
-        "code": "05322",
-        "name": "Sixth Sense",
-        "pack": "tcu"
-      },
-      {
-        "code": "07158",
-        "name": "Blood Pact",
-        "pack": "tic"
-      },
-      {
-        "code": "07226",
-        "name": "Armageddon",
-        "pack": "tic"
-      },
-      {
-        "code": "07228",
-        "name": "Shroud of Shadows",
-        "pack": "tic"
-      },
-      {
-        "code": "07227",
-        "name": "Eye of Chaos",
-        "pack": "tic"
-      },
-      {
-        "code": "10043",
-        "name": "Mouse Mask",
-        "pack": "fhv"
-      },
-      {
-        "code": "10084",
-        "name": "Cat Mask",
-        "pack": "fhv"
-      },
-      {
-        "code": "10111",
-        "name": "Sparrow Mask",
-        "pack": "fhv"
       }
     ]
   },
@@ -13644,82 +13720,6 @@
     ]
   },
   {
-    "tag": "draw_player_2",
-    "count": 14,
-    "usages": [
-      {
-        "code": "02020",
-        "name": "Laboratory Assistant",
-        "pack": "dwl"
-      },
-      {
-        "code": "02021",
-        "name": "Strange Solution",
-        "pack": "dwl"
-      },
-      {
-        "code": "02148",
-        "name": "Stand Together",
-        "pack": "dwl"
-      },
-      {
-        "code": "08031",
-        "name": "Forced Learning",
-        "pack": "eote"
-      },
-      {
-        "code": "08044",
-        "name": "Archive of Conduits",
-        "pack": "eote"
-      },
-      {
-        "code": "06157",
-        "name": "Self-Sacrifice",
-        "pack": "tde"
-      },
-      {
-        "code": "09040",
-        "name": "Alchemical Distillation",
-        "pack": "tsk"
-      },
-      {
-        "code": "60519",
-        "name": "Take Heart",
-        "pack": "ste"
-      },
-      {
-        "code": "04201",
-        "name": "Take Heart",
-        "pack": "tfa"
-      },
-      {
-        "code": "05317",
-        "name": "Blood-Rite",
-        "pack": "tcu"
-      },
-      {
-        "code": "60212",
-        "name": "Laboratory Assistant",
-        "pack": "har"
-      },
-      {
-        "code": "60233",
-        "name": "The Necronomicon",
-        "pack": "har"
-      },
-      {
-        "code": "60115",
-        "name": "Glory",
-        "pack": "nat"
-      },
-      {
-        "code": "07196",
-        "name": "Unrelenting",
-        "pack": "tic"
-      }
-    ]
-  },
-  {
     "tag": "uses_replenish",
     "count": 21,
     "usages": [
@@ -13729,18 +13729,18 @@
         "pack": "eote"
       },
       {
-        "code": "08120",
-        "name": "Prophetic",
-        "pack": "eote"
-      },
-      {
         "code": "08121",
         "name": "Sleuth",
         "pack": "eote"
       },
       {
-        "code": "08122",
-        "name": "Bruiser",
+        "code": "08120",
+        "name": "Prophetic",
+        "pack": "eote"
+      },
+      {
+        "code": "08124",
+        "name": "Antiquary",
         "pack": "eote"
       },
       {
@@ -13749,8 +13749,8 @@
         "pack": "eote"
       },
       {
-        "code": "08124",
-        "name": "Antiquary",
+        "code": "08122",
+        "name": "Bruiser",
         "pack": "eote"
       },
       {
@@ -14078,6 +14078,11 @@
         "pack": "tfa"
       },
       {
+        "code": "03239",
+        "name": "Emergency Cache",
+        "pack": "ptc"
+      },
+      {
         "code": "03032",
         "name": "Alchemical Transmutation",
         "pack": "ptc"
@@ -14085,11 +14090,6 @@
       {
         "code": "03233",
         "name": "\"Watch this!\"",
-        "pack": "ptc"
-      },
-      {
-        "code": "03239",
-        "name": "Emergency Cache",
         "pack": "ptc"
       },
       {
@@ -14149,13 +14149,13 @@
         "pack": "ptc"
       },
       {
-        "code": "03229",
-        "name": "Mano a Mano",
+        "code": "03152",
+        "name": "Sneak Attack",
         "pack": "ptc"
       },
       {
-        "code": "03152",
-        "name": "Sneak Attack",
+        "code": "03229",
+        "name": "Mano a Mano",
         "pack": "ptc"
       }
     ]
@@ -14195,11 +14195,6 @@
         "pack": "rcore"
       },
       {
-        "code": "03026",
-        "name": "No Stone Unturned",
-        "pack": "ptc"
-      },
-      {
         "code": "03158",
         "name": "Calling in Favors",
         "pack": "ptc"
@@ -14215,6 +14210,11 @@
         "pack": "ptc"
       },
       {
+        "code": "03026",
+        "name": "No Stone Unturned",
+        "pack": "ptc"
+      },
+      {
         "code": "03264",
         "name": "Stick to the Plan",
         "pack": "ptc"
@@ -14226,18 +14226,18 @@
     "count": 12,
     "usages": [
       {
-        "code": "08120",
-        "name": "Prophetic",
-        "pack": "eote"
-      },
-      {
         "code": "08121",
         "name": "Sleuth",
         "pack": "eote"
       },
       {
-        "code": "08122",
-        "name": "Bruiser",
+        "code": "08120",
+        "name": "Prophetic",
+        "pack": "eote"
+      },
+      {
+        "code": "08124",
+        "name": "Antiquary",
         "pack": "eote"
       },
       {
@@ -14246,8 +14246,8 @@
         "pack": "eote"
       },
       {
-        "code": "08124",
-        "name": "Antiquary",
+        "code": "08122",
+        "name": "Bruiser",
         "pack": "eote"
       },
       {

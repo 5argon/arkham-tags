@@ -130,13 +130,13 @@
     "count": 3,
     "usages": [
       {
-        "code": "02110",
-        "name": "Adaptable",
+        "code": "02111",
+        "name": "Delve Too Deep",
         "pack": "dwl"
       },
       {
-        "code": "02111",
-        "name": "Delve Too Deep",
+        "code": "02110",
+        "name": "Adaptable",
         "pack": "dwl"
       },
       {
@@ -294,48 +294,6 @@
     ]
   },
   {
-    "tag": "cancel_damage",
-    "count": 3,
-    "usages": [
-      {
-        "code": "02261",
-        "name": "\"I've had worse…\"",
-        "pack": "dwl"
-      },
-      {
-        "code": "01684",
-        "name": "\"I've had worse…\"",
-        "pack": "rcore"
-      },
-      {
-        "code": "03157",
-        "name": "Devil's Luck",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "cancel_horror",
-    "count": 3,
-    "usages": [
-      {
-        "code": "02261",
-        "name": "\"I've had worse…\"",
-        "pack": "dwl"
-      },
-      {
-        "code": "01684",
-        "name": "\"I've had worse…\"",
-        "pack": "rcore"
-      },
-      {
-        "code": "03157",
-        "name": "Devil's Luck",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
     "tag": "timing_fast_dealt_damage",
     "count": 3,
     "usages": [
@@ -358,6 +316,48 @@
   },
   {
     "tag": "timing_fast_dealt_horror",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02261",
+        "name": "\"I've had worse…\"",
+        "pack": "dwl"
+      },
+      {
+        "code": "01684",
+        "name": "\"I've had worse…\"",
+        "pack": "rcore"
+      },
+      {
+        "code": "03157",
+        "name": "Devil's Luck",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "cancel_damage",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02261",
+        "name": "\"I've had worse…\"",
+        "pack": "dwl"
+      },
+      {
+        "code": "01684",
+        "name": "\"I've had worse…\"",
+        "pack": "rcore"
+      },
+      {
+        "code": "03157",
+        "name": "Devil's Luck",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "cancel_horror",
     "count": 3,
     "usages": [
       {
@@ -462,27 +462,6 @@
     ]
   },
   {
-    "tag": "initiate_test_intellect_2",
-    "count": 3,
-    "usages": [
-      {
-        "code": "08038",
-        "name": "Medical Texts",
-        "pack": "eote"
-      },
-      {
-        "code": "01535",
-        "name": "Medical Texts",
-        "pack": "rcore"
-      },
-      {
-        "code": "05007",
-        "name": "Hypnotic Therapy",
-        "pack": "tcu"
-      }
-    ]
-  },
-  {
     "tag": "uses_starting_1",
     "count": 4,
     "usages": [
@@ -531,6 +510,27 @@
         "code": "10102",
         "name": "Spectral Razor",
         "pack": "fhv"
+      }
+    ]
+  },
+  {
+    "tag": "initiate_test_intellect_2",
+    "count": 3,
+    "usages": [
+      {
+        "code": "08038",
+        "name": "Medical Texts",
+        "pack": "eote"
+      },
+      {
+        "code": "01535",
+        "name": "Medical Texts",
+        "pack": "rcore"
+      },
+      {
+        "code": "05007",
+        "name": "Hypnotic Therapy",
+        "pack": "tcu"
       }
     ]
   },
@@ -816,27 +816,6 @@
     ]
   },
   {
-    "tag": "once_per_turn",
-    "count": 3,
-    "usages": [
-      {
-        "code": "01688",
-        "name": ".41 Derringer",
-        "pack": "rcore"
-      },
-      {
-        "code": "03234",
-        "name": ".41 Derringer",
-        "pack": "ptc"
-      },
-      {
-        "code": "03266",
-        "name": "Arcane Insight",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
     "tag": "shroud_reduction",
     "count": 3,
     "usages": [
@@ -848,6 +827,27 @@
       {
         "code": "03036",
         "name": "Lantern",
+        "pack": "ptc"
+      },
+      {
+        "code": "03266",
+        "name": "Arcane Insight",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "once_per_turn",
+    "count": 3,
+    "usages": [
+      {
+        "code": "01688",
+        "name": ".41 Derringer",
+        "pack": "rcore"
+      },
+      {
+        "code": "03234",
+        "name": ".41 Derringer",
         "pack": "ptc"
       },
       {
@@ -930,13 +930,13 @@
         "pack": "ptc"
       },
       {
-        "code": "03265",
-        "name": "Guidance",
+        "code": "03149",
+        "name": "Charles Ross, Esq.",
         "pack": "ptc"
       },
       {
-        "code": "03149",
-        "name": "Charles Ross, Esq.",
+        "code": "03265",
+        "name": "Guidance",
         "pack": "ptc"
       }
     ]

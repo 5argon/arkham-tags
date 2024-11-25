@@ -90,11 +90,6 @@
         "pack": "rcore"
       },
       {
-        "code": "03026",
-        "name": "No Stone Unturned",
-        "pack": "ptc"
-      },
-      {
         "code": "03158",
         "name": "Calling in Favors",
         "pack": "ptc"
@@ -102,6 +97,11 @@
       {
         "code": "03231",
         "name": "Eureka!",
+        "pack": "ptc"
+      },
+      {
+        "code": "03026",
+        "name": "No Stone Unturned",
         "pack": "ptc"
       },
       {
@@ -164,6 +164,67 @@
         "code": "60218",
         "name": "Preposterous Sketches",
         "pack": "har"
+      }
+    ]
+  },
+  {
+    "tag": "stat_add_agility",
+    "count": 11,
+    "usages": [
+      {
+        "code": "08023",
+        "name": "Sweeping Kick",
+        "pack": "eote"
+      },
+      {
+        "code": "08029",
+        "name": "Fang of Tyr'thrha",
+        "pack": "eote"
+      },
+      {
+        "code": "09074",
+        "name": "Breaking and Entering",
+        "pack": "tsk"
+      },
+      {
+        "code": "01687",
+        "name": "Lockpicks",
+        "pack": "rcore"
+      },
+      {
+        "code": "60305",
+        "name": "Lockpicks",
+        "pack": "win"
+      },
+      {
+        "code": "60312",
+        "name": "Cheap Shot",
+        "pack": "win"
+      },
+      {
+        "code": "60323",
+        "name": "Cheap Shot",
+        "pack": "win"
+      },
+      {
+        "code": "03031",
+        "name": "Lockpicks",
+        "pack": "ptc"
+      },
+      {
+        "code": "03194",
+        "name": "Cheap Shot",
+        "pack": "ptc"
+      },
+      {
+        "code": "07114",
+        "name": "Breaking and Entering",
+        "pack": "tic"
+      },
+      {
+        "code": "10117",
+        "name": "Hatchet",
+        "pack": "fhv"
       }
     ]
   },
@@ -273,13 +334,13 @@
         "pack": "ptc"
       },
       {
-        "code": "03115",
-        "name": "Plucky",
+        "code": "03113",
+        "name": "Grounded",
         "pack": "ptc"
       },
       {
-        "code": "03113",
-        "name": "Grounded",
+        "code": "03115",
+        "name": "Plucky",
         "pack": "ptc"
       }
     ]
@@ -438,119 +499,53 @@
     ]
   },
   {
-    "tag": "stat_add_agility",
-    "count": 11,
+    "tag": "trait_relic",
+    "count": 9,
     "usages": [
       {
-        "code": "08023",
-        "name": "Sweeping Kick",
+        "code": "08039",
+        "name": "Unearth the Ancients",
         "pack": "eote"
       },
       {
-        "code": "08029",
-        "name": "Fang of Tyr'thrha",
+        "code": "08124",
+        "name": "Antiquary",
         "pack": "eote"
       },
       {
-        "code": "09074",
-        "name": "Breaking and Entering",
-        "pack": "tsk"
+        "code": "60429",
+        "name": "Recharge",
+        "pack": "jac"
       },
       {
-        "code": "01687",
-        "name": "Lockpicks",
-        "pack": "rcore"
+        "code": "04021",
+        "name": "Dr. Elli Horowitz",
+        "pack": "tfa"
       },
       {
-        "code": "60305",
-        "name": "Lockpicks",
-        "pack": "win"
+        "code": "04024",
+        "name": "Unearth the Ancients",
+        "pack": "tfa"
       },
       {
-        "code": "60312",
-        "name": "Cheap Shot",
-        "pack": "win"
-      },
-      {
-        "code": "60323",
-        "name": "Cheap Shot",
-        "pack": "win"
-      },
-      {
-        "code": "03031",
-        "name": "Lockpicks",
+        "code": "03197",
+        "name": "Recharge",
         "pack": "ptc"
       },
       {
-        "code": "03194",
-        "name": "Cheap Shot",
-        "pack": "ptc"
-      },
-      {
-        "code": "07114",
-        "name": "Breaking and Entering",
-        "pack": "tic"
-      },
-      {
-        "code": "10117",
-        "name": "Hatchet",
-        "pack": "fhv"
-      }
-    ]
-  },
-  {
-    "tag": "uses_starting_6",
-    "count": 10,
-    "usages": [
-      {
-        "code": "08090",
-        "name": "Brand of Cthugha",
-        "pack": "eote"
-      },
-      {
-        "code": "08103",
-        "name": "Divination",
-        "pack": "eote"
-      },
-      {
-        "code": "08119",
-        "name": "Earthly Serenity",
-        "pack": "eote"
-      },
-      {
-        "code": "06010",
-        "name": "Bounty Contracts",
-        "pack": "tde"
-      },
-      {
-        "code": "09064",
-        "name": "Thieves' Kit",
-        "pack": "tsk"
-      },
-      {
-        "code": "09075",
-        "name": "Thieves' Kit",
-        "pack": "tsk"
-      },
-      {
-        "code": "52001",
-        "name": ".32 Colt",
-        "pack": "rt"
-      },
-      {
-        "code": "03020",
-        "name": ".32 Colt",
-        "pack": "ptc"
-      },
-      {
-        "code": "60233",
-        "name": "The Necronomicon",
+        "code": "60213",
+        "name": "Whitton Greene",
         "pack": "har"
       },
       {
-        "code": "10091",
-        "name": "Speak to the Dead",
-        "pack": "fhv"
+        "code": "60223",
+        "name": "Whitton Greene",
+        "pack": "har"
+      },
+      {
+        "code": "07261",
+        "name": "Enchant Weapon",
+        "pack": "tic"
       }
     ]
   },
@@ -561,21 +556,6 @@
       {
         "code": "08090",
         "name": "Brand of Cthugha",
-        "pack": "eote"
-      },
-      {
-        "code": "08092",
-        "name": "Brand of Cthugha",
-        "pack": "eote"
-      },
-      {
-        "code": "08101",
-        "name": "Divination",
-        "pack": "eote"
-      },
-      {
-        "code": "08103",
-        "name": "Divination",
         "pack": "eote"
       },
       {
@@ -594,8 +574,23 @@
         "pack": "eote"
       },
       {
+        "code": "08103",
+        "name": "Divination",
+        "pack": "eote"
+      },
+      {
         "code": "08119",
         "name": "Earthly Serenity",
+        "pack": "eote"
+      },
+      {
+        "code": "08092",
+        "name": "Brand of Cthugha",
+        "pack": "eote"
+      },
+      {
+        "code": "08101",
+        "name": "Divination",
         "pack": "eote"
       },
       {
@@ -737,11 +732,6 @@
         "pack": "tde"
       },
       {
-        "code": "09041",
-        "name": "Empirical Hypothesis",
-        "pack": "tsk"
-      },
-      {
         "code": "09073",
         "name": "Dirty Fighting",
         "pack": "tsk"
@@ -752,13 +742,18 @@
         "pack": "tsk"
       },
       {
-        "code": "54006",
-        "name": "Well Connected",
-        "pack": "rt"
+        "code": "09041",
+        "name": "Empirical Hypothesis",
+        "pack": "tsk"
       },
       {
         "code": "54013",
         "name": "Observed",
+        "pack": "rt"
+      },
+      {
+        "code": "54006",
+        "name": "Well Connected",
         "pack": "rt"
       },
       {
@@ -774,6 +769,62 @@
       {
         "code": "10053",
         "name": "Steady-Handed",
+        "pack": "fhv"
+      }
+    ]
+  },
+  {
+    "tag": "uses_starting_6",
+    "count": 10,
+    "usages": [
+      {
+        "code": "08090",
+        "name": "Brand of Cthugha",
+        "pack": "eote"
+      },
+      {
+        "code": "08103",
+        "name": "Divination",
+        "pack": "eote"
+      },
+      {
+        "code": "08119",
+        "name": "Earthly Serenity",
+        "pack": "eote"
+      },
+      {
+        "code": "06010",
+        "name": "Bounty Contracts",
+        "pack": "tde"
+      },
+      {
+        "code": "09064",
+        "name": "Thieves' Kit",
+        "pack": "tsk"
+      },
+      {
+        "code": "09075",
+        "name": "Thieves' Kit",
+        "pack": "tsk"
+      },
+      {
+        "code": "52001",
+        "name": ".32 Colt",
+        "pack": "rt"
+      },
+      {
+        "code": "03020",
+        "name": ".32 Colt",
+        "pack": "ptc"
+      },
+      {
+        "code": "60233",
+        "name": "The Necronomicon",
+        "pack": "har"
+      },
+      {
+        "code": "10091",
+        "name": "Speak to the Dead",
         "pack": "fhv"
       }
     ]
@@ -803,6 +854,11 @@
         "pack": "ptc"
       },
       {
+        "code": "03022",
+        "name": "\"Let me handle this!\"",
+        "pack": "ptc"
+      },
+      {
         "code": "03024",
         "name": "Fieldwork",
         "pack": "ptc"
@@ -815,11 +871,6 @@
       {
         "code": "03267",
         "name": "Narrow Escape",
-        "pack": "ptc"
-      },
-      {
-        "code": "03022",
-        "name": "\"Let me handle this!\"",
         "pack": "ptc"
       },
       {
@@ -922,52 +973,47 @@
     ]
   },
   {
-    "tag": "trait_relic",
-    "count": 9,
+    "tag": "uses_starting_0",
+    "count": 8,
     "usages": [
       {
-        "code": "08039",
-        "name": "Unearth the Ancients",
+        "code": "08053",
+        "name": "The Red Clock",
         "pack": "eote"
       },
       {
-        "code": "08124",
-        "name": "Antiquary",
+        "code": "08058",
+        "name": "The Red Clock",
         "pack": "eote"
       },
       {
-        "code": "60429",
-        "name": "Recharge",
-        "pack": "jac"
+        "code": "08088",
+        "name": "Old Shotgun",
+        "pack": "eote"
       },
       {
-        "code": "04021",
-        "name": "Dr. Elli Horowitz",
+        "code": "06276",
+        "name": "Empty Vessel",
+        "pack": "tde"
+      },
+      {
+        "code": "53005",
+        "name": "Decorated Skull",
+        "pack": "rt"
+      },
+      {
+        "code": "04026",
+        "name": "Decorated Skull",
         "pack": "tfa"
       },
       {
-        "code": "04024",
-        "name": "Unearth the Ancients",
-        "pack": "tfa"
+        "code": "05233",
+        "name": "Investments",
+        "pack": "tcu"
       },
       {
-        "code": "03197",
-        "name": "Recharge",
-        "pack": "ptc"
-      },
-      {
-        "code": "60213",
-        "name": "Whitton Greene",
-        "pack": "har"
-      },
-      {
-        "code": "60223",
-        "name": "Whitton Greene",
-        "pack": "har"
-      },
-      {
-        "code": "07261",
-        "name": "Enchant Weapon",
+        "code": "07304",
+        "name": "Ariadne's Twine",
         "pack": "tic"
       }
     ]
@@ -1023,11 +1069,6 @@
     "count": 7,
     "usages": [
       {
-        "code": "02035",
-        "name": "Peter Sylvestre",
-        "pack": "dwl"
-      },
-      {
         "code": "02106",
         "name": "Brother Xavier",
         "pack": "dwl"
@@ -1035,6 +1076,11 @@
       {
         "code": "02234",
         "name": "Dark Horse",
+        "pack": "dwl"
+      },
+      {
+        "code": "02035",
+        "name": "Peter Sylvestre",
         "pack": "dwl"
       },
       {
@@ -1110,13 +1156,13 @@
         "pack": "dwl"
       },
       {
-        "code": "02157",
-        "name": "Relic Hunter",
+        "code": "02158",
+        "name": "Charisma",
         "pack": "dwl"
       },
       {
-        "code": "02158",
-        "name": "Charisma",
+        "code": "02157",
+        "name": "Relic Hunter",
         "pack": "dwl"
       },
       {
@@ -1130,13 +1176,13 @@
         "pack": "rcore"
       },
       {
-        "code": "01694",
-        "name": "Charisma",
+        "code": "01695",
+        "name": "Relic Hunter",
         "pack": "rcore"
       },
       {
-        "code": "01695",
-        "name": "Relic Hunter",
+        "code": "01694",
+        "name": "Charisma",
         "pack": "rcore"
       }
     ]
@@ -1243,17 +1289,17 @@
     "count": 7,
     "usages": [
       {
+        "code": "02264",
+        "name": "Strange Solution",
+        "pack": "dwl"
+      },
+      {
         "code": "02262",
         "name": "Strange Solution",
         "pack": "dwl"
       },
       {
         "code": "02263",
-        "name": "Strange Solution",
-        "pack": "dwl"
-      },
-      {
-        "code": "02264",
         "name": "Strange Solution",
         "pack": "dwl"
       },
@@ -1276,52 +1322,6 @@
         "code": "03230",
         "name": "First Aid",
         "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "uses_starting_0",
-    "count": 8,
-    "usages": [
-      {
-        "code": "08053",
-        "name": "The Red Clock",
-        "pack": "eote"
-      },
-      {
-        "code": "08058",
-        "name": "The Red Clock",
-        "pack": "eote"
-      },
-      {
-        "code": "08088",
-        "name": "Old Shotgun",
-        "pack": "eote"
-      },
-      {
-        "code": "06276",
-        "name": "Empty Vessel",
-        "pack": "tde"
-      },
-      {
-        "code": "53005",
-        "name": "Decorated Skull",
-        "pack": "rt"
-      },
-      {
-        "code": "04026",
-        "name": "Decorated Skull",
-        "pack": "tfa"
-      },
-      {
-        "code": "05233",
-        "name": "Investments",
-        "pack": "tcu"
-      },
-      {
-        "code": "07304",
-        "name": "Ariadne's Twine",
-        "pack": "tic"
       }
     ]
   },
@@ -1430,6 +1430,62 @@
         "code": "03233",
         "name": "\"Watch this!\"",
         "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "trait_weapon",
+    "count": 10,
+    "usages": [
+      {
+        "code": "02147",
+        "name": "Bandolier",
+        "pack": "dwl"
+      },
+      {
+        "code": "02184",
+        "name": "Prepared for the Worst",
+        "pack": "dwl"
+      },
+      {
+        "code": "09036",
+        "name": "Prepared for the Worst",
+        "pack": "tsk"
+      },
+      {
+        "code": "51001",
+        "name": "Bandolier",
+        "pack": "rt"
+      },
+      {
+        "code": "60102",
+        "name": "Randall Cho",
+        "pack": "nat"
+      },
+      {
+        "code": "07261",
+        "name": "Enchant Weapon",
+        "pack": "tic"
+      },
+      {
+        "code": "10002",
+        "name": "Ad Hoc",
+        "pack": "fhv"
+      },
+      {
+        "code": "10030",
+        "name": "Hand-Eye Coordination",
+        "pack": "fhv"
+      },
+      {
+        "code": "10070",
+        "name": "False Surrender",
+        "pack": "fhv"
+      },
+      {
+        "code": "10113",
+        "name": "Pushed to the Limit",
+        "pack": "fhv"
       }
     ]
   },
@@ -1582,12 +1638,12 @@
     "count": 8,
     "usages": [
       {
-        "code": "08094",
+        "code": "08096",
         "name": "Sledgehammer",
         "pack": "eote"
       },
       {
-        "code": "08096",
+        "code": "08094",
         "name": "Sledgehammer",
         "pack": "eote"
       },
@@ -1664,11 +1720,6 @@
     "count": 23,
     "usages": [
       {
-        "code": "09028",
-        "name": "Motivational Speech",
-        "pack": "tsk"
-      },
-      {
         "code": "09052",
         "name": "Existential Riddle",
         "pack": "tsk"
@@ -1681,6 +1732,11 @@
       {
         "code": "09088",
         "name": "String of Curses",
+        "pack": "tsk"
+      },
+      {
+        "code": "09028",
+        "name": "Motivational Speech",
         "pack": "tsk"
       },
       {
@@ -1790,6 +1846,11 @@
         "pack": "tsk"
       },
       {
+        "code": "09065",
+        "name": "Hidden Pocket",
+        "pack": "tsk"
+      },
+      {
         "code": "09076",
         "name": "Trigger Man",
         "pack": "tsk"
@@ -1797,11 +1858,6 @@
       {
         "code": "09077",
         "name": "Underworld Market",
-        "pack": "tsk"
-      },
-      {
-        "code": "09065",
-        "name": "Hidden Pocket",
         "pack": "tsk"
       },
       {
@@ -1846,13 +1902,13 @@
         "pack": "win"
       },
       {
-        "code": "03233",
-        "name": "\"Watch this!\"",
+        "code": "03234",
+        "name": ".41 Derringer",
         "pack": "ptc"
       },
       {
-        "code": "03234",
-        "name": ".41 Derringer",
+        "code": "03233",
+        "name": "\"Watch this!\"",
         "pack": "ptc"
       },
       {
@@ -1867,23 +1923,8 @@
     "count": 6,
     "usages": [
       {
-        "code": "09111",
-        "name": "Nature of the Beast",
-        "pack": "tsk"
-      },
-      {
-        "code": "09115",
-        "name": "Heed the Dream",
-        "pack": "tsk"
-      },
-      {
         "code": "09107",
         "name": "Predator or Prey",
-        "pack": "tsk"
-      },
-      {
-        "code": "09109",
-        "name": "At a Crossroads",
         "pack": "tsk"
       },
       {
@@ -1892,65 +1933,24 @@
         "pack": "tsk"
       },
       {
+        "code": "09111",
+        "name": "Nature of the Beast",
+        "pack": "tsk"
+      },
+      {
         "code": "09118",
         "name": "Fickle Fortune",
         "pack": "tsk"
-      }
-    ]
-  },
-  {
-    "tag": "trait_weapon",
-    "count": 10,
-    "usages": [
-      {
-        "code": "02147",
-        "name": "Bandolier",
-        "pack": "dwl"
       },
       {
-        "code": "02184",
-        "name": "Prepared for the Worst",
-        "pack": "dwl"
-      },
-      {
-        "code": "09036",
-        "name": "Prepared for the Worst",
+        "code": "09115",
+        "name": "Heed the Dream",
         "pack": "tsk"
       },
       {
-        "code": "51001",
-        "name": "Bandolier",
-        "pack": "rt"
-      },
-      {
-        "code": "60102",
-        "name": "Randall Cho",
-        "pack": "nat"
-      },
-      {
-        "code": "07261",
-        "name": "Enchant Weapon",
-        "pack": "tic"
-      },
-      {
-        "code": "10002",
-        "name": "Ad Hoc",
-        "pack": "fhv"
-      },
-      {
-        "code": "10030",
-        "name": "Hand-Eye Coordination",
-        "pack": "fhv"
-      },
-      {
-        "code": "10070",
-        "name": "False Surrender",
-        "pack": "fhv"
-      },
-      {
-        "code": "10113",
-        "name": "Pushed to the Limit",
-        "pack": "fhv"
+        "code": "09109",
+        "name": "At a Crossroads",
+        "pack": "tsk"
       }
     ]
   }

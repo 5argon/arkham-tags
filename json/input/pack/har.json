@@ -4,8 +4,8 @@
     "name": "Vault of Knowledge",
     "text": "Harvey Walters deck only.\nYour maximum hand size is increased by 2.\n[reaction] After you successfully investigate, exhaust Vault of Knowledge and choose an investigator at your location: That investigator draws 1 card.",
     "tags": [
-      "cost_reaction_exhaust_self",
       "deck_restriction",
+      "cost_reaction_exhaust_self",
       "draw_player_1"
     ]
   },
@@ -203,8 +203,8 @@
     "name": "Mind over Matter",
     "text": "Fast. Play during your turn.\nUntil the end of the round, add your [intellect] to your [combat] and [agility]. Draw 1 card.",
     "tags": [
-      "draw_player_1",
       "fast_play",
+      "draw_player_1",
       "stat_add_intellect"
     ]
   },
@@ -263,11 +263,11 @@
     "name": "The Necronomicon",
     "text": "Uses (6 secrets). Limit 1 per deck.\n[free] Spend 1 secret: You get +2 skill value for this skill test.\n[free] Spend 2 secrets: Draw 2 cards.\n[free] Spend 3 secrets: Discover 1 clue at any location.\n[free] Spend 4 secrets: Deal 3 damage to an enemy engaged with you.",
     "tags": [
+      "limit_1_per_deck",
       "uses_type_secret",
       "uses_starting_6",
       "draw_player_2",
-      "engage_with_you",
-      "limit_1_per_deck"
+      "engage_with_you"
     ]
   }
 ]

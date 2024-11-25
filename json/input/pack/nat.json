@@ -76,8 +76,8 @@
     "name": "Counterpunch",
     "text": "Fast. Play after an enemy attacks you, even if that attack was canceled.\n<b>Fight.</b> This attack targets the attacking enemy.",
     "tags": [
-      "bold_fight",
-      "fast_play"
+      "fast_play",
+      "bold_fight"
     ]
   },
   {
@@ -103,8 +103,8 @@
     "name": "Glory",
     "text": "Fast. Play after you defeat an enemy.\nDraw 2 cards.",
     "tags": [
-      "draw_player_2",
-      "fast_play"
+      "fast_play",
+      "draw_player_2"
     ]
   },
   {
@@ -165,10 +165,10 @@
     "name": "Counterpunch",
     "text": "Fast. Play when an enemy attacks you <i>(before resolving that attack)</i>.\n<b>Fight.</b> This attack targets the attacking enemy. You get +2 [combat] and deal +1 damage for this attack.",
     "tags": [
+      "fast_play",
       "bold_fight",
       "boost_combat_2",
-      "damage_plus_1",
-      "fast_play"
+      "damage_plus_1"
     ]
   },
   {
@@ -176,8 +176,8 @@
     "name": "\"Get over here!\"",
     "text": "Fast. Play during any [free] window.\n<b>Engage. Fight.</b> Choose a non-[[Elite]] enemy up to 2 locations away. Move that enemy to your location, engage it, and attack it.",
     "tags": [
-      "elite_unusable",
-      "fast_play"
+      "fast_play",
+      "elite_unusable"
     ]
   },
   {
@@ -238,8 +238,8 @@
     "name": "Taunt",
     "text": "Fast. Play during any [fast] window.\nEngage any number of enemies at your location. For each enemy engaged this way, deal it 1 damage and draw 1 card.",
     "tags": [
-      "draw_player_1",
-      "fast_play"
+      "fast_play",
+      "draw_player_1"
     ]
   },
   {

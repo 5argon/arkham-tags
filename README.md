@@ -32,7 +32,7 @@ Please install [Deno](https://deno.com) to use the tag transforming script.
 - `sync` : Run every time you are done with working on manually tagging cards in `json/input/pack` to update many files in the project. This includes what goes into the `build` command.
 - `build` : Build the `dist` which package consumer access.
 
-## Tagging Workflow
+## How to help me tag
 
 Clone this repository, then open `.vscode/tagging.code-workspace` in Visual Studio Code to get the JSON schema working, and turn on "View: Toggle Word Wrap" so card text wraps to new line even though they are actually one long line. "View: Toggle Zen Mode" is also recommended once you are in the JSON file you want to tag.
 
@@ -46,6 +46,8 @@ If you got the tooling right, each new tags introduced will be underlined, and a
 
 ### Learning available tags
 
+Detailed documentation is available for some commonly used group of tags (has the same prefix) [here](./common-tags.md).
+
 In addition to just reading a list of all available tags in `/json/input/tags.json`, try looking at similar cards that are already tagged and you think should share similar tags to discover what's available for use.
 
 For ease of hand-tagging literally to the text, tags defined are very fine-grained. For example if you see "[free] Spend 1 resource :", it should use a more specific tag `cost_free_spend_resource` even though the card is technically also `spend_resource`. However there is no `cost_free_spend_resource_1` to use. Some tag offer numerical value because they are common values, such as `gain_resource_1` or `draw_player_1`.
@@ -57,3 +59,5 @@ Post process your work in `input/pack/[pack-name].json` with `sync` script in `p
 In the post processing step, the script adds **additional tags** based on existing tags, using rules defined in `json/input/compound-tags.json`. For example any card with tags starting (prefixed) with `additional_slot_` would automatically get `additional_slot` tag. One can then search for cards that provide any kind of additional slot with that one tag. Person tagging the card also won't have to tag all the more general variations and just use the most specific one.
 
 The `statistics` folder let you analyze where those tags goes to, and further decide to reorganize or remove tags that aren't looking to be too useful.
+
+The sync script also sort tags in the input file alphabetically, with special priority of those usually appear first in the text box (Fast. Fast timing. Uses (X Type). Customizable. Limit X per Y. etc.) to be sorted up top. So you don't have to care about putting tags in the right order.

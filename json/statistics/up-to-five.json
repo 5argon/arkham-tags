@@ -1,36 +1,5 @@
 [
   {
-    "tag": "draw_player",
-    "count": 5,
-    "usages": [
-      {
-        "code": "02008",
-        "name": "Search for the Truth",
-        "pack": "dwl"
-      },
-      {
-        "code": "02019",
-        "name": "Taunt",
-        "pack": "dwl"
-      },
-      {
-        "code": "01531",
-        "name": "Old Book of Lore",
-        "pack": "rcore"
-      },
-      {
-        "code": "01563",
-        "name": "Arcane Initiate",
-        "pack": "rcore"
-      },
-      {
-        "code": "01686",
-        "name": "Old Book of Lore",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
     "tag": "timing_reaction_enters_play",
     "count": 5,
     "usages": [
@@ -62,6 +31,37 @@
     ]
   },
   {
+    "tag": "draw_player",
+    "count": 5,
+    "usages": [
+      {
+        "code": "02008",
+        "name": "Search for the Truth",
+        "pack": "dwl"
+      },
+      {
+        "code": "02019",
+        "name": "Taunt",
+        "pack": "dwl"
+      },
+      {
+        "code": "01531",
+        "name": "Old Book of Lore",
+        "pack": "rcore"
+      },
+      {
+        "code": "01563",
+        "name": "Arcane Initiate",
+        "pack": "rcore"
+      },
+      {
+        "code": "01686",
+        "name": "Old Book of Lore",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
     "tag": "spend_supply",
     "count": 5,
     "usages": [
@@ -71,13 +71,13 @@
         "pack": "dwl"
       },
       {
-        "code": "02116",
-        "name": "Smoking Pipe",
+        "code": "02117",
+        "name": "Painkillers",
         "pack": "dwl"
       },
       {
-        "code": "02117",
-        "name": "Painkillers",
+        "code": "02116",
+        "name": "Smoking Pipe",
         "pack": "dwl"
       },
       {
@@ -221,13 +221,13 @@
     "count": 5,
     "usages": [
       {
-        "code": "02114",
-        "name": "Fire Extinguisher",
+        "code": "02115",
+        "name": "Flare",
         "pack": "dwl"
       },
       {
-        "code": "02115",
-        "name": "Flare",
+        "code": "02114",
+        "name": "Fire Extinguisher",
         "pack": "dwl"
       },
       {
@@ -257,13 +257,13 @@
         "pack": "dwl"
       },
       {
-        "code": "04199",
-        "name": "Premonition",
+        "code": "04195",
+        "name": "Expose Weakness",
         "pack": "tfa"
       },
       {
-        "code": "04195",
-        "name": "Expose Weakness",
+        "code": "04199",
+        "name": "Premonition",
         "pack": "tfa"
       },
       {
@@ -314,6 +314,11 @@
     "count": 5,
     "usages": [
       {
+        "code": "02264",
+        "name": "Strange Solution",
+        "pack": "dwl"
+      },
+      {
         "code": "02262",
         "name": "Strange Solution",
         "pack": "dwl"
@@ -324,17 +329,12 @@
         "pack": "dwl"
       },
       {
-        "code": "02264",
-        "name": "Strange Solution",
-        "pack": "dwl"
-      },
-      {
-        "code": "03192",
+        "code": "03193",
         "name": "Archaic Glyphs",
         "pack": "ptc"
       },
       {
-        "code": "03193",
+        "code": "03192",
         "name": "Archaic Glyphs",
         "pack": "ptc"
       }
@@ -386,6 +386,11 @@
         "pack": "eote"
       },
       {
+        "code": "08069",
+        "name": "Grounded",
+        "pack": "eote"
+      },
+      {
         "code": "08040",
         "name": "Scientific Theory",
         "pack": "eote"
@@ -393,11 +398,6 @@
       {
         "code": "08056",
         "name": "Moxie",
-        "pack": "eote"
-      },
-      {
-        "code": "08069",
-        "name": "Grounded",
         "pack": "eote"
       },
       {
@@ -479,13 +479,13 @@
     "count": 5,
     "usages": [
       {
-        "code": "09035",
-        "name": "Handcuffs",
+        "code": "09067",
+        "name": "\"I'll take that!\"",
         "pack": "tsk"
       },
       {
-        "code": "09067",
-        "name": "\"I'll take that!\"",
+        "code": "09035",
+        "name": "Handcuffs",
         "pack": "tsk"
       },
       {
@@ -506,33 +506,33 @@
     ]
   },
   {
-    "tag": "disengage",
+    "tag": "stat_add_agility_for_investigate",
     "count": 5,
     "usages": [
       {
-        "code": "01550",
-        "name": "Elusive",
+        "code": "09074",
+        "name": "Breaking and Entering",
+        "pack": "tsk"
+      },
+      {
+        "code": "01687",
+        "name": "Lockpicks",
         "pack": "rcore"
       },
       {
-        "code": "01555",
-        "name": "Cat Burglar",
-        "pack": "rcore"
+        "code": "60305",
+        "name": "Lockpicks",
+        "pack": "win"
       },
       {
-        "code": "01581",
-        "name": "Survival Instinct",
-        "pack": "rcore"
-      },
-      {
-        "code": "03028",
-        "name": "Stealth",
+        "code": "03031",
+        "name": "Lockpicks",
         "pack": "ptc"
       },
       {
-        "code": "03199",
-        "name": "Snare Trap",
-        "pack": "ptc"
+        "code": "07114",
+        "name": "Breaking and Entering",
+        "pack": "tic"
       }
     ]
   },
@@ -563,6 +563,37 @@
       {
         "code": "03265",
         "name": "Guidance",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "disengage",
+    "count": 5,
+    "usages": [
+      {
+        "code": "01550",
+        "name": "Elusive",
+        "pack": "rcore"
+      },
+      {
+        "code": "01555",
+        "name": "Cat Burglar",
+        "pack": "rcore"
+      },
+      {
+        "code": "01581",
+        "name": "Survival Instinct",
+        "pack": "rcore"
+      },
+      {
+        "code": "03199",
+        "name": "Snare Trap",
+        "pack": "ptc"
+      },
+      {
+        "code": "03028",
+        "name": "Stealth",
         "pack": "ptc"
       }
     ]
@@ -618,13 +649,13 @@
         "pack": "ptc"
       },
       {
-        "code": "03115",
-        "name": "Plucky",
+        "code": "03113",
+        "name": "Grounded",
         "pack": "ptc"
       },
       {
-        "code": "03113",
-        "name": "Grounded",
+        "code": "03115",
+        "name": "Plucky",
         "pack": "ptc"
       }
     ]
@@ -649,13 +680,70 @@
         "pack": "ptc"
       },
       {
-        "code": "03115",
-        "name": "Plucky",
+        "code": "03113",
+        "name": "Grounded",
         "pack": "ptc"
       },
       {
-        "code": "03113",
-        "name": "Grounded",
+        "code": "03115",
+        "name": "Plucky",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "trait_covenant",
+    "count": 5,
+    "usages": [
+      {
+        "code": "07110",
+        "name": "Sacred Covenant",
+        "pack": "tic"
+      },
+      {
+        "code": "07113",
+        "name": "Blasphemous Covenant",
+        "pack": "tic"
+      },
+      {
+        "code": "07116",
+        "name": "False Covenant",
+        "pack": "tic"
+      },
+      {
+        "code": "07120",
+        "name": "Paradoxical Covenant",
+        "pack": "tic"
+      },
+      {
+        "code": "07122",
+        "name": "Ancient Covenant",
+        "pack": "tic"
+      }
+    ]
+  },
+  {
+    "tag": "discover_clue_your_location_1",
+    "count": 4,
+    "usages": [
+      {
+        "code": "02149",
+        "name": "Art Student",
+        "pack": "dwl"
+      },
+      {
+        "code": "01522",
+        "name": "Evidence!",
+        "pack": "rcore"
+      },
+      {
+        "code": "01537",
+        "name": "Working a Hunch",
+        "pack": "rcore"
+      },
+      {
+        "code": "03037",
+        "name": "Gravedigger's Shovel",
         "pack": "ptc"
       }
     ]
@@ -696,12 +784,12 @@
         "pack": "dwl"
       },
       {
-        "code": "02263",
+        "code": "02264",
         "name": "Strange Solution",
         "pack": "dwl"
       },
       {
-        "code": "02264",
+        "code": "02263",
         "name": "Strange Solution",
         "pack": "dwl"
       },
@@ -821,13 +909,13 @@
     "count": 4,
     "usages": [
       {
-        "code": "02031",
-        "name": "Bind Monster",
+        "code": "02034",
+        "name": "Bait and Switch",
         "pack": "dwl"
       },
       {
-        "code": "02034",
-        "name": "Bait and Switch",
+        "code": "02031",
+        "name": "Bind Monster",
         "pack": "dwl"
       },
       {
@@ -857,12 +945,12 @@
         "pack": "rcore"
       },
       {
-        "code": "01566",
+        "code": "01569",
         "name": "Blinding Light",
         "pack": "rcore"
       },
       {
-        "code": "01569",
+        "code": "01566",
         "name": "Blinding Light",
         "pack": "rcore"
       }
@@ -878,13 +966,13 @@
         "pack": "dwl"
       },
       {
-        "code": "02035",
-        "name": "Peter Sylvestre",
+        "code": "02234",
+        "name": "Dark Horse",
         "pack": "dwl"
       },
       {
-        "code": "02234",
-        "name": "Dark Horse",
+        "code": "02035",
+        "name": "Peter Sylvestre",
         "pack": "dwl"
       },
       {
@@ -1077,32 +1165,6 @@
     ]
   },
   {
-    "tag": "discover_clue_your_location_1",
-    "count": 4,
-    "usages": [
-      {
-        "code": "02149",
-        "name": "Art Student",
-        "pack": "dwl"
-      },
-      {
-        "code": "01522",
-        "name": "Evidence!",
-        "pack": "rcore"
-      },
-      {
-        "code": "01537",
-        "name": "Working a Hunch",
-        "pack": "rcore"
-      },
-      {
-        "code": "03037",
-        "name": "Gravedigger's Shovel",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
     "tag": "duration_until_end_phase",
     "count": 4,
     "usages": [
@@ -1221,13 +1283,13 @@
         "pack": "rcore"
       },
       {
-        "code": "03032",
-        "name": "Alchemical Transmutation",
+        "code": "03192",
+        "name": "Archaic Glyphs",
         "pack": "ptc"
       },
       {
-        "code": "03192",
-        "name": "Archaic Glyphs",
+        "code": "03032",
+        "name": "Alchemical Transmutation",
         "pack": "ptc"
       }
     ]
@@ -1372,12 +1434,12 @@
         "pack": "dwl"
       },
       {
-        "code": "01566",
+        "code": "01569",
         "name": "Blinding Light",
         "pack": "rcore"
       },
       {
-        "code": "01569",
+        "code": "01566",
         "name": "Blinding Light",
         "pack": "rcore"
       },
@@ -1424,6 +1486,11 @@
         "pack": "dwl"
       },
       {
+        "code": "03023",
+        "name": "Ever Vigilant",
+        "pack": "ptc"
+      },
+      {
         "code": "03033",
         "name": "Uncage the Soul",
         "pack": "ptc"
@@ -1431,11 +1498,6 @@
       {
         "code": "03158",
         "name": "Calling in Favors",
-        "pack": "ptc"
-      },
-      {
-        "code": "03023",
-        "name": "Ever Vigilant",
         "pack": "ptc"
       }
     ]
@@ -1507,12 +1569,12 @@
         "pack": "eote"
       },
       {
-        "code": "08043",
+        "code": "08044",
         "name": "Archive of Conduits",
         "pack": "eote"
       },
       {
-        "code": "08044",
+        "code": "08043",
         "name": "Archive of Conduits",
         "pack": "eote"
       }
@@ -1556,37 +1618,6 @@
         "code": "10111",
         "name": "Sparrow Mask",
         "pack": "fhv"
-      }
-    ]
-  },
-  {
-    "tag": "stat_add_agility_for_investigate",
-    "count": 5,
-    "usages": [
-      {
-        "code": "09074",
-        "name": "Breaking and Entering",
-        "pack": "tsk"
-      },
-      {
-        "code": "01687",
-        "name": "Lockpicks",
-        "pack": "rcore"
-      },
-      {
-        "code": "60305",
-        "name": "Lockpicks",
-        "pack": "win"
-      },
-      {
-        "code": "03031",
-        "name": "Lockpicks",
-        "pack": "ptc"
-      },
-      {
-        "code": "07114",
-        "name": "Breaking and Entering",
-        "pack": "tic"
       }
     ]
   },
@@ -1647,13 +1678,13 @@
     "count": 4,
     "usages": [
       {
-        "code": "01578",
-        "name": "Cunning Distraction",
+        "code": "01576",
+        "name": "Stray Cat",
         "pack": "rcore"
       },
       {
-        "code": "01576",
-        "name": "Stray Cat",
+        "code": "01578",
+        "name": "Cunning Distraction",
         "pack": "rcore"
       },
       {
@@ -1678,44 +1709,18 @@
         "pack": "rcore"
       },
       {
-        "code": "03028",
-        "name": "Stealth",
-        "pack": "ptc"
-      },
-      {
         "code": "03108",
         "name": "Anatomical Diagrams",
         "pack": "ptc"
       },
       {
+        "code": "03028",
+        "name": "Stealth",
+        "pack": "ptc"
+      },
+      {
         "code": "03266",
         "name": "Arcane Insight",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "current_sanity_less",
-    "count": 4,
-    "usages": [
-      {
-        "code": "03116",
-        "name": "Say Your Prayers",
-        "pack": "ptc"
-      },
-      {
-        "code": "03117",
-        "name": "Desperate Search",
-        "pack": "ptc"
-      },
-      {
-        "code": "03119",
-        "name": "Run For Your Life",
-        "pack": "ptc"
-      },
-      {
-        "code": "03118",
-        "name": "Reckless Assault",
         "pack": "ptc"
       }
     ]
@@ -1747,33 +1752,28 @@
     ]
   },
   {
-    "tag": "trait_covenant",
-    "count": 5,
+    "tag": "current_sanity_less",
+    "count": 4,
     "usages": [
       {
-        "code": "07110",
-        "name": "Sacred Covenant",
-        "pack": "tic"
+        "code": "03116",
+        "name": "Say Your Prayers",
+        "pack": "ptc"
       },
       {
-        "code": "07113",
-        "name": "Blasphemous Covenant",
-        "pack": "tic"
+        "code": "03117",
+        "name": "Desperate Search",
+        "pack": "ptc"
       },
       {
-        "code": "07116",
-        "name": "False Covenant",
-        "pack": "tic"
+        "code": "03118",
+        "name": "Reckless Assault",
+        "pack": "ptc"
       },
       {
-        "code": "07120",
-        "name": "Paradoxical Covenant",
-        "pack": "tic"
-      },
-      {
-        "code": "07122",
-        "name": "Ancient Covenant",
-        "pack": "tic"
+        "code": "03119",
+        "name": "Run For Your Life",
+        "pack": "ptc"
       }
     ]
   }

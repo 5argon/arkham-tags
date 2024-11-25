@@ -16,22 +16,6 @@
     ]
   },
   {
-    "tag": "initiate_test_intellect_4",
-    "count": 2,
-    "usages": [
-      {
-        "code": "02021",
-        "name": "Strange Solution",
-        "pack": "dwl"
-      },
-      {
-        "code": "09005",
-        "name": "Bonesaw",
-        "pack": "tsk"
-      }
-    ]
-  },
-  {
     "tag": "unidentified",
     "count": 2,
     "usages": [
@@ -44,6 +28,22 @@
         "code": "03025",
         "name": "Archaic Glyphs",
         "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "initiate_test_intellect_4",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02021",
+        "name": "Strange Solution",
+        "pack": "dwl"
+      },
+      {
+        "code": "09005",
+        "name": "Bonesaw",
+        "pack": "tsk"
       }
     ]
   },
@@ -592,27 +592,6 @@
     ]
   },
   {
-    "tag": "trait_ranged",
-    "count": 3,
-    "usages": [
-      {
-        "code": "08087",
-        "name": "Snipe",
-        "pack": "eote"
-      },
-      {
-        "code": "04104",
-        "name": "Marksmanship",
-        "pack": "tfa"
-      },
-      {
-        "code": "10031",
-        "name": "Strong-Armed",
-        "pack": "fhv"
-      }
-    ]
-  },
-  {
     "tag": "uses_starting_9",
     "count": 2,
     "usages": [
@@ -645,6 +624,27 @@
     ]
   },
   {
+    "tag": "trait_ranged",
+    "count": 3,
+    "usages": [
+      {
+        "code": "08087",
+        "name": "Snipe",
+        "pack": "eote"
+      },
+      {
+        "code": "04104",
+        "name": "Marksmanship",
+        "pack": "tfa"
+      },
+      {
+        "code": "10031",
+        "name": "Strong-Armed",
+        "pack": "fhv"
+      }
+    ]
+  },
+  {
     "tag": "gain_resource_10",
     "count": 2,
     "usages": [
@@ -657,22 +657,6 @@
         "code": "50006",
         "name": "Hot Streak",
         "pack": "rt"
-      }
-    ]
-  },
-  {
-    "tag": "initiate_test_willpower_1",
-    "count": 2,
-    "usages": [
-      {
-        "code": "08117",
-        "name": "Earthly Serenity",
-        "pack": "eote"
-      },
-      {
-        "code": "03032",
-        "name": "Alchemical Transmutation",
-        "pack": "ptc"
       }
     ]
   },
@@ -731,6 +715,22 @@
         "code": "10037",
         "name": "Flurry of Blows",
         "pack": "fhv"
+      }
+    ]
+  },
+  {
+    "tag": "initiate_test_willpower_1",
+    "count": 2,
+    "usages": [
+      {
+        "code": "08117",
+        "name": "Earthly Serenity",
+        "pack": "eote"
+      },
+      {
+        "code": "03032",
+        "name": "Alchemical Transmutation",
+        "pack": "ptc"
       }
     ]
   },
@@ -888,13 +888,13 @@
     "count": 2,
     "usages": [
       {
-        "code": "01578",
-        "name": "Cunning Distraction",
+        "code": "01576",
+        "name": "Stray Cat",
         "pack": "rcore"
       },
       {
-        "code": "01576",
-        "name": "Stray Cat",
+        "code": "01578",
+        "name": "Cunning Distraction",
         "pack": "rcore"
       }
     ]
@@ -911,6 +911,54 @@
       {
         "code": "03039",
         "name": "Resourceful",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "timing_fast_would_fail",
+    "count": 2,
+    "usages": [
+      {
+        "code": "01580",
+        "name": "Lucky!",
+        "pack": "rcore"
+      },
+      {
+        "code": "01584",
+        "name": "Lucky!",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "timing_fast_after_evaded",
+    "count": 2,
+    "usages": [
+      {
+        "code": "01583",
+        "name": "Close Call",
+        "pack": "rcore"
+      },
+      {
+        "code": "03195",
+        "name": "Pickpocketing",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "shroud_minus_2",
+    "count": 2,
+    "usages": [
+      {
+        "code": "01587",
+        "name": "Flashlight",
+        "pack": "rcore"
+      },
+      {
+        "code": "03266",
+        "name": "Arcane Insight",
         "pack": "ptc"
       }
     ]
@@ -948,54 +996,6 @@
     ]
   },
   {
-    "tag": "shroud_minus_2",
-    "count": 2,
-    "usages": [
-      {
-        "code": "01587",
-        "name": "Flashlight",
-        "pack": "rcore"
-      },
-      {
-        "code": "03266",
-        "name": "Arcane Insight",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "timing_fast_after_evaded",
-    "count": 2,
-    "usages": [
-      {
-        "code": "01583",
-        "name": "Close Call",
-        "pack": "rcore"
-      },
-      {
-        "code": "03195",
-        "name": "Pickpocketing",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "timing_fast_would_fail",
-    "count": 2,
-    "usages": [
-      {
-        "code": "01580",
-        "name": "Lucky!",
-        "pack": "rcore"
-      },
-      {
-        "code": "01584",
-        "name": "Lucky!",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
     "tag": "succeed_by_4",
     "count": 2,
     "usages": [
@@ -1012,22 +1012,6 @@
     ]
   },
   {
-    "tag": "trait_terror",
-    "count": 2,
-    "usages": [
-      {
-        "code": "52003",
-        "name": "Logical Reasoning",
-        "pack": "rt"
-      },
-      {
-        "code": "03191",
-        "name": "Logical Reasoning",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
     "tag": "trait_tarot",
     "count": 2,
     "usages": [
@@ -1040,6 +1024,22 @@
         "code": "05283",
         "name": "Anna Kaslow",
         "pack": "tcu"
+      }
+    ]
+  },
+  {
+    "tag": "trait_terror",
+    "count": 2,
+    "usages": [
+      {
+        "code": "52003",
+        "name": "Logical Reasoning",
+        "pack": "rt"
+      },
+      {
+        "code": "03191",
+        "name": "Logical Reasoning",
+        "pack": "ptc"
       }
     ]
   },
@@ -1095,13 +1095,13 @@
     "count": 2,
     "usages": [
       {
-        "code": "03263",
-        "name": "On the Hunt",
+        "code": "03022",
+        "name": "\"Let me handle this!\"",
         "pack": "ptc"
       },
       {
-        "code": "03022",
-        "name": "\"Let me handle this!\"",
+        "code": "03263",
+        "name": "On the Hunt",
         "pack": "ptc"
       }
     ]
@@ -1111,13 +1111,29 @@
     "count": 2,
     "usages": [
       {
-        "code": "03149",
-        "name": "Charles Ross, Esq.",
+        "code": "03023",
+        "name": "Ever Vigilant",
         "pack": "ptc"
       },
       {
-        "code": "03023",
-        "name": "Ever Vigilant",
+        "code": "03149",
+        "name": "Charles Ross, Esq.",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "difficulty_decrease_evade_2",
+    "count": 2,
+    "usages": [
+      {
+        "code": "03108",
+        "name": "Anatomical Diagrams",
+        "pack": "ptc"
+      },
+      {
+        "code": "03028",
+        "name": "Stealth",
         "pack": "ptc"
       }
     ]
@@ -1139,33 +1155,17 @@
     ]
   },
   {
-    "tag": "difficulty_decrease_evade_2",
-    "count": 2,
-    "usages": [
-      {
-        "code": "03028",
-        "name": "Stealth",
-        "pack": "ptc"
-      },
-      {
-        "code": "03108",
-        "name": "Anatomical Diagrams",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
     "tag": "boost_combat_x",
     "count": 2,
     "usages": [
       {
-        "code": "03147",
-        "name": "Trench Knife",
+        "code": "03155",
+        "name": "Fight or Flight",
         "pack": "ptc"
       },
       {
-        "code": "03155",
-        "name": "Fight or Flight",
+        "code": "03147",
+        "name": "Trench Knife",
         "pack": "ptc"
       }
     ]

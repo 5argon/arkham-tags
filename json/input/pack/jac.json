@@ -4,8 +4,8 @@
     "name": "Arbiter of Fates",
     "text": "Jacqueline Fine deck only.\n[reaction] When you use Jacqueline Fine's [reaction] ability, exhaust Arbiter of Fates: This use of her ability does not count towards its limit.",
     "tags": [
-      "cost_reaction_exhaust_self",
-      "deck_restriction"
+      "deck_restriction",
+      "cost_reaction_exhaust_self"
     ]
   },
   {
@@ -113,12 +113,12 @@
     "name": "Hypnotic Gaze",
     "text": "Fast. Play when an enemy attacks an investigator at your location.\nCancel that attack. Then, reveal a random token from the chaos bag. If it has a [skull], [cultist], [tablet], [elder_thing], or [auto_fail] symbol, deal the attacking enemy's damage to itself. ",
     "tags": [
+      "fast_play",
       "chaos_reveal_token_auto_fail",
       "chaos_reveal_token_cultist",
       "chaos_reveal_token_elder_thing",
       "chaos_reveal_token_skull",
-      "chaos_reveal_token_tablet",
-      "fast_play"
+      "chaos_reveal_token_tablet"
     ]
   },
   {
@@ -151,12 +151,12 @@
     "name": "Dark Prophecy",
     "text": "Fast. Play when you would reveal a chaos token.\nReveal 5 chaos tokens instead of 1. Choose one of those tokens with a [skull], [cultist], [tablet], [elder_thing], or [auto_fail] symbol to resolve, and ignore the rest. (If no such token is revealed, choose any one of those tokens to resolve, and ignore the rest.)",
     "tags": [
+      "fast_play",
       "chaos_reveal_token_auto_fail",
       "chaos_reveal_token_cultist",
       "chaos_reveal_token_elder_thing",
       "chaos_reveal_token_skull",
-      "chaos_reveal_token_tablet",
-      "fast_play"
+      "chaos_reveal_token_tablet"
     ]
   },
   {
@@ -211,12 +211,12 @@
     "name": "Hypnotic Gaze",
     "text": "Fast. Play when an enemy attacks an investigator at your location.\nCancel that attack. Then, reveal a random token from the chaos bag. If it has a [skull], [cultist], [tablet], [elder_thing], or [auto_fail] symbol, deal damage to the attacking enemy equal to its damage or horror.",
     "tags": [
+      "fast_play",
       "chaos_reveal_token_auto_fail",
       "chaos_reveal_token_cultist",
       "chaos_reveal_token_elder_thing",
       "chaos_reveal_token_skull",
-      "chaos_reveal_token_tablet",
-      "fast_play"
+      "chaos_reveal_token_tablet"
     ]
   },
   {

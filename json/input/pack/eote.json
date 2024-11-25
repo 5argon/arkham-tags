@@ -4,10 +4,10 @@
     "name": "Mechanic's Wrench",
     "text": "Daniela Reyes deck only.\n[fast] Exhaust Mechanic's Wrench: Choose an enemy at your location. That enemy attacks you.\n[action]: <b>Fight.</b> Use this ability only against an enemy that has attacked you since the end of your last turn. You get +2 [combat] for this attack and deal +1 damage for this attack.",
     "tags": [
+      "deck_restriction",
       "bold_fight",
       "boost_combat_2",
-      "damage_plus_1",
-      "deck_restriction"
+      "damage_plus_1"
     ]
   },
   {
@@ -23,10 +23,10 @@
     "name": "Trusty Bullwhip",
     "text": "Fast. Monterey Jack deck only.\n[action]: <b>Fight.</b> This attack uses [agility] instead of [combat]. If this attack succeeds, you may exhaust Trusty Bullwhip to either automatically evade the attacked enemy or deal +1 damage for this attack.",
     "tags": [
-      "bold_fight",
-      "damage_plus_1",
       "deck_restriction",
-      "fast_play"
+      "fast_play",
+      "bold_fight",
+      "damage_plus_1"
     ]
   },
   {
@@ -34,8 +34,8 @@
     "name": "Discipline",
     "text": "Lily Chen deck only. Permanent.\nYou get +1 [willpower].\n[action]: Take 1 direct damage to heal 3 horror, or take 1 direct horror to heal 3 damage. Flip this asset over.",
     "tags": [
-      "boost_willpower_1",
-      "deck_restriction"
+      "deck_restriction",
+      "boost_willpower_1"
     ]
   },
   {
@@ -52,8 +52,8 @@
     "name": "Discipline",
     "text": "Lily Chen deck only. Permanent.\nYou get +1 [intellect].\n[action]: If you have fewer than 5 cards in your hand: Draw cards until there are 5 cards in your hand. Flip this asset over.",
     "tags": [
-      "boost_intellect_1",
-      "deck_restriction"
+      "deck_restriction",
+      "boost_intellect_1"
     ]
   },
   {
@@ -70,8 +70,8 @@
     "name": "Discipline",
     "text": "Lily Chen deck only. Permanent.\nYou get +1 [combat].\n[action]: You get +5 skill value for the next skill test you perform this turn. After that skill test ends, flip this asset over. This action does not provoke attacks of opportunity.",
     "tags": [
-      "boost_combat_1",
-      "deck_restriction"
+      "deck_restriction",
+      "boost_combat_1"
     ]
   },
   {
@@ -88,8 +88,8 @@
     "name": "Discipline",
     "text": "Lily Chen deck only. Permanent.\nYou get +1 [agility].\n[action]: One at a time, take up to 3 different fight or evade actions. Flip this asset over. This action does not provoke attacks of opportunity.",
     "tags": [
-      "boost_agility_1",
-      "deck_restriction"
+      "deck_restriction",
+      "boost_agility_1"
     ]
   },
   {
@@ -186,9 +186,9 @@
     "name": "Combat Training",
     "text": "Fast. Limit 1 [[Composure]] in play.\nYou get +1 [combat] and +1 [agility].\nNon-direct damage/horror must be assigned to Combat Training before it can be assigned to your investigator card.\n[fast] Spend 1 resource: You get +1 [combat] or +1 [agility] for this skill test.",
     "tags": [
+      "fast_play",
       "boost_agility_1",
       "boost_combat_1",
-      "fast_play",
       "trait_composure"
     ]
   },
@@ -197,8 +197,8 @@
     "name": "On the Hunt",
     "text": "Fast. Play when you would draw an encounter card during the mythos phase.\nInstead, search the encounter deck for an enemy, spawn it engaged with you <i>(instead of its normal spawn location)</i>, attach On the Hunt to it, and shuffle the encounter deck.\n[reaction] When you defeat attached enemy: Gain 3 resources.",
     "tags": [
-      "engage_with_you",
       "fast_play",
+      "engage_with_you",
       "gain_resource_3"
     ]
   },
@@ -227,8 +227,8 @@
     "name": "Forced Learning",
     "text": "Permanent. Limit 1 per deck. Purchase at deck creation.\nIncrease your deck size by 15.\nDuring each upkeep phase, instead of drawing 1 card, draw 2 cards and discard 1 of them.",
     "tags": [
-      "draw_player_2",
-      "limit_1_per_deck"
+      "limit_1_per_deck",
+      "draw_player_2"
     ]
   },
   {
@@ -244,8 +244,8 @@
     "name": "Archive of Conduits",
     "text": "Limit 1 per deck. As an additional cost to play this asset, place 1 resource on 4 different locations, as leylines.\n[reaction] After you successfully investigate a location with a leyline, exhaust this asset: Move that leyline onto this asset. Then, if there are 4 leylines on it, discard it, take its leylines as resources, and record in your Campaign Log that \"you have identified the gateway.\"",
     "tags": [
-      "cost_reaction_exhaust_self",
-      "limit_1_per_deck"
+      "limit_1_per_deck",
+      "cost_reaction_exhaust_self"
     ]
   },
   {
@@ -306,9 +306,9 @@
     "name": "Scientific Theory",
     "text": "Fast. Limit 1 [[Composure]] in play.\nYou get +1 [intellect] and +1 [combat].\nNon-direct damage/horror must be assigned to Scientific Theory before it can be assigned to your investigator card.\n[fast] Spend 1 resource: You get +1 [intellect] or +1 [combat] for this skill test.",
     "tags": [
+      "fast_play",
       "boost_combat_1",
       "boost_intellect_1",
-      "fast_play",
       "trait_composure"
     ]
   },
@@ -317,10 +317,10 @@
     "name": "Archive of Conduits",
     "text": "Researched. Uses (4 leylines). Limit 1 per deck.\n[fast]: Move 1 leyline from this asset to a non-[[Elite]] enemy.\n[action]: Choose an investigator, and an enemy with a leyline at a revealed location. That investigator moves to that location. You may remove the leyline to deal 1 damage to that enemy.",
     "tags": [
+      "limit_1_per_deck",
       "uses_type_leylines",
       "uses_starting_4",
-      "elite_unusable",
-      "limit_1_per_deck"
+      "elite_unusable"
     ]
   },
   {
@@ -328,9 +328,9 @@
     "name": "Archive of Conduits",
     "text": "Researched. Uses (4 leylines). Limit 1 per deck.\n[fast]: Move 1 leyline from this asset to a revealed location.\n[action]: Choose an investigator and a revealed location with a leyline. That investigator moves to that location. You may remove the leyline to have them take an investigate action.",
     "tags": [
+      "limit_1_per_deck",
       "uses_type_leylines",
-      "uses_starting_4",
-      "limit_1_per_deck"
+      "uses_starting_4"
     ]
   },
   {
@@ -338,10 +338,10 @@
     "name": "Archive of Conduits",
     "text": "Researched. Uses (4 leylines). Limit 1 per deck.\n[fast]: Move 1 leyline from this asset to a non-[[Elite]] enemy.\n[action]: Choose an investigator engaged with an enemy with a leyline. That investigator disengages from that enemy and moves to a connecting location. You may remove the leyline to automatically evade that enemy. This action does not provoke attacks of opportunity.",
     "tags": [
+      "limit_1_per_deck",
       "uses_type_leylines",
       "uses_starting_4",
-      "elite_unusable",
-      "limit_1_per_deck"
+      "elite_unusable"
     ]
   },
   {
@@ -349,11 +349,11 @@
     "name": "Archive of Conduits",
     "text": "Researched. Uses (4 leylines). Limit 1 per deck.\n[fast]: Move 1 leyline from this asset to an investigator.\n[action]: Choose an investigator with a leyline. That investigator draws 1 card and heals 1 damage or 1 horror. You may remove the leyline to have them instead draw 2 cards and heal 2 damage or 2 horror.",
     "tags": [
+      "limit_1_per_deck",
       "uses_type_leylines",
       "uses_starting_4",
       "draw_player_1",
-      "draw_player_2",
-      "limit_1_per_deck"
+      "draw_player_2"
     ]
   },
   {
@@ -444,8 +444,8 @@
     "name": "Money Talks",
     "text": "Fast. Play when an investigator at any location initiates a skill test.\nInstead of the skill type indicated for this test ([willpower], [intellect], [combat], or [agility]), this is a resource skill test. The performing investigator's base skill value for this test is equal to half the number of resources in your resource pool (rounded down). Draw 1 card.",
     "tags": [
-      "draw_player_1",
-      "fast_play"
+      "fast_play",
+      "draw_player_1"
     ]
   },
   {
@@ -461,9 +461,9 @@
     "name": "Moxie",
     "text": "Fast. Limit 1 [[Composure]] in play.\nYou get +1 [willpower] and +1 [agility].\nNon-direct damage/horror must be assigned to Moxie before it can be assigned to your investigator card.\n[fast] Spend 1 resource: You get +1 [willpower] or +1 [agility] for this skill test.",
     "tags": [
+      "fast_play",
       "boost_agility_1",
       "boost_willpower_1",
-      "fast_play",
       "trait_composure"
     ]
   },
@@ -648,8 +648,8 @@
     "name": "Blood Will Have Blood",
     "text": "Fast. Play after an enemy attacks you. Max 1 per attack.\nDamage/horror from this attack cannot be assigned to [[Ally]] assets. For each point of damage and/or horror you took from this attack, draw 1 card.",
     "tags": [
-      "draw_player_1",
       "fast_play",
+      "draw_player_1",
       "trait_ally"
     ]
   },
@@ -671,9 +671,9 @@
     "name": "Plucky",
     "text": "Fast. Limit 1 [[Composure]] in play.\nYou get +1 [willpower] and +1 [intellect].\nNon-direct damage/horror must be assigned to Plucky before it can be assigned to your investigator card.\n[fast] Spend 1 resource: You get +1 [willpower] or +1 [intellect] for this skill test.",
     "tags": [
+      "fast_play",
       "boost_intellect_1",
       "boost_willpower_1",
-      "fast_play",
       "trait_composure"
     ]
   },
@@ -682,8 +682,8 @@
     "name": "Fend Off",
     "text": "Fast. Play when a non-[[Elite]] enemy spawns at your location.\nThat enemy attacks you. Then, automatically evade that enemy and attach Fend Off to it.\nAttached enemy cannot ready.",
     "tags": [
-      "elite_unusable",
-      "fast_play"
+      "fast_play",
+      "elite_unusable"
     ]
   },
   {
@@ -883,8 +883,8 @@
     "name": "Protecting the Anirniq",
     "text": "Fast. Play after an [[Ally]] asset at your location is discarded by a card effect or is defeated.\nEither return that asset to its owner's hand, or its owner draws 3 cards.",
     "tags": [
-      "draw_player_3",
       "fast_play",
+      "draw_player_3",
       "trait_ally"
     ]
   },
@@ -934,8 +934,8 @@
     "name": "Ice Pick",
     "text": "Fast.\n[fast] During a skill test while fighting or investigating, exhaust Ice Pick: You get +1 skill value for this test. If you succeed, you may discard Ice Pick to have this attack deal +1 damage <i>(if you are fighting)</i>, or to discover 1 additional clue at your location <i>(if you are investigating)</i>.",
     "tags": [
-      "damage_plus_1",
-      "fast_play"
+      "fast_play",
+      "damage_plus_1"
     ]
   },
   {
@@ -983,8 +983,8 @@
     "name": "\"Hit me!\"",
     "text": "Fast. Play after you reveal a chaos token during a skill test.\nReveal an additional chaos token, switching its \"-\" to a \"+\". If that chaos token is a [skull] token, you automatically fail.",
     "tags": [
-      "chaos_reveal_token_skull",
-      "fast_play"
+      "fast_play",
+      "chaos_reveal_token_skull"
     ]
   },
   {
@@ -992,8 +992,8 @@
     "name": "Unscrupulous Loan",
     "text": "Limit 1 per investigator. Cannot leave play.\n[reaction] After you play Unscrupulous Loan: Gain 10 resources.\n<b>Forced</b> - When the game ends or you are eliminated, if you have fewer than 10 resources in your resource pool: Exile Unscrupulous Loan.",
     "tags": [
-      "gain_resource_10",
-      "limit_1_per_investigator"
+      "limit_1_per_investigator",
+      "gain_resource_10"
     ]
   },
   {
@@ -1001,8 +1001,8 @@
     "name": "Precious Memento",
     "text": "Limit 1 Precious Memento <i>(From a Former Life)</i> per deck.\n[reaction] After you fail a skill test by 2 or more, exhaust Precious Memento: Heal 1 damage from it.\n[reaction] After you succeed at a skill test by 2 or more, exhaust Precious Memento: Heal 1 horror from it.",
     "tags": [
-      "cost_reaction_exhaust_self",
-      "limit_1_per_deck"
+      "limit_1_per_deck",
+      "cost_reaction_exhaust_self"
     ]
   },
   {
@@ -1010,8 +1010,8 @@
     "name": "Precious Memento",
     "text": "Limit 1 Precious Memento <i>(From a Future Life)</i> per deck.\n[reaction] After you fail a skill test by 2 or more, exhaust Precious Memento: Heal 1 horror from it.\n[reaction] After you succeed at a skill test by 2 or more, exhaust Precious Memento: Heal 1 damage from it.",
     "tags": [
-      "cost_reaction_exhaust_self",
-      "limit_1_per_deck"
+      "limit_1_per_deck",
+      "cost_reaction_exhaust_self"
     ]
   },
   {
