@@ -1,5 +1,21 @@
 [
   {
+    "tag": "spend_ammo",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02010",
+        "name": "Jenny's Twin .45s",
+        "pack": "dwl"
+      },
+      {
+        "code": "03304",
+        "name": "\"Eat lead!\"",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
     "tag": "result_attack_fail",
     "count": 2,
     "usages": [
@@ -60,22 +76,6 @@
         "code": "01535",
         "name": "Medical Texts",
         "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "boost_any_1",
-    "count": 2,
-    "usages": [
-      {
-        "code": "02029",
-        "name": "Ritual Candles",
-        "pack": "dwl"
-      },
-      {
-        "code": "03113",
-        "name": "Grounded",
-        "pack": "ptc"
       }
     ]
   },
@@ -272,6 +272,38 @@
     ]
   },
   {
+    "tag": "boost_intellect_2_investigate",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02155",
+        "name": "Newspaper",
+        "pack": "dwl"
+      },
+      {
+        "code": "03313",
+        "name": "Newspaper",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "current_clue_zero",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02155",
+        "name": "Newspaper",
+        "pack": "dwl"
+      },
+      {
+        "code": "03313",
+        "name": "Newspaper",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
     "tag": "at_end_of_round",
     "count": 2,
     "usages": [
@@ -284,6 +316,22 @@
         "code": "02270",
         "name": "A Chance Encounter",
         "pack": "dwl"
+      }
+    ]
+  },
+  {
+    "tag": "duration_enemy_phase",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02156",
+        "name": "Lure",
+        "pack": "dwl"
+      },
+      {
+        "code": "03314",
+        "name": "Infighting",
+        "pack": "ptc"
       }
     ]
   },
@@ -384,6 +432,22 @@
     ]
   },
   {
+    "tag": "draw_replace_self",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02194",
+        "name": "Emergency Cache",
+        "pack": "dwl"
+      },
+      {
+        "code": "01693",
+        "name": "Emergency Cache",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
     "tag": "trait_monster",
     "count": 2,
     "usages": [
@@ -400,38 +464,6 @@
     ]
   },
   {
-    "tag": "boost_willpower_2_investigate",
-    "count": 2,
-    "usages": [
-      {
-        "code": "02233",
-        "name": "Rite of Seeking",
-        "pack": "dwl"
-      },
-      {
-        "code": "01689",
-        "name": "Rite of Seeking",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "end_your_turn",
-    "count": 2,
-    "usages": [
-      {
-        "code": "02233",
-        "name": "Rite of Seeking",
-        "pack": "dwl"
-      },
-      {
-        "code": "01689",
-        "name": "Rite of Seeking",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
     "tag": "current_resource_zero",
     "count": 2,
     "usages": [
@@ -443,22 +475,6 @@
       {
         "code": "03198",
         "name": "Madame Labranche",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "skill_gains_willpower_wild",
-    "count": 2,
-    "usages": [
-      {
-        "code": "02260",
-        "name": "Leadership",
-        "pack": "dwl"
-      },
-      {
-        "code": "03235",
-        "name": "Torrent of Power",
         "pack": "ptc"
       }
     ]
@@ -544,6 +560,22 @@
     ]
   },
   {
+    "tag": "boost_willpower_2_investigate",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02233",
+        "name": "Rite of Seeking",
+        "pack": "dwl"
+      },
+      {
+        "code": "01689",
+        "name": "Rite of Seeking",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
     "tag": "trait_footwear",
     "count": 2,
     "usages": [
@@ -624,27 +656,6 @@
     ]
   },
   {
-    "tag": "trait_ranged",
-    "count": 3,
-    "usages": [
-      {
-        "code": "08087",
-        "name": "Snipe",
-        "pack": "eote"
-      },
-      {
-        "code": "04104",
-        "name": "Marksmanship",
-        "pack": "tfa"
-      },
-      {
-        "code": "10031",
-        "name": "Strong-Armed",
-        "pack": "fhv"
-      }
-    ]
-  },
-  {
     "tag": "gain_resource_10",
     "count": 2,
     "usages": [
@@ -657,6 +668,22 @@
         "code": "50006",
         "name": "Hot Streak",
         "pack": "rt"
+      }
+    ]
+  },
+  {
+    "tag": "initiate_test_willpower_1",
+    "count": 2,
+    "usages": [
+      {
+        "code": "08117",
+        "name": "Earthly Serenity",
+        "pack": "eote"
+      },
+      {
+        "code": "03032",
+        "name": "Alchemical Transmutation",
+        "pack": "ptc"
       }
     ]
   },
@@ -689,69 +716,6 @@
         "code": "09065",
         "name": "Hidden Pocket",
         "pack": "tsk"
-      }
-    ]
-  },
-  {
-    "tag": "trait_melee",
-    "count": 4,
-    "usages": [
-      {
-        "code": "08122",
-        "name": "Bruiser",
-        "pack": "eote"
-      },
-      {
-        "code": "09027",
-        "name": "Grievous Wound",
-        "pack": "tsk"
-      },
-      {
-        "code": "10031",
-        "name": "Strong-Armed",
-        "pack": "fhv"
-      },
-      {
-        "code": "10037",
-        "name": "Flurry of Blows",
-        "pack": "fhv"
-      }
-    ]
-  },
-  {
-    "tag": "initiate_test_willpower_1",
-    "count": 2,
-    "usages": [
-      {
-        "code": "08117",
-        "name": "Earthly Serenity",
-        "pack": "eote"
-      },
-      {
-        "code": "03032",
-        "name": "Alchemical Transmutation",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "stat_add_willpower_for_investigate",
-    "count": 3,
-    "usages": [
-      {
-        "code": "06117",
-        "name": "Read the Signs",
-        "pack": "tde"
-      },
-      {
-        "code": "09048",
-        "name": "Map the Area",
-        "pack": "tsk"
-      },
-      {
-        "code": "10101",
-        "name": "Read the Signs",
-        "pack": "fhv"
       }
     ]
   },
@@ -804,22 +768,6 @@
     ]
   },
   {
-    "tag": "soak_benefit_damage",
-    "count": 2,
-    "usages": [
-      {
-        "code": "01521",
-        "name": "Guard Dog",
-        "pack": "rcore"
-      },
-      {
-        "code": "01528",
-        "name": "Beat Cop",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
     "tag": "aoe_damage",
     "count": 2,
     "usages": [
@@ -852,6 +800,38 @@
     ]
   },
   {
+    "tag": "card_range_deck",
+    "count": 2,
+    "usages": [
+      {
+        "code": "01532",
+        "name": "Research Librarian",
+        "pack": "rcore"
+      },
+      {
+        "code": "03307",
+        "name": "No Stone Unturned",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "exhausted_enemy",
+    "count": 2,
+    "usages": [
+      {
+        "code": "01552",
+        "name": "Sneak Attack",
+        "pack": "rcore"
+      },
+      {
+        "code": "03237",
+        "name": "Waylay",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
     "tag": "chaos_modifier",
     "count": 2,
     "usages": [
@@ -864,6 +844,22 @@
         "code": "01692",
         "name": "Eucatastrophe",
         "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "enters_play",
+    "count": 2,
+    "usages": [
+      {
+        "code": "01563",
+        "name": "Arcane Initiate",
+        "pack": "rcore"
+      },
+      {
+        "code": "03271",
+        "name": "Arcane Initiate",
+        "pack": "ptc"
       }
     ]
   },
@@ -884,6 +880,38 @@
     ]
   },
   {
+    "tag": "chaos_resolve_choose",
+    "count": 2,
+    "usages": [
+      {
+        "code": "01571",
+        "name": "Grotesque Statue",
+        "pack": "rcore"
+      },
+      {
+        "code": "03304",
+        "name": "\"Eat lead!\"",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "chaos_reveal_more",
+    "count": 2,
+    "usages": [
+      {
+        "code": "01571",
+        "name": "Grotesque Statue",
+        "pack": "rcore"
+      },
+      {
+        "code": "03304",
+        "name": "\"Eat lead!\"",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
     "tag": "testless_evade",
     "count": 2,
     "usages": [
@@ -896,22 +924,6 @@
         "code": "01578",
         "name": "Cunning Distraction",
         "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "to_hand_from_discard",
-    "count": 2,
-    "usages": [
-      {
-        "code": "01573",
-        "name": "Scavenging",
-        "pack": "rcore"
-      },
-      {
-        "code": "03039",
-        "name": "Resourceful",
-        "pack": "ptc"
       }
     ]
   },
@@ -948,6 +960,22 @@
     ]
   },
   {
+    "tag": "chaos_do_not_reveal",
+    "count": 2,
+    "usages": [
+      {
+        "code": "01585",
+        "name": "Will to Survive",
+        "pack": "rcore"
+      },
+      {
+        "code": "03312",
+        "name": "Seal of the Elder Sign",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
     "tag": "shroud_minus_2",
     "count": 2,
     "usages": [
@@ -959,22 +987,6 @@
       {
         "code": "03266",
         "name": "Arcane Insight",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "exhausted_enemy",
-    "count": 2,
-    "usages": [
-      {
-        "code": "01552",
-        "name": "Sneak Attack",
-        "pack": "rcore"
-      },
-      {
-        "code": "03237",
-        "name": "Waylay",
         "pack": "ptc"
       }
     ]
@@ -996,6 +1008,22 @@
     ]
   },
   {
+    "tag": "chaos_treat_as_elder_sign",
+    "count": 2,
+    "usages": [
+      {
+        "code": "01692",
+        "name": "Eucatastrophe",
+        "pack": "rcore"
+      },
+      {
+        "code": "03312",
+        "name": "Seal of the Elder Sign",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
     "tag": "succeed_by_4",
     "count": 2,
     "usages": [
@@ -1008,22 +1036,6 @@
         "code": "60331",
         "name": "Beretta M1918",
         "pack": "win"
-      }
-    ]
-  },
-  {
-    "tag": "trait_tarot",
-    "count": 2,
-    "usages": [
-      {
-        "code": "54012",
-        "name": "Moon Pendant",
-        "pack": "rt"
-      },
-      {
-        "code": "05283",
-        "name": "Anna Kaslow",
-        "pack": "tcu"
       }
     ]
   },
@@ -1044,33 +1056,18 @@
     ]
   },
   {
-    "tag": "initiate_test_intellect_x",
-    "count": 5,
+    "tag": "trait_tarot",
+    "count": 2,
     "usages": [
       {
-        "code": "04027",
-        "name": "Eavesdrop",
-        "pack": "tfa"
+        "code": "54012",
+        "name": "Moon Pendant",
+        "pack": "rt"
       },
       {
-        "code": "04195",
-        "name": "Expose Weakness",
-        "pack": "tfa"
-      },
-      {
-        "code": "10057",
-        "name": "Confound",
-        "pack": "fhv"
-      },
-      {
-        "code": "10073",
-        "name": "Stir the Pot",
-        "pack": "fhv"
-      },
-      {
-        "code": "10083",
-        "name": "Stir the Pot",
-        "pack": "fhv"
+        "code": "05283",
+        "name": "Anna Kaslow",
+        "pack": "tcu"
       }
     ]
   },
@@ -1086,54 +1083,6 @@
       {
         "code": "03033",
         "name": "Uncage the Soul",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "timing_fast_after_draw_encounter",
-    "count": 2,
-    "usages": [
-      {
-        "code": "03022",
-        "name": "\"Let me handle this!\"",
-        "pack": "ptc"
-      },
-      {
-        "code": "03263",
-        "name": "On the Hunt",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "discount_1",
-    "count": 2,
-    "usages": [
-      {
-        "code": "03023",
-        "name": "Ever Vigilant",
-        "pack": "ptc"
-      },
-      {
-        "code": "03149",
-        "name": "Charles Ross, Esq.",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "difficulty_decrease_evade_2",
-    "count": 2,
-    "usages": [
-      {
-        "code": "03108",
-        "name": "Anatomical Diagrams",
-        "pack": "ptc"
-      },
-      {
-        "code": "03028",
-        "name": "Stealth",
         "pack": "ptc"
       }
     ]
@@ -1155,17 +1104,129 @@
     ]
   },
   {
+    "tag": "difficulty_decrease_evade_2",
+    "count": 2,
+    "usages": [
+      {
+        "code": "03028",
+        "name": "Stealth",
+        "pack": "ptc"
+      },
+      {
+        "code": "03108",
+        "name": "Anatomical Diagrams",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "remote_move",
+    "count": 2,
+    "usages": [
+      {
+        "code": "03034",
+        "name": "Astral Travel",
+        "pack": "ptc"
+      },
+      {
+        "code": "03310",
+        "name": "Cheat Death",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
     "tag": "boost_combat_x",
     "count": 2,
     "usages": [
       {
-        "code": "03155",
-        "name": "Fight or Flight",
+        "code": "03147",
+        "name": "Trench Knife",
         "pack": "ptc"
       },
       {
+        "code": "03155",
+        "name": "Fight or Flight",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "engage_related",
+    "count": 2,
+    "usages": [
+      {
         "code": "03147",
         "name": "Trench Knife",
+        "pack": "ptc"
+      },
+      {
+        "code": "03272",
+        "name": "\"Not without a fight!\"",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "discount_1",
+    "count": 2,
+    "usages": [
+      {
+        "code": "03023",
+        "name": "Ever Vigilant",
+        "pack": "ptc"
+      },
+      {
+        "code": "03149",
+        "name": "Charles Ross, Esq.",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "timing_fast_after_draw_encounter",
+    "count": 2,
+    "usages": [
+      {
+        "code": "03022",
+        "name": "\"Let me handle this!\"",
+        "pack": "ptc"
+      },
+      {
+        "code": "03263",
+        "name": "On the Hunt",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "additional_clue",
+    "count": 2,
+    "usages": [
+      {
+        "code": "03192",
+        "name": "Archaic Glyphs",
+        "pack": "ptc"
+      },
+      {
+        "code": "03313",
+        "name": "Newspaper",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "skill_gains_willpower",
+    "count": 2,
+    "usages": [
+      {
+        "code": "03235",
+        "name": "Torrent of Power",
+        "pack": "ptc"
+      },
+      {
+        "code": "03272",
+        "name": "\"Not without a fight!\"",
         "pack": "ptc"
       }
     ]
@@ -1183,6 +1244,70 @@
         "code": "07109",
         "name": "Righteous Hunt",
         "pack": "tic"
+      }
+    ]
+  },
+  {
+    "tag": "boost_intellect_3",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02189",
+        "name": "Streetwise",
+        "pack": "dwl"
+      },
+      {
+        "code": "10042",
+        "name": "Microscope",
+        "pack": "fhv"
+      }
+    ]
+  },
+  {
+    "tag": "initiate_test_agility_x",
+    "count": 2,
+    "usages": [
+      {
+        "code": "03237",
+        "name": "Waylay",
+        "pack": "ptc"
+      },
+      {
+        "code": "10062",
+        "name": "Bianca \"Die Katz\"",
+        "pack": "fhv"
+      }
+    ]
+  },
+  {
+    "tag": "trait_science",
+    "count": 2,
+    "usages": [
+      {
+        "code": "10051",
+        "name": "Well-Funded",
+        "pack": "fhv"
+      },
+      {
+        "code": "10054",
+        "name": "Fine Tuning",
+        "pack": "fhv"
+      }
+    ]
+  },
+  {
+    "tag": "trait_rot",
+    "count": 2,
+    "usages": [
+      {
+        "code": "10085",
+        "name": "Rod of Carnamagos",
+        "pack": "fhv"
+      },
+      {
+        "code": "10098",
+        "name": "Rod of Carnamagos",
+        "pack": "fhv"
       }
     ]
   }

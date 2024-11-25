@@ -911,7 +911,8 @@
     "name": "Torrent of Power",
     "text": "As an additional cost to commit Torrent of Power to a skill test, spend up to 3 charges from among assets you control.\nFor each charge spent in this way, Torrent of Power gains [willpower] [wild].",
     "tags": [
-      "skill_gains_willpower_wild",
+      "skill_gains_wild",
+      "skill_gains_willpower",
       "uses_manip_charge_spend"
     ]
   },
@@ -1052,8 +1053,10 @@
     "name": "St. Hubert's Key",
     "text": "You get +1 [willpower], +1 [intellect], and -2 sanity.\n[reaction] When you would be defeated by horror, discard St. Hubert's Key: Immediately heal 2 horror.",
     "tags": [
-      "boost_intellect_1",
-      "boost_willpower_1"
+      "boost_intellect_1_passive",
+      "boost_willpower_1_passive",
+      "current_sanity",
+      "timing_reaction_defeated_horror"
     ]
   },
   {
@@ -1062,6 +1065,9 @@
     "text": "Fast. Play when an investigator at any location draws a non-weakness treachery card.\nCancel that card's revelation effect. Then, take 1 horror.",
     "tags": [
       "fast_play",
+      "timing_fast_when_draw_treachery",
+      "any_investigator",
+      "cancel_revelation",
       "take_horror"
     ]
   },
@@ -1070,7 +1076,13 @@
     "name": "Arcane Initiate",
     "text": "<b>Forced</b> - After Arcane Initiate enters play: Place 1 doom or 2 horror on it.\n[free] Exhaust Arcane Initiate: Search the top 3 cards of your deck for a [[Spell]] card and draw it. Shuffle your deck.",
     "tags": [
+      "card_range_3",
       "cost_free_exhaust_self",
+      "doom_add",
+      "draw_player",
+      "enters_play",
+      "search_player",
+      "shuffle_player",
       "trait_spell"
     ]
   },
@@ -1079,7 +1091,11 @@
     "name": "\"Not without a fight!\"",
     "text": "Commit to a skill test only if you are engaged with an enemy.\nFor each enemy engaged with you, \"Not without a fight!\" gains [willpower] [combat] [agility].",
     "tags": [
-      "engage_with_you"
+      "engage_related",
+      "engage_with_you",
+      "skill_gains_agility",
+      "skill_gains_combat",
+      "skill_gains_willpower"
     ]
   },
   {
@@ -1087,6 +1103,7 @@
     "name": "True Survivor",
     "text": "Return 3 [[Innate]] skills from your discard pile to your hand.",
     "tags": [
+      "to_hand_from_discard",
       "trait_innate"
     ]
   },
@@ -1096,6 +1113,10 @@
     "text": "Fast. Play when you activate the <b>Fight</b> ability on a [[Firearm]] asset.\nYou may spend X additional ammo tokens from that asset. When you reveal chaos tokens for this attack, reveal X additional chaos tokens. Choose one to resolve and ignore the rest.",
     "tags": [
       "fast_play",
+      "timing_fast_when_fight",
+      "chaos_resolve_choose",
+      "chaos_reveal_more",
+      "spend_ammo",
       "trait_firearm"
     ]
   },
@@ -1104,7 +1125,11 @@
     "name": "Armor of Ardennes",
     "text": "[reaction] When damage is assigned to Armor of Ardennes, exhaust Armor of Ardennes: Cancel 1 of that damage.",
     "tags": [
-      "cost_reaction_exhaust_self"
+      "cancel_damage",
+      "cost_reaction_exhaust_self",
+      "cost_reaction_exhaust_self",
+      "soak_benefit_damage",
+      "timing_reaction_when_damage_assigned"
     ]
   },
   {
@@ -1112,6 +1137,9 @@
     "name": "Eidetic Memory",
     "text": "Play Eidetic Memory as an exact copy of an [[Insight]] event in any investigator's discard pile <i>(including its resource cost)</i>. Remove that event from the game. Remove Eidetic Memory from the game instead of discarding it.",
     "tags": [
+      "any_investigator",
+      "play_from_discard_paying_cost",
+      "rfg_self",
       "trait_insight"
     ]
   },
@@ -1121,14 +1149,20 @@
     "text": "Fast. Play during any [free] player window.\nChoose an investigator at your location. That investigator searches his or her deck for a card, draws it, and shuffles his or her deck.",
     "tags": [
       "fast_play",
-      "timing_fast_during_any_window"
+      "timing_fast_during_any_window",
+      "card_range_deck",
+      "search_player",
+      "shuffle_player",
+      "your_location_investigator"
     ]
   },
   {
     "code": "03308",
     "name": "Charon's Obol",
     "text": "Permanent. Exceptional.\nWhen earning experience during the resolution of a scenario, if you were not defeated during that scenario, you earn 2 additional experience. If you were defeated during that scenario, you are <b>killed</b>.",
-    "tags": []
+    "tags": [
+      "growth"
+    ]
   },
   {
     "code": "03309",
@@ -1138,8 +1172,11 @@
       "uses_type_ammo",
       "uses_starting_2",
       "bold_fight",
-      "boost_combat_1",
-      "damage_plus_1"
+      "boost_combat_1_attack",
+      "boost_combat_2_attack",
+      "damage_plus_1",
+      "damage_plus_2",
+      "entered_play_this_turn"
     ]
   },
   {
@@ -1148,7 +1185,14 @@
     "text": "Fast. Play when you would be defeated.\nDisengage from each enemy engaged with you, discard all cards in your threat area, heal 2 horror and 2 damage, and move to any revealed location with no enemies. If it is your turn, end your turn. Remove Cheat Death from the game.",
     "tags": [
       "fast_play",
-      "engage_with_you"
+      "timing_fast_defeated",
+      "disengage",
+      "end_your_turn",
+      "engage_with_you",
+      "heal_damage",
+      "heal_horror",
+      "remote_move",
+      "rfg_self"
     ]
   },
   {
@@ -1156,7 +1200,9 @@
     "name": "Time Warp",
     "text": "Fast. Play immediately after an investigator at your location finishes resolving an action during his or her turn.\nUndo that action <i>(return the game state to exactly the way it was before that action was performed, except for the playing of Time Warp and its costs)</i>.",
     "tags": [
-      "fast_play"
+      "fast_play",
+      "timing_fast_after_action",
+      "your_location_investigator"
     ]
   },
   {
@@ -1164,7 +1210,10 @@
     "name": "Seal of the Elder Sign",
     "text": "Do not reveal chaos tokens from the chaos bag for this test. Treat the chaos token revealed for this test as an [elder_sign].\nWhen this test ends, remove Seal of the Elder Sign from the game.",
     "tags": [
-      "chaos_reveal_token_elder_sign"
+      "chaos_do_not_reveal",
+      "chaos_reveal_token_elder_sign",
+      "chaos_treat_as_elder_sign",
+      "rfg_self"
     ]
   },
   {
@@ -1172,7 +1221,10 @@
     "name": "Newspaper",
     "text": "You get +2 [intellect] while investigating if you have no clues.\n[reaction] When you would discover 1 or more clues at your location, if you have no clues: Discover an additional clue at your location.",
     "tags": [
-      "boost_intellect_2"
+      "additional_clue",
+      "boost_intellect_2_investigate",
+      "current_clue_zero",
+      "timing_reaction_when_discover_clue"
     ]
   },
   {
@@ -1181,6 +1233,9 @@
     "text": "Fast. Play after the enemy phase begins.\nCancel all attacks made by non-[[Elite]] enemies against you this phase.",
     "tags": [
       "fast_play",
+      "timing_fast_enemy_phase_begins",
+      "cancel_attack",
+      "duration_enemy_phase",
       "elite_unusable"
     ]
   },
@@ -1188,6 +1243,13 @@
     "code": "03315",
     "name": "Key of Ys",
     "text": "You get +1 to each of your skills for each horror on Key of Ys.\n<b>Forced</b> - When any amount of horror would be placed on you: Place 1 of that horror on Key of Ys.\n<b>Forced</b> - When Key of Ys leaves play: Discard the top 10 cards of your deck.",
-    "tags": []
+    "tags": [
+      "boost_any_1",
+      "boost_any_2",
+      "boost_any_3",
+      "discard_deck",
+      "soak_benefit_horror",
+      "timing_forced_leaves_play"
+    ]
   }
 ]

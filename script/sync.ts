@@ -47,13 +47,6 @@ interface Card {
 }
 
 interface Schema {
-  anyOf: {
-    const: string;
-    description: string;
-  }[];
-}
-
-interface OldSchema {
   enum: string[];
 }
 
@@ -157,11 +150,7 @@ for await (const entry of Deno.readDir(packFolder)) {
 {
   const schemaContent = await Deno.readTextFile(schemaTagsJsonFile);
   const schemaTags: Schema = JSON.parse(schemaContent);
-  const tagsJsonRead = await Deno.readTextFile(tagsJsonFile);
-  const tagsJson: Tag[] = JSON.parse(tagsJsonRead);
-  const tagsMap = new Map(tagsJson.map((tag) => [tag.name, tag.description]));
-
-  const schemaTagSet = new Set(schemaTags.anyOf.map((tag) => tag.const));
+  const schemaTagSet = new Set(schemaTags.enum);
 
   const newTags = new Set<string>();
   uniqueTags.forEach((t) => {
@@ -179,11 +168,8 @@ for await (const entry of Deno.readDir(packFolder)) {
     }
   });
 
-  schemaTags.anyOf = Array.from(schemaTagSet).map((tag) => ({
-    const: tag,
-    description: tagsMap.get(tag) || "",
-  }));
-  schemaTags.anyOf.sort((a, b) => a.const.localeCompare(b.const));
+  schemaTags.enum = Array.from(schemaTagSet);
+  schemaTags.enum.sort((a, b) => a.localeCompare(b));
   await Deno.writeTextFile(
     schemaTagsJsonFile,
     JSON.stringify(schemaTags, null, 2)
@@ -254,12 +240,13 @@ for await (const entry of Deno.readDir(packFolder)) {
       const content = await Deno.readTextFile(`${packFolder}/${entry.name}`);
       const cards: Card[] = JSON.parse(content);
       cards.forEach(async (card) => {
-        card.tags = await addCompoundTags(card.tags); // Add compound tags
-        card.tags = sortTags(card.tags); // Sort tags
+        card.tags = await addCompoundTags(card.tags);
+        card.tags = sortTags(card.tags);
         cardsTagged.push({ card: card.code, tags: card.tags });
       });
     }
   }
+  console.log("Sorted tags in the input files.");
 
   await Deno.writeTextFile(cardsTaggedFile, JSON.stringify(cardsTagged));
   console.log(`Updated ${cardsTaggedFile} with tags for each card.`);

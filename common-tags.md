@@ -34,7 +34,7 @@ Indicates timing point where you can use the effect. It is always followed by
 
 ## `testless_`
 
-Consists of `damage`, `clue`, and `evade`. Note that card that grants automatic evade as a bonus like Cheap Shot is not considered testless evade.
+Consists of `damage`, `clue`, and `evade`. Note that card that grants automatic evade as a bonus like Cheap Shot is not considered testless evade. Some cards that add additional clues from potentially testless stuff like Newspaper is not considered testless itself.
 
 ## `target_any_`
 
@@ -53,6 +53,8 @@ Consist of 3 varieties :
 - `boost_STAT_AMOUNT_investigate` : Provide the boost while investigating. Both Magnifying Glass and Rite of Seeking count as this type. Wording may use "for this test" (Rite of Seeking) or "for this investigation" (Grim Memoir).
 - `boost_STAT_AMOUNT_evade` : Provide the boost while evading.
 - `boost_combat_1` : Use no suffix if nothing above works. Like Physical Training.
+
+When card offer additional boost under condition, consider adding more tags to cover that possibility. For example, Lupara would have both `boost_combat_attack_1` and `boost_combat_attack_2`. (Same goes for `damage_plus_AMOUNT`.)
 
 ## `stat_`
 

@@ -716,6 +716,7 @@
     "text": "Gain 3 resources and draw 1 card.",
     "tags": [
       "draw_player_1",
+      "draw_replace_self",
       "gain_resource_3"
     ]
   },

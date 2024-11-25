@@ -160,6 +160,10 @@
     "description": ""
   },
   {
+    "name": "boost_any_3",
+    "description": ""
+  },
+  {
     "name": "boost_combat_1",
     "description": ""
   },
@@ -320,12 +324,12 @@
     "description": "Indicates how many cards in searching, revealing, or looking at a deck."
   },
   {
-    "name": "chaos_do_not_reveal",
-    "description": "Will to Survive, Pnakotic Manuscript, Justify the Means."
+    "name": "card_range_deck",
+    "description": ""
   },
   {
-    "name": "chaos_ignore",
-    "description": ""
+    "name": "chaos_do_not_reveal",
+    "description": "Will to Survive, Pnakotic Manuscript, Justify the Means."
   },
   {
     "name": "chaos_ignore_effect",
@@ -360,8 +364,8 @@
     "description": "Effect that instruct you to reveal tokens to determine result."
   },
   {
-    "name": "chaos_reveal_more_instead",
-    "description": "Grotesque Statue, Olive McBride."
+    "name": "chaos_reveal_more",
+    "description": ""
   },
   {
     "name": "chaos_reveal_token_auto_fail",
@@ -512,6 +516,10 @@
     "description": "Effect usable when you have zero resource."
   },
   {
+    "name": "current_sanity",
+    "description": ""
+  },
+  {
     "name": "current_sanity_less",
     "description": ""
   },
@@ -590,6 +598,10 @@
   {
     "name": "discard_card_random",
     "description": "Effect discard cards from your hand, randomized."
+  },
+  {
+    "name": "discard_deck",
+    "description": ""
   },
   {
     "name": "discard_self",
@@ -674,6 +686,10 @@
   {
     "name": "draw_player_3",
     "description": "Draw cards from player's deck."
+  },
+  {
+    "name": "draw_replace_self",
+    "description": ""
   },
   {
     "name": "duration_enemy_phase",
@@ -786,6 +802,10 @@
   {
     "name": "engage_with_you",
     "description": "Effect related to checking something engaged with you. Does not include spawn it engage with you."
+  },
+  {
+    "name": "entered_play_this_turn",
+    "description": ""
   },
   {
     "name": "enters_play",
@@ -1104,6 +1124,10 @@
     "description": ""
   },
   {
+    "name": "play_from_discard_paying_cost",
+    "description": ""
+  },
+  {
     "name": "play_from_hand_paying_cost",
     "description": ""
   },
@@ -1218,6 +1242,22 @@
   {
     "name": "skill_benefit_performing",
     "description": "Test performer gets a benefit other than the commit icon."
+  },
+  {
+    "name": "skill_gains_agility",
+    "description": ""
+  },
+  {
+    "name": "skill_gains_combat",
+    "description": ""
+  },
+  {
+    "name": "skill_gains_wild",
+    "description": ""
+  },
+  {
+    "name": "skill_gains_willpower",
+    "description": ""
   },
   {
     "name": "skill_gains_willpower_wild",
@@ -1428,6 +1468,10 @@
     "description": "Automatically evade without any test."
   },
   {
+    "name": "timing_fast_after_action",
+    "description": ""
+  },
+  {
     "name": "timing_fast_after_draw_encounter",
     "description": ""
   },
@@ -1468,6 +1512,10 @@
     "description": ""
   },
   {
+    "name": "timing_fast_defeated",
+    "description": ""
+  },
+  {
     "name": "timing_fast_during_any_turn",
     "description": ""
   },
@@ -1492,6 +1540,10 @@
     "description": ""
   },
   {
+    "name": "timing_fast_enemy_phase_begins",
+    "description": ""
+  },
+  {
     "name": "timing_fast_spawn_your_location",
     "description": ""
   },
@@ -1504,6 +1556,10 @@
     "description": ""
   },
   {
+    "name": "timing_fast_when_fight",
+    "description": ""
+  },
+  {
     "name": "timing_fast_when_would_succeed",
     "description": ""
   },
@@ -1513,6 +1569,10 @@
   },
   {
     "name": "timing_forced_enters_location",
+    "description": ""
+  },
+  {
+    "name": "timing_forced_leaves_play",
     "description": ""
   },
   {
@@ -1568,6 +1628,10 @@
     "description": "Effect timing related to chaos token revealing."
   },
   {
+    "name": "timing_reaction_defeated_horror",
+    "description": ""
+  },
+  {
     "name": "timing_reaction_draw_encounter",
     "description": ""
   },
@@ -1585,6 +1649,14 @@
   },
   {
     "name": "timing_reaction_turn_begins",
+    "description": ""
+  },
+  {
+    "name": "timing_reaction_when_damage_assigned",
+    "description": ""
+  },
+  {
+    "name": "timing_reaction_when_discover_clue",
     "description": ""
   },
   {

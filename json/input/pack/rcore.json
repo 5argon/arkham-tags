@@ -258,6 +258,7 @@
     "name": "Research Librarian",
     "text": "[reaction] After Research Librarian enters play: Search your deck for a [[Tome]] asset and add it to your hand. Shuffle your deck.",
     "tags": [
+      "card_range_deck",
       "search_player",
       "shuffle_player",
       "timing_reaction_enters_play",
@@ -714,9 +715,8 @@
     "tags": [
       "uses_type_charge",
       "uses_starting_4",
-      "chaos_ignore",
       "chaos_resolve_choose",
-      "chaos_reveal_more_instead",
+      "chaos_reveal_more",
       "cost_action_spend_charge",
       "discard_zero_uses",
       "timing_reaction_chaos_reveal_would"
@@ -1133,6 +1133,7 @@
     "text": "Gain 3 resources and draw 1 card.",
     "tags": [
       "draw_player_1",
+      "draw_replace_self",
       "gain_resource_3"
     ]
   },
