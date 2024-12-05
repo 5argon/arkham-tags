@@ -26,12 +26,12 @@ In addition to just reading a list of all available tags in `/json/input/tags.js
 
 For ease of hand-tagging literally to the text, tags defined are very fine-grained. For example if you see "[free] Spend 1 resource :", it should use a more specific tag `cost_free_spend_resource` even though the card is technically also `spend_resource`. However there is no `cost_free_spend_resource_1` to use. Some tag offer numerical value because they are common values, such as `gain_resource_1` or `draw_player_1`.
 
-## Postprocessing
+## Postprocessing with the `sync` script
 
-Post process your work in `input/pack/[pack-name].json` with `sync` script in `package.json`. This uses Deno to run the script. It updates files in `json/output`, `json/statistics`, as well as some files in `src` folder. Some of those are what this package exports. One input file `json/input/tags.json` is also updated for each new tags introduced. Here you can type in description, so the next `sync` they became visible in the auto-completion.
+Post process your work in `input/pack/[pack-name].json` with `sync` script in `package.json`. This uses Deno to run the script. It updates files in `json/output`, `json/statistics`, as well as some files in `src` folder. Some of those are what this package exports. This process eliminates all warning about newly introduced tags because they are now registered in the JSON schema. (Along with removing those that just became unused.) The message that came up after running `sync` summarizes what just happened.
 
-In the post processing step, the script adds **additional tags** based on existing tags, using rules defined in `json/input/compound-tags.json`. For example any card with tags starting (prefixed) with `additional_slot_` would automatically get `additional_slot` tag. One can then search for cards that provide any kind of additional slot with that one tag. Person tagging the card also won't have to tag all the more general variations and just use the most specific one.
+The script also adds **additional tags** based on existing tags, using rules defined in `json/input/compound-tags.json`. For example any card with tags starting (prefixed) with `additional_slot_` would automatically get `additional_slot` tag. One can then search for cards that provide any kind of additional slot with that one tag. Person tagging the card also won't have to tag all the more general variations and just use the most specific one.
 
 The `statistics` folder let you analyze where those tags goes to, and further decide to reorganize or remove tags that aren't looking to be too useful.
 
-The sync script also sort tags in the input file alphabetically, with special priority of those usually appear first in the text box (Fast. Fast timing. Uses (X Type). Customizable. Limit X per Y. etc.) to be sorted up top. So you don't have to care about putting tags in the right order.
+The sync script also sort tags in the input file alphabetically, with special priority of those usually appear first in the text box (Fast. Fast timing. Uses (X Type). Customizable. Limit X per Y. etc.) to be sorted up top. So you don't have to care about putting tags in the right order. Don't forget to save the JSON file you worked on before running `sync`, as those files will get written too, not just read.

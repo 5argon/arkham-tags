@@ -1,9 +1,5 @@
 import * as mod from "https://deno.land/std@0.224.0/fs/empty_dir.ts";
 
-/**
- * Read all tags used, and see if any are missing from the schema and tag JSON.
- * Append missing ones.
- */
 const packFolder = "./json/input/pack";
 const compoundTagsFile = "./json/input/compound-tags.json";
 const schemaTagsJsonFile = "./json/output/schema.tags.json";

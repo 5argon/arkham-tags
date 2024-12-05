@@ -803,101 +803,937 @@
     ]
   },
   {
-    "tag": "uses_type_bounties",
+    "tag": "boost_intellect_6",
     "count": 1,
     "usages": [
       {
-        "code": "06010",
-        "name": "Bounty Contracts",
-        "pack": "tde"
+        "code": "10058",
+        "name": "Microscope",
+        "pack": "fhv"
       }
     ]
   },
   {
-    "tag": "max_per_game_2",
+    "tag": "uses_starting_10",
     "count": 1,
     "usages": [
       {
-        "code": "06027",
-        "name": "Stargazing",
-        "pack": "tde"
+        "code": "10062",
+        "name": "Bianca \"Die Katz\"",
+        "pack": "fhv"
       }
     ]
   },
   {
-    "tag": "boost_intellect_5",
+    "tag": "initiate_test_agility_0",
     "count": 1,
     "usages": [
       {
-        "code": "06114",
-        "name": "Followed",
-        "pack": "tde"
+        "code": "10071",
+        "name": "Grift",
+        "pack": "fhv"
       }
     ]
   },
   {
-    "tag": "trait_practiced",
+    "tag": "trait_blessed",
     "count": 1,
     "usages": [
       {
-        "code": "06197",
-        "name": "Practice Makes Perfect",
-        "pack": "tde"
+        "code": "10132",
+        "name": "Occult Reliquary",
+        "pack": "fhv"
       }
     ]
   },
   {
-    "tag": "initiate_test_combat_1",
+    "tag": "trait_cursed",
     "count": 1,
     "usages": [
       {
-        "code": "09026",
-        "name": "Breach the Door",
-        "pack": "tsk"
+        "code": "10132",
+        "name": "Occult Reliquary",
+        "pack": "fhv"
       }
     ]
   },
   {
-    "tag": "uses_type_evidence",
+    "tag": "stat_add_intellect",
     "count": 1,
     "usages": [
       {
-        "code": "09059",
-        "name": "Damning Testimony",
-        "pack": "tsk"
+        "code": "60226",
+        "name": "Mind over Matter",
+        "pack": "har"
       }
     ]
   },
   {
-    "tag": "trait_clothing",
+    "tag": "trait_miskatonic",
     "count": 1,
     "usages": [
       {
-        "code": "09065",
-        "name": "Hidden Pocket",
-        "pack": "tsk"
+        "code": "60232",
+        "name": "Miskatonic Archaeology Funding",
+        "pack": "har"
       }
     ]
   },
   {
-    "tag": "uses_type_time",
+    "tag": "trait_geist",
     "count": 1,
     "usages": [
       {
-        "code": "09100",
-        "name": "Makeshift Trap",
-        "pack": "tsk"
+        "code": "90052",
+        "name": "The Beyond",
+        "pack": "par"
       }
     ]
   },
   {
-    "tag": "uses_type_aether",
+    "tag": "damage_token_manipulation",
     "count": 1,
     "usages": [
       {
-        "code": "09119",
-        "name": "Hyperphysical Shotcaster",
-        "pack": "tsk"
+        "code": "03007",
+        "name": "The Home Front",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "remote_commit",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03010",
+        "name": "Analytical Mind",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "target_any_event",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03012",
+        "name": "The Painted World",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "uses_manip_charge_to_resource",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03014",
+        "name": "Spirit-Speaker",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "uses_support_charge",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03014",
+        "name": "Spirit-Speaker",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "encounter_revelation",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03022",
+        "name": "\"Let me handle this!\"",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "tank_encounter",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03022",
+        "name": "\"Let me handle this!\"",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "target_any_asset",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03023",
+        "name": "Ever Vigilant",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "duration_next_skill_test_this_phase",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03024",
+        "name": "Fieldwork",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "timing_reaction_after_move",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03024",
+        "name": "Fieldwork",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "cost_action_discard_from_hand",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03025",
+        "name": "Archaic Glyphs",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "card_range_6",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03026",
+        "name": "No Stone Unturned",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "as_if_you_were_at_location",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03027",
+        "name": "In the Know",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "cost_action_spend_secret",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03027",
+        "name": "In the Know",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "remote_investigate",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03027",
+        "name": "In the Know",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "disengage_without_exhaust",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03028",
+        "name": "Stealth",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "enemy_cannot_engage",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03028",
+        "name": "Stealth",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "at_end_of_turn",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03029",
+        "name": "Sleight of Hand",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "to_play_from_hand",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03029",
+        "name": "Sleight of Hand",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "timing_fast_when_would_succeed",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03030",
+        "name": "Daring Maneuver",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "timing_fast_during_skill_test",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03035",
+        "name": "Spirit Athame",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "investigate_asset_unlimited",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03036",
+        "name": "Lantern",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "shroud_minus_1",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03036",
+        "name": "Lantern",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "at_end_of_enemy_phase",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03038",
+        "name": "Hiding Spot",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "gain_aloof",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03038",
+        "name": "Hiding Spot",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "ready_enemy",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03038",
+        "name": "Hiding Spot",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "class_survivor",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03039",
+        "name": "Resourceful",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "tank_attack",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03106",
+        "name": "Heroic Rescue",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "timing_fast_during_any_turn",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03108",
+        "name": "Anatomical Diagrams",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "current_sanity_more",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03108",
+        "name": "Anatomical Diagrams",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "difficulty_decrease_fight_2",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03108",
+        "name": "Anatomical Diagrams",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "gain_retaliate",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03110",
+        "name": "Knuckleduster",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "doom_check",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03112",
+        "name": "David Renfield",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "timing_forced_spawn_your_location",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03148",
+        "name": "Ambush",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "duration_next",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03149",
+        "name": "Charles Ross, Esq.",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "clue_drop",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03150",
+        "name": "Forewarned",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "cost_action_spend_resource",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03154",
+        "name": "Book of Shadows",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "boost_agility_x",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03155",
+        "name": "Fight or Flight",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "current_horror_more",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03155",
+        "name": "Fight or Flight",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "discount_x",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03158",
+        "name": "Calling in Favors",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "retaliate_ignore",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03190",
+        "name": ".45 Automatic",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "discard_treachery",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03191",
+        "name": "Logical Reasoning",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "to_deck_from_discard",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03196",
+        "name": "Quantum Flux",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "hand_check_less",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03198",
+        "name": "Madame Labranche",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "enemy_manage_long_exhaust",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03199",
+        "name": "Snare Trap",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "exhaust_enemy",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03199",
+        "name": "Snare Trap",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "timing_forced_enters_location",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03199",
+        "name": "Snare Trap",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "ready_asset",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03228",
+        "name": "Inspiring Presence",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "play_only_first_action",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03229",
+        "name": "Mano a Mano",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "skill_gains_wild",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03235",
+        "name": "Torrent of Power",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "uses_manip_charge_spend",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03235",
+        "name": "Torrent of Power",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "enemy_value_evade",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03237",
+        "name": "Waylay",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "phase_mythos",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03263",
+        "name": "On the Hunt",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "search_encounter",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03263",
+        "name": "On the Hunt",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "shuffle_encounter",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03263",
+        "name": "On the Hunt",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "exhaust_self",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03264",
+        "name": "Stick to the Plan",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "timing_reaction_before_opening_hand",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03264",
+        "name": "Stick to the Plan",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "cost_free_spend_charge",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03266",
+        "name": "Arcane Insight",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "timing_free_taking_turn",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03266",
+        "name": "Arcane Insight",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "timing_fast_enemy_aoo",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03267",
+        "name": "Narrow Escape",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "duration_next_skill_test_this_turn",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03267",
+        "name": "Narrow Escape",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "current_sanity",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03269",
+        "name": "St. Hubert's Key",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "timing_reaction_defeated_horror",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03269",
+        "name": "St. Hubert's Key",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "skill_gains_agility",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03272",
+        "name": "\"Not without a fight!\"",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "skill_gains_combat",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03272",
+        "name": "\"Not without a fight!\"",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "trait_innate",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03273",
+        "name": "True Survivor",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "timing_fast_when_fight",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03304",
+        "name": "\"Eat lead!\"",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "timing_reaction_when_damage_assigned",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03305",
+        "name": "Armor of Ardennes",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "play_from_discard_paying_cost",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03306",
+        "name": "Eidetic Memory",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "entered_play_this_turn",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03309",
+        "name": "Lupara",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "timing_fast_defeated",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03310",
+        "name": "Cheat Death",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "timing_fast_after_action",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03311",
+        "name": "Time Warp",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "timing_reaction_when_discover_clue",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03313",
+        "name": "Newspaper",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "timing_fast_enemy_phase_begins",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03314",
+        "name": "Infighting",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "boost_any_3",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03315",
+        "name": "Key of Ys",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "discard_deck",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03315",
+        "name": "Key of Ys",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "timing_forced_leaves_play",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03315",
+        "name": "Key of Ys",
+        "pack": "ptc"
       }
     ]
   },
@@ -1254,6 +2090,83 @@
     ]
   },
   {
+    "tag": "initiate_test_combat_3",
+    "count": 1,
+    "usages": [
+      {
+        "code": "05020",
+        "name": "Interrogate",
+        "pack": "tcu"
+      }
+    ]
+  },
+  {
+    "tag": "initiate_test_agility_3",
+    "count": 1,
+    "usages": [
+      {
+        "code": "05036",
+        "name": "Track Shoes",
+        "pack": "tcu"
+      }
+    ]
+  },
+  {
+    "tag": "trait_upgrade",
+    "count": 1,
+    "usages": [
+      {
+        "code": "05152",
+        "name": "Well-Maintained",
+        "pack": "tcu"
+      }
+    ]
+  },
+  {
+    "tag": "uses_type_bounties",
+    "count": 1,
+    "usages": [
+      {
+        "code": "06010",
+        "name": "Bounty Contracts",
+        "pack": "tde"
+      }
+    ]
+  },
+  {
+    "tag": "max_per_game_2",
+    "count": 1,
+    "usages": [
+      {
+        "code": "06027",
+        "name": "Stargazing",
+        "pack": "tde"
+      }
+    ]
+  },
+  {
+    "tag": "boost_intellect_5",
+    "count": 1,
+    "usages": [
+      {
+        "code": "06114",
+        "name": "Followed",
+        "pack": "tde"
+      }
+    ]
+  },
+  {
+    "tag": "trait_practiced",
+    "count": 1,
+    "usages": [
+      {
+        "code": "06197",
+        "name": "Practice Makes Perfect",
+        "pack": "tde"
+      }
+    ]
+  },
+  {
     "tag": "initiate_test_intellect_3",
     "count": 1,
     "usages": [
@@ -1298,970 +2211,57 @@
     ]
   },
   {
-    "tag": "damage_token_manipulation",
+    "tag": "initiate_test_combat_1",
     "count": 1,
     "usages": [
       {
-        "code": "03007",
-        "name": "The Home Front",
-        "pack": "ptc"
+        "code": "09026",
+        "name": "Breach the Door",
+        "pack": "tsk"
       }
     ]
   },
   {
-    "tag": "remote_commit",
+    "tag": "uses_type_evidence",
     "count": 1,
     "usages": [
       {
-        "code": "03010",
-        "name": "Analytical Mind",
-        "pack": "ptc"
+        "code": "09059",
+        "name": "Damning Testimony",
+        "pack": "tsk"
       }
     ]
   },
   {
-    "tag": "target_any_event",
+    "tag": "trait_clothing",
     "count": 1,
     "usages": [
       {
-        "code": "03012",
-        "name": "The Painted World",
-        "pack": "ptc"
+        "code": "09065",
+        "name": "Hidden Pocket",
+        "pack": "tsk"
       }
     ]
   },
   {
-    "tag": "uses_manip_charge_to_resource",
+    "tag": "uses_type_time",
     "count": 1,
     "usages": [
       {
-        "code": "03014",
-        "name": "Spirit-Speaker",
-        "pack": "ptc"
+        "code": "09100",
+        "name": "Makeshift Trap",
+        "pack": "tsk"
       }
     ]
   },
   {
-    "tag": "uses_support_charge",
+    "tag": "uses_type_aether",
     "count": 1,
     "usages": [
       {
-        "code": "03014",
-        "name": "Spirit-Speaker",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "cost_action_discard_from_hand",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03025",
-        "name": "Archaic Glyphs",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "as_if_you_were_at_location",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03027",
-        "name": "In the Know",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "cost_action_spend_secret",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03027",
-        "name": "In the Know",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "remote_investigate",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03027",
-        "name": "In the Know",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "disengage_without_exhaust",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03028",
-        "name": "Stealth",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "enemy_cannot_engage",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03028",
-        "name": "Stealth",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "at_end_of_turn",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03029",
-        "name": "Sleight of Hand",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "to_play_from_hand",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03029",
-        "name": "Sleight of Hand",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "timing_fast_when_would_succeed",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03030",
-        "name": "Daring Maneuver",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "class_survivor",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03039",
-        "name": "Resourceful",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "tank_attack",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03106",
-        "name": "Heroic Rescue",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "timing_forced_spawn_your_location",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03148",
-        "name": "Ambush",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "duration_next",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03149",
-        "name": "Charles Ross, Esq.",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "clue_drop",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03150",
-        "name": "Forewarned",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "boost_agility_x",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03155",
-        "name": "Fight or Flight",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "current_horror_more",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03155",
-        "name": "Fight or Flight",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "encounter_revelation",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03022",
-        "name": "\"Let me handle this!\"",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "tank_encounter",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03022",
-        "name": "\"Let me handle this!\"",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "retaliate_ignore",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03190",
-        "name": ".45 Automatic",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "card_range_6",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03026",
-        "name": "No Stone Unturned",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "investigate_asset_unlimited",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03036",
-        "name": "Lantern",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "shroud_minus_1",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03036",
-        "name": "Lantern",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "timing_fast_during_any_turn",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03108",
-        "name": "Anatomical Diagrams",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "current_sanity_more",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03108",
-        "name": "Anatomical Diagrams",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "difficulty_decrease_fight_2",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03108",
-        "name": "Anatomical Diagrams",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "enemy_manage_long_exhaust",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03199",
-        "name": "Snare Trap",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "exhaust_enemy",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03199",
-        "name": "Snare Trap",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "timing_forced_enters_location",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03199",
-        "name": "Snare Trap",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "play_only_first_action",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03229",
-        "name": "Mano a Mano",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "ready_asset",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03228",
-        "name": "Inspiring Presence",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "skill_gains_wild",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03235",
-        "name": "Torrent of Power",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "uses_manip_charge_spend",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03235",
-        "name": "Torrent of Power",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "hand_check_less",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03198",
-        "name": "Madame Labranche",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "enemy_value_evade",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03237",
-        "name": "Waylay",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "phase_mythos",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03263",
-        "name": "On the Hunt",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "search_encounter",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03263",
-        "name": "On the Hunt",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "shuffle_encounter",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03263",
-        "name": "On the Hunt",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "duration_next_skill_test_this_phase",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03024",
-        "name": "Fieldwork",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "timing_reaction_after_move",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03024",
-        "name": "Fieldwork",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "target_any_asset",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03023",
-        "name": "Ever Vigilant",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "timing_fast_during_skill_test",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03035",
-        "name": "Spirit Athame",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "to_deck_from_discard",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03196",
-        "name": "Quantum Flux",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "discard_treachery",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03191",
-        "name": "Logical Reasoning",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "timing_fast_enemy_aoo",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03267",
-        "name": "Narrow Escape",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "duration_next_skill_test_this_turn",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03267",
-        "name": "Narrow Escape",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "timing_fast_when_fight",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03304",
-        "name": "\"Eat lead!\"",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "timing_fast_defeated",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03310",
-        "name": "Cheat Death",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "entered_play_this_turn",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03309",
-        "name": "Lupara",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "boost_any_3",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03315",
-        "name": "Key of Ys",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "discard_deck",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03315",
-        "name": "Key of Ys",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "timing_forced_leaves_play",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03315",
-        "name": "Key of Ys",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "current_sanity",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03269",
-        "name": "St. Hubert's Key",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "timing_reaction_defeated_horror",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03269",
-        "name": "St. Hubert's Key",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "discount_x",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03158",
-        "name": "Calling in Favors",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "timing_fast_after_action",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03311",
-        "name": "Time Warp",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "timing_reaction_when_discover_clue",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03313",
-        "name": "Newspaper",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "play_from_discard_paying_cost",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03306",
-        "name": "Eidetic Memory",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "exhaust_self",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03264",
-        "name": "Stick to the Plan",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "timing_reaction_before_opening_hand",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03264",
-        "name": "Stick to the Plan",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "cost_free_spend_charge",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03266",
-        "name": "Arcane Insight",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "timing_free_taking_turn",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03266",
-        "name": "Arcane Insight",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "timing_fast_enemy_phase_begins",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03314",
-        "name": "Infighting",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "doom_check",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03112",
-        "name": "David Renfield",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "timing_reaction_when_damage_assigned",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03305",
-        "name": "Armor of Ardennes",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "skill_gains_agility",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03272",
-        "name": "\"Not without a fight!\"",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "skill_gains_combat",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03272",
-        "name": "\"Not without a fight!\"",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "gain_retaliate",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03110",
-        "name": "Knuckleduster",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "cost_action_spend_resource",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03154",
-        "name": "Book of Shadows",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "at_end_of_enemy_phase",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03038",
-        "name": "Hiding Spot",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "gain_aloof",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03038",
-        "name": "Hiding Spot",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "ready_enemy",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03038",
-        "name": "Hiding Spot",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "trait_innate",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03273",
-        "name": "True Survivor",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "initiate_test_combat_3",
-    "count": 1,
-    "usages": [
-      {
-        "code": "05020",
-        "name": "Interrogate",
-        "pack": "tcu"
-      }
-    ]
-  },
-  {
-    "tag": "initiate_test_agility_3",
-    "count": 1,
-    "usages": [
-      {
-        "code": "05036",
-        "name": "Track Shoes",
-        "pack": "tcu"
-      }
-    ]
-  },
-  {
-    "tag": "trait_upgrade",
-    "count": 1,
-    "usages": [
-      {
-        "code": "05152",
-        "name": "Well-Maintained",
-        "pack": "tcu"
-      }
-    ]
-  },
-  {
-    "tag": "stat_add_intellect",
-    "count": 1,
-    "usages": [
-      {
-        "code": "60226",
-        "name": "Mind over Matter",
-        "pack": "har"
-      }
-    ]
-  },
-  {
-    "tag": "trait_miskatonic",
-    "count": 1,
-    "usages": [
-      {
-        "code": "60232",
-        "name": "Miskatonic Archaeology Funding",
-        "pack": "har"
-      }
-    ]
-  },
-  {
-    "tag": "trait_geist",
-    "count": 1,
-    "usages": [
-      {
-        "code": "90052",
-        "name": "The Beyond",
-        "pack": "par"
-      }
-    ]
-  },
-  {
-    "tag": "boost_intellect_6",
-    "count": 1,
-    "usages": [
-      {
-        "code": "10058",
-        "name": "Microscope",
-        "pack": "fhv"
-      }
-    ]
-  },
-  {
-    "tag": "uses_starting_10",
-    "count": 1,
-    "usages": [
-      {
-        "code": "10062",
-        "name": "Bianca \"Die Katz\"",
-        "pack": "fhv"
-      }
-    ]
-  },
-  {
-    "tag": "initiate_test_agility_0",
-    "count": 1,
-    "usages": [
-      {
-        "code": "10071",
-        "name": "Grift",
-        "pack": "fhv"
-      }
-    ]
-  },
-  {
-    "tag": "trait_blessed",
-    "count": 1,
-    "usages": [
-      {
-        "code": "10132",
-        "name": "Occult Reliquary",
-        "pack": "fhv"
-      }
-    ]
-  },
-  {
-    "tag": "trait_cursed",
-    "count": 1,
-    "usages": [
-      {
-        "code": "10132",
-        "name": "Occult Reliquary",
-        "pack": "fhv"
+        "code": "09119",
+        "name": "Hyperphysical Shotcaster",
+        "pack": "tsk"
       }
     ]
   }

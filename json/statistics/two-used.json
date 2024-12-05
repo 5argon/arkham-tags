@@ -400,6 +400,22 @@
     ]
   },
   {
+    "tag": "boost_intellect_3",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02189",
+        "name": "Streetwise",
+        "pack": "dwl"
+      },
+      {
+        "code": "10042",
+        "name": "Microscope",
+        "pack": "fhv"
+      }
+    ]
+  },
+  {
     "tag": "chaos_ignore_effect",
     "count": 2,
     "usages": [
@@ -460,6 +476,22 @@
         "code": "04193",
         "name": "Custom Ammunition",
         "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "boost_willpower_2_investigate",
+    "count": 2,
+    "usages": [
+      {
+        "code": "02233",
+        "name": "Rite of Seeking",
+        "pack": "dwl"
+      },
+      {
+        "code": "01689",
+        "name": "Rite of Seeking",
+        "pack": "rcore"
       }
     ]
   },
@@ -555,22 +587,6 @@
       {
         "code": "01575",
         "name": "Rabbit's Foot",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "boost_willpower_2_investigate",
-    "count": 2,
-    "usages": [
-      {
-        "code": "02233",
-        "name": "Rite of Seeking",
-        "pack": "dwl"
-      },
-      {
-        "code": "01689",
-        "name": "Rite of Seeking",
         "pack": "rcore"
       }
     ]
@@ -720,109 +736,29 @@
     ]
   },
   {
-    "tag": "initiate_test_intellect_0",
+    "tag": "trait_science",
     "count": 2,
     "usages": [
       {
-        "code": "09045",
-        "name": "Research Notes",
-        "pack": "tsk"
+        "code": "10051",
+        "name": "Well-Funded",
+        "pack": "fhv"
       },
       {
-        "code": "04267",
-        "name": "Feed the Mind",
-        "pack": "tfa"
+        "code": "10054",
+        "name": "Fine Tuning",
+        "pack": "fhv"
       }
     ]
   },
   {
-    "tag": "uses_type_keys",
+    "tag": "initiate_test_agility_x",
     "count": 2,
     "usages": [
       {
-        "code": "09117",
-        "name": "Old Keyring",
-        "pack": "tsk"
-      },
-      {
-        "code": "60507",
-        "name": "Old Keyring",
-        "pack": "ste"
-      }
-    ]
-  },
-  {
-    "tag": "cost_free_discard_self",
-    "count": 2,
-    "usages": [
-      {
-        "code": "01518",
-        "name": "Beat Cop",
-        "pack": "rcore"
-      },
-      {
-        "code": "01527",
-        "name": "Police Badge",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "aoe_damage",
-    "count": 2,
-    "usages": [
-      {
-        "code": "01524",
-        "name": "Dynamite Blast",
-        "pack": "rcore"
-      },
-      {
-        "code": "03153",
-        "name": "Storm of Spirits",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "boost_intellect_1_investigate",
-    "count": 2,
-    "usages": [
-      {
-        "code": "01530",
-        "name": "Magnifying Glass",
-        "pack": "rcore"
-      },
-      {
-        "code": "01540",
-        "name": "Magnifying Glass",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "card_range_deck",
-    "count": 2,
-    "usages": [
-      {
-        "code": "01532",
-        "name": "Research Librarian",
-        "pack": "rcore"
-      },
-      {
-        "code": "03307",
-        "name": "No Stone Unturned",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "exhausted_enemy",
-    "count": 2,
-    "usages": [
-      {
-        "code": "01552",
-        "name": "Sneak Attack",
-        "pack": "rcore"
+        "code": "10062",
+        "name": "Bianca \"Die Katz\"",
+        "pack": "fhv"
       },
       {
         "code": "03237",
@@ -832,242 +768,34 @@
     ]
   },
   {
-    "tag": "chaos_modifier",
+    "tag": "trait_rot",
     "count": 2,
     "usages": [
       {
-        "code": "01556",
-        "name": "Sure Gamble",
-        "pack": "rcore"
+        "code": "10085",
+        "name": "Rod of Carnamagos",
+        "pack": "fhv"
       },
       {
-        "code": "01692",
-        "name": "Eucatastrophe",
-        "pack": "rcore"
+        "code": "10098",
+        "name": "Rod of Carnamagos",
+        "pack": "fhv"
       }
     ]
   },
   {
-    "tag": "enters_play",
+    "tag": "bold_engage",
     "count": 2,
     "usages": [
       {
-        "code": "01563",
-        "name": "Arcane Initiate",
-        "pack": "rcore"
+        "code": "60114",
+        "name": "\"Get over here!\"",
+        "pack": "nat"
       },
       {
-        "code": "03271",
-        "name": "Arcane Initiate",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "discover_clue_your_location_2",
-    "count": 2,
-    "usages": [
-      {
-        "code": "01564",
-        "name": "Drawn to the Flame",
-        "pack": "rcore"
-      },
-      {
-        "code": "01579",
-        "name": "\"Look what I found!\"",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "chaos_resolve_choose",
-    "count": 2,
-    "usages": [
-      {
-        "code": "01571",
-        "name": "Grotesque Statue",
-        "pack": "rcore"
-      },
-      {
-        "code": "03304",
-        "name": "\"Eat lead!\"",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "chaos_reveal_more",
-    "count": 2,
-    "usages": [
-      {
-        "code": "01571",
-        "name": "Grotesque Statue",
-        "pack": "rcore"
-      },
-      {
-        "code": "03304",
-        "name": "\"Eat lead!\"",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "testless_evade",
-    "count": 2,
-    "usages": [
-      {
-        "code": "01576",
-        "name": "Stray Cat",
-        "pack": "rcore"
-      },
-      {
-        "code": "01578",
-        "name": "Cunning Distraction",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "timing_fast_would_fail",
-    "count": 2,
-    "usages": [
-      {
-        "code": "01580",
-        "name": "Lucky!",
-        "pack": "rcore"
-      },
-      {
-        "code": "01584",
-        "name": "Lucky!",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "timing_fast_after_evaded",
-    "count": 2,
-    "usages": [
-      {
-        "code": "01583",
-        "name": "Close Call",
-        "pack": "rcore"
-      },
-      {
-        "code": "03195",
-        "name": "Pickpocketing",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "chaos_do_not_reveal",
-    "count": 2,
-    "usages": [
-      {
-        "code": "01585",
-        "name": "Will to Survive",
-        "pack": "rcore"
-      },
-      {
-        "code": "03312",
-        "name": "Seal of the Elder Sign",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "shroud_minus_2",
-    "count": 2,
-    "usages": [
-      {
-        "code": "01587",
-        "name": "Flashlight",
-        "pack": "rcore"
-      },
-      {
-        "code": "03266",
-        "name": "Arcane Insight",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "heal_both",
-    "count": 2,
-    "usages": [
-      {
-        "code": "01683",
-        "name": "First Aid",
-        "pack": "rcore"
-      },
-      {
-        "code": "03230",
-        "name": "First Aid",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "chaos_treat_as_elder_sign",
-    "count": 2,
-    "usages": [
-      {
-        "code": "01692",
-        "name": "Eucatastrophe",
-        "pack": "rcore"
-      },
-      {
-        "code": "03312",
-        "name": "Seal of the Elder Sign",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "succeed_by_4",
-    "count": 2,
-    "usages": [
-      {
-        "code": "60321",
-        "name": "Mauser C96",
-        "pack": "win"
-      },
-      {
-        "code": "60331",
-        "name": "Beretta M1918",
-        "pack": "win"
-      }
-    ]
-  },
-  {
-    "tag": "trait_terror",
-    "count": 2,
-    "usages": [
-      {
-        "code": "52003",
-        "name": "Logical Reasoning",
-        "pack": "rt"
-      },
-      {
-        "code": "03191",
-        "name": "Logical Reasoning",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "trait_tarot",
-    "count": 2,
-    "usages": [
-      {
-        "code": "54012",
-        "name": "Moon Pendant",
-        "pack": "rt"
-      },
-      {
-        "code": "05283",
-        "name": "Anna Kaslow",
-        "pack": "tcu"
+        "code": "07109",
+        "name": "Righteous Hunt",
+        "pack": "tic"
       }
     ]
   },
@@ -1083,6 +811,38 @@
       {
         "code": "03033",
         "name": "Uncage the Soul",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "timing_fast_after_draw_encounter",
+    "count": 2,
+    "usages": [
+      {
+        "code": "03022",
+        "name": "\"Let me handle this!\"",
+        "pack": "ptc"
+      },
+      {
+        "code": "03263",
+        "name": "On the Hunt",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "discount_1",
+    "count": 2,
+    "usages": [
+      {
+        "code": "03023",
+        "name": "Ever Vigilant",
+        "pack": "ptc"
+      },
+      {
+        "code": "03149",
+        "name": "Charles Ross, Esq.",
         "pack": "ptc"
       }
     ]
@@ -1168,34 +928,34 @@
     ]
   },
   {
-    "tag": "discount_1",
+    "tag": "aoe_damage",
     "count": 2,
     "usages": [
       {
-        "code": "03023",
-        "name": "Ever Vigilant",
+        "code": "03153",
+        "name": "Storm of Spirits",
         "pack": "ptc"
       },
       {
-        "code": "03149",
-        "name": "Charles Ross, Esq.",
-        "pack": "ptc"
+        "code": "01524",
+        "name": "Dynamite Blast",
+        "pack": "rcore"
       }
     ]
   },
   {
-    "tag": "timing_fast_after_draw_encounter",
+    "tag": "trait_terror",
     "count": 2,
     "usages": [
       {
-        "code": "03022",
-        "name": "\"Let me handle this!\"",
+        "code": "03191",
+        "name": "Logical Reasoning",
         "pack": "ptc"
       },
       {
-        "code": "03263",
-        "name": "On the Hunt",
-        "pack": "ptc"
+        "code": "52003",
+        "name": "Logical Reasoning",
+        "pack": "rt"
       }
     ]
   },
@@ -1216,6 +976,38 @@
     ]
   },
   {
+    "tag": "timing_fast_after_evaded",
+    "count": 2,
+    "usages": [
+      {
+        "code": "03195",
+        "name": "Pickpocketing",
+        "pack": "ptc"
+      },
+      {
+        "code": "01583",
+        "name": "Close Call",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "heal_both",
+    "count": 2,
+    "usages": [
+      {
+        "code": "03230",
+        "name": "First Aid",
+        "pack": "ptc"
+      },
+      {
+        "code": "01683",
+        "name": "First Aid",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
     "tag": "skill_gains_willpower",
     "count": 2,
     "usages": [
@@ -1232,39 +1024,7 @@
     ]
   },
   {
-    "tag": "bold_engage",
-    "count": 2,
-    "usages": [
-      {
-        "code": "60114",
-        "name": "\"Get over here!\"",
-        "pack": "nat"
-      },
-      {
-        "code": "07109",
-        "name": "Righteous Hunt",
-        "pack": "tic"
-      }
-    ]
-  },
-  {
-    "tag": "boost_intellect_3",
-    "count": 2,
-    "usages": [
-      {
-        "code": "02189",
-        "name": "Streetwise",
-        "pack": "dwl"
-      },
-      {
-        "code": "10042",
-        "name": "Microscope",
-        "pack": "fhv"
-      }
-    ]
-  },
-  {
-    "tag": "initiate_test_agility_x",
+    "tag": "exhausted_enemy",
     "count": 2,
     "usages": [
       {
@@ -1273,41 +1033,281 @@
         "pack": "ptc"
       },
       {
-        "code": "10062",
-        "name": "Bianca \"Die Katz\"",
-        "pack": "fhv"
+        "code": "01552",
+        "name": "Sneak Attack",
+        "pack": "rcore"
       }
     ]
   },
   {
-    "tag": "trait_science",
+    "tag": "shroud_minus_2",
     "count": 2,
     "usages": [
       {
-        "code": "10051",
-        "name": "Well-Funded",
-        "pack": "fhv"
+        "code": "03266",
+        "name": "Arcane Insight",
+        "pack": "ptc"
       },
       {
-        "code": "10054",
-        "name": "Fine Tuning",
-        "pack": "fhv"
+        "code": "01587",
+        "name": "Flashlight",
+        "pack": "rcore"
       }
     ]
   },
   {
-    "tag": "trait_rot",
+    "tag": "enters_play",
     "count": 2,
     "usages": [
       {
-        "code": "10085",
-        "name": "Rod of Carnamagos",
-        "pack": "fhv"
+        "code": "03271",
+        "name": "Arcane Initiate",
+        "pack": "ptc"
       },
       {
-        "code": "10098",
-        "name": "Rod of Carnamagos",
-        "pack": "fhv"
+        "code": "01563",
+        "name": "Arcane Initiate",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "chaos_resolve_choose",
+    "count": 2,
+    "usages": [
+      {
+        "code": "03304",
+        "name": "\"Eat lead!\"",
+        "pack": "ptc"
+      },
+      {
+        "code": "01571",
+        "name": "Grotesque Statue",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "chaos_reveal_more",
+    "count": 2,
+    "usages": [
+      {
+        "code": "03304",
+        "name": "\"Eat lead!\"",
+        "pack": "ptc"
+      },
+      {
+        "code": "01571",
+        "name": "Grotesque Statue",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "card_range_deck",
+    "count": 2,
+    "usages": [
+      {
+        "code": "03307",
+        "name": "No Stone Unturned",
+        "pack": "ptc"
+      },
+      {
+        "code": "01532",
+        "name": "Research Librarian",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "chaos_do_not_reveal",
+    "count": 2,
+    "usages": [
+      {
+        "code": "03312",
+        "name": "Seal of the Elder Sign",
+        "pack": "ptc"
+      },
+      {
+        "code": "01585",
+        "name": "Will to Survive",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "chaos_treat_as_elder_sign",
+    "count": 2,
+    "usages": [
+      {
+        "code": "03312",
+        "name": "Seal of the Elder Sign",
+        "pack": "ptc"
+      },
+      {
+        "code": "01692",
+        "name": "Eucatastrophe",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "cost_free_discard_self",
+    "count": 2,
+    "usages": [
+      {
+        "code": "01518",
+        "name": "Beat Cop",
+        "pack": "rcore"
+      },
+      {
+        "code": "01527",
+        "name": "Police Badge",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "boost_intellect_1_investigate",
+    "count": 2,
+    "usages": [
+      {
+        "code": "01530",
+        "name": "Magnifying Glass",
+        "pack": "rcore"
+      },
+      {
+        "code": "01540",
+        "name": "Magnifying Glass",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "chaos_modifier",
+    "count": 2,
+    "usages": [
+      {
+        "code": "01556",
+        "name": "Sure Gamble",
+        "pack": "rcore"
+      },
+      {
+        "code": "01692",
+        "name": "Eucatastrophe",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "discover_clue_your_location_2",
+    "count": 2,
+    "usages": [
+      {
+        "code": "01564",
+        "name": "Drawn to the Flame",
+        "pack": "rcore"
+      },
+      {
+        "code": "01579",
+        "name": "\"Look what I found!\"",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "testless_evade",
+    "count": 2,
+    "usages": [
+      {
+        "code": "01576",
+        "name": "Stray Cat",
+        "pack": "rcore"
+      },
+      {
+        "code": "01578",
+        "name": "Cunning Distraction",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "timing_fast_would_fail",
+    "count": 2,
+    "usages": [
+      {
+        "code": "01580",
+        "name": "Lucky!",
+        "pack": "rcore"
+      },
+      {
+        "code": "01584",
+        "name": "Lucky!",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "trait_tarot",
+    "count": 2,
+    "usages": [
+      {
+        "code": "54012",
+        "name": "Moon Pendant",
+        "pack": "rt"
+      },
+      {
+        "code": "05283",
+        "name": "Anna Kaslow",
+        "pack": "tcu"
+      }
+    ]
+  },
+  {
+    "tag": "uses_type_keys",
+    "count": 2,
+    "usages": [
+      {
+        "code": "60507",
+        "name": "Old Keyring",
+        "pack": "ste"
+      },
+      {
+        "code": "09117",
+        "name": "Old Keyring",
+        "pack": "tsk"
+      }
+    ]
+  },
+  {
+    "tag": "initiate_test_intellect_0",
+    "count": 2,
+    "usages": [
+      {
+        "code": "04267",
+        "name": "Feed the Mind",
+        "pack": "tfa"
+      },
+      {
+        "code": "09045",
+        "name": "Research Notes",
+        "pack": "tsk"
+      }
+    ]
+  },
+  {
+    "tag": "succeed_by_4",
+    "count": 2,
+    "usages": [
+      {
+        "code": "60321",
+        "name": "Mauser C96",
+        "pack": "win"
+      },
+      {
+        "code": "60331",
+        "name": "Beretta M1918",
+        "pack": "win"
       }
     ]
   }
