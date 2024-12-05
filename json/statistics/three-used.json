@@ -63,6 +63,48 @@
     ]
   },
   {
+    "tag": "unidentified",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02021",
+        "name": "Strange Solution",
+        "pack": "dwl"
+      },
+      {
+        "code": "03025",
+        "name": "Archaic Glyphs",
+        "pack": "ptc"
+      },
+      {
+        "code": "04022",
+        "name": "Ancient Stone",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "result_test_fail",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02024",
+        "name": "Liquid Courage",
+        "pack": "dwl"
+      },
+      {
+        "code": "01535",
+        "name": "Medical Texts",
+        "pack": "rcore"
+      },
+      {
+        "code": "04201",
+        "name": "Take Heart",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
     "tag": "stat_not_intellect",
     "count": 3,
     "usages": [
@@ -105,23 +147,23 @@
     ]
   },
   {
-    "tag": "chaos_reveal_during_effect",
+    "tag": "attach_enemy",
     "count": 3,
     "usages": [
       {
-        "code": "02029",
-        "name": "Ritual Candles",
+        "code": "02031",
+        "name": "Bind Monster",
         "pack": "dwl"
       },
       {
-        "code": "01560",
-        "name": "Shrivelling",
-        "pack": "rcore"
+        "code": "03199",
+        "name": "Snare Trap",
+        "pack": "ptc"
       },
       {
-        "code": "01689",
-        "name": "Rite of Seeking",
-        "pack": "rcore"
+        "code": "04265",
+        "name": "Handcuffs",
+        "pack": "tfa"
       }
     ]
   },
@@ -143,6 +185,27 @@
         "code": "60523",
         "name": "A Test of Will",
         "pack": "ste"
+      }
+    ]
+  },
+  {
+    "tag": "uses_add_supply",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02109",
+        "name": "Contraband",
+        "pack": "dwl"
+      },
+      {
+        "code": "03239",
+        "name": "Emergency Cache",
+        "pack": "ptc"
+      },
+      {
+        "code": "04018",
+        "name": "Venturer",
+        "pack": "tfa"
       }
     ]
   },
@@ -189,23 +252,86 @@
     ]
   },
   {
-    "tag": "timing_fast_defeat_enemy",
+    "tag": "additional_slot_ally",
     "count": 3,
     "usages": [
       {
-        "code": "02225",
-        "name": "\"If it bleeds...\"",
+        "code": "02158",
+        "name": "Charisma",
         "pack": "dwl"
       },
       {
-        "code": "03016",
-        "name": "Bury Them Deep",
-        "pack": "ptc"
+        "code": "01694",
+        "name": "Charisma",
+        "pack": "rcore"
       },
       {
-        "code": "01522",
-        "name": "Evidence!",
-        "pack": "rcore"
+        "code": "04006",
+        "name": "Mitch Brown",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "chaos_ignore_effect",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02190",
+        "name": "Defiance",
+        "pack": "dwl"
+      },
+      {
+        "code": "02230",
+        "name": "Lucky Dice",
+        "pack": "dwl"
+      },
+      {
+        "code": "04198",
+        "name": "Defiance",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "chaos_ignore_modifier",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02190",
+        "name": "Defiance",
+        "pack": "dwl"
+      },
+      {
+        "code": "02230",
+        "name": "Lucky Dice",
+        "pack": "dwl"
+      },
+      {
+        "code": "04198",
+        "name": "Defiance",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "cost_reaction_spend_resource",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02230",
+        "name": "Lucky Dice",
+        "pack": "dwl"
+      },
+      {
+        "code": "04230",
+        "name": "Ancient Stone",
+        "pack": "tfa"
+      },
+      {
+        "code": "04231",
+        "name": "Ancient Stone",
+        "pack": "tfa"
       }
     ]
   },
@@ -252,69 +378,6 @@
     ]
   },
   {
-    "tag": "timing_fast_dealt_damage",
-    "count": 3,
-    "usages": [
-      {
-        "code": "02261",
-        "name": "\"I've had worse…\"",
-        "pack": "dwl"
-      },
-      {
-        "code": "03157",
-        "name": "Devil's Luck",
-        "pack": "ptc"
-      },
-      {
-        "code": "01684",
-        "name": "\"I've had worse…\"",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "timing_fast_dealt_horror",
-    "count": 3,
-    "usages": [
-      {
-        "code": "02261",
-        "name": "\"I've had worse…\"",
-        "pack": "dwl"
-      },
-      {
-        "code": "03157",
-        "name": "Devil's Luck",
-        "pack": "ptc"
-      },
-      {
-        "code": "01684",
-        "name": "\"I've had worse…\"",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "cancel_horror",
-    "count": 3,
-    "usages": [
-      {
-        "code": "02261",
-        "name": "\"I've had worse…\"",
-        "pack": "dwl"
-      },
-      {
-        "code": "03157",
-        "name": "Devil's Luck",
-        "pack": "ptc"
-      },
-      {
-        "code": "01684",
-        "name": "\"I've had worse…\"",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
     "tag": "to_play_from_discard",
     "count": 3,
     "usages": [
@@ -353,6 +416,48 @@
         "code": "03237",
         "name": "Waylay",
         "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "location_revealed",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02303",
+        "name": "Deciphered Reality",
+        "pack": "dwl"
+      },
+      {
+        "code": "03027",
+        "name": "In the Know",
+        "pack": "ptc"
+      },
+      {
+        "code": "04008",
+        "name": "Jake Williams",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "shroud_dependent",
+    "count": 3,
+    "usages": [
+      {
+        "code": "02303",
+        "name": "Deciphered Reality",
+        "pack": "dwl"
+      },
+      {
+        "code": "04022",
+        "name": "Ancient Stone",
+        "pack": "tfa"
+      },
+      {
+        "code": "04196",
+        "name": "Lola Santiago",
+        "pack": "tfa"
       }
     ]
   },
@@ -462,6 +567,48 @@
     ]
   },
   {
+    "tag": "timing_fast_after_draw_encounter",
+    "count": 3,
+    "usages": [
+      {
+        "code": "03022",
+        "name": "\"Let me handle this!\"",
+        "pack": "ptc"
+      },
+      {
+        "code": "03263",
+        "name": "On the Hunt",
+        "pack": "ptc"
+      },
+      {
+        "code": "04028",
+        "name": "\"You handle this one!\"",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "discard_card_choose",
+    "count": 3,
+    "usages": [
+      {
+        "code": "03025",
+        "name": "Archaic Glyphs",
+        "pack": "ptc"
+      },
+      {
+        "code": "03034",
+        "name": "Astral Travel",
+        "pack": "ptc"
+      },
+      {
+        "code": "04160",
+        "name": "Cornered",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
     "tag": "cost_action_discard_self",
     "count": 3,
     "usages": [
@@ -478,27 +625,6 @@
       {
         "code": "01586",
         "name": "Knife",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "shroud_reduction",
-    "count": 3,
-    "usages": [
-      {
-        "code": "03036",
-        "name": "Lantern",
-        "pack": "ptc"
-      },
-      {
-        "code": "03266",
-        "name": "Arcane Insight",
-        "pack": "ptc"
-      },
-      {
-        "code": "01587",
-        "name": "Flashlight",
         "pack": "rcore"
       }
     ]
@@ -546,23 +672,44 @@
     ]
   },
   {
-    "tag": "your_location_another_investigator",
+    "tag": "boost_combat_x",
     "count": 3,
     "usages": [
       {
-        "code": "03106",
-        "name": "Heroic Rescue",
+        "code": "03147",
+        "name": "Trench Knife",
         "pack": "ptc"
       },
       {
-        "code": "03149",
-        "name": "Charles Ross, Esq.",
+        "code": "03155",
+        "name": "Fight or Flight",
         "pack": "ptc"
       },
       {
-        "code": "03265",
-        "name": "Guidance",
+        "code": "04229",
+        "name": "M1918 BAR",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "aoe_damage",
+    "count": 3,
+    "usages": [
+      {
+        "code": "03153",
+        "name": "Storm of Spirits",
         "pack": "ptc"
+      },
+      {
+        "code": "01524",
+        "name": "Dynamite Blast",
+        "pack": "rcore"
+      },
+      {
+        "code": "04305",
+        "name": "Flamethrower",
+        "pack": "tfa"
       }
     ]
   },
@@ -588,27 +735,6 @@
     ]
   },
   {
-    "tag": "uses_add_charge",
-    "count": 3,
-    "usages": [
-      {
-        "code": "03154",
-        "name": "Book of Shadows",
-        "pack": "ptc"
-      },
-      {
-        "code": "03197",
-        "name": "Recharge",
-        "pack": "ptc"
-      },
-      {
-        "code": "01570",
-        "name": "Book of Shadows",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
     "tag": "duration_until_end_round",
     "count": 3,
     "usages": [
@@ -626,6 +752,27 @@
         "code": "01536",
         "name": "Mind over Matter",
         "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "heal_both",
+    "count": 3,
+    "usages": [
+      {
+        "code": "03230",
+        "name": "First Aid",
+        "pack": "ptc"
+      },
+      {
+        "code": "01683",
+        "name": "First Aid",
+        "pack": "rcore"
+      },
+      {
+        "code": "04274",
+        "name": "Thermos",
+        "pack": "tfa"
       }
     ]
   },
@@ -689,6 +836,90 @@
         "code": "01528",
         "name": "Beat Cop",
         "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "chaos_do_not_reveal",
+    "count": 3,
+    "usages": [
+      {
+        "code": "03312",
+        "name": "Seal of the Elder Sign",
+        "pack": "ptc"
+      },
+      {
+        "code": "01585",
+        "name": "Will to Survive",
+        "pack": "rcore"
+      },
+      {
+        "code": "04307",
+        "name": "Pnakotic Manuscripts",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "enemy_manage_shuffle",
+    "count": 3,
+    "usages": [
+      {
+        "code": "01583",
+        "name": "Close Call",
+        "pack": "rcore"
+      },
+      {
+        "code": "04034",
+        "name": "Dumb Luck",
+        "pack": "tfa"
+      },
+      {
+        "code": "04105",
+        "name": "Persuasion",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "timing_fast_chaos_reveal_when",
+    "count": 3,
+    "usages": [
+      {
+        "code": "01692",
+        "name": "Eucatastrophe",
+        "pack": "rcore"
+      },
+      {
+        "code": "04032",
+        "name": "Dark Prophecy",
+        "pack": "tfa"
+      },
+      {
+        "code": "04110",
+        "name": "Counterspell",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "attach_asset",
+    "count": 3,
+    "usages": [
+      {
+        "code": "04019",
+        "name": "Trusted",
+        "pack": "tfa"
+      },
+      {
+        "code": "04020",
+        "name": "Reliable",
+        "pack": "tfa"
+      },
+      {
+        "code": "04193",
+        "name": "Custom Ammunition",
+        "pack": "tfa"
       }
     ]
   },

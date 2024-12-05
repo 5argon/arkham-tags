@@ -1,94 +1,32 @@
 [
   {
-    "tag": "timing_reaction_enters_play",
+    "tag": "chaos_reveal_during_effect",
     "count": 5,
     "usages": [
       {
-        "code": "02020",
-        "name": "Laboratory Assistant",
+        "code": "02029",
+        "name": "Ritual Candles",
         "pack": "dwl"
       },
       {
-        "code": "02149",
-        "name": "Art Student",
-        "pack": "dwl"
-      },
-      {
-        "code": "02310",
-        "name": "The Red-Gloved Man",
-        "pack": "dwl"
-      },
-      {
-        "code": "01012",
-        "name": "Heirloom of Hyperborea",
+        "code": "01560",
+        "name": "Shrivelling",
         "pack": "rcore"
       },
       {
-        "code": "01532",
-        "name": "Research Librarian",
+        "code": "01689",
+        "name": "Rite of Seeking",
         "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "spend_supply",
-    "count": 5,
-    "usages": [
-      {
-        "code": "02024",
-        "name": "Liquid Courage",
-        "pack": "dwl"
       },
       {
-        "code": "02116",
-        "name": "Smoking Pipe",
-        "pack": "dwl"
+        "code": "04158",
+        "name": "Recall the Future",
+        "pack": "tfa"
       },
       {
-        "code": "02117",
-        "name": "Painkillers",
-        "pack": "dwl"
-      },
-      {
-        "code": "03230",
-        "name": "First Aid",
-        "pack": "ptc"
-      },
-      {
-        "code": "01683",
-        "name": "First Aid",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "heal_horror_ally",
-    "count": 5,
-    "usages": [
-      {
-        "code": "02033",
-        "name": "Peter Sylvestre",
-        "pack": "dwl"
-      },
-      {
-        "code": "02035",
-        "name": "Peter Sylvestre",
-        "pack": "dwl"
-      },
-      {
-        "code": "03228",
-        "name": "Inspiring Presence",
-        "pack": "ptc"
-      },
-      {
-        "code": "03230",
-        "name": "First Aid",
-        "pack": "ptc"
-      },
-      {
-        "code": "01683",
-        "name": "First Aid",
-        "pack": "rcore"
+        "code": "04199",
+        "name": "Premonition",
+        "pack": "tfa"
       }
     ]
   },
@@ -124,32 +62,32 @@
     ]
   },
   {
-    "tag": "damage_plus_3",
+    "tag": "your_location_ally",
     "count": 5,
     "usages": [
       {
-        "code": "02107",
-        "name": "\"I've got a plan!\"",
+        "code": "02105",
+        "name": "Emergency Aid",
         "pack": "dwl"
       },
       {
-        "code": "08029",
-        "name": "Fang of Tyr'thrha",
-        "pack": "eote"
+        "code": "03228",
+        "name": "Inspiring Presence",
+        "pack": "ptc"
       },
       {
-        "code": "60225",
-        "name": "\"I've got a plan!\"",
-        "pack": "har"
+        "code": "03230",
+        "name": "First Aid",
+        "pack": "ptc"
       },
       {
-        "code": "01529",
-        "name": "Shotgun",
+        "code": "01683",
+        "name": "First Aid",
         "pack": "rcore"
       },
       {
-        "code": "04276",
-        "name": "Timeworn Brand",
+        "code": "04304",
+        "name": "Kerosene",
         "pack": "tfa"
       }
     ]
@@ -182,6 +120,37 @@
         "code": "01566",
         "name": "Blinding Light",
         "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "uses_add_ammo",
+    "count": 5,
+    "usages": [
+      {
+        "code": "02109",
+        "name": "Contraband",
+        "pack": "dwl"
+      },
+      {
+        "code": "01526",
+        "name": "Extra Ammunition",
+        "pack": "rcore"
+      },
+      {
+        "code": "04018",
+        "name": "Venturer",
+        "pack": "tfa"
+      },
+      {
+        "code": "04193",
+        "name": "Custom Ammunition",
+        "pack": "tfa"
+      },
+      {
+        "code": "04204",
+        "name": "Ornate Bow",
+        "pack": "tfa"
       }
     ]
   },
@@ -248,6 +217,68 @@
     ]
   },
   {
+    "tag": "aoe_support",
+    "count": 5,
+    "usages": [
+      {
+        "code": "02148",
+        "name": "Stand Together",
+        "pack": "dwl"
+      },
+      {
+        "code": "03239",
+        "name": "Emergency Cache",
+        "pack": "ptc"
+      },
+      {
+        "code": "04231",
+        "name": "Ancient Stone",
+        "pack": "tfa"
+      },
+      {
+        "code": "04274",
+        "name": "Thermos",
+        "pack": "tfa"
+      },
+      {
+        "code": "04304",
+        "name": "Kerosene",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "location_clue_exist",
+    "count": 5,
+    "usages": [
+      {
+        "code": "02186",
+        "name": "Preposterous Sketches",
+        "pack": "dwl"
+      },
+      {
+        "code": "02227",
+        "name": "Inquiring Mind",
+        "pack": "dwl"
+      },
+      {
+        "code": "03024",
+        "name": "Fieldwork",
+        "pack": "ptc"
+      },
+      {
+        "code": "01006",
+        "name": "Roland's .38 Special",
+        "pack": "rcore"
+      },
+      {
+        "code": "04152",
+        "name": "Truth from Fiction",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
     "tag": "doom_add",
     "count": 5,
     "usages": [
@@ -310,33 +341,33 @@
     ]
   },
   {
-    "tag": "boost_intellect_1_passive",
+    "tag": "succeed_by",
     "count": 5,
     "usages": [
       {
-        "code": "02232",
-        "name": "Alyssa Graham",
+        "code": "02228",
+        "name": "Expose Weakness",
         "pack": "dwl"
       },
       {
-        "code": "02234",
-        "name": "Dark Horse",
-        "pack": "dwl"
-      },
-      {
-        "code": "03151",
-        "name": "Dario El-Amin",
+        "code": "03032",
+        "name": "Alchemical Transmutation",
         "pack": "ptc"
       },
       {
-        "code": "03269",
-        "name": "St. Hubert's Key",
+        "code": "03192",
+        "name": "Archaic Glyphs",
         "pack": "ptc"
       },
       {
-        "code": "01533",
-        "name": "Dr. Milan Christopher",
+        "code": "01529",
+        "name": "Shotgun",
         "pack": "rcore"
+      },
+      {
+        "code": "04309",
+        "name": "All In",
+        "pack": "tfa"
       }
     ]
   },
@@ -372,33 +403,64 @@
     ]
   },
   {
-    "tag": "researched",
+    "tag": "cancel_damage",
     "count": 5,
     "usages": [
       {
-        "code": "02262",
-        "name": "Strange Solution",
+        "code": "02261",
+        "name": "\"I've had worse…\"",
         "pack": "dwl"
       },
       {
-        "code": "02263",
-        "name": "Strange Solution",
-        "pack": "dwl"
-      },
-      {
-        "code": "02264",
-        "name": "Strange Solution",
-        "pack": "dwl"
-      },
-      {
-        "code": "03192",
-        "name": "Archaic Glyphs",
+        "code": "03157",
+        "name": "Devil's Luck",
         "pack": "ptc"
       },
       {
-        "code": "03193",
-        "name": "Archaic Glyphs",
+        "code": "03305",
+        "name": "Armor of Ardennes",
         "pack": "ptc"
+      },
+      {
+        "code": "01684",
+        "name": "\"I've had worse…\"",
+        "pack": "rcore"
+      },
+      {
+        "code": "04111",
+        "name": "Perseverance",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "gain_resource",
+    "count": 5,
+    "usages": [
+      {
+        "code": "02261",
+        "name": "\"I've had worse…\"",
+        "pack": "dwl"
+      },
+      {
+        "code": "03112",
+        "name": "David Renfield",
+        "pack": "ptc"
+      },
+      {
+        "code": "01557",
+        "name": "Hot Streak",
+        "pack": "rcore"
+      },
+      {
+        "code": "01684",
+        "name": "\"I've had worse…\"",
+        "pack": "rcore"
+      },
+      {
+        "code": "04233",
+        "name": "Pay Day",
+        "pack": "tfa"
       }
     ]
   },
@@ -430,6 +492,37 @@
         "code": "01565",
         "name": "Ward of Protection",
         "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "timing_reaction_after_test_fail",
+    "count": 5,
+    "usages": [
+      {
+        "code": "02309",
+        "name": "Try and Try Again",
+        "pack": "dwl"
+      },
+      {
+        "code": "01575",
+        "name": "Rabbit's Foot",
+        "pack": "rcore"
+      },
+      {
+        "code": "04034",
+        "name": "Dumb Luck",
+        "pack": "tfa"
+      },
+      {
+        "code": "04159",
+        "name": "Try and Try Again",
+        "pack": "tfa"
+      },
+      {
+        "code": "04200",
+        "name": "Live and Learn",
+        "pack": "tfa"
       }
     ]
   },
@@ -496,37 +589,6 @@
     ]
   },
   {
-    "tag": "not_aoo",
-    "count": 5,
-    "usages": [
-      {
-        "code": "03036",
-        "name": "Lantern",
-        "pack": "ptc"
-      },
-      {
-        "code": "03189",
-        "name": "\"I'll see you in hell!\"",
-        "pack": "ptc"
-      },
-      {
-        "code": "03193",
-        "name": "Archaic Glyphs",
-        "pack": "ptc"
-      },
-      {
-        "code": "03229",
-        "name": "Mano a Mano",
-        "pack": "ptc"
-      },
-      {
-        "code": "01555",
-        "name": "Cat Burglar",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
     "tag": "limit_1_in_play",
     "count": 5,
     "usages": [
@@ -585,37 +647,6 @@
         "code": "03115",
         "name": "Plucky",
         "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "additional_action_1",
-    "count": 5,
-    "usages": [
-      {
-        "code": "03234",
-        "name": ".41 Derringer",
-        "pack": "ptc"
-      },
-      {
-        "code": "03265",
-        "name": "Guidance",
-        "pack": "ptc"
-      },
-      {
-        "code": "01548",
-        "name": "Leo De Luca",
-        "pack": "rcore"
-      },
-      {
-        "code": "01554",
-        "name": "Leo De Luca",
-        "pack": "rcore"
-      },
-      {
-        "code": "01688",
-        "name": ".41 Derringer",
-        "pack": "rcore"
       }
     ]
   },
@@ -786,163 +817,7 @@
     ]
   },
   {
-    "tag": "boost_combat_1_passive",
-    "count": 4,
-    "usages": [
-      {
-        "code": "02027",
-        "name": "Hired Muscle",
-        "pack": "dwl"
-      },
-      {
-        "code": "02234",
-        "name": "Dark Horse",
-        "pack": "dwl"
-      },
-      {
-        "code": "01518",
-        "name": "Beat Cop",
-        "pack": "rcore"
-      },
-      {
-        "code": "01528",
-        "name": "Beat Cop",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "additional_clue_1",
-    "count": 4,
-    "usages": [
-      {
-        "code": "02028",
-        "name": "Rite of Seeking",
-        "pack": "dwl"
-      },
-      {
-        "code": "02150",
-        "name": "Deduction",
-        "pack": "dwl"
-      },
-      {
-        "code": "01539",
-        "name": "Deduction",
-        "pack": "rcore"
-      },
-      {
-        "code": "01689",
-        "name": "Rite of Seeking",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "result_evade_success",
-    "count": 4,
-    "usages": [
-      {
-        "code": "02031",
-        "name": "Bind Monster",
-        "pack": "dwl"
-      },
-      {
-        "code": "02034",
-        "name": "Bait and Switch",
-        "pack": "dwl"
-      },
-      {
-        "code": "02114",
-        "name": "Fire Extinguisher",
-        "pack": "dwl"
-      },
-      {
-        "code": "01581",
-        "name": "Survival Instinct",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "stat_not_agility",
-    "count": 4,
-    "usages": [
-      {
-        "code": "02031",
-        "name": "Bind Monster",
-        "pack": "dwl"
-      },
-      {
-        "code": "01536",
-        "name": "Mind over Matter",
-        "pack": "rcore"
-      },
-      {
-        "code": "01566",
-        "name": "Blinding Light",
-        "pack": "rcore"
-      },
-      {
-        "code": "01569",
-        "name": "Blinding Light",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "boost_agility_1_passive",
-    "count": 4,
-    "usages": [
-      {
-        "code": "02033",
-        "name": "Peter Sylvestre",
-        "pack": "dwl"
-      },
-      {
-        "code": "02035",
-        "name": "Peter Sylvestre",
-        "pack": "dwl"
-      },
-      {
-        "code": "02234",
-        "name": "Dark Horse",
-        "pack": "dwl"
-      },
-      {
-        "code": "01555",
-        "name": "Cat Burglar",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
     "tag": "heal_damage_ally",
-    "count": 4,
-    "usages": [
-      {
-        "code": "02105",
-        "name": "Emergency Aid",
-        "pack": "dwl"
-      },
-      {
-        "code": "03228",
-        "name": "Inspiring Presence",
-        "pack": "ptc"
-      },
-      {
-        "code": "03230",
-        "name": "First Aid",
-        "pack": "ptc"
-      },
-      {
-        "code": "01683",
-        "name": "First Aid",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "your_location_ally",
     "count": 4,
     "usages": [
       {
@@ -1124,32 +999,6 @@
     ]
   },
   {
-    "tag": "discover_clue_your_location_1",
-    "count": 4,
-    "usages": [
-      {
-        "code": "02149",
-        "name": "Art Student",
-        "pack": "dwl"
-      },
-      {
-        "code": "03037",
-        "name": "Gravedigger's Shovel",
-        "pack": "ptc"
-      },
-      {
-        "code": "01522",
-        "name": "Evidence!",
-        "pack": "rcore"
-      },
-      {
-        "code": "01537",
-        "name": "Working a Hunch",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
     "tag": "cancel_attack",
     "count": 4,
     "usages": [
@@ -1202,28 +1051,28 @@
     ]
   },
   {
-    "tag": "location_clue_exist",
+    "tag": "timing_fast_defeat_enemy",
     "count": 4,
     "usages": [
       {
-        "code": "02186",
-        "name": "Preposterous Sketches",
+        "code": "02225",
+        "name": "\"If it bleeds...\"",
         "pack": "dwl"
       },
       {
-        "code": "02227",
-        "name": "Inquiring Mind",
-        "pack": "dwl"
-      },
-      {
-        "code": "03024",
-        "name": "Fieldwork",
+        "code": "03016",
+        "name": "Bury Them Deep",
         "pack": "ptc"
       },
       {
-        "code": "01006",
-        "name": "Roland's .38 Special",
+        "code": "01522",
+        "name": "Evidence!",
         "pack": "rcore"
+      },
+      {
+        "code": "04026",
+        "name": "Decorated Skull",
+        "pack": "tfa"
       }
     ]
   },
@@ -1250,32 +1099,6 @@
         "code": "04104",
         "name": "Marksmanship",
         "pack": "tfa"
-      }
-    ]
-  },
-  {
-    "tag": "succeed_by",
-    "count": 4,
-    "usages": [
-      {
-        "code": "02228",
-        "name": "Expose Weakness",
-        "pack": "dwl"
-      },
-      {
-        "code": "03032",
-        "name": "Alchemical Transmutation",
-        "pack": "ptc"
-      },
-      {
-        "code": "03192",
-        "name": "Archaic Glyphs",
-        "pack": "ptc"
-      },
-      {
-        "code": "01529",
-        "name": "Shotgun",
-        "pack": "rcore"
       }
     ]
   },
@@ -1410,7 +1233,7 @@
     ]
   },
   {
-    "tag": "cancel_damage",
+    "tag": "timing_fast_dealt_damage",
     "count": 4,
     "usages": [
       {
@@ -1424,19 +1247,19 @@
         "pack": "ptc"
       },
       {
-        "code": "03305",
-        "name": "Armor of Ardennes",
-        "pack": "ptc"
-      },
-      {
         "code": "01684",
         "name": "\"I've had worse…\"",
         "pack": "rcore"
+      },
+      {
+        "code": "04111",
+        "name": "Perseverance",
+        "pack": "tfa"
       }
     ]
   },
   {
-    "tag": "gain_resource",
+    "tag": "timing_fast_dealt_horror",
     "count": 4,
     "usages": [
       {
@@ -1445,19 +1268,45 @@
         "pack": "dwl"
       },
       {
-        "code": "03112",
-        "name": "David Renfield",
+        "code": "03157",
+        "name": "Devil's Luck",
         "pack": "ptc"
-      },
-      {
-        "code": "01557",
-        "name": "Hot Streak",
-        "pack": "rcore"
       },
       {
         "code": "01684",
         "name": "\"I've had worse…\"",
         "pack": "rcore"
+      },
+      {
+        "code": "04111",
+        "name": "Perseverance",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "cancel_horror",
+    "count": 4,
+    "usages": [
+      {
+        "code": "02261",
+        "name": "\"I've had worse…\"",
+        "pack": "dwl"
+      },
+      {
+        "code": "03157",
+        "name": "Devil's Luck",
+        "pack": "ptc"
+      },
+      {
+        "code": "01684",
+        "name": "\"I've had worse…\"",
+        "pack": "rcore"
+      },
+      {
+        "code": "04111",
+        "name": "Perseverance",
+        "pack": "tfa"
       }
     ]
   },
@@ -1862,6 +1711,32 @@
     ]
   },
   {
+    "tag": "your_location_another_investigator",
+    "count": 4,
+    "usages": [
+      {
+        "code": "03106",
+        "name": "Heroic Rescue",
+        "pack": "ptc"
+      },
+      {
+        "code": "03149",
+        "name": "Charles Ross, Esq.",
+        "pack": "ptc"
+      },
+      {
+        "code": "03265",
+        "name": "Guidance",
+        "pack": "ptc"
+      },
+      {
+        "code": "04231",
+        "name": "Ancient Stone",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
     "tag": "current_sanity_less",
     "count": 4,
     "usages": [
@@ -1914,6 +1789,32 @@
     ]
   },
   {
+    "tag": "uses_add_charge",
+    "count": 4,
+    "usages": [
+      {
+        "code": "03154",
+        "name": "Book of Shadows",
+        "pack": "ptc"
+      },
+      {
+        "code": "03197",
+        "name": "Recharge",
+        "pack": "ptc"
+      },
+      {
+        "code": "01570",
+        "name": "Book of Shadows",
+        "pack": "rcore"
+      },
+      {
+        "code": "04157",
+        "name": "Enraptured",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
     "tag": "auto_evade",
     "count": 4,
     "usages": [
@@ -1936,6 +1837,110 @@
         "code": "01578",
         "name": "Cunning Distraction",
         "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "chaos_reveal_more",
+    "count": 4,
+    "usages": [
+      {
+        "code": "03304",
+        "name": "\"Eat lead!\"",
+        "pack": "ptc"
+      },
+      {
+        "code": "01571",
+        "name": "Grotesque Statue",
+        "pack": "rcore"
+      },
+      {
+        "code": "04197",
+        "name": "Olive McBride",
+        "pack": "tfa"
+      },
+      {
+        "code": "04202",
+        "name": "Against All Odds",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "play_from_discard_paying_cost",
+    "count": 4,
+    "usages": [
+      {
+        "code": "03306",
+        "name": "Eidetic Memory",
+        "pack": "ptc"
+      },
+      {
+        "code": "04033",
+        "name": "Improvised Weapon",
+        "pack": "tfa"
+      },
+      {
+        "code": "04272",
+        "name": "Winging It",
+        "pack": "tfa"
+      },
+      {
+        "code": "04312",
+        "name": "Impromptu Barrier",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "discover_clue_your_location_2",
+    "count": 4,
+    "usages": [
+      {
+        "code": "01564",
+        "name": "Drawn to the Flame",
+        "pack": "rcore"
+      },
+      {
+        "code": "01579",
+        "name": "\"Look what I found!\"",
+        "pack": "rcore"
+      },
+      {
+        "code": "04027",
+        "name": "Eavesdrop",
+        "pack": "tfa"
+      },
+      {
+        "code": "04103",
+        "name": "Scene of the Crime",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "skill_icons",
+    "count": 4,
+    "usages": [
+      {
+        "code": "04035",
+        "name": "Yaotl",
+        "pack": "tfa"
+      },
+      {
+        "code": "04036",
+        "name": "Last Chance",
+        "pack": "tfa"
+      },
+      {
+        "code": "04150",
+        "name": "Take the Initiative",
+        "pack": "tfa"
+      },
+      {
+        "code": "04151",
+        "name": "Well Prepared",
+        "pack": "tfa"
       }
     ]
   },
