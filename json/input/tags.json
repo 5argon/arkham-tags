@@ -1,5 +1,9 @@
 [
   {
+    "name": "actions_taken_dependent",
+    "description": ""
+  },
+  {
     "name": "additional_action_1",
     "description": "Use when a card let you take additional action. Not when it let you immediately take action."
   },
@@ -22,6 +26,10 @@
   {
     "name": "additional_clue_2",
     "description": "Use for exactly additional clue from the location you are investigating, not when it gets more from other locations."
+  },
+  {
+    "name": "additional_evade",
+    "description": ""
   },
   {
     "name": "additional_slot",
@@ -80,6 +88,10 @@
     "description": ""
   },
   {
+    "name": "attach_asset",
+    "description": ""
+  },
+  {
     "name": "attach_enemy",
     "description": ""
   },
@@ -132,6 +144,10 @@
     "description": ""
   },
   {
+    "name": "boost_agility_1_evade",
+    "description": ""
+  },
+  {
     "name": "boost_agility_1_passive",
     "description": "Passive boost can be conditioned such as The Black Fan or Dissection Tool."
   },
@@ -149,6 +165,10 @@
   },
   {
     "name": "boost_agility_x",
+    "description": ""
+  },
+  {
+    "name": "boost_any",
     "description": ""
   },
   {
@@ -228,6 +248,10 @@
     "description": ""
   },
   {
+    "name": "boost_intellect_2_passive",
+    "description": ""
+  },
+  {
     "name": "boost_intellect_3",
     "description": ""
   },
@@ -268,11 +292,19 @@
     "description": ""
   },
   {
+    "name": "boost_willpower_2_passive",
+    "description": ""
+  },
+  {
     "name": "boost_willpower_3",
     "description": ""
   },
   {
     "name": "boost_willpower_3_attack",
+    "description": ""
+  },
+  {
+    "name": "boost_willpower_3_evade",
     "description": ""
   },
   {
@@ -400,6 +432,38 @@
     "description": ""
   },
   {
+    "name": "chaos_seal_token_0",
+    "description": ""
+  },
+  {
+    "name": "chaos_seal_token_any",
+    "description": ""
+  },
+  {
+    "name": "chaos_seal_token_auto_fail",
+    "description": ""
+  },
+  {
+    "name": "chaos_seal_token_cultist",
+    "description": ""
+  },
+  {
+    "name": "chaos_seal_token_elder_sign",
+    "description": ""
+  },
+  {
+    "name": "chaos_seal_token_elder_thing",
+    "description": ""
+  },
+  {
+    "name": "chaos_seal_token_skull",
+    "description": ""
+  },
+  {
+    "name": "chaos_seal_token_tablet",
+    "description": ""
+  },
+  {
     "name": "chaos_treat_as_elder_sign",
     "description": ""
   },
@@ -457,6 +521,10 @@
   },
   {
     "name": "cost_action_spend_supply",
+    "description": ""
+  },
+  {
+    "name": "cost_damage_self",
     "description": ""
   },
   {
@@ -552,6 +620,10 @@
     "description": ""
   },
   {
+    "name": "damage_plus_x",
+    "description": ""
+  },
+  {
     "name": "damage_token_manipulation",
     "description": ""
   },
@@ -566,6 +638,10 @@
   {
     "name": "deck_restriction",
     "description": "Indicates the card can only be used in a specific investigator's deck."
+  },
+  {
+    "name": "difficulty_check_higher",
+    "description": ""
   },
   {
     "name": "difficulty_check_higher_2",
@@ -748,6 +824,10 @@
     "description": ""
   },
   {
+    "name": "enemy_does_not_ready",
+    "description": ""
+  },
+  {
     "name": "enemy_manage_defeat",
     "description": ""
   },
@@ -772,7 +852,15 @@
     "description": ""
   },
   {
+    "name": "enemy_value_evade_reduction",
+    "description": ""
+  },
+  {
     "name": "enemy_value_fight",
+    "description": ""
+  },
+  {
+    "name": "enemy_value_fight_reduction",
     "description": ""
   },
   {
@@ -922,6 +1010,14 @@
   {
     "name": "heal_horror_soak",
     "description": "Could renew itself, cannot heal others."
+  },
+  {
+    "name": "ignore_aloof",
+    "description": ""
+  },
+  {
+    "name": "ignore_retaliate",
+    "description": ""
   },
   {
     "name": "immediately_play",
@@ -1076,6 +1172,10 @@
     "description": "Max twice per game."
   },
   {
+    "name": "move_clue",
+    "description": ""
+  },
+  {
     "name": "move_enemy_control",
     "description": "Alters enemy course of movement."
   },
@@ -1145,6 +1245,14 @@
   },
   {
     "name": "redirect_damage",
+    "description": ""
+  },
+  {
+    "name": "reduce_cost",
+    "description": ""
+  },
+  {
+    "name": "reduce_resource_cost",
     "description": ""
   },
   {
@@ -1264,6 +1372,10 @@
     "description": "Skill card gains additional commit icons in its effect."
   },
   {
+    "name": "skill_icons",
+    "description": ""
+  },
+  {
     "name": "soak_benefit_damage",
     "description": "Something happen when you soak using the damage side of that card."
   },
@@ -1380,6 +1492,10 @@
     "description": "Use this stat instead of something else."
   },
   {
+    "name": "stat_use_combat",
+    "description": ""
+  },
+  {
     "name": "stat_use_intellect",
     "description": "Use this stat instead of something else."
   },
@@ -1444,6 +1560,10 @@
     "description": "Card works in general way with any card of type asset. (Card such as Extra Ammunition doesn't count as it is trait locked.)"
   },
   {
+    "name": "target_any_card",
+    "description": ""
+  },
+  {
     "name": "target_any_event",
     "description": "Card works in general way with any card of type event."
   },
@@ -1481,6 +1601,10 @@
   },
   {
     "name": "timing_fast_after_fail",
+    "description": ""
+  },
+  {
+    "name": "timing_fast_after_location_revealed",
     "description": ""
   },
   {
@@ -1608,6 +1732,10 @@
     "description": ""
   },
   {
+    "name": "timing_reaction_after_skill_test_begins",
+    "description": ""
+  },
+  {
     "name": "timing_reaction_after_test_fail",
     "description": ""
   },
@@ -1636,6 +1764,10 @@
     "description": ""
   },
   {
+    "name": "timing_reaction_draw_player",
+    "description": ""
+  },
+  {
     "name": "timing_reaction_enemy_deal_damage",
     "description": ""
   },
@@ -1657,6 +1789,14 @@
   },
   {
     "name": "timing_reaction_when_discover_clue",
+    "description": ""
+  },
+  {
+    "name": "timing_reaction_when_play",
+    "description": ""
+  },
+  {
+    "name": "timing_reaction_when_revelation",
     "description": ""
   },
   {
@@ -1897,6 +2037,10 @@
   },
   {
     "name": "uses_add_charge",
+    "description": ""
+  },
+  {
+    "name": "uses_add_secret",
     "description": ""
   },
   {

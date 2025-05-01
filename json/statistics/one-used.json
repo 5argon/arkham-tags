@@ -286,17 +286,6 @@
     ]
   },
   {
-    "tag": "boost_willpower_2_attack",
-    "count": 1,
-    "usages": [
-      {
-        "code": "02154",
-        "name": "Shrivelling",
-        "pack": "dwl"
-      }
-    ]
-  },
-  {
     "tag": "hand_check_more",
     "count": 1,
     "usages": [
@@ -341,17 +330,6 @@
     ]
   },
   {
-    "tag": "limit_per_test_1",
-    "count": 1,
-    "usages": [
-      {
-        "code": "02191",
-        "name": "Blood Pact",
-        "pack": "dwl"
-      }
-    ]
-  },
-  {
     "tag": "difficulty_check_higher_2",
     "count": 1,
     "usages": [
@@ -363,29 +341,7 @@
     ]
   },
   {
-    "tag": "enemy_value_horror",
-    "count": 1,
-    "usages": [
-      {
-        "code": "02225",
-        "name": "\"If it bleeds...\"",
-        "pack": "dwl"
-      }
-    ]
-  },
-  {
     "tag": "difficulty_decrease_fight",
-    "count": 1,
-    "usages": [
-      {
-        "code": "02228",
-        "name": "Expose Weakness",
-        "pack": "dwl"
-      }
-    ]
-  },
-  {
-    "tag": "enemy_value_fight",
     "count": 1,
     "usages": [
       {
@@ -419,17 +375,6 @@
   },
   {
     "tag": "chaos_reveal_another_instead",
-    "count": 1,
-    "usages": [
-      {
-        "code": "02230",
-        "name": "Lucky Dice",
-        "pack": "dwl"
-      }
-    ]
-  },
-  {
-    "tag": "cost_reaction_spend_resource",
     "count": 1,
     "usages": [
       {
@@ -517,34 +462,12 @@
     ]
   },
   {
-    "tag": "additional_action_3",
-    "count": 1,
-    "usages": [
-      {
-        "code": "02266",
-        "name": "Ace in the Hole",
-        "pack": "dwl"
-      }
-    ]
-  },
-  {
     "tag": "doom_remove",
     "count": 1,
     "usages": [
       {
         "code": "02267",
         "name": "Moonlight Ritual",
-        "pack": "dwl"
-      }
-    ]
-  },
-  {
-    "tag": "your_location_skill_test",
-    "count": 1,
-    "usages": [
-      {
-        "code": "02269",
-        "name": "Jewel of Aureolus",
         "pack": "dwl"
       }
     ]
@@ -617,17 +540,6 @@
   },
   {
     "tag": "remote_discover_clue",
-    "count": 1,
-    "usages": [
-      {
-        "code": "02303",
-        "name": "Deciphered Reality",
-        "pack": "dwl"
-      }
-    ]
-  },
-  {
-    "tag": "shroud_dependent",
     "count": 1,
     "usages": [
       {
@@ -803,497 +715,90 @@
     ]
   },
   {
-    "tag": "uses_type_bounties",
+    "tag": "boost_intellect_6",
     "count": 1,
     "usages": [
       {
-        "code": "06010",
-        "name": "Bounty Contracts",
-        "pack": "tde"
+        "code": "10058",
+        "name": "Microscope",
+        "pack": "fhv"
       }
     ]
   },
   {
-    "tag": "max_per_game_2",
+    "tag": "uses_starting_10",
     "count": 1,
     "usages": [
       {
-        "code": "06027",
-        "name": "Stargazing",
-        "pack": "tde"
+        "code": "10062",
+        "name": "Bianca \"Die Katz\"",
+        "pack": "fhv"
       }
     ]
   },
   {
-    "tag": "boost_intellect_5",
+    "tag": "initiate_test_agility_0",
     "count": 1,
     "usages": [
       {
-        "code": "06114",
-        "name": "Followed",
-        "pack": "tde"
+        "code": "10071",
+        "name": "Grift",
+        "pack": "fhv"
       }
     ]
   },
   {
-    "tag": "trait_practiced",
+    "tag": "trait_blessed",
     "count": 1,
     "usages": [
       {
-        "code": "06197",
-        "name": "Practice Makes Perfect",
-        "pack": "tde"
+        "code": "10132",
+        "name": "Occult Reliquary",
+        "pack": "fhv"
       }
     ]
   },
   {
-    "tag": "initiate_test_combat_1",
+    "tag": "trait_cursed",
     "count": 1,
     "usages": [
       {
-        "code": "09026",
-        "name": "Breach the Door",
-        "pack": "tsk"
+        "code": "10132",
+        "name": "Occult Reliquary",
+        "pack": "fhv"
       }
     ]
   },
   {
-    "tag": "uses_type_evidence",
+    "tag": "stat_add_intellect",
     "count": 1,
     "usages": [
       {
-        "code": "09059",
-        "name": "Damning Testimony",
-        "pack": "tsk"
+        "code": "60226",
+        "name": "Mind over Matter",
+        "pack": "har"
       }
     ]
   },
   {
-    "tag": "trait_clothing",
+    "tag": "trait_miskatonic",
     "count": 1,
     "usages": [
       {
-        "code": "09065",
-        "name": "Hidden Pocket",
-        "pack": "tsk"
+        "code": "60232",
+        "name": "Miskatonic Archaeology Funding",
+        "pack": "har"
       }
     ]
   },
   {
-    "tag": "uses_type_time",
+    "tag": "trait_geist",
     "count": 1,
     "usages": [
       {
-        "code": "09100",
-        "name": "Makeshift Trap",
-        "pack": "tsk"
-      }
-    ]
-  },
-  {
-    "tag": "uses_type_aether",
-    "count": 1,
-    "usages": [
-      {
-        "code": "09119",
-        "name": "Hyperphysical Shotcaster",
-        "pack": "tsk"
-      }
-    ]
-  },
-  {
-    "tag": "enemy_cannot_attack",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01010",
-        "name": "On the Lam",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "timing_reaction_after_play",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01014",
-        "name": "Wendy's Amulet",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "to_deck_from_play",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01014",
-        "name": "Wendy's Amulet",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "timing_reaction_enemy_deal_damage",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01521",
-        "name": "Guard Dog",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "connecting_location_enemy",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01524",
-        "name": "Dynamite Blast",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "timing_fast_taking_turn",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01527",
-        "name": "Police Badge",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "additional_action_2",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01527",
-        "name": "Police Badge",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "cost_free_damage_self",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01528",
-        "name": "Beat Cop",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "damage_plus_4",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01529",
-        "name": "Shotgun",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "fail_by",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01529",
-        "name": "Shotgun",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "location_clue_zero",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01540",
-        "name": "Magnifying Glass",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "cost_reaction_discard_self",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01541",
-        "name": "Disc of Itzamna",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "enemy_manage_discard",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01541",
-        "name": "Disc of Itzamna",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "timing_reaction_spawn_your_location",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01541",
-        "name": "Disc of Itzamna",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "instead_of_clue",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01545",
-        "name": "Burglary",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "timing_reaction_after_evade",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01546",
-        "name": "Pickpocketing",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "stat_use_agility",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01551",
-        "name": "Backstab",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "timing_fast_chaos_reveal_after",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01556",
-        "name": "Sure Gamble",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "uses_manip_secret_to_resource",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01558",
-        "name": "Forbidden Knowledge",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "additional_slot_arcane",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01570",
-        "name": "Book of Shadows",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "trait_spell_asset",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01570",
-        "name": "Book of Shadows",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "timing_reaction_chaos_reveal_would",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01571",
-        "name": "Grotesque Statue",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "timing_reaction_after_investigate_success",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01573",
-        "name": "Scavenging",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "timing_fast_after_fail",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01579",
-        "name": "\"Look what I found!\"",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "enemy_manage_shuffle",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01583",
-        "name": "Close Call",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "discover_clue_connecting_location",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01685",
-        "name": "Seeking Answers",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "discover_clue_your_location",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01685",
-        "name": "Seeking Answers",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "discount_2",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01686",
-        "name": "Old Book of Lore",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "immediately_play",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01686",
-        "name": "Old Book of Lore",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "spend_secret",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01686",
-        "name": "Old Book of Lore",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "timing_fast_chaos_reveal_when",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01692",
-        "name": "Eucatastrophe",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "cancel_chaos",
-    "count": 1,
-    "usages": [
-      {
-        "code": "01692",
-        "name": "Eucatastrophe",
-        "pack": "rcore"
-      }
-    ]
-  },
-  {
-    "tag": "initiate_test_intellect_3",
-    "count": 1,
-    "usages": [
-      {
-        "code": "04105",
-        "name": "Persuasion",
-        "pack": "tfa"
-      }
-    ]
-  },
-  {
-    "tag": "uses_type_tries",
-    "count": 1,
-    "usages": [
-      {
-        "code": "04159",
-        "name": "Try and Try Again",
-        "pack": "tfa"
-      }
-    ]
-  },
-  {
-    "tag": "uses_starting_8",
-    "count": 1,
-    "usages": [
-      {
-        "code": "04229",
-        "name": "M1918 BAR",
-        "pack": "tfa"
-      }
-    ]
-  },
-  {
-    "tag": "uses_starting_7",
-    "count": 1,
-    "usages": [
-      {
-        "code": "04311",
-        "name": "Seal of the Seventh Sign",
-        "pack": "tfa"
+        "code": "90052",
+        "name": "The Beyond",
+        "pack": "par"
       }
     ]
   },
@@ -1353,12 +858,78 @@
     ]
   },
   {
+    "tag": "encounter_revelation",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03022",
+        "name": "\"Let me handle this!\"",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "tank_encounter",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03022",
+        "name": "\"Let me handle this!\"",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "target_any_asset",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03023",
+        "name": "Ever Vigilant",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "duration_next_skill_test_this_phase",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03024",
+        "name": "Fieldwork",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "timing_reaction_after_move",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03024",
+        "name": "Fieldwork",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
     "tag": "cost_action_discard_from_hand",
     "count": 1,
     "usages": [
       {
         "code": "03025",
         "name": "Archaic Glyphs",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "card_range_6",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03026",
+        "name": "No Stone Unturned",
         "pack": "ptc"
       }
     ]
@@ -1430,23 +1001,67 @@
     ]
   },
   {
-    "tag": "to_play_from_hand",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03029",
-        "name": "Sleight of Hand",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
     "tag": "timing_fast_when_would_succeed",
     "count": 1,
     "usages": [
       {
         "code": "03030",
         "name": "Daring Maneuver",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "timing_fast_during_skill_test",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03035",
+        "name": "Spirit Athame",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "investigate_asset_unlimited",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03036",
+        "name": "Lantern",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "at_end_of_enemy_phase",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03038",
+        "name": "Hiding Spot",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "gain_aloof",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03038",
+        "name": "Hiding Spot",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "ready_enemy",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03038",
+        "name": "Hiding Spot",
         "pack": "ptc"
       }
     ]
@@ -1469,127 +1084,6 @@
       {
         "code": "03106",
         "name": "Heroic Rescue",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "timing_forced_spawn_your_location",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03148",
-        "name": "Ambush",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "duration_next",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03149",
-        "name": "Charles Ross, Esq.",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "clue_drop",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03150",
-        "name": "Forewarned",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "boost_agility_x",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03155",
-        "name": "Fight or Flight",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "current_horror_more",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03155",
-        "name": "Fight or Flight",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "encounter_revelation",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03022",
-        "name": "\"Let me handle this!\"",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "tank_encounter",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03022",
-        "name": "\"Let me handle this!\"",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "retaliate_ignore",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03190",
-        "name": ".45 Automatic",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "card_range_6",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03026",
-        "name": "No Stone Unturned",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "investigate_asset_unlimited",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03036",
-        "name": "Lantern",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "shroud_minus_1",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03036",
-        "name": "Lantern",
         "pack": "ptc"
       }
     ]
@@ -1628,6 +1122,116 @@
     ]
   },
   {
+    "tag": "gain_retaliate",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03110",
+        "name": "Knuckleduster",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "doom_check",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03112",
+        "name": "David Renfield",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "timing_forced_spawn_your_location",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03148",
+        "name": "Ambush",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "duration_next",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03149",
+        "name": "Charles Ross, Esq.",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "boost_agility_x",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03155",
+        "name": "Fight or Flight",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "current_horror_more",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03155",
+        "name": "Fight or Flight",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "discount_x",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03158",
+        "name": "Calling in Favors",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "retaliate_ignore",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03190",
+        "name": ".45 Automatic",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "to_deck_from_discard",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03196",
+        "name": "Quantum Flux",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "hand_check_less",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03198",
+        "name": "Madame Labranche",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
     "tag": "enemy_manage_long_exhaust",
     "count": 1,
     "usages": [
@@ -1661,23 +1265,23 @@
     ]
   },
   {
-    "tag": "play_only_first_action",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03229",
-        "name": "Mano a Mano",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
     "tag": "ready_asset",
     "count": 1,
     "usages": [
       {
         "code": "03228",
         "name": "Inspiring Presence",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "play_only_first_action",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03229",
+        "name": "Mano a Mano",
         "pack": "ptc"
       }
     ]
@@ -1700,28 +1304,6 @@
       {
         "code": "03235",
         "name": "Torrent of Power",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "hand_check_less",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03198",
-        "name": "Madame Labranche",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "enemy_value_evade",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03237",
-        "name": "Waylay",
         "pack": "ptc"
       }
     ]
@@ -1755,226 +1337,6 @@
       {
         "code": "03263",
         "name": "On the Hunt",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "duration_next_skill_test_this_phase",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03024",
-        "name": "Fieldwork",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "timing_reaction_after_move",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03024",
-        "name": "Fieldwork",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "target_any_asset",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03023",
-        "name": "Ever Vigilant",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "timing_fast_during_skill_test",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03035",
-        "name": "Spirit Athame",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "to_deck_from_discard",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03196",
-        "name": "Quantum Flux",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "discard_treachery",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03191",
-        "name": "Logical Reasoning",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "timing_fast_enemy_aoo",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03267",
-        "name": "Narrow Escape",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "duration_next_skill_test_this_turn",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03267",
-        "name": "Narrow Escape",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "timing_fast_when_fight",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03304",
-        "name": "\"Eat lead!\"",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "timing_fast_defeated",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03310",
-        "name": "Cheat Death",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "entered_play_this_turn",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03309",
-        "name": "Lupara",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "boost_any_3",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03315",
-        "name": "Key of Ys",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "discard_deck",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03315",
-        "name": "Key of Ys",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "timing_forced_leaves_play",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03315",
-        "name": "Key of Ys",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "current_sanity",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03269",
-        "name": "St. Hubert's Key",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "timing_reaction_defeated_horror",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03269",
-        "name": "St. Hubert's Key",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "discount_x",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03158",
-        "name": "Calling in Favors",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "timing_fast_after_action",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03311",
-        "name": "Time Warp",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "timing_reaction_when_discover_clue",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03313",
-        "name": "Newspaper",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "play_from_discard_paying_cost",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03306",
-        "name": "Eidetic Memory",
         "pack": "ptc"
       }
     ]
@@ -2024,34 +1386,45 @@
     ]
   },
   {
-    "tag": "timing_fast_enemy_phase_begins",
+    "tag": "timing_fast_enemy_aoo",
     "count": 1,
     "usages": [
       {
-        "code": "03314",
-        "name": "Infighting",
+        "code": "03267",
+        "name": "Narrow Escape",
         "pack": "ptc"
       }
     ]
   },
   {
-    "tag": "doom_check",
+    "tag": "duration_next_skill_test_this_turn",
     "count": 1,
     "usages": [
       {
-        "code": "03112",
-        "name": "David Renfield",
+        "code": "03267",
+        "name": "Narrow Escape",
         "pack": "ptc"
       }
     ]
   },
   {
-    "tag": "timing_reaction_when_damage_assigned",
+    "tag": "current_sanity",
     "count": 1,
     "usages": [
       {
-        "code": "03305",
-        "name": "Armor of Ardennes",
+        "code": "03269",
+        "name": "St. Hubert's Key",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "timing_reaction_defeated_horror",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03269",
+        "name": "St. Hubert's Key",
         "pack": "ptc"
       }
     ]
@@ -2079,61 +1452,6 @@
     ]
   },
   {
-    "tag": "gain_retaliate",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03110",
-        "name": "Knuckleduster",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "cost_action_spend_resource",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03154",
-        "name": "Book of Shadows",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "at_end_of_enemy_phase",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03038",
-        "name": "Hiding Spot",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "gain_aloof",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03038",
-        "name": "Hiding Spot",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
-    "tag": "ready_enemy",
-    "count": 1,
-    "usages": [
-      {
-        "code": "03038",
-        "name": "Hiding Spot",
-        "pack": "ptc"
-      }
-    ]
-  },
-  {
     "tag": "trait_innate",
     "count": 1,
     "usages": [
@@ -2141,6 +1459,314 @@
         "code": "03273",
         "name": "True Survivor",
         "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "timing_fast_when_fight",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03304",
+        "name": "\"Eat lead!\"",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "timing_reaction_when_damage_assigned",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03305",
+        "name": "Armor of Ardennes",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "entered_play_this_turn",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03309",
+        "name": "Lupara",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "timing_fast_after_action",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03311",
+        "name": "Time Warp",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "timing_reaction_when_discover_clue",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03313",
+        "name": "Newspaper",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "timing_fast_enemy_phase_begins",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03314",
+        "name": "Infighting",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "timing_forced_leaves_play",
+    "count": 1,
+    "usages": [
+      {
+        "code": "03315",
+        "name": "Key of Ys",
+        "pack": "ptc"
+      }
+    ]
+  },
+  {
+    "tag": "enemy_cannot_attack",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01010",
+        "name": "On the Lam",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "to_deck_from_play",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01014",
+        "name": "Wendy's Amulet",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "timing_fast_taking_turn",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01527",
+        "name": "Police Badge",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "cost_free_damage_self",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01528",
+        "name": "Beat Cop",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "damage_plus_4",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01529",
+        "name": "Shotgun",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "fail_by",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01529",
+        "name": "Shotgun",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "location_clue_zero",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01540",
+        "name": "Magnifying Glass",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "enemy_manage_discard",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01541",
+        "name": "Disc of Itzamna",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "timing_reaction_spawn_your_location",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01541",
+        "name": "Disc of Itzamna",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "timing_reaction_after_evade",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01546",
+        "name": "Pickpocketing",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "timing_fast_chaos_reveal_after",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01556",
+        "name": "Sure Gamble",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "uses_manip_secret_to_resource",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01558",
+        "name": "Forbidden Knowledge",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "additional_slot_arcane",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01570",
+        "name": "Book of Shadows",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "trait_spell_asset",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01570",
+        "name": "Book of Shadows",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "timing_reaction_after_investigate_success",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01573",
+        "name": "Scavenging",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "timing_fast_after_fail",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01579",
+        "name": "\"Look what I found!\"",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "discover_clue_connecting_location",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01685",
+        "name": "Seeking Answers",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "discover_clue_your_location",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01685",
+        "name": "Seeking Answers",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "discount_2",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01686",
+        "name": "Old Book of Lore",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "immediately_play",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01686",
+        "name": "Old Book of Lore",
+        "pack": "rcore"
+      }
+    ]
+  },
+  {
+    "tag": "spend_secret",
+    "count": 1,
+    "usages": [
+      {
+        "code": "01686",
+        "name": "Old Book of Lore",
+        "pack": "rcore"
       }
     ]
   },
@@ -2178,90 +1804,420 @@
     ]
   },
   {
-    "tag": "stat_add_intellect",
+    "tag": "uses_type_bounties",
     "count": 1,
     "usages": [
       {
-        "code": "60226",
-        "name": "Mind over Matter",
-        "pack": "har"
+        "code": "06010",
+        "name": "Bounty Contracts",
+        "pack": "tde"
       }
     ]
   },
   {
-    "tag": "trait_miskatonic",
+    "tag": "max_per_game_2",
     "count": 1,
     "usages": [
       {
-        "code": "60232",
-        "name": "Miskatonic Archaeology Funding",
-        "pack": "har"
+        "code": "06027",
+        "name": "Stargazing",
+        "pack": "tde"
       }
     ]
   },
   {
-    "tag": "trait_geist",
+    "tag": "boost_intellect_5",
     "count": 1,
     "usages": [
       {
-        "code": "90052",
-        "name": "The Beyond",
-        "pack": "par"
+        "code": "06114",
+        "name": "Followed",
+        "pack": "tde"
       }
     ]
   },
   {
-    "tag": "boost_intellect_6",
+    "tag": "trait_practiced",
     "count": 1,
     "usages": [
       {
-        "code": "10058",
-        "name": "Microscope",
-        "pack": "fhv"
+        "code": "06197",
+        "name": "Practice Makes Perfect",
+        "pack": "tde"
       }
     ]
   },
   {
-    "tag": "uses_starting_10",
+    "tag": "ignore_aloof",
     "count": 1,
     "usages": [
       {
-        "code": "10062",
-        "name": "Bianca \"Die Katz\"",
-        "pack": "fhv"
+        "code": "04104",
+        "name": "Marksmanship",
+        "pack": "tfa"
       }
     ]
   },
   {
-    "tag": "initiate_test_agility_0",
+    "tag": "ignore_retaliate",
     "count": 1,
     "usages": [
       {
-        "code": "10071",
-        "name": "Grift",
-        "pack": "fhv"
+        "code": "04104",
+        "name": "Marksmanship",
+        "pack": "tfa"
       }
     ]
   },
   {
-    "tag": "trait_blessed",
+    "tag": "initiate_test_intellect_3",
     "count": 1,
     "usages": [
       {
-        "code": "10132",
-        "name": "Occult Reliquary",
-        "pack": "fhv"
+        "code": "04105",
+        "name": "Persuasion",
+        "pack": "tfa"
       }
     ]
   },
   {
-    "tag": "trait_cursed",
+    "tag": "reduce_resource_cost",
     "count": 1,
     "usages": [
       {
-        "code": "10132",
-        "name": "Occult Reliquary",
-        "pack": "fhv"
+        "code": "04108",
+        "name": "Fence",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "uses_add_secret",
+    "count": 1,
+    "usages": [
+      {
+        "code": "04152",
+        "name": "Truth from Fiction",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "timing_reaction_after_skill_test_begins",
+    "count": 1,
+    "usages": [
+      {
+        "code": "04158",
+        "name": "Recall the Future",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "uses_type_tries",
+    "count": 1,
+    "usages": [
+      {
+        "code": "04159",
+        "name": "Try and Try Again",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "chaos_seal_token_any",
+    "count": 1,
+    "usages": [
+      {
+        "code": "04199",
+        "name": "Premonition",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "difficulty_check_higher",
+    "count": 1,
+    "usages": [
+      {
+        "code": "04202",
+        "name": "Against All Odds",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "boost_agility_1_evade",
+    "count": 1,
+    "usages": [
+      {
+        "code": "04203",
+        "name": "Trench Coat",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "uses_starting_8",
+    "count": 1,
+    "usages": [
+      {
+        "code": "04229",
+        "name": "M1918 BAR",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "damage_plus_x",
+    "count": 1,
+    "usages": [
+      {
+        "code": "04229",
+        "name": "M1918 BAR",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "target_any_card",
+    "count": 1,
+    "usages": [
+      {
+        "code": "04231",
+        "name": "Ancient Stone",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "actions_taken_dependent",
+    "count": 1,
+    "usages": [
+      {
+        "code": "04233",
+        "name": "Pay Day",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "reduce_cost",
+    "count": 1,
+    "usages": [
+      {
+        "code": "04236",
+        "name": "On Your Own",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "timing_reaction_when_play",
+    "count": 1,
+    "usages": [
+      {
+        "code": "04236",
+        "name": "On Your Own",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "stat_use_combat",
+    "count": 1,
+    "usages": [
+      {
+        "code": "04265",
+        "name": "Handcuffs",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "cost_damage_self",
+    "count": 1,
+    "usages": [
+      {
+        "code": "04266",
+        "name": "Blood Eclipse",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "boost_willpower_3_evade",
+    "count": 1,
+    "usages": [
+      {
+        "code": "04271",
+        "name": "Mists of R'lyeh",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "boost_intellect_2_passive",
+    "count": 1,
+    "usages": [
+      {
+        "code": "04275",
+        "name": "Hemispheric Map",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "boost_willpower_2_passive",
+    "count": 1,
+    "usages": [
+      {
+        "code": "04275",
+        "name": "Hemispheric Map",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "timing_fast_after_location_revealed",
+    "count": 1,
+    "usages": [
+      {
+        "code": "04306",
+        "name": "Vantage Point",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "move_clue",
+    "count": 1,
+    "usages": [
+      {
+        "code": "04306",
+        "name": "Vantage Point",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "timing_reaction_when_revelation",
+    "count": 1,
+    "usages": [
+      {
+        "code": "04307",
+        "name": "Pnakotic Manuscripts",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "chaos_seal_token_0",
+    "count": 1,
+    "usages": [
+      {
+        "code": "04310",
+        "name": "Shards of the Void",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "uses_starting_7",
+    "count": 1,
+    "usages": [
+      {
+        "code": "04311",
+        "name": "Seal of the Seventh Sign",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "chaos_seal_token_auto_fail",
+    "count": 1,
+    "usages": [
+      {
+        "code": "04311",
+        "name": "Seal of the Seventh Sign",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "additional_evade",
+    "count": 1,
+    "usages": [
+      {
+        "code": "04312",
+        "name": "Impromptu Barrier",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "enemy_value_evade_reduction",
+    "count": 1,
+    "usages": [
+      {
+        "code": "04312",
+        "name": "Impromptu Barrier",
+        "pack": "tfa"
+      }
+    ]
+  },
+  {
+    "tag": "initiate_test_combat_1",
+    "count": 1,
+    "usages": [
+      {
+        "code": "09026",
+        "name": "Breach the Door",
+        "pack": "tsk"
+      }
+    ]
+  },
+  {
+    "tag": "uses_type_evidence",
+    "count": 1,
+    "usages": [
+      {
+        "code": "09059",
+        "name": "Damning Testimony",
+        "pack": "tsk"
+      }
+    ]
+  },
+  {
+    "tag": "trait_clothing",
+    "count": 1,
+    "usages": [
+      {
+        "code": "09065",
+        "name": "Hidden Pocket",
+        "pack": "tsk"
+      }
+    ]
+  },
+  {
+    "tag": "uses_type_time",
+    "count": 1,
+    "usages": [
+      {
+        "code": "09100",
+        "name": "Makeshift Trap",
+        "pack": "tsk"
+      }
+    ]
+  },
+  {
+    "tag": "uses_type_aether",
+    "count": 1,
+    "usages": [
+      {
+        "code": "09119",
+        "name": "Hyperphysical Shotcaster",
+        "pack": "tsk"
       }
     ]
   }
